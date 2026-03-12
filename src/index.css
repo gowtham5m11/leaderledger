@@ -450,3 +450,40 @@ h1, h2, h3, h4, h5, h6 {
 .micro-anim:hover {
   transform: scale(1.02);
 }
+
+/* Candidate Full Page Layout */
+.candidate-full-page {
+  animation: fadeIn 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.back-btn {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  background-color: white;
+  border: 1px solid var(--divider);
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.back-btn:hover {
+  background-color: #f0f0f0;
+  transform: translateX(-2px);
+}
+
+.full-page-card {
+  width: 100%;
+  max-width: 900px;
+}

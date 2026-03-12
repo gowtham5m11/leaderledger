@@ -1,39 +1,19 @@
 import React, { useState } from 'react';
 import { mockCandidates, mockNews } from '../data/mockData';
-import { User } from 'lucide-react';
+import { User, ArrowLeft } from 'lucide-react';
 
 const CandidateView = () => {
-  const [selectedCandidate, setSelectedCandidate] = useState(mockCandidates[0]);
+  const [selectedCandidate, setSelectedCandidate] = useState(null);
 
-  return (
-    <div className="candidate-layout">
-      
-      {/* Search and List */}
-      <div className="candidate-list">
-        {mockCandidates.map((cand) => (
-          <div 
-            key={cand.id} 
-            className={`candidate-card-sm ${selectedCandidate?.id === cand.id ? 'selected' : ''}`}
-            onClick={() => setSelectedCandidate(cand)}
-          >
-            <div className="cand-img-placeholder">
-              {cand.image ? <img src={cand.image} alt={cand.name} /> : <User size={40} color="#666" />}
-            </div>
-            
-            <div className="cand-info-sm">
-              <h3>{cand.name}</h3>
-              <div className="cand-roles">
-                <span>{cand.role}</span>
-                <span>{cand.ministry}</span>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Selected Candidate Detailed Profile */}
-      {selectedCandidate && (
-        <div className="profile-card">
+  if (selectedCandidate) {
+    return (
+      <div className="candidate-full-page">
+        <button className="back-btn" onClick={() => setSelectedCandidate(null)}>
+          <ArrowLeft size={18} />
+          Back to Candidates List
+        </button>
+        
+        <div className="profile-card full-page-card">
           <div className="profile-header">
             <img src={selectedCandidate.image} alt={selectedCandidate.name} className="profile-img" />
             <div className="profile-title">
@@ -92,7 +72,34 @@ const CandidateView = () => {
             </div>
           </div>
         </div>
-      )}
+      </div>
+    );
+  }
+
+  return (
+    <div className="candidate-layout">
+      <div className="candidate-list">
+        <h2>Assembly Candidates</h2>
+        {mockCandidates.map((cand) => (
+          <div 
+            key={cand.id} 
+            className="candidate-card-sm list-only-card"
+            onClick={() => setSelectedCandidate(cand)}
+          >
+            <div className="cand-img-placeholder">
+              {cand.image ? <img src={cand.image} alt={cand.name} /> : <User size={40} color="#666" />}
+            </div>
+            
+            <div className="cand-info-sm">
+              <h3>{cand.name}</h3>
+              <div className="cand-roles">
+                <span>{cand.role}</span>
+                <span>{cand.ministry}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
