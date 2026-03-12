@@ -13,7 +13,7 @@ const DistrictView = () => {
 
   return (
     <div className="district-layout" onMouseMove={handleMouseMove}>
-      <div>
+      <div style={{ width: '100%', height: '100%' }}>
         <MapChart 
           setTooltipContent={setTooltipData} 
           onDistrictClick={setSelectedDistrict}
@@ -88,8 +88,10 @@ const DistrictView = () => {
             </div>
           </div>
         ) : (
-          <div className="details-panel" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '400px', backgroundColor: 'transparent', boxShadow: 'none' }}>
-            <p style={{ color: '#888', fontSize: '1.2rem' }}>Hover over the map & click a district to view details</p>
+          <div className="details-panel empty-state">
+            <p style={{ color: '#888', fontSize: '1.2rem', textAlign: 'center', margin: 0 }}>
+              Hover & click a district<br/>to view details
+            </p>
           </div>
         )}
       </div>
