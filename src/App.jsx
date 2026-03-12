@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="app-container">
       <Header viewMode={viewMode} toggleView={toggleView} />
-      <main className="main-content">
+      <main className={`main-content ${viewMode === 'district' ? 'map-full-screen' : ''}`}>
         {viewMode === 'district' ? <DistrictView /> : <CandidateView />}
       </main>
     </div>
