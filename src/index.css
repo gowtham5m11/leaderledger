@@ -207,14 +207,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* District Details Panel */
 .details-panel-container {
-  position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
   width: 400px;
   max-width: 90vw;
   max-height: calc(100vh - 100px);
   z-index: 10;
   pointer-events: none;
+  padding: 1.5rem;
+  flex-shrink: 0;
 }
 
 .details-panel {

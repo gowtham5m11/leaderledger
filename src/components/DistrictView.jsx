@@ -2,45 +2,55 @@ import React, { useState } from 'react';
 import MapChart from './MapChart';
 import { mockNews, getDistrictData } from '../data/mockData';
 
+const MapTooltip = ({ data }) => {
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+
+  React.useEffect(() => {
+    const handleMouseMove = (e) => setMousePos({ x: e.clientX, y: e.clientY });
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
+  if (!data) return null;
+
+  return (
+    <div 
+      className="district-tooltip"
+      style={{ 
+        top: mousePos.y + 15, 
+        left: mousePos.x + 15,
+        position: 'fixed',
+        zIndex: 1000,
+        pointerEvents: 'none'
+      }}
+    >
+      <img src={data.image} alt={data.currentMla} className="tooltip-img" />
+      <div className="tooltip-info">
+        <h4>{data.name}</h4>
+        <p>{data.currentMla}</p>
+        <span 
+          className="party-badge" 
+          style={{ backgroundColor: data.party === 'TDP' ? '#fce903' : data.party === 'YSRCP' ? '#00249c' : '#e63946', color: data.party === 'TDP' ? '#000' : '#fff' }}
+        >
+          {data.party}
+        </span>
+      </div>
+    </div>
+  );
+};
+
 const DistrictView = () => {
   const [tooltipData, setTooltipData] = useState(null);
   const [selectedDistrict, setSelectedDistrict] = useState(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-
-  const handleMouseMove = (e) => {
-    setMousePos({ x: e.clientX, y: e.clientY });
-  };
 
   return (
-    <div className="district-layout" onMouseMove={handleMouseMove}>
-      <div style={{ width: '100%', height: '100%' }}>
+    <div className="district-layout">
+      <div className="map-wrapper" style={{ flex: 1, position: 'relative', height: '100%' }}>
         <MapChart 
           setTooltipContent={setTooltipData} 
           onDistrictClick={setSelectedDistrict}
         />
-        
-        {tooltipData && (
-          <div 
-            className="district-tooltip"
-            style={{ 
-              top: mousePos.y + 15, 
-              left: mousePos.x + 15,
-              position: 'fixed'
-            }}
-          >
-            <img src={tooltipData.image} alt={tooltipData.currentMla} className="tooltip-img" />
-            <div className="tooltip-info">
-              <h4>{tooltipData.name}</h4>
-              <p>{tooltipData.currentMla}</p>
-              <span 
-                className="party-badge" 
-                style={{ backgroundColor: tooltipData.party === 'TDP' ? '#fce903' : tooltipData.party === 'YSRCP' ? '#00249c' : '#e63946', color: tooltipData.party === 'TDP' ? '#000' : '#fff' }}
-              >
-                {tooltipData.party}
-              </span>
-            </div>
-          </div>
-        )}
+        <MapTooltip data={tooltipData} />
       </div>
 
       <div className="details-panel-container">

@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps';
 import { geoMercator } from 'd3-geo';
 import { getDistrictData, partyColors } from '../data/mockData';
-import apData from '../data/ap_const_wgs84_fixed.json';
+import apData from '../data/AndhraPradesh_assembly_geo.json';
 
 const MapChart = ({ setTooltipContent, onDistrictClick }) => {
-  const projection = geoMercator().fitSize([800, 600], apData);
-  const centerMap = projection.invert ? projection.invert([400, 300]) : [80.76, 15.89];
+  const { projection, centerMap } = useMemo(() => {
+    const proj = geoMercator().fitSize([800, 600], apData);
+    const center = proj.invert ? proj.invert([400, 300]) : [80.76, 15.89];
+    return { projection: proj, centerMap: center };
+  }, []);
 
   return (
     <div className="map-container relative" style={{ width: "100%", height: "100%" }}>
@@ -20,7 +23,7 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
           <Geographies geography={apData}>
             {({ geographies }) =>
               geographies.map((geo) => {
-                const districtName = geo.properties.name || "Unknown";
+                const districtName = geo.properties.ac_name || geo.properties.name || "Unknown";
                 const data = getDistrictData(districtName);
 
                 return (
@@ -66,4 +69,4 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
   );
 };
 
-export default MapChart;
+export default React.memo(MapChart);
