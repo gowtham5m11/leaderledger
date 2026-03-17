@@ -14,15 +14,20 @@ export const partyColors = {
 };
 
 export const getDistrictData = (name) => {
+  // Use a simple hash of the name to picks a deterministic party from the list
+  const parties = ["TDP", "YSRCP", "JSP"];
+  const hash = name.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
+  const deterministicParty = parties[hash % parties.length];
+
   const data = mockDistricts[name] || {
     name,
     population: "Approx 15 Lakhs",
     currentMla: "Sitting Representative",
-    party: ["TDP", "YSRCP", "JSP"][Math.floor(Math.random() * 3)],
+    party: deterministicParty,
     pastMla: "Former Representative",
-    partyChanges: Math.floor(Math.random() * 5),
+    partyChanges: hash % 5,
     votersCount: "10-15 Lakhs",
-    majorityVotes: Math.floor(Math.random() * 50000) + 2000
+    majorityVotes: (hash * 10) % 50000 + 2000
   };
   return {
     ...data,

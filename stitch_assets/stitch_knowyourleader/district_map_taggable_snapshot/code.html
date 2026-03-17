@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Prata&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#d9c900",
+              "on-primary-fixed-variant": "#304e30",
+              "on-tertiary-fixed": "#1f1c00",
+              "background": "#f8faf7",
+              "surface-container-high": "#e7e9e6",
+              "secondary-container": "#758aff",
+              "secondary": "#3d53c5",
+              "on-secondary-fixed-variant": "#2039ac",
+              "on-error": "#ffffff",
+              "surface-dim": "#d8dbd8",
+              "surface-container-lowest": "#ffffff",
+              "on-error-container": "#93000a",
+              "outline": "#737970",
+              "surface-tint": "#486646",
+              "on-primary-container": "#3c593a",
+              "on-background": "#191c1b",
+              "primary-fixed": "#c9ecc3",
+              "tertiary-fixed": "#f8e500",
+              "surface-container-highest": "#e1e3e0",
+              "surface-variant": "#e1e3e0",
+              "surface-container-low": "#f2f4f1",
+              "secondary-fixed": "#dee0ff",
+              "primary-fixed-dim": "#aed0a9",
+              "surface-container": "#eceeeb",
+              "on-secondary-container": "#001d83",
+              "on-tertiary-container": "#5b5300",
+              "tertiary-fixed-dim": "#dac900",
+              "on-tertiary-fixed-variant": "#4e4800",
+              "on-primary-fixed": "#042108",
+              "tertiary": "#686000",
+              "surface": "#f8faf7",
+              "inverse-surface": "#2e312f",
+              "secondary-fixed-dim": "#bac3ff",
+              "on-surface": "#191c1b",
+              "on-surface-variant": "#434841",
+              "error-container": "#ffdad6",
+              "on-primary": "#ffffff",
+              "primary": "#486646",
+              "on-secondary-fixed": "#00115a",
+              "outline-variant": "#c3c8be",
+              "primary-container": "#adcfa8",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eff1ee",
+              "error": "#ba1a1a",
+              "on-tertiary": "#ffffff",
+              "surface-bright": "#f8faf7",
+              "inverse-primary": "#aed0a9",
+              "tdp": "#fce903",
+              "ysrcp": "#00249c",
+              "jsp": "#e63946"
+            },
+            fontFamily: {
+              "headline": ["Prata", "serif"],
+              "body": ["Outfit", "sans-serif"],
+              "label": ["Outfit", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .map-container {
+            mask-image: radial-gradient(circle, black 70%, transparent 100%);
+        }
+        .ledger-line-tdp { border-left: 4px solid #fce903; }
+        .ledger-line-ysrcp { border-left: 4px solid #00249c; }
+        .ledger-line-jsp { border-left: 4px solid #e63946; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container overflow-hidden">
+<!-- Top Navigation Bar -->
+<header class="relative z-50 glass-panel border-b border-outline-variant/10 px-6 py-3 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<h1 class="font-headline text-2xl tracking-tight text-primary">KnowYourLeader.com</h1>
+<div class="hidden md:flex items-center bg-surface-container-low rounded-full px-4 py-2 border border-outline-variant/20 w-80">
+<span class="material-symbols-outlined text-outline text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full font-body" placeholder="Search districts or leaders..." type="text"/>
+</div>
+</div>
+<nav class="flex items-center gap-6">
+<div class="flex bg-surface-container-high p-1 rounded-lg">
+<button class="px-4 py-1.5 rounded-md text-sm font-medium bg-surface-container-lowest shadow-sm">District</button>
+<button class="px-4 py-1.5 rounded-md text-sm font-medium text-on-surface-variant hover:text-on-surface">Candidate</button>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 hover:bg-surface-container-high rounded-full transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+</header>
+<main class="relative h-[calc(100vh-64px)] flex overflow-hidden">
+<!-- Main Map Area -->
+<section class="flex-1 relative bg-surface-container-low overflow-hidden flex items-center justify-center p-12">
+<div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#486646 1px, transparent 1px); background-size: 32px 32px;"></div>
+<!-- Map Placeholder / Interactive Visual -->
+<div class="relative w-full max-w-4xl aspect-[4/3] flex items-center justify-center">
+<div class="relative w-full h-full flex items-center justify-center">
+<img class="w-full h-full object-contain opacity-20 grayscale" data-alt="Andhra Pradesh political map with color coded district regions" data-location="Andhra Pradesh, India" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxbZ3GfLGCzF3_1v6MevlQcmsInpjkSYaPwWcWiLbwZaI1LfbGxR_I0rZDcTP2pZ6Ww69uLUfE-pKY9x0dO84jiVud_f5BREkJEJ-et_VPKrapImksYy-lBCxQQZvEhl0bU0AF_dz66cO7_Ktj-UFGV1NXADFg_U-Lho36nMs4M41k-xnXMEA9uhsvzmsOUE_ec53Efk_4oVTAw6hLPGiNTwH7E2JeUVJBYpiPIWHDrVG1R5d2YTFrgrOYgDQLIukV_BQgljo0Ul0"/>
+<!-- Simplified Visual Representation of Constitutional Boundaries -->
+<div class="absolute inset-0 grid grid-cols-6 grid-rows-6 gap-2 pointer-events-none opacity-40">
+<div class="bg-tdp/40 rounded-lg p-2 flex items-end justify-start border border-tdp/20 transform rotate-2"></div>
+<div class="bg-ysrcp/40 rounded-lg p-2 col-span-2 row-span-2 border border-ysrcp/20 transform -rotate-1"></div>
+<div class="bg-jsp/40 rounded-lg p-2 border border-jsp/20 transform rotate-3"></div>
+<div class="bg-tdp/40 rounded-lg p-2 border border-tdp/20 transform -rotate-2"></div>
+<div class="bg-ysrcp/40 rounded-lg p-2 border border-ysrcp/20"></div>
+<div class="bg-tdp/40 rounded-lg p-2 border border-tdp/20 transform rotate-1"></div>
+<div class="bg-jsp/40 rounded-lg p-2 border border-jsp/20 transform rotate-6"></div>
+<div class="bg-ysrcp/40 rounded-lg p-2 border border-ysrcp/20 transform -rotate-3"></div>
+<div class="bg-tdp/40 rounded-lg p-2 border border-tdp/20"></div>
+<div class="bg-ysrcp/40 rounded-lg p-2 border border-ysrcp/20 transform rotate-2"></div>
+</div>
+</div>
+<!-- Floating Tooltip (Simulated Mouse Follow) -->
+<div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 glass-panel p-4 rounded-xl border border-outline-variant/20 shadow-xl flex items-center gap-4 w-64 transform scale-105">
+<div class="relative">
+<img class="w-14 h-14 rounded-lg object-cover" data-alt="Portrait of a male political candidate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvp4aU_yXvX5nRjWAgW5O-nQBUHJPMhjTJD5auP21vgwfqpC9rFmvNSHl8L7n7XbuHD94omgLNHq0RMEJblz2Akfx_T_ZyQprJvJzVKhnQtSVmYTUAKHiSX1WTD_aSM-U-W8FkZa-ir-ysf3G6qlN7ej26UNjlVdiKTduoTGLJgwQJZmiZuXfa3cX6cQf5v4zYJgP5kTh37i04vNVSrYYHCcnGjRjfSigYmQiR0Ia0YB-4P0ZOJyGrjR1XFrpJciZC-RFw7ZuvlAo"/>
+<div class="absolute -bottom-1 -right-1 w-5 h-5 bg-tdp rounded-full border-2 border-white flex items-center justify-center">
+<span class="text-[8px] font-bold text-on-background">TDP</span>
+</div>
+</div>
+<div>
+<h4 class="font-headline text-lg text-on-surface leading-tight">Chandra Babu</h4>
+<p class="text-xs text-on-surface-variant">MLA, Kuppam</p>
+<div class="flex items-center gap-1 mt-1">
+<span class="w-2 h-2 rounded-full bg-tdp"></span>
+<span class="text-[10px] font-bold uppercase tracking-wider opacity-70">Leading by 45k</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Map Controls -->
+<div class="absolute bottom-10 left-10 flex flex-col gap-2">
+<button class="w-10 h-10 glass-panel rounded-lg flex items-center justify-center shadow-md border border-outline-variant/20">
+<span class="material-symbols-outlined">add</span>
+</button>
+<button class="w-10 h-10 glass-panel rounded-lg flex items-center justify-center shadow-md border border-outline-variant/20">
+<span class="material-symbols-outlined">remove</span>
+</button>
+</div>
+<div class="absolute bottom-10 right-10 glass-panel px-6 py-4 rounded-xl border border-outline-variant/20 flex gap-8">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-tdp"></div>
+<span class="text-xs font-medium">TDP</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-ysrcp"></div>
+<span class="text-xs font-medium">YSRCP</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-jsp"></div>
+<span class="text-xs font-medium">JSP</span>
+</div>
+</div>
+<!-- Floating Details Panel (Modified District Snapshot) -->
+<aside class="absolute top-6 bottom-6 right-6 w-[420px] glass-panel border border-outline-variant/30 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.15)] flex flex-col overflow-hidden z-40 hidden xl:flex">
+<div class="p-8 flex flex-col h-full">
+<div class="flex items-start justify-between mb-8">
+<div>
+<span class="text-primary font-bold text-[10px] tracking-widest uppercase">District Snapshot</span>
+<h2 class="font-headline text-3xl mt-2">Visakhapatnam</h2>
+<p class="text-on-surface-variant text-sm mt-1 leading-relaxed">The administrative capital and largest city of Andhra Pradesh, showcasing a diverse political landscape.</p>
+</div>
+<button class="p-2 hover:bg-surface-container-high rounded-full transition-colors text-on-surface-variant">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="flex-1 overflow-y-auto pr-2 custom-scrollbar">
+<!-- Stats Grid -->
+<div class="grid grid-cols-2 gap-4 mb-10">
+<div class="bg-surface-container-low/60 p-5 rounded-2xl border border-white/40">
+<span class="material-symbols-outlined text-primary mb-2">groups</span>
+<p class="text-xs text-outline font-medium">Population</p>
+<h4 class="text-xl font-headline mt-1">4.2M</h4>
+</div>
+<div class="bg-surface-container-low/60 p-5 rounded-2xl border border-white/40">
+<span class="material-symbols-outlined text-primary mb-2">how_to_reg</span>
+<p class="text-xs text-outline font-medium">Registered Voters</p>
+<h4 class="text-xl font-headline mt-1">2.8M</h4>
+</div>
+<div class="bg-surface-container-low/60 p-5 rounded-2xl border border-white/40">
+<span class="material-symbols-outlined text-primary mb-2">account_balance</span>
+<p class="text-xs text-outline font-medium">Constituencies</p>
+<h4 class="text-xl font-headline mt-1">15</h4>
+</div>
+<div class="bg-surface-container-low/60 p-5 rounded-2xl border border-white/40">
+<span class="material-symbols-outlined text-primary mb-2">verified_user</span>
+<p class="text-xs text-outline font-medium">Avg Turnout</p>
+<h4 class="text-xl font-headline mt-1">78.4%</h4>
+</div>
+</div>
+<!-- Fresh Political News Section -->
+<div class="mb-6 flex items-center justify-between">
+<h3 class="font-headline text-xl">Fresh Political News</h3>
+<a class="text-xs font-semibold text-primary underline underline-offset-4" href="#">View All</a>
+</div>
+<div class="space-y-4">
+<!-- News Card 1 -->
+<div class="group cursor-pointer">
+<div class="bg-white/50 p-4 rounded-xl ledger-line-ysrcp hover:bg-white transition-all shadow-sm">
+<div class="flex gap-4">
+<img class="w-20 h-20 rounded-lg object-cover" data-alt="Crowded political rally in an urban setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcw1H5-wQMmrpJd9wFqjWPBgRzznp3PIQ09eV9vqYc8XDVdrTj-0E-9qgrwDGl5Y8tRraB5ku7Ayh6eqWOqS0eqiA_XHfXz06i5qKiVmN6X7CzNXKgMEOvAwQG16h9mdloUnT8zt7JlOsstouvW1YxM8JIgr2kFi65qfbUb_D6dwy2MgJyY0Gh1rZFHlnSw9968_LwUQM-gK94-_3ouZn2xmxPKVDst7Nl34h7GjmWwxnPB3_E19Mu14IC3u6IYbHzanaktjckCUM"/>
+<div class="flex-1">
+<span class="text-[10px] font-bold text-ysrcp uppercase">Election Update</span>
+<h5 class="text-sm font-medium leading-snug mt-1 group-hover:text-primary transition-colors">YSRCP announces infrastructure masterplan for Vizag...</h5>
+<p class="text-[10px] text-outline mt-2">2 hours ago • Times of India</p>
+</div>
+</div>
+</div>
+</div>
+<!-- News Card 2 -->
+<div class="group cursor-pointer">
+<div class="bg-white/50 p-4 rounded-xl ledger-line-tdp hover:bg-white transition-all shadow-sm">
+<div class="flex gap-4">
+<img class="w-20 h-20 rounded-lg object-cover" data-alt="Legal documents on a wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnft51TBw5UipoZvPXsThRWQRZeE8mb_U6e6MBu8nfGTh6MVhmktXRzz-HFvAMzZkgC69NitJP6KBjH-YNBMbDz2MhyuqM6pkm7PMn8cT1GOgX-FRYgAsyGf6aXUzDmCoAfJVjfrPV7tjzwo5l37dZDQoOIrmxTHcouT6fVbhDLOZoDthCJSFKGDtZvk0ObxisLyVn7TPC4RzlE7_uMwc4GwqsZsY-4S8rJJ-NA6uJAl-9xudOY54KJ6ci01nFfCD9qvgXlN6JSTM"/>
+<div class="flex-1">
+<span class="text-[10px] font-bold text-tdp uppercase">Legal Affairs</span>
+<h5 class="text-sm font-medium leading-snug mt-1 group-hover:text-primary transition-colors">TDP filing petition regarding voter list discrepancies...</h5>
+<p class="text-[10px] text-outline mt-2">5 hours ago • News18</p>
+</div>
+</div>
+</div>
+</div>
+<!-- News Card 3 -->
+<div class="group cursor-pointer">
+<div class="bg-white/50 p-4 rounded-xl ledger-line-jsp hover:bg-white transition-all shadow-sm">
+<div class="flex gap-4">
+<img class="w-20 h-20 rounded-lg object-cover" data-alt="Public speaker addressing a microphone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlpRvohQlPY-NU4E8P6PlBv8K9BiVGdgbD_wZ1-duhTXXfEvgF6ch9ErPpCVMYJkVZtMsemJyakxTDDeweIuRZredsr2l2-fSd4ig-dsvYW5SiuB7mn5ZERcz8z4hYVyVrMpFH5xhfblz2_N6hHJyF695mWsl-_xXTparEpcMNOHZYQg32dkDNGi0agkYxFSpe6G_XsuXXReQsHzA8oLQSmbAuDnARA1dXn9zKL_bxPB2tG7rrm9Rqdu_ozUxInRLBCcPYLpgeiWM"/>
+<div class="flex-1">
+<span class="text-[10px] font-bold text-jsp uppercase">Youth Rally</span>
+<h5 class="text-sm font-medium leading-snug mt-1 group-hover:text-primary transition-colors">Pawan Kalyan to address massive youth gathering...</h5>
+<p class="text-[10px] text-outline mt-2">Yesterday • Deccan Chronicle</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Action -->
+<div class="pt-8 mt-4 border-t border-outline-variant/10">
+<button class="w-full bg-primary text-on-primary py-4 rounded-xl font-medium flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-xl">compare_arrows</span>
+                            Compare with Neighboring District
+                        </button>
+</div>
+</div>
+</aside>
+</section>
+</main>
+<!-- Bottom Navigation Bar (Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 right-0 glass-panel border-t border-outline-variant/10 px-6 py-3 flex items-center justify-around z-50">
+<div class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined" data-weight="fill">explore</span>
+<span class="text-[10px] font-medium">Map</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">format_list_bulleted</span>
+<span class="text-[10px] font-medium">List</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">compare_arrows</span>
+<span class="text-[10px] font-medium">Compare</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="text-[10px] font-medium">Profile</span>
+</div>
+</nav>
+</body></html>
