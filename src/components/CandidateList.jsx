@@ -3,7 +3,7 @@ import { mockCandidates, partyColors } from '../data/mockData';
 
 const CandidateList = ({ onSelectCandidate }) => {
   return (
-    <div className="bg-background text-on-surface h-full overflow-y-auto custom-scrollbar" style={{ fontFamily: "'Outfit', sans-serif" }}>
+    <div className="bg-background text-on-surface custom-scrollbar" style={{ height: '100%', overflowY: 'auto', fontFamily: "'Outfit', sans-serif" }}>
       <main className="mx-auto" style={{ maxWidth: '1200px', padding: '4rem 1.5rem' }}>
         
         {/* Title Section */}

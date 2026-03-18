@@ -11,7 +11,7 @@ const CandidateProfile = ({ candidate, onBack }) => {
     <div style={{ 
       backgroundColor: 'var(--background)', 
       color: 'var(--on-background)', 
-      minHeight: '100vh', 
+      height: '100%', 
       fontFamily: "'Outfit', sans-serif",
       overflowY: 'auto'
     }} className="custom-scrollbar">

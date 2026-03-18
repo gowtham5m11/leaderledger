@@ -1,41 +1,92 @@
 import React from 'react';
-import { Search, Eye, Menu, ChevronDown } from 'lucide-react';
+import { Search, Menu } from 'lucide-react';
 
 const Header = ({ viewMode, toggleView }) => {
   return (
-    <header className="glass-nav relative z-[100] px-6 py-4 flex items-center justify-between">
+    <header className="glass-nav relative z-100 px-6 py-4 flex items-center justify-between" style={{ borderBottom: '1px solid var(--outline-variant)' }}>
       <div className="flex items-center gap-8">
-        <h1 className="font-headline text-2xl tracking-tight text-primary">
+        <h1 className="font-headline tracking-tight text-primary" style={{ fontSize: '1.5rem', margin: 0 }}>
           KnowYourLeader.com
         </h1>
         
-        <div className="hidden md:flex items-center bg-surface-container-low rounded-full px-4 py-2 border border-outline-variant w-80">
-          <Search size={18} className="text-outline" />
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          backgroundColor: 'var(--surface-container-low)',
+          borderRadius: '9999px',
+          padding: '0.5rem 1rem',
+          border: '1px solid var(--outline-variant)',
+          width: '20rem'
+        }}>
+          <Search size={18} style={{ color: 'var(--outline)' }} />
           <input 
             type="text" 
             placeholder="Search districts or leaders..." 
-            className="bg-transparent border-none focus:ring-0 text-sm w-full ml-2 font-body outline-none"
+            style={{
+              backgroundColor: 'transparent',
+              border: 'none',
+              outline: 'none',
+              fontSize: '0.875rem',
+              width: '100%',
+              marginLeft: '0.5rem',
+              fontFamily: "'Outfit', sans-serif"
+            }}
           />
         </div>
       </div>
 
       <nav className="flex items-center gap-6">
-        <div className="flex bg-surface-container-high p-1 rounded-lg">
+        <div style={{ display: 'flex', backgroundColor: 'var(--surface-container-high)', padding: '0.25rem', borderRadius: '0.5rem' }}>
           <button 
-            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all ${viewMode === 'district' ? 'bg-surface-container-lowest shadow-sm' : 'text-on-surface-variant hover:text-on-surface'}`}
+            style={{
+              padding: '0.375rem 1rem',
+              borderRadius: '0.375rem',
+              fontSize: '0.875rem',
+              fontWeight: 500,
+              transition: 'all 0.2s',
+              backgroundColor: viewMode === 'district' ? 'var(--surface-container-lowest)' : 'transparent',
+              boxShadow: viewMode === 'district' ? '0 1px 2px 0 rgba(0,0,0,0.05)' : 'none',
+              color: viewMode === 'district' ? 'var(--on-surface)' : 'var(--on-surface-variant)',
+              border: 'none',
+              cursor: 'pointer'
+            }}
             onClick={() => viewMode !== 'district' && toggleView()}
           >
             District
           </button>
           <button 
-            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all ${viewMode === 'candidate' ? 'bg-surface-container-lowest shadow-sm' : 'text-on-surface-variant hover:text-on-surface'}`}
+            style={{
+              padding: '0.375rem 1rem',
+              borderRadius: '0.375rem',
+              fontSize: '0.875rem',
+              fontWeight: 500,
+              transition: 'all 0.2s',
+              backgroundColor: viewMode === 'candidate' ? 'var(--surface-container-lowest)' : 'transparent',
+              boxShadow: viewMode === 'candidate' ? '0 1px 2px 0 rgba(0,0,0,0.05)' : 'none',
+              color: viewMode === 'candidate' ? 'var(--on-surface)' : 'var(--on-surface-variant)',
+              border: 'none',
+              cursor: 'pointer'
+            }}
             onClick={() => viewMode !== 'candidate' && toggleView()}
           >
             Candidate
           </button>
         </div>
         
-        <button className="p-2 hover:bg-surface-container-high rounded-full transition-colors text-on-surface">
+        <button style={{
+          padding: '0.5rem',
+          backgroundColor: 'transparent',
+          border: 'none',
+          borderRadius: '9999px',
+          cursor: 'pointer',
+          color: 'var(--on-surface)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+        onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'var(--surface-container-high)'}
+        onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+        >
           <Menu size={24} />
         </button>
       </nav>
