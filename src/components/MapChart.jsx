@@ -96,14 +96,14 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
 
       {/* Manual Zoom Controls - Positioned Left */}
       <div className="absolute top-48 left-10 flex flex-col gap-3 z-50">
-        <button 
+        <button
           onClick={handleZoomIn}
           className="w-14 h-14 bg-white/90 backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-white text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
           title="Zoom In"
         >
           <Plus size={24} strokeWidth={2.5} />
         </button>
-        <button 
+        <button
           onClick={handleZoomOut}
           className="w-14 h-14 bg-white/90 backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-white text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
           title="Zoom Out"

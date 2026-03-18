@@ -75,7 +75,7 @@ const DistrictView = () => {
 
         {/* Floating Controls Overlay (Native to Map) */}
         <div className="absolute top-24 left-8 pointer-events-none z-50">
-           {/* branding is inside MapChart actually but we can layer additional things here */}
+          {/* branding is inside MapChart actually but we can layer additional things here */}
         </div>
 
         {/* Map Legend */}
@@ -95,9 +95,9 @@ const DistrictView = () => {
         </div>
       </div>
 
-      <div 
+      <div
         className="details-panel-container"
-        style={{ 
+        style={{
           transition: 'all 500ms cubic-bezier(0.16, 1, 0.3, 1)',
           transform: isPanelVisible ? 'translateX(0)' : 'translateX(120%)',
           opacity: isPanelVisible ? 1 : 0
@@ -111,7 +111,7 @@ const DistrictView = () => {
                 A key political landscape showcasing the diverse democratic will of the people.
               </p>
             </div>
-            <button 
+            <button
               onClick={() => setIsPanelVisible(false)}
               className="p-3 hover:bg-surface-container-high rounded-full transition-all text-on-surface-variant cursor-pointer bg-white/50 border border-outline-variant shadow-sm flex items-center justify-center"
               aria-label="Close panel"
