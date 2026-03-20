@@ -7,6 +7,14 @@ const CandidateProfile = ({ candidate, onBack }) => {
   const partyColor = partyColors[candidate.party] || '#737970';
   const isTDP = candidate.party === 'TDP';
 
+  // Fallback for missing fields in leaders.json
+  const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColor.replace('#', '')}&color=fff&size=200`;
+  const displayRole = candidate.role || "Member of Legislative Assembly";
+  const displayMinistry = candidate.ministry || "Legislative Leader";
+  const displayCriminalCases = candidate.criminal_cases || "0";
+  const displayEducation = candidate.education || "Information not available";
+
+
   return (
     <div style={{ 
       backgroundColor: 'var(--background)', 
@@ -85,7 +93,7 @@ const CandidateProfile = ({ candidate, onBack }) => {
                 boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1)'
               }}>
                 <img 
-                  src={candidate.image} 
+                  src={displayImage} 
                   alt={candidate.name} 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
@@ -106,7 +114,7 @@ const CandidateProfile = ({ candidate, onBack }) => {
                   color: 'var(--primary)',
                   border: '1px solid var(--outline-variant)'
                 }}>
-                  {candidate.role}
+                  {displayRole}
                 </span>
                 <h1 className="display-lg" style={{ color: 'var(--on-surface)', marginTop: '0.5rem', fontSize: '3rem' }}>
                   {candidate.name}
@@ -114,10 +122,11 @@ const CandidateProfile = ({ candidate, onBack }) => {
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginTop: '0.75rem' }}>
                   <div style={{ width: '4px', height: '1.5rem', backgroundColor: partyColor }}></div>
                   <p style={{ fontSize: '1.125rem', fontWeight: 500, color: 'var(--on-surface-variant)' }}>
-                    {candidate.ministry} • <span style={{ fontWeight: 700, color: partyColor }}>{candidate.party}</span>
+                    {displayMinistry} • <span style={{ fontWeight: 700, color: partyColor }}>{candidate.party}</span>
                   </p>
                 </div>
               </div>
+
 
               {/* Info Grid */}
               <div style={{ 
@@ -147,8 +156,9 @@ const CandidateProfile = ({ candidate, onBack }) => {
                 </div>
                 <div style={{ gridColumn: 'span 2' }}>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Education</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.education || 'Graduate from Recognized University'}</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayEducation}</p>
                 </div>
+
               </div>
             </div>
           </div>
@@ -210,9 +220,10 @@ const CandidateProfile = ({ candidate, onBack }) => {
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
-                    <p style={{ color: 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{candidate.criminalRecord || '02 Pending Cases'}</p>
-                    <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>Primarily related to public protest and administrative disputes. No convictions recorded.</p>
+                    <p style={{ color: 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{displayCriminalCases} Pending Cases</p>
+                    <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>Based on official disclosures. Primarily related to public protest or administrative disputes where applicable.</p>
                   </div>
+
                   <button style={{ 
                     fontSize: '0.75rem', 
                     fontWeight: 700, 

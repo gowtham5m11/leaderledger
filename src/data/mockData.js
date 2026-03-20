@@ -5,16 +5,42 @@ export const mockDistricts = {
   "Guntur": { name: "Guntur", population: "20.9 Lakhs", currentMla: "Maddali Giridhar", party: "YSRCP", pastMla: "Nakka Anand Babu", partyChanges: 4, votersCount: "16 Lakhs", majorityVotes: "12,000" },
 };
 
+import leaders from './leaders.json';
+
 export const partyColors = {
   TDP: "#fce903",
   YSRCP: "#00249c",
   JSP: "#e63946",
+  "Janasena Party": "#e63946",
   BJP: "#f97316",
   INC: "#0ea5e9"
 };
 
 export const getDistrictData = (name) => {
-  // Use a simple hash of the name to picks a deterministic party from the list
+  const cleanName = name.trim().toLowerCase();
+  
+  // Find leader by constituency name (case-insensitive match)
+  const leader = leaders.find(l => {
+    const lCon = l.constituency.toLowerCase();
+    return lCon === cleanName || lCon.includes(cleanName) || cleanName.includes(lCon);
+  });
+
+  if (leader) {
+    // Return actual data if found
+    return {
+      name: leader.constituency,
+      population: "Approx 15 Lakhs",
+      currentMla: leader.name,
+      party: leader.party === "Janasena Party" ? "JSP" : leader.party,
+      pastMla: "Former Representative",
+      partyChanges: 0,
+      votersCount: "Verified Ledger",
+      majorityVotes: 8225, // Mocking majority for visual consistency
+      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=${partyColors[leader.party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
+    };
+  }
+
+  // Fallback for districts or unknown constituencies
   const parties = ["TDP", "YSRCP", "JSP"];
   const hash = name.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
   const deterministicParty = parties[hash % parties.length];
@@ -34,6 +60,8 @@ export const getDistrictData = (name) => {
     image: `https://ui-avatars.com/api/?name=${encodeURIComponent(data.currentMla)}&background=${partyColors[data.party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
   };
 };
+
+
 
 export const mockCandidates = [
   {

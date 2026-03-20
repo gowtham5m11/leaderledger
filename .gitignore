@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+venv/
+scraper_lab/venv/
+__pycache__/
+*.pyc
+scraper_lab/fast_scraper.py
+scraper_lab/get_sample_url.py
