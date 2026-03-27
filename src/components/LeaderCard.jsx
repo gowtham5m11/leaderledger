@@ -9,6 +9,8 @@ const LeaderCard = ({ leader, onClick }) => {
   if (partyLower.includes('tdp')) partyClass = 'card-tdp';
   else if (partyLower.includes('ysrcp')) partyClass = 'card-ysrcp';
   else if (partyLower.includes('janasena') || partyLower === 'jsp') partyClass = 'card-jsp';
+  else if (partyLower.includes('bjp')) partyClass = 'card-bjp';
+  else if (partyLower.includes('inc')) partyClass = 'card-inc';
 
   const hasCriminalCases = parseInt(criminal_cases) > 0;
 

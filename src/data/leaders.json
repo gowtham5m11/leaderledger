@@ -1,798 +1,206 @@
 [
     {
         "id": 1,
-        "name": "Satyanarayana Pithani",
-        "constituency": "ACHANTA",
+        "name": "Ashok Bendalam",
+        "constituency": "ICHCHAPURAM",
         "party": "TDP",
-        "criminal_cases": "1",
+        "criminal_cases": "0",
         "education": "Graduate"
     },
     {
         "id": 2,
-        "name": "Gottipati Ravi Kumar",
-        "constituency": "ADDANKI",
+        "name": "Jagadeeswari Thoyaka",
+        "constituency": "KURUPAM",
         "party": "TDP",
-        "criminal_cases": "8",
-        "education": "12th Pass"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 3,
-        "name": "Dr. Partha Sarathi Valmiki",
-        "constituency": "ADONI",
-        "party": "BJP",
-        "criminal_cases": "3",
-        "education": "Post Graduate"
+        "name": "Gouthu Sireesha",
+        "constituency": "PALASA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 4,
-        "name": "Akhila Priya Bhuma",
-        "constituency": "ALLAGADDA",
-        "party": "TDP",
-        "criminal_cases": "12",
-        "education": "Graduate Professional"
+        "name": "Jayakrishna Nimmaka",
+        "constituency": "PALAKONDA",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 5,
-        "name": "B. Virupakshi",
-        "constituency": "ALUR",
-        "party": "YSRCP",
-        "criminal_cases": "1",
-        "education": "8th Pass"
+        "name": "Mamidi Govinda Rao",
+        "constituency": "PATHAPATNAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 6,
-        "name": "Koona Ravi Kumar",
-        "constituency": "AMADALAVALASA",
+        "name": "Bonela Vijaya Chandra",
+        "constituency": "PARVATHIPURAM",
         "party": "TDP",
-        "criminal_cases": "15",
-        "education": "Graduate Professional"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 7,
-        "name": "Aithabathula Anandarao",
-        "constituency": "AMALAPURAM (SC)",
+        "name": "Gummidi Sandhyarani",
+        "constituency": "SALUR",
         "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Post Graduate"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 8,
-        "name": "Konathala Ramakrishna",
-        "constituency": "ANAKAPALLE",
-        "party": "Janasena Party",
+        "name": "Atchannaidu Kinjarapu",
+        "constituency": "TEKKALI",
+        "party": "TDP",
         "criminal_cases": "0",
-        "education": "Post Graduate"
+        "education": "Graduate"
+    },
+    {
+        "id": 9,
+        "name": "Baggu Ramanamurthy",
+        "constituency": "NARASANNAPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 10,
-        "name": "Ramakrishna Reddy Nallamilli",
-        "constituency": "ANAPARTHY",
-        "party": "BJP",
-        "criminal_cases": "32",
-        "education": "Graduate Professional"
+        "name": "Kondru Murali Mohan",
+        "constituency": "RAJAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 11,
-        "name": "Regam Matyalingam",
-        "constituency": "ARAKU VALLEY (ST)",
-        "party": "YSRCP",
-        "criminal_cases": "1",
-        "education": "Post Graduate"
+        "name": "R.V.S.K.K.Ranga Rao @ Babynayana",
+        "constituency": "BOBBILI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 12,
-        "name": "Anam Ramanarayana Reddy",
-        "constituency": "ATMAKUR",
+        "name": "Koona Ravi Kumar",
+        "constituency": "AMADALAVALASA",
         "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 13,
-        "name": "Buddhaprasad Mandali",
-        "constituency": "AVANIGADDA",
-        "party": "Janasena Party",
+        "name": "Regam Matyalingam",
+        "constituency": "ARAKU VALLEY",
+        "party": "YSRCP",
         "criminal_cases": "0",
         "education": "Graduate"
     },
     {
         "id": 14,
-        "name": "Dasari Sudha",
-        "constituency": "BADVEL (SC)",
-        "party": "YSRCP",
+        "name": "Kondapalli Srinivas",
+        "constituency": "GAJAPATHINAGARAM",
+        "party": "TDP",
         "criminal_cases": "0",
-        "education": "Graduate Professional"
+        "education": "Graduate"
     },
     {
         "id": 15,
-        "name": "Bobbala Chinnolla Janardhan Reddy",
-        "constituency": "BANAGANAPALLE",
-        "party": "TDP",
-        "criminal_cases": "9",
+        "name": "Eswara Rao Nadukuditi",
+        "constituency": "ETCHERLA",
+        "party": "BJP",
+        "criminal_cases": "0",
         "education": "Graduate"
     },
     {
         "id": 16,
-        "name": "Narendra Varma Raju Vegesana",
-        "constituency": "BAPATLA",
+        "name": "Gondu Shankar",
+        "constituency": "SRIKAKULAM",
         "party": "TDP",
-        "criminal_cases": "9",
-        "education": "10th Pass"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 17,
-        "name": "Ramanjaneyulu Pulaparthi (Anjibabu)",
-        "constituency": "BHIMAVARAM",
-        "party": "Janasena Party",
-        "criminal_cases": "0",
-        "education": "12th Pass"
-    },
-    {
-        "id": 19,
-        "name": "R.V.S.K.K.Ranga Rao @ Babynayana",
-        "constituency": "BOBBILI",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "12th Pass"
-    },
-    {
-        "id": 20,
-        "name": "Venkata Mani Prasad Pullivarthi",
-        "constituency": "CHANDRAGIRI",
-        "party": "TDP",
-        "criminal_cases": "31",
-        "education": "10th Pass"
-    },
-    {
-        "id": 21,
         "name": "Kalavenkatarao Kimidi",
         "constituency": "CHEEPURUPALLE",
         "party": "TDP",
-        "criminal_cases": "2",
-        "education": "Graduate Professional"
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 18,
+        "name": "Lokam Naga Madhavi",
+        "constituency": "NELLIMARLA",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 19,
+        "name": "Kolla Lalitha Kumari",
+        "constituency": "SRUNGAVARAPUKOTA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 20,
+        "name": "Aditi Vijayalakshmi Gajapathi Raju Pusapati",
+        "constituency": "VIZIANAGARAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 21,
+        "name": "Matsyarasa Visweswara Raju",
+        "constituency": "PADERU",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 22,
-        "name": "Prathipati Pullarao",
-        "constituency": "CHILAKALURIPET",
+        "name": "Bandaru Satyanarayana Murthy",
+        "constituency": "MADUGULA",
         "party": "TDP",
-        "criminal_cases": "13",
+        "criminal_cases": "0",
         "education": "Graduate"
     },
     {
         "id": 23,
-        "name": "Roshan Kumar Songa",
-        "constituency": "CHINTALAPUDI (SC)",
+        "name": "Ganta Srinivasa Rao",
+        "constituency": "BHIMILI",
         "party": "TDP",
         "criminal_cases": "0",
-        "education": "Post Graduate"
+        "education": "Graduate"
     },
     {
         "id": 24,
-        "name": "Madduluri Mala Kondaiah",
-        "constituency": "CHIRALA",
+        "name": "Miriyala Sirisha Devi",
+        "constituency": "RAMPACHODAVARAM(ST)",
         "party": "TDP",
-        "criminal_cases": "8",
+        "criminal_cases": "0",
         "education": "Graduate"
     },
     {
         "id": 25,
-        "name": "Gurajala Jagan Mohan (Gjm)",
-        "constituency": "CHITTOOR",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "5th Pass"
-    },
-    {
-        "id": 26,
         "name": "Surya Naga Sanyasi Raju Kalidindi",
         "constituency": "CHODAVARAM",
         "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 28,
-        "name": "Chintamaneni Prabhakar",
-        "constituency": "DENDULURU",
-        "party": "TDP",
-        "criminal_cases": "90",
-        "education": "12th Pass"
-    },
-    {
-        "id": 29,
-        "name": "Satya Kumar Yadav",
-        "constituency": "DHARMAVARAM",
-        "party": "BJP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 30,
-        "name": "Kotla Jaya Surya Prakash Reddy",
-        "constituency": "DHONE",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate"
-    },
-    {
-        "id": 31,
-        "name": "Radha Krishnayya Badeti",
-        "constituency": "ELURU",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "Graduate"
-    },
-    {
-        "id": 32,
-        "name": "Eswara Rao Nadukuditi",
-        "constituency": "ETCHERLA",
-        "party": "BJP",
-        "criminal_cases": "4",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 33,
-        "name": "Kondapalli Srinivas",
-        "constituency": "GAJAPATHINAGARAM",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 34,
-        "name": "Palla Srinivas Rao",
-        "constituency": "GAJUWAKA",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 35,
-        "name": "Vadingadu Munaswamy Thomas",
-        "constituency": "GANGADHARA NELLORE (SC)",
-        "party": "TDP",
-        "criminal_cases": "5",
-        "education": "Doctorate"
-    },
-    {
-        "id": 37,
-        "name": "Giddi. Satyanarayana S/O Mahalakshmi",
-        "constituency": "GANNAVARAM (SC)",
-        "party": "Janasena Party",
         "criminal_cases": "0",
         "education": "Graduate"
     },
     {
-        "id": 38,
-        "name": "Ashok Reddy Muthumula",
-        "constituency": "GIDDALUR",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "12th Pass"
-    },
-    {
-        "id": 39,
-        "name": "Maddipati Venkata Raju",
-        "constituency": "GOPALAPURAM (SC)",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 40,
-        "name": "Venigandla Ramu",
-        "constituency": "GUDIVADA",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 41,
-        "name": "Pasim Sunil Kumar",
-        "constituency": "GUDUR (SC)",
-        "party": "TDP",
-        "criminal_cases": "14",
-        "education": "Doctorate"
-    },
-    {
-        "id": 42,
-        "name": "Jayaram Gummanur",
-        "constituency": "GUNTAKAL",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "8th Pass"
-    },
-    {
-        "id": 43,
-        "name": "Mohammed Naseer Ahmed",
-        "constituency": "GUNTUR EAST",
-        "party": "TDP",
-        "criminal_cases": "8",
-        "education": "10th Pass"
-    },
-    {
-        "id": 44,
-        "name": "Galla Madhavi",
-        "constituency": "GUNTUR WEST",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 46,
-        "name": "Nandamuri Balakrishna",
-        "constituency": "HINDUPUR",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Graduate"
-    },
-    {
-        "id": 47,
-        "name": "Ashok Bendalam",
-        "constituency": "ICHCHAPURAM",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 48,
-        "name": "Jyothula Nehru",
-        "constituency": "JAGGAMPETA",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "8th Pass"
-    },
-    {
-        "id": 49,
-        "name": "Rajagopal Sreeram (Tataiah)",
-        "constituency": "JAGGAYYAPETA",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate"
-    },
-    {
-        "id": 50,
-        "name": "Adinarayana Reddy Chadipirala",
-        "constituency": "JAMMALAMADUGU",
-        "party": "BJP",
-        "criminal_cases": "4",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 51,
-        "name": "Madhavi Reddappa Gari",
-        "constituency": "KADAPA",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "Graduate"
-    },
-    {
-        "id": 52,
-        "name": "Kandikunta Venkata Prasad",
-        "constituency": "KADIRI",
-        "party": "TDP",
-        "criminal_cases": "21",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 53,
-        "name": "Kamineni Srinivas",
-        "constituency": "KAIKALUR",
-        "party": "BJP",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 55,
-        "name": "Pantam Venkateswara Rao (Pantam Nanaji)",
-        "constituency": "KAKINADA RURAL",
-        "party": "Janasena Party",
-        "criminal_cases": "11",
-        "education": "12th Pass"
-    },
-    {
-        "id": 56,
-        "name": "Amilineni Surendra Babu",
-        "constituency": "KALYANDURG",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "10th Pass"
-    },
-    {
-        "id": 57,
-        "name": "Krishna Chaitanya Reddy Putha",
-        "constituency": "KAMALAPURAM",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 58,
-        "name": "Inturi Nageswara Rao",
-        "constituency": "KANDUKUR",
-        "party": "TDP",
-        "criminal_cases": "11",
-        "education": "10th Pass"
-    },
-    {
-        "id": 59,
-        "name": "Dr.Ugra Narasimha Reddy Mukku",
-        "constituency": "KANIGIRI",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 60,
-        "name": "Dagumati Venkata Krishna Reddy",
-        "constituency": "KAVALI",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 61,
-        "name": "Boggula Dastagiri",
-        "constituency": "KODUMUR (SC)",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 62,
-        "name": "Arava Sreedhar",
-        "constituency": "KODUR (SC)",
-        "party": "Janasena Party",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 64,
-        "name": "Bandaru Satyananda Rao",
-        "constituency": "KOTHAPETA",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate"
-    },
-    {
-        "id": 65,
-        "name": "Prashanthi Reddy Vemireddy",
-        "constituency": "KOVUR",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "12th Pass"
-    },
-    {
-        "id": 66,
-        "name": "Muppidi Venkateswara Rao",
-        "constituency": "KOVVUR (SC)",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 67,
-        "name": "Chandrababu Naidu Nara",
-        "constituency": "KUPPAM",
-        "party": "TDP",
-        "criminal_cases": "19",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 68,
-        "name": "T.G. Bharath",
-        "constituency": "KURNOOL",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 69,
-        "name": "Jagadeeswari Thoyaka",
-        "constituency": "KURUPAM (ST)",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Graduate"
-    },
-    {
-        "id": 70,
-        "name": "Brahmanandareddy Julakanti",
-        "constituency": "MACHERLA",
-        "party": "TDP",
-        "criminal_cases": "5",
-        "education": "10th Pass"
-    },
-    {
-        "id": 71,
-        "name": "Kollu Ravindra",
-        "constituency": "MACHILIPATNAM",
-        "party": "TDP",
-        "criminal_cases": "15",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 73,
-        "name": "M.Shajahan Basha",
-        "constituency": "MADANAPALLE",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "10th Pass"
-    },
-    {
-        "id": 74,
-        "name": "Bandaru Satyanarayana Murthy",
-        "constituency": "MADUGULA",
-        "party": "TDP",
-        "criminal_cases": "7",
-        "education": "Graduate"
-    },
-    {
-        "id": 75,
-        "name": "Jogeswara Rao.V",
-        "constituency": "MANDAPETA",
-        "party": "TDP",
-        "criminal_cases": "6",
-        "education": "Graduate"
-    },
-    {
-        "id": 76,
-        "name": "Nara Lokesh",
-        "constituency": "MANGALAGIRI",
-        "party": "TDP",
-        "criminal_cases": "17",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 77,
-        "name": "Y. Balanagi Reddy",
-        "constituency": "MANTRALAYAM",
-        "party": "YSRCP",
-        "criminal_cases": "1",
-        "education": "10th Pass"
-    },
-    {
-        "id": 78,
-        "name": "Kandula Narayana Reddy",
-        "constituency": "MARKAPURAM",
-        "party": "TDP",
-        "criminal_cases": "13",
-        "education": "12th Pass"
-    },
-    {
-        "id": 79,
-        "name": "Datla Subba Raju (Buchibabu)",
-        "constituency": "MUMMIDIVARAM",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "12th Pass"
-    },
-    {
-        "id": 80,
-        "name": "Sudhakar Putta",
-        "constituency": "MYDUKUR",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "10th Pass"
-    },
-    {
-        "id": 82,
-        "name": "G. Bhanu Prakash",
-        "constituency": "NAGARI",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 83,
-        "name": "Tangirala Sowmya",
-        "constituency": "NANDIGAMA (SC)",
-        "party": "TDP",
-        "criminal_cases": "23",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 84,
-        "name": "G Jayasurya",
-        "constituency": "NANDIKOTKUR (SC)",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "12th Pass"
-    },
-    {
-        "id": 85,
-        "name": "Nasyam Mohammed Farook",
-        "constituency": "NANDYAL",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "10th Pass"
-    },
-    {
-        "id": 86,
-        "name": "Baggu Ramanamurthy",
-        "constituency": "NARASANNAPETA",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "10th Pass"
-    },
-    {
-        "id": 87,
-        "name": "Bommidi Narayana Nayakar",
-        "constituency": "NARASAPURAM",
-        "party": "Janasena Party",
-        "criminal_cases": "6",
-        "education": "10th Pass"
-    },
-    {
-        "id": 88,
-        "name": "Aravinda Babu Chadalavada",
-        "constituency": "NARASARAOPET",
-        "party": "TDP",
-        "criminal_cases": "17",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 89,
-        "name": "Ayyannapatrudu Chintakayala",
-        "constituency": "NARSIPATNAM",
-        "party": "TDP",
-        "criminal_cases": "17",
-        "education": "12th Pass"
-    },
-    {
-        "id": 91,
-        "name": "Narayana Ponguru",
-        "constituency": "NELLORE CITY",
-        "party": "TDP",
-        "criminal_cases": "8",
-        "education": "Doctorate"
-    },
-    {
-        "id": 92,
-        "name": "Kotamreddy Sridhar Reddy",
-        "constituency": "NELLORE RURAL",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "12th Pass"
-    },
-    {
-        "id": 93,
-        "name": "Kandula Durgesh",
-        "constituency": "NIDADAVOLE",
-        "party": "Janasena Party",
-        "criminal_cases": "7",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 94,
-        "name": "Kolusu Partha Sarathy",
-        "constituency": "NUZVID",
-        "party": "TDP",
-        "criminal_cases": "5",
-        "education": "12th Pass"
-    },
-    {
-        "id": 95,
-        "name": "Damacharla Janardhana Rao",
-        "constituency": "ONGOLE",
-        "party": "TDP",
-        "criminal_cases": "18",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 96,
-        "name": "Matsyarasa Visweswara Raju",
-        "constituency": "PADERU (ST)",
-        "party": "YSRCP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 97,
-        "name": "Dr.Nimmala Ramanaidu",
-        "constituency": "PALAKOLLU",
-        "party": "TDP",
-        "criminal_cases": "20",
-        "education": "Doctorate"
-    },
-    {
-        "id": 98,
-        "name": "Jayakrishna Nimmaka",
-        "constituency": "PALAKONDA (ST)",
-        "party": "Janasena Party",
-        "criminal_cases": "6",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 100,
-        "name": "Gouthu Sireesha",
-        "constituency": "PALASA",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 101,
-        "name": "Kumar Raja Varla",
-        "constituency": "PAMARRU (SC)",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 102,
-        "name": "Gowru Charitha Reddy",
-        "constituency": "PANYAM",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Graduate"
-    },
-    {
-        "id": 103,
-        "name": "Yeluri Sambasiva Rao",
-        "constituency": "PARCHUR",
-        "party": "TDP",
-        "criminal_cases": "6",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 104,
-        "name": "Bonela Vijaya Chandra",
-        "constituency": "PARVATHIPURAM (SC)",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 105,
-        "name": "Mamidi Govinda Rao",
-        "constituency": "PATHAPATNAM",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "12th Pass"
-    },
-    {
-        "id": 106,
-        "name": "K.E. Shyam Kumar",
-        "constituency": "PATTIKONDA",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 107,
-        "name": "Anitha Vangalapudi",
-        "constituency": "PAYAKARAOPET (SC)",
-        "party": "TDP",
-        "criminal_cases": "7",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 109,
-        "name": "Kagitha Krishnaprasad",
-        "constituency": "PEDANA",
-        "party": "TDP",
-        "criminal_cases": "9",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 110,
-        "name": "China Rajappa Nimmakayala",
-        "constituency": "PEDDAPURAM",
-        "party": "TDP",
-        "criminal_cases": "17",
-        "education": "Graduate"
-    },
-    {
-        "id": 111,
-        "name": "Bode Prasad",
-        "constituency": "PENAMALURU",
-        "party": "TDP",
-        "criminal_cases": "12",
-        "education": "10th Pass"
-    },
-    {
-        "id": 112,
+        "id": 26,
         "name": "Panchakarla Ramesh Babu",
         "constituency": "PENDURTHI",
         "party": "Janasena Party",
@@ -800,415 +208,39 @@
         "education": "Graduate"
     },
     {
-        "id": 113,
-        "name": "S. Savitha",
-        "constituency": "PENUKONDA",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "Graduate"
-    },
-    {
-        "id": 114,
-        "name": "Nallari Kishan Kumar Reddy",
-        "constituency": "PILERU",
-        "party": "TDP",
-        "criminal_cases": "6",
-        "education": "Graduate"
-    },
-    {
-        "id": 115,
-        "name": "Konidala Pawan Kalyan",
-        "constituency": "PITHAPURAM",
-        "party": "Janasena Party",
-        "criminal_cases": "8",
-        "education": "10th Pass"
-    },
-    {
-        "id": 116,
-        "name": "Chirri Balaraju",
-        "constituency": "POLAVARAM (ST)",
+        "id": 27,
+        "name": "Konathala Ramakrishna",
+        "constituency": "ANAKAPALLE",
         "party": "Janasena Party",
         "criminal_cases": "0",
         "education": "Graduate"
     },
     {
-        "id": 118,
-        "name": "Varupula Satya Prabha",
-        "constituency": "PRATHIPADU",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 119,
-        "name": "Burla Ramanjaneyulu",
-        "constituency": "PRATHIPADU (SC)",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Doctorate"
-    },
-    {
-        "id": 120,
-        "name": "Nandyala Varadarajula Reddy",
-        "constituency": "PRODDATUR",
-        "party": "TDP",
-        "criminal_cases": "6",
-        "education": "10th Pass"
-    },
-    {
-        "id": 121,
-        "name": "Ys Jagan Mohan Reddy",
-        "constituency": "PULIVENDLA",
-        "party": "YSRCP",
-        "criminal_cases": "29",
-        "education": "Graduate"
-    },
-    {
-        "id": 122,
-        "name": "Peddireddi Ramachandra Reddy",
-        "constituency": "PUNGANUR",
-        "party": "YSRCP",
-        "criminal_cases": "0",
-        "education": "Doctorate"
-    },
-    {
-        "id": 123,
-        "name": "K Murali Mohan",
-        "constituency": "PUTHALAPATTU (SC)",
-        "party": "TDP",
-        "criminal_cases": "11",
-        "education": "Doctorate"
-    },
-    {
-        "id": 124,
-        "name": "Adireddy Srinivas",
-        "constituency": "RAJAHMUNDRY CITY",
-        "party": "TDP",
-        "criminal_cases": "8",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 125,
-        "name": "Butchaiah Choudary Gorantla",
-        "constituency": "RAJAHMUNDRY RURAL",
-        "party": "TDP",
-        "criminal_cases": "2",
-        "education": "Graduate"
-    },
-    {
-        "id": 127,
-        "name": "Akepati Amarnath Reddy",
-        "constituency": "RAJAMPET",
-        "party": "YSRCP",
-        "criminal_cases": "0",
-        "education": "12th Pass"
-    },
-    {
-        "id": 128,
-        "name": "Bathula Balaramakrishna S/O Gangarao",
-        "constituency": "RAJANAGARAM",
-        "party": "Janasena Party",
-        "criminal_cases": "3",
-        "education": "8th Pass"
-    },
-    {
-        "id": 129,
-        "name": "Vasamsetti Subash",
-        "constituency": "RAMACHANDRAPURAM",
-        "party": "TDP",
-        "criminal_cases": "12",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 130,
-        "name": "Miriyala Sirisha Devi",
-        "constituency": "RAMPACHODAVARAM (ST)",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 131,
-        "name": "Paritala Sunithamma",
-        "constituency": "RAPTADU",
-        "party": "TDP",
-        "criminal_cases": "8",
-        "education": "8th Pass"
-    },
-    {
-        "id": 132,
-        "name": "Mandipalli Ramprasad Reddy",
-        "constituency": "RAYACHOTI",
-        "party": "TDP",
-        "criminal_cases": "5",
-        "education": "12th Pass"
-    },
-    {
-        "id": 133,
-        "name": "Kalava Srinivasulu",
-        "constituency": "RAYADURG",
-        "party": "TDP",
-        "criminal_cases": "19",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 134,
-        "name": "Deva Varaprasad",
-        "constituency": "RAZOLE (SC)",
-        "party": "Janasena Party",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 136,
-        "name": "Gummidi Sandhyarani",
-        "constituency": "SALUR (ST)",
-        "party": "TDP",
-        "criminal_cases": "3",
-        "education": "Graduate"
-    },
-    {
-        "id": 137,
-        "name": "Vijay Kumar Bn",
-        "constituency": "SANTHANUTHALAPADU (SC)",
-        "party": "TDP",
-        "criminal_cases": "5",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 138,
-        "name": "Chandra Mohan Reddy Somireddy",
-        "constituency": "SARVEPALLI",
-        "party": "TDP",
-        "criminal_cases": "16",
-        "education": "12th Pass"
-    },
-    {
-        "id": 139,
-        "name": "Kanna Lakshminarayana",
-        "constituency": "SATTENAPALLE",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "Graduate"
-    },
-    {
-        "id": 140,
-        "name": "Koneti Adimulam",
-        "constituency": "SATYAVEDU (SC)",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Graduate"
-    },
-    {
-        "id": 141,
-        "name": "Bandaru Sravani Sree",
-        "constituency": "SINGANAMALA (SC)",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 142,
-        "name": "Gondu Shankar",
-        "constituency": "SRIKAKULAM",
-        "party": "TDP",
-        "criminal_cases": "7",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 143,
-        "name": "Venkata Sudhir Reddy Bojjala",
-        "constituency": "SRIKALAHASTI",
-        "party": "TDP",
-        "criminal_cases": "15",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 145,
-        "name": "Kolla Lalitha Kumari",
-        "constituency": "SRUNGAVARAPUKOTA",
-        "party": "TDP",
-        "criminal_cases": "5",
-        "education": "12th Pass"
-    },
-    {
-        "id": 146,
-        "name": "Nelavala Vijayasree",
-        "constituency": "SULLURPETA (SC)",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 147,
-        "name": "Bolisetty Srinivas",
-        "constituency": "TADEPALLIGUDEM",
-        "party": "Janasena Party",
-        "criminal_cases": "4",
-        "education": "12th Pass"
-    },
-    {
-        "id": 148,
-        "name": "Tenali Sravan Kumar",
-        "constituency": "TADIKONDA (SC)",
-        "party": "TDP",
-        "criminal_cases": "8",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 149,
-        "name": "J.C.Ashmit Reddy",
-        "constituency": "TADPATRI",
-        "party": "TDP",
-        "criminal_cases": "28",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 150,
-        "name": "Arimilli Radha Krishna",
-        "constituency": "TANUKU",
-        "party": "TDP",
-        "criminal_cases": "7",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 151,
-        "name": "Atchannaidu Kinjarapu",
-        "constituency": "TEKKALI",
-        "party": "TDP",
-        "criminal_cases": "13",
-        "education": "12th Pass"
-    },
-    {
-        "id": 152,
-        "name": "Nadendla Manohar",
-        "constituency": "TENALI",
-        "party": "Janasena Party",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 154,
-        "name": "Aranii Srenevasulu",
-        "constituency": "TIRUPATI",
-        "party": "Janasena Party",
-        "criminal_cases": "0",
-        "education": "12th Pass"
-    },
-    {
-        "id": 155,
-        "name": "Kolikapudi Srinivasa Rao",
-        "constituency": "TIRUVURU (SC)",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 156,
-        "name": "Divya Yanamala",
-        "constituency": "TUNI",
-        "party": "TDP",
-        "criminal_cases": "0",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 157,
-        "name": "Kakarla Suresh",
-        "constituency": "UDAYAGIRI",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 158,
-        "name": "Kanumuru Raghu Rama Krishna Raju (R R R)",
-        "constituency": "UNDI",
-        "party": "TDP",
-        "criminal_cases": "19",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 159,
-        "name": "Dharmaraju Patsamatla",
-        "constituency": "UNGUTURU",
-        "party": "Janasena Party",
-        "criminal_cases": "0",
-        "education": "10th Pass"
-    },
-    {
-        "id": 160,
-        "name": "Payyavula Keshav",
-        "constituency": "URAVAKONDA",
-        "party": "TDP",
-        "criminal_cases": "1",
-        "education": "Others"
-    },
-    {
-        "id": 161,
-        "name": "Ananda Babu Nakka",
-        "constituency": "VEMURU (SC)",
-        "party": "TDP",
-        "criminal_cases": "10",
-        "education": "Graduate Professional"
-    },
-    {
-        "id": 163,
-        "name": "Bonda Umamaheswara Rao",
-        "constituency": "VIJAYAWADA CENTRAL",
-        "party": "TDP",
-        "criminal_cases": "14",
-        "education": "8th Pass"
-    },
-    {
-        "id": 164,
-        "name": "Gadde Rama Mohan",
-        "constituency": "VIJAYAWADA EAST",
-        "party": "TDP",
-        "criminal_cases": "8",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 165,
-        "name": "Yalamanchili Satyanarayana Chowdary (Sujana Chowdary)",
-        "constituency": "VIJAYAWADA WEST",
-        "party": "BJP",
-        "criminal_cases": "4",
-        "education": "Post Graduate"
-    },
-    {
-        "id": 166,
-        "name": "Gonuguntla Venkata Siva Sita Rama Anzanneyllu",
-        "constituency": "VINUKONDA",
-        "party": "TDP",
-        "criminal_cases": "18",
-        "education": "Graduate"
-    },
-    {
-        "id": 167,
-        "name": "Velagapudi Ramakrishna Babu",
-        "constituency": "VISAKHAPATNAM EAST",
-        "party": "TDP",
-        "criminal_cases": "4",
-        "education": "Graduate"
-    },
-    {
-        "id": 168,
-        "name": "Penmetsa Vishnu Kumar Raju",
+        "id": 28,
+        "name": "Vishnu Kumar Raju Penmetsa",
         "constituency": "VISAKHAPATNAM NORTH",
         "party": "BJP",
-        "criminal_cases": "1",
-        "education": "Graduate Professional"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
-        "id": 169,
-        "name": "Ch.Vamsi Krishna Srinivas",
-        "constituency": "VISAKHAPATNAM SOUTH",
-        "party": "Janasena Party",
-        "criminal_cases": "8",
-        "education": "Post Graduate"
+        "id": 29,
+        "name": "Ayyannapatrudu Chintakayala",
+        "constituency": "NARSIPATNAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
-        "id": 170,
+        "id": 30,
+        "name": "Ramakrishna Babu Velagapudi",
+        "constituency": "VISAKHAPATNAM EAST",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 31,
         "name": "P.G.V.R.Naidu(Ganababu)",
         "constituency": "VISAKHAPATNAM WEST",
         "party": "TDP",
@@ -1216,35 +248,1155 @@
         "education": "Graduate"
     },
     {
-        "id": 172,
+        "id": 32,
+        "name": "Palla Srinivas Rao",
+        "constituency": "GAJUWAKA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 33,
+        "name": "Ch.Vamsi Krishna Srinivas",
+        "constituency": "VISAKHAPATNAM SOUTH",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 34,
         "name": "Sundarapu Vijay Kumar",
         "constituency": "YELAMANCHILI",
         "party": "Janasena Party",
-        "criminal_cases": "8",
-        "education": "Others"
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
-        "id": 173,
+        "id": 35,
+        "name": "Anitha Vangalapudi",
+        "constituency": "PAYAKARAOPET",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 36,
+        "name": "Divya Yanamala",
+        "constituency": "TUNI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 37,
+        "name": "Chirri Balaraju",
+        "constituency": "POLAVARAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 38,
+        "name": "Varupula Satya Prabha",
+        "constituency": "PRATHIPADU (VARUPULA SATYA PRABHA)",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 39,
+        "name": "Jyothula Nehru",
+        "constituency": "JAGGAMPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 40,
+        "name": "Bathula Balaramakrishna S/O Gangarao",
+        "constituency": "RAJANAGARAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 41,
+        "name": "Konidala Pawan Kalyan",
+        "constituency": "PITHAPURAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 42,
+        "name": "Roshan Kumar Songa",
+        "constituency": "CHINTALAPUDI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 43,
+        "name": "Maddipati Venkata Raju",
+        "constituency": "GOPALAPURAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 44,
+        "name": "China Rajappa Nimmakayala",
+        "constituency": "PEDDAPURAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 45,
+        "name": "Muppidi Venkateswara Rao",
+        "constituency": "KOVVUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 46,
+        "name": "Kolikapudi Srinivasa Rao",
+        "constituency": "TIRUVURU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 47,
+        "name": "Ramakrishna Reddy Nallamilli",
+        "constituency": "ANAPARTHY",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 48,
+        "name": "Adireddy Srinivas",
+        "constituency": "RAJAHMUNDRY CITY",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 49,
+        "name": "Kolusu Partha Sarathy",
+        "constituency": "NUZVID",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 50,
+        "name": "Pantam Venkateswara Rao (Pantam Nanaji)",
+        "constituency": "KAKINADA RURAL",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 51,
+        "name": "Rajagopal Sreeram (Tataiah)",
+        "constituency": "JAGGAYYAPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 52,
+        "name": "Gorantla Butchaiah Choudary",
+        "constituency": "RAJAHMUNDRY RURAL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 53,
+        "name": "Bandaru Satyananda Rao",
+        "constituency": "KOTHAPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 54,
+        "name": "Datla Subbaraju (Buchibabu)",
+        "constituency": "MUMMIDIVARAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 55,
+        "name": "Vasantha Venkata Krishna Prasad",
+        "constituency": "MYLAVARAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 56,
+        "name": "Jogeswara Rao.V",
+        "constituency": "MANDAPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 57,
+        "name": "Bolisetty Srinivas",
+        "constituency": "TADEPALLIGUDEM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 58,
+        "name": "Vanamadi Venkateswara Rao @ Kondababu",
+        "constituency": "KAKINADA CITY",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 59,
+        "name": "Kandula Durgesh",
+        "constituency": "NIDADAVOLE",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 60,
+        "name": "Chintamaneni Prabhakar",
+        "constituency": "DENDULURU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 61,
+        "name": "Dharmaraju Patsamatla",
+        "constituency": "UNGUTUR",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 62,
+        "name": "Tangirala Sowmya",
+        "constituency": "NANDIGAMA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 63,
+        "name": "Vasamsetti. Subash",
+        "constituency": "RAMACHANDRAPURAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 64,
+        "name": "Bhashyam Praveen",
+        "constituency": "PEDAKURAPADU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 65,
+        "name": "Arimilli Radha Krishna",
+        "constituency": "TANUKU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 66,
+        "name": "Radha Krishnayya Badeti",
+        "constituency": "ELURU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 67,
+        "name": "Yarapathineni Srinivasa Rao",
+        "constituency": "GURAJALA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 68,
+        "name": "Yarlagadda Venkata Rao",
+        "constituency": "GANNAVARAM (YARLAGADDA VENKATA RAO)",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 69,
+        "name": "Giddi. Satyanarayana",
+        "constituency": "GANNAVARAM (GIDDI. SATYANARAYANA)",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 70,
+        "name": "Kamineni Srinivas",
+        "constituency": "KAIKALUR",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 71,
+        "name": "Satyanarayana Pithani",
+        "constituency": "ACHANTA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 72,
+        "name": "Kanumuru Raghu Rama Krishna Raju (R R R)",
+        "constituency": "UNDI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 73,
+        "name": "Julakanti Brahmananda Reddy",
+        "constituency": "MACHERLA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 74,
+        "name": "Ramanjaneyulu Pulaparthi (Anjibabu)",
+        "constituency": "BHIMAVARAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 75,
+        "name": "Aithabathula Anandarao",
+        "constituency": "AMALAPURAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 76,
+        "name": "Tenali Sravan Kumar",
+        "constituency": "TADIKONDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 77,
+        "name": "Dr.Nimmala Ramanaidu",
+        "constituency": "PALACOLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 78,
+        "name": "Bonda Umamaheswararao",
+        "constituency": "VIJAYAWADA CENTRAL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 79,
+        "name": "Venigandla Ramu",
+        "constituency": "GUDIVADA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 80,
+        "name": "Yalamanchili Satyanarayana Chowdary (Sujana Chowdary)",
+        "constituency": "VIJAYAWADA WEST",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 81,
+        "name": "Deva Varaprasad",
+        "constituency": "RAZOLE",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 82,
+        "name": "Kumar Raja Varla",
+        "constituency": "PAMARRU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 83,
+        "name": "Bode Prasad",
+        "constituency": "PENAMALURU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 84,
+        "name": "Gadde Rama Mohan",
+        "constituency": "VIJAYAWADA EAST",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 85,
+        "name": "Nara Lokesh",
+        "constituency": "MANGALAGIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 86,
+        "name": "Kanna Lakshminarayana",
+        "constituency": "SATTENAPALLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 87,
+        "name": "Bommidi Narayana Nayakar",
+        "constituency": "NARASAPURAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 88,
+        "name": "Kagitha Krishnaprasad",
+        "constituency": "PEDANA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 89,
+        "name": "Gonuguntla Venkata Siva Sita Rama Anzanneyllu",
+        "constituency": "VINUKONDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 90,
+        "name": "Mohammed Naseer Ahmed",
+        "constituency": "GUNTUR EAST",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 91,
+        "name": "Dhulipalla Narendra Kumar",
+        "constituency": "PONNUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 92,
+        "name": "Nadendla Manohar",
+        "constituency": "TENALI",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 93,
+        "name": "Galla Madhavi",
+        "constituency": "GUNTUR WEST",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 94,
+        "name": "Aravinda Babu Chadalavada",
+        "constituency": "NARASARAOPET",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 95,
+        "name": "Chandra Sekhar Tatiparthi",
+        "constituency": "YERRAGONDAPALEM",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 96,
+        "name": "Burla Ramanjaneyulu",
+        "constituency": "PRATHIPADU (BURLA RAMANJANEYULU)",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 97,
+        "name": "Prathipati Pullarao",
+        "constituency": "CHILAKALURIPET",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 98,
+        "name": "Kollu. Ravindra",
+        "constituency": "MACHILIPATNAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 99,
+        "name": "Ananda Babu Nakka",
+        "constituency": "VEMURU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 100,
+        "name": "Buddhaprasad Mandali",
+        "constituency": "AVANIGADDA",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 101,
+        "name": "Budda Rajasekhara Reddy",
+        "constituency": "SRISAILAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 102,
+        "name": "Gottipati  Ravi Kumar",
+        "constituency": "ADDANKI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 103,
+        "name": "G Jayasurya",
+        "constituency": "NANDIKOTKUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 104,
+        "name": "Anagani Satya Prasad",
+        "constituency": "REPALLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 105,
+        "name": "Yeluri Sambasiva Rao",
+        "constituency": "PARCHUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 106,
+        "name": "Vegesana Narendra Varma Raju",
+        "constituency": "BAPATLA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 107,
+        "name": "Y. Balanagi Reddy",
+        "constituency": "MANTRALAYAM",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 108,
+        "name": "Buchepalli Siva Prasad Reddy",
+        "constituency": "DARSI",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 109,
         "name": "B. Jayanageswara Reddy",
         "constituency": "YEMMIGANUR",
         "party": "TDP",
-        "criminal_cases": "5",
-        "education": "Graduate Professional"
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 110,
+        "name": "Madduluri Mala Kondaiah",
+        "constituency": "CHIRALA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 111,
+        "name": "Boggula Dastagiri",
+        "constituency": "KODUMUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 112,
+        "name": "T.G.Bharath",
+        "constituency": "KURNOOL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 113,
+        "name": "Gowru Charitha Reddy",
+        "constituency": "PANYAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 114,
+        "name": "Kandula Narayana Reddy",
+        "constituency": "MARKAPURAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 115,
+        "name": "Dr. Partha Sarathi Valmiki",
+        "constituency": "ADONI",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 116,
+        "name": "Ashok Reddy Muthumula",
+        "constituency": "GIDDALUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 117,
+        "name": "Vijay Kumar B.N",
+        "constituency": "SANTHANUTHALAPADU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 118,
+        "name": "B. Virupakshi",
+        "constituency": "ALUR",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 119,
+        "name": "K.E. Shyam Kumar",
+        "constituency": "PATTIKONDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 120,
+        "name": "Kotla Jaya Surya Prakash Reddy",
+        "constituency": "DHONE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 121,
+        "name": "Doctor Dola Sree Bala Veeranjaneya Swamy",
+        "constituency": "KONDAPI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 122,
+        "name": "Damacharla Janardhana Rao",
+        "constituency": "ONGOLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 123,
+        "name": "Nasyam Mohammed Farook",
+        "constituency": "NANDYAL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 124,
+        "name": "Dr. Ugra Narasimha Reddy Mukku",
+        "constituency": "KANIGIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 125,
+        "name": "B.C. Janardhan Reddy",
+        "constituency": "BANAGANAPALLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 126,
+        "name": "Akhila Priya Bhuma",
+        "constituency": "ALLAGADDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 127,
+        "name": "Inturi Nageswara Rao",
+        "constituency": "KANDUKUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 128,
+        "name": "Gummanur Jayaram",
+        "constituency": "GUNTAKAL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 129,
+        "name": "Dasari Sudha",
+        "constituency": "BADVEL",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 130,
+        "name": "Payyavula Keshav",
+        "constituency": "URAVAKONDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 131,
+        "name": "Ashmit Reddy J.C",
+        "constituency": "TADPATRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 132,
+        "name": "Kalava Srinivasulu",
+        "constituency": "RAYADURG",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 133,
+        "name": "Kakarla Suresh",
+        "constituency": "UDAYAGIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 134,
+        "name": "Adinarayana Reddy Chadipirala",
+        "constituency": "JAMMALAMADUGU",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 135,
+        "name": "Sudhakar Putta",
+        "constituency": "MYDUKUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 136,
+        "name": "Dagumati Venkata Krishna Reddy",
+        "constituency": "KAVALI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 137,
+        "name": "Nandyala Varada Rajula Reddy",
+        "constituency": "PRODDATUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 138,
+        "name": "Bandaru Sravani Sree",
+        "constituency": "SINGANAMALA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 139,
+        "name": "Anam.Ramanarayana Reddy",
+        "constituency": "ATMAKUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 140,
+        "name": "Daggupati Prasad",
+        "constituency": "ANANTAPUR URBAN",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 141,
+        "name": "Paritala Sunithamma",
+        "constituency": "RAPTADU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 142,
+        "name": "Ys Jagan Mohan Reddy",
+        "constituency": "PULIVENDLA",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 143,
+        "name": "Amilineni Surendra Babu",
+        "constituency": "KALYANDURG",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 144,
+        "name": "Satya Kumar Yadav",
+        "constituency": "DHARMAVARAM",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 145,
+        "name": "Krishna Chaitanya Reddy Putha",
+        "constituency": "KAMALAPURAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 146,
+        "name": "Prashanthi Reddy Vemireddy",
+        "constituency": "KOVUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 147,
+        "name": "Chandra Mohan Reddy Somireddy",
+        "constituency": "SARVEPALLI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 148,
+        "name": "Kurugondla Ramakrishna",
+        "constituency": "VENKATAGIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 149,
+        "name": "Madhavi Reddappa Gari",
+        "constituency": "KADAPA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 150,
+        "name": "Narayana Ponguru",
+        "constituency": "NELLORE CITY",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 151,
+        "name": "Akepati Amarnath Reddy",
+        "constituency": "RAJAMPET",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 152,
+        "name": "Kotamreddy Sridhar Reddy",
+        "constituency": "NELLORE RURAL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 153,
+        "name": "Palle Sindhura Reddy",
+        "constituency": "PUTTAPARTHI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 154,
+        "name": "Arava Sreedhar",
+        "constituency": "KODUR",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 155,
+        "name": "Kandikunta Venkata Prasad",
+        "constituency": "KADIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 156,
+        "name": "Mandipalli Ramprasad Reddy",
+        "constituency": "RAYACHOTI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 157,
+        "name": "S. Savitha",
+        "constituency": "PENUKONDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 158,
+        "name": "M.S.Raju",
+        "constituency": "MADAKASIRA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 159,
+        "name": "Pasim Sunil Kumar",
+        "constituency": "GUDUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 160,
+        "name": "Nelavala Vijayasree",
+        "constituency": "SULLURPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 161,
+        "name": "P. Dwarakanatha Reddy",
+        "constituency": "THAMBALLAPALLE",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 162,
+        "name": "Nandamuri Balakrishna",
+        "constituency": "HINDUPUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 163,
+        "name": "Nallari Kishan Kumar Reddy",
+        "constituency": "PILERU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 164,
+        "name": "Bojjala Venkata Sudhir Reddy",
+        "constituency": "SRIKALAHASTI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 165,
+        "name": "Venkata Mani Prasad Pullivarthi",
+        "constituency": "CHANDRAGIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 166,
+        "name": "Koneti Adimulam",
+        "constituency": "SATYAVEDU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 167,
+        "name": "Aranii Srenevasulu",
+        "constituency": "TIRUPATI",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 168,
+        "name": "Peddireddi Ramachandra Reddy",
+        "constituency": "PUNGANUR",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 169,
+        "name": "M.Shajahan Basha",
+        "constituency": "MADANAPALLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 170,
+        "name": "Gali Bhanu Prakash",
+        "constituency": "NAGARI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 171,
+        "name": "K Murali Mohan",
+        "constituency": "PUTHALAPATTU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 172,
+        "name": "Dr. Vm. Thomas",
+        "constituency": "GANGADHARA NELLORE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
+    },
+    {
+        "id": 173,
+        "name": "Amaranatha Reddy. N",
+        "constituency": "PALAMANER",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 174,
-        "name": "Chandra Sekhar Tatiparthi",
-        "constituency": "YERRAGONDAPALEM (SC)",
-        "party": "YSRCP",
-        "criminal_cases": "3",
-        "education": "Graduate Professional"
+        "name": "Gurajala Jagan Mohan (Gjm)",
+        "constituency": "CHITTOOR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "Graduate"
     },
     {
         "id": 175,
-        "name": "Palle Sindhura Reddy",
-        "constituency": "Puttaparthi",
+        "name": "Chandrababu Naidu Nara",
+        "constituency": "KUPPAM",
         "party": "TDP",
         "criminal_cases": "0",
-        "education": "Post Graduate (M.Tech)"
+        "education": "Graduate"
     }
 ]

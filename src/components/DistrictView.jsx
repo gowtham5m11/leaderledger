@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
-import { mockDistricts, partyColors } from '../data/mockData';
+import { getDistrictData, partyColors } from '../data/mockData';
 
 const MapTooltip = ({ data }) => {
   if (!data) return null;
@@ -46,11 +46,8 @@ const MapTooltip = ({ data }) => {
 const DistrictView = () => {
   const [tooltipData, setTooltipData] = useState(null);
 
-  // Defensive initialization
   const defaultDistrict = useMemo(() => {
-    if (!mockDistricts) return null;
-    const firstKey = Object.keys(mockDistricts)[0];
-    return mockDistricts[firstKey];
+    return getDistrictData('Kuppam');
   }, []);
 
   const [selectedDistrict, setSelectedDistrict] = useState(defaultDistrict);
@@ -91,6 +88,14 @@ const DistrictView = () => {
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-[#e63946]"></div>
             <span className="label-sm text-on-surface-variant font-medium">JSP</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-[#f97316]"></div>
+            <span className="label-sm text-on-surface-variant font-medium">BJP</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-[#0ea5e9]"></div>
+            <span className="label-sm text-on-surface-variant font-medium">INC</span>
           </div>
         </div>
       </div>

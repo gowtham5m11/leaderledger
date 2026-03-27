@@ -1,101 +1,122 @@
-import React, { useMemo, useState, useCallback } from 'react';
-import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps';
-import { geoMercator } from 'd3-geo';
+import React, { useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import { Plus, Minus } from 'lucide-react';
 import { getDistrictData, partyColors } from '../data/mockData';
-import apData from '../data/AndhraPradesh_assembly_geo.json';
+import mapPaths from '../data/mapPaths.json';
 
 const MapChart = ({ setTooltipContent, onDistrictClick }) => {
-  const [position, setPosition] = useState({ coordinates: [80.5, 15.8], zoom: 1.2 });
-
-  const { projection } = useMemo(() => {
-    // fitSize ensures the entire state is scaled to fill the viewport
-    // Increasing reference viewBox slightly for better fit
-    const proj = geoMercator().fitSize([1200, 900], apData);
-    return { projection: proj };
-  }, []);
+  const [position, setPosition] = useState({ x: 0, y: 0, zoom: 1 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const containerRef = useRef(null);
 
   const handleZoomIn = () => {
-    setPosition(pos => ({ ...pos, zoom: Math.min(pos.zoom * 1.5, 15) }));
+    setPosition(pos => ({ ...pos, zoom: Math.min(pos.zoom * 1.2, 10) }));
   };
 
   const handleZoomOut = () => {
-    setPosition(pos => ({ ...pos, zoom: Math.max(pos.zoom / 1.5, 0.5) }));
+    setPosition(pos => ({ ...pos, zoom: Math.max(pos.zoom / 1.2, 0.5) }));
   };
 
-  const handleMoveEnd = useCallback((newPosition) => {
-    // Debounce/Prevent jitter: Only update if change is visible
-    const dx = Math.abs(newPosition.coordinates[0] - position.coordinates[0]);
-    const dy = Math.abs(newPosition.coordinates[1] - position.coordinates[1]);
-    const dz = Math.abs(newPosition.zoom - position.zoom);
-    if (dx > 0.001 || dy > 0.001 || dz > 0.01) {
-      setPosition(newPosition);
+  const handleWheel = useCallback((e) => {
+    e.preventDefault();
+    const delta = e.deltaY;
+    const factor = delta > 0 ? 0.9 : 1.1;
+    setPosition(pos => ({
+      ...pos,
+      zoom: Math.max(Math.min(pos.zoom * factor, 10), 0.5)
+    }));
+  }, []);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (container) {
+      container.addEventListener('wheel', handleWheel, { passive: false });
+      return () => container.removeEventListener('wheel', handleWheel);
     }
-  }, [position]);
+  }, [handleWheel]);
+
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setDragStart({ x: e.clientX - position.x, y: e.clientY - position.y });
+  };
+
+  const handleMouseMove = useCallback((e) => {
+    if (!isDragging) return;
+    setPosition(pos => ({
+      ...pos,
+      x: e.clientX - dragStart.x,
+      y: e.clientY - dragStart.y
+    }));
+  }, [isDragging, dragStart]);
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const constituencyPaths = useMemo(() => {
+    return Object.entries(mapPaths).map(([name, path]) => {
+      const data = getDistrictData(name);
+      return {
+        name,
+        path,
+        data
+      };
+    });
+  }, []);
 
   return (
-    <div className="map-container">
-      <ComposableMap
-        projection={projection}
-        width={1200}
-        height={900}
-        style={{ width: "100%", height: "100%", outline: "none" }}
+    <div className="map-container relative w-full h-full overflow-hidden bg-surface-container-low rounded-3xl border border-outline-variant/30">
+      <div 
+        ref={containerRef}
+        className={`w-full h-full flex items-center justify-center p-8 ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+        onDoubleClick={handleZoomIn}
+        style={{
+          transform: `translate(${position.x}px, ${position.y}px) scale(${position.zoom})`,
+          transformOrigin: 'center center'
+        }}
       >
-        <ZoomableGroup
-          zoom={position.zoom}
-          center={position.coordinates}
-          minZoom={0.5}
-          maxZoom={20}
-          onMoveEnd={handleMoveEnd}
+        <svg
+          viewBox="0 0 642.8 420"
+          className="w-full h-full drop-shadow-2xl"
+          style={{ maxHeight: '80vh' }}
         >
-          <Geographies geography={apData} strokeWidth={0.3}>
-            {({ geographies }) =>
-              geographies.map((geo) => {
-                const districtName = geo.properties.ac_name || geo.properties.name || "Unknown";
-                const data = getDistrictData(districtName);
+          {constituencyPaths.map((constituency) => {
+            const { name, path, data } = constituency;
+            const party = data.party || 'UNKNOWN';
+            const color = partyColors[party] || '#cccccc';
 
-                return (
-                  <Geography
-                    key={geo.rsmKey}
-                    geography={geo}
-                    onClick={() => onDistrictClick(data)}
-                    onMouseEnter={() => {
-                      setTooltipContent({ name: districtName, ...data });
-                    }}
-                    onMouseLeave={() => {
-                      setTooltipContent(null);
-                    }}
-                    style={{
-                      default: {
-                        fill: partyColors[data.party] ? partyColors[data.party] + "50" : "var(--primary-container)",
-                        stroke: "var(--outline)",
-                        strokeWidth: 0.1,
-                        outline: "none",
-                        transition: "fill 300ms ease"
-                      },
-                      hover: {
-                        fill: partyColors[data.party] ? partyColors[data.party] : "var(--primary)",
-                        stroke: "var(--on-surface)",
-                        strokeWidth: 0.6,
-                        outline: "none",
-                        cursor: "pointer",
-                        transition: "all 300ms ease"
-                      },
-                      pressed: {
-                        fill: "var(--surface-container-highest)",
-                        outline: "none",
-                      }
-                    }}
-                  />
-                );
-              })
-            }
-          </Geographies>
-        </ZoomableGroup>
-      </ComposableMap>
+            return (
+              <path
+                key={name}
+                d={path}
+                className="constituency-path transition-all duration-300 cursor-pointer"
+                fill={color}
+                fillOpacity={0.6}
+                stroke="#ffffff"
+                strokeWidth={0.2}
+                onClick={() => onDistrictClick(data)}
+                onMouseEnter={() => {
+                  setTooltipContent({ name, ...data });
+                }}
+                onMouseLeave={() => {
+                  setTooltipContent(null);
+                }}
+                style={{
+                  '--hover-fill': color,
+                }}
+              />
+            );
+          })}
+        </svg>
+      </div>
 
       {/* Manual Zoom Controls - Positioned Left */}
-      <div className="absolute top-48 left-10 flex flex-col gap-3 z-50">
+      {/* Manual Zoom Controls - Positioned Bottom-Right */}
+      <div className="absolute bottom-8 right-8 flex flex-col gap-3 z-[60]">
         <button
           onClick={handleZoomIn}
           className="w-14 h-14 bg-white/90 backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-white text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
@@ -122,3 +143,4 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
 };
 
 export default React.memo(MapChart);
+

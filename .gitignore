@@ -28,3 +28,8 @@ __pycache__/
 *.pyc
 scraper_lab/fast_scraper.py
 scraper_lab/get_sample_url.py
+inspo
+scripts/audit_data.py
+scripts/debug_duplicates.py
+scripts/extract_data.py
+

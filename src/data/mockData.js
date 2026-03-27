@@ -1,67 +1,66 @@
-export const mockDistricts = {
-  "Alluri Sitharama Raju": { name: "Alluri Sitharama Raju", population: "9.5 Lakhs", currentMla: "Viswasarayi Kalavathi", party: "YSRCP", pastMla: "Kidari Sarveswara Rao", partyChanges: 2, votersCount: "7.2 Lakhs", majorityVotes: "25,000" },
-  "Srikakulam": { name: "Srikakulam", population: "12.5 Lakhs", currentMla: "Dharmana Prasada Rao", party: "YSRCP", pastMla: "Gunda Lakshmi Devi", partyChanges: 3, votersCount: "9.8 Lakhs", majorityVotes: "5,500" },
-  "Visakhapatnam": { name: "Visakhapatnam", population: "19.5 Lakhs", currentMla: "Velagapudi Ramakrishna", party: "TDP", pastMla: "Vijaya Sai Reddy", partyChanges: 1, votersCount: "14 Lakhs", majorityVotes: "34,000" },
-  "Guntur": { name: "Guntur", population: "20.9 Lakhs", currentMla: "Maddali Giridhar", party: "YSRCP", pastMla: "Nakka Anand Babu", partyChanges: 4, votersCount: "16 Lakhs", majorityVotes: "12,000" },
-};
+import leadersData from './leaders.json';
 
-import leaders from './leaders.json';
+// Use a separate constant for the array to avoid any ambiguity
+const leaders = Array.isArray(leadersData) ? leadersData : (leadersData.leaders || []);
 
 export const partyColors = {
   TDP: "#fce903",
   YSRCP: "#00249c",
   JSP: "#e63946",
-  "Janasena Party": "#e63946",
   BJP: "#f97316",
   INC: "#0ea5e9"
 };
 
 export const getDistrictData = (name) => {
+  if (!name) return {};
   const cleanName = name.trim().toLowerCase();
   
-  // Find leader by constituency name (case-insensitive match)
+  // High-precision matching logic
   const leader = leaders.find(l => {
-    const lCon = l.constituency.toLowerCase();
-    return lCon === cleanName || lCon.includes(cleanName) || cleanName.includes(lCon);
+    const lCon = (l.constituency || "").toUpperCase();
+    const target = name.toUpperCase();
+    
+    return lCon === target || 
+           lCon.replace(/\(SC\)|\(ST\)/g, '').trim() === target ||
+           target.replace(/\(SC\)|\(ST\)/g, '').trim() === lCon ||
+           target.includes(lCon) || 
+           lCon.includes(target);
   });
 
   if (leader) {
-    // Return actual data if found
+    const party = leader.party === "Janasena Party" ? "JSP" : leader.party;
     return {
       name: leader.constituency,
-      population: "Approx 15 Lakhs",
+      population: "Constituency Wide",
       currentMla: leader.name,
-      party: leader.party === "Janasena Party" ? "JSP" : leader.party,
-      pastMla: "Former Representative",
+      party: party,
+      pastMla: "Former representative records pending",
       partyChanges: 0,
-      votersCount: "Verified Ledger",
-      majorityVotes: 8225, // Mocking majority for visual consistency
-      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=${partyColors[leader.party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
+      votersCount: "Verified Assembly Ledger",
+      majorityVotes: 8500, // Placeholder
+      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
     };
   }
 
-  // Fallback for districts or unknown constituencies
+  // Fallback for unknown
   const parties = ["TDP", "YSRCP", "JSP"];
   const hash = name.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
   const deterministicParty = parties[hash % parties.length];
 
-  const data = mockDistricts[name] || {
+  return {
     name,
     population: "Approx 15 Lakhs",
     currentMla: "Sitting Representative",
     party: deterministicParty,
     pastMla: "Former Representative",
     partyChanges: hash % 5,
-    votersCount: "10-15 Lakhs",
-    majorityVotes: (hash * 10) % 50000 + 2000
-  };
-  return {
-    ...data,
-    image: `https://ui-avatars.com/api/?name=${encodeURIComponent(data.currentMla)}&background=${partyColors[data.party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
+    votersCount: "Data Fetching...",
+    majorityVotes: (hash * 10) % 50000 + 2000,
+    image: `https://ui-avatars.com/api/?name=${encodeURIComponent("Sitting Rep")}&background=${partyColors[deterministicParty]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
   };
 };
 
-
+export const mockDistricts = {}; // Deprecated in favor of real data
 
 export const mockCandidates = [
   {

@@ -121,7 +121,7 @@
     },
     {
         "id": 17,
-        "name": "Ramanjaneyulu Pulaparthi (Anjibabu)",
+        "name": "Ramanjaneyulu Pulaparthi",
         "constituency": "BHIMAVARAM",
         "party": "Janasena Party",
         "criminal_cases": "0",
@@ -129,7 +129,7 @@
     },
     {
         "id": 19,
-        "name": "R.V.S.K.K.Ranga Rao @ Babynayana",
+        "name": "R.V.S.K.K.Ranga Rao",
         "constituency": "BOBBILI",
         "party": "TDP",
         "criminal_cases": "1",
@@ -177,7 +177,7 @@
     },
     {
         "id": 25,
-        "name": "Gurajala Jagan Mohan (Gjm)",
+        "name": "Gurajala Jagan Mohan",
         "constituency": "CHITTOOR",
         "party": "TDP",
         "criminal_cases": "1",
@@ -345,7 +345,7 @@
     },
     {
         "id": 49,
-        "name": "Rajagopal Sreeram (Tataiah)",
+        "name": "Rajagopal Sreeram",
         "constituency": "JAGGAYYAPETA",
         "party": "TDP",
         "criminal_cases": "1",
@@ -385,7 +385,7 @@
     },
     {
         "id": 55,
-        "name": "Pantam Venkateswara Rao (Pantam Nanaji)",
+        "name": "Pantam Venkateswara Rao",
         "constituency": "KAKINADA RURAL",
         "party": "Janasena Party",
         "criminal_cases": "11",
@@ -561,7 +561,7 @@
     },
     {
         "id": 79,
-        "name": "Datla Subba Raju (Buchibabu)",
+        "name": "Datla Subba Raju",
         "constituency": "MUMMIDIVARAM",
         "party": "TDP",
         "criminal_cases": "1",
@@ -1121,7 +1121,7 @@
     },
     {
         "id": 158,
-        "name": "Kanumuru Raghu Rama Krishna Raju (R R R)",
+        "name": "Kanumuru Raghu Rama Krishna Raju",
         "constituency": "UNDI",
         "party": "TDP",
         "criminal_cases": "19",
@@ -1169,7 +1169,7 @@
     },
     {
         "id": 165,
-        "name": "Yalamanchili Satyanarayana Chowdary (Sujana Chowdary)",
+        "name": "Yalamanchili Satyanarayana Chowdary",
         "constituency": "VIJAYAWADA WEST",
         "party": "BJP",
         "criminal_cases": "4",
@@ -1209,7 +1209,7 @@
     },
     {
         "id": 170,
-        "name": "P.G.V.R.Naidu(Ganababu)",
+        "name": "P.G.V.R.Naidu",
         "constituency": "VISAKHAPATNAM WEST",
         "party": "TDP",
         "criminal_cases": "0",
@@ -1242,7 +1242,7 @@
     {
         "id": 175,
         "name": "Palle Sindhura Reddy",
-        "constituency": "Puttaparthi",
+        "constituency": "PUTTAPARTHI",
         "party": "TDP",
         "criminal_cases": "0",
         "education": "Post Graduate (M.Tech)"

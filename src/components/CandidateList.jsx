@@ -6,10 +6,11 @@ const CandidateList = ({ onSelectCandidate }) => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const getPriorityIndex = (name) => {
-    if (name.includes("Chandrababu Naidu")) return 0;
-    if (name.includes("Pawan Kalyan")) return 1;
-    if (name.includes("Nara Lokesh")) return 2;
-    if (name.includes("Jagan Mohan Reddy")) return 3;
+    const lowerName = name.toLowerCase();
+    if (lowerName.includes("chandrababu naidu")) return 0;
+    if (lowerName.includes("pawan kalyan")) return 1;
+    if (lowerName.includes("nara lokesh")) return 2;
+    if (lowerName.includes("jagan mohan reddy")) return 3;
     return 999;
   };
 
