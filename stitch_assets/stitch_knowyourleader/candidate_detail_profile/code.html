@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Candidate Detail Profile - KnowYourLeader.com</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Prata&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-container": "#d9c900",
+                        "on-primary-fixed-variant": "#304e30",
+                        "on-tertiary-fixed": "#1f1c00",
+                        "background": "#f8faf7",
+                        "surface-container-high": "#e7e9e6",
+                        "secondary-container": "#758aff",
+                        "secondary": "#3d53c5",
+                        "on-secondary-fixed-variant": "#2039ac",
+                        "on-error": "#ffffff",
+                        "surface-dim": "#d8dbd8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "outline": "#737970",
+                        "surface-tint": "#486646",
+                        "on-primary-container": "#3c593a",
+                        "on-background": "#191c1b",
+                        "primary-fixed": "#c9ecc3",
+                        "tertiary-fixed": "#f8e500",
+                        "surface-container-highest": "#e1e3e0",
+                        "surface-variant": "#e1e3e0",
+                        "surface-container-low": "#f2f4f1",
+                        "secondary-fixed": "#dee0ff",
+                        "primary-fixed-dim": "#aed0a9",
+                        "surface-container": "#eceeeb",
+                        "on-secondary-container": "#001d83",
+                        "on-tertiary-container": "#5b5300",
+                        "tertiary-fixed-dim": "#dac900",
+                        "on-tertiary-fixed-variant": "#4e4800",
+                        "on-primary-fixed": "#042108",
+                        "tertiary": "#686000",
+                        "surface": "#f8faf7",
+                        "inverse-surface": "#2e312f",
+                        "secondary-fixed-dim": "#bac3ff",
+                        "on-surface": "#191c1b",
+                        "on-surface-variant": "#434841",
+                        "error-container": "#ffdad6",
+                        "on-primary": "#ffffff",
+                        "primary": "#486646",
+                        "on-secondary-fixed": "#00115a",
+                        "outline-variant": "#c3c8be",
+                        "primary-container": "#adcfa8",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#eff1ee",
+                        "error": "#ba1a1a",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f8faf7",
+                        "inverse-primary": "#aed0a9"
+                    },
+                    fontFamily: {
+                        "headline": ["Prata", "serif"],
+                        "body": ["Outfit", "sans-serif"],
+                        "label": ["Outfit", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Outfit', sans-serif; background-color: #f8faf7; color: #191c1b; }
+        .font-prata { font-family: 'Prata', serif; }
+        .glass-nav { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .ledger-shadow { box-shadow: 0 20px 40px rgba(25, 28, 27, 0.04); }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container">
+<!-- Top Navigation (Shell) -->
+<nav class="glass-nav sticky top-0 z-50 px-6 py-4 flex items-center justify-between border-b border-outline-variant/10">
+<div class="flex items-center gap-8">
+<span class="font-prata text-xl text-primary tracking-tight">KnowYourLeader.com</span>
+</div>
+<button class="p-2 hover:bg-surface-container-high rounded-full transition-all">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+<main class="max-w-6xl mx-auto px-6 py-12">
+<!-- Back Action -->
+<div class="mb-8">
+<button class="flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all">
+<span class="material-symbols-outlined text-lg">arrow_back</span>
+<span class="text-sm">Back to Candidates List</span>
+</button>
+</div>
+<!-- Master Profile Card -->
+<div class="bg-surface-container-lowest rounded-2xl ledger-shadow overflow-hidden">
+<!-- Hero Header Section -->
+<div class="p-10 md:p-16 flex flex-col md:flex-row gap-12 items-start relative">
+<!-- Asymmetric Decorative Element -->
+<div class="absolute top-0 right-0 w-1/3 h-full bg-primary-container/10 -skew-x-12 transform translate-x-20 z-0"></div>
+<div class="relative z-10">
+<div class="w-[150px] h-[150px] rounded-xl overflow-hidden ring-4 ring-surface-container-low shadow-xl">
+<img alt="Candidate Portrait" class="w-full h-full object-cover" data-alt="Professional portrait of a male political leader" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIQwNJNrNHK4ToyKFBBeD1oXL0Q4PYf8nEt1tJr3DkACfB1_rWulQ0oPEFuJjC3dQbdP3RnyqohRW3heKeoka4Wi1GCLWgmWuQ65hfy4Fsn6tfov0eydlf6Wwm9_1nQSpRgXodIRedAGHJIHM44Us-AxdlTl24qrand-GAWwIC4R0kwBdzBmMmHe2bQRFCZZh4JDHfIMkvpHbJAD9d7FCJa8SQzfHDsr8VAFc5Q6Yy4UGRrOed-8ujJ18EqTFj1bpGPCSw76aAr3U"/>
+</div>
+</div>
+<div class="relative z-10 flex-1">
+<div class="flex flex-col gap-2">
+<span class="text-xs font-semibold tracking-widest text-primary uppercase bg-primary-container/30 self-start px-3 py-1 rounded-full">Incumbent</span>
+<h1 class="font-prata text-4xl md:text-5xl text-on-surface mt-2">N. Chandrababu Naidu</h1>
+<div class="flex items-center gap-4 mt-3">
+<span class="w-1 h-6 bg-[#fce903]"></span>
+<p class="text-lg font-medium text-on-surface-variant">Chief Minister • TDP (Telugu Desam Party)</p>
+</div>
+</div>
+<!-- Info Grid -->
+<div class="grid grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-12 mt-12 border-t border-outline-variant/10 pt-10">
+<div>
+<p class="text-label-sm text-outline font-medium uppercase tracking-wider mb-1">Date of Birth</p>
+<p class="text-on-surface font-semibold">20 April 1950</p>
+</div>
+<div>
+<p class="text-label-sm text-outline font-medium uppercase tracking-wider mb-1">Age</p>
+<p class="text-on-surface font-semibold">74 Years</p>
+</div>
+<div>
+<p class="text-label-sm text-outline font-medium uppercase tracking-wider mb-1">Birthplace</p>
+<p class="text-on-surface font-semibold">Naravaripalle, AP</p>
+</div>
+<div>
+<p class="text-label-sm text-outline font-medium uppercase tracking-wider mb-1">Experience</p>
+<p class="text-on-surface font-semibold">40+ Years in Politics</p>
+</div>
+<div class="col-span-2">
+<p class="text-label-sm text-outline font-medium uppercase tracking-wider mb-1">Education</p>
+<p class="text-on-surface font-semibold">Master's in Economics, SV University</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Content Sections Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12">
+<!-- Left Column: Timeline -->
+<div class="lg:col-span-8 bg-surface-container-low p-10 md:p-16">
+<h2 class="font-prata text-3xl mb-12 flex items-center gap-4">
+                        Political Journey
+                        <span class="h-px flex-1 bg-outline-variant/30"></span>
+</h2>
+<div class="space-y-12 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-0.5 before:bg-primary/20">
+<!-- Timeline Item -->
+<div class="relative pl-10">
+<div class="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-primary border-4 border-surface-container-lowest"></div>
+<span class="font-headline text-2xl text-primary block mb-2">1995 — 2004</span>
+<h3 class="text-lg font-semibold mb-2">First Tenure as Chief Minister</h3>
+<p class="text-on-surface-variant leading-relaxed">Spearheaded the IT revolution in Hyderabad, transforming the city into a global technology hub known as "Cyberabad".</p>
+</div>
+<!-- Timeline Item -->
+<div class="relative pl-10">
+<div class="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-outline-variant border-4 border-surface-container-lowest"></div>
+<span class="font-headline text-2xl text-on-surface block mb-2">2004 — 2014</span>
+<h3 class="text-lg font-semibold mb-2">Leader of the Opposition</h3>
+<p class="text-on-surface-variant leading-relaxed">Focused on rural development and farmers' welfare across United Andhra Pradesh.</p>
+</div>
+<!-- Timeline Item -->
+<div class="relative pl-10">
+<div class="absolute left-0 top-1.5 w-6 h-6 rounded-full bg-primary border-4 border-surface-container-lowest"></div>
+<span class="font-headline text-2xl text-primary block mb-2">2014 — 2019</span>
+<h3 class="text-lg font-semibold mb-2">CM of Residual Andhra Pradesh</h3>
+<p class="text-on-surface-variant leading-relaxed">Initiated the development of Amaravati as the Greenfield capital city of the state.</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Critical Info & News -->
+<div class="lg:col-span-4 p-10 md:p-12 space-y-12">
+<!-- Criminal Record Section -->
+<section class="bg-error-container/10 border-l-4 border-error p-6 rounded-r-xl">
+<div class="flex items-center gap-2 text-error mb-4">
+<span class="material-symbols-outlined">gavel</span>
+<h3 class="font-bold text-sm uppercase tracking-tighter">Criminal Disclosures</h3>
+</div>
+<div class="space-y-4">
+<div>
+<p class="text-error font-semibold text-lg">02 Pending Cases</p>
+<p class="text-sm text-on-surface-variant mt-1">Primarily related to public protest and administrative disputes. No convictions recorded.</p>
+</div>
+<button class="text-xs font-bold text-error underline decoration-2 underline-offset-4 hover:opacity-80">VIEW COURT AFFIDAVITS</button>
+</div>
+</section>
+<!-- Latest News Section -->
+<section>
+<h3 class="font-prata text-xl mb-6">In the Headlines</h3>
+<div class="space-y-6">
+<!-- News Card -->
+<div class="group cursor-pointer">
+<span class="text-[10px] font-bold text-outline uppercase tracking-widest mb-2 block">2 HOURS AGO</span>
+<h4 class="font-semibold group-hover:text-primary transition-colors leading-snug">Naidu chairs high-level meet on Polavaram project progress.</h4>
+<div class="w-full h-px bg-outline-variant/20 mt-4 group-last:hidden"></div>
+</div>
+<!-- News Card -->
+<div class="group cursor-pointer">
+<span class="text-[10px] font-bold text-outline uppercase tracking-widest mb-2 block">YESTERDAY</span>
+<h4 class="font-semibold group-hover:text-primary transition-colors leading-snug">Andhra Pradesh attracts ₹20,000 Cr investment in green energy sector.</h4>
+<div class="w-full h-px bg-outline-variant/20 mt-4 group-last:hidden"></div>
+</div>
+<!-- News Card -->
+<div class="group cursor-pointer">
+<span class="text-[10px] font-bold text-outline uppercase tracking-widest mb-2 block">3 DAYS AGO</span>
+<h4 class="font-semibold group-hover:text-primary transition-colors leading-snug">CM interacts with beneficiary farmers of the drip irrigation scheme.</h4>
+<div class="w-full h-px bg-outline-variant/20 mt-4 group-last:hidden"></div>
+</div>
+</div>
+<button class="w-full mt-8 py-3 bg-surface-container-high text-on-surface text-sm font-semibold rounded-lg hover:bg-surface-container-highest transition-all">
+                            See All Media Coverage
+                        </button>
+</section>
+</div>
+</div>
+</div>
+<!-- Floating Comparison Action (Editorial Style) -->
+<div class="mt-16 flex flex-col md:flex-row items-center justify-between p-8 bg-primary rounded-2xl text-on-primary">
+<div>
+<h3 class="font-prata text-2xl mb-1">Analyze &amp; Compare</h3>
+<p class="text-on-primary/80">Evaluate this leader against other candidates in the same constituency.</p>
+</div>
+<button class="mt-6 md:mt-0 px-8 py-4 bg-white text-primary font-bold rounded-xl scale-100 hover:scale-105 transition-transform flex items-center gap-2">
+<span class="material-symbols-outlined">compare_arrows</span>
+                Enter Comparison Tool
+            </button>
+</div>
+</main>
+<!-- Bottom Navigation (Shell - Destination feel) -->
+<div class="fixed bottom-6 left-1/2 -translate-x-1/2 glass-nav ledger-shadow px-8 py-3 rounded-full flex items-center gap-10 z-50">
+<div class="flex flex-col items-center gap-1 group cursor-pointer opacity-50 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">explore</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Map</span>
+</div>
+<div class="flex flex-col items-center gap-1 group cursor-pointer opacity-50 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">format_list_bulleted</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">List</span>
+</div>
+<div class="flex flex-col items-center gap-1 group cursor-pointer text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">compare_arrows</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Compare</span>
+</div>
+<div class="flex flex-col items-center gap-1 group cursor-pointer opacity-50 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Profile</span>
+</div>
+</div>
+<!-- Padding for bottom nav -->
+<div class="h-32"></div>
+</body></html>
