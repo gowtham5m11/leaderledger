@@ -44,3 +44,4 @@ scripts/audit_data.py
 scripts/debug_duplicates.py
 scripts/extract_data.py
 
+src/data/candidates_backup.json

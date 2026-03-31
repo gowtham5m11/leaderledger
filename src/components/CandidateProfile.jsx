@@ -24,8 +24,20 @@ const CandidateProfile = () => {
 
   if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Candidate Not Found</div>;
 
-  const partyColor = partyColors[candidate.party] || '#737970';
-  const isTDP = candidate.party === 'TDP';
+  const normalizePartyForColor = (p) => {
+    const lower = p.toLowerCase();
+    if (lower.includes('janasena') || lower === 'jsp') return 'JSP';
+    if (lower.includes('tdp')) return 'TDP';
+    if (lower.includes('ysrcp')) return 'YSRCP';
+    if (lower.includes('bjp')) return 'BJP';
+    if (lower.includes('inc')) return 'INC';
+    return p;
+  };
+
+  const currentPartyKey = normalizePartyForColor(candidate.party);
+  const partyColor = partyColors[currentPartyKey] || partyColors[candidate.party] || '#737970';
+  const isTDP = currentPartyKey === 'TDP';
+  const isJSP = currentPartyKey === 'JSP';
 
   // Fallback for missing fields in leaders.json
   const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColor.replace('#', '')}&color=fff&size=200`;
@@ -159,12 +171,12 @@ const CandidateProfile = () => {
                 paddingTop: '2.5rem' 
               }}>
                 <div>
-                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Date of Birth</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.dob || 'Unknown'}</p>
-                </div>
-                <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || '45'} Years</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>
+                    {candidate.dob && candidate.dob.includes('Age:') 
+                      ? candidate.dob.replace('Age:', '').replace('(2024 Affidavits)', '').trim() 
+                      : candidate.age || 'Unknown'}
+                  </p>
                 </div>
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Birthplace</p>

@@ -6,7 +6,8 @@ const candidates = Array.isArray(candidatesData) ? candidatesData : (candidatesD
 export const partyColors = {
   TDP: "#fce903",
   YSRCP: "#00249c",
-  JSP: "#e63946",
+  JSP: "#ff0000",
+  "Janasena Party": "#ff0000",
   BJP: "#f97316",
   INC: "#0ea5e9"
 };
@@ -98,7 +99,7 @@ export const mockCandidates = [
       { year: "2019", place: "Gajuwaka & Bhimavaram Constituencies" }
     ],
     criminalRecord: "None",
-    image: "https://ui-avatars.com/api/?name=PK&background=e63946&color=fff&size=150"
+    image: "https://ui-avatars.com/api/?name=PK&background=ff0000&color=fff&size=150"
   },
   {
     id: 3,

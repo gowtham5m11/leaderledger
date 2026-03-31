@@ -100,7 +100,7 @@ const DistrictView = () => {
             <span className="label-sm text-on-surface-variant font-medium">YSRCP</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[#e63946]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#ff0000]"></div>
             <span className="label-sm text-on-surface-variant font-medium">JSP</span>
           </div>
           <div className="flex items-center gap-2">

@@ -6,7 +6,16 @@ const CandidateView = () => {
   const [selectedCandidate, setSelectedCandidate] = useState(null);
 
   if (selectedCandidate) {
-    const partyKey = selectedCandidate.party.toLowerCase();
+    const normalizeParty = (p) => {
+      const lower = p.toLowerCase();
+      if (lower.includes('janasena') || lower === 'jsp') return 'jsp';
+      if (lower.includes('tdp')) return 'tdp';
+      if (lower.includes('ysrcp')) return 'ysrcp';
+      if (lower.includes('bjp')) return 'bjp';
+      if (lower.includes('inc')) return 'inc';
+      return lower;
+    };
+    const partyKey = normalizeParty(selectedCandidate.party);
     const ledgerClass = `ledger-line-${partyKey}`;
 
     return (
@@ -53,10 +62,14 @@ const CandidateView = () => {
                 <div>
                   <div className="flex items-center gap-2 text-primary mb-2">
                     <Calendar size={18} />
-                    <span className="label-sm font-bold">Born</span>
+                    <span className="label-sm font-bold">Age</span>
                   </div>
-                  <p className="font-medium">{selectedCandidate.dob} ({selectedCandidate.age} Yrs)</p>
-                  <p className="text-sm text-outline mt-1">{selectedCandidate.birthplace}</p>
+                  <p className="font-medium">
+                    {selectedCandidate.dob && selectedCandidate.dob.includes('Age:') 
+                      ? selectedCandidate.dob.replace('Age:', '').replace('(2024 Affidavits)', '').trim() 
+                      : selectedCandidate.age || '45'} Years
+                  </p>
+                  <p className="text-sm text-outline mt-1">{selectedCandidate.birthplace || 'Andhra Pradesh'}</p>
                 </div>
                 <div>
                   <div className="flex items-center gap-2 text-primary mb-2">
@@ -138,7 +151,16 @@ const CandidateView = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {mockCandidates.map((cand) => {
-           const partyKey = cand.party.toLowerCase();
+           const normalizeParty = (p) => {
+             const lower = p.toLowerCase();
+             if (lower.includes('janasena') || lower === 'jsp') return 'jsp';
+             if (lower.includes('tdp')) return 'tdp';
+             if (lower.includes('ysrcp')) return 'ysrcp';
+             if (lower.includes('bjp')) return 'bjp';
+             if (lower.includes('inc')) return 'inc';
+             return lower;
+           };
+           const partyKey = normalizeParty(cand.party);
            return (
             <div 
               key={cand.id} 
