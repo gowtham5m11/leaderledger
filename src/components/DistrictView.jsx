@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
 import Footer from './Footer';
+import { trackEvent } from '../utils/analytics';
 import { getDistrictData, partyColors } from '../data/mockData';
 
 const MapTooltip = ({ data }) => {
@@ -55,6 +56,16 @@ const DistrictView = () => {
 
   const [selectedDistrict, setSelectedDistrict] = useState(defaultDistrict);
   const [isPanelVisible, setIsPanelVisible] = useState(true);
+
+  React.useEffect(() => {
+    if (selectedDistrict) {
+      trackEvent('select_district', {
+        district_name: selectedDistrict.name,
+        party: selectedDistrict.party,
+        representative: selectedDistrict.currentMla,
+      });
+    }
+  }, [selectedDistrict]);
 
   const handleDistrictClick = (data) => {
     setSelectedDistrict(data);

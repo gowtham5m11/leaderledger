@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { partyColors } from '../data/mockData';
 import candidates from '../data/candidates.json';
 import Footer from './Footer';
+import { trackEvent } from '../utils/analytics';
 
 const CandidateProfile = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   
   const candidate = candidates.find(c => String(c.id) === String(id));
+
+  useEffect(() => {
+    if (candidate) {
+      trackEvent('view_candidate', {
+        candidate_id: candidate.id,
+        candidate_name: candidate.name,
+        party: candidate.party,
+        constituency: candidate.constituency,
+      });
+    }
+  }, [candidate]);
 
   if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Candidate Not Found</div>;
 
