@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import candidates from '../data/candidates.json';
 import LeaderCard from './LeaderCard';
+import Footer from './Footer';
 
 const CandidateList = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -97,7 +98,7 @@ const CandidateList = () => {
           )}
         </div>
       </main>
-      <div style={{ height: '8rem' }}></div>
+      <Footer />
     </div>
   );
 };

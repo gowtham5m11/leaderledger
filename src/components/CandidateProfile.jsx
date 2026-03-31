@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { partyColors } from '../data/mockData';
 import candidates from '../data/candidates.json';
+import Footer from './Footer';
 
 const CandidateProfile = () => {
   const { id } = useParams();
@@ -317,7 +318,7 @@ const CandidateProfile = () => {
           </button>
         </div>
       </main>
-      <div style={{ height: '8rem' }}></div>
+      <Footer />
     </div>
   );
 };

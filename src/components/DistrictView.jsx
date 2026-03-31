@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
+import Footer from './Footer';
 import { getDistrictData, partyColors } from '../data/mockData';
 
 const MapTooltip = ({ data }) => {
@@ -195,6 +196,7 @@ const DistrictView = () => {
                 </button>
               )}
             </div>
+            <Footer />
           </div>
         </aside>
       </div>
