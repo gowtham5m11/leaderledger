@@ -1,94 +1,88 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import DistrictView from './components/DistrictView';
 import CandidateList from './components/CandidateList';
 import CandidateProfile from './components/CandidateProfile';
 
 function App() {
-  const [viewMode, setViewMode] = useState('district'); // 'district' | 'list' | 'profile'
-  const [selectedCandidate, setSelectedCandidate] = useState(null);
+  return (
+    <Router>
+      <div className="app-container">
+        <Header />
 
-  const navigateTo = (view) => {
-    setViewMode(view);
-  };
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Navigate to="/district" replace />} />
+            <Route path="/district" element={<DistrictView />} />
+            <Route path="/list" element={<CandidateList />} />
+            <Route path="/profile/:id" element={<CandidateProfile />} />
+          </Routes>
+        </main>
 
-  const handleSelectCandidate = (candidate) => {
-    setSelectedCandidate(candidate);
-    setViewMode('profile');
-  };
+        <FloatingNav />
+      </div>
+    </Router>
+  );
+}
 
-  const handleBackToList = () => {
-    setViewMode('list');
-  };
+// Separate component for footer to use useLocation/useNavigate
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
+import candidates from './data/candidates.json';
 
-  // For Header compatibility: it checks for 'district' or 'candidate'
-  const headerViewMode = viewMode === 'district' ? 'district' : 'candidate';
-  const toggleView = () => {
-    if (viewMode === 'district') {
-      navigateTo('list');
-    } else {
-      navigateTo('district');
-    }
-  };
+const FloatingNav = () => {
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
+  const { id } = useParams();
+  
+  const viewMode = pathname.includes('/district') ? 'district' : 
+                   pathname.includes('/list') ? 'list' : 
+                   pathname.includes('/profile') ? 'profile' : '';
 
   return (
-    <div className="app-container">
-      <Header viewMode={headerViewMode} toggleView={toggleView} />
-
-      <main className={`main-content${viewMode === 'district' ? ' map-full-screen' : ''}`}>
-        {viewMode === 'district' && <DistrictView />}
-        {viewMode === 'list' && <CandidateList onSelectCandidate={handleSelectCandidate} />}
-        {viewMode === 'profile' && (
-          <CandidateProfile candidate={selectedCandidate} onBack={handleBackToList} />
-        )}
-      </main>
-
-      {/* Floating Bottom Navigation - matches Stitch design */}
-      <div style={{
-        position: 'fixed', bottom: '1.5rem', left: '50%', transform: 'translateX(-50%)',
-        background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(12px)',
-        WebkitBackdropFilter: 'blur(12px)',
-        borderRadius: '9999px', padding: '0.75rem 2.5rem',
-        display: 'flex', alignItems: 'center', gap: '2.5rem',
-        zIndex: 200,
-        boxShadow: '0 20px 40px rgba(25,28,27,0.12), 0 0 0 1px rgba(195,200,190,0.2)',
-      }}>
-        {[
-          { label: 'Map', icon: 'explore', view: 'district' },
-          { label: 'List', icon: 'format_list_bulleted', view: 'list' },
-          { label: 'Compare', icon: 'compare_arrows', view: null },
-          { label: 'Profile', icon: 'account_circle', view: selectedCandidate ? 'profile' : null },
-        ].map(({ label, icon, view }) => {
-          const isActive = viewMode === view;
-          return (
-            <div
-              key={label}
-              onClick={() => view && navigateTo(view)}
-              style={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px',
-                cursor: view ? 'pointer' : 'default',
-                opacity: view ? (isActive ? 1 : 0.5) : 0.3,
-                color: isActive ? 'var(--primary)' : 'var(--on-surface)',
-                transition: 'all 0.2s'
-              }}
-              onMouseOver={e => { if (view) e.currentTarget.style.opacity = '1'; }}
-              onMouseOut={e => { if (view) e.currentTarget.style.opacity = isActive ? '1' : '0.5'; }}
+    <div style={{
+      position: 'fixed', bottom: '1.5rem', left: '50%', transform: 'translateX(-50%)',
+      background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(12px)',
+      WebkitBackdropFilter: 'blur(12px)',
+      borderRadius: '9999px', padding: '0.75rem 2.5rem',
+      display: 'flex', alignItems: 'center', gap: '2.5rem',
+      zIndex: 200,
+      boxShadow: '0 20px 40px rgba(25,28,27,0.12), 0 0 0 1px rgba(195,200,190,0.2)',
+    }}>
+      {[
+        { label: 'Map', icon: 'explore', path: '/district', view: 'district' },
+        { label: 'List', icon: 'format_list_bulleted', path: '/list', view: 'list' },
+        { label: 'Compare', icon: 'compare_arrows', path: null, view: null },
+        { label: 'Profile', icon: 'account_circle', path: id ? `/profile/${id}` : (pathname.includes('/profile') ? pathname : null), view: 'profile' },
+      ].map(({ label, icon, path, view }) => {
+        const isActive = viewMode === view;
+        return (
+          <div
+            key={label}
+            onClick={() => path && navigate(path)}
+            style={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px',
+              cursor: path ? 'pointer' : 'default',
+              opacity: path ? (isActive ? 1 : 0.5) : 0.1,
+              color: isActive ? 'var(--primary)' : 'var(--on-surface)',
+              transition: 'all 0.2s'
+            }}
+          >
+            <span
+              className="material-symbols-outlined"
+              style={{ fontVariationSettings: isActive ? "'FILL' 1" : "'FILL' 0", fontSize: '24px' }}
             >
-              <span
-                className="material-symbols-outlined"
-                style={{ fontVariationSettings: isActive ? "'FILL' 1" : "'FILL' 0", fontSize: '24px' }}
-              >
-                {icon}
-              </span>
-              <span style={{ fontSize: '0.55rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-                {label}
-              </span>
-            </div>
-          );
-        })}
-      </div>
+              {icon}
+            </span>
+            <span style={{ fontSize: '0.55rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+              {label}
+            </span>
+          </div>
+        );
+      })}
     </div>
   );
 }
 
 export default App;
+

@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
 import { getDistrictData, partyColors } from '../data/mockData';
@@ -45,6 +46,7 @@ const MapTooltip = ({ data }) => {
 
 const DistrictView = () => {
   const [tooltipData, setTooltipData] = useState(null);
+  const navigate = useNavigate();
 
   const defaultDistrict = useMemo(() => {
     return getDistrictData('Kuppam');
@@ -182,6 +184,16 @@ const DistrictView = () => {
                   </div>
                 </div>
               </div>
+
+              {selectedDistrict.id && (
+                <button 
+                  onClick={() => navigate(`/profile/${selectedDistrict.id}`)}
+                  className="w-full py-5 rounded-[1.5rem] bg-primary text-on-primary font-bold shadow-xl hover:scale-[1.02] active:scale-95 transition-all cursor-pointer flex items-center justify-center gap-3"
+                >
+                  <Users size={20} />
+                  View Full Profile
+                </button>
+              )}
             </div>
           </div>
         </aside>

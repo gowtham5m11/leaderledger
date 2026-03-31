@@ -16,14 +16,20 @@ const LeaderCard = ({ leader, onClick }) => {
 
   return (
     <div className={`leader-card ${partyClass}`} onClick={onClick}>
-      <div className="card-header">
-
-        <span className="label-sm text-primary" style={{ fontSize: '0.65rem', letterSpacing: '0.1em' }}>
-          {constituency}
-        </span>
-        <h3 className="title-md" style={{ fontSize: '1.25rem', marginTop: '0.25rem', color: 'var(--on-surface)' }}>
-          {name}
-        </h3>
+      <div className="card-header" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+        <img 
+          src={leader.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random&color=fff`} 
+          alt={name} 
+          style={{ width: '3.5rem', height: '3.5rem', borderRadius: '1rem', objectCover: 'cover', border: '2px solid var(--outline-variant)' }}
+        />
+        <div style={{ flex: 1 }}>
+          <span className="label-sm text-primary" style={{ fontSize: '0.65rem', letterSpacing: '0.1em' }}>
+            {constituency}
+          </span>
+          <h3 className="title-md" style={{ fontSize: '1.15rem', marginTop: '0.15rem', color: 'var(--on-surface)', lineHeight: '1.2' }}>
+            {name}
+          </h3>
+        </div>
       </div>
 
       <div className="card-body" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

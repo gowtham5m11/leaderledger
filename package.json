@@ -2,12 +2,15 @@
   "name": "temp-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gowtham5m11.github.io/knowyourleader",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@turf/rewind": "^7.3.4",

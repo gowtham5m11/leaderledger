@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import leaders from '../data/leaders.json';
+import { useNavigate } from 'react-router-dom';
+import candidates from '../data/candidates.json';
 import LeaderCard from './LeaderCard';
 
-const CandidateList = ({ onSelectCandidate }) => {
+const CandidateList = () => {
   const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
 
   const getPriorityIndex = (name) => {
     const lowerName = name.toLowerCase();
@@ -14,7 +16,7 @@ const CandidateList = ({ onSelectCandidate }) => {
     return 999;
   };
 
-  const filteredLeaders = [...leaders]
+  const filteredLeaders = [...candidates]
     .filter((leader) => {
       const query = searchQuery.toLowerCase();
       return (
@@ -55,7 +57,7 @@ const CandidateList = ({ onSelectCandidate }) => {
           }}>
             <div>
               <span className="label-sm text-primary">Live Status</span>
-              <h3 className="title-md" style={{ marginTop: '0.25rem' }}>{leaders.length} MLAs Tracked</h3>
+              <h3 className="title-md" style={{ marginTop: '0.25rem' }}>{candidates.length} MLAs Tracked</h3>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--outline)' }}>
@@ -84,7 +86,7 @@ const CandidateList = ({ onSelectCandidate }) => {
               <LeaderCard 
                 key={leader.id} 
                 leader={leader} 
-                onClick={() => onSelectCandidate && onSelectCandidate(leader)}
+                onClick={() => navigate(`/profile/${leader.id}`)}
               />
             ))
           ) : (
@@ -101,4 +103,5 @@ const CandidateList = ({ onSelectCandidate }) => {
 };
 
 export default CandidateList;
+
 

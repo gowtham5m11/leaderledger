@@ -1,7 +1,7 @@
-import leadersData from './leaders.json';
+import candidatesData from './candidates.json';
 
 // Use a separate constant for the array to avoid any ambiguity
-const leaders = Array.isArray(leadersData) ? leadersData : (leadersData.leaders || []);
+const candidates = Array.isArray(candidatesData) ? candidatesData : (candidatesData.leaders || []);
 
 export const partyColors = {
   TDP: "#fce903",
@@ -16,7 +16,7 @@ export const getDistrictData = (name) => {
   const cleanName = name.trim().toLowerCase();
   
   // High-precision matching logic
-  const leader = leaders.find(l => {
+  const candidateFound = candidates.find(l => {
     const lCon = (l.constituency || "").toUpperCase();
     const target = name.toUpperCase();
     
@@ -27,18 +27,19 @@ export const getDistrictData = (name) => {
            lCon.includes(target);
   });
 
-  if (leader) {
-    const party = leader.party === "Janasena Party" ? "JSP" : leader.party;
+  if (candidateFound) {
+    const party = candidateFound.party === "Janasena Party" ? "JSP" : candidateFound.party;
     return {
-      name: leader.constituency,
+      id: candidateFound.id,
+      name: candidateFound.constituency,
       population: "Constituency Wide",
-      currentMla: leader.name,
+      currentMla: candidateFound.name,
       party: party,
       pastMla: "Former representative records pending",
       partyChanges: 0,
       votersCount: "Verified Assembly Ledger",
       majorityVotes: 8500, // Placeholder
-      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
+      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(candidateFound.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`
     };
   }
 

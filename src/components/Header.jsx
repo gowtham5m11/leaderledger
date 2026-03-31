@@ -1,11 +1,18 @@
 import React from 'react';
 import { Search, Menu } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
-const Header = ({ viewMode, toggleView }) => {
+const Header = () => {
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
+  
+  const isDistrict = pathname.includes('/district');
+  const isCandidate = pathname.includes('/list') || pathname.includes('/profile');
+
   return (
     <header className="glass-nav relative z-100 px-6 py-4 flex items-center justify-between" style={{ borderBottom: '1px solid var(--outline-variant)' }}>
       <div className="flex items-center gap-8">
-        <h1 className="font-headline tracking-tight text-primary" style={{ fontSize: '1.5rem', margin: 0 }}>
+        <h1 className="font-headline tracking-tight text-primary" style={{ fontSize: '1.5rem', margin: 0, cursor: 'pointer' }} onClick={() => navigate('/')}>
           KnowYourLeader.com
         </h1>
         
@@ -44,13 +51,13 @@ const Header = ({ viewMode, toggleView }) => {
               fontSize: '0.875rem',
               fontWeight: 500,
               transition: 'all 0.2s',
-              backgroundColor: viewMode === 'district' ? 'var(--surface-container-lowest)' : 'transparent',
-              boxShadow: viewMode === 'district' ? '0 1px 2px 0 rgba(0,0,0,0.05)' : 'none',
-              color: viewMode === 'district' ? 'var(--on-surface)' : 'var(--on-surface-variant)',
+              backgroundColor: isDistrict ? 'var(--surface-container-lowest)' : 'transparent',
+              boxShadow: isDistrict ? '0 1px 2px 0 rgba(0,0,0,0.05)' : 'none',
+              color: isDistrict ? 'var(--on-surface)' : 'var(--on-surface-variant)',
               border: 'none',
               cursor: 'pointer'
             }}
-            onClick={() => viewMode !== 'district' && toggleView()}
+            onClick={() => navigate('/district')}
           >
             District
           </button>
@@ -61,13 +68,13 @@ const Header = ({ viewMode, toggleView }) => {
               fontSize: '0.875rem',
               fontWeight: 500,
               transition: 'all 0.2s',
-              backgroundColor: viewMode === 'candidate' ? 'var(--surface-container-lowest)' : 'transparent',
-              boxShadow: viewMode === 'candidate' ? '0 1px 2px 0 rgba(0,0,0,0.05)' : 'none',
-              color: viewMode === 'candidate' ? 'var(--on-surface)' : 'var(--on-surface-variant)',
+              backgroundColor: isCandidate ? 'var(--surface-container-lowest)' : 'transparent',
+              boxShadow: isCandidate ? '0 1px 2px 0 rgba(0,0,0,0.05)' : 'none',
+              color: isCandidate ? 'var(--on-surface)' : 'var(--on-surface-variant)',
               border: 'none',
               cursor: 'pointer'
             }}
-            onClick={() => viewMode !== 'candidate' && toggleView()}
+            onClick={() => navigate('/list')}
           >
             Candidate
           </button>
@@ -95,3 +102,4 @@ const Header = ({ viewMode, toggleView }) => {
 };
 
 export default Header;
+

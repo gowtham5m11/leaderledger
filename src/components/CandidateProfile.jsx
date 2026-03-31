@@ -1,8 +1,15 @@
 import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { partyColors } from '../data/mockData';
+import candidates from '../data/candidates.json';
 
-const CandidateProfile = ({ candidate, onBack }) => {
-  if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Loading Candidate...</div>;
+const CandidateProfile = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  
+  const candidate = candidates.find(c => String(c.id) === String(id));
+
+  if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Candidate Not Found</div>;
 
   const partyColor = partyColors[candidate.party] || '#737970';
   const isTDP = candidate.party === 'TDP';
@@ -29,7 +36,7 @@ const CandidateProfile = ({ candidate, onBack }) => {
         {/* Back Action */}
         <div style={{ marginBottom: '2rem' }}>
           <button 
-            onClick={() => onBack && onBack()}
+            onClick={() => navigate('/list')}
             style={{ 
               display: 'flex', 
               alignItems: 'center', 
@@ -316,3 +323,4 @@ const CandidateProfile = ({ candidate, onBack }) => {
 };
 
 export default CandidateProfile;
+
