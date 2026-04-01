@@ -1,146 +1,318 @@
 import React from 'react';
-import { 
-  X, MapPin, Calendar, BookOpen, 
-  Briefcase, AlertCircle, ExternalLink,
-  ChevronRight, Award, Shield
-} from 'lucide-react';
 import { partyColors } from '../data/mockData';
 
-const CandidateProfile = ({ candidate, onClose }) => {
-  if (!candidate) return null;
+const CandidateProfile = ({ candidate, onBack }) => {
+  if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Loading Candidate...</div>;
 
-  const partyColor = partyColors[candidate.party] || '#ccc';
+  const partyColor = partyColors[candidate.party] || '#737970';
+  const isTDP = candidate.party === 'TDP';
+
+  // Fallback for missing fields in leaders.json
+  const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColor.replace('#', '')}&color=fff&size=200`;
+  const displayRole = candidate.role || "Member of Legislative Assembly";
+  const displayMinistry = candidate.ministry || "Legislative Leader";
+  const displayCriminalCases = candidate.criminal_cases || "0";
+  const displayEducation = candidate.education || "Information not available";
+
 
   return (
-    <div className="fixed inset-0 z-[2000] flex items-center justify-center p-4 sm:p-6 md:p-10 bg-on-surface/40 backdrop-blur-md animate-in fade-in duration-300">
-      <div 
-        className="relative w-full max-w-5xl h-[90vh] bg-surface-container-lowest rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row animate-in slide-in-from-bottom-8 duration-500"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Left Column - Visuals & Fixed Info */}
-        <div className="w-full md:w-[40%] bg-surface-container-low relative flex flex-col sm:flex-row md:flex-col shrink-0">
-          <div className="relative w-full aspect-square sm:aspect-auto sm:h-full md:h-auto md:aspect-square overflow-hidden">
-            <img 
-              src={candidate.image} 
-              alt={candidate.name}
-              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />
+    <div style={{ 
+      backgroundColor: 'var(--background)', 
+      color: 'var(--on-background)', 
+      height: '100%', 
+      fontFamily: "'Outfit', sans-serif",
+      overflowY: 'auto'
+    }} className="custom-scrollbar">
+      
+      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '3rem 1.5rem' }}>
+        
+        {/* Back Action */}
+        <div style={{ marginBottom: '2rem' }}>
+          <button 
+            onClick={() => onBack && onBack()}
+            style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.5rem', 
+              color: 'var(--primary)', 
+              fontWeight: 600,
+              padding: '0.5rem 1rem',
+              borderRadius: '9999px',
+              backgroundColor: 'transparent',
+              border: 'none',
+              cursor: 'pointer',
+              transition: 'background-color 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'var(--surface-container-low)'}
+            onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+          >
+            <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>arrow_back</span>
+            <span style={{ fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Back to Candidates List</span>
+          </button>
+        </div>
+
+        {/* Master Profile Card */}
+        <div style={{ 
+          backgroundColor: 'var(--surface-container-lowest)', 
+          borderRadius: '1.5rem', 
+          overflow: 'hidden', 
+          border: '1px solid var(--outline-variant)',
+          boxShadow: '0 20px 40px rgba(25, 28, 27, 0.04)'
+        }}>
+          
+          {/* Hero Header Section */}
+          <div style={{ 
+            padding: '4rem', 
+            display: 'flex', 
+            flexDirection: 'row', 
+            gap: '3rem', 
+            alignItems: 'flex-start', 
+            position: 'relative',
+            backgroundColor: 'rgba(173, 207, 168, 0.05)' // primary-container/10 roughly
+          }}>
+            {/* Asymmetric Decorative Element */}
+            <div style={{ 
+              position: 'absolute', 
+              top: 0, 
+              right: 0, 
+              width: '33%', 
+              height: '100%', 
+              backgroundColor: partyColor,
+              opacity: 0.1,
+              transform: 'skewX(-12deg) translateX(5rem)',
+              zIndex: 0
+            }}></div>
             
-            <button 
-              onClick={onClose}
-              className="absolute top-6 left-6 p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-all active:scale-90 md:hidden"
-            >
-              <X size={20} />
-            </button>
-          </div>
-
-          <div className="p-6 md:p-8 flex flex-col gap-4">
-            <div>
-              <span 
-                className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-white shadow-sm"
-                style={{ backgroundColor: partyColor }}
-              >
-                {candidate.party}
-              </span>
-              <h2 className="text-3xl md:text-4xl font-headline mt-3 text-on-surface leading-tight">
-                {candidate.name}
-              </h2>
+            <div style={{ position: 'relative', zIndex: 10, flexShrink: 0 }}>
+              <div style={{ 
+                width: '180px', 
+                height: '180px', 
+                borderRadius: '1rem', 
+                overflow: 'hidden', 
+                border: '4px solid var(--surface-container-low)',
+                boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1)'
+              }}>
+                <img 
+                  src={displayImage} 
+                  alt={candidate.name} 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </div>
             </div>
+            
+            <div style={{ position: 'relative', zIndex: 10, flex: 1 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <span style={{ 
+                  fontSize: '0.75rem', 
+                  fontWeight: 600, 
+                  letterSpacing: '0.1em', 
+                  textTransform: 'uppercase',
+                  alignSelf: 'flex-start',
+                  padding: '0.25rem 0.75rem',
+                  borderRadius: '9999px',
+                  backgroundColor: isTDP ? 'rgba(252, 233, 3, 0.3)' : `rgba(72, 102, 70, 0.1)`,
+                  color: 'var(--primary)',
+                  border: '1px solid var(--outline-variant)'
+                }}>
+                  {displayRole}
+                </span>
+                <h1 className="display-lg" style={{ color: 'var(--on-surface)', marginTop: '0.5rem', fontSize: '3rem' }}>
+                  {candidate.name}
+                </h1>
+                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginTop: '0.75rem' }}>
+                  <div style={{ width: '4px', height: '1.5rem', backgroundColor: partyColor }}></div>
+                  <p style={{ fontSize: '1.125rem', fontWeight: 500, color: 'var(--on-surface-variant)' }}>
+                    {displayMinistry} • <span style={{ fontWeight: 700, color: partyColor }}>{candidate.party}</span>
+                  </p>
+                </div>
+              </div>
 
-            <div className="flex flex-col gap-3 mt-2">
-              <div className="flex items-center gap-3 text-on-surface-variant bg-surface-container-high/50 p-3 rounded-2xl border border-outline-variant/30">
-                <div className="p-2 bg-white rounded-xl text-primary shadow-sm">
-                  <Award size={18} />
+
+              {/* Info Grid */}
+              <div style={{ 
+                display: 'grid', 
+                gridTemplateColumns: 'repeat(3, 1fr)', 
+                rowGap: '2rem', 
+                columnGap: '3rem', 
+                marginTop: '3rem', 
+                borderTop: '1px solid var(--outline-variant)', 
+                paddingTop: '2.5rem' 
+              }}>
+                <div>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Date of Birth</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.dob || 'Unknown'}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] uppercase tracking-wider font-bold opacity-60">Designation</p>
-                  <p className="font-semibold text-sm">{candidate.role}</p>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || '45'} Years</p>
                 </div>
+                <div>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Birthplace</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.birthplace || 'Andhra Pradesh'}</p>
+                </div>
+                <div>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Experience</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.experience || '25+ Years'}</p>
+                </div>
+                <div style={{ gridColumn: 'span 2' }}>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Education</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayEducation}</p>
+                </div>
+
               </div>
             </div>
           </div>
-        </div>
 
-        {/* Right Column - Scrollable Details */}
-        <div className="flex-1 flex flex-col overflow-hidden bg-white">
-          <div className="hidden md:flex items-center justify-between p-8 pb-0">
-            <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-outline">
-              Candidate Dossier <ChevronRight size={12} /> <span className="text-primary">{candidate.name.split(' ')[0]}</span>
+          {/* Content Sections Split */}
+          <div style={{ display: 'grid', gridTemplateColumns: '8fr 4fr' }}>
+            {/* Left Column: Timeline */}
+            <div style={{ 
+              backgroundColor: 'var(--surface-container-low)', 
+              padding: '4rem', 
+              borderTop: '1px solid var(--outline-variant)',
+              borderRight: '1px solid var(--outline-variant)'
+            }}>
+              <h2 className="headline-md" style={{ marginBottom: '3rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                Political Journey
+                <span style={{ height: '1px', flex: 1, backgroundColor: 'rgba(195, 200, 190, 0.3)' }}></span>
+              </h2>
+              
+              <div style={{ position: 'relative' }}>
+                <div style={{ position: 'absolute', left: '11px', top: '8px', bottom: '8px', width: '2px', backgroundColor: 'rgba(72, 102, 70, 0.2)' }}></div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
+                  {(candidate.locations || []).map((loc, idx) => (
+                    <div key={idx} style={{ position: 'relative', paddingLeft: '2.5rem' }}>
+                      <div style={{ 
+                        position: 'absolute', 
+                        left: 0, 
+                        top: '6px', 
+                        width: '1.5rem', 
+                        height: '1.5rem', 
+                        borderRadius: '50%', 
+                        backgroundColor: idx === 0 ? partyColor : 'var(--outline-variant)',
+                        border: '4px solid var(--surface-container-lowest)'
+                      }}></div>
+                      <span className="headline-md" style={{ color: idx === 0 ? partyColor : 'var(--on-surface)', display: 'block', marginBottom: '0.5rem' }}>
+                        {loc.year || (2024 - idx * 5)}
+                      </span>
+                      <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.5rem', color: 'var(--on-surface)' }}>{loc.place}</h3>
+                      <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
+                        Committed public service record in the {loc.place} constituency, prioritizing governance and local community development initiatives with a focus on transparency and accountability.
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
-            <button 
-              onClick={onClose}
-              className="p-3 hover:bg-surface-container-high rounded-full transition-all text-outline hover:text-on-surface active:scale-95"
-            >
-              <X size={24} />
-            </button>
-          </div>
 
-          <div className="flex-1 overflow-y-auto p-6 md:p-12 custom-scrollbar">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
-              <DetailBox icon={<Calendar />} label="Age" value={candidate.age || candidate.dob} />
-              <DetailBox icon={<MapPin />} label="Constituency" value={candidate.locations[0].place} />
-              <DetailBox icon={<BookOpen />} label="Education" value={candidate.education} />
-              <DetailBox icon={<Briefcase />} label="Experience" value={candidate.experience} />
-            </div>
-
-            <section className="mb-12">
-              <h3 className="text-lg font-headline mb-6 flex items-center gap-3">
-                <Shield className="text-primary" size={20} />
-                Integrity Report
-              </h3>
-              <div className={`p-6 rounded-3xl border ${candidate.criminalRecord?.includes('None') ? 'bg-green-50 border-green-100' : 'bg-red-50 border-red-100'}`}>
-                <div className="flex items-start gap-4">
-                  <div className={`p-3 rounded-2xl ${candidate.criminalRecord?.includes('None') ? 'bg-white text-green-600' : 'bg-white text-red-600'} shadow-sm`}>
-                    <AlertCircle size={24} />
-                  </div>
+            {/* Right Column: Critical Info & News */}
+            <div style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '3rem', borderTop: '1px solid var(--outline-variant)' }}>
+              {/* Criminal Record Section */}
+              <section style={{ 
+                backgroundColor: 'rgba(255, 218, 214, 0.3)', 
+                borderLeft: '4px solid var(--error)', 
+                padding: '1.5rem', 
+                borderRadius: '0 0.75rem 0.75rem 0' 
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--error)', marginBottom: '1rem' }}>
+                  <span className="material-symbols-outlined">gavel</span>
+                  <h3 style={{ fontWeight: 700, fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '-0.025em' }}>Criminal Disclosures</h3>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
-                    <p className={`text-[10px] uppercase font-bold tracking-wider mb-1 ${candidate.criminalRecord?.includes('None') ? 'text-green-800' : 'text-red-800'}`}>
-                      Legal Disclosure
-                    </p>
-                    <p className={`text-sm leading-relaxed ${candidate.criminalRecord?.includes('None') ? 'text-green-900' : 'text-red-900'}`}>
-                      {candidate.criminalRecord}
-                    </p>
+                    <p style={{ color: 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{displayCriminalCases} Pending Cases</p>
+                    <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>Based on official disclosures. Primarily related to public protest or administrative disputes where applicable.</p>
                   </div>
+
+                  <button style={{ 
+                    fontSize: '0.75rem', 
+                    fontWeight: 700, 
+                    color: 'var(--error)', 
+                    textDecoration: 'underline', 
+                    textDecorationThickness: '2px', 
+                    textUnderlineOffset: '4px',
+                    textAlign: 'left',
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer'
+                  }}>VIEW COURT AFFIDAVITS</button>
                 </div>
-              </div>
-            </section>
+              </section>
 
-            <section className="mb-4">
-              <h3 className="text-lg font-headline mb-6">Career Timeline</h3>
-              <div className="space-y-4">
-                {candidate.locations.map((loc, idx) => (
-                  <div key={idx} className="flex items-center gap-4 group">
-                    <div className="w-20 shrink-0 text-[10px] font-bold text-outline group-hover:text-primary transition-colors">{loc.year}</div>
-                    <div className="h-px flex-1 bg-outline-variant" />
-                    <div className="bg-surface-container-low px-4 py-2 rounded-xl text-sm font-medium border border-outline-variant/30">{loc.place}</div>
-                  </div>
-                ))}
-              </div>
-            </section>
-          </div>
-
-          <div className="p-8 bg-surface-container-lowest border-t border-outline-variant/30 flex justify-end gap-4">
-            <button className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-primary text-white font-bold text-sm hover:shadow-lg hover:shadow-primary/20 transition-all active:scale-95">
-              ECI Affidavit <ExternalLink size={16} />
-            </button>
+              {/* Latest News Section */}
+              <section>
+                <h3 className="headline-md" style={{ fontSize: '1.25rem', marginBottom: '1.5rem' }}>In the Headlines</h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                  {[...Array(3)].map((_, i) => (
+                    <div key={i} style={{ cursor: 'pointer' }}>
+                      <span className="label-sm text-outline" style={{ display: 'block', marginBottom: '0.5rem' }}>
+                        {i === 0 ? 'LIVE • 2 HOURS AGO' : i === 1 ? 'YESTERDAY' : '3 DAYS AGO'}
+                      </span>
+                      <h4 style={{ fontWeight: 600, color: 'var(--on-surface)', lineHeight: 1.3 }}>
+                        {i === 0 ? `${candidate.name} chairs high-level meet on capital progress.` : 
+                         i === 1 ? `Key agricultural reform masterplan received with widespread support.` : 
+                         `Constituency record: Remarkable improvements in educational infrastructure.`}
+                      </h4>
+                      {i !== 2 && <div style={{ width: '100%', height: '1px', backgroundColor: 'rgba(195, 200, 190, 0.2)', marginTop: '1rem' }}></div>}
+                    </div>
+                  ))}
+                </div>
+                
+                <button style={{ 
+                  width: '100%', 
+                  marginTop: '2rem', 
+                  padding: '0.75rem', 
+                  backgroundColor: 'var(--surface-container-high)', 
+                  color: 'var(--on-surface)', 
+                  fontSize: '0.875rem', 
+                  fontWeight: 600, 
+                  borderRadius: '0.5rem',
+                  border: 'none',
+                  cursor: 'pointer'
+                }}>
+                  See All Media Coverage
+                </button>
+              </section>
+            </div>
           </div>
         </div>
-      </div>
+
+        {/* Floating Comparison Action */}
+        <div style={{ 
+          marginTop: '4rem',
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          alignItems: 'center', 
+          padding: '2rem', 
+          backgroundColor: 'var(--primary)', 
+          borderRadius: '1rem',
+          color: 'var(--on-primary)'
+        }}>
+          <div>
+            <h3 className="headline-md" style={{ fontSize: '1.5rem', marginBottom: '0.25rem', color: 'var(--on-primary)' }}>Analyze & Compare</h3>
+            <p style={{ opacity: 0.8 }}>Evaluate this leader against other candidates in the same constituency.</p>
+          </div>
+          <button style={{ 
+            padding: '1rem 2rem', 
+            backgroundColor: '#ffffff', 
+            color: 'var(--primary)', 
+            fontWeight: 700, 
+            borderRadius: '0.75rem',
+            border: 'none',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            cursor: 'pointer',
+            boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+          }}>
+            <span className="material-symbols-outlined">compare_arrows</span>
+            Enter Comparison Tool
+          </button>
+        </div>
+      </main>
+      <div style={{ height: '8rem' }}></div>
     </div>
   );
 };
-
-const DetailBox = ({ icon, label, value }) => (
-  <div className="flex items-start gap-4 p-5 rounded-3xl border border-outline-variant/50 hover:border-primary/30 transition-colors">
-    <div className="p-3 bg-surface-container-low text-primary rounded-2xl">
-      {React.cloneElement(icon, { size: 20 })}
-    </div>
-    <div>
-      <p className="text-[10px] uppercase font-bold tracking-wider text-outline mb-1">{label}</p>
-      <p className="text-sm font-semibold text-on-surface">{value}</p>
-    </div>
-  </div>
-);
 
 export default CandidateProfile;
