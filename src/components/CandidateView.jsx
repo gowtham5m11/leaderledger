@@ -1,191 +1,144 @@
-import React, { useState } from 'react';
-import { mockCandidates, mockNews, partyColors } from '../data/mockData';
-import { User, ArrowLeft, Calendar, MapPin, Briefcase, GraduationCap, AlertCircle, TrendingUp, ChevronRight } from 'lucide-react';
+import React, { useState, useMemo } from 'react';
+import { Search, Info, TrendingUp, AlertTriangle, ShieldCheck, ChevronRight, User } from 'lucide-react';
+import candidatesData from '../data/candidates.json';
+import CandidateProfile from './CandidateProfile';
+import { partyColors } from '../data/mockData';
 
 const CandidateView = () => {
+  const [searchTerm, setSearchTerm] = useState('');
   const [selectedCandidate, setSelectedCandidate] = useState(null);
 
-  if (selectedCandidate) {
-    const normalizeParty = (p) => {
-      const lower = p.toLowerCase();
-      if (lower.includes('janasena') || lower === 'jsp') return 'jsp';
-      if (lower.includes('tdp')) return 'tdp';
-      if (lower.includes('ysrcp')) return 'ysrcp';
-      if (lower.includes('bjp')) return 'bjp';
-      if (lower.includes('inc')) return 'inc';
-      return lower;
+  const candidates = useMemo(() => {
+    return (Array.isArray(candidatesData) ? candidatesData : candidatesData.leaders || [])
+      .map(c => ({
+        ...c,
+        // Map "Janasena Party" to "JSP" for consistent styling
+        partyDisplay: c.party === "Janasena Party" ? "JSP" : c.party,
+        // Check for criminal cases
+        hasCriminalCases: parseInt(c.criminal_cases) > 0
+      }));
+  }, []);
+
+  const filteredCandidates = candidates.filter(c => 
+    c.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    c.constituency.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    c.party.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const handleOpenProfile = (candidate) => {
+    // Adapter to match CandidateProfile expectation
+    const profileAdapter = {
+      ...candidate,
+      party: candidate.partyDisplay,
+      role: "Assembly Candidate",
+      experience: "Candidate Data Verified",
+      locations: [{ year: "2024", place: candidate.constituency }],
+      criminalRecord: candidate.hasCriminalCases ? `${candidate.criminal_cases} Cases Reported in Affidavit` : "No Criminal Cases Reported",
+      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColors[candidate.partyDisplay]?.replace('#', '') || 'cccccc'}&color=fff&size=200`
     };
-    const partyKey = normalizeParty(selectedCandidate.party);
-    const ledgerClass = `ledger-line-${partyKey}`;
-
-    return (
-      <div className="max-w-5xl mx-auto py-12 px-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-        <button 
-          className="flex items-center gap-2 text-sm font-semibold text-primary mb-12 hover:-translate-x-1 transition-transform" 
-          onClick={() => setSelectedCandidate(null)}
-        >
-          <ArrowLeft size={16} />
-          Back to Assembly
-        </button>
-        
-        <div className={`glass-panel rounded-[2.5rem] p-12 relative overflow-hidden ${ledgerClass}`}>
-          <div className="flex flex-col md:flex-row gap-16">
-            {/* Asymmetric Profile Section */}
-            <div className="w-full md:w-1/3">
-              <div className="profile-portrait-wrapper w-full">
-                <div className="profile-portrait-decoration"></div>
-                <img 
-                  src={selectedCandidate.image} 
-                  alt={selectedCandidate.name} 
-                  className="profile-portrait-image w-full aspect-[4/5] shadow-2xl" 
-                />
-              </div>
-              
-              <div className="mt-8 space-y-4">
-                <div className="glass-panel p-6 rounded-2xl flex items-center justify-between">
-                  <div>
-                    <p className="label-sm text-outline">Party</p>
-                    <p className="font-bold text-lg">{selectedCandidate.party}</p>
-                  </div>
-                  <div className="w-8 h-8 rounded-full" style={{ backgroundColor: partyColors[selectedCandidate.party] }}></div>
-                </div>
-              </div>
-            </div>
-
-            {/* Profile Content */}
-            <div className="flex-1">
-              <span className="text-primary font-bold text-xs tracking-widest uppercase">Member Profile</span>
-              <h2 className="font-headline text-5xl mt-4 mb-2">{selectedCandidate.name}</h2>
-              <p className="text-xl text-on-surface-variant font-medium mb-12">{selectedCandidate.role}</p>
-
-              <div className="grid grid-cols-2 gap-y-10 gap-x-12 mb-16">
-                <div>
-                  <div className="flex items-center gap-2 text-primary mb-2">
-                    <Calendar size={18} />
-                    <span className="label-sm font-bold">Age</span>
-                  </div>
-                  <p className="font-medium">
-                    {selectedCandidate.dob && selectedCandidate.dob.includes('Age:') 
-                      ? selectedCandidate.dob.replace('Age:', '').replace('(2024 Affidavits)', '').trim() 
-                      : selectedCandidate.age || '45'} Years
-                  </p>
-                  <p className="text-sm text-outline mt-1">{selectedCandidate.birthplace || 'Andhra Pradesh'}</p>
-                </div>
-                <div>
-                  <div className="flex items-center gap-2 text-primary mb-2">
-                    <Briefcase size={18} />
-                    <span className="label-sm font-bold">Experience</span>
-                  </div>
-                  <p className="font-medium">{selectedCandidate.experience}</p>
-                </div>
-                <div>
-                  <div className="flex items-center gap-2 text-primary mb-2">
-                    <GraduationCap size={18} />
-                    <span className="label-sm font-bold">Education</span>
-                  </div>
-                  <p className="font-medium">{selectedCandidate.education}</p>
-                </div>
-                <div>
-                  <div className="flex items-center gap-2 text-primary mb-2">
-                    <TrendingUp size={18} />
-                    <span className="label-sm font-bold">Status</span>
-                  </div>
-                  <p className="font-medium">{selectedCandidate.ministry}</p>
-                </div>
-              </div>
-
-              {/* Timeline */}
-              <div className="mb-12">
-                <h4 className="font-headline text-2xl mb-6">Legislative Journey</h4>
-                <div className="space-y-4">
-                  {selectedCandidate.locations.map((loc, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-4 bg-surface-container-low rounded-xl border border-outline-variant">
-                      <div className="flex items-center gap-4">
-                        <MapPin size={18} className="text-primary" />
-                        <span className="font-medium">{loc.place}</span>
-                      </div>
-                      <span className="font-bold text-primary">{loc.year}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Criminal Record Notice */}
-              <div className="p-6 bg-[#fdeded] rounded-2xl border-l-4 border-jsp flex gap-4">
-                <AlertCircle className="text-jsp flex-shrink-0" size={24} />
-                <div>
-                  <h5 className="font-bold text-[#b91c1c] text-sm uppercase tracking-wide">Legal Disclosure</h5>
-                  <p className="text-[#b91c1c] text-sm mt-1 leading-relaxed">{selectedCandidate.criminalRecord}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+    setSelectedCandidate(profileAdapter);
+  };
 
   return (
-    <div className="max-w-6xl mx-auto py-16 px-6">
-      <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-        <div>
-          <span className="text-primary font-bold text-xs tracking-widest uppercase">Legislators</span>
-          <h2 className="font-headline text-5xl mt-4">Assembly Candidates</h2>
-          <p className="text-on-surface-variant mt-4 max-w-xl">
-            Explore the representatives of Andhra Pradesh. Access verified demographic data, 
-            legislative history, and public records for each member.
-          </p>
-        </div>
-        
-        <div className="flex gap-4">
-          <div className="bg-surface-container rounded-full px-6 py-3 flex items-center gap-4 border border-outline-variant">
-            <span className="text-sm font-bold">Filter By Party</span>
-            <div className="flex gap-2">
-              <div className="w-4 h-4 rounded-full bg-tdp cursor-pointer"></div>
-              <div className="w-4 h-4 rounded-full bg-ysrcp cursor-pointer"></div>
-              <div className="w-4 h-4 rounded-full bg-jsp cursor-pointer"></div>
-            </div>
+    <div className="p-8 h-full flex flex-col bg-surface-container-lowest">
+      <div className="max-w-7xl mx-auto w-full">
+        <header className="mb-10">
+          <div className="flex items-center gap-3 text-primary mb-2">
+            <ShieldCheck size={20} />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em]">Affidavit Oversight 2024</span>
           </div>
+          <h1 className="text-5xl font-headline text-on-surface mb-4">Constituency Ledger</h1>
+          <p className="text-on-surface-variant max-w-2xl text-lg leading-relaxed font-light">
+            Verified candidate records for Andhra Pradesh general elections. Data transparency driven by official ECI filings.
+          </p>
+        </header>
+
+        <div className="search-container mb-12">
+          <Search className="search-icon" size={20} />
+          <input 
+            type="text" 
+            placeholder="Search candidate name, constituency, or party..." 
+            className="search-input shadow-sm focus:shadow-xl focus:shadow-primary/5"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+
+        <div className="leader-grid custom-scrollbar overflow-y-auto pr-2" style={{ maxHeight: 'calc(100vh - 400px)' }}>
+          {filteredCandidates.map(candidate => (
+            <div 
+              key={candidate.id} 
+              className={`leader-card card-${candidate.partyDisplay.toLowerCase()}`}
+              onClick={() => handleOpenProfile(candidate)}
+            >
+              {candidate.hasCriminalCases && (
+                <div className="criminal-badge flex items-center gap-1">
+                  <AlertTriangle size={10} />
+                  {candidate.criminal_cases} CASES
+                </div>
+              )}
+              
+              <div className="flex justify-between items-start">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span 
+                      className="px-2 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-widest text-white"
+                      style={{ backgroundColor: partyColors[candidate.partyDisplay] || '#ccc' }}
+                    >
+                      {candidate.partyDisplay}
+                    </span>
+                    <span className="text-[10px] font-bold text-outline uppercase tracking-wider opacity-60">Verified</span>
+                  </div>
+                  <h3 className="text-xl font-headline group-hover:text-primary transition-colors pr-8">
+                    {candidate.name}
+                  </h3>
+                </div>
+                <div className="shrink-0 w-12 h-12 rounded-2xl bg-surface-container-high overflow-hidden border border-outline-variant/30 flex items-center justify-center text-outline">
+                   <User size={24} />
+                </div>
+              </div>
+
+              <div className="mt-2 space-y-3">
+                <div className="flex items-center gap-2 text-on-surface-variant text-sm">
+                  <Info size={14} className="opacity-40" />
+                  <span className="font-medium">{candidate.constituency}</span>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-4 pt-2 border-t border-outline-variant/20 mt-4">
+                   <div>
+                      <p className="text-[9px] font-bold text-outline uppercase tracking-widest mb-0.5">Education</p>
+                      <p className="text-xs font-semibold overflow-hidden text-ellipsis whitespace-nowrap">{candidate.education || 'N/A'}</p>
+                   </div>
+                   <div>
+                      <p className="text-[9px] font-bold text-outline uppercase tracking-widest mb-0.5">Age</p>
+                      <p className="text-xs font-semibold">{candidate.age || candidate.dob || 'N/A'}</p>
+                   </div>
+                </div>
+              </div>
+
+              <div className="mt-4 flex items-center justify-between group">
+                <div className="flex -space-x-2">
+                   {[1, 2, 3].map(i => (
+                     <div key={i} className="w-6 h-6 rounded-full border-2 border-white bg-surface-container-high flex items-center justify-center overflow-hidden">
+                        <div className="w-full h-full bg-primary/10" />
+                     </div>
+                   ))}
+                </div>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-primary flex items-center gap-1 translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300">
+                  Full Dossier <ChevronRight size={12} />
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {mockCandidates.map((cand) => {
-           const normalizeParty = (p) => {
-             const lower = p.toLowerCase();
-             if (lower.includes('janasena') || lower === 'jsp') return 'jsp';
-             if (lower.includes('tdp')) return 'tdp';
-             if (lower.includes('ysrcp')) return 'ysrcp';
-             if (lower.includes('bjp')) return 'bjp';
-             if (lower.includes('inc')) return 'inc';
-             return lower;
-           };
-           const partyKey = normalizeParty(cand.party);
-           return (
-            <div 
-              key={cand.id} 
-              className={`candidate-card p-6 flex items-center gap-6 ledger-line-${partyKey}`}
-              onClick={() => setSelectedCandidate(cand)}
-            >
-              <img 
-                src={cand.image} 
-                alt={cand.name} 
-                className="w-24 h-24 rounded-2xl object-cover shadow-lg"
-              />
-              <div className="flex-1">
-                <p className="label-sm text-primary font-bold">{cand.party}</p>
-                <h3 className="font-headline text-2xl mt-1">{cand.name}</h3>
-                <div className="flex items-center gap-4 mt-3 text-sm text-outline font-medium">
-                  <span className="flex items-center gap-1"><MapPin size={14} /> {cand.role}</span>
-                  <span className="w-1 h-1 rounded-full bg-outline opacity-30"></span>
-                  <span>{cand.ministry}</span>
-                </div>
-              </div>
-              <ChevronRight className="text-outline-variant" />
-            </div>
-          );
-        })}
-      </div>
+      {selectedCandidate && (
+        <CandidateProfile 
+          candidate={selectedCandidate} 
+          onClose={() => setSelectedCandidate(null)} 
+        />
+      )}
     </div>
   );
 };
