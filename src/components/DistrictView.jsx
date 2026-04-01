@@ -4,8 +4,6 @@ import MapChart from './MapChart';
 import { getDistrictData, partyColors } from '../data/mockData';
 
 const MapTooltip = ({ data }) => {
-  if (!data) return null;
-
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   React.useEffect(() => {
@@ -15,6 +13,8 @@ const MapTooltip = ({ data }) => {
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
+
+  if (!data) return null;
 
   return (
     <div
@@ -28,7 +28,7 @@ const MapTooltip = ({ data }) => {
       }}
     >
       <div className="relative">
-        <img src={data.image} alt={data.currentMla} className="w-14 h-14 rounded-lg object-cover" />
+        <img src={data.image} alt={data.currentMla} style={{ width: '3.5rem', height: '3.5rem', borderRadius: '0.5rem', objectFit: 'cover' }} />
         <div
           className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full border-2 border-white flex items-center justify-center"
           style={{ backgroundColor: partyColors[data.party] || '#ccc' }}
@@ -132,7 +132,7 @@ const DistrictView = () => {
                 <img
                   src={selectedDistrict.image}
                   alt={selectedDistrict.currentMla}
-                  className="w-24 h-24 rounded-3xl object-cover shadow-xl border-4 border-white"
+                  style={{ width: '6rem', height: '6rem', borderRadius: '1.5rem', objectFit: 'cover', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1)', border: '4px solid white' }}
                 />
                 <div>
                   <span className="label-sm px-3 py-1 rounded-full bg-white font-bold text-primary mb-3 inline-block shadow-sm">

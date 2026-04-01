@@ -93,9 +93,9 @@ const CandidateView = () => {
                     {candidate.name}
                   </h3>
                 </div>
-                <div className="shrink-0 w-12 h-12 rounded-2xl bg-surface-container-high overflow-hidden border border-outline-variant/30 flex items-center justify-center text-outline">
+                <div style={{ width: '3rem', height: '3rem', flexShrink: 0, borderRadius: '1rem', backgroundColor: 'var(--surface-container-high)', overflow: 'hidden', border: '1px solid rgba(195, 200, 190, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)' }}>
                    {candidate.image ? (
-                     <img src={candidate.image} alt={candidate.name} className="w-full h-full object-cover" />
+                     <img src={candidate.image} alt={candidate.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                    ) : (
                      <User size={24} />
                    )}

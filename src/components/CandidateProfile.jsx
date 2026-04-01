@@ -1,7 +1,21 @@
 import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import candidates from '../data/candidates.json';
 import { partyColors } from '../data/mockData';
 
-const CandidateProfile = ({ candidate, onBack }) => {
+const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+
+  const candidate = propCandidate || candidates.find(l => String(l.id) === String(id));
+
+  const handleBack = () => {
+    if (onBack) {
+      onBack();
+    } else {
+      navigate(-1);
+    }
+  };
   if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Loading Candidate...</div>;
 
   const partyColor = partyColors[candidate.party] || '#737970';
@@ -29,7 +43,7 @@ const CandidateProfile = ({ candidate, onBack }) => {
         {/* Back Action */}
         <div style={{ marginBottom: '2rem' }}>
           <button 
-            onClick={() => onBack && onBack()}
+            onClick={handleBack}
             style={{ 
               display: 'flex', 
               alignItems: 'center', 
@@ -139,12 +153,8 @@ const CandidateProfile = ({ candidate, onBack }) => {
                 paddingTop: '2.5rem' 
               }}>
                 <div>
-                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Date of Birth</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.dob || 'Unknown'}</p>
-                </div>
-                <div>
-                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || '45'} Years</p>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age / DOB</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || candidate.dob || 'Unknown'}</p>
                 </div>
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Birthplace</p>
@@ -152,9 +162,9 @@ const CandidateProfile = ({ candidate, onBack }) => {
                 </div>
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Experience</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.experience || '25+ Years'}</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.experience || 'N/A'}</p>
                 </div>
-                <div style={{ gridColumn: 'span 2' }}>
+                <div style={{ gridColumn: 'span 3' }}>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Education</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayEducation}</p>
                 </div>

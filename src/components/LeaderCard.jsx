@@ -20,7 +20,7 @@ const LeaderCard = ({ leader, onClick }) => {
         <img 
           src={leader.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random&color=fff`} 
           alt={name} 
-          style={{ width: '3.5rem', height: '3.5rem', borderRadius: '1rem', objectCover: 'cover', border: '2px solid var(--outline-variant)' }}
+          style={{ width: '3.5rem', height: '3.5rem', borderRadius: '1rem', objectFit: 'cover', border: '2px solid var(--outline-variant)' }}
         />
         <div style={{ flex: 1 }}>
           <span className="label-sm text-primary" style={{ fontSize: '0.65rem', letterSpacing: '0.1em' }}>
