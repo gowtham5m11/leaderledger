@@ -169,6 +169,38 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayEducation}</p>
                 </div>
 
+                {/* Social Media Links */}
+                {candidate.social_media && (
+                  <div style={{ gridColumn: 'span 3', borderTop: '1px solid var(--outline-variant)', paddingTop: '1.5rem', marginTop: '1rem' }}>
+                    <p className="label-sm text-outline" style={{ marginBottom: '0.75rem' }}>Official Social Media</p>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                      {candidate.social_media.facebook && (
+                        <div style={{ fontSize: '0.875rem' }}>
+                          <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Facebook:</span>
+                          <a href={candidate.social_media.facebook} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                            {candidate.social_media.facebook}
+                          </a>
+                        </div>
+                      )}
+                      {candidate.social_media.instagram && (
+                        <div style={{ fontSize: '0.875rem' }}>
+                          <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Instagram:</span>
+                          <a href={candidate.social_media.instagram} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                            {candidate.social_media.instagram}
+                          </a>
+                        </div>
+                      )}
+                      {candidate.social_media.x && (
+                        <div style={{ fontSize: '0.875rem' }}>
+                          <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Twitter/X:</span>
+                          <a href={candidate.social_media.x} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                            {candidate.social_media.x}
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>

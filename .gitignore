@@ -45,3 +45,5 @@ scripts/debug_duplicates.py
 scripts/extract_data.py
 
 src/data/candidates_backup.json
+scraper_lab/ocr_models/craft_mlt_25k.pth
+scraper_lab/ocr_models/english_g2.pth

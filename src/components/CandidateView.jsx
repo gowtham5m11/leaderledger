@@ -34,7 +34,8 @@ const CandidateView = () => {
       experience: "Candidate Data Verified",
       locations: [{ year: "2024", place: candidate.constituency }],
       criminalRecord: candidate.hasCriminalCases ? `${candidate.criminal_cases} Cases Reported in Affidavit` : "No Criminal Cases Reported",
-      image: candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColors[candidate.partyDisplay]?.replace('#', '') || 'cccccc'}&color=fff&size=200`
+      image: candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColors[candidate.partyDisplay]?.replace('#', '') || 'cccccc'}&color=fff&size=200`,
+      social_media: candidate.social_media
     };
     setSelectedCandidate(profileAdapter);
   };
