@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Header = () => {
@@ -15,31 +15,6 @@ const Header = () => {
         <h1 className="font-headline tracking-tight text-primary" style={{ fontSize: '1.5rem', margin: 0, cursor: 'pointer' }} onClick={() => navigate('/')}>
           KnowYourLeader.com
         </h1>
-        
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          backgroundColor: 'var(--surface-container-low)',
-          borderRadius: '9999px',
-          padding: '0.5rem 1rem',
-          border: '1px solid var(--outline-variant)',
-          width: '20rem'
-        }}>
-          <Search size={18} style={{ color: 'var(--outline)' }} />
-          <input 
-            type="text" 
-            placeholder="Search districts or leaders..." 
-            style={{
-              backgroundColor: 'transparent',
-              border: 'none',
-              outline: 'none',
-              fontSize: '0.875rem',
-              width: '100%',
-              marginLeft: '0.5rem',
-              fontFamily: "'Outfit', sans-serif"
-            }}
-          />
-        </div>
       </div>
 
       <nav className="flex items-center gap-6">

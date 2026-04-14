@@ -81,10 +81,11 @@ def main():
     total_files = len(pdf_files)
     
     for idx, pdf_file in enumerate(pdf_files):
-        pdf_name_norm = pdf_file.lower().replace(".pdf", "")
+        pdf_name_norm = pdf_file.lower().replace(".pdf", "").replace("-", "_")
         target_cand = name_to_candidate.get(pdf_name_norm)
         
         if not target_cand:
+            # Fallback search
             for norm_key in name_to_candidate.keys():
                 if norm_key in pdf_name_norm or pdf_name_norm in norm_key:
                     target_cand = name_to_candidate[norm_key]
@@ -93,32 +94,34 @@ def main():
         if target_cand:
             existing_socials = target_cand.get('social_media', {})
             
-            # Only search for candidates who have NO data at all
-            if existing_socials:
-                print(f"[{idx+1}/{total_files}] Skipping {pdf_file} (Already has data)")
+            # Check if we are missing any major platforms
+            has_major = any(existing_socials.get(p) for p in ["facebook", "instagram", "x"])
+            
+            if has_major:
+                print(f"[{idx+1}/{total_files}] Skipping {pdf_file} (Already has major socials)")
                 continue
 
             pdf_path = os.path.join(PDF_DIR, pdf_file)
             print(f"[{idx+1}/{total_files}] Processing {pdf_file} for gaps: {target_cand['name']}...")
             
-            # Step 1: Digital pass
+            # Step 1: Digital pass - First 4 and Last 2 pages
             digital_socials = {}
             try:
                 with pdfplumber.open(pdf_path) as pdf:
+                    pages_to_check = set(range(min(4, len(pdf.pages)))) | set(range(max(0, len(pdf.pages)-2), len(pdf.pages)))
                     text = ""
-                    for i in range(min(3, len(pdf.pages))):
-                        text += pdf.pages[i].extract_text() or ""
+                    for p_idx in sorted(list(pages_to_check)):
+                        text += pdf.pages[p_idx].extract_text() or ""
                     digital_socials = extract_socials_from_text(text)
             except:
                 pass
             
             # Step 2: ocrmac pass for missing fields
-            # We only run OCR if digital pass is missing some fields that weren't in existing_socials either
-            missing_fields = [p for p in SOCIAL_PATTERNS if not existing_socials.get(p) and not digital_socials.get(p)]
+            missing_platforms = [p for p in ["facebook", "instagram", "x"] if not existing_socials.get(p) and not digital_socials.get(p)]
             
             social_links = digital_socials
-            if missing_fields:
-                print(f"  Missing fields {missing_fields}, usage ocrmac...")
+            if missing_platforms:
+                print(f"  Missing {missing_platforms}, running ocrmac...")
                 ocr_results = extract_with_ocrmac(pdf_path)
                 social_links.update(ocr_results)
             
@@ -135,8 +138,9 @@ def main():
                 if merged != existing_socials:
                     target_cand['social_media'] = merged
                     updated_count += 1
-                    print(f"  Updated: {social_links}")
+                    print(f"  Updated {target_cand['name']}: {social_links}")
                     
+                    # Periodic save
                     with open(CANDIDATES_JSON, 'w') as f:
                         json.dump(candidates, f, indent=4)
             else:

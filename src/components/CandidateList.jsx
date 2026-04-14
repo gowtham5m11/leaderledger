@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import candidates from '../data/candidates.json';
 import LeaderCard from './LeaderCard';
 import Footer from './Footer';
 
 const CandidateList = () => {
-  const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
   const getPriorityIndex = (name) => {
@@ -16,15 +15,7 @@ const CandidateList = () => {
     if (lowerName.includes("jagan mohan reddy")) return 3;
     return 999;
   };
-
   const filteredLeaders = [...candidates]
-    .filter((leader) => {
-      const query = searchQuery.toLowerCase();
-      return (
-        leader.name.toLowerCase().includes(query) ||
-        leader.constituency.toLowerCase().includes(query)
-      );
-    })
     .sort((a, b) => getPriorityIndex(a.name) - getPriorityIndex(b.name));
 
 
@@ -40,7 +31,7 @@ const CandidateList = () => {
           </p>
         </div>
 
-        {/* Search & Status Bar */}
+        {/* Status Bar */}
         <div style={{ 
           display: 'flex', 
           flexDirection: 'column',
@@ -60,23 +51,6 @@ const CandidateList = () => {
               <span className="label-sm text-primary">Live Status</span>
               <h3 className="title-md" style={{ marginTop: '0.25rem' }}>{candidates.length} MLAs Tracked</h3>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-               <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--outline)' }}>
-                 {filteredLeaders.length} Matching Results
-               </span>
-            </div>
-          </div>
-
-          {/* Modern Search Bar */}
-          <div className="search-container">
-            <span className="material-symbols-outlined search-icon">search</span>
-            <input 
-              type="text" 
-              className="search-input"
-              placeholder="Search by name or constituency..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
           </div>
         </div>
 

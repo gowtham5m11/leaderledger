@@ -182,6 +182,49 @@ const DistrictView = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Social Media Section */}
+              {(selectedDistrict.social_media?.facebook || selectedDistrict.social_media?.instagram || selectedDistrict.social_media?.x || selectedDistrict.social_media?.email) && (
+                <div className="p-8 rounded-[2rem] bg-surface-container-low border border-outline-variant">
+                  <h3 className="title-md text-primary mb-6 flex items-center gap-3 border-b border-outline-variant/30 pb-4 leading-none">
+                    <Users size={18} /> Official Socials
+                  </h3>
+                  <div className="space-y-4">
+                    {selectedDistrict.social_media.facebook && (
+                      <div className="flex flex-col">
+                        <span className="label-sm text-outline mb-1">Facebook</span>
+                        <a href={selectedDistrict.social_media.facebook} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
+                          {selectedDistrict.social_media.facebook}
+                        </a>
+                      </div>
+                    )}
+                    {selectedDistrict.social_media.instagram && (
+                      <div className="flex flex-col">
+                        <span className="label-sm text-outline mb-1">Instagram</span>
+                        <a href={selectedDistrict.social_media.instagram} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
+                          {selectedDistrict.social_media.instagram}
+                        </a>
+                      </div>
+                    )}
+                    {selectedDistrict.social_media.x && (
+                      <div className="flex flex-col">
+                        <span className="label-sm text-outline mb-1">Twitter / X</span>
+                        <a href={selectedDistrict.social_media.x} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
+                          {selectedDistrict.social_media.x}
+                        </a>
+                      </div>
+                    )}
+                    {selectedDistrict.social_media.email && (
+                      <div className="flex flex-col">
+                        <span className="label-sm text-outline mb-1">Email</span>
+                        <span className="body-md text-on-surface-variant truncate">
+                          {selectedDistrict.social_media.email}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </aside>

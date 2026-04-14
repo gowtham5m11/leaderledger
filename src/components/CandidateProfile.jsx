@@ -170,9 +170,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 </div>
 
                 {/* Social Media Links */}
-                {candidate.social_media && (
+                {(candidate.social_media?.facebook || candidate.social_media?.instagram || candidate.social_media?.x || candidate.social_media?.email || candidate.social_media?.youtube) && (
                   <div style={{ gridColumn: 'span 3', borderTop: '1px solid var(--outline-variant)', paddingTop: '1.5rem', marginTop: '1rem' }}>
-                    <p className="label-sm text-outline" style={{ marginBottom: '0.75rem' }}>Official Social Media</p>
+                    <p className="label-sm text-outline" style={{ marginBottom: '0.75rem' }}>Official Social Media / Contact</p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                       {candidate.social_media.facebook && (
                         <div style={{ fontSize: '0.875rem' }}>
@@ -196,6 +196,14 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                           <a href={candidate.social_media.x} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
                             {candidate.social_media.x}
                           </a>
+                        </div>
+                      )}
+                      {candidate.social_media.email && (
+                        <div style={{ fontSize: '0.875rem' }}>
+                          <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Email:</span>
+                          <span style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                            {candidate.social_media.email}
+                          </span>
                         </div>
                       )}
                     </div>
