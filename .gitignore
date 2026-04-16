@@ -47,3 +47,10 @@ scripts/extract_data.py
 src/data/candidates_backup.json
 scraper_lab/ocr_models/craft_mlt_25k.pth
 scraper_lab/ocr_models/english_g2.pth
+scraper_lab/alma_details.py
+.gitignore
+scraper_lab/cleanup_logic2.py
+scraper_lab/cleanup_json.py
+scraper_lab/fix_failed.py
+.gitignore
+.gitignore
