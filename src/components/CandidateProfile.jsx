@@ -27,6 +27,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const displayMinistry = candidate.ministry || "Legislative Leader";
   const displayCriminalCases = candidate.criminal_cases || "0";
   const displayEducation = candidate.education || "Information not available";
+  const displayProfession = candidate.profession || "Information not available";
 
 
   return (
@@ -167,6 +168,10 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 <div style={{ gridColumn: 'span 3' }}>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Education</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayEducation}</p>
+                </div>
+                <div style={{ gridColumn: 'span 3' }}>
+                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Profession</p>
+                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayProfession}</p>
                 </div>
 
                 {/* Social Media Links */}

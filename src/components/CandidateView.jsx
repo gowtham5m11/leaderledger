@@ -118,6 +118,10 @@ const CandidateView = () => {
                       <p className="text-[9px] font-bold text-outline uppercase tracking-widest mb-0.5">Age</p>
                       <p className="text-xs font-semibold">{candidate.age || candidate.dob || 'N/A'}</p>
                    </div>
+                   <div className="col-span-2">
+                      <p className="text-[9px] font-bold text-outline uppercase tracking-widest mb-0.5">Profession</p>
+                      <p className="text-xs font-semibold overflow-hidden text-ellipsis whitespace-nowrap">{candidate.profession || 'N/A'}</p>
+                   </div>
                 </div>
               </div>
 

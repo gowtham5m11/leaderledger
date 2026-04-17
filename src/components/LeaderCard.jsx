@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LeaderCard = ({ leader, onClick }) => {
-  const { name, constituency, party, education, criminal_cases } = leader;
+  const { name, constituency, party, education, profession, criminal_cases } = leader;
   
   // Format party for styling
   const partyLower = party.toLowerCase();
@@ -46,6 +46,15 @@ const LeaderCard = ({ leader, onClick }) => {
           </span>
           <span className="body-md" style={{ opacity: 0.8 }}>{education}</span>
         </div>
+
+        {profession && (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <span className="material-symbols-outlined" style={{ fontSize: '1rem', color: 'var(--outline)' }}>
+              work
+            </span>
+            <span className="body-md" style={{ opacity: 0.8 }}>{profession}</span>
+          </div>
+        )}
       </div>
 
       <div className="card-footer" style={{ marginTop: 'auto', paddingTop: '0.5rem', display: 'flex', justifyContent: 'flex-end' }}>
