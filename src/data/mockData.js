@@ -23,9 +23,7 @@ export const getDistrictData = (name) => {
     
     return lCon === target || 
            lCon.replace(/\(SC\)|\(ST\)/g, '').trim() === target ||
-           target.replace(/\(SC\)|\(ST\)/g, '').trim() === lCon ||
-           target.includes(lCon) || 
-           lCon.includes(target);
+           target.replace(/\(SC\)|\(ST\)/g, '').trim() === lCon;
   });
 
   if (candidateFound) {

@@ -1,2457 +1,2807 @@
 [
-  {
-    "id": 1,
-    "name": "Ashok Bendalam",
-    "constituency": "ICHCHAPURAM",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed BDS from NTR University of Health Sciences, Vijayawada in 2005",
-    "dob": "Age: 42 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ashok_bendalam.jpg",
-    "social_media": {
-      "x": "https://x.com/AshokBendalam",
-      "facebook": "https://facebook.com/AshokBendalamTDP"
+    {
+        "id": 1,
+        "name": "Ashok Bendalam",
+        "constituency": "ICHCHAPURAM",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed BDS from NTR University of Health Sciences, Vijayawada in 2005",
+        "dob": "Age: 42 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ashok_bendalam.jpg",
+        "social_media": {
+            "x": "https://x.com/AshokBendalam",
+            "facebook": "https://facebook.com/AshokBendalamTDP"
+        },
+        "profession": "PRACTICING DOCTOR",
+        "spouse_profession": "HOUSEWIFE"
+    },
+    {
+        "id": 2,
+        "name": "Jagadeeswari Thoyaka",
+        "constituency": "KURUPAM",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed B.Sc, (B.Z.C) in D.B.K. COLLEGE, PARVATHIPURAM, ANDHRA UNIVERSITY, VISAKHAPATNAM",
+        "dob": "Age: 39 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/jagadeeswari_thoyaka.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/jagadeeswari.thoyaka/",
+            "instagram": "https://www.instagram.com/jagadeeswari.thoyaka/",
+            "x": "https://x.com/JThoyaka"
+        },
+        "profession": "House Wife",
+        "spouse_profession": "WorkingasTeacher in Government Upper"
+    },
+    {
+        "id": 3,
+        "name": "Gouthu Sireesha",
+        "constituency": "PALASA",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed Masters in Business Administration from Andhra University in 1996",
+        "dob": "Age: 49 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gouthu_sireesha.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/gouthusireesha",
+            "instagram": "https://www.instagram.com/gouthusireesha",
+            "x": "https://www.twitter.com/gouthusireesha",
+            "youtube": "https://www.youtube.com/@gouthusireesha",
+            "email": "sireeshavc@gmail.com"
+        },
+        "profession": "Running a petrol bunk",
+        "spouse_profession": "Construction Business"
+    },
+    {
+        "id": 4,
+        "name": "Jayakrishna Nimmaka",
+        "constituency": "PALAKONDA",
+        "party": "Janasena Party",
+        "criminal_cases": "6",
+        "education": "completed Master of Science from Osmania University in 2006",
+        "dob": "Age: 45 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/jayakrishna_nimmaka.jpg",
+        "social_media": {
+            "email": "jayakrishna86@gmail.com",
+            "facebook": "https://www.facebook.com/nimmakajayakrishna/",
+            "instagram": "https://www.instagram.com/jayakrishnanimmaka/"
+        },
+        "profession": "POLITICIAN",
+        "spouse_profession": "GOVERNMENTEMPLOYEE"
+    },
+    {
+        "id": 5,
+        "name": "Mamidi Govinda Rao",
+        "constituency": "PATHAPATNAM",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed 12th Pass (Intermediate)",
+        "dob": "Age: 47 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/mamidi_govinda_rao.jpg",
+        "social_media": {
+            "email": "mgovindarao34@gmail.com"
+        },
+        "profession": "Agriculture and Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 6,
+        "name": "Bonela Vijaya Chandra",
+        "constituency": "PARVATHIPURAM",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed B.Sc from Andhra University",
+        "dob": "Age: 39 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bonela_vijaya_chandra.jpg",
+        "social_media": {
+            "email": "vijayboncla@gmail.com",
+            "facebook": "https://www.facebook.com/vijaychandra.bonela"
+        },
+        "profession": "Social worker and Business",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 7,
+        "name": "Gummidi Sandhyarani",
+        "constituency": "SALUR",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed B.Sc. from M.R. Women's College in 1993",
+        "dob": "Age: 51 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gummidi_sandhyarani.jpg",
+        "social_media": {
+            "x": "https://x.com/GSandhyarani_",
+            "facebook": "https://www.facebook.com/sandhya.gummidi/",
+            "instagram": "https://www.instagram.com/gummidi_sandhyarani/"
+        },
+        "profession": "Social Service",
+        "spouse_profession": "Employed"
+    },
+    {
+        "id": 8,
+        "name": "Atchannaidu Kinjarapu",
+        "constituency": "TEKKALI",
+        "party": "TDP",
+        "criminal_cases": "13",
+        "education": "completed B.Sc (Discontinued) from V.S. Krishna College in 1991",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/atchannaidu_kinjarapu.jpg",
+        "social_media": {
+            "email": "katchamnalch@gmail.com",
+            "instagram": "https://www.instagram.com/atchannaidu_kinjarapu",
+            "x": "https://x.com/katchannaidu"
+        },
+        "profession": "Ib Olber Business Invest In Firms",
+        "spouse_profession": "Details of sources of Income"
+    },
+    {
+        "id": 9,
+        "name": "Baggu Ramanamurthy",
+        "constituency": "NARASANNAPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed 10th Class (SSC) from ZP High School, Budithi",
+        "dob": "Age: 65 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/baggu_ramanamurthy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/baggutdp",
+            "instagram": "https://www.instagram.com/baggu_ramanamurthy",
+            "x": "https://x.com/BagguRamanamur1",
+            "email": "bagguramanamurthy.mla@gmail.com"
+        },
+        "profession": "Agriculture",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 10,
+        "name": "Kondru Murali Mohan",
+        "constituency": "RAJAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Master of Business Administration from Andhra University in 1997",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kondru_murali_mohan.jpg",
+        "social_media": {
+            "email": "kondrumuralimohan@gmail.com"
+        },
+        "profession": "Director in Top Stone Metals & Alloys India Private Limited Diagonal Infra India",
+        "spouse_profession": "Private Limited SILA Metals and Alloys India Private Limited CMD Properties"
+    },
+    {
+        "id": 11,
+        "name": "R.V.S.K.K.Ranga Rao @ Babynayana",
+        "constituency": "BOBBILI",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed 12th Pass",
+        "dob": "Age: 43 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/r_v_s_k_k_ranga_rao___babynayana.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/BabynayanaSujaynayana/",
+            "instagram": "https://www.instagram.com/babynayana.bobbili/",
+            "x": "https://x.com/RvskkRangarao"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Private Limited SILA Metals and Alloys India Private Limited CMD Properties"
+    },
+    {
+        "id": 12,
+        "name": "Koona Ravi Kumar",
+        "constituency": "AMADALAVALASA",
+        "party": "TDP",
+        "criminal_cases": "15",
+        "education": "completed B.E. (Civil) from Gulbharga University in 1990",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/koona_ravi_kumar.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/koonaravikumar",
+            "instagram": "https://www.instagram.com/koonaravikumar",
+            "x": "https://x.com/koonaravikumar"
+        },
+        "profession": "a Cultivation and Business",
+        "spouse_profession": "House hold activities Cultivation and Business"
+    },
+    {
+        "id": 13,
+        "name": "Regam Matyalingam",
+        "constituency": "ARAKU VALLEY",
+        "party": "YSRCP",
+        "criminal_cases": "1",
+        "education": "completed M.A Sociology from Andhra University, Visakhapatnam in 1999",
+        "dob": "Age: 57 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/regam_matyalingam.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/RegamMatyalingam/",
+            "instagram": "https://www.instagram.com/regam.matyalingam/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 14,
+        "name": "Kondapalli Srinivas",
+        "constituency": "GAJAPATHINAGARAM",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed Master of Science in Computer Science Ball State University USA in the year 2006",
+        "dob": "Age: 41 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kondapalli_srinivas.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/kondapallisrinivasofficial",
+            "x": "https://x.com/SKondapalliOffl",
+            "email": "skondapalli9@gmail.com"
+        },
+        "profession": "Social service Politics and Business",
+        "spouse_profession": "Agriculture Business"
+    },
+    {
+        "id": 15,
+        "name": "Eswara Rao Nadukuditi",
+        "constituency": "ETCHERLA",
+        "party": "BJP",
+        "criminal_cases": "4",
+        "education": "completed M.A Sociology from Andhra University, Visakhapatnam in 1999",
+        "dob": "Age: 53 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/eswara_rao_nadukuditi.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/NadukuditiEswaraRao"
+        },
+        "profession": "TUSINESS",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 16,
+        "name": "Gondu Shankar",
+        "constituency": "SRIKAKULAM",
+        "party": "TDP",
+        "criminal_cases": "7",
+        "education": "completed Bachelor of Engineering (Civil) from Bangalore University in 1998",
+        "dob": "Age: 47 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gondu_shankar.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/gondu_shankar/",
+            "x": "https://x.com/GondushankarTDP"
+        },
+        "profession": "Sarpanch Kistappapeta Business and Cultivation",
+        "spouse_profession": "Business and cultivation"
+    },
+    {
+        "id": 17,
+        "name": "Kalavenkatarao Kimidi",
+        "constituency": "CHEEPURUPALLE",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed Bachelor of Law from Andhra University in 1980",
+        "dob": "Age: 71 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kalavenkatarao_kimidi.jpg",
+        "social_media": {
+            "email": "kimidikalavenkatarao@gmail.com"
+        },
+        "profession": "Cultivation and Political",
+        "spouse_profession": "Cultivation and Business"
+    },
+    {
+        "id": 18,
+        "name": "Lokam Naga Madhavi",
+        "constituency": "NELLIMARLA",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed Master of Science (MS) in Computer Science from Kent State University in 1995",
+        "dob": "28 August 1968",
+        "image": "/knowyourleader/candidate-images/lokam_naga_madhavi.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/MadhaviLokamm/",
+            "instagram": "https://www.instagram.com/madhavilokam/",
+            "x": "https://x.com/LokamMadhavi"
+        },
+        "profession": "b Business",
+        "spouse_profession": "A Details of Sources of Income"
+    },
+    {
+        "id": 19,
+        "name": "Kolla Lalitha Kumari",
+        "constituency": "SRUNGAVARAPUKOTA",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed Intermediate from Govt Jr College, Srungavarapukota in 1987",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kolla_lalitha_kumari.jpg",
+        "social_media": {
+            "email": "gompa.umesh71@gmail.com"
+        },
+        "profession": "Agriculture & Social Service",
+        "spouse_profession": "Agriculture"
+    },
+    {
+        "id": 20,
+        "name": "Aditi Vijayalakshmi Gajapathi Raju Pusapati",
+        "constituency": "VIZIANAGARAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from IGNOU in 2021",
+        "dob": "Age: 41 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/aditi_vijayalakshmi_gajapathi_raju_pusapati.jpg",
+        "social_media": {
+            "email": "aditi.raju@gmail.com"
+        },
+        "profession": "Home maker",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 21,
+        "name": "Matsyarasa Visweswara Raju",
+        "constituency": "PADERU",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "completed M.A. from Andhra University in 2008",
+        "dob": "Age: 38 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/matsyarasa_visweswara_raju.jpg",
+        "social_media": {
+            "email": "23@gmail.com"
+        },
+        "profession": "Advocate",
+        "spouse_profession": "ZPTC GKVeedhi Mandal"
+    },
+    {
+        "id": 22,
+        "name": "Bandaru Satyanarayana Murthy",
+        "constituency": "MADUGULA",
+        "party": "TDP",
+        "criminal_cases": "7",
+        "education": "completed Bachelor of Commerce from A.M.A.L College, Anakapalli in 1978",
+        "dob": "Age: 68 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bandaru_satyanarayana_murthy.jpg",
+        "social_media": {
+            "email": "bandarusnm@gmail.com",
+            "facebook": "https://www.facebook.com/BandaruSNM/",
+            "x": "https://x.com/BandaruSNMTDP",
+            "instagram": "https://www.instagram.com/bandarusnm/"
+        },
+        "profession": "SeIFPOLITICtAN",
+        "spouse_profession": "HOUSE WFE"
+    },
+    {
+        "id": 23,
+        "name": "Ganta Srinivasa Rao",
+        "constituency": "BHIMILI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A from Andhra University, Visakhapatnam",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ganta_srinivasa_rao.jpg",
+        "social_media": {
+            "x": "https://x.com/Ganta_Srinivasa",
+            "facebook": "https://facebook.com/GantaSrinivasaRao"
+        },
+        "profession": "Agriculture Labour",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 24,
+        "name": "Miriyala Sirisha Devi",
+        "constituency": "RAMPACHODAVARAM(ST)",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Bachelor of Education from Andhra University in 2015",
+        "dob": "Age: 30 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/miriyala_sirisha_devi.jpg",
+        "social_media": {
+            "email": "devisirisha88@gmail.com"
+        },
+        "profession": "EXANGANWADI WORKER",
+        "spouse_profession": "AGRICULTURIST & PETTY CONTRACTOR"
+    },
+    {
+        "id": 25,
+        "name": "Surya Naga Sanyasi Raju Kalidindi",
+        "constituency": "CHODAVARAM",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.A. and B.L. from Andhra University in 1992",
+        "dob": "Age: 57 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/surya_naga_sanyasi_raju_kalidindi.jpg",
+        "social_media": {
+            "email": "ksnsraju.mla@gmail.com"
+        },
+        "profession": "Agriculture & Business",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 26,
+        "name": "Panchakarla Ramesh Babu",
+        "constituency": "PENDURTHI",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed B.Com from Andhra University in 1998",
+        "dob": "Age: 60 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/panchakarla_ramesh_babu.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/profile.php",
+            "instagram": "https://www.instagram.com/panchakaralarameshbabu",
+            "x": "https://x.com/panchakarlababu",
+            "email": "panchakarlarammeshbabu@gmail.com"
+        },
+        "profession": "House Wife",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 27,
+        "name": "Konathala Ramakrishna",
+        "constituency": "ANAKAPALLE",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed M.Com from A.M.A.L College, Anakapalle",
+        "dob": "4 January 1957",
+        "image": "/knowyourleader/candidate-images/konathala_ramakrishna.jpg",
+        "social_media": {
+            "email": "konathalark09@gmail.com"
+        },
+        "profession": "Politician",
+        "spouse_profession": "DECEASED"
+    },
+    {
+        "id": 28,
+        "name": "Vishnu Kumar Raju Penmetsa",
+        "constituency": "VISAKHAPATNAM NORTH",
+        "party": "BJP",
+        "criminal_cases": "1",
+        "education": "completed Bachelor of Engineering (B.E) from Andhra University",
+        "dob": "Age: 62 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/vishnu_kumar_raju_penmetsa.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/bjpvishnu/"
+        },
+        "profession": "Politician",
+        "spouse_profession": "DECEASED"
+    },
+    {
+        "id": 29,
+        "name": "Ayyannapatrudu Chintakayala",
+        "constituency": "NARSIPATNAM",
+        "party": "TDP",
+        "criminal_cases": "17",
+        "education": "completed Intermediate from Board of Intermediate Education, AP in 1975",
+        "dob": "Age: 66 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ayyannapatrudu_chintakayala.jpg",
+        "social_media": {
+            "email": "ayyanna.ch@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 30,
+        "name": "Ramakrishna Babu Velagapudi",
+        "constituency": "VISAKHAPATNAM EAST",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed B.Sc. (Ag) from Gorakhpur University in 1981",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ramakrishna_babu_velagapudi.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/VelagapudiRamakrishnaBabu",
+            "instagram": "https://www.instagram.com/velagapudi_ramakrishna_babu"
+        },
+        "profession": "Public Service",
+        "spouse_profession": "Housewife"
+    },
+    {
+        "id": 31,
+        "name": "P.G.V.R.Naidu(Ganababu)",
+        "constituency": "VISAKHAPATNAM WEST",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Bachelor of Commerce from Mrs. A.V.N. College, Andhra University in 1990",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/p_g_v_r_naidu_ganababu_.jpg",
+        "social_media": {
+            "email": "p-gv.r.naidu@gmail.com"
+        },
+        "profession": "BUSINESS",
+        "spouse_profession": "HOUSE WIFE"
+    },
+    {
+        "id": 32,
+        "name": "Palla Srinivas Rao",
+        "constituency": "GAJUWAKA",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed B.Tech from Andhra University",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/palla_srinivas_rao.jpg",
+        "social_media": {
+            "x": "https://x.com/PallaSrinivas",
+            "facebook": "https://facebook.com/PallaSrinivasaRao"
+        },
+        "profession": "CIVIL CONSULTANCY",
+        "spouse_profession": "Asst Professor Department of CS & SE AUCE ANDHRA UNIVERSITY"
+    },
+    {
+        "id": 33,
+        "name": "Ch.Vamsi Krishna Srinivas",
+        "constituency": "VISAKHAPATNAM SOUTH",
+        "party": "Janasena Party",
+        "criminal_cases": "8",
+        "education": "completed Master of Arts (Politics) from Andhra University in 2017",
+        "dob": "Age: 50 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ch_vamsi_krishna_srinivas.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/vamsikrishnasrinivas",
+            "instagram": "https://www.instagram.com/vamsikrishnasrinivas",
+            "x": "https://x.com/CVK_Srinivas"
+        },
+        "profession": "BUSINESS",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 34,
+        "name": "Sundarapu Vijay Kumar",
+        "constituency": "YELAMANCHILI",
+        "party": "Janasena Party",
+        "criminal_cases": "8",
+        "education": "completed B.Sc. from Mrs. A.V.N College, Visakhapatnam in 1988",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/sundarapu_vijay_kumar.jpg",
+        "social_media": {
+            "email": "vijaysundarapu@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "vijay"
+    },
+    {
+        "id": 35,
+        "name": "Anitha Vangalapudi",
+        "constituency": "PAYAKARAOPET",
+        "party": "TDP",
+        "criminal_cases": "7",
+        "education": "completed M.A. from Andhra University in 2009",
+        "dob": "Age: 45 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/anitha_vangalapudi.jpg",
+        "social_media": {
+            "x": "https://x.com/Anitha_TDP",
+            "facebook": "https://facebook.com/AnithaVangalapudi"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 36,
+        "name": "Divya Yanamala",
+        "constituency": "TUNI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Master of Business Administration from Osmania University in 2006",
+        "dob": "Age: 40 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/divya_yanamala.jpg",
+        "social_media": {
+            "email": "divya16@gmail.com"
+        },
+        "profession": "House Wife",
+        "spouse_profession": "Central Government Servant as Indian Revenue Services IRS"
+    },
+    {
+        "id": 37,
+        "name": "Chirri Balaraju",
+        "constituency": "POLAVARAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed 10th Class (SSC) from Z.P.H.S, Chindada in 2008",
+        "dob": "Age: 36 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/chirri_balaraju.jpg",
+        "social_media": {
+            "email": "ispblarajuchirri@gmail.com"
+        },
+        "profession": "a Agriculture",
+        "spouse_profession": "b Asha worker & Agriculture"
+    },
+    {
+        "id": 38,
+        "name": "Varupula Satya Prabha",
+        "constituency": "PRATHIPADU (VARUPULA SATYA PRABHA)",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed M.B.A. from Andhra University in 2006",
+        "dob": "Age: 45 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/varupula_satya_prabha.jpg",
+        "social_media": {
+            "email": "prabhavarupula@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 39,
+        "name": "Jyothula Nehru",
+        "constituency": "JAGGAMPETA",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed 9th Class from ZP High School, Yeleswaram in 1965",
+        "dob": "Age: 73 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/jyothula_nehru.jpg",
+        "social_media": {
+            "email": "venkataapparaoanenehrujyothula@gmail.com"
+        },
+        "profession": "CULTIVATION & POLITICS",
+        "spouse_profession": "HOUSEWIFE"
+    },
+    {
+        "id": 40,
+        "name": "Bathula Balaramakrishna S/O Gangarao",
+        "constituency": "RAJANAGARAM",
+        "party": "Janasena Party",
+        "criminal_cases": "3",
+        "education": "completed Graduate Professional",
+        "dob": "Age: 49 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bathula_balaramakrishna_s_o_gangarao.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/battulabalaramakrishna/",
+            "instagram": "https://www.instagram.com/battulabalaramakrishnamla/",
+            "x": "https://x.com/BattulaBalarama"
+        },
+        "profession": "CULTIVATION & POLITICS",
+        "spouse_profession": "HOUSEWIFE"
+    },
+    {
+        "id": 41,
+        "name": "Konidala Pawan Kalyan",
+        "constituency": "PITHAPURAM",
+        "party": "Janasena Party",
+        "criminal_cases": "8",
+        "education": "completed 10th Class (SSC) from St. Josephs English Medium High School in 1984",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/konidala_pawan_kalyan.jpg",
+        "social_media": {
+            "email": "pawankalyan.k786@gmail.com",
+            "x": "https://x.com/PawanKalyan",
+            "facebook": "https://www.facebook.com/PawanKalyan/",
+            "instagram": "https://www.instagram.com/pawankalyan/"
+        },
+        "profession": "Film Actor",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 42,
+        "name": "Roshan Kumar Songa",
+        "constituency": "CHINTALAPUDI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Master of Computer Applications (M.C.A) from Osmania University in 2003",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/roshan_kumar_songa.jpg",
+        "social_media": {
+            "facebook": "facebook.com/Roshankumarsonga",
+            "x": "x.com/Roshansonga",
+            "youtube": "youtube.com/@SRKFORPEOPLE",
+            "email": "roshansonga@gmail.com"
+        },
+        "profession": "GEP Business Analyst Software",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 43,
+        "name": "Maddipati Venkata Raju",
+        "constituency": "GOPALAPURAM",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed M.Sc (Information Systems) from Sri GCSR College, Rajam in 2003",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/maddipati_venkata_raju.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/VenkataRajuMaddipati",
+            "instagram": "https://www.instagram.com/madlipati_venkata_raju",
+            "email": "ymaddipatti@gmail.com"
+        },
+        "profession": "Government Employee",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 44,
+        "name": "China Rajappa Nimmakayala",
+        "constituency": "PEDDAPURAM",
+        "party": "TDP",
+        "criminal_cases": "17",
+        "education": "completed Bachelor of Arts (B.A) from SKBR College, Amalapuram in 1978",
+        "dob": "Age: 71 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/china_rajappa_nimmakayala.jpg",
+        "social_media": {
+            "email": "chinarajappa.dcm@gmail.com"
+        },
+        "profession": "CULTIVATION",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 45,
+        "name": "Muppidi Venkateswara Rao",
+        "constituency": "KOVVUR",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed Master of Social Work from Nagarjuna University in 2008",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/muppidi_venkateswara_rao.jpg",
+        "social_media": {
+            "email": "venkateswararao@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 46,
+        "name": "Kolikapudi Srinivasa Rao",
+        "constituency": "TIRUVURU",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed Bachelor of Arts (B.A) from SKBR College, Amalapuram in 1978",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kolikapudi_srinivasa_rao.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/kolikapudi.srinivasarao/",
+            "x": "https://x.com/rao_kolikapudi",
+            "facebook": "https://www.facebook.com/p/Kolikapudi-Srinivasa-Rao-100069940747834/"
+        },
+        "profession": "CULTIVATION",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 47,
+        "name": "Ramakrishna Reddy Nallamilli",
+        "constituency": "ANAPARTHY",
+        "party": "BJP",
+        "criminal_cases": "32",
+        "education": "completed B.Sc from Govt. Degree College, Rajahmundry in 1987",
+        "dob": "Age: 58 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ramakrishna_reddy_nallamilli.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/NallamilliRamakrishnaReddy",
+            "instagram": "https://www.instagram.com/nallamilli_ramakrishna_reddy"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 48,
+        "name": "Adireddy Srinivas",
+        "constituency": "RAJAHMUNDRY CITY",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed B.E. from Madras University in 2003",
+        "dob": "Age: 42 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/adireddy_srinivas.jpg",
+        "social_media": {
+            "email": "adireddy26@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "Public Service"
+    },
+    {
+        "id": 49,
+        "name": "Kolusu Partha Sarathy",
+        "constituency": "NUZVID",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed 12th Pass from St. Joseph Junior College, Hyderabad",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kolusu_partha_sarathy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/kolusu.parthasarathy.official/",
+            "instagram": "https://www.instagram.com/kolusu.parthasarathy/",
+            "x": "https://x.com/kpsarathyTDP"
+        },
+        "profession": "Business",
+        "spouse_profession": "Public Service"
+    },
+    {
+        "id": 50,
+        "name": "Pantam Venkateswara Rao (Pantam Nanaji)",
+        "constituency": "KAKINADA RURAL",
+        "party": "Janasena Party",
+        "criminal_cases": "11",
+        "education": "completed Intermediate from Board of Intermediate Education, AP",
+        "dob": "Age: 61 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/pantam_venkateswara_rao__pantam_nanaji_.jpg",
+        "social_media": {
+            "email": "panthamnanaji88@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 51,
+        "name": "Rajagopal Sreeram (Tataiah)",
+        "constituency": "JAGGAYYAPETA",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed Bachelor of Commerce from SGS College, Andhra University in 1984",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/rajagopal_sreeram__tataiah_.jpg",
+        "social_media": {
+            "email": "tdpjpt@gmail.com"
+        },
+        "profession": "Politician",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 52,
+        "name": "Gorantla Butchaiah Choudary",
+        "constituency": "RAJAHMUNDRY RURAL",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed B.Sc. from Government Arts and Science College, Rajahmundry in 1967",
+        "dob": "Age: 78 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gorantla_butchaiah_choudary.jpg",
+        "social_media": {
+            "email": "gorantlagbc@gmail.com"
+        },
+        "profession": "Business and occupation MLA of Rajahmundry Rural Assembly",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 53,
+        "name": "Bandaru Satyananda Rao",
+        "constituency": "KOTHAPETA",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.E. from Madras University in 2003",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bandaru_satyananda_rao.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/BandaruSatyanandaRao/",
+            "instagram": "https://www.instagram.com/bandaru_satyananda_rao/",
+            "x": "https://x.com/BSatyanandaRao"
+        },
+        "profession": "Business",
+        "spouse_profession": "Public Service"
+    },
+    {
+        "id": 54,
+        "name": "Datla Subbaraju (Buchibabu)",
+        "constituency": "MUMMIDIVARAM",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.Com from VKV Govt. Degree College, Kothapeta in 1984",
+        "dob": "Age: 51 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/datla_subbaraju__buchibabu_.jpg",
+        "social_media": {
+            "email": "bsnrao777@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "c Source of income jf any of dependents NIL"
+    },
+    {
+        "id": 55,
+        "name": "Vasantha Venkata Krishna Prasad",
+        "constituency": "MYLAVARAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed 10th Class (SSC) from Sri Patibandla Sitaramaiah High School in 1985",
+        "dob": "8 April 1970",
+        "image": "/knowyourleader/candidate-images/vasantha_venkata_krishna_prasad.jpg",
+        "social_media": {
+            "x": "https://x.com/Vvasanthaprasad",
+            "facebook": "https://facebook.com/VasanthaVenkataKrishnaPrasad"
+        },
+        "profession": "Public Service and Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 56,
+        "name": "Jogeswara Rao.V",
+        "constituency": "MANDAPETA",
+        "party": "TDP",
+        "criminal_cases": "6",
+        "education": "completed Bachelor of Commerce (B.Com) from Andhra University in 1974",
+        "dob": "Age: 69 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/jogeswara_rao_v.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/VegullaJogeswaraRao",
+            "instagram": "https://www.instagram.com/vegullajogeswararao"
+        },
+        "profession": "Public Service and Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 57,
+        "name": "Bolisetty Srinivas",
+        "constituency": "TADEPALLIGUDEM",
+        "party": "Janasena Party",
+        "criminal_cases": "4",
+        "education": "completed Intermediate from D.R. Goenka Govt. Degree College, Pentapadu in 1976",
+        "dob": "Age: 62 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bolisetty_srinivas.jpg",
+        "social_media": {
+            "facebook": "http://www.facebook.com/Srinivas",
+            "instagram": "http://www.instagram.com/srinivas_bolisetti",
+            "x": "http://twitter.com/Bolisetti",
+            "email": "bolisetty.srinivas@gmail.com"
+        },
+        "profession": "House Wife",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 58,
+        "name": "Vanamadi Venkateswara Rao @ Kondababu",
+        "constituency": "KAKINADA CITY",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed 10th Pass",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/vanamadi_venkateswara_rao___kondababu.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/vanamadikondababu/",
+            "instagram": "https://www.instagram.com/vanamadikondababu_official/"
+        },
+        "profession": "House Wife",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 59,
+        "name": "Kandula Durgesh",
+        "constituency": "NIDADAVOLE",
+        "party": "Janasena Party",
+        "criminal_cases": "7",
+        "education": "completed M.A from Andhra University, Waltair",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kandula_durgesh.jpg",
+        "social_media": {
+            "email": "lakshmidurgesh@gmail.com"
+        },
+        "profession": "a SOCIAL SERVICE Politician",
+        "spouse_profession": "b DIDE"
+    },
+    {
+        "id": 60,
+        "name": "Chintamaneni Prabhakar",
+        "constituency": "DENDULURU",
+        "party": "TDP",
+        "criminal_cases": "90",
+        "education": "completed Intermediate from Board of Intermediate Education, AP",
+        "dob": "3 January 1968",
+        "image": "/knowyourleader/candidate-images/chintamaneni_prabhakar.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/ChintamaneniTDP/",
+            "instagram": "https://www.instagram.com/chintamanenitdp/",
+            "x": "https://x.com/ChintamaneniTDP"
+        },
+        "profession": "a SOCIAL SERVICE Politician",
+        "spouse_profession": "b DIDE"
+    },
+    {
+        "id": 61,
+        "name": "Dharmaraju Patsamatla",
+        "constituency": "UNGUTUR",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed B.A from Andhra University",
+        "dob": "Age: 43 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dharmaraju_patsamatla.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/Dharmaraju.Patsamatla.JSPunguturu/",
+            "instagram": "https://www.instagram.com/patsamatla_dharmaraju_pdr/",
+            "x": "https://x.com/DharmarajuPdr"
+        },
+        "profession": "a SOCIAL SERVICE Politician",
+        "spouse_profession": "b DIDE"
+    },
+    {
+        "id": 62,
+        "name": "Tangirala Sowmya",
+        "constituency": "NANDIGAMA",
+        "party": "TDP",
+        "criminal_cases": "23",
+        "education": "completed B.Tech from CR Reddy College, Eluru in 2002",
+        "dob": "12 April 1981",
+        "image": "/knowyourleader/candidate-images/tangirala_sowmya.jpg",
+        "social_media": {
+            "email": "ndgmla@gmail.com"
+        },
+        "profession": "Resigned from the Job",
+        "spouse_profession": "Details of sources of income"
+    },
+    {
+        "id": 63,
+        "name": "Vasamsetti. Subash",
+        "constituency": "RAMACHANDRAPURAM",
+        "party": "TDP",
+        "criminal_cases": "12",
+        "education": "completed Graduate Professional",
+        "dob": "Age: 46 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/vasamsetti__subash.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/vasamsettisubashyuvasena/",
+            "instagram": "https://www.instagram.com/vasamsettisubash/",
+            "x": "https://x.com/ministersubashv"
+        },
+        "profession": "Resigned from the Job",
+        "spouse_profession": "Details of sources of income"
+    },
+    {
+        "id": 64,
+        "name": "Bhashyam Praveen",
+        "constituency": "PEDAKURAPADU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.Sc. from Hindu College, Nagarjuna University in 1997",
+        "dob": "Age: 47 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bhashyam_praveen.jpg",
+        "social_media": {
+            "facebook": "www.facebook.com/BhashvamPraveen",
+            "email": "praveenbhashyam41@gmail.com"
+        },
+        "profession": "Business/ employed",
+        "spouse_profession": "Business/ employed"
+    },
+    {
+        "id": 65,
+        "name": "Arimilli Radha Krishna",
+        "constituency": "TANUKU",
+        "party": "TDP",
+        "criminal_cases": "7",
+        "education": "completed M.Sc in Computers from Nagarjuna University in 1997",
+        "dob": "Age: 50 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/arimilli_radha_krishna.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/arimilli",
+            "instagram": "https://www.instagram.com/rkarimilli",
+            "x": "https://twitter.com/rkarimilli",
+            "email": "rkarimilli@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "IT Profession and Business"
+    },
+    {
+        "id": 66,
+        "name": "Radha Krishnayya Badeti",
+        "constituency": "ELURU",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed B.A. from DNR College, Bhimavaram in 1994",
+        "dob": "Age: 58 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/radha_krishnayya_badeti.jpg",
+        "social_media": {
+            "email": "elurutdpincharge@gmail.com"
+        },
+        "profession": "a Aqua Culture & Business",
+        "spouse_profession": "b House wife"
+    },
+    {
+        "id": 67,
+        "name": "Yarapathineni Srinivasa Rao",
+        "constituency": "GURAJALA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Intermediate from SKBR Govt. College, Macherla in 1982",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/yarapathineni_srinivasa_rao.jpg",
+        "social_media": {
+            "email": "yarapathinenimla@gmail.com"
+        },
+        "profession": "Agriculturist and Social Worker",
+        "spouse_profession": "Home Maker"
+    },
+    {
+        "id": 68,
+        "name": "Yarlagadda Venkata Rao",
+        "constituency": "GANNAVARAM (YARLAGADDA VENKATA RAO)",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.Sc. from AG & SG College, Vuyyuru, Nagarjuna University in 1998",
+        "dob": "Age: 49 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/yarlagadda_venkata_rao.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/yarlagaddavenkatarao",
+            "x": "https://x.com/yarlagadda_tdp",
+            "instagram": "https://www.instagram.com/yarlagadda_venkatarao_7777",
+            "email": "yyarlagadda77777@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 69,
+        "name": "Giddi. Satyanarayana",
+        "constituency": "GANNAVARAM (GIDDI. SATYANARAYANA)",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed B.A. from DNR College, Bhimavaram, Andhra University in 1987",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/giddi__satyanarayana.jpg",
+        "social_media": {
+            "email": "gsatyanarayana2oss@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 70,
+        "name": "Kamineni Srinivas",
+        "constituency": "KAIKALUR",
+        "party": "BJP",
+        "criminal_cases": "1",
+        "education": "completed M.B.B.S. from Rangaraya Medical College, Kakinada in 1972",
+        "dob": "Age: 76 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kamineni_srinivas.jpg",
+        "social_media": {
+            "email": "drkaminenisrinivas@gmail.com"
+        },
+        "profession": "Agricultural",
+        "spouse_profession": "Teacher The Education Renaissance trust"
+    },
+    {
+        "id": 71,
+        "name": "Satyanarayana Pithani",
+        "constituency": "ACHANTA",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.Com from Andhra University",
+        "dob": "Age: 71 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/satyanarayana_pithani.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/Pithani",
+            "instagram": "https://www.instagram.com/pithani_satyanarayana",
+            "x": "https://twitter.com/PithaniOffl",
+            "email": "pithani.satya@gmail.com"
+        },
+        "profession": "SERVICE & AGRICULTURE",
+        "spouse_profession": "HOUSE WIFE"
+    },
+    {
+        "id": 72,
+        "name": "Kanumuru Raghu Rama Krishna Raju (R R R)",
+        "constituency": "UNDI",
+        "party": "TDP",
+        "criminal_cases": "19",
+        "education": "completed B.Pharmacy from Andhra University in 1984",
+        "dob": "Age: 61 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kanumuru_raghu_rama_krishna_raju__r_r_r_.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/KRaghuRamaKrishnaRaju",
+            "instagram": "https://www.instagram.com/raghuraju_mp",
+            "x": "https://twitter.com/RaghuRaju_MP",
+            "email": "raghumpnarasapuram@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 73,
+        "name": "Julakanti Brahmananda Reddy",
+        "constituency": "MACHERLA",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed 10th Class (SSC)",
+        "dob": "Age: 60 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/julakanti_brahmananda_reddy.jpg",
+        "social_media": {
+            "email": "jbreddyso@gmail.com"
+        },
+        "profession": "HOMEMAKER",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 74,
+        "name": "Ramanjaneyulu Pulaparthi (Anjibabu)",
+        "constituency": "BHIMAVARAM",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed Intermediate from Hindu College, Machilipatnam in 1970",
+        "dob": "Age: 69 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ramanjaneyulu_pulaparthi__anjibabu_.jpg",
+        "social_media": {
+            "email": "pulaparthibvrm@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 75,
+        "name": "Aithabathula Anandarao",
+        "constituency": "AMALAPURAM",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed M.A. from Andhra University PG College, Kakinada in 1993",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/aithabathula_anandarao.jpg",
+        "social_media": {
+            "email": "amalapuramtdp@gmail.com"
+        },
+        "profession": "a Advocate Agriculture and Aquaculture",
+        "spouse_profession": "b Private Teacher Business and Aquaculture"
+    },
+    {
+        "id": 76,
+        "name": "Tenali Sravan Kumar",
+        "constituency": "TADIKONDA",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed B.A from Andhra University",
+        "dob": "Age: 60 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/tenali_sravan_kumar.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/SravanKumarMLA/",
+            "instagram": "https://www.instagram.com/sravankumar.tenali/",
+            "x": "https://x.com/SravanTenali"
+        },
+        "profession": "HOMEMAKER",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 77,
+        "name": "Dr.Nimmala Ramanaidu",
+        "constituency": "PALACOLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Ph.D in Geography from Andhra University in 2005",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dr_nimmala_ramanaidu.jpg",
+        "social_media": {
+            "email": "ramanaidunimmala@gmail.com"
+        },
+        "profession": "AGRICULTURE AQUACULTURE Present Member of AP Legislative Assembly",
+        "spouse_profession": "BUSINESS AGRICULTURE"
+    },
+    {
+        "id": 78,
+        "name": "Bonda Umamaheswararao",
+        "constituency": "VIJAYAWADA CENTRAL",
+        "party": "TDP",
+        "criminal_cases": "14",
+        "education": "completed 9th Class from BSRK Municipal Schoool, Vijayawada in 1980",
+        "dob": "Age: 63 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bonda_umamaheswararao.jpg",
+        "social_media": {
+            "x": "https://x.com/BondaUma",
+            "facebook": "https://facebook.com/BondaOfficial"
+        },
+        "profession": "Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 79,
+        "name": "Venigandla Ramu",
+        "constituency": "GUDIVADA",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.Tech from RVR & JC Engineering College, Guntur in 1992",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/venigandla_ramu.jpg",
+        "social_media": {
+            "email": "venigandla@gmail.com"
+        },
+        "profession": "Private Business",
+        "spouse_profession": "Private Business"
+    },
+    {
+        "id": 80,
+        "name": "Yalamanchili Satyanarayana Chowdary (Sujana Chowdary)",
+        "constituency": "VIJAYAWADA WEST",
+        "party": "BJP",
+        "criminal_cases": "4",
+        "education": "completed Master of Engineering from PSG College of Technology in 1986",
+        "dob": "Age: 62 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/yalamanchili_satyanarayana_chowdary__sujana_chowdary_.jpg",
+        "social_media": {
+            "x": "https://x.com/yschowdary",
+            "facebook": "https://facebook.com/yschowdary"
+        },
+        "profession": "Technocrat Social Services and Politician",
+        "spouse_profession": "House maker"
+    },
+    {
+        "id": 81,
+        "name": "Deva Varaprasad",
+        "constituency": "RAZOLE",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed M.Sc. (Botany) from Andhra University in 1981",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/deva_varaprasad.jpg",
+        "social_media": {
+            "email": "dvaraprasad.hyd@gmail.com"
+        },
+        "profession": "Retired IAS",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 82,
+        "name": "Kumar Raja Varla",
+        "constituency": "PAMARRU",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed Post Graduate",
+        "dob": "Age: 45 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kumar_raja_varla.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/VarlaKumarRajaOfficial/",
+            "instagram": "https://www.instagram.com/kumarvarla/",
+            "x": "https://x.com/VarlaKumarRaja"
+        },
+        "profession": "Retired IAS",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 83,
+        "name": "Bode Prasad",
+        "constituency": "PENAMALURU",
+        "party": "TDP",
+        "criminal_cases": "12",
+        "education": "completed 10th Class (SSC) from ZPH School, Penamaluru in 1983",
+        "dob": "Age: 56 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bode_prasad.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/bodeprasad",
+            "x": "https://twitter.com/bodeprasad",
+            "email": "bodeprasad567@gmail.com"
+        },
+        "profession": "Business Builder",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 84,
+        "name": "Gadde Rama Mohan",
+        "constituency": "VIJAYAWADA EAST",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed M.Sc. Microbiology from Dharwar University in 1978",
+        "dob": "Age: 67 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gadde_rama_mohan.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/gadderamamohantdp",
+            "x": "https://x.com/gadderamamohan",
+            "email": "gaddeexmp@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 85,
+        "name": "Nara Lokesh",
+        "constituency": "MANGALAGIRI",
+        "party": "TDP",
+        "criminal_cases": "17",
+        "education": "completed Master of Business Administration from Stanford University Graduate School of Business in 2008",
+        "dob": "23 January 1983",
+        "image": "/knowyourleader/candidate-images/nara_lokesh.jpg",
+        "social_media": {
+            "x": "https://x.com/naralokesh",
+            "facebook": "https://www.facebook.com/naralokesh/",
+            "instagram": "https://www.instagram.com/naralokesh/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 86,
+        "name": "Kanna Lakshminarayana",
+        "constituency": "SATTENAPALLE",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed B.Com from TJPS College, Guntur in 1976",
+        "dob": "13 August 1954",
+        "image": "/knowyourleader/candidate-images/kanna_lakshminarayana.jpg",
+        "social_media": {
+            "email": "kincampofficeguntur@gmail.com"
+        },
+        "profession": "Social Service Politician and Business",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 87,
+        "name": "Bommidi Narayana Nayakar",
+        "constituency": "NARASAPURAM",
+        "party": "Janasena Party",
+        "criminal_cases": "6",
+        "education": "completed 10th Class (SSC) from Ravindra Bharathi School, Bhimavaram in 1989",
+        "dob": "Age: 51 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bommidi_narayana_nayakar.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/share",
+            "instagram": "https://www.instagram.com/bommidinayakarjsp",
+            "x": "x.com/bnayakarjsp",
+            "email": "suneethatraders@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 88,
+        "name": "Kagitha Krishnaprasad",
+        "constituency": "PEDANA",
+        "party": "TDP",
+        "criminal_cases": "9",
+        "education": "completed 10th Class (SSC) from ZP High School, Munjuluru in 1972",
+        "dob": "Age: 42 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kagitha_krishnaprasad.jpg",
+        "social_media": {
+            "email": "is_kpkagitha@gmail.com"
+        },
+        "profession": "AGRICULTURE",
+        "spouse_profession": "SOFTWARE"
+    },
+    {
+        "id": 89,
+        "name": "Gonuguntla Venkata Siva Sita Rama Anzanneyllu",
+        "constituency": "VINUKONDA",
+        "party": "TDP",
+        "criminal_cases": "18",
+        "education": "completed B.Sc. from JKC College, Guntur",
+        "dob": "Age: 58 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gonuguntla_venkata_siva_sita_rama_anzanneyllu.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/gvanjaneyulu.vinukonda"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 90,
+        "name": "Mohammed Naseer Ahmed",
+        "constituency": "GUNTUR EAST",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed 10th Pass (SSC) from R.T.H High School, Guntur in 1989",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/mohammed_naseer_ahmed.jpg",
+        "social_media": {
+            "email": "9@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "Home Maker"
+    },
+    {
+        "id": 91,
+        "name": "Dhulipalla Narendra Kumar",
+        "constituency": "PONNUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.Tech from Mysore University in 1989",
+        "dob": "14 December 1967",
+        "image": "/knowyourleader/candidate-images/dhulipalla_narendra_kumar.jpg",
+        "social_media": {
+            "email": "dhulipallnkumar@gmail.com"
+        },
+        "profession": "Agriculture",
+        "spouse_profession": "Business/ employed"
+    },
+    {
+        "id": 92,
+        "name": "Nadendla Manohar",
+        "constituency": "TENALI",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed Master of Business Administration from Osmania University in 1987",
+        "dob": "6 April 1964",
+        "image": "/knowyourleader/candidate-images/nadendla_manohar.jpg",
+        "social_media": {
+            "facebook": "https://facebook.com/NadendlaManoharonline",
+            "x": "www.twitter.com/mnadendla",
+            "email": "nadendlamanohar@gmail.com"
+        },
+        "profession": "Consultation Social Service",
+        "spouse_profession": "Doctor"
+    },
+    {
+        "id": 93,
+        "name": "Galla Madhavi",
+        "constituency": "GUNTUR WEST",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed M.A from Nagarjuna University",
+        "dob": "Age: 40 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/galla_madhavi.jpg",
+        "social_media": {
+            "email": "gallamadhavi84@gmail.com",
+            "facebook": "https://www.facebook.com/gallamadhaviofficial",
+            "instagram": "Https://www.instagram.com/gallamadhaviofficial",
+            "x": "https://twitter.com/galla_madhavi"
+        },
+        "profession": "Employed Business Income",
+        "spouse_profession": "Employed Business Income"
+    },
+    {
+        "id": 94,
+        "name": "Aravinda Babu Chadalavada",
+        "constituency": "NARASARAOPET",
+        "party": "TDP",
+        "criminal_cases": "17",
+        "education": "completed MBBS from Guntur Medical College",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/aravinda_babu_chadalavada.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/dr.chadalavada.aravinda.babu/",
+            "facebook": "https://www.facebook.com/DrChadalavadaAravindaBabu/"
+        },
+        "profession": "Employed Business Income",
+        "spouse_profession": "Employed Business Income"
+    },
+    {
+        "id": 95,
+        "name": "Chandra Sekhar Tatiparthi",
+        "constituency": "YERRAGONDAPALEM",
+        "party": "YSRCP",
+        "criminal_cases": "3",
+        "education": "completed B.E. (Civil) from Muffakham Jah College of Engineering in 1997",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/chandra_sekhar_tatiparthi.jpg",
+        "social_media": {
+            "x": "https://x.com/TCSekhar_YSRCP"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 96,
+        "name": "Burla Ramanjaneyulu",
+        "constituency": "PRATHIPADU (BURLA RAMANJANEYULU)",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed Ph.D from Sri Krishnadevaraya University in 2019",
+        "dob": "Age: 65 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/burla_ramanjaneyulu.jpg",
+        "social_media": {
+            "youtube": "youtube.com/@burlaramanjaneyulu",
+            "email": "burlaramanjaneyuluias@gmail.com",
+            "facebook": "https://www.facebook.com/burla.ramanjaneyulu",
+            "instagram": "https://www.instagram.com/burla.ramanjaneyulu",
+            "x": "https://X.com/Burla_IAS"
+        },
+        "profession": "BURLA RAMANJANEYULU Retired IAS Officer & Social Worker",
+        "spouse_profession": "CHINTAKUNTA JAYAMMA Retired Staff Nurse"
+    },
+    {
+        "id": 97,
+        "name": "Prathipati Pullarao",
+        "constituency": "CHILAKALURIPET",
+        "party": "TDP",
+        "criminal_cases": "13",
+        "education": "completed B.Com from Nagarjuna University in 1980",
+        "dob": "Age: 65 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/prathipati_pullarao.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/PrathipatiPullarao",
+            "instagram": "https://www.instagram.com/prathipatipullarao",
+            "x": "https://x.com/PullaraoP"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 98,
+        "name": "Kollu. Ravindra",
+        "constituency": "MACHILIPATNAM",
+        "party": "TDP",
+        "criminal_cases": "15",
+        "education": "completed B.A. from Andhra University in 2002",
+        "dob": "Age: 51 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kollu__ravindra.jpg",
+        "social_media": {
+            "email": "kolluravindra.sm@gmail.com"
+        },
+        "profession": "Business Naveena Rice Industries",
+        "spouse_profession": "Politics Business Naveena Rice Industries"
+    },
+    {
+        "id": 99,
+        "name": "Ananda Babu Nakka",
+        "constituency": "VEMURU",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed Bachelor of Laws from Andhra University in 1995",
+        "dob": "Age: 58 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ananda_babu_nakka.jpg",
+        "social_media": {
+            "email": "nabvemuru@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Secondary Grade Teacher"
+    },
+    {
+        "id": 100,
+        "name": "Buddhaprasad Mandali",
+        "constituency": "AVANIGADDA",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed B.A. from New Government College, Hyderabad in 1977",
+        "dob": "Age: 68 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/buddhaprasad_mandali.jpg",
+        "social_media": {
+            "email": "mandalibuddhaprasad@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 101,
+        "name": "Budda Rajasekhara Reddy",
+        "constituency": "SRISAILAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from Osmania College, Kurnool",
+        "dob": "Age: 57 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/budda_rajasekhara_reddy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/buddarajasekharareddy/",
+            "instagram": "https://www.instagram.com/buddarajasekharareddy/"
+        },
+        "profession": "AGRICLTURIST",
+        "spouse_profession": "HOUSE WIFE AND AGRICLTURIST"
+    },
+    {
+        "id": 102,
+        "name": "Gottipati  Ravi Kumar",
+        "constituency": "ADDANKI",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed 12th Pass",
+        "dob": "9 November 1974",
+        "image": "/knowyourleader/candidate-images/gottipati__ravi_kumar.jpg",
+        "social_media": {
+            "email": "gravikumarmlaaddanki@gmail.com"
+        },
+        "profession": "Business and Agriculture",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 103,
+        "name": "G Jayasurya",
+        "constituency": "NANDIKOTKUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed 12th Pass from National Open School, New Delhi in 2022",
+        "dob": "Age: 42 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/g_jayasurya.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/jayasuryagitta",
+            "x": "https://www.twitter.com/jayasuryagitta",
+            "email": "gittajayasurya6868@gmail.com"
+        },
+        "profession": "a Farmer",
+        "spouse_profession": "b Anganvadi Teacher"
+    },
+    {
+        "id": 104,
+        "name": "Anagani Satya Prasad",
+        "constituency": "REPALLE",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.Sc. from Anwar Ul-Ulam Autonomous College, Hyderabad in 1990",
+        "dob": "Age: 52 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/anagani_satya_prasad.jpg",
+        "social_media": {
+            "x": "https://x.com/AnaganiSatyaP",
+            "facebook": "https://facebook.com/AnaganiSatyaPrasad"
+        },
+        "profession": "BUSINESS AGRICULTURE AND SALARY RECEIVED AS",
+        "spouse_profession": "A MEMBER OF LEGISLATIVE ASSEMBLY MLA"
+    },
+    {
+        "id": 105,
+        "name": "Yeluri Sambasiva Rao",
+        "constituency": "PARCHUR",
+        "party": "TDP",
+        "criminal_cases": "6",
+        "education": "completed Post Graduate",
+        "dob": "Age: 48 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/yeluri_sambasiva_rao.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/MLAParchur",
+            "instagram": "https://www.instagram.com/mlaparchur",
+            "x": "https://twitter.com/sambayeluri",
+            "email": "isyeluri.tdp@gmail.com"
+        },
+        "profession": "Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 106,
+        "name": "Vegesana Narendra Varma Raju",
+        "constituency": "BAPATLA",
+        "party": "TDP",
+        "criminal_cases": "9",
+        "education": "completed 10th Class (SSC) from Govt. Junior College, Pittalavanipalem in 1985",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/vegesana_narendra_varma_raju.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/VegesanaNarendraVarmaRaju/",
+            "instagram": "https://www.instagram.com/narendravegesana/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 107,
+        "name": "Y. Balanagi Reddy",
+        "constituency": "MANTRALAYAM",
+        "party": "YSRCP",
+        "criminal_cases": "1",
+        "education": "completed 10th Class from National Institute of Open School in 2010",
+        "dob": "Age: 60 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/y__balanagi_reddy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/YBALANAGIREDDYMLA/",
+            "instagram": "https://www.instagram.com/ybalanagireddy/"
+        },
+        "profession": "a Details of profession or occupation",
+        "spouse_profession": "a Agriculturist"
+    },
+    {
+        "id": 108,
+        "name": "Buchepalli Siva Prasad Reddy",
+        "constituency": "DARSI",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "completed M.B.B.S. from Sri Ramachandra Medical College, Chennai",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/buchepalli_siva_prasad_reddy.jpg",
+        "social_media": {
+            "email": "sivambbs555@gmail.com"
+        },
+        "profession": "Doctor Agriculturalist Engaged in Politics and Public Service",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 109,
+        "name": "B. Jayanageswara Reddy",
+        "constituency": "YEMMIGANUR",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed M.B.B.S. from Deccan College of Medical Science, Hyderabad in 2004",
+        "dob": "Age: 47 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/b__jayanageswara_reddy.jpg",
+        "social_media": {
+            "email": "eashwarg@gmail.com"
+        },
+        "profession": "Doctor",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 110,
+        "name": "Madduluri Mala Kondaiah",
+        "constituency": "CHIRALA",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed B.Com from Distance Education",
+        "dob": "Age: 63 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/madduluri_mala_kondaiah.jpg",
+        "social_media": {
+            "email": "mmkondaiahrk@gmail.com",
+            "facebook": "www.facebook.com/MMKondaiahOfficial",
+            "instagram": "www.instagram.com/maddulurimalakondaiah"
+        },
+        "profession": "Business Agriculture & Service",
+        "spouse_profession": "Business Agriculture & Service"
+    },
+    {
+        "id": 111,
+        "name": "Boggula Dastagiri",
+        "constituency": "KODUMUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Master of Legislative Laws from Sri Krishna Devaraya University in 2018",
+        "dob": "Age: 39 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/boggula_dastagiri.jpg",
+        "social_media": {
+            "email": "babusri200@gmail.com"
+        },
+        "profession": "ADVOCATE",
+        "spouse_profession": "HOME MAIER"
+    },
+    {
+        "id": 112,
+        "name": "T.G.Bharath",
+        "constituency": "KURNOOL",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Master of Business Administration from Cardiff University",
+        "dob": "Age: 35 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/t_g_bharath.jpg",
+        "social_media": {
+            "x": "https://x.com/TGBharath_TDP",
+            "facebook": "https://facebook.com/TGBharath"
+        },
+        "profession": "a TGBHARATH",
+        "spouse_profession": "b TGSHILPA BHARATH"
+    },
+    {
+        "id": 113,
+        "name": "Gowru Charitha Reddy",
+        "constituency": "PANYAM",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from Government Degree College, Nandikotkur in 1990",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gowru_charitha_reddy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/Gowru",
+            "x": "https://twitter.com/Gowru",
+            "email": "charithareddygowru@gmail.com"
+        },
+        "profession": "Agriculture",
+        "spouse_profession": "c Source of income if any of dependents No"
+    },
+    {
+        "id": 114,
+        "name": "Kandula Narayana Reddy",
+        "constituency": "MARKAPURAM",
+        "party": "TDP",
+        "criminal_cases": "13",
+        "education": "completed Bachelor of Engineering (Discontinued) from Gulbarga University",
+        "dob": "5 August 1968",
+        "image": "/knowyourleader/candidate-images/kandula_narayana_reddy.jpg",
+        "social_media": {
+            "email": "knreddvmla@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 115,
+        "name": "Dr. Partha Sarathi Valmiki",
+        "constituency": "ADONI",
+        "party": "BJP",
+        "criminal_cases": "3",
+        "education": "completed Master of Dental Surgery from Government Dental College, Hyderabad in 2005",
+        "dob": "Age: 53 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dr__partha_sarathi_valmiki.jpg",
+        "social_media": {
+            "email": "partha4545@gmail.com"
+        },
+        "profession": "Profession Doctor / Occupation Managing Director Partha Dental Care India Pvt",
+        "spouse_profession": "Ltd Partha Cosmetology Pvt Ltd and Independent Director Bharath Electronic Limited"
+    },
+    {
+        "id": 116,
+        "name": "Ashok Reddy Muthumula",
+        "constituency": "GIDDALUR",
+        "party": "TDP",
+        "criminal_cases": "2",
+        "education": "completed Intermediate from Sri Vivekananda Junior College, Giddalur in 1985",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ashok_reddy_muthumula.jpg",
+        "social_media": {
+            "email": "muthumulaashokreddy@gmail.com"
+        },
+        "profession": "Politician",
+        "spouse_profession": "b Business"
+    },
+    {
+        "id": 117,
+        "name": "Vijay Kumar B.N",
+        "constituency": "SANTHANUTHALAPADU",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed Graduate Professional",
+        "dob": "Age: 56 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/vijay_kumar_b_n.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/bnvijaykumartdp/",
+            "instagram": "https://www.instagram.com/bn_vijaykumarmla/",
+            "x": "https://x.com/BnVijayKumar_Bn"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 118,
+        "name": "B. Virupakshi",
+        "constituency": "ALUR",
+        "party": "YSRCP",
+        "criminal_cases": "1",
+        "education": "completed 8th Pass",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/b__virupakshi.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/busine.virupakshi/",
+            "instagram": "https://www.instagram.com/busine_virupakshi_alur_mla9009/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 119,
+        "name": "K.E. Shyam Kumar",
+        "constituency": "PATTIKONDA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Master of Business Administration from Institute of Computer and Business Management, Hyderabad in 2001",
+        "dob": "Age: 50 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/k_e__shyam_kumar.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/people/K-E-Shyam-Kumar/61556830214429/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 120,
+        "name": "Kotla Jaya Surya Prakash Reddy",
+        "constituency": "DHONE",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.E Mechanical Engineering from Osmania University in 1990",
+        "dob": "18 September 1951",
+        "image": "/knowyourleader/candidate-images/kotla_jaya_surya_prakash_reddy.jpg",
+        "social_media": {
+            "email": "kispreddy2009@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 121,
+        "name": "Doctor Dola Sree Bala Veeranjaneya Swamy",
+        "constituency": "KONDAPI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from S.V. University, Tirupati in 1995",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/doctor_dola_sree_bala_veeranjaneya_swamy.jpg",
+        "social_media": {
+            "email": "doctorswamydola@gmail.com"
+        },
+        "profession": "a P olitics cid Member of Legislative Assemby AP",
+        "spouse_profession": "b House Wife"
+    },
+    {
+        "id": 122,
+        "name": "Damacharla Janardhana Rao",
+        "constituency": "ONGOLE",
+        "party": "TDP",
+        "criminal_cases": "18",
+        "education": "completed B.Tech from P.E.S. Institute of Technology, Bangalore in 1998",
+        "dob": "Age: 49 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/damacharla_janardhana_rao.jpg",
+        "social_media": {
+            "x": "https://x.com/DJR_MLA",
+            "facebook": "https://facebook.com/DJRTDP"
+        },
+        "profession": "Politician Business",
+        "spouse_profession": "Business"
+    },
+    {
+        "id": 123,
+        "name": "Nasyam Mohammed Farook",
+        "constituency": "NANDYAL",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed Matriculation from Municipal High School, Nandyal",
+        "dob": "Age: 73 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/nasyam_mohammed_farook.jpg",
+        "social_media": {
+            "email": "ministerfarook@gmail.com"
+        },
+        "profession": "business Politics",
+        "spouse_profession": "home maker"
+    },
+    {
+        "id": 124,
+        "name": "Dr. Ugra Narasimha Reddy Mukku",
+        "constituency": "KANIGIRI",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed M.B.B.S. from JJM Medical College, Dhavanagere in 2000",
+        "dob": "Age: 50 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dr__ugra_narasimha_reddy_mukku.jpg",
+        "social_media": {
+            "email": "drugramukku@gmail.com"
+        },
+        "profession": "Business & Politician",
+        "spouse_profession": "Doctor"
+    },
+    {
+        "id": 125,
+        "name": "B.C. Janardhan Reddy",
+        "constituency": "BANAGANAPALLE",
+        "party": "TDP",
+        "criminal_cases": "9",
+        "education": "completed B.Tech from P.E.S. Institute of Technology, Bangalore in 1998",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/b_c__janardhan_reddy.jpg",
+        "social_media": {
+            "email": "bejreddy2@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 126,
+        "name": "Akhila Priya Bhuma",
+        "constituency": "ALLAGADDA",
+        "party": "TDP",
+        "criminal_cases": "12",
+        "education": "completed BBM from IIP College, Hyderabad in 2009",
+        "dob": "Age: 36 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/akhila_priya_bhuma.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/bhuma_akhila",
+            "email": "akhilain14@gmail.com"
+        },
+        "profession": "Business & Cultivation Social Service Politician",
+        "spouse_profession": "b Business & Cultivation"
+    },
+    {
+        "id": 127,
+        "name": "Inturi Nageswara Rao",
+        "constituency": "KANDUKUR",
+        "party": "TDP",
+        "criminal_cases": "11",
+        "education": "completed MBBS from Kurnool Medical College in 1989",
+        "dob": "Age: 47 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/inturi_nageswara_rao.jpg",
+        "social_media": {
+            "email": "nraointuri@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 128,
+        "name": "Gummanur Jayaram",
+        "constituency": "GUNTAKAL",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed Graduate (B.Com) from S.V University in 1992",
+        "dob": "16 October 1968",
+        "image": "/knowyourleader/candidate-images/gummanur_jayaram.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/gummanurjayaram",
+            "instagram": "https://www.instagram.com/gummanur_jayaram",
+            "x": "https://x.com/GummanurJayaram"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 129,
+        "name": "Dasari Sudha",
+        "constituency": "BADVEL",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "completed M.B.B.S. from Kurnool Medical College in 1999",
+        "dob": "Age: 51 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dasari_sudha.jpg",
+        "social_media": {
+            "email": "sudhadasari1972@gmail.com"
+        },
+        "profession": "Doctor Gynecologist",
+        "spouse_profession": "Doctor Orthopedic surgeon but demised on"
+    },
+    {
+        "id": 130,
+        "name": "Payyavula Keshav",
+        "constituency": "URAVAKONDA",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed Post Graduate Diploma from T.A.PAI Management Institute, Manipal in 1987",
+        "dob": "14 May 1965",
+        "image": "/knowyourleader/candidate-images/payyavula_keshav.jpg",
+        "social_media": {
+            "facebook": "Facebook.Com/KeshavPayyavula",
+            "email": "payyavulakeshav@gmail.com"
+        },
+        "profession": "House Wife",
+        "spouse_profession": "A Details of sourcesof income"
+    },
+    {
+        "id": 131,
+        "name": "Ashmit Reddy J.C",
+        "constituency": "TADPATRI",
+        "party": "TDP",
+        "criminal_cases": "28",
+        "education": "completed BDS from Rajiv Gandhi University of Health Sciences",
+        "dob": "Age: 41 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ashmit_reddy_j_c.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/jcashmitreddy",
+            "instagram": "https://www.instagram.com/jcashmitreddy",
+            "x": "https://x.com/jcashmitreddy"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 132,
+        "name": "Kalava Srinivasulu",
+        "constituency": "RAYADURG",
+        "party": "TDP",
+        "criminal_cases": "19",
+        "education": "completed M.A. from Sri Krishnadevaraya University in 1994",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kalava_srinivasulu.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/KalavaSrinivasulu",
+            "instagram": "https://www.instagram.com/kalava.srinivasulu",
+            "x": "https://x.com/kalavaTDP",
+            "youtube": "httpS://youtube.com/@kalavasrinivasulu",
+            "email": "srinukalava@gmail.com"
+        },
+        "profession": "a Agriculture",
+        "spouse_profession": "b House Wife"
+    },
+    {
+        "id": 133,
+        "name": "Kakarla Suresh",
+        "constituency": "UDAYAGIRI",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed B.Tech from JNTU in 2011",
+        "dob": "Age: 52 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kakarla_suresh.jpg",
+        "social_media": {
+            "facebook": "HTTPS://WWW.FACEBOOK.COM/SURESHKAKARLAOFFL",
+            "x": "HTTPS://X.COM/SURESHKAKARLA",
+            "youtube": "HTTPS://YOUTUBE.COM/@KAKARLASURESHTEAM",
+            "email": "suresh.kakarla@gmail.com"
+        },
+        "profession": "Software Consultant",
+        "spouse_profession": "A Details ofsources ofincome Sell Software Consultant"
+    },
+    {
+        "id": 134,
+        "name": "Adinarayana Reddy Chadipirala",
+        "constituency": "JAMMALAMADUGU",
+        "party": "BJP",
+        "criminal_cases": "4",
+        "education": "completed B.A from S.V University",
+        "dob": "Age: 66 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/adinarayana_reddy_chadipirala.jpg",
+        "social_media": {
+            "x": "https://x.com/Adinarayana_JMD",
+            "facebook": "https://www.facebook.com/AdiNROfficial/",
+            "instagram": "https://www.instagram.com/adinarayanareddyy/"
+        },
+        "profession": "Software Consultant",
+        "spouse_profession": "A Details ofsources ofincome Sell Software Consultant"
+    },
+    {
+        "id": 135,
+        "name": "Sudhakar Putta",
+        "constituency": "MYDUKUR",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed 10th Class (SSC) from Z.P. High School, Palugurallapalle in 1978",
+        "dob": "Age: 60 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/sudhakar_putta.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/PuttaOfficial",
+            "instagram": "https://www.instagram.com/putta",
+            "x": "https://x.com/ExTTDChairman",
+            "youtube": "https://youtube.com/@puttasudhakaryadav",
+            "email": "sriputtasudhakaryadav@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 136,
+        "name": "Dagumati Venkata Krishna Reddy",
+        "constituency": "KAVALI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.E from Bangalore University",
+        "dob": "Age: 58 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dagumati_venkata_krishna_reddy.jpg",
+        "social_media": {
+            "x": "twitter.com/kavyakrishnardy",
+            "email": "dvkr4777@gmail.com"
+        },
+        "profession": "AgrlpultureincomeBankintqtpslBusinssqand SalaryromGuuRaehayendra intastrustures",
+        "spouse_profession": "infrastrustures c Source of income if any of dependents AgricultqfeingqmeAndBakintefeqt B contracts with appropriate Government and any public company or companies details of contracts entered by the candidate NIL details of contracts entered into by NIL r H DEPONENT II ATTESTED ADVOCATE&NOTARY tAP tndla igcreD"
+    },
+    {
+        "id": 137,
+        "name": "Nandyala Varada Rajula Reddy",
+        "constituency": "PRODDATUR",
+        "party": "TDP",
+        "criminal_cases": "6",
+        "education": "completed 10th Class (SSLC) from Annebisent Municipal High School, Proddatur in 1959",
+        "dob": "Age: 82 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/nandyala_varada_rajula_reddy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/VaradarajulaReddyN/",
+            "instagram": "https://www.instagram.com/varadarajulareddyofficial/"
+        },
+        "profession": "Housewife",
+        "spouse_profession": "Details of sources of income"
+    },
+    {
+        "id": 138,
+        "name": "Bandaru Sravani Sree",
+        "constituency": "SINGANAMALA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Masters in Mass Communications from St Francis College for Women in 2013",
+        "dob": "Age: 34 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bandaru_sravani_sree.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/bandarusravanisree/",
+            "instagram": "https://www.instagram.com/bandarusravanisree/",
+            "x": "https://x.com/bandaru_sravani"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 139,
+        "name": "Anam.Ramanarayana Reddy",
+        "constituency": "ATMAKUR",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed Bachelor of Laws from Andhra University in 1975",
+        "dob": "Age: 71 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/anam_ramanarayana_reddy.jpg",
+        "social_media": {
+            "email": "anamramanarayanareddy139@gmail.com"
+        },
+        "profession": "SeIfAGRICULTURIST",
+        "spouse_profession": "HOUSE WIFE"
+    },
+    {
+        "id": 140,
+        "name": "Daggupati Prasad",
+        "constituency": "ANANTAPUR URBAN",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.E from Osmania University",
+        "dob": "Age: 48 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/daggupati_prasad.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/PrasadDaggupatiOffl/"
+        },
+        "profession": "Business & Agriculturist",
+        "spouse_profession": "b Business & Agriculturist"
+    },
+    {
+        "id": 141,
+        "name": "Paritala Sunithamma",
+        "constituency": "RAPTADU",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed 8th Standard from Government High School, Dharmavaram in 1983",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/paritala_sunithamma.jpg",
+        "social_media": {
+            "facebook": "facebook.com/paritalasunithammamla",
+            "instagram": "instagram.com/paritalasunitha",
+            "x": "https://twitter.com/sunithatdp",
+            "email": "4@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 142,
+        "name": "Ys Jagan Mohan Reddy",
+        "constituency": "PULIVENDLA",
+        "party": "YSRCP",
+        "criminal_cases": "29",
+        "education": "completed B.Com from Pragathi Mahavidyalaya Degree and PG College, Hyderabad",
+        "dob": "Age: 51 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/ys_jagan_mohan_reddy.jpg",
+        "social_media": {
+            "email": "osd.ysrcp@gmail.com",
+            "x": "https://x.com/ysjagan",
+            "facebook": "https://www.facebook.com/ysjagan/",
+            "instagram": "https://www.instagram.com/ysjagan/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 143,
+        "name": "Amilineni Surendra Babu",
+        "constituency": "KALYANDURG",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed 10th Class (SSC) from Board of Secondary Education AP in 1983",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/amilineni_surendra_babu.jpg",
+        "social_media": {
+            "facebook": "facebook.com/surendra",
+            "email": "amilinenisurendrababu@gmail.com",
+            "instagram": "www.instagram.com/surendrababu",
+            "x": "www.twitter.com/A_Surendra_Babu"
+        },
+        "profession": "Business & Social Activities",
+        "spouse_profession": "Homemaker"
+    },
+    {
+        "id": 144,
+        "name": "Satya Kumar Yadav",
+        "constituency": "DHARMAVARAM",
+        "party": "BJP",
+        "criminal_cases": "0",
+        "education": "completed Master of Business Administration from ITM, Chennai in 2013",
+        "dob": "Age: 52 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/satya_kumar_yadav.jpg",
+        "social_media": {
+            "email": "satya.osd@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "DependentsNIL"
+    },
+    {
+        "id": 145,
+        "name": "Krishna Chaitanya Reddy Putha",
+        "constituency": "KAMALAPURAM",
+        "party": "TDP",
+        "criminal_cases": "3",
+        "education": "completed M.Sc in Information Technology from Middle Sex University, UK in 2005",
+        "dob": "Age: 42 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/krishna_chaitanya_reddy_putha.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/PuthaChaithanya"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 146,
+        "name": "Prashanthi Reddy Vemireddy",
+        "constituency": "KOVUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.Com from V.R. College, Nellore in 1984",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/prashanthi_reddy_vemireddy.jpg",
+        "social_media": {
+            "facebook": "facebook.com/vemireddyprashanthireddv",
+            "email": "vemireddyprashanthireddy@gmail.com"
+        },
+        "profession": "a Business",
+        "spouse_profession": "b Business"
+    },
+    {
+        "id": 147,
+        "name": "Chandra Mohan Reddy Somireddy",
+        "constituency": "SARVEPALLI",
+        "party": "TDP",
+        "criminal_cases": "16",
+        "education": "completed Intermediate from K.A.C Junior College, Nellore in 1974",
+        "dob": "Age: 68 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/chandra_mohan_reddy_somireddy.jpg",
+        "social_media": {
+            "instagram": "instagram.com/somireddycm",
+            "facebook": "https://facebook.com/somireddycm",
+            "x": "https://twitter.com/somireddycm",
+            "email": "somireddyemreddy@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 148,
+        "name": "Kurugondla Ramakrishna",
+        "constituency": "VENKATAGIRI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed Intermediate from Board of Intermediate Education, AP",
+        "dob": "Age: 62 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kurugondla_ramakrishna.jpg",
+        "social_media": {
+            "email": "kurugondlaramakrishna888@gmail.com"
+        },
+        "profession": "Engaged in Politics Transport and Logistics Business",
+        "spouse_profession": "Transport and Warehouse Business"
+    },
+    {
+        "id": 149,
+        "name": "Madhavi Reddappa Gari",
+        "constituency": "KADAPA",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed MBBS from S.V University",
+        "dob": "Age: 49 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/madhavi_reddappa_gari.jpg",
+        "social_media": {
+            "email": "m9866133066@gmail.com",
+            "instagram": "https://www.instagram.com/reddeppagri_madhavi_reddy",
+            "youtube": "https://youtube.com/@ReddeppagariMadhavi"
+        },
+        "profession": "Agriculture Business and social activities",
+        "spouse_profession": "Agriculture and Business and social activities"
+    },
+    {
+        "id": 150,
+        "name": "Narayana Ponguru",
+        "constituency": "NELLORE CITY",
+        "party": "TDP",
+        "criminal_cases": "8",
+        "education": "completed Ph.D from Sri Venkateswara University in 2002",
+        "dob": "Age: 67 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/narayana_ponguru.jpg",
+        "social_media": {
+            "x": "twitter.com/dr_pnarayana",
+            "facebook": "https://www.facebook.com/Dr.PonguruNarayana",
+            "instagram": "https://www.instagram.com/pongurunarayanaofficial",
+            "youtube": "https://youtube.com/@DrPonguruNarayana",
+            "email": "naravanaponguru8@gmail.com"
+        },
+        "profession": "SOCIAL SERVICE",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 151,
+        "name": "Akepati Amarnath Reddy",
+        "constituency": "RAJAMPET",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "completed Intermediate from Government Junior College in 1979",
+        "dob": "Age: 64 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/akepati_amarnath_reddy.jpg",
+        "social_media": {
+            "email": "amarnathreddyakepati1@gmail.com"
+        },
+        "profession": "HOUSE WIFE",
+        "spouse_profession": "NOT"
+    },
+    {
+        "id": 152,
+        "name": "Kotamreddy Sridhar Reddy",
+        "constituency": "NELLORE RURAL",
+        "party": "TDP",
+        "criminal_cases": "4",
+        "education": "completed B.A. from V.R College, Nellore in 1999",
+        "dob": "Age: 59 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kotamreddy_sridhar_reddy.jpg",
+        "social_media": {
+            "email": "kotamreddysridharreddy@gmail.com"
+        },
+        "profession": "REAL fSTATE",
+        "spouse_profession": "BUSINESS"
+    },
+    {
+        "id": 153,
+        "name": "Palle Sindhura Reddy",
+        "constituency": "PUTTAPARTHI",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed MBBS from Dr. NTR University of Health Sciences",
+        "dob": "2 August 1990",
+        "image": "/knowyourleader/candidate-images/palle_sindhura_reddy.jpg",
+        "social_media": {
+            "facebook": "https://facebook.com/pallesindhurareddy",
+            "x": "https://twitter.com/pallesindhura",
+            "email": "sindhurareddyn@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 154,
+        "name": "Arava Sreedhar",
+        "constituency": "KODUR",
+        "party": "Janasena Party",
+        "criminal_cases": "1",
+        "education": "completed B.Tech from Rajiv Gandhi Memorial College of Engineering, Nandyal",
+        "dob": "Age: 27 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/arava_sreedhar.jpg",
+        "social_media": {
+            "email": "aravasreedhar4@gmail.com"
+        },
+        "profession": "a Agriculture Politician Sarpanch",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 155,
+        "name": "Kandikunta Venkata Prasad",
+        "constituency": "KADIRI",
+        "party": "TDP",
+        "criminal_cases": "21",
+        "education": "completed Intermediate from Government Junior College, Kadiri in 1983",
+        "dob": "Age: 57 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/kandikunta_venkata_prasad.jpg",
+        "social_media": {
+            "facebook": "facebook.com/kandikunta.venkataprasad.37",
+            "email": "kadiritdp999@gmail.com"
+        },
+        "profession": "a Business",
+        "spouse_profession": "b Housewife"
+    },
+    {
+        "id": 156,
+        "name": "Mandipalli Ramprasad Reddy",
+        "constituency": "RAYACHOTI",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed Intermediate from Rayalaseema Junior College, Tirupathi in 1998",
+        "dob": "Age: 42 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/mandipalli_ramprasad_reddy.jpg",
+        "social_media": {
+            "email": "mramprasadreddytdp@gmail.com"
+        },
+        "profession": "Agriculturist",
+        "spouse_profession": "Details of sources of income"
+    },
+    {
+        "id": 157,
+        "name": "S. Savitha",
+        "constituency": "PENUKONDA",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed B.A. from S.K. University, Anantapur in 1998",
+        "dob": "10 February 1977",
+        "image": "/knowyourleader/candidate-images/s__savitha.jpg",
+        "social_media": {
+            "email": "savithahpel@gmail.com"
+        },
+        "profession": "POLITICIAN SOCIAL WORKER & BUSINESS",
+        "spouse_profession": "BUSINESS and CONTRACTOR"
+    },
+    {
+        "id": 158,
+        "name": "M.S.Raju",
+        "constituency": "MADAKASIRA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from Nagarjuna University in 2020",
+        "dob": "Age: 34 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/m_s_raju.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/MSRajuSCCell/"
+        },
+        "profession": "SOCIAL SERVICE",
+        "spouse_profession": "HOUSE WIFE"
+    },
+    {
+        "id": 159,
+        "name": "Pasim Sunil Kumar",
+        "constituency": "GUDUR",
+        "party": "TDP",
+        "criminal_cases": "14",
+        "education": "completed Ph.D in Adult Education from Sri Venkateswara University in 2021",
+        "dob": "Age: 55 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/pasim_sunil_kumar.jpg",
+        "social_media": {
+            "email": "pasamsunilkumarofficial@gmail.com"
+        },
+        "profession": "Social worker",
+        "spouse_profession": "Business & Agriculture"
+    },
+    {
+        "id": 160,
+        "name": "Nelavala Vijayasree",
+        "constituency": "SULLURPETA",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed M.B.B.S. from Narayana Medical College in 2022",
+        "dob": "Age: 37 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/nelavala_vijayasree.jpg",
+        "social_media": {
+            "email": "nelevalavijayasree@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 161,
+        "name": "P. Dwarakanatha Reddy",
+        "constituency": "THAMBALLAPALLE",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "completed 10th Class from Z.P. High School, Sodam",
+        "dob": "Age: 36 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/p__dwarakanatha_reddy.jpg",
+        "social_media": {
+            "email": "ysrcpthamballapalle@gmail.com"
+        },
+        "profession": "c Dependent",
+        "spouse_profession": "Salary Income & Agriculturalist"
+    },
+    {
+        "id": 162,
+        "name": "Nandamuri Balakrishna",
+        "constituency": "HINDUPUR",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from Nizam College, Osmania University in 1982",
+        "dob": "10 June 1960",
+        "image": "/knowyourleader/candidate-images/nandamuri_balakrishna.jpg",
+        "social_media": {
+            "x": "https://x.com/NBKoffl",
+            "facebook": "https://facebook.com/BalakrishnaOfficial"
+        },
+        "profession": "a Movie Artiste",
+        "spouse_profession": "b House Wife"
+    },
+    {
+        "id": 163,
+        "name": "Nallari Kishan Kumar Reddy",
+        "constituency": "PILERU",
+        "party": "TDP",
+        "criminal_cases": "6",
+        "education": "completed B.A. from Nizam College, Osmania University in 1990",
+        "dob": "Age: 58 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/nallari_kishan_kumar_reddy.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/NallariKishan",
+            "instagram": "http://www.instagram.com/nallarikishan",
+            "x": "https://x.com/Nallarikishore"
+        },
+        "profession": "Agriculture",
+        "spouse_profession": "House Wife"
+    },
+    {
+        "id": 164,
+        "name": "Bojjala Venkata Sudhir Reddy",
+        "constituency": "SRIKALAHASTI",
+        "party": "TDP",
+        "criminal_cases": "15",
+        "education": "completed Master of Business Administration from Bharath Institute, Chennai in 2005",
+        "dob": "Age: 44 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/bojjala_venkata_sudhir_reddy.jpg",
+        "social_media": {
+            "email": "is...bojjalasudhir@gmail.com"
+        },
+        "profession": "Designer of Saries and Dress Materials",
+        "spouse_profession": "A Details of sources of income"
+    },
+    {
+        "id": 165,
+        "name": "Venkata Mani Prasad Pullivarthi",
+        "alias": "PULIVARTHI. NANI",
+        "constituency": "CHANDRAGIRI",
+        "party": "TDP",
+        "criminal_cases": "31",
+        "education": "completed 10th Class (SSC) from Loyola Boarding School, Vinnukonda in 1987",
+        "dob": "Age: 52 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/venkata_mani_prasad_pullivarthi.jpg",
+        "social_media": {
+            "email": "pulivarthinani@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 166,
+        "name": "Koneti Adimulam",
+        "alias": "K. ADIMULAM",
+        "constituency": "SATYAVEDU",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.A. from S.V. Arts College, Tirupati in 1975",
+        "dob": "Age: 72 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/koneti_adimulam.jpg",
+        "social_media": {
+            "instagram": "https://www.instagram.com/konetiadimulam/"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 167,
+        "name": "Aranii Srenevasulu",
+        "constituency": "TIRUPATI",
+        "party": "Janasena Party",
+        "criminal_cases": "0",
+        "education": "completed B.A. (Discontinued) from PVKN Govt. Degree College, Chittoor",
+        "dob": "Age: 72 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/aranii_srenevasulu.jpg",
+        "social_media": {
+            "youtube": "https://youtube.com/@araniisreenivasulu",
+            "email": "srinivasulu.jmc@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 168,
+        "name": "Peddireddi Ramachandra Reddy",
+        "constituency": "PUNGANUR",
+        "party": "YSRCP",
+        "criminal_cases": "0",
+        "education": "completed M.A from S.V University in 1975",
+        "dob": "Age: 71 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/peddireddi_ramachandra_reddy.jpg",
+        "social_media": {
+            "email": "peddireddiramachandrareddy2345@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 169,
+        "name": "M.Shajahan Basha",
+        "constituency": "MADANAPALLE",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed 10th Class (SSC) from Arogyavaram English Medium High School in 1985",
+        "dob": "Age: 54 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/m_shajahan_basha.jpg",
+        "social_media": {
+            "email": "shajahanbashamohdggg@gmail.com"
+        },
+        "profession": "Transport Business",
+        "spouse_profession": "House wife"
+    },
+    {
+        "id": 170,
+        "name": "Gali Bhanu Prakash",
+        "constituency": "NAGARI",
+        "party": "TDP",
+        "criminal_cases": "10",
+        "education": "completed 10th Class (SSC) from Hyderabad Public School",
+        "dob": "20 June 1976",
+        "image": "/knowyourleader/candidate-images/gali_bhanu_prakash.jpg",
+        "social_media": {
+            "email": "bhanu.gali@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 171,
+        "name": "K Murali Mohan",
+        "constituency": "PUTHALAPATTU",
+        "party": "TDP",
+        "criminal_cases": "11",
+        "education": "completed Ph.D in Commerce from Sri Venkateswara University in 2013",
+        "dob": "Age: 45 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/k_murali_mohan.jpg",
+        "social_media": {
+            "email": "kmm2020@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 172,
+        "name": "Dr. Vm. Thomas",
+        "constituency": "GANGADHARA NELLORE",
+        "party": "TDP",
+        "criminal_cases": "5",
+        "education": "completed M.Sc and Ph.D in Zoology from S.V University, Tirupati",
+        "dob": "Age: 50 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/dr__vm__thomas.jpg",
+        "social_media": {
+            "email": "thomasivf@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 173,
+        "name": "Amaranatha Reddy. N",
+        "constituency": "PALAMANER",
+        "party": "TDP",
+        "criminal_cases": "0",
+        "education": "completed B.Com from V.V. Puram College, Bangalore University in 1980",
+        "dob": "Age: 65 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/amaranatha_reddy__n.jpg",
+        "social_media": {
+            "email": "narmla909@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 174,
+        "name": "Gurajala Jagan Mohan (Gjm)",
+        "constituency": "CHITTOOR",
+        "party": "TDP",
+        "criminal_cases": "1",
+        "education": "completed 5th Pass from Upper Primary School, Gollapalle in 1992",
+        "dob": "Age: 41 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/gurajala_jagan_mohan__gjm_.jpg",
+        "social_media": {
+            "email": "jagangurajala@gmail.com"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
+    },
+    {
+        "id": 175,
+        "name": "Chandrababu Naidu Nara",
+        "constituency": "KUPPAM",
+        "party": "TDP",
+        "criminal_cases": "19",
+        "education": "completed M.A in Economics in Sri Venkateswara University, Tirupati in 1974",
+        "dob": "Age: 74 (2024 Affidavits)",
+        "image": "/knowyourleader/candidate-images/chandrababu_naidu_nara.jpg",
+        "social_media": {
+            "facebook": "https://www.facebook.com/tdp.ncbn.official",
+            "instagram": "https://www.instagram.com/ncbn.official",
+            "x": "https://twitter.com/ncbn",
+            "youtube": "https://www.youtube.com/@NaraChandrababuNa"
+        },
+        "profession": "Not Found",
+        "spouse_profession": "Not Found"
     }
-  },
-  {
-    "id": 2,
-    "name": "Jagadeeswari Thoyaka",
-    "constituency": "KURUPAM",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed B.Sc, (B.Z.C) in D.B.K. COLLEGE, PARVATHIPURAM, ANDHRA UNIVERSITY, VISAKHAPATNAM",
-    "dob": "Age: 39 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/jagadeeswari_thoyaka.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/jagadeeswari.thoyaka/",
-      "instagram": "https://www.instagram.com/jagadeeswari.thoyaka/",
-      "x": "https://x.com/JThoyaka"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Gouthu Sireesha",
-    "constituency": "PALASA",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed Masters in Business Administration from Andhra University in 1996",
-    "dob": "Age: 49 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gouthu_sireesha.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/gouthusireesha",
-      "instagram": "https://www.instagram.com/gouthusireesha",
-      "x": "https://www.twitter.com/gouthusireesha",
-      "youtube": "https://www.youtube.com/@gouthusireesha",
-      "email": "sireeshavc@gmail.com"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Jayakrishna Nimmaka",
-    "constituency": "PALAKONDA",
-    "party": "Janasena Party",
-    "criminal_cases": "6",
-    "education": "completed Master of Science from Osmania University in 2006",
-    "dob": "Age: 45 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/jayakrishna_nimmaka.jpg",
-    "social_media": {
-      "email": "jayakrishna86@gmail.com",
-      "facebook": "https://www.facebook.com/nimmakajayakrishna/",
-      "instagram": "https://www.instagram.com/jayakrishnanimmaka/"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Mamidi Govinda Rao",
-    "constituency": "PATHAPATNAM",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed 12th Pass (Intermediate)",
-    "dob": "Age: 47 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/mamidi_govinda_rao.jpg",
-    "social_media": {
-      "email": "mgovindarao34@gmail.com"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Bonela Vijaya Chandra",
-    "constituency": "PARVATHIPURAM",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed B.Sc from Andhra University",
-    "dob": "Age: 39 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bonela_vijaya_chandra.jpg",
-    "social_media": {
-      "email": "vijayboncla@gmail.com",
-      "facebook": "https://www.facebook.com/vijaychandra.bonela"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Gummidi Sandhyarani",
-    "constituency": "SALUR",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed B.Sc. from M.R. Women's College in 1993",
-    "dob": "Age: 51 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gummidi_sandhyarani.jpg",
-    "social_media": {
-      "x": "https://x.com/GSandhyarani_",
-      "facebook": "https://www.facebook.com/sandhya.gummidi/",
-      "instagram": "https://www.instagram.com/gummidi_sandhyarani/"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Atchannaidu Kinjarapu",
-    "constituency": "TEKKALI",
-    "party": "TDP",
-    "criminal_cases": "13",
-    "education": "completed B.Sc (Discontinued) from V.S. Krishna College in 1991",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/atchannaidu_kinjarapu.jpg",
-    "social_media": {
-      "email": "katchamnalch@gmail.com",
-      "instagram": "https://www.instagram.com/atchannaidu_kinjarapu",
-      "x": "https://x.com/katchannaidu"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Baggu Ramanamurthy",
-    "constituency": "NARASANNAPETA",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed 10th Class (SSC) from ZP High School, Budithi",
-    "dob": "Age: 65 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/baggu_ramanamurthy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/baggutdp",
-      "instagram": "https://www.instagram.com/baggu_ramanamurthy",
-      "x": "https://x.com/BagguRamanamur1",
-      "email": "bagguramanamurthy.mla@gmail.com"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Kondru Murali Mohan",
-    "constituency": "RAJAM",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Master of Business Administration from Andhra University in 1997",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kondru_murali_mohan.jpg",
-    "social_media": {
-      "email": "kondrumuralimohan@gmail.com"
-    }
-  },
-  {
-    "id": 11,
-    "name": "R.V.S.K.K.Ranga Rao @ Babynayana",
-    "constituency": "BOBBILI",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed 12th Pass",
-    "dob": "Age: 43 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/r_v_s_k_k_ranga_rao___babynayana.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/BabynayanaSujaynayana/",
-      "instagram": "https://www.instagram.com/babynayana.bobbili/",
-      "x": "https://x.com/RvskkRangarao"
-    }
-  },
-  {
-    "id": 12,
-    "name": "Koona Ravi Kumar",
-    "constituency": "AMADALAVALASA",
-    "party": "TDP",
-    "criminal_cases": "15",
-    "education": "completed B.E. (Civil) from Gulbharga University in 1990",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/koona_ravi_kumar.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/koonaravikumar",
-      "instagram": "https://www.instagram.com/koonaravikumar",
-      "x": "https://x.com/koonaravikumar"
-    }
-  },
-  {
-    "id": 13,
-    "name": "Regam Matyalingam",
-    "constituency": "ARAKU VALLEY",
-    "party": "YSRCP",
-    "criminal_cases": "1",
-    "education": "completed M.A Sociology from Andhra University, Visakhapatnam in 1999",
-    "dob": "Age: 57 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/regam_matyalingam.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/RegamMatyalingam/",
-      "instagram": "https://www.instagram.com/regam.matyalingam/"
-    }
-  },
-  {
-    "id": 14,
-    "name": "Kondapalli Srinivas",
-    "constituency": "GAJAPATHINAGARAM",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed Master of Science in Computer Science Ball State University USA in the year 2006",
-    "dob": "Age: 41 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kondapalli_srinivas.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/kondapallisrinivasofficial",
-      "x": "https://x.com/SKondapalliOffl",
-      "email": "skondapalli9@gmail.com"
-    }
-  },
-  {
-    "id": 15,
-    "name": "Eswara Rao Nadukuditi",
-    "constituency": "ETCHERLA",
-    "party": "BJP",
-    "criminal_cases": "4",
-    "education": "completed M.A Sociology from Andhra University, Visakhapatnam in 1999",
-    "dob": "Age: 53 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/eswara_rao_nadukuditi.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/NadukuditiEswaraRao"
-    }
-  },
-  {
-    "id": 16,
-    "name": "Gondu Shankar",
-    "constituency": "SRIKAKULAM",
-    "party": "TDP",
-    "criminal_cases": "7",
-    "education": "completed Bachelor of Engineering (Civil) from Bangalore University in 1998",
-    "dob": "Age: 47 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gondu_shankar.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/gondu_shankar/",
-      "x": "https://x.com/GondushankarTDP"
-    }
-  },
-  {
-    "id": 17,
-    "name": "Kalavenkatarao Kimidi",
-    "constituency": "CHEEPURUPALLE",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed Bachelor of Law from Andhra University in 1980",
-    "dob": "Age: 71 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kalavenkatarao_kimidi.jpg",
-    "social_media": {
-      "email": "kimidikalavenkatarao@gmail.com"
-    }
-  },
-  {
-    "id": 18,
-    "name": "Lokam Naga Madhavi",
-    "constituency": "NELLIMARLA",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed Master of Science (MS) in Computer Science from Kent State University in 1995",
-    "dob": "28 August 1968",
-    "image": "/knowyourleader/candidate-images/lokam_naga_madhavi.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/MadhaviLokamm/",
-      "instagram": "https://www.instagram.com/madhavilokam/",
-      "x": "https://x.com/LokamMadhavi"
-    }
-  },
-  {
-    "id": 19,
-    "name": "Kolla Lalitha Kumari",
-    "constituency": "SRUNGAVARAPUKOTA",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed Intermediate from Govt Jr College, Srungavarapukota in 1987",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kolla_lalitha_kumari.jpg",
-    "social_media": {
-      "email": "gompa.umesh71@gmail.com"
-    }
-  },
-  {
-    "id": 20,
-    "name": "Aditi Vijayalakshmi Gajapathi Raju Pusapati",
-    "constituency": "VIZIANAGARAM",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from IGNOU in 2021",
-    "dob": "Age: 41 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/aditi_vijayalakshmi_gajapathi_raju_pusapati.jpg",
-    "social_media": {
-      "email": "aditi.raju@gmail.com"
-    }
-  },
-  {
-    "id": 21,
-    "name": "Matsyarasa Visweswara Raju",
-    "constituency": "PADERU",
-    "party": "YSRCP",
-    "criminal_cases": "0",
-    "education": "completed M.A. from Andhra University in 2008",
-    "dob": "Age: 38 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/matsyarasa_visweswara_raju.jpg",
-    "social_media": {
-      "email": "23@gmail.com"
-    }
-  },
-  {
-    "id": 22,
-    "name": "Bandaru Satyanarayana Murthy",
-    "constituency": "MADUGULA",
-    "party": "TDP",
-    "criminal_cases": "7",
-    "education": "completed Bachelor of Commerce from A.M.A.L College, Anakapalli in 1978",
-    "dob": "Age: 68 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bandaru_satyanarayana_murthy.jpg",
-    "social_media": {
-      "email": "bandarusnm@gmail.com",
-      "facebook": "https://www.facebook.com/BandaruSNM/",
-      "x": "https://x.com/BandaruSNMTDP",
-      "instagram": "https://www.instagram.com/bandarusnm/"
-    }
-  },
-  {
-    "id": 23,
-    "name": "Ganta Srinivasa Rao",
-    "constituency": "BHIMILI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A from Andhra University, Visakhapatnam",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ganta_srinivasa_rao.jpg",
-    "social_media": {
-      "x": "https://x.com/Ganta_Srinivasa",
-      "facebook": "https://facebook.com/GantaSrinivasaRao"
-    }
-  },
-  {
-    "id": 24,
-    "name": "Miriyala Sirisha Devi",
-    "constituency": "RAMPACHODAVARAM(ST)",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Bachelor of Education from Andhra University in 2015",
-    "dob": "Age: 30 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/miriyala_sirisha_devi.jpg",
-    "social_media": {
-      "email": "devisirisha88@gmail.com"
-    }
-  },
-  {
-    "id": 25,
-    "name": "Surya Naga Sanyasi Raju Kalidindi",
-    "constituency": "CHODAVARAM",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.A. and B.L. from Andhra University in 1992",
-    "dob": "Age: 57 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/surya_naga_sanyasi_raju_kalidindi.jpg",
-    "social_media": {
-      "email": "ksnsraju.mla@gmail.com"
-    }
-  },
-  {
-    "id": 26,
-    "name": "Panchakarla Ramesh Babu",
-    "constituency": "PENDURTHI",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed B.Com from Andhra University in 1998",
-    "dob": "Age: 60 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/panchakarla_ramesh_babu.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/profile.php",
-      "instagram": "https://www.instagram.com/panchakaralarameshbabu",
-      "x": "https://x.com/panchakarlababu",
-      "email": "panchakarlarammeshbabu@gmail.com"
-    }
-  },
-  {
-    "id": 27,
-    "name": "Konathala Ramakrishna",
-    "constituency": "ANAKAPALLE",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed M.Com from A.M.A.L College, Anakapalle",
-    "dob": "4 January 1957",
-    "image": "/knowyourleader/candidate-images/konathala_ramakrishna.jpg",
-    "social_media": {
-      "email": "konathalark09@gmail.com"
-    }
-  },
-  {
-    "id": 28,
-    "name": "Vishnu Kumar Raju Penmetsa",
-    "constituency": "VISAKHAPATNAM NORTH",
-    "party": "BJP",
-    "criminal_cases": "1",
-    "education": "completed Bachelor of Engineering (B.E) from Andhra University",
-    "dob": "Age: 62 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/vishnu_kumar_raju_penmetsa.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/bjpvishnu/"
-    }
-  },
-  {
-    "id": 29,
-    "name": "Ayyannapatrudu Chintakayala",
-    "constituency": "NARSIPATNAM",
-    "party": "TDP",
-    "criminal_cases": "17",
-    "education": "completed Intermediate from Board of Intermediate Education, AP in 1975",
-    "dob": "Age: 66 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ayyannapatrudu_chintakayala.jpg",
-    "social_media": {
-      "email": "ayyanna.ch@gmail.com"
-    }
-  },
-  {
-    "id": 30,
-    "name": "Ramakrishna Babu Velagapudi",
-    "constituency": "VISAKHAPATNAM EAST",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed B.Sc. (Ag) from Gorakhpur University in 1981",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ramakrishna_babu_velagapudi.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/VelagapudiRamakrishnaBabu",
-      "instagram": "https://www.instagram.com/velagapudi_ramakrishna_babu"
-    }
-  },
-  {
-    "id": 31,
-    "name": "P.G.V.R.Naidu(Ganababu)",
-    "constituency": "VISAKHAPATNAM WEST",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Bachelor of Commerce from Mrs. A.V.N. College, Andhra University in 1990",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/p_g_v_r_naidu_ganababu_.jpg",
-    "social_media": {
-      "email": "p-gv.r.naidu@gmail.com"
-    }
-  },
-  {
-    "id": 32,
-    "name": "Palla Srinivas Rao",
-    "constituency": "GAJUWAKA",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed B.Tech from Andhra University",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/palla_srinivas_rao.jpg",
-    "social_media": {
-      "x": "https://x.com/PallaSrinivas",
-      "facebook": "https://facebook.com/PallaSrinivasaRao"
-    }
-  },
-  {
-    "id": 33,
-    "name": "Ch.Vamsi Krishna Srinivas",
-    "constituency": "VISAKHAPATNAM SOUTH",
-    "party": "Janasena Party",
-    "criminal_cases": "8",
-    "education": "completed Master of Arts (Politics) from Andhra University in 2017",
-    "dob": "Age: 50 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ch_vamsi_krishna_srinivas.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/vamsikrishnasrinivas",
-      "instagram": "https://www.instagram.com/vamsikrishnasrinivas",
-      "x": "https://x.com/CVK_Srinivas"
-    }
-  },
-  {
-    "id": 34,
-    "name": "Sundarapu Vijay Kumar",
-    "constituency": "YELAMANCHILI",
-    "party": "Janasena Party",
-    "criminal_cases": "8",
-    "education": "completed B.Sc. from Mrs. A.V.N College, Visakhapatnam in 1988",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/sundarapu_vijay_kumar.jpg",
-    "social_media": {
-      "email": "vijaysundarapu@gmail.com"
-    }
-  },
-  {
-    "id": 35,
-    "name": "Anitha Vangalapudi",
-    "constituency": "PAYAKARAOPET",
-    "party": "TDP",
-    "criminal_cases": "7",
-    "education": "completed M.A. from Andhra University in 2009",
-    "dob": "Age: 45 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/anitha_vangalapudi.jpg",
-    "social_media": {
-      "x": "https://x.com/Anitha_TDP",
-      "facebook": "https://facebook.com/AnithaVangalapudi"
-    }
-  },
-  {
-    "id": 36,
-    "name": "Divya Yanamala",
-    "constituency": "TUNI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Master of Business Administration from Osmania University in 2006",
-    "dob": "Age: 40 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/divya_yanamala.jpg",
-    "social_media": {
-      "email": "divya16@gmail.com"
-    }
-  },
-  {
-    "id": 37,
-    "name": "Chirri Balaraju",
-    "constituency": "POLAVARAM",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed 10th Class (SSC) from Z.P.H.S, Chindada in 2008",
-    "dob": "Age: 36 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/chirri_balaraju.jpg",
-    "social_media": {
-      "email": "ispblarajuchirri@gmail.com"
-    }
-  },
-  {
-    "id": 38,
-    "name": "Varupula Satya Prabha",
-    "constituency": "PRATHIPADU (VARUPULA SATYA PRABHA)",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed M.B.A. from Andhra University in 2006",
-    "dob": "Age: 45 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/varupula_satya_prabha.jpg",
-    "social_media": {
-      "email": "prabhavarupula@gmail.com"
-    }
-  },
-  {
-    "id": 39,
-    "name": "Jyothula Nehru",
-    "constituency": "JAGGAMPETA",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed 9th Class from ZP High School, Yeleswaram in 1965",
-    "dob": "Age: 73 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/jyothula_nehru.jpg",
-    "social_media": {
-      "email": "venkataapparaoanenehrujyothula@gmail.com"
-    }
-  },
-  {
-    "id": 40,
-    "name": "Bathula Balaramakrishna S/O Gangarao",
-    "constituency": "RAJANAGARAM",
-    "party": "Janasena Party",
-    "criminal_cases": "3",
-    "education": "completed Graduate Professional",
-    "dob": "Age: 49 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bathula_balaramakrishna_s_o_gangarao.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/battulabalaramakrishna/",
-      "instagram": "https://www.instagram.com/battulabalaramakrishnamla/",
-      "x": "https://x.com/BattulaBalarama"
-    }
-  },
-  {
-    "id": 41,
-    "name": "Konidala Pawan Kalyan",
-    "constituency": "PITHAPURAM",
-    "party": "Janasena Party",
-    "criminal_cases": "8",
-    "education": "completed 10th Class (SSC) from St. Josephs English Medium High School in 1984",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/konidala_pawan_kalyan.jpg",
-    "social_media": {
-      "email": "pawankalyan.k786@gmail.com",
-      "x": "https://x.com/PawanKalyan",
-      "facebook": "https://www.facebook.com/PawanKalyan/",
-      "instagram": "https://www.instagram.com/pawankalyan/"
-    }
-  },
-  {
-    "id": 42,
-    "name": "Roshan Kumar Songa",
-    "constituency": "CHINTALAPUDI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Master of Computer Applications (M.C.A) from Osmania University in 2003",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/roshan_kumar_songa.jpg",
-    "social_media": {
-      "facebook": "facebook.com/Roshankumarsonga",
-      "x": "x.com/Roshansonga",
-      "youtube": "youtube.com/@SRKFORPEOPLE",
-      "email": "roshansonga@gmail.com"
-    }
-  },
-  {
-    "id": 43,
-    "name": "Maddipati Venkata Raju",
-    "constituency": "GOPALAPURAM",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed M.Sc (Information Systems) from Sri GCSR College, Rajam in 2003",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/maddipati_venkata_raju.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/VenkataRajuMaddipati",
-      "instagram": "https://www.instagram.com/madlipati_venkata_raju",
-      "email": "ymaddipatti@gmail.com"
-    }
-  },
-  {
-    "id": 44,
-    "name": "China Rajappa Nimmakayala",
-    "constituency": "PEDDAPURAM",
-    "party": "TDP",
-    "criminal_cases": "17",
-    "education": "completed Bachelor of Arts (B.A) from SKBR College, Amalapuram in 1978",
-    "dob": "Age: 71 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/china_rajappa_nimmakayala.jpg",
-    "social_media": {
-      "email": "chinarajappa.dcm@gmail.com"
-    }
-  },
-  {
-    "id": 45,
-    "name": "Muppidi Venkateswara Rao",
-    "constituency": "KOVVUR",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed Master of Social Work from Nagarjuna University in 2008",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/muppidi_venkateswara_rao.jpg",
-    "social_media": {
-      "email": "venkateswararao@gmail.com"
-    }
-  },
-  {
-    "id": 46,
-    "name": "Kolikapudi Srinivasa Rao",
-    "constituency": "TIRUVURU",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed Bachelor of Arts (B.A) from SKBR College, Amalapuram in 1978",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kolikapudi_srinivasa_rao.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/kolikapudi.srinivasarao/",
-      "x": "https://x.com/rao_kolikapudi",
-      "facebook": "https://www.facebook.com/p/Kolikapudi-Srinivasa-Rao-100069940747834/"
-    }
-  },
-  {
-    "id": 47,
-    "name": "Ramakrishna Reddy Nallamilli",
-    "constituency": "ANAPARTHY",
-    "party": "BJP",
-    "criminal_cases": "32",
-    "education": "completed B.Sc from Govt. Degree College, Rajahmundry in 1987",
-    "dob": "Age: 58 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ramakrishna_reddy_nallamilli.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/NallamilliRamakrishnaReddy",
-      "instagram": "https://www.instagram.com/nallamilli_ramakrishna_reddy"
-    }
-  },
-  {
-    "id": 48,
-    "name": "Adireddy Srinivas",
-    "constituency": "RAJAHMUNDRY CITY",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed B.E. from Madras University in 2003",
-    "dob": "Age: 42 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/adireddy_srinivas.jpg",
-    "social_media": {
-      "email": "adireddy26@gmail.com"
-    }
-  },
-  {
-    "id": 49,
-    "name": "Kolusu Partha Sarathy",
-    "constituency": "NUZVID",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed 12th Pass from St. Joseph Junior College, Hyderabad",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kolusu_partha_sarathy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/kolusu.parthasarathy.official/",
-      "instagram": "https://www.instagram.com/kolusu.parthasarathy/",
-      "x": "https://x.com/kpsarathyTDP"
-    }
-  },
-  {
-    "id": 50,
-    "name": "Pantam Venkateswara Rao (Pantam Nanaji)",
-    "constituency": "KAKINADA RURAL",
-    "party": "Janasena Party",
-    "criminal_cases": "11",
-    "education": "completed Intermediate from Board of Intermediate Education, AP",
-    "dob": "Age: 61 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/pantam_venkateswara_rao__pantam_nanaji_.jpg",
-    "social_media": {
-      "email": "panthamnanaji88@gmail.com"
-    }
-  },
-  {
-    "id": 51,
-    "name": "Rajagopal Sreeram (Tataiah)",
-    "constituency": "JAGGAYYAPETA",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed Bachelor of Commerce from SGS College, Andhra University in 1984",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/rajagopal_sreeram__tataiah_.jpg",
-    "social_media": {
-      "email": "tdpjpt@gmail.com"
-    }
-  },
-  {
-    "id": 52,
-    "name": "Gorantla Butchaiah Choudary",
-    "constituency": "RAJAHMUNDRY RURAL",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed B.Sc. from Government Arts and Science College, Rajahmundry in 1967",
-    "dob": "Age: 78 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gorantla_butchaiah_choudary.jpg",
-    "social_media": {
-      "email": "gorantlagbc@gmail.com"
-    }
-  },
-  {
-    "id": 53,
-    "name": "Bandaru Satyananda Rao",
-    "constituency": "KOTHAPETA",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.E. from Madras University in 2003",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bandaru_satyananda_rao.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/BandaruSatyanandaRao/",
-      "instagram": "https://www.instagram.com/bandaru_satyananda_rao/",
-      "x": "https://x.com/BSatyanandaRao"
-    }
-  },
-  {
-    "id": 54,
-    "name": "Datla Subbaraju (Buchibabu)",
-    "constituency": "MUMMIDIVARAM",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.Com from VKV Govt. Degree College, Kothapeta in 1984",
-    "dob": "Age: 51 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/datla_subbaraju__buchibabu_.jpg",
-    "social_media": {
-      "email": "bsnrao777@gmail.com"
-    }
-  },
-  {
-    "id": 55,
-    "name": "Vasantha Venkata Krishna Prasad",
-    "constituency": "MYLAVARAM",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed 10th Class (SSC) from Sri Patibandla Sitaramaiah High School in 1985",
-    "dob": "8 April 1970",
-    "image": "/knowyourleader/candidate-images/vasantha_venkata_krishna_prasad.jpg",
-    "social_media": {
-      "x": "https://x.com/Vvasanthaprasad",
-      "facebook": "https://facebook.com/VasanthaVenkataKrishnaPrasad"
-    }
-  },
-  {
-    "id": 56,
-    "name": "Jogeswara Rao.V",
-    "constituency": "MANDAPETA",
-    "party": "TDP",
-    "criminal_cases": "6",
-    "education": "completed Bachelor of Commerce (B.Com) from Andhra University in 1974",
-    "dob": "Age: 69 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/jogeswara_rao_v.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/VegullaJogeswaraRao",
-      "instagram": "https://www.instagram.com/vegullajogeswararao"
-    }
-  },
-  {
-    "id": 57,
-    "name": "Bolisetty Srinivas",
-    "constituency": "TADEPALLIGUDEM",
-    "party": "Janasena Party",
-    "criminal_cases": "4",
-    "education": "completed Intermediate from D.R. Goenka Govt. Degree College, Pentapadu in 1976",
-    "dob": "Age: 62 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bolisetty_srinivas.jpg",
-    "social_media": {
-      "facebook": "http://www.facebook.com/Srinivas",
-      "instagram": "http://www.instagram.com/srinivas_bolisetti",
-      "x": "http://twitter.com/Bolisetti",
-      "email": "bolisetty.srinivas@gmail.com"
-    }
-  },
-  {
-    "id": 58,
-    "name": "Vanamadi Venkateswara Rao @ Kondababu",
-    "constituency": "KAKINADA CITY",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed 10th Pass",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/vanamadi_venkateswara_rao___kondababu.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/vanamadikondababu/",
-      "instagram": "https://www.instagram.com/vanamadikondababu_official/"
-    }
-  },
-  {
-    "id": 59,
-    "name": "Kandula Durgesh",
-    "constituency": "NIDADAVOLE",
-    "party": "Janasena Party",
-    "criminal_cases": "7",
-    "education": "completed M.A from Andhra University, Waltair",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kandula_durgesh.jpg",
-    "social_media": {
-      "email": "lakshmidurgesh@gmail.com"
-    }
-  },
-  {
-    "id": 60,
-    "name": "Chintamaneni Prabhakar",
-    "constituency": "DENDULURU",
-    "party": "TDP",
-    "criminal_cases": "90",
-    "education": "completed Intermediate from Board of Intermediate Education, AP",
-    "dob": "3 January 1968",
-    "image": "/knowyourleader/candidate-images/chintamaneni_prabhakar.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/ChintamaneniTDP/",
-      "instagram": "https://www.instagram.com/chintamanenitdp/",
-      "x": "https://x.com/ChintamaneniTDP"
-    }
-  },
-  {
-    "id": 61,
-    "name": "Dharmaraju Patsamatla",
-    "constituency": "UNGUTUR",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed B.A from Andhra University",
-    "dob": "Age: 43 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dharmaraju_patsamatla.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/Dharmaraju.Patsamatla.JSPunguturu/",
-      "instagram": "https://www.instagram.com/patsamatla_dharmaraju_pdr/",
-      "x": "https://x.com/DharmarajuPdr"
-    }
-  },
-  {
-    "id": 62,
-    "name": "Tangirala Sowmya",
-    "constituency": "NANDIGAMA",
-    "party": "TDP",
-    "criminal_cases": "23",
-    "education": "completed B.Tech from CR Reddy College, Eluru in 2002",
-    "dob": "12 April 1981",
-    "image": "/knowyourleader/candidate-images/tangirala_sowmya.jpg",
-    "social_media": {
-      "email": "ndgmla@gmail.com"
-    }
-  },
-  {
-    "id": 63,
-    "name": "Vasamsetti. Subash",
-    "constituency": "RAMACHANDRAPURAM",
-    "party": "TDP",
-    "criminal_cases": "12",
-    "education": "completed Graduate Professional",
-    "dob": "Age: 46 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/vasamsetti__subash.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/vasamsettisubashyuvasena/",
-      "instagram": "https://www.instagram.com/vasamsettisubash/",
-      "x": "https://x.com/ministersubashv"
-    }
-  },
-  {
-    "id": 64,
-    "name": "Bhashyam Praveen",
-    "constituency": "PEDAKURAPADU",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.Sc. from Hindu College, Nagarjuna University in 1997",
-    "dob": "Age: 47 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bhashyam_praveen.jpg",
-    "social_media": {
-      "facebook": "www.facebook.com/BhashvamPraveen",
-      "email": "praveenbhashyam41@gmail.com"
-    }
-  },
-  {
-    "id": 65,
-    "name": "Arimilli Radha Krishna",
-    "constituency": "TANUKU",
-    "party": "TDP",
-    "criminal_cases": "7",
-    "education": "completed M.Sc in Computers from Nagarjuna University in 1997",
-    "dob": "Age: 50 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/arimilli_radha_krishna.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/arimilli",
-      "instagram": "https://www.instagram.com/rkarimilli",
-      "x": "https://twitter.com/rkarimilli",
-      "email": "rkarimilli@gmail.com"
-    }
-  },
-  {
-    "id": 66,
-    "name": "Radha Krishnayya Badeti",
-    "constituency": "ELURU",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed B.A. from DNR College, Bhimavaram in 1994",
-    "dob": "Age: 58 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/radha_krishnayya_badeti.jpg",
-    "social_media": {
-      "email": "elurutdpincharge@gmail.com"
-    }
-  },
-  {
-    "id": 67,
-    "name": "Yarapathineni Srinivasa Rao",
-    "constituency": "GURAJALA",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Intermediate from SKBR Govt. College, Macherla in 1982",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/yarapathineni_srinivasa_rao.jpg",
-    "social_media": {
-      "email": "yarapathinenimla@gmail.com"
-    }
-  },
-  {
-    "id": 68,
-    "name": "Yarlagadda Venkata Rao",
-    "constituency": "GANNAVARAM (YARLAGADDA VENKATA RAO)",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.Sc. from AG & SG College, Vuyyuru, Nagarjuna University in 1998",
-    "dob": "Age: 49 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/yarlagadda_venkata_rao.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/yarlagaddavenkatarao",
-      "x": "https://x.com/yarlagadda_tdp",
-      "instagram": "https://www.instagram.com/yarlagadda_venkatarao_7777",
-      "email": "yyarlagadda77777@gmail.com"
-    }
-  },
-  {
-    "id": 69,
-    "name": "Giddi. Satyanarayana",
-    "constituency": "GANNAVARAM (GIDDI. SATYANARAYANA)",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed B.A. from DNR College, Bhimavaram, Andhra University in 1987",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/giddi__satyanarayana.jpg",
-    "social_media": {
-      "email": "gsatyanarayana2oss@gmail.com"
-    }
-  },
-  {
-    "id": 70,
-    "name": "Kamineni Srinivas",
-    "constituency": "KAIKALUR",
-    "party": "BJP",
-    "criminal_cases": "1",
-    "education": "completed M.B.B.S. from Rangaraya Medical College, Kakinada in 1972",
-    "dob": "Age: 76 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kamineni_srinivas.jpg",
-    "social_media": {
-      "email": "drkaminenisrinivas@gmail.com"
-    }
-  },
-  {
-    "id": 71,
-    "name": "Satyanarayana Pithani",
-    "constituency": "ACHANTA",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.Com from Andhra University",
-    "dob": "Age: 71 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/satyanarayana_pithani.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/Pithani",
-      "instagram": "https://www.instagram.com/pithani_satyanarayana",
-      "x": "https://twitter.com/PithaniOffl",
-      "email": "pithani.satya@gmail.com"
-    }
-  },
-  {
-    "id": 72,
-    "name": "Kanumuru Raghu Rama Krishna Raju (R R R)",
-    "constituency": "UNDI",
-    "party": "TDP",
-    "criminal_cases": "19",
-    "education": "completed B.Pharmacy from Andhra University in 1984",
-    "dob": "Age: 61 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kanumuru_raghu_rama_krishna_raju__r_r_r_.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/KRaghuRamaKrishnaRaju",
-      "instagram": "https://www.instagram.com/raghuraju_mp",
-      "x": "https://twitter.com/RaghuRaju_MP",
-      "email": "raghumpnarasapuram@gmail.com"
-    }
-  },
-  {
-    "id": 73,
-    "name": "Julakanti Brahmananda Reddy",
-    "constituency": "MACHERLA",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed 10th Class (SSC)",
-    "dob": "Age: 60 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/julakanti_brahmananda_reddy.jpg",
-    "social_media": {
-      "email": "jbreddyso@gmail.com"
-    }
-  },
-  {
-    "id": 74,
-    "name": "Ramanjaneyulu Pulaparthi (Anjibabu)",
-    "constituency": "BHIMAVARAM",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed Intermediate from Hindu College, Machilipatnam in 1970",
-    "dob": "Age: 69 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ramanjaneyulu_pulaparthi__anjibabu_.jpg",
-    "social_media": {
-      "email": "pulaparthibvrm@gmail.com"
-    }
-  },
-  {
-    "id": 75,
-    "name": "Aithabathula Anandarao",
-    "constituency": "AMALAPURAM",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed M.A. from Andhra University PG College, Kakinada in 1993",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/aithabathula_anandarao.jpg",
-    "social_media": {
-      "email": "amalapuramtdp@gmail.com"
-    }
-  },
-  {
-    "id": 76,
-    "name": "Tenali Sravan Kumar",
-    "constituency": "TADIKONDA",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed B.A from Andhra University",
-    "dob": "Age: 60 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/tenali_sravan_kumar.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/SravanKumarMLA/",
-      "instagram": "https://www.instagram.com/sravankumar.tenali/",
-      "x": "https://x.com/SravanTenali"
-    }
-  },
-  {
-    "id": 77,
-    "name": "Dr.Nimmala Ramanaidu",
-    "constituency": "PALACOLE",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Ph.D in Geography from Andhra University in 2005",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dr_nimmala_ramanaidu.jpg",
-    "social_media": {
-      "email": "ramanaidunimmala@gmail.com"
-    }
-  },
-  {
-    "id": 78,
-    "name": "Bonda Umamaheswararao",
-    "constituency": "VIJAYAWADA CENTRAL",
-    "party": "TDP",
-    "criminal_cases": "14",
-    "education": "completed 9th Class from BSRK Municipal Schoool, Vijayawada in 1980",
-    "dob": "Age: 63 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bonda_umamaheswararao.jpg",
-    "social_media": {
-      "x": "https://x.com/BondaUma",
-      "facebook": "https://facebook.com/BondaOfficial"
-    }
-  },
-  {
-    "id": 79,
-    "name": "Venigandla Ramu",
-    "constituency": "GUDIVADA",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.Tech from RVR & JC Engineering College, Guntur in 1992",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/venigandla_ramu.jpg",
-    "social_media": {
-      "email": "venigandla@gmail.com"
-    }
-  },
-  {
-    "id": 80,
-    "name": "Yalamanchili Satyanarayana Chowdary (Sujana Chowdary)",
-    "constituency": "VIJAYAWADA WEST",
-    "party": "BJP",
-    "criminal_cases": "4",
-    "education": "completed Master of Engineering from PSG College of Technology in 1986",
-    "dob": "Age: 62 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/yalamanchili_satyanarayana_chowdary__sujana_chowdary_.jpg",
-    "social_media": {
-      "x": "https://x.com/yschowdary",
-      "facebook": "https://facebook.com/yschowdary"
-    }
-  },
-  {
-    "id": 81,
-    "name": "Deva Varaprasad",
-    "constituency": "RAZOLE",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed M.Sc. (Botany) from Andhra University in 1981",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/deva_varaprasad.jpg",
-    "social_media": {
-      "email": "dvaraprasad.hyd@gmail.com"
-    }
-  },
-  {
-    "id": 82,
-    "name": "Kumar Raja Varla",
-    "constituency": "PAMARRU",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed Post Graduate",
-    "dob": "Age: 45 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kumar_raja_varla.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/VarlaKumarRajaOfficial/",
-      "instagram": "https://www.instagram.com/kumarvarla/",
-      "x": "https://x.com/VarlaKumarRaja"
-    }
-  },
-  {
-    "id": 83,
-    "name": "Bode Prasad",
-    "constituency": "PENAMALURU",
-    "party": "TDP",
-    "criminal_cases": "12",
-    "education": "completed 10th Class (SSC) from ZPH School, Penamaluru in 1983",
-    "dob": "Age: 56 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bode_prasad.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/bodeprasad",
-      "x": "https://twitter.com/bodeprasad",
-      "email": "bodeprasad567@gmail.com"
-    }
-  },
-  {
-    "id": 84,
-    "name": "Gadde Rama Mohan",
-    "constituency": "VIJAYAWADA EAST",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed M.Sc. Microbiology from Dharwar University in 1978",
-    "dob": "Age: 67 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gadde_rama_mohan.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/gadderamamohantdp",
-      "x": "https://x.com/gadderamamohan",
-      "email": "gaddeexmp@gmail.com"
-    }
-  },
-  {
-    "id": 85,
-    "name": "Nara Lokesh",
-    "constituency": "MANGALAGIRI",
-    "party": "TDP",
-    "criminal_cases": "17",
-    "education": "completed Master of Business Administration from Stanford University Graduate School of Business in 2008",
-    "dob": "23 January 1983",
-    "image": "/knowyourleader/candidate-images/nara_lokesh.jpg",
-    "social_media": {
-      "x": "https://x.com/naralokesh",
-      "facebook": "https://www.facebook.com/naralokesh/",
-      "instagram": "https://www.instagram.com/naralokesh/"
-    }
-  },
-  {
-    "id": 86,
-    "name": "Kanna Lakshminarayana",
-    "constituency": "SATTENAPALLE",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed B.Com from TJPS College, Guntur in 1976",
-    "dob": "13 August 1954",
-    "image": "/knowyourleader/candidate-images/kanna_lakshminarayana.jpg",
-    "social_media": {
-      "email": "kincampofficeguntur@gmail.com"
-    }
-  },
-  {
-    "id": 87,
-    "name": "Bommidi Narayana Nayakar",
-    "constituency": "NARASAPURAM",
-    "party": "Janasena Party",
-    "criminal_cases": "6",
-    "education": "completed 10th Class (SSC) from Ravindra Bharathi School, Bhimavaram in 1989",
-    "dob": "Age: 51 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bommidi_narayana_nayakar.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/share",
-      "instagram": "https://www.instagram.com/bommidinayakarjsp",
-      "x": "x.com/bnayakarjsp",
-      "email": "suneethatraders@gmail.com"
-    }
-  },
-  {
-    "id": 88,
-    "name": "Kagitha Krishnaprasad",
-    "constituency": "PEDANA",
-    "party": "TDP",
-    "criminal_cases": "9",
-    "education": "completed 10th Class (SSC) from ZP High School, Munjuluru in 1972",
-    "dob": "Age: 42 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kagitha_krishnaprasad.jpg",
-    "social_media": {
-      "email": "is_kpkagitha@gmail.com"
-    }
-  },
-  {
-    "id": 89,
-    "name": "Gonuguntla Venkata Siva Sita Rama Anzanneyllu",
-    "constituency": "VINUKONDA",
-    "party": "TDP",
-    "criminal_cases": "18",
-    "education": "completed B.Sc. from JKC College, Guntur",
-    "dob": "Age: 58 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gonuguntla_venkata_siva_sita_rama_anzanneyllu.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/gvanjaneyulu.vinukonda"
-    }
-  },
-  {
-    "id": 90,
-    "name": "Mohammed Naseer Ahmed",
-    "constituency": "GUNTUR EAST",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed 10th Pass (SSC) from R.T.H High School, Guntur in 1989",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/mohammed_naseer_ahmed.jpg",
-    "social_media": {
-      "email": "9@gmail.com"
-    }
-  },
-  {
-    "id": 91,
-    "name": "Dhulipalla Narendra Kumar",
-    "constituency": "PONNUR",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.Tech from Mysore University in 1989",
-    "dob": "14 December 1967",
-    "image": "/knowyourleader/candidate-images/dhulipalla_narendra_kumar.jpg",
-    "social_media": {
-      "email": "dhulipallnkumar@gmail.com"
-    }
-  },
-  {
-    "id": 92,
-    "name": "Nadendla Manohar",
-    "constituency": "TENALI",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed Master of Business Administration from Osmania University in 1987",
-    "dob": "6 April 1964",
-    "image": "/knowyourleader/candidate-images/nadendla_manohar.jpg",
-    "social_media": {
-      "facebook": "https://facebook.com/NadendlaManoharonline",
-      "x": "www.twitter.com/mnadendla",
-      "email": "nadendlamanohar@gmail.com"
-    }
-  },
-  {
-    "id": 93,
-    "name": "Galla Madhavi",
-    "constituency": "GUNTUR WEST",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed M.A from Nagarjuna University",
-    "dob": "Age: 40 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/galla_madhavi.jpg",
-    "social_media": {
-      "email": "gallamadhavi84@gmail.com",
-      "facebook": "https://www.facebook.com/gallamadhaviofficial",
-      "instagram": "Https://www.instagram.com/gallamadhaviofficial",
-      "x": "https://twitter.com/galla_madhavi"
-    }
-  },
-  {
-    "id": 94,
-    "name": "Aravinda Babu Chadalavada",
-    "constituency": "NARASARAOPET",
-    "party": "TDP",
-    "criminal_cases": "17",
-    "education": "completed MBBS from Guntur Medical College",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/aravinda_babu_chadalavada.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/dr.chadalavada.aravinda.babu/",
-      "facebook": "https://www.facebook.com/DrChadalavadaAravindaBabu/"
-    }
-  },
-  {
-    "id": 95,
-    "name": "Chandra Sekhar Tatiparthi",
-    "constituency": "YERRAGONDAPALEM",
-    "party": "YSRCP",
-    "criminal_cases": "3",
-    "education": "completed B.E. (Civil) from Muffakham Jah College of Engineering in 1997",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/chandra_sekhar_tatiparthi.jpg",
-    "social_media": {
-      "x": "https://x.com/TCSekhar_YSRCP"
-    }
-  },
-  {
-    "id": 96,
-    "name": "Burla Ramanjaneyulu",
-    "constituency": "PRATHIPADU (BURLA RAMANJANEYULU)",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed Ph.D from Sri Krishnadevaraya University in 2019",
-    "dob": "Age: 65 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/burla_ramanjaneyulu.jpg",
-    "social_media": {
-      "youtube": "youtube.com/@burlaramanjaneyulu",
-      "email": "burlaramanjaneyuluias@gmail.com",
-      "facebook": "https://www.facebook.com/burla.ramanjaneyulu",
-      "instagram": "https://www.instagram.com/burla.ramanjaneyulu",
-      "x": "https://X.com/Burla_IAS"
-    }
-  },
-  {
-    "id": 97,
-    "name": "Prathipati Pullarao",
-    "constituency": "CHILAKALURIPET",
-    "party": "TDP",
-    "criminal_cases": "13",
-    "education": "completed B.Com from Nagarjuna University in 1980",
-    "dob": "Age: 65 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/prathipati_pullarao.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/PrathipatiPullarao",
-      "instagram": "https://www.instagram.com/prathipatipullarao",
-      "x": "https://x.com/PullaraoP"
-    }
-  },
-  {
-    "id": 98,
-    "name": "Kollu. Ravindra",
-    "constituency": "MACHILIPATNAM",
-    "party": "TDP",
-    "criminal_cases": "15",
-    "education": "completed B.A. from Andhra University in 2002",
-    "dob": "Age: 51 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kollu__ravindra.jpg",
-    "social_media": {
-      "email": "kolluravindra.sm@gmail.com"
-    }
-  },
-  {
-    "id": 99,
-    "name": "Ananda Babu Nakka",
-    "constituency": "VEMURU",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed Bachelor of Laws from Andhra University in 1995",
-    "dob": "Age: 58 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ananda_babu_nakka.jpg",
-    "social_media": {
-      "email": "nabvemuru@gmail.com"
-    }
-  },
-  {
-    "id": 100,
-    "name": "Buddhaprasad Mandali",
-    "constituency": "AVANIGADDA",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed B.A. from New Government College, Hyderabad in 1977",
-    "dob": "Age: 68 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/buddhaprasad_mandali.jpg",
-    "social_media": {
-      "email": "mandalibuddhaprasad@gmail.com"
-    }
-  },
-  {
-    "id": 101,
-    "name": "Budda Rajasekhara Reddy",
-    "constituency": "SRISAILAM",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from Osmania College, Kurnool",
-    "dob": "Age: 57 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/budda_rajasekhara_reddy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/buddarajasekharareddy/",
-      "instagram": "https://www.instagram.com/buddarajasekharareddy/"
-    }
-  },
-  {
-    "id": 102,
-    "name": "Gottipati  Ravi Kumar",
-    "constituency": "ADDANKI",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed 12th Pass",
-    "dob": "9 November 1974",
-    "image": "/knowyourleader/candidate-images/gottipati__ravi_kumar.jpg",
-    "social_media": {
-      "email": "gravikumarmlaaddanki@gmail.com"
-    }
-  },
-  {
-    "id": 103,
-    "name": "G Jayasurya",
-    "constituency": "NANDIKOTKUR",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed 12th Pass from National Open School, New Delhi in 2022",
-    "dob": "Age: 42 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/g_jayasurya.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/jayasuryagitta",
-      "x": "https://www.twitter.com/jayasuryagitta",
-      "email": "gittajayasurya6868@gmail.com"
-    }
-  },
-  {
-    "id": 104,
-    "name": "Anagani Satya Prasad",
-    "constituency": "REPALLE",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.Sc. from Anwar Ul-Ulam Autonomous College, Hyderabad in 1990",
-    "dob": "Age: 52 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/anagani_satya_prasad.jpg",
-    "social_media": {
-      "x": "https://x.com/AnaganiSatyaP",
-      "facebook": "https://facebook.com/AnaganiSatyaPrasad"
-    }
-  },
-  {
-    "id": 105,
-    "name": "Yeluri Sambasiva Rao",
-    "constituency": "PARCHUR",
-    "party": "TDP",
-    "criminal_cases": "6",
-    "education": "completed Post Graduate",
-    "dob": "Age: 48 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/yeluri_sambasiva_rao.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/MLAParchur",
-      "instagram": "https://www.instagram.com/mlaparchur",
-      "x": "https://twitter.com/sambayeluri",
-      "email": "isyeluri.tdp@gmail.com"
-    }
-  },
-  {
-    "id": 106,
-    "name": "Vegesana Narendra Varma Raju",
-    "constituency": "BAPATLA",
-    "party": "TDP",
-    "criminal_cases": "9",
-    "education": "completed 10th Class (SSC) from Govt. Junior College, Pittalavanipalem in 1985",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/vegesana_narendra_varma_raju.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/VegesanaNarendraVarmaRaju/",
-      "instagram": "https://www.instagram.com/narendravegesana/"
-    }
-  },
-  {
-    "id": 107,
-    "name": "Y. Balanagi Reddy",
-    "constituency": "MANTRALAYAM",
-    "party": "YSRCP",
-    "criminal_cases": "1",
-    "education": "completed 10th Class from National Institute of Open School in 2010",
-    "dob": "Age: 60 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/y__balanagi_reddy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/YBALANAGIREDDYMLA/",
-      "instagram": "https://www.instagram.com/ybalanagireddy/"
-    }
-  },
-  {
-    "id": 108,
-    "name": "Buchepalli Siva Prasad Reddy",
-    "constituency": "DARSI",
-    "party": "YSRCP",
-    "criminal_cases": "0",
-    "education": "completed M.B.B.S. from Sri Ramachandra Medical College, Chennai",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/buchepalli_siva_prasad_reddy.jpg",
-    "social_media": {
-      "email": "sivambbs555@gmail.com"
-    }
-  },
-  {
-    "id": 109,
-    "name": "B. Jayanageswara Reddy",
-    "constituency": "YEMMIGANUR",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed M.B.B.S. from Deccan College of Medical Science, Hyderabad in 2004",
-    "dob": "Age: 47 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/b__jayanageswara_reddy.jpg",
-    "social_media": {
-      "email": "eashwarg@gmail.com"
-    }
-  },
-  {
-    "id": 110,
-    "name": "Madduluri Mala Kondaiah",
-    "constituency": "CHIRALA",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed B.Com from Distance Education",
-    "dob": "Age: 63 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/madduluri_mala_kondaiah.jpg",
-    "social_media": {
-      "email": "mmkondaiahrk@gmail.com",
-      "facebook": "www.facebook.com/MMKondaiahOfficial",
-      "instagram": "www.instagram.com/maddulurimalakondaiah"
-    }
-  },
-  {
-    "id": 111,
-    "name": "Boggula Dastagiri",
-    "constituency": "KODUMUR",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Master of Legislative Laws from Sri Krishna Devaraya University in 2018",
-    "dob": "Age: 39 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/boggula_dastagiri.jpg",
-    "social_media": {
-      "email": "babusri200@gmail.com"
-    }
-  },
-  {
-    "id": 112,
-    "name": "T.G.Bharath",
-    "constituency": "KURNOOL",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Master of Business Administration from Cardiff University",
-    "dob": "Age: 35 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/t_g_bharath.jpg",
-    "social_media": {
-      "x": "https://x.com/TGBharath_TDP",
-      "facebook": "https://facebook.com/TGBharath"
-    }
-  },
-  {
-    "id": 113,
-    "name": "Gowru Charitha Reddy",
-    "constituency": "PANYAM",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from Government Degree College, Nandikotkur in 1990",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gowru_charitha_reddy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/Gowru",
-      "x": "https://twitter.com/Gowru",
-      "email": "charithareddygowru@gmail.com"
-    }
-  },
-  {
-    "id": 114,
-    "name": "Kandula Narayana Reddy",
-    "constituency": "MARKAPURAM",
-    "party": "TDP",
-    "criminal_cases": "13",
-    "education": "completed Bachelor of Engineering (Discontinued) from Gulbarga University",
-    "dob": "5 August 1968",
-    "image": "/knowyourleader/candidate-images/kandula_narayana_reddy.jpg",
-    "social_media": {
-      "email": "knreddvmla@gmail.com"
-    }
-  },
-  {
-    "id": 115,
-    "name": "Dr. Partha Sarathi Valmiki",
-    "constituency": "ADONI",
-    "party": "BJP",
-    "criminal_cases": "3",
-    "education": "completed Master of Dental Surgery from Government Dental College, Hyderabad in 2005",
-    "dob": "Age: 53 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dr__partha_sarathi_valmiki.jpg",
-    "social_media": {
-      "email": "partha4545@gmail.com"
-    }
-  },
-  {
-    "id": 116,
-    "name": "Ashok Reddy Muthumula",
-    "constituency": "GIDDALUR",
-    "party": "TDP",
-    "criminal_cases": "2",
-    "education": "completed Intermediate from Sri Vivekananda Junior College, Giddalur in 1985",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ashok_reddy_muthumula.jpg",
-    "social_media": {
-      "email": "muthumulaashokreddy@gmail.com"
-    }
-  },
-  {
-    "id": 117,
-    "name": "Vijay Kumar B.N",
-    "constituency": "SANTHANUTHALAPADU",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed Graduate Professional",
-    "dob": "Age: 56 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/vijay_kumar_b_n.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/bnvijaykumartdp/",
-      "instagram": "https://www.instagram.com/bn_vijaykumarmla/",
-      "x": "https://x.com/BnVijayKumar_Bn"
-    }
-  },
-  {
-    "id": 118,
-    "name": "B. Virupakshi",
-    "constituency": "ALUR",
-    "party": "YSRCP",
-    "criminal_cases": "1",
-    "education": "completed 8th Pass",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/b__virupakshi.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/busine.virupakshi/",
-      "instagram": "https://www.instagram.com/busine_virupakshi_alur_mla9009/"
-    }
-  },
-  {
-    "id": 119,
-    "name": "K.E. Shyam Kumar",
-    "constituency": "PATTIKONDA",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Master of Business Administration from Institute of Computer and Business Management, Hyderabad in 2001",
-    "dob": "Age: 50 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/k_e__shyam_kumar.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/people/K-E-Shyam-Kumar/61556830214429/"
-    }
-  },
-  {
-    "id": 120,
-    "name": "Kotla Jaya Surya Prakash Reddy",
-    "constituency": "DHONE",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.E Mechanical Engineering from Osmania University in 1990",
-    "dob": "18 September 1951",
-    "image": "/knowyourleader/candidate-images/kotla_jaya_surya_prakash_reddy.jpg",
-    "social_media": {
-      "email": "kispreddy2009@gmail.com"
-    }
-  },
-  {
-    "id": 121,
-    "name": "Doctor Dola Sree Bala Veeranjaneya Swamy",
-    "constituency": "KONDAPI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from S.V. University, Tirupati in 1995",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/doctor_dola_sree_bala_veeranjaneya_swamy.jpg",
-    "social_media": {
-      "email": "doctorswamydola@gmail.com"
-    }
-  },
-  {
-    "id": 122,
-    "name": "Damacharla Janardhana Rao",
-    "constituency": "ONGOLE",
-    "party": "TDP",
-    "criminal_cases": "18",
-    "education": "completed B.Tech from P.E.S. Institute of Technology, Bangalore in 1998",
-    "dob": "Age: 49 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/damacharla_janardhana_rao.jpg",
-    "social_media": {
-      "x": "https://x.com/DJR_MLA",
-      "facebook": "https://facebook.com/DJRTDP"
-    }
-  },
-  {
-    "id": 123,
-    "name": "Nasyam Mohammed Farook",
-    "constituency": "NANDYAL",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed Matriculation from Municipal High School, Nandyal",
-    "dob": "Age: 73 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/nasyam_mohammed_farook.jpg",
-    "social_media": {
-      "email": "ministerfarook@gmail.com"
-    }
-  },
-  {
-    "id": 124,
-    "name": "Dr. Ugra Narasimha Reddy Mukku",
-    "constituency": "KANIGIRI",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed M.B.B.S. from JJM Medical College, Dhavanagere in 2000",
-    "dob": "Age: 50 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dr__ugra_narasimha_reddy_mukku.jpg",
-    "social_media": {
-      "email": "drugramukku@gmail.com"
-    }
-  },
-  {
-    "id": 125,
-    "name": "B.C. Janardhan Reddy",
-    "constituency": "BANAGANAPALLE",
-    "party": "TDP",
-    "criminal_cases": "9",
-    "education": "completed B.Tech from P.E.S. Institute of Technology, Bangalore in 1998",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/b_c__janardhan_reddy.jpg",
-    "social_media": {
-      "email": "bejreddy2@gmail.com"
-    }
-  },
-  {
-    "id": 126,
-    "name": "Akhila Priya Bhuma",
-    "constituency": "ALLAGADDA",
-    "party": "TDP",
-    "criminal_cases": "12",
-    "education": "completed BBM from IIP College, Hyderabad in 2009",
-    "dob": "Age: 36 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/akhila_priya_bhuma.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/bhuma_akhila",
-      "email": "akhilain14@gmail.com"
-    }
-  },
-  {
-    "id": 127,
-    "name": "Inturi Nageswara Rao",
-    "constituency": "KANDUKUR",
-    "party": "TDP",
-    "criminal_cases": "11",
-    "education": "completed MBBS from Kurnool Medical College in 1989",
-    "dob": "Age: 47 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/inturi_nageswara_rao.jpg",
-    "social_media": {
-      "email": "nraointuri@gmail.com"
-    }
-  },
-  {
-    "id": 128,
-    "name": "Gummanur Jayaram",
-    "constituency": "GUNTAKAL",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed Graduate (B.Com) from S.V University in 1992",
-    "dob": "16 October 1968",
-    "image": "/knowyourleader/candidate-images/gummanur_jayaram.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/gummanurjayaram",
-      "instagram": "https://www.instagram.com/gummanur_jayaram",
-      "x": "https://x.com/GummanurJayaram"
-    }
-  },
-  {
-    "id": 129,
-    "name": "Dasari Sudha",
-    "constituency": "BADVEL",
-    "party": "YSRCP",
-    "criminal_cases": "0",
-    "education": "completed M.B.B.S. from Kurnool Medical College in 1999",
-    "dob": "Age: 51 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dasari_sudha.jpg",
-    "social_media": {
-      "email": "sudhadasari1972@gmail.com"
-    }
-  },
-  {
-    "id": 130,
-    "name": "Payyavula Keshav",
-    "constituency": "URAVAKONDA",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed Post Graduate Diploma from T.A.PAI Management Institute, Manipal in 1987",
-    "dob": "14 May 1965",
-    "image": "/knowyourleader/candidate-images/payyavula_keshav.jpg",
-    "social_media": {
-      "facebook": "Facebook.Com/KeshavPayyavula",
-      "email": "payyavulakeshav@gmail.com"
-    }
-  },
-  {
-    "id": 131,
-    "name": "Ashmit Reddy J.C",
-    "constituency": "TADPATRI",
-    "party": "TDP",
-    "criminal_cases": "28",
-    "education": "completed BDS from Rajiv Gandhi University of Health Sciences",
-    "dob": "Age: 41 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ashmit_reddy_j_c.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/jcashmitreddy",
-      "instagram": "https://www.instagram.com/jcashmitreddy",
-      "x": "https://x.com/jcashmitreddy"
-    }
-  },
-  {
-    "id": 132,
-    "name": "Kalava Srinivasulu",
-    "constituency": "RAYADURG",
-    "party": "TDP",
-    "criminal_cases": "19",
-    "education": "completed M.A. from Sri Krishnadevaraya University in 1994",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kalava_srinivasulu.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/KalavaSrinivasulu",
-      "instagram": "https://www.instagram.com/kalava.srinivasulu",
-      "x": "https://x.com/kalavaTDP",
-      "youtube": "httpS://youtube.com/@kalavasrinivasulu",
-      "email": "srinukalava@gmail.com"
-    }
-  },
-  {
-    "id": 133,
-    "name": "Kakarla Suresh",
-    "constituency": "UDAYAGIRI",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed B.Tech from JNTU in 2011",
-    "dob": "Age: 52 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kakarla_suresh.jpg",
-    "social_media": {
-      "facebook": "HTTPS://WWW.FACEBOOK.COM/SURESHKAKARLAOFFL",
-      "x": "HTTPS://X.COM/SURESHKAKARLA",
-      "youtube": "HTTPS://YOUTUBE.COM/@KAKARLASURESHTEAM",
-      "email": "suresh.kakarla@gmail.com"
-    }
-  },
-  {
-    "id": 134,
-    "name": "Adinarayana Reddy Chadipirala",
-    "constituency": "JAMMALAMADUGU",
-    "party": "BJP",
-    "criminal_cases": "4",
-    "education": "completed B.A from S.V University",
-    "dob": "Age: 66 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/adinarayana_reddy_chadipirala.jpg",
-    "social_media": {
-      "x": "https://x.com/Adinarayana_JMD",
-      "facebook": "https://www.facebook.com/AdiNROfficial/",
-      "instagram": "https://www.instagram.com/adinarayanareddyy/"
-    }
-  },
-  {
-    "id": 135,
-    "name": "Sudhakar Putta",
-    "constituency": "MYDUKUR",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed 10th Class (SSC) from Z.P. High School, Palugurallapalle in 1978",
-    "dob": "Age: 60 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/sudhakar_putta.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/PuttaOfficial",
-      "instagram": "https://www.instagram.com/putta",
-      "x": "https://x.com/ExTTDChairman",
-      "youtube": "https://youtube.com/@puttasudhakaryadav",
-      "email": "sriputtasudhakaryadav@gmail.com"
-    }
-  },
-  {
-    "id": 136,
-    "name": "Dagumati Venkata Krishna Reddy",
-    "constituency": "KAVALI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.E from Bangalore University",
-    "dob": "Age: 58 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dagumati_venkata_krishna_reddy.jpg",
-    "social_media": {
-      "x": "twitter.com/kavyakrishnardy",
-      "email": "dvkr4777@gmail.com"
-    }
-  },
-  {
-    "id": 137,
-    "name": "Nandyala Varada Rajula Reddy",
-    "constituency": "PRODDATUR",
-    "party": "TDP",
-    "criminal_cases": "6",
-    "education": "completed 10th Class (SSLC) from Annebisent Municipal High School, Proddatur in 1959",
-    "dob": "Age: 82 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/nandyala_varada_rajula_reddy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/VaradarajulaReddyN/",
-      "instagram": "https://www.instagram.com/varadarajulareddyofficial/"
-    }
-  },
-  {
-    "id": 138,
-    "name": "Bandaru Sravani Sree",
-    "constituency": "SINGANAMALA",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Masters in Mass Communications from St Francis College for Women in 2013",
-    "dob": "Age: 34 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bandaru_sravani_sree.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/bandarusravanisree/",
-      "instagram": "https://www.instagram.com/bandarusravanisree/",
-      "x": "https://x.com/bandaru_sravani"
-    }
-  },
-  {
-    "id": 139,
-    "name": "Anam.Ramanarayana Reddy",
-    "constituency": "ATMAKUR",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed Bachelor of Laws from Andhra University in 1975",
-    "dob": "Age: 71 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/anam_ramanarayana_reddy.jpg",
-    "social_media": {
-      "email": "anamramanarayanareddy139@gmail.com"
-    }
-  },
-  {
-    "id": 140,
-    "name": "Daggupati Prasad",
-    "constituency": "ANANTAPUR URBAN",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.E from Osmania University",
-    "dob": "Age: 48 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/daggupati_prasad.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/PrasadDaggupatiOffl/"
-    }
-  },
-  {
-    "id": 141,
-    "name": "Paritala Sunithamma",
-    "constituency": "RAPTADU",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed 8th Standard from Government High School, Dharmavaram in 1983",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/paritala_sunithamma.jpg",
-    "social_media": {
-      "facebook": "facebook.com/paritalasunithammamla",
-      "instagram": "instagram.com/paritalasunitha",
-      "x": "https://twitter.com/sunithatdp",
-      "email": "4@gmail.com"
-    }
-  },
-  {
-    "id": 142,
-    "name": "Ys Jagan Mohan Reddy",
-    "constituency": "PULIVENDLA",
-    "party": "YSRCP",
-    "criminal_cases": "29",
-    "education": "completed B.Com from Pragathi Mahavidyalaya Degree and PG College, Hyderabad",
-    "dob": "Age: 51 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/ys_jagan_mohan_reddy.jpg",
-    "social_media": {
-      "email": "osd.ysrcp@gmail.com",
-      "x": "https://x.com/ysjagan",
-      "facebook": "https://www.facebook.com/ysjagan/",
-      "instagram": "https://www.instagram.com/ysjagan/"
-    }
-  },
-  {
-    "id": 143,
-    "name": "Amilineni Surendra Babu",
-    "constituency": "KALYANDURG",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed 10th Class (SSC) from Board of Secondary Education AP in 1983",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/amilineni_surendra_babu.jpg",
-    "social_media": {
-      "facebook": "facebook.com/surendra",
-      "email": "amilinenisurendrababu@gmail.com",
-      "instagram": "www.instagram.com/surendrababu",
-      "x": "www.twitter.com/A_Surendra_Babu"
-    }
-  },
-  {
-    "id": 144,
-    "name": "Satya Kumar Yadav",
-    "constituency": "DHARMAVARAM",
-    "party": "BJP",
-    "criminal_cases": "0",
-    "education": "completed Master of Business Administration from ITM, Chennai in 2013",
-    "dob": "Age: 52 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/satya_kumar_yadav.jpg",
-    "social_media": {
-      "email": "satya.osd@gmail.com"
-    }
-  },
-  {
-    "id": 145,
-    "name": "Krishna Chaitanya Reddy Putha",
-    "constituency": "KAMALAPURAM",
-    "party": "TDP",
-    "criminal_cases": "3",
-    "education": "completed M.Sc in Information Technology from Middle Sex University, UK in 2005",
-    "dob": "Age: 42 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/krishna_chaitanya_reddy_putha.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/PuthaChaithanya"
-    }
-  },
-  {
-    "id": 146,
-    "name": "Prashanthi Reddy Vemireddy",
-    "constituency": "KOVUR",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.Com from V.R. College, Nellore in 1984",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/prashanthi_reddy_vemireddy.jpg",
-    "social_media": {
-      "facebook": "facebook.com/vemireddyprashanthireddv",
-      "email": "vemireddyprashanthireddy@gmail.com"
-    }
-  },
-  {
-    "id": 147,
-    "name": "Chandra Mohan Reddy Somireddy",
-    "constituency": "SARVEPALLI",
-    "party": "TDP",
-    "criminal_cases": "16",
-    "education": "completed Intermediate from K.A.C Junior College, Nellore in 1974",
-    "dob": "Age: 68 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/chandra_mohan_reddy_somireddy.jpg",
-    "social_media": {
-      "instagram": "instagram.com/somireddycm",
-      "facebook": "https://facebook.com/somireddycm",
-      "x": "https://twitter.com/somireddycm",
-      "email": "somireddyemreddy@gmail.com"
-    }
-  },
-  {
-    "id": 148,
-    "name": "Kurugondla Ramakrishna",
-    "constituency": "VENKATAGIRI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed Intermediate from Board of Intermediate Education, AP",
-    "dob": "Age: 62 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kurugondla_ramakrishna.jpg",
-    "social_media": {
-      "email": "kurugondlaramakrishna888@gmail.com"
-    }
-  },
-  {
-    "id": 149,
-    "name": "Madhavi Reddappa Gari",
-    "constituency": "KADAPA",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed MBBS from S.V University",
-    "dob": "Age: 49 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/madhavi_reddappa_gari.jpg",
-    "social_media": {
-      "email": "m9866133066@gmail.com",
-      "instagram": "https://www.instagram.com/reddeppagri_madhavi_reddy",
-      "youtube": "https://youtube.com/@ReddeppagariMadhavi"
-    }
-  },
-  {
-    "id": 150,
-    "name": "Narayana Ponguru",
-    "constituency": "NELLORE CITY",
-    "party": "TDP",
-    "criminal_cases": "8",
-    "education": "completed Ph.D from Sri Venkateswara University in 2002",
-    "dob": "Age: 67 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/narayana_ponguru.jpg",
-    "social_media": {
-      "x": "twitter.com/dr_pnarayana",
-      "facebook": "https://www.facebook.com/Dr.PonguruNarayana",
-      "instagram": "https://www.instagram.com/pongurunarayanaofficial",
-      "youtube": "https://youtube.com/@DrPonguruNarayana",
-      "email": "naravanaponguru8@gmail.com"
-    }
-  },
-  {
-    "id": 151,
-    "name": "Akepati Amarnath Reddy",
-    "constituency": "RAJAMPET",
-    "party": "YSRCP",
-    "criminal_cases": "0",
-    "education": "completed Intermediate from Government Junior College in 1979",
-    "dob": "Age: 64 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/akepati_amarnath_reddy.jpg",
-    "social_media": {
-      "email": "amarnathreddyakepati1@gmail.com"
-    }
-  },
-  {
-    "id": 152,
-    "name": "Kotamreddy Sridhar Reddy",
-    "constituency": "NELLORE RURAL",
-    "party": "TDP",
-    "criminal_cases": "4",
-    "education": "completed B.A. from V.R College, Nellore in 1999",
-    "dob": "Age: 59 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kotamreddy_sridhar_reddy.jpg",
-    "social_media": {
-      "email": "kotamreddysridharreddy@gmail.com"
-    }
-  },
-  {
-    "id": 153,
-    "name": "Palle Sindhura Reddy",
-    "constituency": "PUTTAPARTHI",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed MBBS from Dr. NTR University of Health Sciences",
-    "dob": "2 August 1990",
-    "image": "/knowyourleader/candidate-images/palle_sindhura_reddy.jpg",
-    "social_media": {
-      "facebook": "https://facebook.com/pallesindhurareddy",
-      "x": "https://twitter.com/pallesindhura",
-      "email": "sindhurareddyn@gmail.com"
-    }
-  },
-  {
-    "id": 154,
-    "name": "Arava Sreedhar",
-    "constituency": "KODUR",
-    "party": "Janasena Party",
-    "criminal_cases": "1",
-    "education": "completed B.Tech from Rajiv Gandhi Memorial College of Engineering, Nandyal",
-    "dob": "Age: 27 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/arava_sreedhar.jpg",
-    "social_media": {
-      "email": "aravasreedhar4@gmail.com"
-    }
-  },
-  {
-    "id": 155,
-    "name": "Kandikunta Venkata Prasad",
-    "constituency": "KADIRI",
-    "party": "TDP",
-    "criminal_cases": "21",
-    "education": "completed Intermediate from Government Junior College, Kadiri in 1983",
-    "dob": "Age: 57 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/kandikunta_venkata_prasad.jpg",
-    "social_media": {
-      "facebook": "facebook.com/kandikunta.venkataprasad.37",
-      "email": "kadiritdp999@gmail.com"
-    }
-  },
-  {
-    "id": 156,
-    "name": "Mandipalli Ramprasad Reddy",
-    "constituency": "RAYACHOTI",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed Intermediate from Rayalaseema Junior College, Tirupathi in 1998",
-    "dob": "Age: 42 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/mandipalli_ramprasad_reddy.jpg",
-    "social_media": {
-      "email": "mramprasadreddytdp@gmail.com"
-    }
-  },
-  {
-    "id": 157,
-    "name": "S. Savitha",
-    "constituency": "PENUKONDA",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed B.A. from S.K. University, Anantapur in 1998",
-    "dob": "10 February 1977",
-    "image": "/knowyourleader/candidate-images/s__savitha.jpg",
-    "social_media": {
-      "email": "savithahpel@gmail.com"
-    }
-  },
-  {
-    "id": 158,
-    "name": "M.S.Raju",
-    "constituency": "MADAKASIRA",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from Nagarjuna University in 2020",
-    "dob": "Age: 34 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/m_s_raju.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/MSRajuSCCell/"
-    }
-  },
-  {
-    "id": 159,
-    "name": "Pasim Sunil Kumar",
-    "constituency": "GUDUR",
-    "party": "TDP",
-    "criminal_cases": "14",
-    "education": "completed Ph.D in Adult Education from Sri Venkateswara University in 2021",
-    "dob": "Age: 55 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/pasim_sunil_kumar.jpg",
-    "social_media": {
-      "email": "pasamsunilkumarofficial@gmail.com"
-    }
-  },
-  {
-    "id": 160,
-    "name": "Nelavala Vijayasree",
-    "constituency": "SULLURPETA",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed M.B.B.S. from Narayana Medical College in 2022",
-    "dob": "Age: 37 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/nelavala_vijayasree.jpg",
-    "social_media": {
-      "email": "nelevalavijayasree@gmail.com"
-    }
-  },
-  {
-    "id": 161,
-    "name": "P. Dwarakanatha Reddy",
-    "constituency": "THAMBALLAPALLE",
-    "party": "YSRCP",
-    "criminal_cases": "0",
-    "education": "completed 10th Class from Z.P. High School, Sodam",
-    "dob": "Age: 36 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/p__dwarakanatha_reddy.jpg",
-    "social_media": {
-      "email": "ysrcpthamballapalle@gmail.com"
-    }
-  },
-  {
-    "id": 162,
-    "name": "Nandamuri Balakrishna",
-    "constituency": "HINDUPUR",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from Nizam College, Osmania University in 1982",
-    "dob": "10 June 1960",
-    "image": "/knowyourleader/candidate-images/nandamuri_balakrishna.jpg",
-    "social_media": {
-      "x": "https://x.com/NBKoffl",
-      "facebook": "https://facebook.com/BalakrishnaOfficial"
-    }
-  },
-  {
-    "id": 163,
-    "name": "Nallari Kishan Kumar Reddy",
-    "constituency": "PILERU",
-    "party": "TDP",
-    "criminal_cases": "6",
-    "education": "completed B.A. from Nizam College, Osmania University in 1990",
-    "dob": "Age: 58 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/nallari_kishan_kumar_reddy.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/NallariKishan",
-      "instagram": "http://www.instagram.com/nallarikishan",
-      "x": "https://x.com/Nallarikishore"
-    }
-  },
-  {
-    "id": 164,
-    "name": "Bojjala Venkata Sudhir Reddy",
-    "constituency": "SRIKALAHASTI",
-    "party": "TDP",
-    "criminal_cases": "15",
-    "education": "completed Master of Business Administration from Bharath Institute, Chennai in 2005",
-    "dob": "Age: 44 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/bojjala_venkata_sudhir_reddy.jpg",
-    "social_media": {
-      "email": "is...bojjalasudhir@gmail.com"
-    }
-  },
-  {
-    "id": 165,
-    "name": "Venkata Mani Prasad Pullivarthi",
-    "alias": "PULIVARTHI. NANI",
-    "constituency": "CHANDRAGIRI",
-    "party": "TDP",
-    "criminal_cases": "31",
-    "education": "completed 10th Class (SSC) from Loyola Boarding School, Vinnukonda in 1987",
-    "dob": "Age: 52 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/venkata_mani_prasad_pullivarthi.jpg",
-    "social_media": {
-      "email": "pulivarthinani@gmail.com"
-    }
-  },
-  {
-    "id": 166,
-    "name": "Koneti Adimulam",
-    "alias": "K. ADIMULAM",
-    "constituency": "SATYAVEDU",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.A. from S.V. Arts College, Tirupati in 1975",
-    "dob": "Age: 72 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/koneti_adimulam.jpg",
-    "social_media": {
-      "instagram": "https://www.instagram.com/konetiadimulam/"
-    }
-  },
-  {
-    "id": 167,
-    "name": "Aranii Srenevasulu",
-    "constituency": "TIRUPATI",
-    "party": "Janasena Party",
-    "criminal_cases": "0",
-    "education": "completed B.A. (Discontinued) from PVKN Govt. Degree College, Chittoor",
-    "dob": "Age: 72 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/aranii_srenevasulu.jpg",
-    "social_media": {
-      "youtube": "https://youtube.com/@araniisreenivasulu",
-      "email": "srinivasulu.jmc@gmail.com"
-    }
-  },
-  {
-    "id": 168,
-    "name": "Peddireddi Ramachandra Reddy",
-    "constituency": "PUNGANUR",
-    "party": "YSRCP",
-    "criminal_cases": "0",
-    "education": "completed M.A from S.V University in 1975",
-    "dob": "Age: 71 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/peddireddi_ramachandra_reddy.jpg",
-    "social_media": {
-      "email": "peddireddiramachandrareddy2345@gmail.com"
-    }
-  },
-  {
-    "id": 169,
-    "name": "M.Shajahan Basha",
-    "constituency": "MADANAPALLE",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed 10th Class (SSC) from Arogyavaram English Medium High School in 1985",
-    "dob": "Age: 54 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/m_shajahan_basha.jpg",
-    "social_media": {
-      "email": "shajahanbashamohdggg@gmail.com"
-    }
-  },
-  {
-    "id": 170,
-    "name": "Gali Bhanu Prakash",
-    "constituency": "NAGARI",
-    "party": "TDP",
-    "criminal_cases": "10",
-    "education": "completed 10th Class (SSC) from Hyderabad Public School",
-    "dob": "20 June 1976",
-    "image": "/knowyourleader/candidate-images/gali_bhanu_prakash.jpg",
-    "social_media": {
-      "email": "bhanu.gali@gmail.com"
-    }
-  },
-  {
-    "id": 171,
-    "name": "K Murali Mohan",
-    "constituency": "PUTHALAPATTU",
-    "party": "TDP",
-    "criminal_cases": "11",
-    "education": "completed Ph.D in Commerce from Sri Venkateswara University in 2013",
-    "dob": "Age: 45 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/k_murali_mohan.jpg",
-    "social_media": {
-      "email": "kmm2020@gmail.com"
-    }
-  },
-  {
-    "id": 172,
-    "name": "Dr. Vm. Thomas",
-    "constituency": "GANGADHARA NELLORE",
-    "party": "TDP",
-    "criminal_cases": "5",
-    "education": "completed M.Sc and Ph.D in Zoology from S.V University, Tirupati",
-    "dob": "Age: 50 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/dr__vm__thomas.jpg",
-    "social_media": {
-      "email": "thomasivf@gmail.com"
-    }
-  },
-  {
-    "id": 173,
-    "name": "Amaranatha Reddy. N",
-    "constituency": "PALAMANER",
-    "party": "TDP",
-    "criminal_cases": "0",
-    "education": "completed B.Com from V.V. Puram College, Bangalore University in 1980",
-    "dob": "Age: 65 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/amaranatha_reddy__n.jpg",
-    "social_media": {
-      "email": "narmla909@gmail.com"
-    }
-  },
-  {
-    "id": 174,
-    "name": "Gurajala Jagan Mohan (Gjm)",
-    "constituency": "CHITTOOR",
-    "party": "TDP",
-    "criminal_cases": "1",
-    "education": "completed 5th Pass from Upper Primary School, Gollapalle in 1992",
-    "dob": "Age: 41 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/gurajala_jagan_mohan__gjm_.jpg",
-    "social_media": {
-      "email": "jagangurajala@gmail.com"
-    }
-  },
-  {
-    "id": 175,
-    "name": "Chandrababu Naidu Nara",
-    "constituency": "KUPPAM",
-    "party": "TDP",
-    "criminal_cases": "19",
-    "education": "completed M.A in Economics in Sri Venkateswara University, Tirupati in 1974",
-    "dob": "Age: 74 (2024 Affidavits)",
-    "image": "/knowyourleader/candidate-images/chandrababu_naidu_nara.jpg",
-    "social_media": {
-      "facebook": "https://www.facebook.com/tdp.ncbn.official",
-      "instagram": "https://www.instagram.com/ncbn.official",
-      "x": "https://twitter.com/ncbn",
-      "youtube": "https://www.youtube.com/@NaraChandrababuNa"
-    }
-  }
 ]

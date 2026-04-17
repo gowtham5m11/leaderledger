@@ -54,3 +54,15 @@ scraper_lab/cleanup_json.py
 scraper_lab/fix_failed.py
 .gitignore
 .gitignore
+# Scraper Temp Files
+scraper_lab/.wdm/
+scraper_lab/chrome_user_data/
+scraper_lab/*.log
+scraper_lab/__pycache__/
+scraper_lab/debug_page.py
+.gitignore
+scraper_lab/find_item9.py
+scraper_lab/debug_pdf.py
+scraper_lab/check_pages.py
+public/ap_175_mlas.csv
+scraper_lab/audit_log.txt
