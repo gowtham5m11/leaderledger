@@ -32,8 +32,8 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
   return (
     <div style={{ 
-      backgroundColor: 'var(--background)', 
-      color: 'var(--on-background)', 
+      backgroundColor: 'var(--surface)', 
+      color: 'var(--on-surface)', 
       height: '100%', 
       fontFamily: "'Outfit', sans-serif",
       overflowY: 'auto'
@@ -72,7 +72,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
           borderRadius: '1.5rem', 
           overflow: 'hidden', 
           border: '1px solid var(--outline-variant)',
-          boxShadow: '0 20px 40px rgba(25, 28, 27, 0.04)'
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)'
         }}>
           
           {/* Hero Header Section */}
@@ -83,7 +83,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             gap: '3rem', 
             alignItems: 'flex-start', 
             position: 'relative',
-            backgroundColor: 'rgba(173, 207, 168, 0.05)' // primary-container/10 roughly
+            backgroundColor: 'var(--surface-container-low)'
           }}>
             {/* Asymmetric Decorative Element */}
             <div style={{ 
@@ -264,7 +264,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             <div style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '3rem', borderTop: '1px solid var(--outline-variant)' }}>
               {/* Criminal Record Section */}
               <section style={{ 
-                backgroundColor: 'rgba(255, 218, 214, 0.3)', 
+                backgroundColor: 'var(--error-container)', 
                 borderLeft: '4px solid var(--error)', 
                 padding: '1.5rem', 
                 borderRadius: '0 0.75rem 0.75rem 0' 
@@ -341,7 +341,8 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
           padding: '2rem', 
           backgroundColor: 'var(--primary)', 
           borderRadius: '1rem',
-          color: 'var(--on-primary)'
+          color: 'var(--on-primary)',
+          boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
         }}>
           <div>
             <h3 className="headline-md" style={{ fontSize: '1.5rem', marginBottom: '0.25rem', color: 'var(--on-primary)' }}>Analyze & Compare</h3>
@@ -349,7 +350,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
           </div>
           <button style={{ 
             padding: '1rem 2rem', 
-            backgroundColor: '#ffffff', 
+            backgroundColor: 'var(--surface-container-lowest)', 
             color: 'var(--primary)', 
             fontWeight: 700, 
             borderRadius: '0.75rem',

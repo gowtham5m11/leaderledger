@@ -11,6 +11,7 @@
   --surface-container-high: #e7e9e6;
   --surface-container-highest: #e1e3e0;
   --surface-container-lowest: #ffffff;
+  --surface-dim: rgba(255, 255, 255, 0.9);
 
   /* Brand Colors */
   --primary: #486646;
@@ -20,6 +21,8 @@
   --on-surface-variant: #434841;
   --outline: #737970;
   --outline-variant: rgba(195, 200, 190, 0.15);
+  --error: #ba1a1a;
+  --error-container: rgba(255, 218, 214, 0.3);
 
   /* Party Colors */
   --tdp: #fce903;
@@ -32,6 +35,26 @@
   --spacing-3: 1rem;
   --spacing-5: 1.7rem;
   --spacing-10: 3.5rem;
+}
+
+.dark-theme {
+  --surface: #0a0c0b;
+  --surface-container-lowest: #050606;
+  --surface-container-low: #141715;
+  --surface-container: #1c201d;
+  --surface-container-high: #282d29;
+  --surface-container-highest: #363c37;
+  --surface-dim: rgba(20, 23, 21, 0.75);
+
+  --primary: #adcfa8;
+  --primary-container: #314d30;
+  --on-primary: #111412;
+  --on-surface: #e1e3e0;
+  --on-surface-variant: #bec5bd;
+  --outline: #8a9289;
+  --outline-variant: rgba(141, 147, 137, 0.2);
+  --error: #ffb4ab;
+  --error-container: rgba(147, 0, 10, 0.3);
 }
 
 * {
@@ -47,6 +70,7 @@ body {
   line-height: 1.6;
   height: 100vh;
   overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1,
@@ -123,16 +147,17 @@ h6,
 .floating-panel {
   pointer-events: auto;
   height: 100%;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(20px) saturate(160%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  background: var(--surface-dim);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-radius: 2.5rem;
   border: 1px solid var(--outline-variant);
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.15);
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 /* Utilities for non-tailwind fallback */
@@ -372,7 +397,21 @@ h6,
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: var(--surface-container-lowest);
+}
+
+.glass-panel {
+  background: var(--surface-dim);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  transition: background 0.3s ease;
+}
+
+.glass-nav {
+  background: var(--surface-dim);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  transition: background 0.3s ease;
 }
 
 .bg-primary {
@@ -577,9 +616,7 @@ h6,
 
 .card-jsp {
   border-top: 6px solid var(--jsp);
-  background: rgba(255, 255, 255, 0.7) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: var(--surface-dim) !important;
 }
 
 .card-jsp:hover {

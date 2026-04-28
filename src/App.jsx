@@ -6,10 +6,20 @@ import CandidateList from './components/CandidateList';
 import CandidateProfile from './components/CandidateProfile';
 
 function App() {
+  const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
+
+  React.useEffect(() => {
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'light' ? 'dark' : 'light');
+  };
+
   return (
     <Router>
-      <div className="app-container">
-        <Header />
+      <div className={`app-container ${theme === 'dark' ? 'dark-theme' : ''}`}>
+        <Header theme={theme} toggleTheme={toggleTheme} />
 
         <main className="main-content">
           <Routes>
@@ -42,12 +52,13 @@ const FloatingNav = () => {
   return (
     <div style={{
       position: 'fixed', bottom: '1.5rem', left: '50%', transform: 'translateX(-50%)',
-      background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(12px)',
+      background: 'var(--surface-dim)', backdropFilter: 'blur(12px)',
       WebkitBackdropFilter: 'blur(12px)',
       borderRadius: '9999px', padding: '0.75rem 2.5rem',
       display: 'flex', alignItems: 'center', gap: '2.5rem',
       zIndex: 200,
-      boxShadow: '0 20px 40px rgba(25,28,27,0.12), 0 0 0 1px rgba(195,200,190,0.2)',
+      boxShadow: '0 20px 40px rgba(0,0,0,0.12), 0 0 0 1px var(--outline-variant)',
+      transition: 'all 0.3s ease'
     }}>
       {[
         { label: 'Map', icon: 'explore', path: '/district', view: 'district' },

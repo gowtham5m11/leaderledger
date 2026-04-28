@@ -9,23 +9,40 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
 
-  const handleZoomIn = () => {
-    setPosition(pos => ({ ...pos, zoom: Math.min(pos.zoom * 1.2, 10) }));
-  };
+  const handleZoom = useCallback((factor, clientX, clientY) => {
+    setPosition(pos => {
+      const newZoom = Math.max(Math.min(pos.zoom * factor, 10), 0.5);
+      if (newZoom === pos.zoom) return pos;
 
-  const handleZoomOut = () => {
-    setPosition(pos => ({ ...pos, zoom: Math.max(pos.zoom / 1.2, 0.5) }));
-  };
+      const container = containerRef.current;
+      if (!container) return pos;
+
+      const rect = container.getBoundingClientRect();
+      
+      // If no mouse coordinates provided, zoom to center of container
+      const x = clientX !== undefined ? clientX - rect.left : rect.width / 2;
+      const y = clientY !== undefined ? clientY - rect.top : rect.height / 2;
+
+      const zoomRatio = newZoom / pos.zoom;
+      const newX = x - (x - pos.x) * zoomRatio;
+      const newY = y - (y - pos.y) * zoomRatio;
+
+      return {
+        x: newX,
+        y: newY,
+        zoom: newZoom
+      };
+    });
+  }, []);
+
+  const handleZoomIn = useCallback(() => handleZoom(1.2), [handleZoom]);
+  const handleZoomOut = useCallback(() => handleZoom(1 / 1.2), [handleZoom]);
 
   const handleWheel = useCallback((e) => {
     e.preventDefault();
-    const delta = e.deltaY;
-    const factor = delta > 0 ? 0.9 : 1.1;
-    setPosition(pos => ({
-      ...pos,
-      zoom: Math.max(Math.min(pos.zoom * factor, 10), 0.5)
-    }));
-  }, []);
+    const factor = e.deltaY > 0 ? 0.9 : 1.1;
+    handleZoom(factor, e.clientX, e.clientY);
+  }, [handleZoom]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -65,18 +82,20 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
   }, []);
 
   return (
-    <div className="map-container relative w-full h-full overflow-hidden bg-surface-container-low rounded-3xl border border-outline-variant/30">
+    <div 
+      ref={containerRef}
+      className="map-container relative w-full h-full overflow-hidden bg-surface-container-low rounded-3xl border border-outline-variant/30"
+      onMouseDown={handleMouseDown}
+      onMouseMove={handleMouseMove}
+      onMouseUp={handleMouseUp}
+      onMouseLeave={handleMouseUp}
+    >
       <div 
-        ref={containerRef}
         className={`w-full h-full flex items-center justify-center p-8 ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
-        onMouseDown={handleMouseDown}
-        onMouseMove={handleMouseMove}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
-        onDoubleClick={handleZoomIn}
+        onDoubleClick={(e) => handleZoom(1.5, e.clientX, e.clientY)}
         style={{
           transform: `translate(${position.x}px, ${position.y}px) scale(${position.zoom})`,
-          transformOrigin: 'center center'
+          transformOrigin: '0 0'
         }}
       >
         <svg
@@ -96,7 +115,7 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
                 className="constituency-path transition-all duration-300 cursor-pointer"
                 fill={color}
                 fillOpacity={0.6}
-                stroke="#ffffff"
+                stroke="var(--surface-container-lowest)"
                 strokeWidth={0.2}
                 onClick={() => onDistrictClick(data)}
                 onMouseEnter={() => {
@@ -116,17 +135,20 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
 
       {/* Manual Zoom Controls - Positioned Left */}
       {/* Manual Zoom Controls - Positioned Bottom-Right */}
-      <div className="absolute bottom-8 right-8 flex flex-col gap-3 z-[60]">
+      <div 
+        className="absolute bottom-8 right-8 flex flex-col gap-3 z-[60]"
+        onMouseDown={(e) => e.stopPropagation()}
+      >
         <button
           onClick={handleZoomIn}
-          className="w-14 h-14 bg-white/90 backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-white text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
+          className="w-14 h-14 bg-white backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-surface-container-highest text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
           title="Zoom In"
         >
           <Plus size={24} strokeWidth={2.5} />
         </button>
         <button
           onClick={handleZoomOut}
-          className="w-14 h-14 bg-white/90 backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-white text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
+          className="w-14 h-14 bg-white backdrop-blur-md rounded-2xl border border-outline-variant shadow-xl hover:bg-surface-container-highest text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer pointer-events-auto"
           title="Zoom Out"
         >
           <Minus size={24} strokeWidth={2.5} />

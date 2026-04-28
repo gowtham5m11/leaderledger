@@ -20,7 +20,7 @@ const CandidateList = () => {
 
 
   return (
-    <div className="bg-background text-on-surface custom-scrollbar" style={{ height: '100%', overflowY: 'auto', fontFamily: "'Outfit', sans-serif" }}>
+    <div className="bg-surface text-on-surface custom-scrollbar" style={{ height: '100%', overflowY: 'auto', fontFamily: "'Outfit', sans-serif" }}>
       <main className="mx-auto" style={{ maxWidth: '1200px', padding: '4rem 1.5rem' }}>
         
         {/* Title Section */}

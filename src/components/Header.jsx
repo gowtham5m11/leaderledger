@@ -1,8 +1,8 @@
 import React from 'react';
-import { Menu } from 'lucide-react';
+import { Menu, Sun, Moon } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({ theme, toggleTheme }) => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   
@@ -55,22 +55,45 @@ const Header = () => {
           </button>
         </div>
         
-        <button style={{
-          padding: '0.5rem',
-          backgroundColor: 'transparent',
-          border: 'none',
-          borderRadius: '9999px',
-          cursor: 'pointer',
-          color: 'var(--on-surface)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}
-        onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'var(--surface-container-high)'}
-        onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
-        >
-          <Menu size={24} />
-        </button>
+        <div className="flex items-center gap-2">
+          <button 
+            onClick={toggleTheme}
+            style={{
+              padding: '0.5rem',
+              backgroundColor: 'transparent',
+              border: 'none',
+              borderRadius: '9999px',
+              cursor: 'pointer',
+              color: 'var(--on-surface)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'var(--surface-container-high)'}
+            onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+            title={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+          >
+            {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
+          </button>
+
+          <button style={{
+            padding: '0.5rem',
+            backgroundColor: 'transparent',
+            border: 'none',
+            borderRadius: '9999px',
+            cursor: 'pointer',
+            color: 'var(--on-surface)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'var(--surface-container-high)'}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+          >
+            <Menu size={24} />
+          </button>
+        </div>
       </nav>
     </header>
   );
