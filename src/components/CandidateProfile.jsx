@@ -276,8 +276,44 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
                     <p style={{ color: 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{displayCriminalCases} Pending Cases</p>
-                    <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>Based on official disclosures. Primarily related to public protest or administrative disputes where applicable.</p>
                   </div>
+
+                  {/* Detailed Case List */}
+                  {candidate.criminal_details_pending && candidate.criminal_details_pending.length > 0 && (
+                    <div style={{ 
+                      marginTop: '0.5rem',
+                      maxHeight: '300px',
+                      overflowY: 'auto',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '0.75rem',
+                      paddingRight: '0.5rem'
+                    }} className="custom-scrollbar">
+                      {candidate.criminal_details_pending.map((caseItem, idx) => (
+                        <div key={idx} style={{ 
+                          backgroundColor: 'rgba(255, 255, 255, 0.4)', 
+                          padding: '0.75rem', 
+                          borderRadius: '0.5rem',
+                          border: '1px solid rgba(186, 26, 26, 0.1)'
+                        }}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.25rem' }}>
+                            <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)' }}>
+                              FIR: {caseItem.fir_no || 'Not Specified'}
+                            </span>
+                          </div>
+                          <p style={{ fontSize: '0.8125rem', color: 'var(--on-surface)', lineHeight: 1.4 }}>
+                            {caseItem.description || "Description not available in summary."}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {!candidate.criminal_details_pending?.length && (
+                    <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>
+                      Based on official disclosures. Primarily related to public protest or administrative disputes where applicable.
+                    </p>
+                  )}
 
                   <button style={{ 
                     fontSize: '0.75rem', 
@@ -289,6 +325,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                     textAlign: 'left',
                     background: 'none',
                     border: 'none',
+                    padding: 0,
                     cursor: 'pointer'
                   }}>VIEW COURT AFFIDAVITS</button>
                 </div>
