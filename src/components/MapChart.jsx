@@ -1,6 +1,6 @@
 import React, { useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import { Plus, Minus } from 'lucide-react';
-import { getDistrictData, partyColors } from '../data/mockData';
+import { getDistrictData, partyColor } from '../data/mockData';
 import mapPaths from '../data/mapPaths.json';
 
 const MapChart = ({ setTooltipContent, onDistrictClick }) => {
@@ -106,17 +106,15 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
           {constituencyPaths.map((constituency) => {
             const { name, path, data } = constituency;
             const party = data.party || 'UNKNOWN';
-            const color = partyColors[party] || '#cccccc';
+            const color = partyColor(party);
 
             return (
               <path
                 key={name}
                 d={path}
                 className="constituency-path transition-all duration-300 cursor-pointer"
-                fill={color}
-                fillOpacity={0.6}
-                stroke="var(--surface-container-lowest)"
-                strokeWidth={0.2}
+                stroke="var(--surface)"
+                strokeWidth={0.3}
                 onClick={() => onDistrictClick(data)}
                 onMouseEnter={() => {
                   setTooltipContent({ name, ...data });
@@ -125,6 +123,8 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
                   setTooltipContent(null);
                 }}
                 style={{
+                  fill: color,
+                  fillOpacity: 0.62,
                   '--hover-fill': color,
                 }}
               />

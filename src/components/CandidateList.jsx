@@ -1,11 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import candidates from '../data/candidates.json';
 import LeaderCard from './LeaderCard';
 import Footer from './Footer';
 
 const CandidateList = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const rawQuery = searchParams.get('q') || '';          // shared with the header search bar (?q=)
+  const query = rawQuery.trim().toLowerCase();
 
   const getPriorityIndex = (name) => {
     const lowerName = name.toLowerCase();
@@ -15,14 +18,20 @@ const CandidateList = () => {
     if (lowerName.includes("jagan mohan reddy")) return 3;
     return 999;
   };
-  const filteredLeaders = [...candidates]
-    .sort((a, b) => getPriorityIndex(a.name) - getPriorityIndex(b.name));
 
+  const filteredLeaders = candidates
+    .filter((l) => {
+      if (!query) return true;
+      return (l.name || '').toLowerCase().includes(query)
+        || (l.constituency || '').toLowerCase().includes(query);
+    })
+    .slice()
+    .sort((a, b) => getPriorityIndex(a.name) - getPriorityIndex(b.name));
 
   return (
     <div className="bg-surface text-on-surface custom-scrollbar" style={{ height: '100%', overflowY: 'auto', fontFamily: "'Outfit', sans-serif" }}>
       <main className="mx-auto" style={{ maxWidth: '1200px', padding: '4rem 1.5rem' }}>
-        
+
         {/* Title Section */}
         <div style={{ marginBottom: '3rem' }}>
           <h1 className="display-lg text-on-surface" style={{ marginBottom: '1rem' }}>Assembly Leaders</h1>
@@ -32,24 +41,28 @@ const CandidateList = () => {
         </div>
 
         {/* Status Bar */}
-        <div style={{ 
-          display: 'flex', 
+        <div style={{
+          display: 'flex',
           flexDirection: 'column',
-          gap: '1.5rem', 
-          marginBottom: '3rem' 
+          gap: '1.5rem',
+          marginBottom: '3rem'
         }}>
           {/* Status Chip */}
-          <div className="bg-surface-container-low" style={{ 
-            padding: '1rem 1.5rem', 
-            borderRadius: '1.5rem', 
-            display: 'flex', 
-            alignItems: 'center', 
+          <div className="bg-surface-container-low" style={{
+            padding: '1rem 1.5rem',
+            borderRadius: '1.5rem',
+            display: 'flex',
+            alignItems: 'center',
             justifyContent: 'space-between',
             border: '1px solid var(--outline-variant)'
           }}>
             <div>
               <span className="label-sm text-primary">Live Status</span>
-              <h3 className="title-md" style={{ marginTop: '0.25rem' }}>{candidates.length} MLAs Tracked</h3>
+              <h3 className="title-md" style={{ marginTop: '0.25rem' }}>
+                {query
+                  ? `${filteredLeaders.length} matching “${rawQuery}”`
+                  : `${candidates.length} MLAs Tracked`}
+              </h3>
             </div>
           </div>
         </div>
@@ -58,16 +71,17 @@ const CandidateList = () => {
         <div className="leader-grid">
           {filteredLeaders.length > 0 ? (
             filteredLeaders.map((leader) => (
-              <LeaderCard 
-                key={leader.id} 
-                leader={leader} 
+              <LeaderCard
+                key={leader.id}
+                leader={leader}
                 onClick={() => navigate(`/profile/${leader.id}`)}
               />
             ))
           ) : (
-            <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '4rem 0', opacity: 0.5 }}>
-               <span className="material-symbols-outlined" style={{ fontSize: '4rem', marginBottom: '1rem' }}>search_off</span>
-               <p className="headline-md">No leaders found matching "{searchQuery}"</p>
+            <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '4rem 0', opacity: 0.6 }}>
+               <span className="material-symbols-outlined" style={{ fontSize: '4rem', marginBottom: '1rem', display: 'block' }}>search_off</span>
+               <p className="headline-md">No leaders found matching “{rawQuery}”</p>
+               <p className="body-md text-on-surface-variant" style={{ marginTop: '0.5rem' }}>Try a different name or constituency.</p>
             </div>
           )}
         </div>
@@ -78,5 +92,3 @@ const CandidateList = () => {
 };
 
 export default CandidateList;
-
-

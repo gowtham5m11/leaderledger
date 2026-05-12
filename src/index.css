@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;500;600;700&display=swap');
 
 :root {
+  color-scheme: light;
+
   /* Surface Hierarchy */
   --surface: #f8faf7;
   --surface-container-low: #f2f4f1;
@@ -31,6 +33,14 @@
   --bjp: #f97316;
   --inc: #0ea5e9;
 
+  /* Elevation — full box-shadow strings, re-tuned in .dark-theme so cards and
+     panels keep their depth on a near-black surface (plain black shadows there
+     are invisible). */
+  --shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  --shadow-2: 0 10px 24px -6px rgba(0, 0, 0, 0.12), 0 4px 8px -4px rgba(0, 0, 0, 0.08);
+  --shadow-strong: 0 28px 60px -12px rgba(0, 0, 0, 0.16), 0 8px 20px -8px rgba(0, 0, 0, 0.1);
+  --focus-ring: 0 0 0 4px color-mix(in srgb, var(--primary) 22%, transparent);
+
   /* Spacing */
   --spacing-3: 1rem;
   --spacing-5: 1.7rem;
@@ -38,23 +48,37 @@
 }
 
 .dark-theme {
-  --surface: #0a0c0b;
-  --surface-container-lowest: #050606;
-  --surface-container-low: #141715;
-  --surface-container: #1c201d;
-  --surface-container-high: #282d29;
-  --surface-container-highest: #363c37;
-  --surface-dim: rgba(20, 23, 21, 0.75);
+  color-scheme: dark;
+
+  /* Soft "settled" dark — a desaturated dark slate-green, not the near-black
+     #050606/#0a0c0b that caused eye strain. Keeps a gentle elevation ramp. */
+  --surface: #1d211f;
+  --surface-container-lowest: #1b1f1d;
+  --surface-container-low: #242a26;
+  --surface-container: #2c322e;
+  --surface-container-high: #363c38;
+  --surface-container-highest: #424843;
+  --surface-dim: rgba(28, 33, 30, 0.8);
 
   --primary: #adcfa8;
   --primary-container: #314d30;
   --on-primary: #111412;
-  --on-surface: #e1e3e0;
-  --on-surface-variant: #bec5bd;
+  --on-surface: #d8dbd6;            /* slightly off-white — less halation than pure white */
+  --on-surface-variant: #b6bdb4;
   --outline: #8a9289;
-  --outline-variant: rgba(141, 147, 137, 0.2);
+  --outline-variant: rgba(150, 158, 148, 0.26);
   --error: #ffb4ab;
-  --error-container: rgba(147, 0, 10, 0.3);
+  --error-container: rgba(120, 8, 12, 0.32);
+
+  /* Party colours: YSRCP's deep navy (#00249c) all but disappears on the
+     near-black surface, so brighten it for dark mode. The rest read fine. */
+  --ysrcp: #5b8def;
+
+  /* Shadows on dark need to be much heavier and pick up a faint hairline ring
+     to read as elevation rather than nothing. */
+  --shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.6);
+  --shadow-2: 0 14px 30px -8px rgba(0, 0, 0, 0.65), 0 0 0 1px var(--outline-variant);
+  --shadow-strong: 0 32px 70px -12px rgba(0, 0, 0, 0.72), 0 0 0 1px var(--outline-variant);
 }
 
 * {
@@ -152,7 +176,7 @@ h6,
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-radius: 2.5rem;
   border: 1px solid var(--outline-variant);
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-strong);
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -435,19 +459,19 @@ h6,
 }
 
 .shadow-sm {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: var(--shadow-1);
 }
 
 .shadow-md {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-1);
 }
 
 .shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-2);
 }
 
 .shadow-xl {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-strong);
 }
 
 .cursor-pointer {
@@ -545,7 +569,7 @@ h6,
 }
 
 .text-error {
-  color: #ba1a1a;
+  color: var(--error);
 }
 
 .opacity-60 {
@@ -594,16 +618,17 @@ h6,
 
 .leader-card:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-strong);
 }
 
-/* Party Specific Styles */
+/* Party Specific Styles — each keeps a faint party-tinted glow layered on top
+   of the shared elevation token so it still reads on the dark surface. */
 .card-tdp {
   border-top: 6px solid var(--tdp);
 }
 
 .card-tdp:hover {
-  box-shadow: 0 20px 40px rgba(252, 233, 3, 0.15);
+  box-shadow: var(--shadow-strong), 0 20px 40px -8px rgba(252, 233, 3, 0.2);
 }
 
 .card-ysrcp {
@@ -611,16 +636,15 @@ h6,
 }
 
 .card-ysrcp:hover {
-  box-shadow: 0 20px 40px rgba(0, 36, 156, 0.15);
+  box-shadow: var(--shadow-strong), 0 20px 40px -8px rgba(91, 141, 239, 0.22);
 }
 
 .card-jsp {
   border-top: 6px solid var(--jsp);
-  background: var(--surface-dim) !important;
 }
 
 .card-jsp:hover {
-  box-shadow: 0 20px 40px rgba(230, 57, 70, 0.15);
+  box-shadow: var(--shadow-strong), 0 20px 40px -8px rgba(230, 57, 70, 0.2);
 }
 
 .card-bjp {
@@ -628,7 +652,7 @@ h6,
 }
 
 .card-bjp:hover {
-  box-shadow: 0 20px 40px rgba(249, 115, 22, 0.15);
+  box-shadow: var(--shadow-strong), 0 20px 40px -8px rgba(249, 115, 22, 0.2);
 }
 
 .card-inc {
@@ -636,7 +660,7 @@ h6,
 }
 
 .card-inc:hover {
-  box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15);
+  box-shadow: var(--shadow-strong), 0 20px 40px -8px rgba(14, 165, 233, 0.2);
 }
 
 /* Criminal Case Badge */
@@ -675,9 +699,9 @@ h6,
 
 .search-input:focus {
   outline: none;
-  background: white;
+  background: var(--surface-container-lowest);
   border-color: var(--primary);
-  box-shadow: 0 0 0 4px rgba(72, 102, 70, 0.1);
+  box-shadow: var(--focus-ring);
 }
 
 .search-icon {
@@ -687,6 +711,46 @@ h6,
   transform: translateY(-50%);
   color: var(--outline);
 }
+
+/* Header search bar (candidates page only) */
+.header-search {
+  flex: 1;
+  max-width: 460px;
+  position: relative;
+}
+
+.header-search .header-search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--outline);
+  pointer-events: none;
+}
+
+.header-search input {
+  width: 100%;
+  padding: 0.7rem 1rem 0.7rem 2.75rem;
+  border-radius: 0.85rem;
+  border: 1px solid var(--outline-variant);
+  background: var(--surface-container-high);
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--on-surface);
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.header-search input::placeholder {
+  color: var(--outline);
+}
+
+.header-search input:focus {
+  outline: none;
+  background: var(--surface-container-lowest);
+  border-color: var(--primary);
+  box-shadow: var(--focus-ring);
+}
+
 /* Constituency Path Styling */
 .constituency-path {
   stroke-linejoin: round;

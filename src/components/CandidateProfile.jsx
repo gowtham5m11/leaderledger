@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import candidates from '../data/candidates.json';
-import { partyColors } from '../data/mockData';
+import { partyColors, partyColor as partyColorVar } from '../data/mockData';
 
 const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const { id } = useParams();
@@ -18,17 +18,30 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   };
   if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Loading Candidate...</div>;
 
-  const partyColor = partyColors[candidate.party] || '#737970';
+  const partyHex = partyColors[candidate.party] || '#737970';   // literal hex — for the avatar URL
+  const partyColor = partyColorVar(candidate.party);            // CSS var — auto-brightens YSRCP on dark
   const isTDP = candidate.party === 'TDP';
 
   // Fallback for missing fields in leaders.json
-  const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColor.replace('#', '')}&color=fff&size=200`;
+  const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyHex.replace('#', '')}&color=fff&size=200`;
   const displayRole = candidate.role || "Member of Legislative Assembly";
   const displayMinistry = candidate.ministry || "Legislative Leader";
   const displayCriminalCases = candidate.criminal_cases || "0";
   const displayEducation = candidate.education || "Information not available";
   const displayProfession = candidate.profession || "Information not available";
 
+  const invalidValues = ['NA', 'N/A', 'NIL', 'NONE', 'NOT APPLICABLE', '-', ''];
+  const isInvalid = (val) => {
+    if (!val) return true;
+    const strVal = val.toString().trim().toUpperCase();
+    return invalidValues.includes(strVal) || strVal.includes('NOT APPLICABLE');
+  };
+
+  const validPendingCases = (candidate.criminal_details_pending || []).filter(caseItem => {
+    return !(isInvalid(caseItem.fir_no) && isInvalid(caseItem.description));
+  });
+
+  const hasNoCases = displayCriminalCases === "0" || displayCriminalCases === 0;
 
   return (
     <div style={{ 
@@ -72,9 +85,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
           borderRadius: '1.5rem', 
           overflow: 'hidden', 
           border: '1px solid var(--outline-variant)',
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)'
+          boxShadow: 'var(--shadow-strong)'
         }}>
-          
+
           {/* Hero Header Section */}
           <div style={{ 
             padding: '4rem', 
@@ -105,7 +118,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 borderRadius: '1rem', 
                 overflow: 'hidden', 
                 border: '4px solid var(--surface-container-low)',
-                boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1)'
+                boxShadow: 'var(--shadow-2)'
               }}>
                 <img 
                   src={displayImage} 
@@ -125,7 +138,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   alignSelf: 'flex-start',
                   padding: '0.25rem 0.75rem',
                   borderRadius: '9999px',
-                  backgroundColor: isTDP ? 'rgba(252, 233, 3, 0.3)' : `rgba(72, 102, 70, 0.1)`,
+                  backgroundColor: isTDP
+                    ? 'color-mix(in srgb, var(--tdp) 28%, transparent)'
+                    : 'color-mix(in srgb, var(--primary) 14%, transparent)',
                   color: 'var(--primary)',
                   border: '1px solid var(--outline-variant)'
                 }}>
@@ -229,11 +244,11 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             }}>
               <h2 className="headline-md" style={{ marginBottom: '3rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 Political Journey
-                <span style={{ height: '1px', flex: 1, backgroundColor: 'rgba(195, 200, 190, 0.3)' }}></span>
+                <span style={{ height: '1px', flex: 1, backgroundColor: 'var(--outline-variant)' }}></span>
               </h2>
-              
+
               <div style={{ position: 'relative' }}>
-                <div style={{ position: 'absolute', left: '11px', top: '8px', bottom: '8px', width: '2px', backgroundColor: 'rgba(72, 102, 70, 0.2)' }}></div>
+                <div style={{ position: 'absolute', left: '11px', top: '8px', bottom: '8px', width: '2px', backgroundColor: 'color-mix(in srgb, var(--primary) 22%, transparent)' }}></div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
                   {(candidate.locations || []).map((loc, idx) => (
                     <div key={idx} style={{ position: 'relative', paddingLeft: '2.5rem' }}>
@@ -263,23 +278,28 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             {/* Right Column: Critical Info & News */}
             <div style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '3rem', borderTop: '1px solid var(--outline-variant)' }}>
               {/* Criminal Record Section */}
+              {/* Criminal Record Section */}
               <section style={{ 
-                backgroundColor: 'var(--error-container)', 
-                borderLeft: '4px solid var(--error)', 
+                backgroundColor: hasNoCases ? 'color-mix(in srgb, var(--primary) 12%, transparent)' : 'var(--error-container)', 
+                borderLeft: `4px solid ${hasNoCases ? 'var(--primary)' : 'var(--error)'}`, 
                 padding: '1.5rem', 
                 borderRadius: '0 0.75rem 0.75rem 0' 
               }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--error)', marginBottom: '1rem' }}>
-                  <span className="material-symbols-outlined">gavel</span>
-                  <h3 style={{ fontWeight: 700, fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '-0.025em' }}>Criminal Disclosures</h3>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: hasNoCases ? 'var(--primary)' : 'var(--error)', marginBottom: '1rem' }}>
+                  <span className="material-symbols-outlined">
+                    {hasNoCases ? 'verified_user' : 'gavel'}
+                  </span>
+                  <h3 style={{ fontWeight: 700, fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '-0.025em' }}>
+                    {hasNoCases ? 'Clean Record' : 'Criminal Disclosures'}
+                  </h3>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
-                    <p style={{ color: 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{displayCriminalCases} Pending Cases</p>
+                    <p style={{ color: hasNoCases ? 'var(--primary)' : 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{displayCriminalCases} Pending Cases</p>
                   </div>
 
                   {/* Detailed Case List */}
-                  {candidate.criminal_details_pending && candidate.criminal_details_pending.length > 0 && (
+                  {!hasNoCases && validPendingCases.length > 0 && (
                     <div style={{ 
                       marginTop: '0.5rem',
                       maxHeight: '300px',
@@ -289,45 +309,47 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                       gap: '0.75rem',
                       paddingRight: '0.5rem'
                     }} className="custom-scrollbar">
-                      {candidate.criminal_details_pending.map((caseItem, idx) => (
-                        <div key={idx} style={{ 
-                          backgroundColor: 'rgba(255, 255, 255, 0.4)', 
-                          padding: '0.75rem', 
+                      {validPendingCases.map((caseItem, idx) => (
+                        <div key={idx} style={{
+                          backgroundColor: 'var(--surface-container-lowest)',
+                          padding: '0.75rem',
                           borderRadius: '0.5rem',
-                          border: '1px solid rgba(186, 26, 26, 0.1)'
+                          border: '1px solid color-mix(in srgb, var(--error) 18%, transparent)'
                         }}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.25rem' }}>
                             <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)' }}>
-                              FIR: {caseItem.fir_no || 'Not Specified'}
+                              FIR: {isInvalid(caseItem.fir_no) ? 'Not Specified' : caseItem.fir_no}
                             </span>
                           </div>
                           <p style={{ fontSize: '0.8125rem', color: 'var(--on-surface)', lineHeight: 1.4 }}>
-                            {caseItem.description || "Description not available in summary."}
+                            {isInvalid(caseItem.description) ? "Description not available in summary." : caseItem.description}
                           </p>
                         </div>
                       ))}
                     </div>
                   )}
 
-                  {!candidate.criminal_details_pending?.length && (
+                  {(hasNoCases || validPendingCases.length === 0) && (
                     <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>
-                      Based on official disclosures. Primarily related to public protest or administrative disputes where applicable.
+                      Based on official disclosures. {hasNoCases ? 'No pending criminal cases declared.' : 'Primarily related to public protest or administrative disputes where applicable.'}
                     </p>
                   )}
 
-                  <button style={{ 
-                    fontSize: '0.75rem', 
-                    fontWeight: 700, 
-                    color: 'var(--error)', 
-                    textDecoration: 'underline', 
-                    textDecorationThickness: '2px', 
-                    textUnderlineOffset: '4px',
-                    textAlign: 'left',
-                    background: 'none',
-                    border: 'none',
-                    padding: 0,
-                    cursor: 'pointer'
-                  }}>VIEW COURT AFFIDAVITS</button>
+                  {!hasNoCases && (
+                    <button style={{ 
+                      fontSize: '0.75rem', 
+                      fontWeight: 700, 
+                      color: 'var(--error)', 
+                      textDecoration: 'underline', 
+                      textDecorationThickness: '2px', 
+                      textUnderlineOffset: '4px',
+                      textAlign: 'left',
+                      background: 'none',
+                      border: 'none',
+                      padding: 0,
+                      cursor: 'pointer'
+                    }}>VIEW COURT AFFIDAVITS</button>
+                  )}
                 </div>
               </section>
 
@@ -345,7 +367,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                          i === 1 ? `Key agricultural reform masterplan received with widespread support.` : 
                          `Constituency record: Remarkable improvements in educational infrastructure.`}
                       </h4>
-                      {i !== 2 && <div style={{ width: '100%', height: '1px', backgroundColor: 'rgba(195, 200, 190, 0.2)', marginTop: '1rem' }}></div>}
+                      {i !== 2 && <div style={{ width: '100%', height: '1px', backgroundColor: 'var(--outline-variant)', marginTop: '1rem' }}></div>}
                     </div>
                   ))}
                 </div>
@@ -379,7 +401,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
           backgroundColor: 'var(--primary)', 
           borderRadius: '1rem',
           color: 'var(--on-primary)',
-          boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+          boxShadow: 'var(--shadow-2)'
         }}>
           <div>
             <h3 className="headline-md" style={{ fontSize: '1.5rem', marginBottom: '0.25rem', color: 'var(--on-primary)' }}>Analyze & Compare</h3>
@@ -396,7 +418,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             alignItems: 'center',
             gap: '0.5rem',
             cursor: 'pointer',
-            boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+            boxShadow: 'var(--shadow-1)'
           }}>
             <span className="material-symbols-outlined">compare_arrows</span>
             Enter Comparison Tool

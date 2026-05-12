@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Search, Info, TrendingUp, AlertTriangle, ShieldCheck, ChevronRight, User } from 'lucide-react';
 import candidatesData from '../data/candidates.json';
 import CandidateProfile from './CandidateProfile';
-import { partyColors } from '../data/mockData';
+import { partyColors, partyColor } from '../data/mockData';
 
 const CandidateView = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -84,7 +84,7 @@ const CandidateView = () => {
                   <div className="flex items-center gap-2 mb-2">
                     <span 
                       className="px-2 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-widest text-white"
-                      style={{ backgroundColor: partyColors[candidate.partyDisplay] || '#ccc' }}
+                      style={{ backgroundColor: partyColor(candidate.partyDisplay) }}
                     >
                       {candidate.partyDisplay}
                     </span>
@@ -94,7 +94,7 @@ const CandidateView = () => {
                     {candidate.name}
                   </h3>
                 </div>
-                <div style={{ width: '3rem', height: '3rem', flexShrink: 0, borderRadius: '1rem', backgroundColor: 'var(--surface-container-high)', overflow: 'hidden', border: '1px solid rgba(195, 200, 190, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)' }}>
+                <div style={{ width: '3rem', height: '3rem', flexShrink: 0, borderRadius: '1rem', backgroundColor: 'var(--surface-container-high)', overflow: 'hidden', border: '1px solid var(--outline-variant)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)' }}>
                    {candidate.image ? (
                      <img src={candidate.image} alt={candidate.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                    ) : (

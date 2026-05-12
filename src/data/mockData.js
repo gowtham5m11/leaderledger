@@ -12,6 +12,16 @@ export const partyColors = {
   INC: "#0ea5e9"
 };
 
+// Party brand colour for in-DOM / SVG use. YSRCP's deep navy (#00249c) is
+// effectively invisible on the near-black dark surface, so it's routed through
+// the --ysrcp CSS variable (overridden under .dark-theme in index.css) — that
+// makes it theme-aware with no theme prop. The rest read fine on both surfaces,
+// so they stay as fixed hexes (which also keeps the avatar-URL `partyColors`
+// map and these in sync). `partyColors` above is still used where a literal hex
+// is required (e.g. ui-avatars.com URLs).
+export const partyColor = (party) =>
+  party === "YSRCP" ? "var(--ysrcp)" : (partyColors[party] || "var(--outline)");
+
 export const getDistrictData = (name) => {
   if (!name) return {};
   const cleanName = name.trim().toLowerCase();

@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
-import { getDistrictData, partyColors } from '../data/mockData';
+import { getDistrictData, partyColor } from '../data/mockData';
 
 const MapTooltip = ({ data }) => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -31,7 +31,7 @@ const MapTooltip = ({ data }) => {
         <img src={data.image} alt={data.currentMla} style={{ width: '3.5rem', height: '3.5rem', borderRadius: '0.5rem', objectFit: 'cover' }} />
         <div
           className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full border-2 border-[var(--surface-container-lowest)] flex items-center justify-center"
-          style={{ backgroundColor: partyColors[data.party] || '#ccc' }}
+          style={{ backgroundColor: partyColor(data.party) }}
         >
         </div>
       </div>
@@ -52,6 +52,41 @@ const DistrictView = () => {
 
   const [selectedDistrict, setSelectedDistrict] = useState(defaultDistrict);
   const [isPanelVisible, setIsPanelVisible] = useState(true);
+
+  const [panelWidth, setPanelWidth] = useState(440);
+  const [isResizing, setIsResizing] = useState(false);
+
+  const startResizing = React.useCallback((e) => {
+    e.preventDefault();
+    setIsResizing(true);
+  }, []);
+
+  const stopResizing = React.useCallback(() => {
+    setIsResizing(false);
+  }, []);
+
+  const resize = React.useCallback(
+    (e) => {
+      if (isResizing) {
+        const newWidth = window.innerWidth - e.clientX - 32;
+        if (newWidth > 320 && newWidth < 800) {
+          setPanelWidth(newWidth);
+        }
+      }
+    },
+    [isResizing]
+  );
+
+  React.useEffect(() => {
+    if (isResizing) {
+      window.addEventListener('mousemove', resize);
+      window.addEventListener('mouseup', stopResizing);
+    }
+    return () => {
+      window.removeEventListener('mousemove', resize);
+      window.removeEventListener('mouseup', stopResizing);
+    };
+  }, [isResizing, resize, stopResizing]);
 
   const handleDistrictClick = (data) => {
     setSelectedDistrict(data);
@@ -103,11 +138,30 @@ const DistrictView = () => {
       <div
         className="details-panel-container"
         style={{
-          transition: 'all 500ms cubic-bezier(0.16, 1, 0.3, 1)',
+          width: `${panelWidth}px`,
+          transition: isResizing ? 'none' : 'all 500ms cubic-bezier(0.16, 1, 0.3, 1)',
           transform: isPanelVisible ? 'translateX(0)' : 'translateX(120%)',
           opacity: isPanelVisible ? 1 : 0
         }}
       >
+        <div
+          onMouseDown={startResizing}
+          style={{
+            position: 'absolute',
+            left: '-6px',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            height: '100px',
+            width: '12px',
+            cursor: 'ew-resize',
+            zIndex: 10,
+            pointerEvents: 'auto',
+            backgroundColor: 'var(--outline-variant)',
+            borderRadius: '10px',
+            boxShadow: 'var(--shadow-1)'
+          }}
+          className="hover:bg-primary transition-colors"
+        />
         <aside className="floating-panel">
           <div className="flex items-start justify-between mb-8">
             <div>
@@ -132,7 +186,7 @@ const DistrictView = () => {
                 <img
                   src={selectedDistrict.image}
                   alt={selectedDistrict.currentMla}
-                  style={{ width: '6rem', height: '6rem', borderRadius: '1.5rem', objectFit: 'cover', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1)', border: '4px solid var(--surface-container-lowest)' }}
+                  style={{ width: '6rem', height: '6rem', borderRadius: '1.5rem', objectFit: 'cover', boxShadow: 'var(--shadow-2)', border: '4px solid var(--surface-container-lowest)' }}
                 />
                 <div>
                   <span className="label-sm px-3 py-1 rounded-full bg-white font-bold text-primary mb-3 inline-block shadow-sm">
@@ -146,20 +200,20 @@ const DistrictView = () => {
             </div>
 
             {/* Quick Stats Grid */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="p-6 rounded-3xl bg-surface-container-highest border border-outline-variant shadow-sm">
-                <div className="flex items-center gap-3 mb-2 opacity-80">
+            <div className="flex flex-col gap-6 mb-8">
+              <div className="p-6 rounded-3xl bg-surface-container-low border border-outline-variant shadow-sm">
+                <div className="flex items-center gap-3 mb-2 text-primary opacity-90">
                   <Users size={16} />
-                  <span className="label-sm">Electors</span>
+                  <span className="label-sm uppercase tracking-wider font-bold">Electors</span>
                 </div>
-                <p className="title-md text-on-surface">{selectedDistrict.population}</p>
+                <p className="headline-sm text-on-surface font-semibold">{selectedDistrict.population}</p>
               </div>
-              <div className="p-6 rounded-3xl bg-surface-container-highest border border-outline-variant shadow-sm">
-                <div className="flex items-center gap-3 mb-2 opacity-80">
+              <div className="p-6 rounded-3xl bg-surface-container-low border border-outline-variant shadow-sm">
+                <div className="flex items-center gap-3 mb-2 text-primary opacity-90">
                   <Award size={16} />
-                  <span className="label-sm">Majority</span>
+                  <span className="label-sm uppercase tracking-wider font-bold">Majority</span>
                 </div>
-                <p className="title-md text-on-surface">{selectedDistrict.majorityVotes?.toLocaleString()}</p>
+                <p className="headline-sm text-on-surface font-semibold">{selectedDistrict.majorityVotes?.toLocaleString()}</p>
               </div>
             </div>
 
