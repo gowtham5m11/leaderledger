@@ -66,3 +66,22 @@ scraper_lab/debug_pdf.py
 scraper_lab/check_pages.py
 public/ap_175_mlas.csv
 scraper_lab/audit_log.txt
+
+# --- pipeline housekeeping (added during criminal-data accuracy work) ---
+# Timestamped data backups (lineage lives in git history)
+src/data/*.backup_pre_*.json
+src/data/*backup*.json
+src/data/criminal_pages_index.backup*.json
+# Transient diff / partial / report artifacts
+scraper_lab/changed*.json
+scraper_lab/*.partial.json.bak
+scraper_lab/*_rebuild*.log
+scraper_lab/overnight.log
+scraper_lab/overnight_report.md
+src/data/myneta_validation_report.json
+src/data/failed_extractions.json
+src/data/failed_extractions.jsonl
+src/data/needs_review_cases.json
+# Local agent settings & dev-only reference PDFs
+.claude/
+public/affidavit_guidlines.pdf

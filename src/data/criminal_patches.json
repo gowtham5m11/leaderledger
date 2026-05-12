@@ -2,91 +2,163 @@
   "ramakrishna_reddy_nallamilli": {
     "num_criminal_cases": 32,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "atchannaidu_kinjarapu": {
     "num_criminal_cases": 13,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "chintamaneni_prabhakar": {
     "num_criminal_cases": 90,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "nara_lokesh": {
     "num_criminal_cases": 17,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "chandrababu_naidu_nara": {
     "num_criminal_cases": 19,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "koona_ravi_kumar": {
     "num_criminal_cases": 15,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "kandikunta_venkata_prasad": {
     "num_criminal_cases": 21,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "venkata_mani_prasad_pullivarthi": {
     "num_criminal_cases": 31,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "madhavi_reddappa_gari": {
     "num_criminal_cases": 4,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "vanamadi_venkateswara_rao___kondababu": {
-    "num_criminal_cases": 0,
+    "num_criminal_cases": 13,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "MyNeta + Tesseract verification",
+    "created_at": "2026-05-09",
+    "auditor": "claude-tesseract-2026-05-11",
+    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 22+ FIRs. Using MyNeta count as best-known truth.",
+    "last_verified_at": "2026-05-11"
   },
   "prathipati_pullarao": {
     "num_criminal_cases": 13,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "arimilli_radha_krishna": {
     "num_criminal_cases": 7,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "yarlagadda_venkata_rao": {
-    "num_criminal_cases": 0,
+    "num_criminal_cases": 9,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "MyNeta + Tesseract verification",
+    "created_at": "2026-05-09",
+    "auditor": "claude-tesseract-2026-05-11",
+    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 15+ FIRs. Using MyNeta count.",
+    "last_verified_at": "2026-05-11"
   },
   "doctor_dola_sree_bala_veeranjaneya_swamy": {
-    "num_criminal_cases": 0,
+    "num_criminal_cases": 11,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "MyNeta + Tesseract verification",
+    "created_at": "2026-05-09",
+    "auditor": "claude-tesseract-2026-05-11",
+    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 15+ FIRs. Using MyNeta count.",
+    "last_verified_at": "2026-05-11"
   },
   "paritala_sunithamma": {
     "num_criminal_cases": 8,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "ys_jagan_mohan_reddy": {
     "num_criminal_cases": 29,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "chandra_mohan_reddy_somireddy": {
     "num_criminal_cases": 16,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "ECI Website / Manual Audit",
+    "created_at": "2026-05-09",
+    "auditor": "manual-audit-pre-2026-05-11",
+    "reason": "ECI Website / Manual Audit",
+    "last_verified_at": "2026-05-09"
   },
   "kurugondla_ramakrishna": {
-    "num_criminal_cases": 0,
+    "num_criminal_cases": 12,
     "num_convictions": 0,
-    "source": "ECI Website / Manual Audit"
+    "source": "MyNeta + Tesseract verification",
+    "created_at": "2026-05-09",
+    "auditor": "claude-tesseract-2026-05-11",
+    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 24+ FIRs. Using MyNeta count.",
+    "last_verified_at": "2026-05-11"
   }
 }

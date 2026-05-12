@@ -1,0 +1,6205 @@
+{
+  "candidates": {
+    "aithabathula_anandarao": {
+      "pdf": "aithabathula_anandarao.pdf",
+      "pdf_sha1": "6ef514d2743d242ab61371ccdb2fdf4ecee3a727",
+      "total_pages": 17,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 3,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 3.1
+    },
+    "chintamaneni_prabhakar": {
+      "pdf": "chintamaneni_prabhakar.pdf",
+      "pdf_sha1": "8f4a70083cf0eb267ed7f6783d74252e90b96554",
+      "total_pages": 66,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [],
+      "section_5_header_page": 3,
+      "section_6_header_page": null,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": null,
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 13,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 5.8
+    },
+    "adireddy_srinivas": {
+      "pdf": "adireddy_srinivas.pdf",
+      "pdf_sha1": "b4063e6dc70e26fa13c61ff39822c19c167cdd70",
+      "total_pages": 22,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 8,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 20,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 80.8
+    },
+    "akhila_priya_bhuma": {
+      "pdf": "akhila_priya_bhuma.pdf",
+      "pdf_sha1": "465ac03fd6417755533669311118cb199aa88fbd",
+      "total_pages": 25,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 80.0
+    },
+    "akepati_amarnath_reddy": {
+      "pdf": "akepati_amarnath_reddy.pdf",
+      "pdf_sha1": "d6b8180e24e1373764e99a4554715a2b0a9f7e76",
+      "total_pages": 15,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "conviction_pages": [
+        15
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 15,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 50.8
+    },
+    "aditi_vijayalakshmi_gajapathi_raju_pusapati": {
+      "pdf": "aditi_vijayalakshmi_gajapathi_raju_pusapati.pdf",
+      "pdf_sha1": "1794325b1652c6947a702d5e8b9b164eba0953a6",
+      "total_pages": 22,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 69.9
+    },
+    "amaranatha_reddy__n": {
+      "pdf": "amaranatha_reddy__n.pdf",
+      "pdf_sha1": "b1247f827432eabe44b18f8adabd86e3589987f5",
+      "total_pages": 36,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "conviction_pages": [
+        19
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 19,
+      "section_7_header_page": 20,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 19,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 54,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 109.2
+    },
+    "anam_ramanarayana_reddy": {
+      "pdf": "anam_ramanarayana_reddy.pdf",
+      "pdf_sha1": "a7a2b61c6270595b9f5c39b5196b017125180113",
+      "total_pages": 18,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.0
+    },
+    "ananda_babu_nakka": {
+      "pdf": "ananda_babu_nakka.pdf",
+      "pdf_sha1": "853e2245e83f094888df58ddb1e32217ce04abe9",
+      "total_pages": 24,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 9,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 2.9
+    },
+    "anitha_vangalapudi": {
+      "pdf": "anitha_vangalapudi.pdf",
+      "pdf_sha1": "c8eb0f454fd2af05d49f8898a3e769633c7fe331",
+      "total_pages": 31,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conviction_pages": [
+        8
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 8,
+      "section_7_header_page": 9,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 9,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 14,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 81.7
+    },
+    "anagani_satya_prasad": {
+      "pdf": "anagani_satya_prasad.pdf",
+      "pdf_sha1": "00eaa8742bc375b64e5f7d5645820d11129eb621",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 5,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 64.0
+    },
+    "adinarayana_reddy_chadipirala": {
+      "pdf": "adinarayana_reddy_chadipirala.pdf",
+      "pdf_sha1": "13e2b80e699d24140affe39f3553b3e2b85e04c6",
+      "total_pages": 13,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 4,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 7,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 214.7
+    },
+    "amilineni_surendra_babu": {
+      "pdf": "amilineni_surendra_babu.pdf",
+      "pdf_sha1": "a2e96b740ef9724ab5e855a912b95a231f4854f2",
+      "total_pages": 40,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 139.7
+    },
+    "arimilli_radha_krishna": {
+      "pdf": "arimilli_radha_krishna.pdf",
+      "pdf_sha1": "078372a8595dbccc82c8e65d09679a33adb5edbd",
+      "total_pages": 21,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 7,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.4
+    },
+    "arava_sreedhar": {
+      "pdf": "arava_sreedhar.pdf",
+      "pdf_sha1": "f1c86a15325b0c42aadfd7f8a214b87b1af6e3c7",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 54.4
+    },
+    "aranii_srenevasulu": {
+      "pdf": "aranii_srenevasulu.pdf",
+      "pdf_sha1": "1eeaa7a4762542565cee2e0e3f4749e3a8ff9aae",
+      "total_pages": 23,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 86.2
+    },
+    "aravinda_babu_chadalavada": {
+      "pdf": "aravinda_babu_chadalavada.pdf",
+      "pdf_sha1": "1faf9d436c7bd6d4ff2406fadb68f47ed6ca90d4",
+      "total_pages": 24,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 34,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 79.7
+    },
+    "ashok_reddy_muthumula": {
+      "pdf": "ashok_reddy_muthumula.pdf",
+      "pdf_sha1": "e24fea91761952a4e977f2db81612074056502de",
+      "total_pages": 32,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 94.7
+    },
+    "ayyannapatrudu_chintakayala": {
+      "pdf": "ayyannapatrudu_chintakayala.pdf",
+      "pdf_sha1": "dfc66e5a7ceb82368b2b5f7f3f213b412ad798eb",
+      "total_pages": 24,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 11,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 3.2
+    },
+    "ashok_bendalam": {
+      "pdf": "ashok_bendalam.pdf",
+      "pdf_sha1": "ad74e1c938d0a71552d0221bd01e0d8a7674ba3e",
+      "total_pages": 44,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "conviction_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "section_5_header_page": 8,
+      "section_6_header_page": 17,
+      "section_7_header_page": null,
+      "pending_trigger_page": 8,
+      "conviction_trigger_page": 8,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 102.6
+    },
+    "atchannaidu_kinjarapu": {
+      "pdf": "atchannaidu_kinjarapu.pdf",
+      "pdf_sha1": "c227860006f92bba38ce3b3fe559cfa6798e6299",
+      "total_pages": 31,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "conviction_pages": [
+        14
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 14,
+      "section_7_header_page": 15,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 90.7
+    },
+    "ashmit_reddy_j_c": {
+      "pdf": "ashmit_reddy_j_c.pdf",
+      "pdf_sha1": "5601ed74b07d4d2bc7319e84faaccc23de352b2d",
+      "total_pages": 60,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "conviction_pages": [
+        18
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 18,
+      "section_7_header_page": 19,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 18,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 56,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 110.1
+    },
+    "b__jayanageswara_reddy": {
+      "pdf": "b__jayanageswara_reddy.pdf",
+      "pdf_sha1": "1b82f086053e3c2d79db8384620ab6df3ca49645",
+      "total_pages": 15,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_2",
+      "pending_case_count_hint": 7,
+      "conviction_case_count_hint": 5,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 54.6
+    },
+    "bandaru_satyananda_rao": {
+      "pdf": "bandaru_satyananda_rao.pdf",
+      "pdf_sha1": "9ac5b219c47cfacfcb22985461503e0ca817876c",
+      "total_pages": 14,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [],
+      "section_5_header_page": 3,
+      "section_6_header_page": null,
+      "section_7_header_page": 4,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": null,
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 0.9
+    },
+    "b__virupakshi": {
+      "pdf": "b__virupakshi.pdf",
+      "pdf_sha1": "2ee623a5091f8169d8905846b3c968a1c027b0ff",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 52.5
+    },
+    "bandaru_sravani_sree": {
+      "pdf": "bandaru_sravani_sree.pdf",
+      "pdf_sha1": "678d1a8480135ea7911719ae6b0e2d654188008e",
+      "total_pages": 16,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 52.0
+    },
+    "bandaru_satyanarayana_murthy": {
+      "pdf": "bandaru_satyanarayana_murthy.pdf",
+      "pdf_sha1": "10c43bd748c8cfebee0be8c9c455aa6b40f2ce4d",
+      "total_pages": 20,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.1
+    },
+    "bathula_balaramakrishna_s_o_gangarao": {
+      "pdf": "bathula_balaramakrishna_s_o_gangarao.pdf",
+      "pdf_sha1": "c6dfc72c2639cd90034a2b3bf34ddbcdc0785d2b",
+      "total_pages": 34,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [],
+      "conviction_pages": [],
+      "section_5_header_page": null,
+      "section_6_header_page": null,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": null,
+        "section_6": null,
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "headers_missed",
+      "scan_seconds": 1.8
+    },
+    "baggu_ramanamurthy": {
+      "pdf": "baggu_ramanamurthy.pdf",
+      "pdf_sha1": "c7b14dc8a820018f481227c29805d10a54cfe71f",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 63.2
+    },
+    "boggula_dastagiri": {
+      "pdf": "boggula_dastagiri.pdf",
+      "pdf_sha1": "01ffd412b7cc8a99ff3a966876ce4eee0b84a504",
+      "total_pages": 20,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.2
+    },
+    "bode_prasad": {
+      "pdf": "bode_prasad.pdf",
+      "pdf_sha1": "5c62bec442517d34f5575217b3d9169dc04306c0",
+      "total_pages": 23,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9,
+        10
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 9,
+      "section_7_header_page": 11,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 9,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 66.3
+    },
+    "b_c__janardhan_reddy": {
+      "pdf": "b_c__janardhan_reddy.pdf",
+      "pdf_sha1": "437313663c3bcf5f82c23533b31ba056e02c39e5",
+      "total_pages": 41,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 106.9
+    },
+    "bommidi_narayana_nayakar": {
+      "pdf": "bommidi_narayana_nayakar.pdf",
+      "pdf_sha1": "41b679acb20261c89cfeb55eb39ee738cc563527",
+      "total_pages": 21,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.2
+    },
+    "bhashyam_praveen": {
+      "pdf": "bhashyam_praveen.pdf",
+      "pdf_sha1": "a209221a3a295893ca00d43a3e7976d26dd0cfdd",
+      "total_pages": 40,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 80.6
+    },
+    "bolisetty_srinivas": {
+      "pdf": "bolisetty_srinivas.pdf",
+      "pdf_sha1": "9f2e9a2859adbc9d65c9bc9f2eb0dca3ea77ab92",
+      "total_pages": 28,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        5
+      ],
+      "conviction_pages": [
+        6,
+        7
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 6,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 13,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 83.8
+    },
+    "bojjala_venkata_sudhir_reddy": {
+      "pdf": "bojjala_venkata_sudhir_reddy.pdf",
+      "pdf_sha1": "2d3536ae117b4da401b7d12c8db3a2e6f015dc99",
+      "total_pages": 27,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 9,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 15,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 29,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 95.4
+    },
+    "bonela_vijaya_chandra": {
+      "pdf": "bonela_vijaya_chandra.pdf",
+      "pdf_sha1": "536f1c15afce069cb34e739f2a249309a36e828e",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 2,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 59.9
+    },
+    "buddhaprasad_mandali": {
+      "pdf": "buddhaprasad_mandali.pdf",
+      "pdf_sha1": "46536cb99299a3c55e1edea086cf443e04410f32",
+      "total_pages": 14,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        2
+      ],
+      "conviction_pages": [
+        3
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 3,
+      "section_7_header_page": 4,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.1
+    },
+    "bonda_umamaheswararao": {
+      "pdf": "bonda_umamaheswararao.pdf",
+      "pdf_sha1": "94009a6a57574938dd034ca8e913b689475e9ba6",
+      "total_pages": 33,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 23,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 46,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 107.0
+    },
+    "budda_rajasekhara_reddy": {
+      "pdf": "budda_rajasekhara_reddy.pdf",
+      "pdf_sha1": "4ac0c62f6648ac34c3df74b30dc89a1821ea08ba",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 57.4
+    },
+    "burla_ramanjaneyulu": {
+      "pdf": "burla_ramanjaneyulu.pdf",
+      "pdf_sha1": "cab9d9459b8f05e673b64cafcf810756c22ffce4",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 73.0
+    },
+    "chandra_sekhar_tatiparthi": {
+      "pdf": "chandra_sekhar_tatiparthi.pdf",
+      "pdf_sha1": "11a0e971ad49a13076328206b96517941cccca83",
+      "total_pages": 27,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.8
+    },
+    "ch_vamsi_krishna_srinivas": {
+      "pdf": "ch_vamsi_krishna_srinivas.pdf",
+      "pdf_sha1": "652762351f07f202a21e929bc4ecc8b4e8f9d899",
+      "total_pages": 15,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 2,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 42.3
+    },
+    "china_rajappa_nimmakayala": {
+      "pdf": "china_rajappa_nimmakayala.pdf",
+      "pdf_sha1": "d740500e5362a4e78797427506b3e06732510c5d",
+      "total_pages": 18,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "conviction_pages": [
+        10
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 10,
+      "section_7_header_page": 11,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 10,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 17,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 24,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.6
+    },
+    "buchepalli_siva_prasad_reddy": {
+      "pdf": "buchepalli_siva_prasad_reddy.pdf",
+      "pdf_sha1": "8c0f2b71a5e8d9e197bc7363ce22d9a5f9ccf1a8",
+      "total_pages": 30,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 6,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 91.8
+    },
+    "chirri_balaraju": {
+      "pdf": "chirri_balaraju.pdf",
+      "pdf_sha1": "8924f4b89718b35892aa1726e228a0dcf733e47c",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 68.7
+    },
+    "dagumati_venkata_krishna_reddy": {
+      "pdf": "dagumati_venkata_krishna_reddy.pdf",
+      "pdf_sha1": "63fe3fd03ca6a6aa075fe948e1ea873d71fc9b40",
+      "total_pages": 29,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 5.6
+    },
+    "chandrababu_naidu_nara": {
+      "pdf": "chandrababu_naidu_nara.pdf",
+      "pdf_sha1": "1f5ab514d74b071af472450972f2c52822883f99",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "conviction_pages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 15,
+      "section_7_header_page": null,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 96.2
+    },
+    "chandra_mohan_reddy_somireddy": {
+      "pdf": "chandra_mohan_reddy_somireddy.pdf",
+      "pdf_sha1": "c79cfbbddfe48a7065f744f1cfbe4af43165f6ef",
+      "total_pages": 38,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "conviction_pages": [
+        25
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 25,
+      "section_7_header_page": 26,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 20,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 118.3
+    },
+    "datla_subbaraju__buchibabu_": {
+      "pdf": "datla_subbaraju__buchibabu_.pdf",
+      "pdf_sha1": "c560ac9c32aa2057b3316fc9820dab6882d3b300",
+      "total_pages": 13,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 13,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.0
+    },
+    "daggupati_prasad": {
+      "pdf": "daggupati_prasad.pdf",
+      "pdf_sha1": "9dfdc312dd53efdf4a7e5f5a01a85ec68a9880e2",
+      "total_pages": 35,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 108.1
+    },
+    "dharmaraju_patsamatla": {
+      "pdf": "dharmaraju_patsamatla.pdf",
+      "pdf_sha1": "0e5b3146880bb383b4c74575f622aa987e045a00",
+      "total_pages": 17,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.2
+    },
+    "dasari_sudha": {
+      "pdf": "dasari_sudha.pdf",
+      "pdf_sha1": "dcc9cdb1f816a9e902554d4b9bcd230d588810e2",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 54.2
+    },
+    "deva_varaprasad": {
+      "pdf": "deva_varaprasad.pdf",
+      "pdf_sha1": "47a45e51b5a3bdf6ee27858bb96d2e04be175c5f",
+      "total_pages": 14,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 53.6
+    },
+    "doctor_dola_sree_bala_veeranjaneya_swamy": {
+      "pdf": "doctor_dola_sree_bala_veeranjaneya_swamy.pdf",
+      "pdf_sha1": "960a1fc3d3ccae9c3495648898f456cc44c2fdff",
+      "total_pages": 23,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 9,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 11,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 17,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.5
+    },
+    "damacharla_janardhana_rao": {
+      "pdf": "damacharla_janardhana_rao.pdf",
+      "pdf_sha1": "7dd2e55c147e1a43824009509e0182d9877bafbb",
+      "total_pages": 31,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "conviction_pages": [
+        10
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 10,
+      "section_7_header_page": 11,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 10,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 18,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 102.6
+    },
+    "dr__ugra_narasimha_reddy_mukku": {
+      "pdf": "dr__ugra_narasimha_reddy_mukku.pdf",
+      "pdf_sha1": "cad135c444c0a1f760cfc7aa53b44e14777ce444",
+      "total_pages": 28,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.7
+    },
+    "dhulipalla_narendra_kumar": {
+      "pdf": "dhulipalla_narendra_kumar.pdf",
+      "pdf_sha1": "c62644534a50b6f9d4499e01f71c2cc779877010",
+      "total_pages": 36,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": "style_3",
+      "pending_case_count_hint": 8,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 117.8
+    },
+    "dr__partha_sarathi_valmiki": {
+      "pdf": "dr__partha_sarathi_valmiki.pdf",
+      "pdf_sha1": "55cbbae74d4f1fd5db54767daaa975cbda332de8",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 85.8
+    },
+    "divya_yanamala": {
+      "pdf": "divya_yanamala.pdf",
+      "pdf_sha1": "4408770a6a85eec150d3992d229324e341034f6a",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 165.5
+    },
+    "dr__vm__thomas": {
+      "pdf": "dr__vm__thomas.pdf",
+      "pdf_sha1": "76a0fde5969b221fc9d1f5ba11ac2420967b9ffd",
+      "total_pages": 41,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 107.6
+    },
+    "dr_nimmala_ramanaidu": {
+      "pdf": "dr_nimmala_ramanaidu.pdf",
+      "pdf_sha1": "91482ced82526a5d93e98a49573c8777830b6538",
+      "total_pages": 24,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "conviction_pages": [
+        12
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 12,
+      "section_7_header_page": 13,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 12,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 1,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 88.3
+    },
+    "g_jayasurya": {
+      "pdf": "g_jayasurya.pdf",
+      "pdf_sha1": "920f23f31a382e1aa56c300f7c59c414e12f7aa9",
+      "total_pages": 14,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        2
+      ],
+      "conviction_pages": [
+        3,
+        4,
+        5
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 3,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 47.1
+    },
+    "eswara_rao_nadukuditi": {
+      "pdf": "eswara_rao_nadukuditi.pdf",
+      "pdf_sha1": "0a8dba75ab47e0edf9043747955bc007194209ec",
+      "total_pages": 36,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 8,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 126.5
+    },
+    "gadde_rama_mohan": {
+      "pdf": "gadde_rama_mohan.pdf",
+      "pdf_sha1": "079ff9d42d14a05a8fd93a9e8016e5b912041dc5",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 9,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 17,
+      "conviction_case_count_hint": 6,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 61.6
+    },
+    "ganta_srinivasa_rao": {
+      "pdf": "ganta_srinivasa_rao.pdf",
+      "pdf_sha1": "4fc0cfbe771e381e064b6a075535d7f850c2384d",
+      "total_pages": 13,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 42.1
+    },
+    "gali_bhanu_prakash": {
+      "pdf": "gali_bhanu_prakash.pdf",
+      "pdf_sha1": "ebad5b89a11a9fcd59404b8ab5ba2e13d2f0355f",
+      "total_pages": 34,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 13,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 16,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 105.8
+    },
+    "gonuguntla_venkata_siva_sita_rama_anzanneyllu": {
+      "pdf": "gonuguntla_venkata_siva_sita_rama_anzanneyllu.pdf",
+      "pdf_sha1": "a4bfed4ccc4ab9dc54cfed0dd16e45e0cf2c4226",
+      "total_pages": 27,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 12,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 83.5
+    },
+    "gorantla_butchaiah_choudary": {
+      "pdf": "gorantla_butchaiah_choudary.pdf",
+      "pdf_sha1": "99fe371f7ddcc540a6730e32ec643f9fd38ccd6c",
+      "total_pages": 21,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.5
+    },
+    "giddi__satyanarayana": {
+      "pdf": "giddi__satyanarayana.pdf",
+      "pdf_sha1": "fd146e20c43c3f71cc0eeb61cff14171e497af22",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 58.5
+    },
+    "galla_madhavi": {
+      "pdf": "galla_madhavi.pdf",
+      "pdf_sha1": "0e1dfe6e8ec52a0d0a3f2d6e91d01616d096f720",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 82.7
+    },
+    "gowru_charitha_reddy": {
+      "pdf": "gowru_charitha_reddy.pdf",
+      "pdf_sha1": "f4c2ecd710e300db5713daae4b8c0a9c5e37272f",
+      "total_pages": 14,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        2
+      ],
+      "conviction_pages": [
+        3,
+        4
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 3,
+      "section_7_header_page": 5,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 49.0
+    },
+    "gummanur_jayaram": {
+      "pdf": "gummanur_jayaram.pdf",
+      "pdf_sha1": "a47a74fa59f5e52be50b65585d3897e3fb204d66",
+      "total_pages": 21,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 68.3
+    },
+    "gondu_shankar": {
+      "pdf": "gondu_shankar.pdf",
+      "pdf_sha1": "e9173eb52f5f1b1fbf3da7441ff1e263f7610e89",
+      "total_pages": 32,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        5,
+        6,
+        7
+      ],
+      "conviction_pages": [
+        8
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 8,
+      "section_7_header_page": 9,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 15,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 103.7
+    },
+    "gouthu_sireesha": {
+      "pdf": "gouthu_sireesha.pdf",
+      "pdf_sha1": "97cdf48c55ccee136ab7b6fe8facb35502f59a11",
+      "total_pages": 31,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 99.9
+    },
+    "inturi_nageswara_rao": {
+      "pdf": "inturi_nageswara_rao.pdf",
+      "pdf_sha1": "b2ae1edc3025f6360c089f7b16ae7b59244f162f",
+      "total_pages": 19,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 11,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.4
+    },
+    "jagadeeswari_thoyaka": {
+      "pdf": "jagadeeswari_thoyaka.pdf",
+      "pdf_sha1": "c988af7e215c576ccdad6f18ee00638fa79b4da2",
+      "total_pages": 16,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.1
+    },
+    "gummidi_sandhyarani": {
+      "pdf": "gummidi_sandhyarani.pdf",
+      "pdf_sha1": "22308689fa603b174344b46eef2a827cc9872551",
+      "total_pages": 16,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 3,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": 6,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 53.1
+    },
+    "jayakrishna_nimmaka": {
+      "pdf": "jayakrishna_nimmaka.pdf",
+      "pdf_sha1": "d1d100d3964ac9616cda49e2a669046ba219f720",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 6,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": "style_2",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 3,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 64.1
+    },
+    "gottipati__ravi_kumar": {
+      "pdf": "gottipati__ravi_kumar.pdf",
+      "pdf_sha1": "c9b90f5f673d52f3b394cca5b65d952cdb4f2cbf",
+      "total_pages": 56,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        12
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 12,
+      "section_7_header_page": 13,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 12,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 106.7
+    },
+    "gurajala_jagan_mohan__gjm_": {
+      "pdf": "gurajala_jagan_mohan__gjm_.pdf",
+      "pdf_sha1": "660399213c6beb3c7d0abe90e1443af41562fba6",
+      "total_pages": 34,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 127.8
+    },
+    "k_e__shyam_kumar": {
+      "pdf": "k_e__shyam_kumar.pdf",
+      "pdf_sha1": "0ee1f59e11a3877cfd9af18a630933565a36d6c4",
+      "total_pages": 10,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "conviction_pages": [
+        10
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 10,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 44.7
+    },
+    "julakanti_brahmananda_reddy": {
+      "pdf": "julakanti_brahmananda_reddy.pdf",
+      "pdf_sha1": "369dfd5566d0e5aee3850ee25d323329061ed88c",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 10,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 62.5
+    },
+    "jogeswara_rao_v": {
+      "pdf": "jogeswara_rao_v.pdf",
+      "pdf_sha1": "74c528ea30e025a602f10a9a9dfb347edc805c0a",
+      "total_pages": 38,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7,
+        8
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 7,
+      "section_7_header_page": 9,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 123.3
+    },
+    "jyothula_nehru": {
+      "pdf": "jyothula_nehru.pdf",
+      "pdf_sha1": "e2099d41107c1b72490a7314d29b0e12b21e1e48",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 67.3
+    },
+    "kakarla_suresh": {
+      "pdf": "kakarla_suresh.pdf",
+      "pdf_sha1": "cd565e69db9f8eb08789c05df67d8098b1b6956c",
+      "total_pages": 19,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.7
+    },
+    "kalavenkatarao_kimidi": {
+      "pdf": "kalavenkatarao_kimidi.pdf",
+      "pdf_sha1": "0d202b932d26815f6f90e84a05ea1ed86d334d4a",
+      "total_pages": 18,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.5
+    },
+    "kamineni_srinivas": {
+      "pdf": "kamineni_srinivas.pdf",
+      "pdf_sha1": "c7d01ba06eabcd764548783bb81826bb469ce757",
+      "total_pages": 18,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.2
+    },
+    "k_murali_mohan": {
+      "pdf": "k_murali_mohan.pdf",
+      "pdf_sha1": "27db397912ebc3bf69adbbde1f7f3a61ec75a6a8",
+      "total_pages": 24,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 77.1
+    },
+    "kagitha_krishnaprasad": {
+      "pdf": "kagitha_krishnaprasad.pdf",
+      "pdf_sha1": "6d8b2324cf5ced95bfbedfc9efa83a3645bd4e36",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 9,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 18,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 68.3
+    },
+    "kandula_narayana_reddy": {
+      "pdf": "kandula_narayana_reddy.pdf",
+      "pdf_sha1": "8bad5e3a3112fb7cbd48fcd585ffc59aee4af350",
+      "total_pages": 19,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.4
+    },
+    "kalava_srinivasulu": {
+      "pdf": "kalava_srinivasulu.pdf",
+      "pdf_sha1": "9e92a26acb7b4242db155faaf23ed89eb363f4cb",
+      "total_pages": 23,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11,
+        12,
+        13
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 11,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 15,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 19,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 91.2
+    },
+    "kandikunta_venkata_prasad": {
+      "pdf": "kandikunta_venkata_prasad.pdf",
+      "pdf_sha1": "a689e80db88296cba8aaf5b343dd2ad2ff2b278e",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "conviction_pages": [
+        12,
+        13
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 12,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 12,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 45,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 101.7
+    },
+    "kanna_lakshminarayana": {
+      "pdf": "kanna_lakshminarayana.pdf",
+      "pdf_sha1": "93759f40507aabae97fba78d9c149669d3a47862",
+      "total_pages": 16,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        2
+      ],
+      "conviction_pages": [
+        3
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 3,
+      "section_7_header_page": 4,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 59.4
+    },
+    "kolla_lalitha_kumari": {
+      "pdf": "kolla_lalitha_kumari.pdf",
+      "pdf_sha1": "9f5eb292b7323f3c914aefef841613bead86366f",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 59.0
+    },
+    "kolikapudi_srinivasa_rao": {
+      "pdf": "kolikapudi_srinivasa_rao.pdf",
+      "pdf_sha1": "3d2bc4cbccd89c7d1e7a2f94383af33c28524c64",
+      "total_pages": 22,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 13,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 13,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 40,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 88.1
+    },
+    "kanumuru_raghu_rama_krishna_raju__r_r_r_": {
+      "pdf": "kanumuru_raghu_rama_krishna_raju__r_r_r_.pdf",
+      "pdf_sha1": "8d9018b2a261d9e0ecae6167cd36ac08e32f251f",
+      "total_pages": 40,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "conviction_pages": [
+        12
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 12,
+      "section_7_header_page": 13,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 12,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 34,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 134.9
+    },
+    "konathala_ramakrishna": {
+      "pdf": "konathala_ramakrishna.pdf",
+      "pdf_sha1": "6fe480c1c83f221c126c168958c4e06ad84e22bf",
+      "total_pages": 21,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.4
+    },
+    "kolusu_partha_sarathy": {
+      "pdf": "kolusu_partha_sarathy.pdf",
+      "pdf_sha1": "e31506d2571165c125ae7288c6ee2fefd1cbc69b",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 5,
+      "conviction_case_count_hint": 6,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 65.2
+    },
+    "kandula_durgesh": {
+      "pdf": "kandula_durgesh.pdf",
+      "pdf_sha1": "6c9e6a18b5429e3dc409215aa29faab9dac4cd1c",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "conviction_pages": [
+        26
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 26,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 18,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 233.3
+    },
+    "kollu__ravindra": {
+      "pdf": "kollu__ravindra.pdf",
+      "pdf_sha1": "4c7b7c7912a4f70156640c38f5d24d5ae21062fc",
+      "total_pages": 29,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 13,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 13,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 52,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 93.0
+    },
+    "konidala_pawan_kalyan": {
+      "pdf": "konidala_pawan_kalyan.pdf",
+      "pdf_sha1": "6c5f1d71a02dd48ce976403f3ca6c1dfcacb4e1f",
+      "total_pages": 28,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        26,
+        27,
+        28
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 8,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [
+        26,
+        27,
+        28
+      ],
+      "pending_from_annexure": true,
+      "status": "ok",
+      "scan_seconds": 2.0
+    },
+    "koona_ravi_kumar": {
+      "pdf": "koona_ravi_kumar.pdf",
+      "pdf_sha1": "d83d3482b4796bd5cf6692c938e036331d04dfb1",
+      "total_pages": 35,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "conviction_pages": [
+        18
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 18,
+      "section_7_header_page": 19,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 18,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 14,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 2.1
+    },
+    "kotamreddy_sridhar_reddy": {
+      "pdf": "kotamreddy_sridhar_reddy.pdf",
+      "pdf_sha1": "af91178d93130dbde8dcb8c55128e96d0f462bd5",
+      "total_pages": 21,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6,
+        7
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.5
+    },
+    "kondru_murali_mohan": {
+      "pdf": "kondru_murali_mohan.pdf",
+      "pdf_sha1": "43986928d896ba1f6d104006000822820061666f",
+      "total_pages": 22,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 75.2
+    },
+    "kondapalli_srinivas": {
+      "pdf": "kondapalli_srinivas.pdf",
+      "pdf_sha1": "2ca1bc2149b6aac680d87d9252e07f911ae40d22",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 1,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 79.1
+    },
+    "kumar_raja_varla": {
+      "pdf": "kumar_raja_varla.pdf",
+      "pdf_sha1": "34739a09973a68d6815537576d4cc01ee3492100",
+      "total_pages": 29,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "conviction_pages": [
+        10
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 10,
+      "section_7_header_page": 11,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 10,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 4.0
+    },
+    "koneti_adimulam": {
+      "pdf": "koneti_adimulam.pdf",
+      "pdf_sha1": "d94b653c70be233e64f9d8e5c680c1e8545e45cd",
+      "total_pages": 25,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 12,
+      "section_6_header_page": 13,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 12,
+      "conviction_trigger_page": 13,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 77.8
+    },
+    "kotla_jaya_surya_prakash_reddy": {
+      "pdf": "kotla_jaya_surya_prakash_reddy.pdf",
+      "pdf_sha1": "012796ffd31930811a4686011f4fdf68f9c21944",
+      "total_pages": 15,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 11,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 64.6
+    },
+    "kurugondla_ramakrishna": {
+      "pdf": "kurugondla_ramakrishna.pdf",
+      "pdf_sha1": "c9d2554a3662e69a4567006b4f12508b27437abb",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 11,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 34,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 85.6
+    },
+    "m_shajahan_basha": {
+      "pdf": "m_shajahan_basha.pdf",
+      "pdf_sha1": "17a41f838304d8775f268ca445ae1f543aa4590b",
+      "total_pages": 20,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 16,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.6
+    },
+    "lokam_naga_madhavi": {
+      "pdf": "lokam_naga_madhavi.pdf",
+      "pdf_sha1": "943ca02c2f7af967a3ba64e2aa75d9e4e462adb2",
+      "total_pages": 25,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "conviction_pages": [
+        25
+      ],
+      "section_5_header_page": 8,
+      "section_6_header_page": 25,
+      "section_7_header_page": null,
+      "pending_trigger_page": 8,
+      "conviction_trigger_page": 8,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 79.8
+    },
+    "madduluri_mala_kondaiah": {
+      "pdf": "madduluri_mala_kondaiah.pdf",
+      "pdf_sha1": "d65ce5de985bf63aae31fc2f04b38107d999ab8a",
+      "total_pages": 28,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.9
+    },
+    "madhavi_reddappa_gari": {
+      "pdf": "madhavi_reddappa_gari.pdf",
+      "pdf_sha1": "2b3c945f9fcfc576c9a55f61992092486c4046a5",
+      "total_pages": 28,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 4,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 2.6
+    },
+    "krishna_chaitanya_reddy_putha": {
+      "pdf": "krishna_chaitanya_reddy_putha.pdf",
+      "pdf_sha1": "b98198e8e35f0764e46700361bd90d4bdf5f6407",
+      "total_pages": 27,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 8,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 109.8
+    },
+    "m_s_raju": {
+      "pdf": "m_s_raju.pdf",
+      "pdf_sha1": "215231ed858e1218cb71110814559c42b6f072fe",
+      "total_pages": 33,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "conviction_pages": [
+        21
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 21,
+      "section_7_header_page": 22,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 21,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 43,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 92.7
+    },
+    "maddipati_venkata_raju": {
+      "pdf": "maddipati_venkata_raju.pdf",
+      "pdf_sha1": "b8ed0d3827787d2f6d283ebefd020f6c3bbccf04",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6,
+        7
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 6,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": 3,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 64.1
+    },
+    "matsyarasa_visweswara_raju": {
+      "pdf": "matsyarasa_visweswara_raju.pdf",
+      "pdf_sha1": "a7c89119a16858799a0dfa304a626789190d2263",
+      "total_pages": 15,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 48.8
+    },
+    "mamidi_govinda_rao": {
+      "pdf": "mamidi_govinda_rao.pdf",
+      "pdf_sha1": "8802de78aca404e22109f94e369b1d475842bfc0",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 62.1
+    },
+    "muppidi_venkateswara_rao": {
+      "pdf": "muppidi_venkateswara_rao.pdf",
+      "pdf_sha1": "2831fe275ccf0c0de2b67bb8258303f0f5b94cc1",
+      "total_pages": 26,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 11,
+      "section_7_header_page": 12,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 11,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 19,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.8
+    },
+    "miriyala_sirisha_devi": {
+      "pdf": "miriyala_sirisha_devi.pdf",
+      "pdf_sha1": "afecc843961e6b7546daed0d3a52f157a479a129",
+      "total_pages": 14,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 59.0
+    },
+    "nadendla_manohar": {
+      "pdf": "nadendla_manohar.pdf",
+      "pdf_sha1": "50d386d13714a274aa5fa2bfe30a0a705d2a4d16",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 61.6
+    },
+    "mohammed_naseer_ahmed": {
+      "pdf": "mohammed_naseer_ahmed.pdf",
+      "pdf_sha1": "e2afc270c3ea54c494f8e078697e2bf5d19c4cbf",
+      "total_pages": 21,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 12,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 76.9
+    },
+    "nandyala_varada_rajula_reddy": {
+      "pdf": "nandyala_varada_rajula_reddy.pdf",
+      "pdf_sha1": "db51724973a4396cda5c8d0c5cd125f43ff2a7c7",
+      "total_pages": 15,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 53.6
+    },
+    "nallari_kishan_kumar_reddy": {
+      "pdf": "nallari_kishan_kumar_reddy.pdf",
+      "pdf_sha1": "79a3fdb5eaa0479be962a0195b04bb3e654e14a5",
+      "total_pages": 24,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 7,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 10,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 76.4
+    },
+    "mandipalli_ramprasad_reddy": {
+      "pdf": "mandipalli_ramprasad_reddy.pdf",
+      "pdf_sha1": "328266682192aa5199e7e6a76363551dd9dde92f",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 15,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 248.2
+    },
+    "nara_lokesh": {
+      "pdf": "nara_lokesh.pdf",
+      "pdf_sha1": "ed12165bf3a6e78102f0e9278c090eb5fd6fc70d",
+      "total_pages": 28,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "conviction_pages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 19,
+      "section_7_header_page": null,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_2",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": 3,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 98.0
+    },
+    "nelavala_vijayasree": {
+      "pdf": "nelavala_vijayasree.pdf",
+      "pdf_sha1": "7aeb8e956883a8e9a392f4e60a005f3b5ca45d31",
+      "total_pages": 18,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.4
+    },
+    "nasyam_mohammed_farook": {
+      "pdf": "nasyam_mohammed_farook.pdf",
+      "pdf_sha1": "31411e06cd148e65a788ca9eb3e20a95e22d0237",
+      "total_pages": 21,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": 3,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 68.5
+    },
+    "p__dwarakanatha_reddy": {
+      "pdf": "p__dwarakanatha_reddy.pdf",
+      "pdf_sha1": "ef20dedb830df821030b23cd2413ad1271c6bb35",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 6,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 2,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 56.9
+    },
+    "p_g_v_r_naidu_ganababu_": {
+      "pdf": "p_g_v_r_naidu_ganababu_.pdf",
+      "pdf_sha1": "68403ae4acc1b07fa98fddb2ec99faae4ef3caa8",
+      "total_pages": 16,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 61.7
+    },
+    "palla_srinivas_rao": {
+      "pdf": "palla_srinivas_rao.pdf",
+      "pdf_sha1": "c0982b48481ee0d8bd16e7b842076310a714b684",
+      "total_pages": 26,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        9,
+        10
+      ],
+      "conviction_pages": [
+        11,
+        12
+      ],
+      "section_5_header_page": 9,
+      "section_6_header_page": 11,
+      "section_7_header_page": 13,
+      "pending_trigger_page": 10,
+      "conviction_trigger_page": 12,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 9,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 82.1
+    },
+    "narayana_ponguru": {
+      "pdf": "narayana_ponguru.pdf",
+      "pdf_sha1": "acfb8a1ccf696f231ec26561369a6a29cdf94d31",
+      "total_pages": 71,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 140.0
+    },
+    "pantam_venkateswara_rao__pantam_nanaji_": {
+      "pdf": "pantam_venkateswara_rao__pantam_nanaji_.pdf",
+      "pdf_sha1": "f785616aae59ccc8f2fc21f85ff6d30f297be20d",
+      "total_pages": 24,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        2,
+        3
+      ],
+      "conviction_pages": [
+        7,
+        8
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 7,
+      "section_7_header_page": 9,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 10.4
+    },
+    "paritala_sunithamma": {
+      "pdf": "paritala_sunithamma.pdf",
+      "pdf_sha1": "1d7f1a8fa5985efb44093baf4071b49222ab7d46",
+      "total_pages": 21,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "conviction_pages": [
+        9
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 9,
+      "section_7_header_page": 10,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": 9,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 8,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.6
+    },
+    "palle_sindhura_reddy": {
+      "pdf": "palle_sindhura_reddy.pdf",
+      "pdf_sha1": "69710b32c1a6a048b9c88a48971207fbdcf4493d",
+      "total_pages": 37,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 113.3
+    },
+    "pasim_sunil_kumar": {
+      "pdf": "pasim_sunil_kumar.pdf",
+      "pdf_sha1": "a5ff9e3e11735f85191565b8ab47d4abf8b7d6f4",
+      "total_pages": 26,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "conviction_pages": [
+        12
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 12,
+      "section_7_header_page": 13,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 12,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.6
+    },
+    "nandamuri_balakrishna": {
+      "pdf": "nandamuri_balakrishna.pdf",
+      "pdf_sha1": "3098ef5751bf9cc620a698115896279c7d8946a8",
+      "total_pages": 42,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 320.4
+    },
+    "prashanthi_reddy_vemireddy": {
+      "pdf": "prashanthi_reddy_vemireddy.pdf",
+      "pdf_sha1": "f49f72f0f31db77472f5df217359517a82abdfa8",
+      "total_pages": 44,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 2.3
+    },
+    "prathipati_pullarao": {
+      "pdf": "prathipati_pullarao.pdf",
+      "pdf_sha1": "1717e6c1568529ca870da4f1c4a1be7f8171b8cc",
+      "total_pages": 46,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "conviction_pages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "section_5_header_page": 8,
+      "section_6_header_page": 12,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 8,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 3.6
+    },
+    "r_v_s_k_k_ranga_rao___babynayana": {
+      "pdf": "r_v_s_k_k_ranga_rao___babynayana.pdf",
+      "pdf_sha1": "cb0baf5b352e31bf26f8ef8f5c1004d15eb8574c",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 1,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 60.5
+    },
+    "panchakarla_ramesh_babu": {
+      "pdf": "panchakarla_ramesh_babu.pdf",
+      "pdf_sha1": "7aab17291be04167167a72442d26b7f4800926d3",
+      "total_pages": 28,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "conviction_pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 14,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": 1,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 103.5
+    },
+    "rajagopal_sreeram__tataiah_": {
+      "pdf": "rajagopal_sreeram__tataiah_.pdf",
+      "pdf_sha1": "492d477a8b7e22d6cfece5209490d8aa09ad42cb",
+      "total_pages": 23,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5
+      ],
+      "conviction_pages": [
+        6,
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 6,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 8,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 12,
+      "conviction_case_count_hint": 3,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.8
+    },
+    "ramakrishna_babu_velagapudi": {
+      "pdf": "ramakrishna_babu_velagapudi.pdf",
+      "pdf_sha1": "68685bd0813e2345c1dee93dc3eeca3254d00a79",
+      "total_pages": 16,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.1
+    },
+    "ramakrishna_reddy_nallamilli": {
+      "pdf": "ramakrishna_reddy_nallamilli.pdf",
+      "pdf_sha1": "d433db74d7085b172bc8bb711fd60b5b10ac0c1d",
+      "total_pages": 6,
+      "extraction_method": "tesseract",
+      "pending_pages": [],
+      "conviction_pages": [],
+      "section_5_header_page": null,
+      "section_6_header_page": null,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": null,
+        "section_6": null,
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "headers_missed",
+      "scan_seconds": 21.2
+    },
+    "ramanjaneyulu_pulaparthi__anjibabu_": {
+      "pdf": "ramanjaneyulu_pulaparthi__anjibabu_.pdf",
+      "pdf_sha1": "ffeb11c1ca5d4fe4adf5957ddabb9422276dc761",
+      "total_pages": 23,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        20
+      ],
+      "conviction_pages": [
+        23
+      ],
+      "section_5_header_page": 20,
+      "section_6_header_page": 23,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.5
+    },
+    "payyavula_keshav": {
+      "pdf": "payyavula_keshav.pdf",
+      "pdf_sha1": "aed29158902706f09efc2c348cb91c638cc457cd",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 11,
+      "conviction_case_count_hint": 3,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 69.8
+    },
+    "radha_krishnayya_badeti": {
+      "pdf": "radha_krishnayya_badeti.pdf",
+      "pdf_sha1": "68df803f7cfa340374c7f0d8873bc529a28507b1",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 55.6
+    },
+    "regam_matyalingam": {
+      "pdf": "regam_matyalingam.pdf",
+      "pdf_sha1": "0c379bbf44c2bd43a678861d6d66cfc35725179a",
+      "total_pages": 13,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 47.7
+    },
+    "satya_kumar_yadav": {
+      "pdf": "satya_kumar_yadav.pdf",
+      "pdf_sha1": "ca7edd435012f7fdb82fef8d1e793c9830971c79",
+      "total_pages": 14,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "conviction_pages": [
+        14
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 14,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 6,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.7
+    },
+    "peddireddi_ramachandra_reddy": {
+      "pdf": "peddireddi_ramachandra_reddy.pdf",
+      "pdf_sha1": "c2ad65be9694110c03d8710a57c87d4289a865a8",
+      "total_pages": 34,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 130.1
+    },
+    "roshan_kumar_songa": {
+      "pdf": "roshan_kumar_songa.pdf",
+      "pdf_sha1": "86ffea5cc1425638ee85bb4ecb2439692db420df",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 61.0
+    },
+    "satyanarayana_pithani": {
+      "pdf": "satyanarayana_pithani.pdf",
+      "pdf_sha1": "941813f9cdc5f5a7d6dd092e8b765cb924ce0d0a",
+      "total_pages": 17,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 5,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 61.0
+    },
+    "surya_naga_sanyasi_raju_kalidindi": {
+      "pdf": "surya_naga_sanyasi_raju_kalidindi.pdf",
+      "pdf_sha1": "50ce92ed80f89ae62482a93ce6f413af862f996d",
+      "total_pages": 22,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5,
+        6
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 7,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.2
+    },
+    "sudhakar_putta": {
+      "pdf": "sudhakar_putta.pdf",
+      "pdf_sha1": "ad56bf45ce5072c5356e19f700bd42ff562a23f2",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_2",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 2,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 70.7
+    },
+    "sundarapu_vijay_kumar": {
+      "pdf": "sundarapu_vijay_kumar.pdf",
+      "pdf_sha1": "c7751ae5a83d3f0838b5649387206f3efdde5274",
+      "total_pages": 22,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conviction_pages": [
+        8
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 8,
+      "section_7_header_page": 9,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 8,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 19,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 71.9
+    },
+    "t_g_bharath": {
+      "pdf": "t_g_bharath.pdf",
+      "pdf_sha1": "881074047b944c55c3f9d23a0cd13aec2874db37",
+      "total_pages": 13,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 13,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 46.4
+    },
+    "vanamadi_venkateswara_rao___kondababu": {
+      "pdf": "vanamadi_venkateswara_rao___kondababu.pdf",
+      "pdf_sha1": "9542d12c4f47c996df7a1002fb394549afef346e",
+      "total_pages": 17,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conviction_pages": [
+        8
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 8,
+      "section_7_header_page": 9,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 8,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 13,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 18,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.4
+    },
+    "s__savitha": {
+      "pdf": "s__savitha.pdf",
+      "pdf_sha1": "61297a13ad030767e27b7c79a3c2b7208da80bab",
+      "total_pages": 48,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "conviction_pages": [
+        10
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 10,
+      "section_7_header_page": 11,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 46,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 112.1
+    },
+    "vasamsetti__subash": {
+      "pdf": "vasamsetti__subash.pdf",
+      "pdf_sha1": "4cd1e36fa5c116e65b29b2b520315013394a3681",
+      "total_pages": 16,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conviction_pages": [
+        8
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 8,
+      "section_7_header_page": 9,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 11,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.5
+    },
+    "tangirala_sowmya": {
+      "pdf": "tangirala_sowmya.pdf",
+      "pdf_sha1": "2089add07d1513f4381dc1c938b74272128ab691",
+      "total_pages": 20,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 13,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 13,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 23,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 29,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 64.5
+    },
+    "vegesana_narendra_varma_raju": {
+      "pdf": "vegesana_narendra_varma_raju.pdf",
+      "pdf_sha1": "12ffbac4cd845d907c165f2f1aa33ca75d04bef6",
+      "total_pages": 34,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5
+      ],
+      "conviction_pages": [
+        7
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 20,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 100.1
+    },
+    "varupula_satya_prabha": {
+      "pdf": "varupula_satya_prabha.pdf",
+      "pdf_sha1": "6a04ecb4705177d4ea7aeb45caed76ef731af130",
+      "total_pages": 13,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "conviction_pages": [
+        13
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 13,
+      "section_7_header_page": null,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "fallback",
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 56.0
+    },
+    "vasantha_venkata_krishna_prasad": {
+      "pdf": "vasantha_venkata_krishna_prasad.pdf",
+      "pdf_sha1": "fe93d5e4797da9a3c266e6b04aeaa342a80d71e6",
+      "total_pages": 18,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 8,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 66.2
+    },
+    "vijay_kumar_b_n": {
+      "pdf": "vijay_kumar_b_n.pdf",
+      "pdf_sha1": "9fb3c1a83aeaabb6f1bd1e2911392455dbb0ced6",
+      "total_pages": 2,
+      "extraction_method": "tesseract",
+      "pending_pages": [],
+      "conviction_pages": [],
+      "section_5_header_page": null,
+      "section_6_header_page": null,
+      "section_7_header_page": null,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": null,
+        "section_6": null,
+        "section_7": null
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "headers_missed",
+      "scan_seconds": 6.6
+    },
+    "tenali_sravan_kumar": {
+      "pdf": "tenali_sravan_kumar.pdf",
+      "pdf_sha1": "c2f5cfd12fd7792fe4dca8fe5bbc9b4d19143097",
+      "total_pages": 30,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "conviction_pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 7,
+      "section_7_header_page": 28,
+      "pending_trigger_page": null,
+      "conviction_trigger_page": 7,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 8,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 16,
+      "conviction_case_count_hint": 4,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 96.9
+    },
+    "y__balanagi_reddy": {
+      "pdf": "y__balanagi_reddy.pdf",
+      "pdf_sha1": "2e7b3b69c4afada464d78f0dbe455cbc8efe6741",
+      "total_pages": 12,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        2
+      ],
+      "conviction_pages": [
+        3
+      ],
+      "section_5_header_page": 2,
+      "section_6_header_page": 3,
+      "section_7_header_page": 4,
+      "pending_trigger_page": 2,
+      "conviction_trigger_page": 3,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "fallback",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 4,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 42.3
+    },
+    "venigandla_ramu": {
+      "pdf": "venigandla_ramu.pdf",
+      "pdf_sha1": "6aabdd43ce2b0dc76487d002c747da24a3ce715c",
+      "total_pages": 25,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        5
+      ],
+      "conviction_pages": [
+        6,
+        7
+      ],
+      "section_5_header_page": 5,
+      "section_6_header_page": 6,
+      "section_7_header_page": 8,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 6,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 84.1
+    },
+    "venkata_mani_prasad_pullivarthi": {
+      "pdf": "venkata_mani_prasad_pullivarthi.pdf",
+      "pdf_sha1": "5ed3d73438d2f491770b9d0a2eafba3098d232eb",
+      "total_pages": 37,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "conviction_pages": [
+        15
+      ],
+      "section_5_header_page": 4,
+      "section_6_header_page": 15,
+      "section_7_header_page": 16,
+      "pending_trigger_page": 4,
+      "conviction_trigger_page": 15,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 31,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 70,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 110.2
+    },
+    "yarlagadda_venkata_rao": {
+      "pdf": "yarlagadda_venkata_rao.pdf",
+      "pdf_sha1": "f40e4e3db527887e058e39bdd510fd5955e0d9f7",
+      "total_pages": 34,
+      "extraction_method": "pdfplumber",
+      "pending_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "conviction_pages": [
+        10,
+        11,
+        12
+      ],
+      "section_5_header_page": 6,
+      "section_6_header_page": 10,
+      "section_7_header_page": 14,
+      "pending_trigger_page": 6,
+      "conviction_trigger_page": null,
+      "anchoring_method": {
+        "section_5": "fallback",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 2,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 1.7
+    },
+    "yalamanchili_satyanarayana_chowdary__sujana_chowdary_": {
+      "pdf": "yalamanchili_satyanarayana_chowdary__sujana_chowdary_.pdf",
+      "pdf_sha1": "e041bda4600c87921a80c766218bf031dd89f361",
+      "total_pages": 19,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 7,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 66.8
+    },
+    "yarapathineni_srinivasa_rao": {
+      "pdf": "yarapathineni_srinivasa_rao.pdf",
+      "pdf_sha1": "95f8223b778712114d8ff70c64f5b736bdba1f5d",
+      "total_pages": 29,
+      "extraction_method": "tesseract",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4,
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": 22,
+      "abstract_conviction_count": null,
+      "pending_table_style": null,
+      "conviction_table_style": null,
+      "pending_case_count_hint": null,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 88.3
+    },
+    "vishnu_kumar_raju_penmetsa": {
+      "pdf": "vishnu_kumar_raju_penmetsa.pdf",
+      "pdf_sha1": "14245ba60e5ccd02ff2f040634c718647b142b38",
+      "total_pages": 41,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3
+      ],
+      "conviction_pages": [
+        4
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
+      "section_7_header_page": 5,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 4,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "fallback"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 1,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 132.3
+    },
+    "yeluri_sambasiva_rao": {
+      "pdf": "yeluri_sambasiva_rao.pdf",
+      "pdf_sha1": "2a5dd94ffd218b17096d2ccb74fdfe18fedaee03",
+      "total_pages": 44,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 5,
+      "section_7_header_page": 6,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 5,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": null,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 12,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 85.2
+    },
+    "ys_jagan_mohan_reddy": {
+      "pdf": "ys_jagan_mohan_reddy.pdf",
+      "pdf_sha1": "6b379578a05ef0b8fa701c046140787617750ae2",
+      "total_pages": 43,
+      "extraction_method": "mixed",
+      "pending_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "conviction_pages": [
+        18
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 18,
+      "section_7_header_page": 19,
+      "pending_trigger_page": 3,
+      "conviction_trigger_page": 18,
+      "anchoring_method": {
+        "section_5": "header",
+        "section_6": "header",
+        "section_7": "header"
+      },
+      "abstract_pending_count": 29,
+      "abstract_conviction_count": null,
+      "pending_table_style": "style_3",
+      "conviction_table_style": null,
+      "pending_case_count_hint": 29,
+      "conviction_case_count_hint": null,
+      "annexure_pages": [],
+      "pending_from_annexure": false,
+      "status": "ok",
+      "scan_seconds": 104.1
+    }
+  },
+  "generated_at": "2026-05-12T06:34:34+00:00",
+  "total_pdfs": 175
+}

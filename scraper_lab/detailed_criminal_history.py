@@ -1,405 +1,477 @@
 import os
+import sys
 import json
 import re
-import pdfplumber
-import ocrmac.ocrmac as ocrmac
-from pdf2image import convert_from_path
-from concurrent.futures import ProcessPoolExecutor, as_completed
-import multiprocessing
 import tempfile
-from PIL import ImageFile
+from pathlib import Path
+from concurrent.futures import ProcessPoolExecutor, as_completed, TimeoutError as FuturesTimeoutError
+from datetime import datetime, timezone
 
-# Allow loading of truncated images found in some PDFs
+import pdfplumber
+from pdf2image import convert_from_path
+from PIL import Image, ImageFile
+import pytesseract
+import ollama
+
+# Ensure project root on sys.path so criminal_module is importable
+_PROJECT_ROOT = Path(__file__).parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+
+from criminal_module import (
+    CRIMINAL_PROMPT, CRIMINAL_VLM_PROMPT, build_criminal_text_prompt,
+    parse_criminal_json_response, build_criminal_summary,
+    PROMPT_VERSION,
+)
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True
+# --- CONFIGURATION ---
+DPI = 300
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "gemma3:4b")
+# PROMPT_VERSION imported from criminal_module — single source of truth, used in resume-skip key.
+# Style 3 ("CASE 1", "CASE 2"... separate-table-per-case) is detected deterministically below.
+_CASE_HEADER_RE = re.compile(r"\bCASE\s+0*(\d{1,3})\b", re.IGNORECASE)
+PER_PAGE_TIMEOUT_SECS = float(os.environ.get("VLM_PAGE_TIMEOUT", "600"))
+KEEP_ALIVE = os.environ.get("OLLAMA_KEEP_ALIVE", "30m")
+PER_CANDIDATE_TIMEOUT_SECS = float(os.environ.get("VLM_CAND_TIMEOUT", "1800"))  # 30 min hard cap
 
-# --- CATEGORIZATION LOGIC ---
-SERIOUS_IPC = [302, 304, 307, 323, 324, 325, 326, 332, 354, 363, 364, 365, 366, 376, 379, 380, 392, 395, 396, 411, 452, 506]
-CORRUPTION_IPC = [420, 406, 409, 467, 468, 471, 120] # 120B
-POLITICAL_IPC = [143, 147, 148, 149, 151, 188, 283, 341, 353]
-ELECTION_IPC = list(range(171, 180)) # 171A to 171I
-
-def classify_sections(sections_text):
-    text = str(sections_text).upper()
-    if not text or "NIL" in text or "NOT APPLICABLE" in text:
-        return "Minor/Other"
-    
-    # Extract all numbers
-    nums = [int(n) for n in re.findall(r"\b\d+\b", text)]
-    
-    # Priority 1: Serious/Violent
-    if any(n in SERIOUS_IPC for n in nums) or any(kw in text for kw in ["MURDER", "RAPE", "ATTEMPT TO", "DACOITY", "KIDNAP"]):
-        return "Serious/Violent"
-        
-    # Priority 2: Corruption
-    if any(n in CORRUPTION_IPC for n in nums) or any(kw in text for kw in ["PC ACT", "CHEATING", "FORGERY", "FRAUD"]):
-        return "Corruption & Fraud"
-        
-    # Priority 3: Election
-    if any(n in ELECTION_IPC for n in nums) or "REPRESENTATION OF THE PEOPLE" in text:
-        return "Election Offenses"
-        
-    # Priority 4: Political/Protest
-    if any(n in POLITICAL_IPC for n in nums) or "UNLAWFUL ASSEMBLY" in text or "RIOT" in text:
-        return "Political/Protest"
-    
-    return "Minor/Other"
+# --- OLLAMA AI HELPERS ---
+def get_client(timeout=PER_PAGE_TIMEOUT_SECS):
+    """Try multiple hosts to connect to Ollama on macOS."""
+    hosts = ['http://127.0.0.1:11434', 'http://localhost:11434']
+    for h in hosts:
+        try:
+            c = ollama.Client(host=h, timeout=timeout)
+            c.list()
+            return c
+        except Exception:
+            continue
+    return ollama.Client(timeout=timeout)
 
 
-# --- CONFIG ---
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PDF_DIR = os.path.join(PROJECT_ROOT, "public", "affidavits")
-CANDIDATES_JSON = os.path.join(PROJECT_ROOT, "src", "data", "candidates.json")
-OUT_JSON = os.path.join(PROJECT_ROOT, "src", "data", "criminal_details.json")
-PATCHES_JSON = os.path.join(PROJECT_ROOT, "src", "data", "criminal_patches.json")
+client = get_client()
+
+
+def call_ai_vision(image_path, prompt):
+    """Call local Ollama model for image-based reasoning (VLM)."""
+    try:
+        resp = client.chat(
+            model=OLLAMA_MODEL,
+            messages=[{"role": "user", "content": prompt, "images": [image_path]}],
+            keep_alive=KEEP_ALIVE,
+        )
+        return resp["message"]["content"]
+    except Exception as e:
+        print(f"    - Ollama Vision Error: {type(e).__name__}: {e}", flush=True)
+        return ""
+
+
+def call_ai_text(prompt):
+    """Call local Ollama model in text-only mode (no images)."""
+    try:
+        resp = client.chat(
+            model=OLLAMA_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            keep_alive=KEEP_ALIVE,
+        )
+        return resp["message"]["content"]
+    except Exception as e:
+        print(f"    - Ollama Text Error: {type(e).__name__}: {e}", flush=True)
+        return ""
+
+
+PROJECT_ROOT = Path(__file__).parent.parent
+PDF_DIR      = PROJECT_ROOT / "public" / "affidavits"
+CANDIDATES_JSON          = PROJECT_ROOT / "src" / "data" / "candidates.json"
+PATCHES_JSON             = PROJECT_ROOT / "src" / "data" / "criminal_patches.json"
+CRIMINAL_PAGES_INDEX     = PROJECT_ROOT / "src" / "data" / "criminal_pages_index.json"
+FAILED_JSONL             = PROJECT_ROOT / "src" / "data" / "failed_extractions.jsonl"
+FAILED_JSON              = PROJECT_ROOT / "src" / "data" / "failed_extractions.json"
+NEEDS_REVIEW_JSON        = PROJECT_ROOT / "src" / "data" / "needs_review_cases.json"
+
+
+def _safe_name(name):
+    return "".join(c if c.isalnum() else "_" for c in name).lower()
+
+
+def _source_stamp(model=None):
+    return f"VLM:{model or OLLAMA_MODEL}/{PROMPT_VERSION}"
+
+
+_pages_index_cache = None
+def load_pages_index():
+    global _pages_index_cache
+    if _pages_index_cache is None:
+        if not CRIMINAL_PAGES_INDEX.exists():
+            print(f"❌ Page index not found: {CRIMINAL_PAGES_INDEX}")
+            print("   Run: .venv/bin/python scraper_lab/find_criminal_pages.py")
+            _pages_index_cache = {"candidates": {}}
+        else:
+            with open(CRIMINAL_PAGES_INDEX, encoding="utf-8") as f:
+                _pages_index_cache = json.load(f)
+    return _pages_index_cache
+
 
 def load_patches():
-    if os.path.exists(PATCHES_JSON):
-        with open(PATCHES_JSON, "r") as f:
+    if PATCHES_JSON.exists():
+        with open(PATCHES_JSON) as f:
             return json.load(f)
     return {}
 
-def get_handwritten_text(pdf_path, page_num, cand_id="global"):
-    """Fallback: Converts a page to image and uses ocrmac for handwriting with unique temp names."""
-    images = convert_from_path(pdf_path, first_page=page_num+1, last_page=page_num+1, dpi=150)
-    temp_img = os.path.join(tempfile.gettempdir(), f"ocr_{cand_id}_{page_num}.png")
-    
+
+# --- PER-PAGE PIPELINE: OCR (Tesseract) -> text-only LLM ---
+# VLM pipeline was abandoned because all three local VLMs we could fit on M1/8GB failed:
+# qwen2.5vl:7b swap-thrashed, moondream:1.8b regurgitated prompt placeholders,
+# gemma3:4b hallucinated sequential FIRs (919, 920, 921...). Tesseract reads the
+# table reliably; gemma3:4b in text-only mode parses FIRs from that text correctly.
+def _process_page(pil_page, page_num, cand_id):
+    """Return (parsed_cases, ocr_text). ocr_text is kept so the caller can do
+    style detection (CASE-N headers etc.) and abstract-count cross-checks."""
+    temp_page = os.path.join(tempfile.gettempdir(), f"criminal_page_{cand_id}_{page_num}.png")
+    empty = {"pending": [], "convictions": []}
     try:
-        images[0].save(temp_img, "PNG")
-        annotations = ocrmac.OCR(temp_img).recognize()
-        full_text = " ".join([a[0] for a in annotations])
-        return full_text
+        pil_page.save(temp_page, "PNG")
+        try:
+            ocr_text = pytesseract.image_to_string(temp_page) or ""
+        except Exception as e:
+            print(f"    - Tesseract error page {page_num}: {type(e).__name__}: {e}", flush=True)
+            return empty, ""
+        if not ocr_text.strip():
+            return empty, ""
+        response = call_ai_text(build_criminal_text_prompt(ocr_text))
+        if not response:
+            return empty, ocr_text
+        parsed = parse_criminal_json_response(
+            response, page_num=page_num, method=f"OCR+LLM:{OLLAMA_MODEL}",
+        )
+        return parsed, ocr_text
+    except Exception as e:
+        print(f"    - Error in page {page_num}: {type(e).__name__}: {e}", flush=True)
+        return empty, ""
     finally:
-        if os.path.exists(temp_img):
-            os.remove(temp_img)
-    return ""
+        if os.path.exists(temp_page):
+            os.remove(temp_page)
+
+
+def _style3_case_count(ocr_texts):
+    """If the candidate uses Style 3 (one 'CASE N' table per case), return the
+    count of distinct CASE numbers seen. Returns 0 if Style 3 isn't detected
+    (fewer than 2 distinct CASE-N headers)."""
+    nums = set()
+    for t in ocr_texts:
+        for m in _CASE_HEADER_RE.finditer(t):
+            nums.add(int(m.group(1)))
+    return len(nums) if len(nums) >= 2 else 0
+
 
 def extract_criminal_details(pdf_path, cand_id="global"):
     cases = {"pending": [], "convictions": []}
-    unique_cases = set()
-    
+    safe_name = Path(pdf_path).stem
+
+    index = load_pages_index()
+    entry = index.get("candidates", {}).get(safe_name)
+
+    if not entry:
+        print(f"  - {safe_name}: no entry in page index — skipping.")
+        summary = build_criminal_summary(cases)
+        summary["status"] = "no_index_entry"
+        summary["reason"] = "candidate not present in criminal_pages_index.json"
+        summary["source"] = _source_stamp()
+        summary["extracted_at"] = datetime.now(timezone.utc).isoformat()
+        cases["summary"] = summary
+        return cases
+
+    if entry.get("status") == "headers_missed":
+        print(f"  - {safe_name}: index status=headers_missed — flagging for manual review.")
+        summary = build_criminal_summary(cases)
+        summary["status"] = "needs_manual_review"
+        summary["reason"] = "page index missed section headers"
+        summary["source"] = _source_stamp()
+        summary["extracted_at"] = datetime.now(timezone.utc).isoformat()
+        cases["summary"] = summary
+        return cases
+
+    pending_pages    = entry.get("pending_pages", []) or []
+    conviction_pages = entry.get("conviction_pages", []) or []
+    pages_to_process = sorted(set(pending_pages) | set(conviction_pages))
+
+    if not pages_to_process:
+        print(f"  - {safe_name}: index has no case pages — recording 0 cases.")
+        summary = build_criminal_summary(cases)
+        summary["source"] = _source_stamp()
+        summary["extracted_at"] = datetime.now(timezone.utc).isoformat()
+        cases["summary"] = summary
+        return cases
+
+    print(f"  - {safe_name}: {len(pending_pages)} pending + {len(conviction_pages)} conviction page(s) "
+          f"from index (pages {pages_to_process})", flush=True)
+
+    pending_set = set(pending_pages)
+    pending_ocr_texts = []
     try:
-        print(f"  - Opening PDF: {os.path.basename(pdf_path)}")
-        with pdfplumber.open(pdf_path) as pdf:
-            total_pgs = len(pdf.pages)
-            print(f"  - Total pages: {total_pgs}. Scanning all pages for keywords...")
-            
-            in_criminal_section = False
-            for i in range(total_pgs):
-                page = pdf.pages[i]
-                print(f"    - Checking page {i+1}/{total_pgs}...", end="\r")
-                text = page.extract_text() or ""
-                ocr_taken = False
-                
-                # DEEP SCAN FALLBACK: If we know they have cases but keep finding 0, 
-                # or if the text looks like garbage, force OCR.
-                words = re.findall(r'\b\w{3,}\b', text.lower())
-                is_garbage = len(text) > 150 and len(words) < 5 
-                
-                # Deep Scan: If this is a re-run for a 0-case candidate, we might force OCR here
-                # (Logic handled in process_single_candidate by passing a flag if needed)
-                
-                if len(text.strip()) < 150 or is_garbage:
-                    text = get_handwritten_text(pdf_path, i, cand_id)
-                    ocr_taken = True
-                
-                # Check for section headers AND table-column headers
-                has_record_headers = any(re.search(kw, text, re.I) for kw in [
-                    r"FIR\s*No", r"Crime\s*No", r"Police\s*Station", r"Section", r"U/S"
-                ])
-                
-                if any(re.search(kw, text, re.I) for kw in [
-                    r"\(5\)\s*pending", r"pending\s*criminal\s*cases", 
-                    r"cases\s*of\s*conviction", r"\(6\)\s*cases",
-                    r"Details\s*of\s*pending", r"criminal\s*cases\s*against",
-                    r"item\s*5", r"5\s*pending"
-                ]) or (re.search(r"pending", text, re.I) and re.search(r"criminal", text, re.I)) or has_record_headers:
-                    in_criminal_section = True
-                
-                # Exit capture mode if we hit Assets or Liabilities (only if we're well past the headers)
-                if i > 2 and any(re.search(kw, text, re.I) for kw in [r"\(7\)\s*Details", r"\(8\)\s*Details", r"ASSETS\s*AND\s*LIABILITIES"]):
-                    if not has_record_headers: # Don't exit if we still see FIR/Crime headers on this page
-                         in_criminal_section = False
-
-                is_criminal_pg = in_criminal_section or any(re.search(kw, text, re.I) for kw in [
-                    r"FIR\s*No", r"Police\s*Station", r"IPC", r"CrPC", r"U/S", r"Section\s*\d+", r"CR\.NO", r"CRIME\s*NO"
-                ])
-                
-                if is_criminal_pg:
-                    tables = []
-                    # Only try digital table extraction if we didn't already OCR the page
-                    if not ocr_taken:
-                        tables = page.extract_tables()
-                    
-                    if not tables or not any(len(t) > 0 for t in tables):
-                        # Split by case numbers or bullet points
-                        blocks = re.split(r"(?:\n\s*\d+[\.\)]|\n\s*\(?[a-z]\)|\n\s*\(v?i+\))", text)
-                        for block in blocks:
-                            if any(k in block.upper() for k in ["FIR", "IPC", "SECTION", "P.S", "POLICE", "U/S", "CR.NO", "CRIME NO", "COURT"]):
-                                clean_block = block.strip().replace("\n", " ")
-                                if any(dec in clean_block.upper() for dec in ["I ALSO DECLARE", "I HEREBY DECLARE"]): continue
-                                
-                                # Try to find a unique identifier for deduplication
-                                fir_match = re.search(r"(\d+)\s*[/|of|-]\s*(\d{2,4})", clean_block)
-                                ps_match = re.search(r"P\.S|Police\s*Station\s*[:\-]\s*([A-Za-z\s]+)", clean_block, re.I)
-                                ps_name = (ps_match.group(1).strip() if ps_match and ps_match.group(1) else "")
-                                
-                                # Highly specific key: (FIR, Year, Police Station, First 20 chars of text)
-                                fir_key = (fir_match.group(1), fir_match.group(2), ps_name.lower()) if fir_match else (clean_block[:100].lower())
-                                
-                                if fir_key not in unique_cases:
-                                    unique_cases.add(fir_key)
-                                    target = "convictions" if "CONVICT" in clean_block.upper() else "pending"
-                                    cases[target].append({
-                                        "raw_text": clean_block[:1000],
-                                        "page": i+1,
-                                        "method": "Text/OCR"
-                                    })
-                        if tables:
-                            for table in tables:
-                                if not table: continue
-                                
-                                # Check if this is a VERTICAL table (columns are cases)
-                                # Look for vertical headers in the first 2 columns
-                                is_vertical = False
-                                for row in table[:min(15, len(table))]:
-                                    row_head = " ".join([str(c) for c in row[:2] if c is not None]).upper()
-                                    if "DESCRIPTION OF OFFENCE" in row_head or "BRIEF DESCRIPTION" in row_head or "SECTION" in row_head:
-                                        is_vertical = True
-                                        break
-                                
-                                if is_vertical:
-                                    # Transpose the table: columns become rows
-                                    num_cols = len(table[0])
-                                    transposed = []
-                                    # Skip the first 2 header columns (a, b, c, d label columns)
-                                    for col_idx in range(2, num_cols):
-                                        new_row = [str(table[r][col_idx]) for r in range(len(table)) if col_idx < len(table[r])]
-                                        transposed.append(new_row)
-                                    rows_to_process = transposed
-                                else:
-                                    rows_to_process = table
-
-                                for row in rows_to_process:
-                                    if not row: continue
-                                    # Safe cell cleaning: ignore None cells
-                                    clean_row = [str(cell).strip() for cell in row if cell is not None]
-                                    row_str = " ".join(clean_row)
-                                    if any(kw in row_str.upper() for kw in ["IPC", "SECTION", "COURT", "CASE", "FIR", "U/S", "CR.NO", "CRIME NO", "POLICE", "PS"]):
-                                        # Deduplicate tables
-                                        fir_match = re.search(r"(\d+)\s*[/|of|-]\s*(\d{2,4})", row_str)
-                                        fir_key = fir_match.groups() if fir_match else row_str[:50]
-                                        
-                                        # Try to find description column
-                                        description = ""
-                                        desc_keywords = ["DESCRIPTION", "OFFENCE", "NATURE", "DETAILS", "IPC"]
-                                        
-                                        # If vertical, the 'row' itself is the case data, just find the longest non-header part
-                                        if is_vertical:
-                                            # Filter out common header-like text
-                                            description = " ".join([c for c in clean_row if len(c) > 30 and "DESCRIPTION" not in c.upper()])
-                                        else:
-                                            for idx, cell in enumerate(clean_row):
-                                                if any(dk in cell.upper() for dk in desc_keywords) and len(cell) > 20:
-                                                    description = cell
-                                                    break
-                                        
-                                        if not description and len(clean_row) > 1:
-                                            description = max(clean_row, key=len)
-
-                                        if fir_key not in unique_cases:
-                                            unique_cases.add(fir_key)
-                                            target = "convictions" if "CONVICT" in row_str.upper() else "pending"
-                                            cases[target].append({
-                                                "raw_text": row_str[:1000],
-                                                "description": description[:500],
-                                                "page": i+1,
-                                                "method": "Table"
-                                            })
-            
-            # Categorize and Summarize
-            summary = {
-                "num_criminal_cases": len(cases["pending"]),
-                "num_convictions": len(cases["convictions"]),
-                "pending_by_category": {
-                    "Serious/Violent": 0, "Corruption & Fraud": 0, "Political/Protest": 0, "Election Offenses": 0, "Minor/Other": 0
-                }
-            }
-            
-            # Advanced De-duplication Logic
-            for key in ["pending", "convictions"]:
-                unique_cases = []
-                seen_signatures = set()
-                
-                for c in cases[key]:
-                    # NORMALIZE SIGNATURE
-                    fir = str(c.get('fir_no', '')).upper()
-                    raw = str(c.get('raw_text', '')).upper()
-                    sect = str(c.get('sections', '')).upper()
-                    
-                    combined_text = (fir + " " + raw + " " + sect).replace(" ", "")
-                    # Extract Number and Year
-                    fir_match = re.search(r"(\d+)\s*[/|of|-]\s*(\d{2,4})", combined_text)
-                    
-                    if fir_match:
-                        num = str(int(fir_match.group(1)))
-                        year = fir_match.group(2)
-                        if len(year) == 2: year = "20" + year
-                        combined_sig = f"{num}/{year}"
-                    else:
-                        # If no FIR, we only count it if it's high-confidence text
-                        if len(raw) < 50: continue # Ignore snippets
-                        combined_sig = re.sub(r'[^A-Z0-9]+', '', raw)[:50]
-                    
-                    if combined_sig and combined_sig not in seen_signatures:
-                        seen_signatures.add(combined_sig)
-                        unique_cases.append(c)
-                
-                cases[key] = unique_cases
-
-            # Update Summary with De-duplicated counts
-            summary["num_criminal_cases"] = len(cases["pending"])
-            summary["num_convictions"] = len(cases["convictions"])
-            for item in cases["pending"]:
-                cat = classify_sections(item.get("sections", "") or item.get("raw_text", ""))
-                item["category"] = cat
-                summary["pending_by_category"][cat] += 1
-            cases["summary"] = summary
-
+        for page_num in pages_to_process:
+            print(f"    Processing page {page_num}...", flush=True)
+            images = convert_from_path(
+                pdf_path, first_page=page_num, last_page=page_num, dpi=DPI
+            )
+            if not images:
+                continue
+            page_result, ocr_text = _process_page(images[0], page_num=page_num, cand_id=str(cand_id))
+            cases["pending"].extend(page_result["pending"])
+            cases["convictions"].extend(page_result["convictions"])
+            if page_num in pending_set:
+                pending_ocr_texts.append(ocr_text)
     except Exception as e:
-        print(f"\n  - Error processing {pdf_path}: {e}")
-    
+        import traceback
+        traceback.print_exc()
+        print(f"\n  - Error processing {pdf_path}: {e}", flush=True)
+
+    summary = build_criminal_summary(cases)
+    extracted_count = summary["num_criminal_cases"]
+
+    # --- Count reconciliation (priority: candidate's own abstract > Style-3 header count > LLM extraction) ---
+    abstract_count = entry.get("abstract_pending_count")
+    style3_count = _style3_case_count(pending_ocr_texts)
+    count_source = "extraction"
+    if isinstance(abstract_count, int) and abstract_count > 0:
+        summary["num_criminal_cases"] = abstract_count
+        count_source = "abstract"
+    elif style3_count and style3_count != extracted_count:
+        summary["num_criminal_cases"] = style3_count
+        count_source = "style3_headers"
+    summary["count_source"] = count_source
+    summary["extracted_count"] = extracted_count
+    if abstract_count is not None:
+        summary["abstract_count"] = abstract_count
+    if style3_count:
+        summary["style3_count"] = style3_count
+
+    summary["source"] = _source_stamp()
+    summary["extracted_at"] = datetime.now(timezone.utc).isoformat()
+    cases["summary"] = summary
     return cases
 
-# --- MAIN EXECUTION ---
-def main():
-    if not os.path.exists(CANDIDATES_JSON):
-        print(f"Error: {CANDIDATES_JSON} not found.")
-        return
-
-    with open(CANDIDATES_JSON, 'r', encoding='utf-8') as f:
-        candidates = json.load(f)
-
-    # --- MIGRATION LOGIC ---
-    # If the old log file exists, merge it into candidates.json and then we will delete it
-    if os.path.exists(OUT_JSON):
-        print(f"Migrating data from {os.path.basename(OUT_JSON)} into candidates.json...")
-        try:
-            with open(OUT_JSON, 'r', encoding='utf-8') as f:
-                old_details = json.load(f)
-            
-            for cand in candidates:
-                cid = str(cand["id"])
-                if cid in old_details:
-                    cand["criminal_summary"] = old_details[cid].get("summary")
-                    cand["criminal_details_pending"] = old_details[cid].get("pending", [])
-                    cand["criminal_details_convictions"] = old_details[cid].get("convictions", [])
-            
-            # Save the migrated data immediately
-            with open(CANDIDATES_JSON, 'w', encoding='utf-8') as f:
-                json.dump(candidates, f, indent=2)
-            
-            # Delete the old file as requested
-            os.remove(OUT_JSON)
-            print(f"Migration complete. {os.path.basename(OUT_JSON)} has been removed.")
-        except Exception as e:
-            print(f"Warning during migration: {e}")
 
 def process_single_candidate(cand):
-    """Worker function for parallel processing."""
     try:
-        safe_name = "".join([c if c.isalnum() else "_" for c in cand['name']]).lower()
-        
-        # CHECK FOR MANUAL PATCH FIRST
+        safe_name = _safe_name(cand["name"])
+
         patches = load_patches()
         if safe_name in patches:
             patch = patches[safe_name]
-            print(f"  - Using manual patch for {cand['name']} ({patch['num_criminal_cases']} cases)")
-            results = {
+            print(f"  - Using manual patch for {cand['name']} ({patch['num_criminal_cases']} cases)", flush=True)
+            return cand["id"], {
                 "summary": {
-                    "num_criminal_cases": patch['num_criminal_cases'],
-                    "num_convictions": patch['num_convictions'],
-                    "pending_by_category": {"Patched": patch['num_criminal_cases']},
-                    "source": patch.get("source", "Manual Patch")
+                    "num_criminal_cases": patch["num_criminal_cases"],
+                    "num_convictions": patch["num_convictions"],
+                    "pending_by_category": {"Patched": patch["num_criminal_cases"]},
+                    "source": patch.get("source", "Manual Patch"),
                 },
                 "pending": [],
-                "convictions": []
-            }
-            return cand['id'], results, "Success"
+                "convictions": [],
+            }, "Success"
 
-        pdf_path = os.path.join(PDF_DIR, f"{safe_name}.pdf")
-        if not os.path.exists(pdf_path):
-            return cand['id'], None, "Missing PDF"
+        pdf_path = PDF_DIR / f"{safe_name}.pdf"
+        if not pdf_path.exists():
+            return cand["id"], None, "Missing PDF"
 
-        results = extract_criminal_details(pdf_path, cand['id'])
-        return cand['id'], results, "Success"
+        results = extract_criminal_details(str(pdf_path), cand["id"])
+        return cand["id"], results, "Success"
     except Exception as e:
-        return cand['id'], None, str(e)
+        return cand["id"], None, f"{type(e).__name__}: {e}"
+
+
+# --- ATOMIC SAVE ---
+def _atomic_write_json(path, data):
+    """Write JSON atomically: temp file in same dir, fsync, rename."""
+    path = Path(path)
+    fd, tmp = tempfile.mkstemp(prefix=path.name + ".", dir=str(path.parent))
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except Exception:
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        raise
+
+
+def _rebuild_needs_review(candidates):
+    needs_review_cases = []
+    for cand in candidates:
+        for case in cand.get("criminal_details_pending", []) or []:
+            if case.get("needs_review"):
+                needs_review_cases.append({
+                    "candidate_id": cand["id"], "candidate_name": cand["name"],
+                    "type": "pending", "case": case,
+                })
+        for case in cand.get("criminal_details_convictions", []) or []:
+            if case.get("needs_review"):
+                needs_review_cases.append({
+                    "candidate_id": cand["id"], "candidate_name": cand["name"],
+                    "type": "conviction", "case": case,
+                })
+    if needs_review_cases:
+        _atomic_write_json(NEEDS_REVIEW_JSON, needs_review_cases)
+    elif NEEDS_REVIEW_JSON.exists():
+        os.remove(NEEDS_REVIEW_JSON)
+
+
+def commit_candidate(candidates, cand_id, result):
+    """Apply one candidate's result to the candidates list and atomic-save the whole file."""
+    cid = str(cand_id)
+    for cand in candidates:
+        if str(cand["id"]) == cid:
+            cand["criminal_summary"]             = result.get("summary")
+            cand["criminal_details_pending"]     = result.get("pending", [])
+            cand["criminal_details_convictions"] = result.get("convictions", [])
+            break
+    _atomic_write_json(CANDIDATES_JSON, candidates)
+    _rebuild_needs_review(candidates)
+
+
+def append_failure(record):
+    record = dict(record)
+    record["timestamp"] = datetime.now(timezone.utc).isoformat()
+    with open(FAILED_JSONL, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record) + "\n")
+
+
+def consolidate_failures():
+    """Read the streaming JSONL into a single JSON list for compatibility."""
+    if not FAILED_JSONL.exists():
+        return 0
+    failures = []
+    with open(FAILED_JSONL, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                failures.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    _atomic_write_json(FAILED_JSON, failures)
+    return len(failures)
+
+
+# --- ARGS ---
+def _parse_args():
+    import argparse
+    p = argparse.ArgumentParser(description="Extract criminal-case details from affidavit PDFs.")
+    p.add_argument("--only", type=str, default=None,
+                   help="Process only the candidate whose safe_name matches.")
+    p.add_argument("--limit", type=int, default=None,
+                   help="Process at most N candidates (after --only filtering).")
+    p.add_argument("--workers", type=int, default=1,
+                   help="Parallel worker processes. Default 1 (recommended for CPU-bound Ollama).")
+    p.add_argument("--model", type=str, default=os.environ.get("OLLAMA_MODEL", "gemma3:4b"),
+                   help="Ollama model tag for the text-mode parsing step (default gemma3:4b).")
+    p.add_argument("--resume", action="store_true",
+                   help="Skip candidates already extracted by this model+prompt-version.")
+    return p.parse_args()
+
 
 def main():
-    with open(CANDIDATES_JSON, 'r', encoding='utf-8') as f:
+    args = _parse_args()
+
+    # Propagate --model into the env so worker processes (which re-import this module) see it.
+    os.environ["OLLAMA_MODEL"] = args.model
+    global OLLAMA_MODEL
+    OLLAMA_MODEL = args.model
+
+    if args.workers > 1:
+        print("⚠️  --workers > 1 with a single Ollama runner usually does NOT speed things up "
+              "and has caused worker crashes in the past. Default of 1 recommended.", flush=True)
+
+    with open(CANDIDATES_JSON, encoding="utf-8") as f:
         candidates = json.load(f)
 
-    # 1. Process EVERYONE (All 175)
-    to_process = candidates
-    total_queue = len(to_process)
-    print(f"🚀 Full Scan: Processing ALL {total_queue} candidates.")
-    
-    if total_queue == 0:
-        print("✅ All candidates already match website counts. Nothing to do!")
-        return
-
-    # 2. Parallel Processing
-    cpus = max(1, multiprocessing.cpu_count() - 1)
-    print(f"⚡ Using {cpus} CPU cores for parallel OCR...")
-    
-    results_map = {}
     try:
-        with ProcessPoolExecutor(max_workers=cpus) as executor:
-            # Store (id, name) in the mapping
-            futures = {executor.submit(process_single_candidate, cand): (cand['id'], cand['name']) for cand in to_process}
-            
-            count = 0
-            for future in as_completed(futures):
-                try:
-                    cid, cname = futures[future]
-                    cand_id, results, status = future.result()
-                    
-                    if status == "Success" and results and 'summary' in results:
-                        count += 1
-                        print(f"  [{count}/{total_queue}] Finished {cname} ({results['summary']['num_criminal_cases']} cases)")
-                        results_map[str(cid)] = results
-                    else:
-                        print(f"  - Failed processing {cname}: {status}")
-
-                    # Intermediate save every 10 completions
-                    if count % 10 == 0:
-                        update_and_save(candidates, results_map)
-                        results_map = {}
-                except Exception as e:
-                    print(f"  - Future failed: {e}")
-    except KeyboardInterrupt:
-        print("\n\n🛑 STOPPING: Ctrl+C detected. Shutting down workers...")
-        executor.shutdown(wait=False, cancel_futures=True)
-        update_and_save(candidates, results_map)
-        print("Done. Some processes may take a few seconds to exit.")
+        client.list()
+        print("✅ Ollama is running.", flush=True)
+    except Exception as e:
+        print(f"❌ Ollama not reachable: {e}", flush=True)
         return
 
-    # Final save
-    update_and_save(candidates, results_map)
-    print("\n🏁 Turbo Scan Complete!")
+    to_process = candidates
+    if args.only:
+        to_process = [c for c in to_process if _safe_name(c["name"]) == args.only]
+        if not to_process:
+            print(f"❌ No candidate matched --only={args.only}")
+            return
 
-def update_and_save(candidates, results_map):
-    """Helper to update the main candidate list with new results."""
-    for cand in candidates:
-        cid_str = str(cand['id'])
-        if cid_str in results_map:
-            res = results_map[cid_str]
-            cand["criminal_summary"] = res.get("summary")
-            cand["criminal_details_pending"] = res.get("pending", [])
-            cand["criminal_details_convictions"] = res.get("convictions", [])
-            
-    with open(CANDIDATES_JSON, 'w', encoding='utf-8') as f:
-        json.dump(candidates, f, indent=2)
+    if args.resume:
+        target_stamp = _source_stamp(args.model)
+        before = len(to_process)
+        to_process = [
+            c for c in to_process
+            if (c.get("criminal_summary") or {}).get("source") != target_stamp
+        ]
+        print(f"↪️  --resume: skipping {before - len(to_process)} candidates already at {target_stamp}", flush=True)
+
+    if args.limit is not None:
+        to_process = to_process[: args.limit]
+
+    total_queue = len(to_process)
+    workers = max(1, args.workers)
+    label = f"--only {args.only}" if args.only else f"ALL {total_queue}"
+    print(f"🚀 Processing {label} candidates "
+          f"(model={args.model}, workers={workers}, prompt={PROMPT_VERSION})", flush=True)
+
+    if total_queue == 0:
+        print("✅ Nothing to do.")
+        return
+
+    completed = 0
+    success_count = 0
+    failure_count = 0
+    name_by_id = {str(c["id"]): c["name"] for c in candidates}
+
+    def _handle_result(cand_id, results, status):
+        nonlocal completed, success_count, failure_count
+        completed += 1
+        cand_name = name_by_id.get(str(cand_id), str(cand_id))
+        if status == "Success" and results and "summary" in results:
+            success_count += 1
+            num = results["summary"].get("num_criminal_cases", 0)
+            print(f"  [{completed}/{total_queue}] ✅ {cand_name} ({num} cases)", flush=True)
+            commit_candidate(candidates, cand_id, results)
+        else:
+            failure_count += 1
+            print(f"  [{completed}/{total_queue}] ❌ {cand_name}: {status}", flush=True)
+            append_failure({"id": cand_id, "name": cand_name, "reason": str(status)})
+
+    try:
+        if workers == 1:
+            for cand in to_process:
+                cand_id, results, status = process_single_candidate(cand)
+                _handle_result(cand_id, results, status)
+        else:
+            with ProcessPoolExecutor(max_workers=workers) as pool:
+                futures = {pool.submit(process_single_candidate, c): c for c in to_process}
+                for fut in as_completed(futures):
+                    c = futures[fut]
+                    try:
+                        cand_id, results, status = fut.result(timeout=PER_CANDIDATE_TIMEOUT_SECS)
+                    except FuturesTimeoutError:
+                        cand_id, results, status = c["id"], None, (
+                            f"timeout after {PER_CANDIDATE_TIMEOUT_SECS:.0f}s "
+                            f"(worker may be hung; persisting partial state)"
+                        )
+                    except Exception as e:
+                        cand_id, results, status = c["id"], None, f"{type(e).__name__}: {e}"
+                    _handle_result(cand_id, results, status)
+    except KeyboardInterrupt:
+        print("\n\n🛑 STOPPING: Ctrl+C detected. Partial state already saved per-candidate.", flush=True)
+
+    consolidated = consolidate_failures()
+    print(f"\n🏁 Done. Success: {success_count}, Failed: {failure_count}, "
+          f"Failure log: {FAILED_JSONL.name} ({consolidated} entries consolidated to {FAILED_JSON.name})",
+          flush=True)
+
 
 if __name__ == "__main__":
     main()
