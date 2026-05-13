@@ -6,12 +6,15 @@
 :root {
   color-scheme: light;
 
-  /* Surface Hierarchy */
-  --surface: #f8faf7;
-  --surface-container-low: #f2f4f1;
-  --surface-container: #eceeeb;
-  --surface-container-high: #e7e9e6;
-  --surface-container-highest: #e1e3e0;
+  /* Surface Hierarchy — the page sits a few shades down from pure-white card
+     stock so cards visibly lift off the canvas instead of melting into it.
+     The whole ramp is shifted ~3-5% darker (still well within "light theme")
+     while keeping the same desaturated green tint. */
+  --surface: #e8ece5;
+  --surface-container-low: #dde2d9;
+  --surface-container: #d4dacf;
+  --surface-container-high: #ced4c9;
+  --surface-container-highest: #c8cec3;
   --surface-container-lowest: #ffffff;
   --surface-dim: rgba(255, 255, 255, 0.9);
 
@@ -22,7 +25,7 @@
   --on-surface: #191c1b;
   --on-surface-variant: #434841;
   --outline: #737970;
-  --outline-variant: rgba(195, 200, 190, 0.15);
+  --outline-variant: rgba(110, 120, 105, 0.22);
   --error: #ba1a1a;
   --error-container: rgba(255, 218, 214, 0.3);
 
@@ -32,6 +35,28 @@
   --jsp: #e63946;
   --bjp: #f97316;
   --inc: #0ea5e9;
+
+  /* Ministry sector palette — deep brand hexes for the light theme; .dark-theme
+     overrides each to a Tailwind-400-ish brightened shade so chip text reads
+     well over the dark slate-green surface. Mirrors the YSRCP brightening
+     pattern below. Consumed via `sectorColor()` in src/data/mockData.js. */
+  --sector-governance:     #64748b;
+  --sector-finance:        #059669;
+  --sector-home:           #dc2626;
+  --sector-health:         #e11d48;
+  --sector-education:      #4f46e5;
+  --sector-technology:     #2563eb;
+  --sector-agriculture:    #65a30d;
+  --sector-rural:          #0d9488;
+  --sector-urban:          #0891b2;
+  --sector-infrastructure: #ea580c;
+  --sector-industry:       #b45309;
+  --sector-energy:         #ca8a04;
+  --sector-environment:    #15803d;
+  --sector-transport:      #0284c7;
+  --sector-tourism:        #9333ea;
+  --sector-food:           #db2777;
+  --sector-welfare:        #7c3aed;
 
   /* Elevation — full box-shadow strings, re-tuned in .dark-theme so cards and
      panels keep their depth on a near-black surface (plain black shadows there
@@ -73,6 +98,25 @@
   /* Party colours: YSRCP's deep navy (#00249c) all but disappears on the
      near-black surface, so brighten it for dark mode. The rest read fine. */
   --ysrcp: #5b8def;
+
+  /* Sector chips — brighter shades so chip text & tint pop on dark slate. */
+  --sector-governance:     #cbd5e1;
+  --sector-finance:        #34d399;
+  --sector-home:           #f87171;
+  --sector-health:         #fb7185;
+  --sector-education:      #818cf8;
+  --sector-technology:     #60a5fa;
+  --sector-agriculture:    #a3e635;
+  --sector-rural:          #2dd4bf;
+  --sector-urban:          #22d3ee;
+  --sector-infrastructure: #fb923c;
+  --sector-industry:       #fbbf24;
+  --sector-energy:         #facc15;
+  --sector-environment:    #4ade80;
+  --sector-transport:      #38bdf8;
+  --sector-tourism:        #c084fc;
+  --sector-food:           #f472b6;
+  --sector-welfare:        #a78bfa;
 
   /* Shadows on dark need to be much heavier and pick up a faint hairline ring
      to read as elevation rather than nothing. */
@@ -609,6 +653,7 @@ h6,
   padding: 1.5rem;
   position: relative;
   border: 1px solid var(--outline-variant);
+  box-shadow: var(--shadow-1);
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   cursor: pointer;
   display: flex;

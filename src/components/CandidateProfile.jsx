@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import candidates from '../data/candidates.json';
-import { partyColors, partyColor as partyColorVar } from '../data/mockData';
+import { partyColors, partyColor as partyColorVar, sectorColor, sectorLabel } from '../data/mockData';
 
 const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const { id } = useParams();
@@ -24,8 +24,10 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
   // Fallback for missing fields in leaders.json
   const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyHex.replace('#', '')}&color=fff&size=200`;
+  const ministries = Array.isArray(candidate.ministries) ? candidate.ministries : [];
+  const primaryMinistry = ministries[0] || null;
   const displayRole = candidate.role || "Member of Legislative Assembly";
-  const displayMinistry = candidate.ministry || "Legislative Leader";
+  const displayMinistry = primaryMinistry?.name || candidate.ministry || "Legislative Leader";
   const displayCriminalCases = candidate.criminal_cases || "0";
   const displayEducation = candidate.education || "Information not available";
   const displayProfession = candidate.profession || "Information not available";
@@ -188,6 +190,58 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Profession</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayProfession}</p>
                 </div>
+
+                {/* Portfolios held — sector-coloured chips, primary first */}
+                {ministries.length > 0 && (
+                  <div style={{ gridColumn: 'span 3' }}>
+                    <p className="label-sm text-outline" style={{ marginBottom: '0.75rem' }}>
+                      Portfolios held{ministries.length > 1 ? ` (${ministries.length})` : ''}
+                    </p>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem' }}>
+                      {ministries.map((m, idx) => {
+                        const hex = sectorColor(m.sector);
+                        return (
+                          <span
+                            key={`${m.name}-${idx}`}
+                            title={sectorLabel(m.sector)}
+                            style={{
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '0.55rem',
+                              fontSize: '0.975rem',
+                              fontWeight: idx === 0 ? 700 : 600,
+                              padding: '0.6rem 1.1rem',
+                              borderRadius: '9999px',
+                              background: `color-mix(in srgb, ${hex} ${idx === 0 ? 22 : 14}%, transparent)`,
+                              color: hex,
+                              border: `1px solid color-mix(in srgb, ${hex} ${idx === 0 ? 45 : 28}%, transparent)`,
+                            }}
+                          >
+                            <span
+                              style={{
+                                width: '0.65rem',
+                                height: '0.65rem',
+                                borderRadius: '9999px',
+                                backgroundColor: hex,
+                                display: 'inline-block',
+                              }}
+                            />
+                            {m.name}
+                            {idx === 0 && ministries.length > 1 && (
+                              <span style={{
+                                fontSize: '0.72rem',
+                                fontWeight: 700,
+                                letterSpacing: '0.06em',
+                                textTransform: 'uppercase',
+                                opacity: 0.78,
+                              }}>Primary</span>
+                            )}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
 
                 {/* Social Media Links */}
                 {(candidate.social_media?.facebook || candidate.social_media?.instagram || candidate.social_media?.x || candidate.social_media?.email || candidate.social_media?.youtube) && (

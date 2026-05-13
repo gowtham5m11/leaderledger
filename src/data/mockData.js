@@ -22,6 +22,35 @@ export const partyColors = {
 export const partyColor = (party) =>
   party === "YSRCP" ? "var(--ysrcp)" : (partyColors[party] || "var(--outline)");
 
+// Sector taxonomy for cabinet portfolios. Each sector has a label and a base
+// hue used for the chip background / text on both themes (the chip uses
+// color-mix with --surface so the same hex reads well in light & dark).
+export const sectorMeta = {
+  governance:     { label: "Governance",     color: "#64748b" }, // slate
+  finance:        { label: "Finance",        color: "#059669" }, // emerald
+  home:           { label: "Home & Justice", color: "#dc2626" }, // red
+  health:         { label: "Health",         color: "#e11d48" }, // rose
+  education:      { label: "Education",      color: "#4f46e5" }, // indigo
+  technology:     { label: "Technology",     color: "#2563eb" }, // blue
+  agriculture:    { label: "Agriculture",    color: "#65a30d" }, // lime
+  rural:          { label: "Rural Dev",      color: "#0d9488" }, // teal
+  urban:          { label: "Urban Dev",      color: "#0891b2" }, // cyan
+  infrastructure: { label: "Infrastructure", color: "#ea580c" }, // orange
+  industry:       { label: "Industry",       color: "#b45309" }, // amber
+  energy:         { label: "Energy",         color: "#ca8a04" }, // yellow
+  environment:    { label: "Environment",    color: "#15803d" }, // green
+  transport:      { label: "Transport",      color: "#0284c7" }, // sky
+  tourism:        { label: "Tourism",        color: "#9333ea" }, // purple
+  food:           { label: "Food & Supplies", color: "#db2777" }, // pink
+  welfare:        { label: "Welfare",        color: "#7c3aed" }, // violet
+};
+
+// Returns a theme-aware CSS variable so chips brighten in .dark-theme without
+// per-component logic. Falls back to --outline for unknown sectors.
+export const sectorColor = (sector) =>
+  sectorMeta[sector] ? `var(--sector-${sector})` : "var(--outline)";
+export const sectorLabel = (sector) => (sectorMeta[sector]?.label) || sector;
+
 export const getDistrictData = (name) => {
   if (!name) return {};
   const cleanName = name.trim().toLowerCase();

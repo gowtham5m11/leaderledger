@@ -82,7 +82,7 @@ const Header = ({ theme, toggleTheme }) => {
           <Search className="header-search-icon" size={18} aria-hidden="true" />
           <input
             type="text"
-            placeholder="Search candidate or constituency…"
+            placeholder="Search candidate, constituency or ministry…"
             value={query}
             onChange={onSearchChange}
             aria-label="Search candidates and constituencies"

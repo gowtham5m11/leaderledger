@@ -22,8 +22,13 @@ const CandidateList = () => {
   const filteredLeaders = candidates
     .filter((l) => {
       if (!query) return true;
-      return (l.name || '').toLowerCase().includes(query)
-        || (l.constituency || '').toLowerCase().includes(query);
+      const matchesName = (l.name || '').toLowerCase().includes(query);
+      const matchesConstituency = (l.constituency || '').toLowerCase().includes(query);
+      const matchesMinistry = (l.ministries || []).some(m => 
+        (m.name || '').toLowerCase().includes(query)
+      );
+      
+      return matchesName || matchesConstituency || matchesMinistry;
     })
     .slice()
     .sort((a, b) => getPriorityIndex(a.name) - getPriorityIndex(b.name));
@@ -59,9 +64,7 @@ const CandidateList = () => {
             <div>
               <span className="label-sm text-primary">Live Status</span>
               <h3 className="title-md" style={{ marginTop: '0.25rem' }}>
-                {query
-                  ? `${filteredLeaders.length} matching “${rawQuery}”`
-                  : `${candidates.length} MLAs Tracked`}
+                {candidates.length} MLAs Tracked
               </h3>
             </div>
           </div>
@@ -81,7 +84,7 @@ const CandidateList = () => {
             <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '4rem 0', opacity: 0.6 }}>
                <span className="material-symbols-outlined" style={{ fontSize: '4rem', marginBottom: '1rem', display: 'block' }}>search_off</span>
                <p className="headline-md">No leaders found matching “{rawQuery}”</p>
-               <p className="body-md text-on-surface-variant" style={{ marginTop: '0.5rem' }}>Try a different name or constituency.</p>
+               <p className="body-md text-on-surface-variant" style={{ marginTop: '0.5rem' }}>Try a different name, constituency or ministry.</p>
             </div>
           )}
         </div>
