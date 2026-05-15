@@ -6,7 +6,7 @@ import pdfplumber
 import glob
 import os
 
-pdf_files = glob.glob("public/affidavits/*.pdf")
+pdf_files = glob.glob("scraper_lab/affidavits/*.pdf")
 for pdf_path in pdf_files[:20]:
     with pdfplumber.open(pdf_path) as pdf:
         has_text = False

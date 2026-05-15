@@ -3,12 +3,12 @@ Stage 2 of the criminal-cases pipeline (see scraper_lab/README.md). Committed
 2026-05 — previously an untracked local file; kept under version control rather
 than deleted because the downstream extractor reads its output every run.
 
-Scan every affidavit PDF in public/affidavits/ and record which pages contain
+Scan every affidavit PDF in scraper_lab/affidavits/ and record which pages contain
 the Section 5 (pending) and Section 6 (conviction) criminal-case tables.
 
 Output: src/data/criminal_pages_index.json
 
-How we find the tables (guided by public/affidavit_cases_styles.pdf)
+How we find the tables (guided by scraper_lab/affidavit_cases_styles.pdf)
 --------------------------------------------------------------------
 That PDF documents what the Form-26 case tables actually look like in the wild:
 

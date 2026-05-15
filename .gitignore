@@ -82,6 +82,11 @@ src/data/myneta_validation_report.json
 src/data/failed_extractions.json
 src/data/failed_extractions.jsonl
 src/data/needs_review_cases.json
+# Firebase Hosting CLI upload-skip cache (auto-generated)
+.firebase/
+
 # Local agent settings & dev-only reference PDFs
 .claude/
-public/affidavit_guidlines.pdf
+scraper_lab/affidavits/
+scraper_lab/affidavit_guidlines.pdf
+scraper_lab/affidavit_cases_styles.pdf

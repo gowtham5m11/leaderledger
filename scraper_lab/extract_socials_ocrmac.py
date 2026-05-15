@@ -7,7 +7,7 @@ from PIL import Image
 import tempfile
 
 # Paths
-PDF_DIR = "public/affidavits"
+PDF_DIR = "scraper_lab/affidavits"
 CANDIDATES_JSON = "src/data/candidates.json"
 
 # Regex for social media URLs and Gmail

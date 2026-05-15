@@ -42,7 +42,7 @@ def build_criminal_text_prompt(ocr_text):
     than VLM-based extraction on M1/8GB hardware.
 
     The Form-26 case tables appear in three layouts (documented in
-    public/affidavit_cases_styles.pdf); the prompt teaches the model all three.
+    scraper_lab/affidavit_cases_styles.pdf); the prompt teaches the model all three.
     """
     return (
         "The text below was extracted by OCR from ONE page of an Indian election affidavit (Form 26), "

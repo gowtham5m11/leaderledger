@@ -4,7 +4,7 @@ import pdfplumber
 import regex as re
 
 # Paths
-PDF_DIR = "public/affidavits"
+PDF_DIR = "scraper_lab/affidavits"
 CANDIDATES_JSON = "src/data/candidates.json"
 
 # Regex for social media URLs

@@ -145,12 +145,12 @@ const DistrictView = () => {
       </div>
 
       <div
-        className="details-panel-container"
+        className={`details-panel-container ${isPanelVisible ? 'mobile-visible' : ''}`}
         style={{
-          width: `${panelWidth}px`,
+          width: window.innerWidth <= 768 ? undefined : `${panelWidth}px`,
           transition: isResizing ? 'none' : 'all 500ms cubic-bezier(0.16, 1, 0.3, 1)',
-          transform: isPanelVisible ? 'translateX(0)' : 'translateX(120%)',
-          opacity: isPanelVisible ? 1 : 0
+          transform: window.innerWidth > 768 ? (isPanelVisible ? 'translateX(0)' : 'translateX(120%)') : undefined,
+          opacity: window.innerWidth > 768 ? (isPanelVisible ? 1 : 0) : undefined
         }}
       >
         <div

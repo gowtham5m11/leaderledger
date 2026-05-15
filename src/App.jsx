@@ -55,16 +55,7 @@ const FloatingNav = () => {
                    pathname.includes('/profile') ? 'profile' : '';
 
   return (
-    <div style={{
-      position: 'fixed', bottom: '1.5rem', left: '50%', transform: 'translateX(-50%)',
-      background: 'var(--surface-dim)', backdropFilter: 'blur(12px)',
-      WebkitBackdropFilter: 'blur(12px)',
-      borderRadius: '9999px', padding: '0.75rem 2.5rem',
-      display: 'flex', alignItems: 'center', gap: '2.5rem',
-      zIndex: 200,
-      boxShadow: '0 20px 40px rgba(0,0,0,0.12), 0 0 0 1px var(--outline-variant)',
-      transition: 'all 0.3s ease'
-    }}>
+    <div className="floating-nav">
       {[
         { label: 'Map', icon: 'explore', path: '/district', view: 'district' },
         { label: 'List', icon: 'format_list_bulleted', path: '/list', view: 'list' },

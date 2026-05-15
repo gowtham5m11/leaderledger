@@ -13,7 +13,7 @@ Stage scripts are designed to be run independently from the project root
 | # | Stage | Script | Input | Output |
 |---|---|---|---|---|
 | 1 | Scrape MyNeta ground truth (one-time) | `fetch_myneta.py` | MyNeta candidates_analyzed table (web) | `scraper_lab/myneta_data.json` |
-| 2 | Build per-candidate page index | `find_criminal_pages.py` | `public/affidavits/*.pdf` | `src/data/criminal_pages_index.json` |
+| 2 | Build per-candidate page index | `find_criminal_pages.py` | `scraper_lab/affidavits/*.pdf` | `src/data/criminal_pages_index.json` |
 | 3 | Extract case details (OCR + text LLM) | `detailed_criminal_history.py` | PDFs + page index + patches | `src/data/candidates.json` (`criminal_*` fields) |
 | 4 | Apply manual patches | (loaded inside stage 3) | `src/data/criminal_patches.json` | (overrides stage-3 output) |
 | 5 | Validate against MyNeta | `validate_with_myneta.py` | `candidates.json` + `myneta_data.json` | `src/data/myneta_validation_report.json` (stdout summary + persisted JSON) |

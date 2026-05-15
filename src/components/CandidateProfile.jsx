@@ -66,8 +66,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
       fontFamily: "'Outfit', sans-serif",
       overflowY: 'auto'
     }} className="custom-scrollbar">
-      
-      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '3rem 1.5rem' }}>
+      <main className="profile-main">
         
         {/* Back + actions row */}
         <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
@@ -139,15 +138,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
         }}>
 
           {/* Hero Header Section */}
-          <div style={{ 
-            padding: '4rem', 
-            display: 'flex', 
-            flexDirection: 'row', 
-            gap: '3rem', 
-            alignItems: 'flex-start', 
-            position: 'relative',
-            backgroundColor: 'var(--surface-container-low)'
-          }}>
+          <div className="profile-hero">
             {/* Asymmetric Decorative Element */}
             <div style={{ 
               position: 'absolute', 
@@ -189,9 +180,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   fontWeight: 600, 
                   letterSpacing: '0.1em', 
                   textTransform: 'uppercase',
-                  alignSelf: 'flex-start',
                   padding: '0.25rem 0.75rem',
                   borderRadius: '9999px',
+                  display: 'inline-block',
                   backgroundColor: isTDP
                     ? 'color-mix(in srgb, var(--tdp) 28%, transparent)'
                     : 'color-mix(in srgb, var(--primary) 14%, transparent)',
@@ -213,15 +204,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
 
               {/* Info Grid */}
-              <div style={{ 
-                display: 'grid', 
-                gridTemplateColumns: 'repeat(3, 1fr)', 
-                rowGap: '2rem', 
-                columnGap: '3rem', 
-                marginTop: '3rem', 
-                borderTop: '1px solid var(--outline-variant)', 
-                paddingTop: '2.5rem' 
-              }}>
+              <div className="profile-info-grid">
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age / DOB</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || candidate.dob || 'Unknown'}</p>
@@ -340,14 +323,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
           </div>
 
           {/* Content Sections Split */}
-          <div style={{ display: 'grid', gridTemplateColumns: '8fr 4fr' }}>
+          <div className="profile-content-split">
             {/* Left Column: Timeline */}
-            <div style={{ 
-              backgroundColor: 'var(--surface-container-low)', 
-              padding: '4rem', 
-              borderTop: '1px solid var(--outline-variant)',
-              borderRight: '1px solid var(--outline-variant)'
-            }}>
+            <div className="profile-timeline">
               <h2 className="headline-md" style={{ marginBottom: '3rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 Political Journey
                 <span style={{ height: '1px', flex: 1, backgroundColor: 'var(--outline-variant)' }}></span>
@@ -498,17 +476,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
         </div>
 
         {/* Floating Comparison Action */}
-        <div style={{ 
-          marginTop: '4rem',
-          display: 'flex', 
-          justifyContent: 'space-between', 
-          alignItems: 'center', 
-          padding: '2rem', 
-          backgroundColor: 'var(--primary)', 
-          borderRadius: '1rem',
-          color: 'var(--on-primary)',
-          boxShadow: 'var(--shadow-2)'
-        }}>
+        <div className="profile-compare-box">
           <div>
             <h3 className="headline-md" style={{ fontSize: '1.5rem', marginBottom: '0.25rem', color: 'var(--on-primary)' }}>Analyze & Compare</h3>
             <p style={{ opacity: 0.8 }}>Evaluate this leader against other candidates in the same constituency.</p>
