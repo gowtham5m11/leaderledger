@@ -74,7 +74,7 @@ const Header = ({ theme, toggleTheme }) => {
         style={{ fontSize: '1.85rem', margin: 0, cursor: 'pointer', whiteSpace: 'nowrap' }}
         onClick={() => navigate('/')}
       >
-        KnowYourLeader.com
+        LeaderLedger.in
       </h1>
 
       {isListPage && (
@@ -92,8 +92,8 @@ const Header = ({ theme, toggleTheme }) => {
 
       <nav className="flex items-center gap-6">
         <div style={{ display: 'flex', backgroundColor: 'var(--surface-container-high)', padding: '0.3rem', borderRadius: '0.65rem' }}>
-          {navBtn(isDistrict, () => navigate('/district'), 'District')}
-          {navBtn(isCandidate, () => navigate('/list'), 'Candidate')}
+          {navBtn(isDistrict, () => navigate('/district'), 'District')}\
+          {navBtn(isCandidate, () => navigate('/list'), 'Candidate')}\
         </div>
 
         <div className="flex items-center gap-2">
