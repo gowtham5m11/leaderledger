@@ -74,7 +74,7 @@ const Header = ({ theme, toggleTheme }) => {
         style={{ fontSize: '1.85rem', margin: 0, cursor: 'pointer', whiteSpace: 'nowrap' }}
         onClick={() => navigate('/')}
       >
-        KnowYourLeader.com
+        LeaderLedger.in
       </h1>
 
       {isListPage && (
