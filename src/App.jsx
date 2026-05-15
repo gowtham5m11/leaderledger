@@ -4,6 +4,8 @@ import Header from './components/Header';
 import DistrictView from './components/DistrictView';
 import CandidateList from './components/CandidateList';
 import CandidateProfile from './components/CandidateProfile';
+import AccountPage from './pages/AccountPage';
+import { AuthProvider } from './auth/AuthContext';
 
 function App() {
   const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
@@ -17,22 +19,25 @@ function App() {
   };
 
   return (
-    <Router>
-      <div className={`app-container ${theme === 'dark' ? 'dark-theme' : ''}`}>
-        <Header theme={theme} toggleTheme={toggleTheme} />
+    <AuthProvider>
+      <Router>
+        <div className={`app-container ${theme === 'dark' ? 'dark-theme' : ''}`}>
+          <Header theme={theme} toggleTheme={toggleTheme} />
 
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Navigate to="/district" replace />} />
-            <Route path="/district" element={<DistrictView />} />
-            <Route path="/list" element={<CandidateList />} />
-            <Route path="/profile/:id" element={<CandidateProfile />} />
-          </Routes>
-        </main>
+          <main className="main-content">
+            <Routes>
+              <Route path="/" element={<Navigate to="/district" replace />} />
+              <Route path="/district" element={<DistrictView />} />
+              <Route path="/list" element={<CandidateList />} />
+              <Route path="/profile/:id" element={<CandidateProfile />} />
+              <Route path="/account" element={<AccountPage />} />
+            </Routes>
+          </main>
 
-        <FloatingNav />
-      </div>
-    </Router>
+          <FloatingNav />
+        </div>
+      </Router>
+    </AuthProvider>
   );
 }
 

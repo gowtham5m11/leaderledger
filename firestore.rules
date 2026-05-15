@@ -1,0 +1,85 @@
+rules_version = '2';
+
+// LeaderLedger Firestore Security Rules
+// -------------------------------------
+// Deny-all default. Each collection allows the narrowest possible access.
+// The client cannot bypass these — they are enforced by Firestore at Google.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && request.auth.token.admin == true;
+    }
+
+    // --- User profile -------------------------------------------------------
+    // Each authenticated user maintains exactly one /users/{uid} doc that
+    // mirrors their Auth profile. They (and admins) can read it; only they
+    // can write it; and the schema is locked down.
+    match /users/{uid} {
+      allow read: if isOwner(uid) || isAdmin();
+
+      allow create: if isOwner(uid)
+        && request.resource.data.keys().hasOnly(
+             ['displayName', 'email', 'photoURL', 'createdAt', 'lastLogin']
+           )
+        && request.resource.data.email == request.auth.token.email
+        && request.resource.data.displayName is string
+        && request.resource.data.photoURL is string;
+
+      allow update: if isOwner(uid)
+        && request.resource.data.diff(resource.data).affectedKeys()
+             .hasOnly(['displayName', 'photoURL', 'lastLogin'])
+        && request.resource.data.email == resource.data.email;
+
+      allow delete: if false;
+
+      // --- Bookmarks ------------------------------------------------------
+      // Subcollection: /users/{uid}/bookmarks/{candidateId}
+      // Doc body is just { createdAt }.
+      match /bookmarks/{candidateId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow create, update: if isOwner(uid)
+          && request.resource.data.keys().hasOnly(['createdAt']);
+        allow delete: if isOwner(uid);
+      }
+    }
+
+    // --- Reports ------------------------------------------------------------
+    // Any signed-in user can create a report for a candidate. The author can
+    // read their own. Only admins can list, update status, or delete.
+    match /reports/{reportId} {
+      allow create: if isSignedIn()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.keys().hasOnly([
+             'uid', 'candidateId', 'candidateName',
+             'field', 'currentValue', 'suggestion', 'reason',
+             'status', 'createdAt'
+           ])
+        && request.resource.data.status == 'open'
+        && request.resource.data.reason is string
+        && request.resource.data.reason.size() >= 1
+        && request.resource.data.reason.size() <= 1000
+        && request.resource.data.field is string
+        && request.resource.data.candidateId is string;
+
+      allow read: if isAdmin()
+        || (isSignedIn() && resource.data.uid == request.auth.uid);
+
+      allow update, delete: if isAdmin();
+    }
+
+    // --- Deny everything else ----------------------------------------------
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

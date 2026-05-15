@@ -1,6 +1,7 @@
 import React from 'react';
-import { Menu, Sun, Moon, Search } from 'lucide-react';
+import { Sun, Moon, Search } from 'lucide-react';
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
+import AuthButton from './AuthButton';
 
 const Header = ({ theme, toggleTheme }) => {
   const { pathname } = useLocation();
@@ -98,7 +99,7 @@ const Header = ({ theme, toggleTheme }) => {
 
         <div className="flex items-center gap-2">
           {iconBtn(theme === 'light' ? <Moon size={22} /> : <Sun size={22} />, toggleTheme, `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`)}
-          {iconBtn(<Menu size={26} />, undefined, 'Menu')}
+          <AuthButton />
         </div>
       </nav>
     </header>

@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { Flag } from 'lucide-react';
 import candidates from '../data/candidates.json';
 import { partyColors, partyColor as partyColorVar, sectorColor, sectorLabel } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
+import BookmarkButton from './BookmarkButton';
+import ReportModal from './ReportModal';
+import { useAuth } from '../auth/AuthContext';
 
 const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { configured, requireAuth } = useAuth();
+  const [reportOpen, setReportOpen] = useState(false);
 
   const candidate = propCandidate || candidates.find(l => String(l.id) === String(id));
 
@@ -17,6 +23,12 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
       navigate(-1);
     }
   };
+
+  const handleOpenReport = async () => {
+    const user = await requireAuth();
+    if (user) setReportOpen(true);
+  };
+
   if (!candidate) return <div style={{ padding: '3rem', textAlign: 'center', fontSize: '2rem' }}>Loading Candidate...</div>;
 
   const partyHex = partyColors[candidate.party] || '#737970';   // literal hex — for the avatar URL
@@ -57,15 +69,15 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
       
       <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '3rem 1.5rem' }}>
         
-        {/* Back Action */}
-        <div style={{ marginBottom: '2rem' }}>
-          <button 
+        {/* Back + actions row */}
+        <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
+          <button
             onClick={handleBack}
-            style={{ 
-              display: 'flex', 
-              alignItems: 'center', 
-              gap: '0.5rem', 
-              color: 'var(--primary)', 
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              color: 'var(--primary)',
               fontWeight: 600,
               padding: '0.5rem 1rem',
               borderRadius: '9999px',
@@ -80,7 +92,42 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>arrow_back</span>
             <span style={{ fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Back to Candidates List</span>
           </button>
+
+          {configured && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+              <BookmarkButton candidateId={candidate.id} variant="pill" size="lg" stopPropagation={false} />
+              <button
+                onClick={handleOpenReport}
+                title="Report inaccurate data"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  padding: '0.55rem 1rem',
+                  borderRadius: '9999px',
+                  fontSize: '0.875rem',
+                  fontWeight: 600,
+                  background: 'var(--surface-container-high)',
+                  color: 'var(--on-surface)',
+                  border: '1px solid var(--outline-variant)',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s',
+                }}
+              >
+                <Flag size={16} />
+                Report inaccuracy
+              </button>
+            </div>
+          )}
         </div>
+
+        {configured && (
+          <ReportModal
+            open={reportOpen}
+            onClose={() => setReportOpen(false)}
+            candidate={candidate}
+          />
+        )}
 
         {/* Master Profile Card */}
         <div style={{ 

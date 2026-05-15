@@ -1,6 +1,7 @@
 import React from 'react';
 import { sectorColor } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
+import BookmarkButton from './BookmarkButton';
 
 const roleIcon = (role) => {
   if (!role) return null;
@@ -47,6 +48,7 @@ const LeaderCard = ({ leader, onClick }) => {
             {name}
           </h3>
         </div>
+        <BookmarkButton candidateId={leader.id} variant="icon" />
       </div>
 
       {/* Ministry / role pill row — only renders for cabinet members */}
