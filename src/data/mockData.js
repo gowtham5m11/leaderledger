@@ -1,4 +1,5 @@
 import candidatesData from './candidates.json';
+import { getAssetPath } from '../utils/assetHelper';
 
 // Use a separate constant for the array to avoid any ambiguity
 const candidates = Array.isArray(candidatesData) ? candidatesData : (candidatesData.leaders || []);
@@ -77,7 +78,7 @@ export const getDistrictData = (name) => {
       partyChanges: 0,
       votersCount: "Verified Assembly Ledger",
       majorityVotes: 8500, // Placeholder
-      image: candidateFound.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidateFound.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`,
+      image: candidateFound.image ? getAssetPath(candidateFound.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidateFound.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`,
       social_media: candidateFound.social_media
     };
   }
@@ -119,7 +120,7 @@ export const mockCandidates = [
       { year: "1978-1983", place: "Chandragiri Constituency" }
     ],
     criminalRecord: "Pending cases: 2 (Political agitation related)",
-    image: "https://ui-avatars.com/api/?name=CN&background=fce903&color=000&size=150"
+    image: getAssetPath("/candidate-images/chandrababu_naidu_nara.jpg")
   },
   {
     id: 2,
@@ -137,7 +138,7 @@ export const mockCandidates = [
       { year: "2019", place: "Gajuwaka & Bhimavaram Constituencies" }
     ],
     criminalRecord: "None",
-    image: "https://ui-avatars.com/api/?name=PK&background=ff0000&color=fff&size=150"
+    image: getAssetPath("/candidate-images/konidala_pawan_kalyan.jpg")
   },
   {
     id: 3,
@@ -155,7 +156,7 @@ export const mockCandidates = [
       { year: "2017-2023", place: "MLC (Local Bodies)" }
     ],
     criminalRecord: "Pending cases: 1 (Defamation)",
-    image: "https://ui-avatars.com/api/?name=NL&background=fce903&color=000&size=150"
+    image: getAssetPath("/candidate-images/nara_lokesh.jpg")
   },
   {
     id: 4,
@@ -173,7 +174,7 @@ export const mockCandidates = [
       { year: "2009-2014", place: "Kadapa MP" }
     ],
     criminalRecord: "CBI / ED Disproportionate Assets Cases pending",
-    image: "https://ui-avatars.com/api/?name=JR&background=00249c&color=fff&size=150"
+    image: getAssetPath("/candidate-images/ys_jagan_mohan_reddy.jpg")
   }
 ];
 
