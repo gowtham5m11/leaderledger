@@ -10,7 +10,7 @@ from ocrmac import ocrmac
 from pdf2image import convert_from_path, pdfinfo_from_path
 
 # --- SETTINGS ---
-PROJECT_ROOT = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader"
+PROJECT_ROOT = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger"
 PDF_DIR = os.path.join(PROJECT_ROOT, "public", "affidavits")
 JSON_PATH = os.path.join(PROJECT_ROOT, "src", "data", "candidates.json")
 TEMP_IMG_DIR = os.path.join(PROJECT_ROOT, "scraper_lab", "temp_images")

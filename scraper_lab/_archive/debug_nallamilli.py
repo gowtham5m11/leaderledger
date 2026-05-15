@@ -2,7 +2,7 @@ import pdfplumber
 import os
 import re
 
-pdf_path = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/public/affidavits/ramakrishna_reddy_nallamilli.pdf"
+pdf_path = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/public/affidavits/ramakrishna_reddy_nallamilli.pdf"
 
 with pdfplumber.open(pdf_path) as pdf:
     for i, page in enumerate(pdf.pages):

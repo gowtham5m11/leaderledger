@@ -1,7 +1,7 @@
 import json
 import os
 
-JSON_PATH = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/src/data/candidates.json"
+JSON_PATH = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/src/data/candidates.json"
 
 updates = {
     47: "completed B.Sc from Govt. Degree College, Rajahmundry in 1987",

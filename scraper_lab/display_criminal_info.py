@@ -6,7 +6,7 @@ import json
 import os
 
 def display_criminal_records():
-    json_path = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/src/data/candidates.json"
+    json_path = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/src/data/candidates.json"
     
     if not os.path.exists(json_path):
         print(f"Error: {json_path} not found.")

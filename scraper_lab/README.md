@@ -1,4 +1,4 @@
-# knowyourleader / scraper_lab
+# leaderledger / scraper_lab
 
 Pipeline that turns Andhra Pradesh election affidavit PDFs into the
 `criminal_summary` / `criminal_details_*` / `profession` / `education` fields

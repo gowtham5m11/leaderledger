@@ -6,7 +6,7 @@ import tempfile
 from datetime import datetime
 
 # --- PATHS ---
-PROJECT_ROOT = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader"
+PROJECT_ROOT = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger"
 PDF_DIR = os.path.join(PROJECT_ROOT, "public", "affidavits")
 JSON_PATH = os.path.join(PROJECT_ROOT, "src", "data", "candidates.json")
 

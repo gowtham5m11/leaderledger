@@ -3,8 +3,8 @@ import os
 import pdfplumber
 import regex as re
 
-CANDIDATES_JSON = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/src/data/candidates.json"
-PDF_DIR = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/public/affidavits"
+CANDIDATES_JSON = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/src/data/candidates.json"
+PDF_DIR = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/public/affidavits"
 
 # DATA FROM BROWSER SEARCH
 BROWSER_DATA = {

@@ -1,7 +1,7 @@
 import json
 import re
 
-JSON_PATH = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/src/data/candidates.json"
+JSON_PATH = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/src/data/candidates.json"
 
 overrides = {
     4: "completed Master of Science from Osmania University in 2006",

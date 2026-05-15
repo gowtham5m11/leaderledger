@@ -6,7 +6,7 @@
 import json
 import re
 
-JSON_PATH = "/Users/gowthamjadapalli/Documents/GitHub/knowyourleader/src/data/candidates.json"
+JSON_PATH = "/Users/gowthamjadapalli/Documents/GitHub/leaderledger/src/data/candidates.json"
 
 def clean_education_text(text):
     if not text:

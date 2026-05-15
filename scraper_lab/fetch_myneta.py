@@ -38,7 +38,7 @@ BASE_URL = (
     "https://www.myneta.info/AndhraPradesh2024/index.php"
     "?action=summary&subAction=candidates_analyzed&sort=candidate"
 )
-USER_AGENT = "Mozilla/5.0 (research; knowyourleader.in data validation)"
+USER_AGENT = "Mozilla/5.0 (research; leaderledger.in data validation)"
 DEFAULT_DELAY_SEC = 1.2
 TOTAL_PAGES = 119  # MyNeta paginates ~20 rows per page; 119 covers AP 2024.
 
