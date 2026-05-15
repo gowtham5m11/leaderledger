@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
 import { getDistrictData, partyColor } from '../data/mockData';
+import { getAssetPath } from '../utils/assetHelper';
 
 const MapTooltip = ({ data }) => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -28,7 +29,15 @@ const MapTooltip = ({ data }) => {
       }}
     >
       <div className="relative">
-        <img src={data.image} alt={data.currentMla} style={{ width: '3.5rem', height: '3.5rem', borderRadius: '0.5rem', objectFit: 'cover' }} />
+        <img 
+          src={getAssetPath(data.image)} 
+          alt={data.currentMla} 
+          style={{ width: '3.5rem', height: '3.5rem', borderRadius: '0.5rem', objectFit: 'cover' }} 
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(data.currentMla)}&background=random&color=fff`;
+          }}
+        />
         <div
           className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full border-2 border-[var(--surface-container-lowest)] flex items-center justify-center"
           style={{ backgroundColor: partyColor(data.party) }}
@@ -184,9 +193,13 @@ const DistrictView = () => {
             <div className={`p-8 rounded-[2rem] bg-surface-container-low mb-8 ledger-line-${selectedDistrict.party?.toLowerCase()}`}>
               <div className="flex items-center gap-6 mb-4">
                 <img
-                  src={selectedDistrict.image}
+                  src={getAssetPath(selectedDistrict.image)}
                   alt={selectedDistrict.currentMla}
                   style={{ width: '6rem', height: '6rem', borderRadius: '1.5rem', objectFit: 'cover', boxShadow: 'var(--shadow-2)', border: '4px solid var(--surface-container-lowest)' }}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(selectedDistrict.currentMla)}&background=random&color=fff`;
+                  }}
                 />
                 <div>
                   <span className="label-sm px-3 py-1 rounded-full bg-white font-bold text-primary mb-3 inline-block shadow-sm">

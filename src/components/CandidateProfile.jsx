@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import candidates from '../data/candidates.json';
 import { partyColors, partyColor as partyColorVar, sectorColor, sectorLabel } from '../data/mockData';
+import { getAssetPath } from '../utils/assetHelper';
 
 const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const { id } = useParams();
@@ -23,7 +24,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const isTDP = candidate.party === 'TDP';
 
   // Fallback for missing fields in leaders.json
-  const displayImage = candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyHex.replace('#', '')}&color=fff&size=200`;
+  const displayImage = candidate.image ? getAssetPath(candidate.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyHex.replace('#', '')}&color=fff&size=200`;
   const ministries = Array.isArray(candidate.ministries) ? candidate.ministries : [];
   const primaryMinistry = ministries[0] || null;
   const displayRole = candidate.role || "Member of Legislative Assembly";
@@ -126,6 +127,10 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   src={displayImage} 
                   alt={candidate.name} 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyHex.replace('#', '')}&color=fff&size=200`;
+                  }}
                 />
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { sectorColor } from '../data/mockData';
+import { getAssetPath } from '../utils/assetHelper';
 
 const roleIcon = (role) => {
   if (!role) return null;
@@ -30,9 +31,13 @@ const LeaderCard = ({ leader, onClick }) => {
     <div className={`leader-card ${partyClass}`} onClick={onClick}>
       <div className="card-header" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
         <img
-          src={leader.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random&color=fff`}
+          src={getAssetPath(leader.image)}
           alt={name}
           style={{ width: '3.5rem', height: '3.5rem', borderRadius: '1rem', objectFit: 'cover', border: '2px solid var(--outline-variant)' }}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random&color=fff`;
+          }}
         />
         <div style={{ flex: 1, minWidth: 0 }}>
           <span className="label-sm text-primary" style={{ fontSize: '0.65rem', letterSpacing: '0.1em' }}>

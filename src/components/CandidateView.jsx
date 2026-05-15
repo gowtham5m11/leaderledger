@@ -3,6 +3,7 @@ import { Search, Info, TrendingUp, AlertTriangle, ShieldCheck, ChevronRight, Use
 import candidatesData from '../data/candidates.json';
 import CandidateProfile from './CandidateProfile';
 import { partyColors, partyColor } from '../data/mockData';
+import { getAssetPath } from '../utils/assetHelper';
 
 const CandidateView = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -34,7 +35,7 @@ const CandidateView = () => {
       experience: "Candidate Data Verified",
       locations: [{ year: "2024", place: candidate.constituency }],
       criminalRecord: candidate.hasCriminalCases ? `${candidate.criminal_cases} Cases Reported in Affidavit` : "No Criminal Cases Reported",
-      image: candidate.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColors[candidate.partyDisplay]?.replace('#', '') || 'cccccc'}&color=fff&size=200`,
+      image: candidate.image ? getAssetPath(candidate.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyColors[candidate.partyDisplay]?.replace('#', '') || 'cccccc'}&color=fff&size=200`,
       social_media: candidate.social_media
     };
     setSelectedCandidate(profileAdapter);
@@ -95,9 +96,17 @@ const CandidateView = () => {
                   </h3>
                 </div>
                 <div style={{ width: '3rem', height: '3rem', flexShrink: 0, borderRadius: '1rem', backgroundColor: 'var(--surface-container-high)', overflow: 'hidden', border: '1px solid var(--outline-variant)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)' }}>
-                   {candidate.image ? (
-                     <img src={candidate.image} alt={candidate.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                   ) : (
+                    {candidate.image ? (
+                      <img 
+                        src={getAssetPath(candidate.image)} 
+                        alt={candidate.name} 
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=random&color=fff`;
+                        }}
+                      />
+                    ) : (
                      <User size={24} />
                    )}
                 </div>
