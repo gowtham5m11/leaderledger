@@ -35,7 +35,7 @@ const CandidateList = () => {
   const selectedParties = (searchParams.get('party') || '').split(',').filter(Boolean);
   const selectedCases = (searchParams.get('cases') || '').split(',').filter(Boolean);
   const sortBy = searchParams.get('sort') || 'priority';
-  const ministersFirst = searchParams.get('boost') === 'ministers';
+  const ministersOnly = searchParams.get('boost') === 'ministers';
 
   const isMinister = (c) => Array.isArray(c.ministries) && c.ministries.length > 0;
 
@@ -79,17 +79,13 @@ const CandidateList = () => {
         });
         if (!inAnyBucket) return false;
       }
+      if (ministersOnly && !isMinister(l)) return false;
       return true;
     })
     .slice()
     .sort((a, b) => {
       const pDiff = getPriorityIndex(a.name) - getPriorityIndex(b.name);
       if (pDiff !== 0) return pDiff;
-
-      if (ministersFirst) {
-        const mDiff = (isMinister(b) ? 1 : 0) - (isMinister(a) ? 1 : 0);
-        if (mDiff !== 0) return mDiff;
-      }
 
       switch (sortBy) {
         case 'name_asc': return (a.name || '').localeCompare(b.name || '');
@@ -101,7 +97,7 @@ const CandidateList = () => {
       }
     });
 
-  const anyFilterActive = selectedParties.length > 0 || selectedCases.length > 0 || sortBy !== 'priority' || ministersFirst;
+  const anyFilterActive = selectedParties.length > 0 || selectedCases.length > 0 || sortBy !== 'priority' || ministersOnly;
   const clearAll = () => {
     const next = new URLSearchParams();
     if (rawQuery) next.set('q', rawQuery);
@@ -213,7 +209,7 @@ const CandidateList = () => {
               <span className="label-sm text-on-surface-variant" style={{ minWidth: '4.5rem' }}>Ministers</span>
               <button
                 type="button"
-                onClick={() => setParam('boost', ministersFirst ? '' : 'ministers')}
+                onClick={() => setParam('boost', ministersOnly ? '' : 'ministers')}
                 style={{
                   marginLeft: 'auto',
                   display: 'inline-flex',
@@ -221,20 +217,20 @@ const CandidateList = () => {
                   gap: '0.4rem',
                   padding: '0.6rem 1.25rem',
                   borderRadius: '999px',
-                  border: `1px solid ${ministersFirst ? 'var(--primary)' : 'var(--outline)'}`,
-                  background: ministersFirst ? 'var(--primary)' : 'var(--primary-container)',
-                  color: ministersFirst ? 'var(--on-primary)' : 'var(--on-surface)',
+                  border: `1px solid ${ministersOnly ? 'var(--primary)' : 'var(--outline)'}`,
+                  background: ministersOnly ? 'var(--primary)' : 'var(--primary-container)',
+                  color: ministersOnly ? 'var(--on-primary)' : 'var(--on-surface)',
                   fontSize: '0.95rem',
                   fontWeight: 600,
                   fontFamily: "'Outfit', sans-serif",
                   cursor: 'pointer',
                   transition: 'all 0.15s ease',
-                  boxShadow: ministersFirst ? 'var(--shadow-2)' : 'var(--shadow-1)',
+                  boxShadow: ministersOnly ? 'var(--shadow-2)' : 'var(--shadow-1)',
                   whiteSpace: 'nowrap',
                 }}
-                aria-pressed={ministersFirst}
+                aria-pressed={ministersOnly}
               >
-                {ministersFirst && (
+                {ministersOnly && (
                   <span className="material-symbols-outlined" style={{ fontSize: '1.1rem' }}>check</span>
                 )}
                 <span className="material-symbols-outlined" style={{ fontSize: '1.1rem' }}>account_balance</span>
