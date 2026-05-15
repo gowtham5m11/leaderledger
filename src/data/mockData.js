@@ -112,7 +112,6 @@ export const mockCandidates = [
     party: "TDP",
     dob: "20-Apr-1950",
     age: 74,
-    birthplace: "Naravaripalle, Chittoor",
     experience: "45+ Years",
     education: "MA Economics (SV University)",
     locations: [
@@ -130,7 +129,6 @@ export const mockCandidates = [
     party: "JSP",
     dob: "02-Sep-1971",
     age: 52,
-    birthplace: "Bapatla",
     experience: "15 Years",
     education: "Undergraduate",
     locations: [
@@ -148,7 +146,6 @@ export const mockCandidates = [
     party: "TDP",
     dob: "23-Jan-1983",
     age: 41,
-    birthplace: "Hyderabad",
     experience: "10 Years",
     education: "MBA (Stanford University)",
     locations: [
@@ -166,7 +163,6 @@ export const mockCandidates = [
     party: "YSRCP",
     dob: "21-Dec-1972",
     age: 51,
-    birthplace: "Jammalamadugu, Kadapa",
     experience: "15 Years",
     education: "B.Com",
     locations: [

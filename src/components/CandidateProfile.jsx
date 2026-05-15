@@ -62,11 +62,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
     <div style={{ 
       backgroundColor: 'var(--surface)', 
       color: 'var(--on-surface)', 
-      height: '100%', 
-      fontFamily: "'Outfit', sans-serif",
-      overflowY: 'auto'
-    }} className="custom-scrollbar">
-      <main className="profile-main">
+      fontFamily: "'Outfit', sans-serif"
+    }}>
+      <main className="page-main">
         
         {/* Back + actions row */}
         <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
@@ -208,10 +206,6 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age / DOB</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || candidate.dob || 'Unknown'}</p>
-                </div>
-                <div>
-                  <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Birthplace</p>
-                  <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.birthplace || 'Andhra Pradesh'}</p>
                 </div>
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Experience</p>

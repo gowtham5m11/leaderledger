@@ -87,6 +87,7 @@ const AccountPage = () => {
         style={{
           display: 'flex',
           alignItems: 'center',
+          flexWrap: 'wrap',
           gap: '1.5rem',
           padding: '1.75rem',
           background: 'var(--surface-container-lowest)',
@@ -126,12 +127,23 @@ const AccountPage = () => {
             {(user.displayName || user.email || '?').charAt(0).toUpperCase()}
           </div>
         )}
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <h1 className="font-headline" style={{ fontSize: '1.75rem', margin: 0, color: 'var(--on-surface)' }}>
+        <div style={{ flex: '1 1 200px', minWidth: 0 }}>
+          <h1 className="font-headline" style={{ 
+            fontSize: '1.75rem', 
+            margin: 0, 
+            color: 'var(--on-surface)', 
+            overflowWrap: 'break-word',
+            lineHeight: 1.2
+          }}>
             {user.displayName || 'Your account'}
           </h1>
           {user.email && (
-            <p style={{ margin: '0.25rem 0 0', color: 'var(--on-surface-variant)', fontSize: '0.95rem' }}>
+            <p style={{ 
+              margin: '0.25rem 0 0', 
+              color: 'var(--on-surface-variant)', 
+              fontSize: '0.95rem', 
+              overflowWrap: 'break-word' 
+            }}>
               {user.email}
             </p>
           )}

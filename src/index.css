@@ -167,7 +167,8 @@ h6,
 .main-content {
   flex: 1;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .district-layout {
@@ -178,6 +179,7 @@ h6,
 
 .map-full-screen {
   overflow: hidden;
+  height: 100%;
 }
 
 /* Map Components */
@@ -878,6 +880,64 @@ h6,
   
   .headline-md {
     font-size: 1.5rem;
+  }
+}
+
+/* Header Responsiveness */
+.header-container {
+  border-bottom: 1px solid var(--outline-variant);
+  padding: 1.5rem 2.25rem;
+  gap: 2rem;
+}
+
+.header-title {
+  font-size: 1.85rem;
+  margin: 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.header-nav-group {
+  display: flex;
+  background-color: var(--surface-container-high);
+  padding: 0.3rem;
+  border-radius: 0.65rem;
+}
+
+.header-nav-cluster {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .header-title {
+    font-size: 1.25rem;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .header-search {
+    order: 3;
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 0.25rem;
+  }
+
+  .header-nav-group {
+    display: none; /* Hide the top navigation pill since we have floating nav on mobile */
+  }
+
+  .header-nav-cluster {
+    gap: 0.5rem !important;
   }
 }
 

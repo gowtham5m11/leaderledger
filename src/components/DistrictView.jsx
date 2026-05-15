@@ -202,7 +202,7 @@ const DistrictView = () => {
                   }}
                 />
                 <div>
-                  <span className="label-sm px-3 py-1 rounded-full bg-white font-bold text-primary mb-3 inline-block shadow-sm">
+                  <span className="label-sm px-4 py-1.5 rounded-full bg-white font-bold text-primary mb-3 inline-flex items-center justify-center shadow-sm border border-primary/10 whitespace-nowrap leading-none">
                     {selectedDistrict.name}
                   </span>
                   <h1 className="display-lg text-on-surface">

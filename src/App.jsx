@@ -1,11 +1,25 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
+import candidates from './data/candidates.json';
 import Header from './components/Header';
 import DistrictView from './components/DistrictView';
 import CandidateList from './components/CandidateList';
 import CandidateProfile from './components/CandidateProfile';
 import AccountPage from './pages/AccountPage';
 import { AuthProvider } from './auth/AuthContext';
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  
+  React.useEffect(() => {
+    const mainContent = document.querySelector('.main-content');
+    if (mainContent) {
+      mainContent.scrollTop = 0;
+    }
+  }, [pathname]);
+
+  return null;
+};
 
 function App() {
   const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
@@ -21,6 +35,7 @@ function App() {
   return (
     <AuthProvider>
       <Router>
+        <ScrollToTop />
         <div className={`app-container ${theme === 'dark' ? 'dark-theme' : ''}`}>
           <Header theme={theme} toggleTheme={toggleTheme} />
 
@@ -42,8 +57,7 @@ function App() {
 }
 
 // Separate component for footer to use useLocation/useNavigate
-import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import candidates from './data/candidates.json';
+
 
 const FloatingNav = () => {
   const { pathname } = useLocation();

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Moon, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import AuthButton from './AuthButton';
 
@@ -42,37 +42,12 @@ const Header = ({ theme, toggleTheme }) => {
     </button>
   );
 
-  const iconBtn = (children, onClick, title) => (
-    <button
-      onClick={onClick}
-      title={title}
-      style={{
-        padding: '0.625rem',
-        backgroundColor: 'transparent',
-        border: 'none',
-        borderRadius: '9999px',
-        cursor: 'pointer',
-        color: 'var(--on-surface)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        transition: 'all 0.2s',
-      }}
-      onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'var(--surface-container-high)')}
-      onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
-    >
-      {children}
-    </button>
-  );
-
   return (
     <header
-      className="glass-nav relative z-100 flex items-center justify-between"
-      style={{ borderBottom: '1px solid var(--outline-variant)', padding: '1.5rem 2.25rem', gap: '2rem' }}
+      className="glass-nav relative z-100 flex items-center justify-between header-container"
     >
       <h1
-        className="font-headline tracking-tight text-primary"
-        style={{ fontSize: '1.85rem', margin: 0, cursor: 'pointer', whiteSpace: 'nowrap' }}
+        className="font-headline tracking-tight text-primary header-title"
         onClick={() => navigate('/')}
       >
         LeaderLedger.in
@@ -91,16 +66,13 @@ const Header = ({ theme, toggleTheme }) => {
         </div>
       )}
 
-      <nav className="flex items-center gap-6">
-        <div style={{ display: 'flex', backgroundColor: 'var(--surface-container-high)', padding: '0.3rem', borderRadius: '0.65rem' }}>
+      <nav className="header-nav-cluster flex items-center gap-6">
+        <div className="header-nav-group">
           {navBtn(isDistrict, () => navigate('/district'), 'District')}
           {navBtn(isCandidate, () => navigate('/list'), 'Candidate')}
         </div>
 
-        <div className="flex items-center gap-2">
-          {iconBtn(theme === 'light' ? <Moon size={22} /> : <Sun size={22} />, toggleTheme, `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`)}
-          <AuthButton />
-        </div>
+        <AuthButton theme={theme} toggleTheme={toggleTheme} />
       </nav>
     </header>
   );

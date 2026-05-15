@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { LogIn, LogOut, User, Shield, Bookmark } from 'lucide-react';
+import { LogIn, LogOut, User, Shield, Bookmark, Sun, Moon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 
-const AuthButton = () => {
+const AuthButton = ({ theme, toggleTheme }) => {
   const { user, loading, configured, isAdmin, openSignIn, signOutUser } = useAuth();
   const [open, setOpen] = useState(false);
   const wrapRef = useRef(null);
@@ -18,32 +18,63 @@ const AuthButton = () => {
     return () => document.removeEventListener('mousedown', onDocClick);
   }, [open]);
 
-  if (!configured) return null;
+  const themeToggleBtn = toggleTheme ? (
+    <button
+      onClick={toggleTheme}
+      title={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+      aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+      style={{
+        width: 36,
+        height: 36,
+        borderRadius: '9999px',
+        padding: 0,
+        border: '1px solid var(--outline-variant)',
+        backgroundColor: 'var(--surface-container-high)',
+        color: 'var(--on-surface)',
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        transition: 'all 0.2s',
+      }}
+    >
+      {theme === 'light' ? <Moon size={18} /> : <Sun size={18} />}
+    </button>
+  ) : null;
+
   if (loading) return null;
+
+  if (!configured) {
+    // Sign-in not wired up — still expose the theme toggle so users can switch modes.
+    return themeToggleBtn;
+  }
 
   if (!user) {
     return (
-      <button
-        onClick={openSignIn}
-        title="Sign in with Google"
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.5rem',
-          padding: '0.5rem 0.9rem',
-          backgroundColor: 'var(--surface-container-high)',
-          color: 'var(--on-surface)',
-          border: '1px solid var(--outline-variant)',
-          borderRadius: '9999px',
-          fontSize: '0.9rem',
-          fontWeight: 500,
-          cursor: 'pointer',
-          transition: 'all 0.2s',
-        }}
-      >
-        <LogIn size={16} />
-        <span>Sign in</span>
-      </button>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        {themeToggleBtn}
+        <button
+          onClick={openSignIn}
+          title="Sign in with Google"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '0.5rem 0.9rem',
+            backgroundColor: 'var(--surface-container-high)',
+            color: 'var(--on-surface)',
+            border: '1px solid var(--outline-variant)',
+            borderRadius: '9999px',
+            fontSize: '0.9rem',
+            fontWeight: 500,
+            cursor: 'pointer',
+            transition: 'all 0.2s',
+          }}
+        >
+          <LogIn size={16} />
+          <span>Sign in</span>
+        </button>
+      </div>
     );
   }
 
@@ -164,6 +195,11 @@ const AuthButton = () => {
           </div>
 
           {menuItem(<Bookmark size={16} />, 'My bookmarks', () => navigate('/account'))}
+          {toggleTheme && menuItem(
+            theme === 'light' ? <Moon size={16} /> : <Sun size={16} />,
+            theme === 'light' ? 'Dark mode' : 'Light mode',
+            toggleTheme,
+          )}
           {menuItem(<LogOut size={16} />, 'Sign out', signOutUser)}
         </div>
       )}
