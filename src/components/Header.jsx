@@ -49,6 +49,7 @@ const Header = ({ theme, toggleTheme }) => {
       <h1
         className="font-headline tracking-tight text-primary header-title"
         onClick={() => navigate('/')}
+        style={{ fontSize: 'clamp(1.1rem, 4vw, 1.85rem)', cursor: 'pointer' }}
       >
         LeaderLedger.in
       </h1>
@@ -66,8 +67,8 @@ const Header = ({ theme, toggleTheme }) => {
         </div>
       )}
 
-      <nav className="header-nav-cluster flex items-center gap-6">
-        <div className="header-nav-group">
+      <nav className="header-nav-cluster flex items-center gap-2 md:gap-6">
+        <div className="header-nav-group hidden md:flex">
           {navBtn(isDistrict, () => navigate('/district'), 'District')}
           {navBtn(isCandidate, () => navigate('/list'), 'Candidate')}
         </div>
