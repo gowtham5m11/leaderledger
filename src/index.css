@@ -876,6 +876,10 @@ h6,
     box-shadow: 0 -10px 40px rgba(0,0,0,0.1);
   }
 
+  /* Mobile screens are tight — hide the "Assembly Leaders" title block on
+     the list page; the header bar already conveys context. */
+  .list-title-block { display: none; }
+
   .map-wrapper {
     height: 100vh;
   }
@@ -1039,5 +1043,390 @@ h6,
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
+  }
+}
+
+/* Onboarding tour — mobile-only contextual coachmarks for first-time
+   visitors. Wrapped in a max-width:768px media query so it never paints on
+   desktop even if the JS mobile-guard ever misfires. */
+@media (max-width: 768px) {
+  /* Banner mode (step 1) — full-screen dim with a bottom sheet. */
+  .tour-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 20, 18, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 9999;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    animation: tour-fade-in 0.25s ease-out;
+  }
+
+  .tour-sheet {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    background: var(--surface-container-lowest);
+    color: var(--on-surface);
+    border-radius: 1.75rem 1.75rem 0 0;
+    padding: 2.25rem 1.5rem 2rem 1.5rem;
+    box-shadow: 0 -20px 60px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid var(--outline-variant);
+    animation: tour-slide-up 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    text-align: center;
+  }
+
+  .tour-sheet::before {
+    content: '';
+    position: absolute;
+    top: 0.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.5rem;
+    height: 0.25rem;
+    background: var(--outline-variant);
+    border-radius: 9999px;
+  }
+
+  /* Spotlight tooltip (steps 2-6) — fixed card anchored above or below
+     the highlighted element. */
+  .tour-tooltip {
+    background: var(--surface-container-lowest);
+    color: var(--on-surface);
+    border-radius: 1.25rem;
+    padding: 1.25rem 1.25rem 1.4rem 1.25rem;
+    box-shadow: var(--shadow-strong);
+    border: 1px solid var(--outline-variant);
+    animation: tour-pop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Glowing ring around the target. pointer-events:none so the underlying
+     element stays clickable. */
+  .tour-ring {
+    border: 2px solid var(--primary);
+    border-radius: 14px;
+    box-shadow:
+      0 0 0 4px color-mix(in srgb, var(--primary) 22%, transparent),
+      0 0 24px color-mix(in srgb, var(--primary) 35%, transparent);
+    pointer-events: none;
+    animation: tour-ring-pulse 1.8s ease-in-out infinite;
+  }
+
+  .tour-waiting {
+    position: fixed;
+    bottom: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--surface-container-lowest);
+    color: var(--on-surface-variant);
+    padding: 0.6rem 1.2rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    box-shadow: var(--shadow-2);
+    z-index: 10000;
+  }
+
+  .tour-skip {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: transparent;
+    border: none;
+    color: var(--on-surface-variant);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.3rem 0.55rem;
+    border-radius: 0.5rem;
+  }
+
+  .tour-skip:hover,
+  .tour-skip:focus-visible {
+    background: var(--surface-container);
+    color: var(--on-surface);
+    outline: none;
+  }
+
+  .tour-title {
+    margin: 0 0 0.5rem 0;
+    padding-right: 2.5rem; /* keep title clear of the Skip button */
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--on-surface);
+  }
+
+  /* Banner-mode title can use the full width. */
+  .tour-sheet .tour-title {
+    padding-right: 0;
+    font-size: 1.35rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .tour-body {
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--on-surface-variant);
+  }
+
+  .tour-sheet .tour-body {
+    margin: 0 auto 1.5rem auto;
+    max-width: 28rem;
+    font-size: 0.95rem;
+  }
+
+  .tour-progress {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .tour-sheet .tour-progress {
+    margin-bottom: 1.5rem;
+  }
+
+  .tour-dot {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 9999px;
+    background: var(--outline-variant);
+    transition: all 0.25s ease;
+  }
+
+  .tour-dot.is-active {
+    background: var(--primary);
+    width: 1.2rem;
+  }
+
+  .tour-actions {
+    display: flex;
+    gap: 0.6rem;
+    align-items: stretch;
+  }
+
+  .tour-cta {
+    flex: 1;
+    padding: 0.8rem 1.25rem;
+    background: var(--primary);
+    color: var(--on-primary);
+    border: none;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: var(--shadow-1);
+  }
+
+  .tour-cta--ghost {
+    background: transparent;
+    color: var(--on-surface);
+    border: 1px solid var(--outline-variant);
+    box-shadow: none;
+  }
+
+  .tour-sheet .tour-cta {
+    padding: 0.9rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .tour-cta:hover,
+  .tour-cta:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-2);
+    outline: none;
+  }
+
+  .tour-cta--ghost:hover,
+  .tour-cta--ghost:focus-visible {
+    background: var(--surface-container);
+    box-shadow: none;
+    transform: none;
+  }
+
+  .tour-cta:active { transform: translateY(0); }
+  .tour-cta:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+  /* Transparent variant — step 1 keeps the map visible AND interactive so
+     the user can actually pinch-zoom while the prompt is up. */
+  .tour-backdrop--clear {
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    pointer-events: none;
+  }
+  .tour-backdrop--clear .tour-sheet { pointer-events: auto; }
+
+  /* Pinch-zoom animated hint for step 1. Two dots that drift apart and
+     back, suggesting the gesture. pointer-events:none so the map below
+     stays fully interactive. */
+  .tour-pinch {
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    z-index: 9990;
+  }
+
+  .tour-pinch-dot {
+    position: absolute;
+    top: -22px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--primary) 45%, transparent);
+    border: 2px solid var(--primary);
+    box-shadow:
+      0 0 0 6px color-mix(in srgb, var(--primary) 18%, transparent),
+      0 0 28px color-mix(in srgb, var(--primary) 35%, transparent);
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .tour-pinch-dot--left {
+    left: -38px;
+    animation-name: tour-pinch-left;
+  }
+
+  .tour-pinch-dot--right {
+    left: -6px;
+    animation-name: tour-pinch-right;
+  }
+
+  @keyframes tour-pinch-left {
+    0%, 100% { transform: translateX(0)    scale(0.95); opacity: 0.85; }
+    45%      { transform: translateX(-46px) scale(1.05); opacity: 1; }
+    70%      { transform: translateX(-46px) scale(1.05); opacity: 1; }
+  }
+
+  @keyframes tour-pinch-right {
+    0%, 100% { transform: translateX(0)    scale(0.95); opacity: 0.85; }
+    45%      { transform: translateX(46px)  scale(1.05); opacity: 1; }
+    70%      { transform: translateX(46px)  scale(1.05); opacity: 1; }
+  }
+
+  .tour-hint {
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  @keyframes tour-slide-up {
+    from { transform: translateY(100%); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+  }
+
+  @keyframes tour-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes tour-pop {
+    from { transform: scale(0.96); opacity: 0; }
+    to   { transform: scale(1);    opacity: 1; }
+  }
+
+  @keyframes tour-ring-pulse {
+    0%, 100% {
+      box-shadow:
+        0 0 0 4px color-mix(in srgb, var(--primary) 22%, transparent),
+        0 0 24px color-mix(in srgb, var(--primary) 35%, transparent);
+    }
+    50% {
+      box-shadow:
+        0 0 0 6px color-mix(in srgb, var(--primary) 32%, transparent),
+        0 0 32px color-mix(in srgb, var(--primary) 50%, transparent);
+    }
+  }
+
+  /* Desktop-better hint — one-time popup fired 10s into the mobile visit. */
+  .desktop-hint-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 20, 18, 0.62);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 10500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    animation: tour-fade-in 0.25s ease-out;
+  }
+
+  .desktop-hint-card {
+    width: 100%;
+    max-width: 360px;
+    background: var(--surface-container-lowest);
+    color: var(--on-surface);
+    border-radius: 1.25rem;
+    padding: 1.75rem 1.4rem 1.4rem 1.4rem;
+    box-shadow: var(--shadow-strong);
+    border: 1px solid var(--outline-variant);
+    text-align: center;
+    animation: tour-pop 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .desktop-hint-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.25rem;
+    height: 3.25rem;
+    margin: 0 auto 1rem auto;
+    border-radius: 9999px;
+    background: var(--primary-container);
+    color: var(--primary);
+  }
+
+  .desktop-hint-icon .material-symbols-outlined {
+    font-size: 1.75rem;
+    font-variation-settings: 'FILL' 1;
+  }
+
+  .desktop-hint-body {
+    margin: 0 0 0.6rem 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--on-surface);
+  }
+
+  .desktop-hint-signature {
+    margin: 0 0 1.4rem 0;
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-style: italic;
+  }
+
+  .desktop-hint-cta {
+    width: 100%;
+    padding: 0.8rem 1.25rem;
+    background: var(--primary);
+    color: var(--on-primary);
+    border: none;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--shadow-1);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .desktop-hint-cta:hover,
+  .desktop-hint-cta:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-2);
+    outline: none;
   }
 }

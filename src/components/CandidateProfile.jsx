@@ -92,8 +92,11 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
           {configured && (
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-              <BookmarkButton candidateId={candidate.id} variant="pill" size="lg" stopPropagation={false} />
+              <span data-tour="bookmark" style={{ display: 'inline-flex' }}>
+                <BookmarkButton candidateId={candidate.id} variant="pill" size="lg" stopPropagation={false} />
+              </span>
               <button
+                data-tour="report"
                 onClick={handleOpenReport}
                 title="Report inaccurate data"
                 style={{
@@ -211,18 +214,18 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Experience</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.experience || 'N/A'}</p>
                 </div>
-                <div style={{ gridColumn: 'span 3' }}>
+                <div data-tour="education" style={{ gridColumn: 'span 3' }}>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Education</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayEducation}</p>
                 </div>
-                <div style={{ gridColumn: 'span 3' }}>
+                <div data-tour="profession" style={{ gridColumn: 'span 3' }}>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Profession</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{displayProfession}</p>
                 </div>
 
                 {/* Portfolios held — sector-coloured chips, primary first */}
                 {ministries.length > 0 && (
-                  <div style={{ gridColumn: 'span 3' }}>
+                  <div data-tour="ministries" style={{ gridColumn: 'span 3' }}>
                     <p className="label-sm text-outline" style={{ marginBottom: '0.75rem' }}>
                       Portfolios held{ministries.length > 1 ? ` (${ministries.length})` : ''}
                     </p>
@@ -274,7 +277,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
                 {/* Social Media Links */}
                 {(candidate.social_media?.facebook || candidate.social_media?.instagram || candidate.social_media?.x || candidate.social_media?.email || candidate.social_media?.youtube) && (
-                  <div style={{ gridColumn: 'span 3', borderTop: '1px solid var(--outline-variant)', paddingTop: '1.5rem', marginTop: '1rem' }}>
+                  <div data-tour="social" style={{ gridColumn: 'span 3', borderTop: '1px solid var(--outline-variant)', paddingTop: '1.5rem', marginTop: '1rem' }}>
                     <p className="label-sm text-outline" style={{ marginBottom: '0.75rem' }}>Official Social Media / Contact</p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                       {candidate.social_media.facebook && (
@@ -356,12 +359,11 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             {/* Right Column: Critical Info & News */}
             <div style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '3rem', borderTop: '1px solid var(--outline-variant)' }}>
               {/* Criminal Record Section */}
-              {/* Criminal Record Section */}
-              <section style={{ 
-                backgroundColor: hasNoCases ? 'color-mix(in srgb, var(--primary) 12%, transparent)' : 'var(--error-container)', 
-                borderLeft: `4px solid ${hasNoCases ? 'var(--primary)' : 'var(--error)'}`, 
-                padding: '1.5rem', 
-                borderRadius: '0 0.75rem 0.75rem 0' 
+              <section data-tour="criminal" style={{
+                backgroundColor: hasNoCases ? 'color-mix(in srgb, var(--primary) 12%, transparent)' : 'var(--error-container)',
+                borderLeft: `4px solid ${hasNoCases ? 'var(--primary)' : 'var(--error)'}`,
+                padding: '1.5rem',
+                borderRadius: '0 0.75rem 0.75rem 0'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: hasNoCases ? 'var(--primary)' : 'var(--error)', marginBottom: '1rem' }}>
                   <span className="material-symbols-outlined">

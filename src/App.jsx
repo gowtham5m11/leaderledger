@@ -6,6 +6,8 @@ import DistrictView from './components/DistrictView';
 import CandidateList from './components/CandidateList';
 import CandidateProfile from './components/CandidateProfile';
 import AccountPage from './pages/AccountPage';
+import IntroGuide from './components/IntroGuide';
+import DesktopHint from './components/DesktopHint';
 import { AuthProvider } from './auth/AuthContext';
 
 const ScrollToTop = () => {
@@ -50,6 +52,8 @@ function App() {
           </main>
 
           <FloatingNav />
+          <IntroGuide />
+          <DesktopHint />
         </div>
       </Router>
     </AuthProvider>
@@ -80,6 +84,7 @@ const FloatingNav = () => {
         return (
           <div
             key={label}
+            data-tour={view === 'list' ? 'nav-list' : undefined}
             onClick={() => path && navigate(path)}
             style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px',

@@ -122,7 +122,7 @@ const CandidateList = () => {
       <main className="page-main">
 
         {/* Title Section */}
-        <div style={{ marginBottom: '3rem' }}>
+        <div className="list-title-block" style={{ marginBottom: '3rem' }}>
           <h1 className="display-lg text-on-surface" style={{ marginBottom: '1rem' }}>Assembly Leaders</h1>
           <p className="body-md text-on-surface-variant" style={{ maxWidth: '42rem' }}>
             Explore the profiles of legislative leaders. Our Sovereign Ledger ensures every record is transparent, verified, and accessible for the informed citizen.
@@ -151,9 +151,9 @@ const CandidateList = () => {
                 {candidates.length} MLAs Tracked
               </h3>
             </div>
-            {anyFilterActive && (
+            {(anyFilterActive || query) && (
               <div className="body-md text-on-surface-variant" style={{ textAlign: 'right' }}>
-                Showing <strong style={{ color: 'var(--on-surface)' }}>{filteredLeaders.length}</strong> of {candidates.length}
+                Showing <strong data-tour="count" style={{ color: 'var(--on-surface)' }}>{filteredLeaders.length}</strong> of {candidates.length}
               </div>
             )}
           </div>
