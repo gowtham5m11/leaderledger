@@ -95,7 +95,7 @@ const TermsPage = () => (
       <p>
         The underlying candidate data is public record and is not owned by us.
         The site design, code, and aggregated/cleaned dataset are{' '}
-        <strong>© [YEAR] LeaderLedger</strong>. You may link to candidate profiles freely;
+        <strong>© 2026 LeaderLedger</strong>. You may link to candidate profiles freely;
         bulk republishing of the cleaned dataset requires written permission.
       </p>
     </Section>
@@ -135,7 +135,7 @@ const TermsPage = () => (
       <p>
         These Terms are governed by the laws of <strong>India</strong>, without regard to
         conflict-of-law principles. Any dispute will be brought in the courts of{' '}
-        <strong>[JURISDICTION_CITY], India</strong>, except that residents of the EU/UK
+        <strong>Guntur, India</strong>, except that residents of the EU/UK
         retain their statutory right to bring proceedings in their own jurisdiction.
       </p>
     </Section>
@@ -151,7 +151,7 @@ const TermsPage = () => (
 
     <Section id="contact" title="13. Contact">
       <p>
-        Questions about these Terms: <strong>[CONTACT_EMAIL]</strong>.
+        Questions about these Terms: <strong>admin@leaderledger.in</strong>.
       </p>
     </Section>
 

@@ -77,7 +77,7 @@ export const getDistrictData = (name) => {
       pastMla: "Former representative records pending",
       partyChanges: 0,
       votersCount: "Verified Assembly Ledger",
-      majorityVotes: 8500, // Placeholder
+      majorityVotes: candidateFound.election_result?.margin ?? 0,
       image: candidateFound.image ? getAssetPath(candidateFound.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidateFound.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`,
       social_media: candidateFound.social_media
     };
