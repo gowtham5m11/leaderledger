@@ -5,10 +5,10 @@ import { useIsMobile } from '../hooks/useIsMobile';
 
 // Bump the storage-key suffix whenever the steps change shape so returning
 // users see the new tour.
-const STORAGE_KEY = 'll_tour_step_v2';
+const STORAGE_KEY = 'll_tour_step_v3';
 // Wait this long after entering a profile before the spotlight steps fire,
 // so the page has time to settle visually.
-const PROFILE_DELAY_MS = 1500;
+const PROFILE_DELAY_MS = 800;
 
 // Step definitions. `selector` is the DOM target for the spotlight (or null
 // for a centered banner). `route` is the path the step belongs on; if the
@@ -46,6 +46,10 @@ const STEPS = [
     body: 'This shows how many of the 175 candidates match your search. Scroll down to see them.',
     placement: 'below',
   },
+  // Profile-route steps are ordered to follow the visual flow down a
+  // candidate profile on mobile (hero buttons → info grid top-to-bottom →
+  // right column criminal card). When the page layout changes, reorder
+  // these to match and bump STORAGE_KEY.
   {
     id: 5,
     route: '/profile',
@@ -65,30 +69,13 @@ const STEPS = [
   {
     id: 7,
     route: '/profile',
-    selector: '[data-tour="ministries"]',
-    title: 'Portfolios held',
-    body: 'See every ministry this leader holds — the primary portfolio is marked.',
-    placement: 'above',
-    optional: true,
-  },
-  {
-    id: 8,
-    route: '/profile',
-    selector: '[data-tour="criminal"]',
-    title: 'Criminal record',
-    body: 'Pending cases and convictions pulled from this candidate’s ECI affidavit.',
-    placement: 'above',
-  },
-  {
-    id: 9,
-    route: '/profile',
     selector: '[data-tour="education"]',
     title: 'Education',
     body: 'The candidate’s self-declared educational qualifications.',
     placement: 'below',
   },
   {
-    id: 10,
+    id: 8,
     route: '/profile',
     selector: '[data-tour="profession"]',
     title: 'Profession',
@@ -96,13 +83,30 @@ const STEPS = [
     placement: 'below',
   },
   {
-    id: 11,
+    id: 9,
+    route: '/profile',
+    selector: '[data-tour="ministries"]',
+    title: 'Portfolios held',
+    body: 'See every ministry this leader holds — the primary portfolio is marked.',
+    placement: 'above',
+    optional: true,
+  },
+  {
+    id: 10,
     route: '/profile',
     selector: '[data-tour="social"]',
     title: 'Official socials',
     body: 'Verified handles and contact info for this candidate.',
     placement: 'above',
     optional: true,
+  },
+  {
+    id: 11,
+    route: '/profile',
+    selector: '[data-tour="criminal"]',
+    title: 'Criminal record',
+    body: 'Pending cases and convictions pulled from this candidate’s ECI affidavit.',
+    placement: 'above',
   },
 ];
 
@@ -308,8 +312,20 @@ const IntroGuide = () => {
     if (scrolledForStepRef.current === currentStep.id) return;
     const el = document.querySelector(currentStep.selector);
     if (!el) return;
+    // Profile-route steps: reset main-content scroll first so the
+    // bookmark/report steps (top of page) need zero further scrolling
+    // and the deeper sections (criminal/education/…) start from a clean
+    // baseline before scrollIntoView centers them.
+    if (currentStep.route === '/profile') {
+      const main = document.querySelector('.main-content');
+      if (main) main.scrollTop = 0;
+    }
     try {
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Instant (not smooth) so the spotlight rect on the next render
+      // frame matches the post-scroll target position — avoids the
+      // "blank screen" bug where the 4 dim panels render against a
+      // stale rect during the ~500ms smooth-scroll animation.
+      el.scrollIntoView({ behavior: 'auto', block: 'center' });
     } catch (_e) { /* older browsers */ }
     scrolledForStepRef.current = currentStep.id;
   }, [currentStep, rect]);
@@ -418,10 +434,25 @@ const IntroGuide = () => {
     { top: rect.top - ringPad, left: rect.left + rect.width + ringPad, right: 0, height: rect.height + ringPad * 2 },
   ];
 
+  // When the user scrolls past the spotlight, the ring + tooltip end up
+  // off-screen too (both are positioned relative to rect). Surface a pill
+  // at the visible viewport edge pointing back to the target.
+  const offTop = rect.top + rect.height < 0;
+  const offBottom = rect.top > viewportH;
+  const offDirection = offTop ? 'up' : (offBottom ? 'down' : null);
+  const scrollBackToTarget = () => {
+    const el = document.querySelector(currentStep.selector);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  };
+
   return (
     <>
       {panels.map((p, i) => (
-        <div key={i} className="tour-panel" style={{ position: 'fixed', background: dim, zIndex: 9998, ...p }} />
+        <div
+          key={i}
+          className="tour-panel"
+          style={{ position: 'fixed', background: dim, zIndex: 9998, pointerEvents: 'none', ...p }}
+        />
       ))}
       <div className="tour-ring" style={{ position: 'fixed', zIndex: 9998, ...ringStyle }} />
 
@@ -438,6 +469,20 @@ const IntroGuide = () => {
         <ProgressDots />
         <NavActions />
       </div>
+
+      {offDirection && (
+        <button
+          type="button"
+          className={`tour-pointer tour-pointer--${offDirection}`}
+          onClick={scrollBackToTarget}
+          aria-label={`Scroll back to ${currentStep.title}`}
+        >
+          <span className="material-symbols-outlined" aria-hidden="true">
+            {offDirection === 'up' ? 'arrow_upward' : 'arrow_downward'}
+          </span>
+          <span className="tour-pointer-label">{currentStep.title}</span>
+        </button>
+      )}
     </>
   );
 };

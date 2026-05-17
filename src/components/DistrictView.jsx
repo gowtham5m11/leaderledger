@@ -1,8 +1,13 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef } from 'react';
 import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
 import { getDistrictData, partyColor } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
+
+// Snap heights for the mobile bottom sheet — must match the .snap-* rules
+// in src/index.css. Peek shows the constituency name + handle, half shows
+// the winner card, full reveals everything.
+const SNAP_VH = { peek: 14, half: 48, full: 88 };
 
 const MapTooltip = ({ data }) => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -65,6 +70,57 @@ const DistrictView = () => {
   const [panelWidth, setPanelWidth] = useState(440);
   const [isResizing, setIsResizing] = useState(false);
 
+  // Mobile bottom-sheet snap state.
+  const [snap, setSnap] = useState('half');
+  const [isDragging, setIsDragging] = useState(false);
+  const panelRef = useRef(null);
+  const dragRef = useRef({ active: false, startY: 0, startVh: 48 });
+
+  const startSheetDrag = React.useCallback((clientY) => {
+    if (!panelRef.current) return;
+    const startVh = (panelRef.current.getBoundingClientRect().height / window.innerHeight) * 100;
+    dragRef.current = { active: true, startY: clientY, startVh };
+    setIsDragging(true);
+  }, []);
+
+  const moveSheetDrag = React.useCallback((clientY) => {
+    if (!dragRef.current.active || !panelRef.current) return;
+    const deltaPx = dragRef.current.startY - clientY; // up-swipe is positive
+    const deltaVh = (deltaPx / window.innerHeight) * 100;
+    const nextVh = Math.max(8, Math.min(95, dragRef.current.startVh + deltaVh));
+    panelRef.current.style.height = `${nextVh}vh`;
+  }, []);
+
+  const endSheetDrag = React.useCallback(() => {
+    if (!dragRef.current.active || !panelRef.current) return;
+    dragRef.current.active = false;
+    setIsDragging(false);
+    const rect = panelRef.current.getBoundingClientRect();
+    const currentVh = (rect.height / window.innerHeight) * 100;
+    let closest = 'half';
+    let best = Infinity;
+    for (const [name, vh] of Object.entries(SNAP_VH)) {
+      const d = Math.abs(vh - currentVh);
+      if (d < best) { best = d; closest = name; }
+    }
+    panelRef.current.style.height = ''; // hand back to the .snap-* class
+    setSnap(closest);
+  }, []);
+
+  // Publish the current sheet height as a CSS variable so .map-wrapper can
+  // subtract it from 100vh and keep the map visible above the sheet. Only
+  // fires on snap-state changes (not during drag), so the map underneath
+  // stays stable while the user is gesturing.
+  React.useEffect(() => {
+    const root = document.documentElement;
+    if (!isPanelVisible) {
+      root.style.removeProperty('--ll-sheet-vh');
+      return undefined;
+    }
+    root.style.setProperty('--ll-sheet-vh', `${SNAP_VH[snap] ?? 48}vh`);
+    return () => root.style.removeProperty('--ll-sheet-vh');
+  }, [snap, isPanelVisible]);
+
   const startResizing = React.useCallback((e) => {
     e.preventDefault();
     setIsResizing(true);
@@ -100,6 +156,7 @@ const DistrictView = () => {
   const handleDistrictClick = (data) => {
     setSelectedDistrict(data);
     setIsPanelVisible(true);
+    setSnap('half');
   };
 
   if (!selectedDistrict) return <div className="p-8">Loading district data...</div>;
@@ -145,7 +202,8 @@ const DistrictView = () => {
       </div>
 
       <div
-        className={`details-panel-container ${isPanelVisible ? 'mobile-visible' : ''}`}
+        ref={panelRef}
+        className={`details-panel-container ${isPanelVisible ? `mobile-visible snap-${snap}` : ''} ${isDragging ? 'is-dragging' : ''}`}
         style={{
           width: window.innerWidth <= 768 ? undefined : `${panelWidth}px`,
           transition: isResizing ? 'none' : 'all 500ms cubic-bezier(0.16, 1, 0.3, 1)',
@@ -153,6 +211,29 @@ const DistrictView = () => {
           opacity: window.innerWidth > 768 ? (isPanelVisible ? 1 : 0) : undefined
         }}
       >
+        {/* Mobile drag handle — invisible on desktop (CSS-scoped). */}
+        <div
+          className="sheet-handle"
+          role="separator"
+          aria-label="Drag to resize sheet"
+          onTouchStart={(e) => startSheetDrag(e.touches[0].clientY)}
+          onTouchMove={(e) => moveSheetDrag(e.touches[0].clientY)}
+          onTouchEnd={endSheetDrag}
+          onTouchCancel={endSheetDrag}
+          onMouseDown={(e) => {
+            e.preventDefault();
+            startSheetDrag(e.clientY);
+            const onMove = (ev) => moveSheetDrag(ev.clientY);
+            const onUp = () => {
+              endSheetDrag();
+              window.removeEventListener('mousemove', onMove);
+              window.removeEventListener('mouseup', onUp);
+            };
+            window.addEventListener('mousemove', onMove);
+            window.addEventListener('mouseup', onUp);
+          }}
+        />
+
         <div
           onMouseDown={startResizing}
           style={{
@@ -205,7 +286,7 @@ const DistrictView = () => {
                   <span className="label-sm px-4 py-1.5 rounded-full bg-white font-bold text-primary mb-3 inline-flex items-center justify-center shadow-sm border border-primary/10 whitespace-nowrap leading-none">
                     {selectedDistrict.name}
                   </span>
-                  <h1 className="display-lg text-on-surface">
+                  <h1 className="candidate-sheet-name">
                     {selectedDistrict.currentMla}
                   </h1>
                 </div>

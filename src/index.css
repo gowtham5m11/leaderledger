@@ -583,16 +583,30 @@ h6,
   border-left: 6px solid var(--inc);
 }
 
-/* Typography */
+/* Typography — hero sizes use clamp() so they scale fluidly between phone
+   and desktop without a cliff at any one breakpoint. The min values are
+   tuned for a 360px viewport. */
 .display-lg {
-  font-size: 2.5rem;
-  line-height: 1.1;
+  font-size: clamp(1.55rem, 5vw + 0.4rem, 2.5rem);
+  line-height: 1.15;
   letter-spacing: -0.02em;
 }
 
+.display-md {
+  font-size: clamp(1.4rem, 4vw + 0.3rem, 2rem);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
 .headline-md {
-  font-size: 2rem;
-  line-height: 1.2;
+  font-size: clamp(1.2rem, 3vw + 0.5rem, 2rem);
+  line-height: 1.25;
+}
+
+.headline-sm {
+  font-size: clamp(1rem, 2vw + 0.5rem, 1.4rem);
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 .title-md {
@@ -600,9 +614,20 @@ h6,
   font-weight: 600;
 }
 
+.title-sm {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
 .body-md {
   font-size: 0.9375rem;
   line-height: 1.6;
+}
+
+.body-sm {
+  font-size: 0.825rem;
+  line-height: 1.5;
 }
 
 .label-sm {
@@ -870,7 +895,9 @@ h6,
     bottom: 0;
     width: 100%;
     border-radius: 2rem 2rem 0 0;
-    padding: 0.75rem 1rem 1.5rem 1rem;
+    /* Push above the iOS home indicator via env(safe-area-inset-bottom)
+       (requires viewport-fit=cover on the <meta viewport> tag). */
+    padding: 0.6rem 1rem calc(0.75rem + env(safe-area-inset-bottom)) 1rem;
     gap: 1rem;
     justify-content: space-around;
     box-shadow: 0 -10px 40px rgba(0,0,0,0.1);
@@ -881,19 +908,15 @@ h6,
   .list-title-block { display: none; }
 
   .map-wrapper {
-    height: 100vh;
+    /* When the bottom sheet is up, --ll-sheet-vh holds its current snap
+       height (set from JS in DistrictView). When the sheet is closed,
+       the variable is unset and the fallback 0px keeps the wrapper at
+       full inset height. */
+    height: calc(100vh - var(--ll-sheet-vh, 0px));
   }
   
   .header-search {
     max-width: 100%;
-  }
-  
-  .display-lg {
-    font-size: 2rem;
-  }
-  
-  .headline-md {
-    font-size: 1.5rem;
   }
 }
 
@@ -1014,36 +1037,57 @@ h6,
 
 @media (max-width: 768px) {
   .page-main {
-    padding: 1.5rem 1rem;
+    padding: 1rem 0.875rem;
+    /* Reserve space so cards don't disappear under the bottom nav +
+       iOS home indicator. */
+    padding-bottom: calc(5.5rem + env(safe-area-inset-bottom));
   }
-  
+
   .profile-hero {
-    padding: 2rem;
+    padding: 1.5rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
-  
+
   .profile-info-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    column-gap: 1.25rem;
   }
-  
+  /* The info-grid children carry inline `gridColumn: 'span 3'` for the
+     3-col desktop layout. In a 1-col grid Chromium can create phantom
+     columns to honour the span, leaving the rest of the page mis-laid
+     out (timeline / criminal / news appear after the implicit columns
+     instead of below). Force every child to span the single column. */
+  .profile-info-grid > * {
+    grid-column: 1 / -1 !important;
+  }
+
   .profile-content-split {
     grid-template-columns: 1fr;
   }
-  
+
   .profile-timeline {
-    padding: 2rem;
+    padding: 1.5rem;
     border-right: none;
   }
-  
+
   .profile-compare-box {
     flex-direction: column;
     text-align: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
   }
+
+  /* Sign-in pill becomes icon-only on phones — paired with
+     <span class="auth-btn-label"> in AuthButton.jsx. */
+  .auth-btn-label { display: none; }
+  .auth-btn-pill { padding: 0.45rem !important; }
 }
 
 /* Onboarding tour — mobile-only contextual coachmarks for first-time
@@ -1337,6 +1381,48 @@ h6,
     to   { transform: scale(1);    opacity: 1; }
   }
 
+  /* Off-screen indicator — appears when the user scrolls past the
+     spotlight target. Taps it to scroll back to where the tour is. */
+  .tour-pointer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1rem 0.65rem 0.85rem;
+    background: var(--primary);
+    color: var(--on-primary);
+    border: none;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: var(--shadow-2);
+    cursor: pointer;
+    z-index: 10001;
+    max-width: calc(100vw - 2rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: tour-pointer-bounce 1.4s ease-in-out infinite;
+  }
+  .tour-pointer--up   { top: 5.5rem; }
+  .tour-pointer--down { bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
+  .tour-pointer .material-symbols-outlined {
+    font-size: 1.25rem;
+    font-variation-settings: 'FILL' 1;
+  }
+  .tour-pointer-label {
+    max-width: 60vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @keyframes tour-pointer-bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50%      { transform: translateX(-50%) translateY(-5px); }
+  }
+
   @keyframes tour-ring-pulse {
     0%, 100% {
       box-shadow:
@@ -1429,4 +1515,176 @@ h6,
     box-shadow: var(--shadow-2);
     outline: none;
   }
+}
+
+/* ----------------------------------------------------------------
+   Profile content utility classes — pulled out of CandidateProfile.jsx
+   inline styles so a media query can override them on mobile.
+   ---------------------------------------------------------------- */
+
+.profile-photo {
+  width: clamp(110px, 28vw, 180px);
+  height: clamp(110px, 28vw, 180px);
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 4px solid var(--surface-container-low);
+  box-shadow: var(--shadow-2);
+}
+
+.profile-hero-name {
+  /* Replaces inline fontSize: '3rem' on the hero h1. */
+  font-size: clamp(1.5rem, 4.5vw + 0.5rem, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--on-surface);
+  margin-top: 0.5rem;
+}
+
+.profile-hero-subtitle {
+  /* Replaces inline fontSize: '1.125rem' on the ministry/party line. */
+  font-size: clamp(0.95rem, 1.5vw + 0.5rem, 1.125rem);
+  font-weight: 500;
+  color: var(--on-surface-variant);
+}
+
+.profile-side {
+  /* Right column on the profile — replaces inline padding: '3rem'. */
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-top: 1px solid var(--outline-variant);
+}
+
+.profile-criminal {
+  /* Criminal-record card — replaces inline padding: '1.5rem'. */
+  padding: 1.5rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.profile-case-count {
+  /* "X Pending Cases" — replaces inline fontSize: '1.125rem'. */
+  font-size: clamp(1rem, 1.5vw + 0.5rem, 1.125rem);
+  font-weight: 600;
+}
+
+.profile-section-title {
+  /* "In the Headlines" / "Analyze & Compare" — replaces inline
+     fontSize: '1.25rem' and '1.5rem'. */
+  font-size: clamp(1.05rem, 1.5vw + 0.6rem, 1.5rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.profile-timeline-place {
+  /* Replaces inline fontSize: '1.125rem' on each timeline location. */
+  font-size: clamp(1rem, 1vw + 0.6rem, 1.125rem);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--on-surface);
+}
+
+.ministry-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.975rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 9999px;
+}
+
+/* District bottom-sheet candidate name — independent of .display-lg so it
+   stays narrow even on tablets where the sheet is only 440px wide. */
+.candidate-sheet-name {
+  font-size: clamp(1.1rem, 4vw, 1.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: var(--on-surface);
+  word-break: break-word;
+}
+
+/* ----------------------------------------------------------------
+   District snap-point bottom sheet (mobile only).
+   ---------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Default mobile sheet height is now controlled by a snap modifier
+     class — overrides the legacy 70vh from earlier in this file. */
+  .details-panel-container.snap-peek    { height: 14vh; }
+  .details-panel-container.snap-half    { height: 48vh; }
+  .details-panel-container.snap-full    { height: 88vh; }
+
+  .details-panel-container.is-dragging { transition: none !important; }
+
+  /* Visible drag affordance at the top of the sheet. */
+  .sheet-handle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    touch-action: none;
+    z-index: 5;
+  }
+  .sheet-handle::before {
+    content: '';
+    width: 2.5rem;
+    height: 0.3rem;
+    border-radius: 9999px;
+    background: var(--outline);
+    opacity: 0.4;
+  }
+  .sheet-handle:active { cursor: grabbing; }
+  .sheet-handle:active::before { opacity: 0.7; }
+
+  /* Slightly trim the panel padding so the handle has room. */
+  .floating-panel { padding-top: 2.25rem !important; }
+}
+
+/* ----------------------------------------------------------------
+   Sub-480px tier — small phones (iPhone SE / Android Small).
+   ---------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .title-md { font-size: 1rem; }
+  .body-md  { font-size: 0.875rem; }
+
+  .leader-card {
+    padding: 1rem;
+    gap: 0.65rem;
+    border-radius: 1rem;
+  }
+
+  .page-main {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .header-title { font-size: 1.05rem; }
+  .header-container { padding: 0.5rem 0.75rem; gap: 0.4rem; }
+
+  .profile-hero { padding: 1.25rem; gap: 1rem; }
+  .profile-timeline { padding: 1.25rem; }
+  .profile-side { padding: 1.25rem; gap: 1.75rem; }
+  .profile-criminal { padding: 1rem; }
+  .profile-compare-box { padding: 1.25rem; }
+
+  /* Inline-style chips on the list filter row — !important is needed
+     because the chip helper writes inline styles. */
+  .filter-chip {
+    padding: 0.35rem 0.75rem !important;
+    font-size: 0.78rem !important;
+  }
+
+  .ministry-chip {
+    font-size: 0.825rem;
+    padding: 0.45rem 0.85rem;
+    gap: 0.45rem;
+  }
+
+  /* Floating-nav labels shrink one more notch. */
+  .floating-nav span { font-size: 0.5rem; }
 }

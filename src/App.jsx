@@ -96,7 +96,7 @@ const FloatingNav = () => {
           >
             <span
               className="material-symbols-outlined"
-              style={{ fontVariationSettings: isActive ? "'FILL' 1" : "'FILL' 0", fontSize: '24px' }}
+              style={{ fontVariationSettings: isActive ? "'FILL' 1" : "'FILL' 0", fontSize: '22px' }}
             >
               {icon}
             </span>

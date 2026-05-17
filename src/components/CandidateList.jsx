@@ -176,6 +176,7 @@ const CandidateList = () => {
                     <button
                       key={p}
                       type="button"
+                      className="filter-chip"
                       onClick={() => toggleInList('party', selectedParties, p)}
                       style={chipStyle(active, partyColor(p))}
                     >
@@ -195,6 +196,7 @@ const CandidateList = () => {
                     <button
                       key={b.id}
                       type="button"
+                      className="filter-chip"
                       onClick={() => toggleInList('cases', selectedCases, b.id)}
                       style={chipStyle(active)}
                     >

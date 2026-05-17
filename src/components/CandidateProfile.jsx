@@ -154,17 +154,10 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             }}></div>
             
             <div style={{ position: 'relative', zIndex: 10, flexShrink: 0 }}>
-              <div style={{ 
-                width: '180px', 
-                height: '180px', 
-                borderRadius: '1rem', 
-                overflow: 'hidden', 
-                border: '4px solid var(--surface-container-low)',
-                boxShadow: 'var(--shadow-2)'
-              }}>
-                <img 
-                  src={displayImage} 
-                  alt={candidate.name} 
+              <div className="profile-photo">
+                <img
+                  src={displayImage}
+                  alt={candidate.name}
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   onError={(e) => {
                     e.target.onerror = null;
@@ -192,12 +185,12 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 }}>
                   {displayRole}
                 </span>
-                <h1 className="display-lg" style={{ color: 'var(--on-surface)', marginTop: '0.5rem', fontSize: '3rem' }}>
+                <h1 className="profile-hero-name">
                   {candidate.name}
                 </h1>
-                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginTop: '0.75rem' }}>
-                  <div style={{ width: '4px', height: '1.5rem', backgroundColor: partyColor }}></div>
-                  <p style={{ fontSize: '1.125rem', fontWeight: 500, color: 'var(--on-surface-variant)' }}>
+                <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginTop: '0.75rem' }}>
+                  <div style={{ width: '4px', height: '1.5rem', backgroundColor: partyColor, flexShrink: 0 }}></div>
+                  <p className="profile-hero-subtitle">
                     {displayMinistry} • <span style={{ fontWeight: 700, color: partyColor }}>{candidate.party}</span>
                   </p>
                 </div>
@@ -236,14 +229,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                           <span
                             key={`${m.name}-${idx}`}
                             title={sectorLabel(m.sector)}
+                            className="ministry-chip"
                             style={{
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '0.55rem',
-                              fontSize: '0.975rem',
                               fontWeight: idx === 0 ? 700 : 600,
-                              padding: '0.6rem 1.1rem',
-                              borderRadius: '9999px',
                               background: `color-mix(in srgb, ${hex} ${idx === 0 ? 22 : 14}%, transparent)`,
                               color: hex,
                               border: `1px solid color-mix(in srgb, ${hex} ${idx === 0 ? 45 : 28}%, transparent)`,
@@ -346,7 +334,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                       <span className="headline-md" style={{ color: idx === 0 ? partyColor : 'var(--on-surface)', display: 'block', marginBottom: '0.5rem' }}>
                         {loc.year || (2024 - idx * 5)}
                       </span>
-                      <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.5rem', color: 'var(--on-surface)' }}>{loc.place}</h3>
+                      <h3 className="profile-timeline-place">{loc.place}</h3>
                       <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
                         Committed public service record in the {loc.place} constituency, prioritizing governance and local community development initiatives with a focus on transparency and accountability.
                       </p>
@@ -357,13 +345,11 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             </div>
 
             {/* Right Column: Critical Info & News */}
-            <div style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '3rem', borderTop: '1px solid var(--outline-variant)' }}>
+            <div className="profile-side">
               {/* Criminal Record Section */}
-              <section data-tour="criminal" style={{
+              <section data-tour="criminal" className="profile-criminal" style={{
                 backgroundColor: hasNoCases ? 'color-mix(in srgb, var(--primary) 12%, transparent)' : 'var(--error-container)',
-                borderLeft: `4px solid ${hasNoCases ? 'var(--primary)' : 'var(--error)'}`,
-                padding: '1.5rem',
-                borderRadius: '0 0.75rem 0.75rem 0'
+                borderLeft: `4px solid ${hasNoCases ? 'var(--primary)' : 'var(--error)'}`
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: hasNoCases ? 'var(--primary)' : 'var(--error)', marginBottom: '1rem' }}>
                   <span className="material-symbols-outlined">
@@ -375,7 +361,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
-                    <p style={{ color: hasNoCases ? 'var(--primary)' : 'var(--error)', fontWeight: 600, fontSize: '1.125rem' }}>{displayCriminalCases} Pending Cases</p>
+                    <p className="profile-case-count" style={{ color: hasNoCases ? 'var(--primary)' : 'var(--error)' }}>{displayCriminalCases} Pending Cases</p>
                   </div>
 
                   {/* Detailed Case List */}
@@ -435,7 +421,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
               {/* Latest News Section */}
               <section>
-                <h3 className="headline-md" style={{ fontSize: '1.25rem', marginBottom: '1.5rem' }}>In the Headlines</h3>
+                <h3 className="profile-section-title" style={{ marginBottom: '1.5rem' }}>In the Headlines</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                   {[...Array(3)].map((_, i) => (
                     <div key={i} style={{ cursor: 'pointer' }}>
@@ -474,7 +460,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
         {/* Floating Comparison Action */}
         <div className="profile-compare-box">
           <div>
-            <h3 className="headline-md" style={{ fontSize: '1.5rem', marginBottom: '0.25rem', color: 'var(--on-primary)' }}>Analyze & Compare</h3>
+            <h3 className="profile-section-title" style={{ marginBottom: '0.25rem', color: 'var(--on-primary)' }}>Analyze & Compare</h3>
             <p style={{ opacity: 0.8 }}>Evaluate this leader against other candidates in the same constituency.</p>
           </div>
           <button style={{ 

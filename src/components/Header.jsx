@@ -29,7 +29,11 @@ const Header = ({ theme, toggleTheme }) => {
     const v = e.currentTarget.value.trim().toLowerCase();
     if (v === 'tour_guide_replay') {
       e.preventDefault();
-      try { localStorage.removeItem('ll_tour_step_v2'); } catch (_e) { /* ignore */ }
+      // Also clear the legacy v2 key in case it's still around.
+      try {
+        localStorage.removeItem('ll_tour_step_v3');
+        localStorage.removeItem('ll_tour_step_v2');
+      } catch (_e) { /* ignore */ }
       window.location.hash = '#/district';
       window.location.reload();
       return;

@@ -56,6 +56,8 @@ const AuthButton = ({ theme, toggleTheme }) => {
         <button
           onClick={openSignIn}
           title="Sign in with Google"
+          aria-label="Sign in"
+          className="auth-btn-pill"
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -72,7 +74,7 @@ const AuthButton = ({ theme, toggleTheme }) => {
           }}
         >
           <LogIn size={16} />
-          <span>Sign in</span>
+          <span className="auth-btn-label">Sign in</span>
         </button>
       </div>
     );

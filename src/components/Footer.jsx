@@ -1,7 +1,10 @@
 import React from 'react';
 
 const replayTour = () => {
-  try { localStorage.removeItem('ll_tour_step_v2'); } catch (_e) { /* ignore */ }
+  try {
+    localStorage.removeItem('ll_tour_step_v3');
+    localStorage.removeItem('ll_tour_step_v2');
+  } catch (_e) { /* ignore */ }
   window.location.hash = '#/district';
   window.location.reload();
 };
