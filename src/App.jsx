@@ -6,8 +6,12 @@ import DistrictView from './components/DistrictView';
 import CandidateList from './components/CandidateList';
 import CandidateProfile from './components/CandidateProfile';
 import AccountPage from './pages/AccountPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 import IntroGuide from './components/IntroGuide';
 import DesktopHint from './components/DesktopHint';
+import CookieConsent from './components/CookieConsent';
+import PolicyGate from './components/PolicyGate';
 import { AuthProvider } from './auth/AuthContext';
 
 const ScrollToTop = () => {
@@ -48,12 +52,16 @@ function App() {
               <Route path="/list" element={<CandidateList />} />
               <Route path="/profile/:id" element={<CandidateProfile />} />
               <Route path="/account" element={<AccountPage />} />
+              <Route path="/privacy" element={<PrivacyPage />} />
+              <Route path="/terms" element={<TermsPage />} />
             </Routes>
           </main>
 
           <FloatingNav />
           <IntroGuide />
           <DesktopHint />
+          <CookieConsent />
+          <PolicyGate />
         </div>
       </Router>
     </AuthProvider>

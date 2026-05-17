@@ -3,6 +3,7 @@ import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
 import MapChart from './MapChart';
 import { getDistrictData, partyColor } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
+import { safeHref } from '../utils/safeHref';
 
 // Snap heights for the mobile bottom sheet — must match the .snap-* rules
 // in src/index.css. Peek shows the constituency name + handle, half shows
@@ -341,7 +342,7 @@ const DistrictView = () => {
                     {selectedDistrict.social_media.facebook && (
                       <div className="flex flex-col">
                         <span className="label-sm text-outline mb-1">Facebook</span>
-                        <a href={selectedDistrict.social_media.facebook} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
+                        <a href={safeHref(selectedDistrict.social_media.facebook)} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
                           {selectedDistrict.social_media.facebook}
                         </a>
                       </div>
@@ -349,7 +350,7 @@ const DistrictView = () => {
                     {selectedDistrict.social_media.instagram && (
                       <div className="flex flex-col">
                         <span className="label-sm text-outline mb-1">Instagram</span>
-                        <a href={selectedDistrict.social_media.instagram} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
+                        <a href={safeHref(selectedDistrict.social_media.instagram)} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
                           {selectedDistrict.social_media.instagram}
                         </a>
                       </div>
@@ -357,7 +358,7 @@ const DistrictView = () => {
                     {selectedDistrict.social_media.x && (
                       <div className="flex flex-col">
                         <span className="label-sm text-outline mb-1">Twitter / X</span>
-                        <a href={selectedDistrict.social_media.x} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
+                        <a href={safeHref(selectedDistrict.social_media.x)} target="_blank" rel="noopener noreferrer" className="body-md text-on-surface-variant hover:text-primary transition-colors truncate">
                           {selectedDistrict.social_media.x}
                         </a>
                       </div>

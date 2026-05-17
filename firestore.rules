@@ -23,7 +23,10 @@ service cloud.firestore {
     // --- User profile -------------------------------------------------------
     // Each authenticated user maintains exactly one /users/{uid} doc that
     // mirrors their Auth profile. They (and admins) can read it; only they
-    // can write it; and the schema is locked down.
+    // can write it; the owner (or an admin) can delete it for DPDP/GDPR
+    // right-to-erasure. AccountPage clears bookmarks + the throttle doc
+    // before deleting the parent. Reports are kept for moderation —
+    // privacy policy documents this.
     match /users/{uid} {
       allow read: if isOwner(uid) || isAdmin();
 
@@ -35,12 +38,19 @@ service cloud.firestore {
         && request.resource.data.displayName is string
         && request.resource.data.photoURL is string;
 
+      // `policyVersion` is written by PolicyGate.jsx when the user accepts
+      // the current Privacy Policy + Terms. Owner-writable, validated as int.
       allow update: if isOwner(uid)
         && request.resource.data.diff(resource.data).affectedKeys()
-             .hasOnly(['displayName', 'photoURL', 'lastLogin'])
-        && request.resource.data.email == resource.data.email;
+             .hasOnly(['displayName', 'photoURL', 'lastLogin', 'policyVersion'])
+        && request.resource.data.email == resource.data.email
+        && (
+             !request.resource.data.diff(resource.data).affectedKeys().hasAny(['policyVersion'])
+             || (request.resource.data.policyVersion is int
+                 && request.resource.data.policyVersion >= 1)
+           );
 
-      allow delete: if false;
+      allow delete: if isOwner(uid) || isAdmin();
 
       // --- Bookmarks ------------------------------------------------------
       // Subcollection: /users/{uid}/bookmarks/{candidateId}
@@ -48,14 +58,32 @@ service cloud.firestore {
       match /bookmarks/{candidateId} {
         allow read: if isOwner(uid) || isAdmin();
         allow create, update: if isOwner(uid)
+          && candidateId.size() <= 64
+          && candidateId.matches('[A-Za-z0-9_-]+')
           && request.resource.data.keys().hasOnly(['createdAt']);
         allow delete: if isOwner(uid);
+      }
+
+      // --- Per-uid metadata (currently just the report throttle) ---------
+      // /users/{uid}/meta/throttle  { lastReportAt: <server timestamp> }
+      // The /reports/{} create rule reads this doc to enforce a 10s cooldown.
+      match /meta/{key} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow write: if isOwner(uid)
+          && key == 'throttle'
+          && request.resource.data.keys().hasOnly(['lastReportAt'])
+          && request.resource.data.lastReportAt == request.time;
       }
     }
 
     // --- Reports ------------------------------------------------------------
     // Any signed-in user can create a report for a candidate. The author can
     // read their own. Only admins can list, update status, or delete.
+    // Length caps and `field` enum mirror the client UI (ReportModal.jsx) so
+    // a direct SDK call can't smuggle in oversized or off-enum values.
+    // Throttle: each create must come at least 10s after the last one, tracked
+    // via /users/{uid}/meta/throttle. First report ever has no throttle doc,
+    // so the `!exists(...)` branch lets it through.
     match /reports/{reportId} {
       allow create: if isSignedIn()
         && request.resource.data.uid == request.auth.uid
@@ -65,16 +93,39 @@ service cloud.firestore {
              'status', 'createdAt'
            ])
         && request.resource.data.status == 'open'
+        && request.resource.data.field in [
+             'education', 'profession', 'criminal_cases',
+             'social_media', 'ministries', 'age', 'other'
+           ]
         && request.resource.data.reason is string
         && request.resource.data.reason.size() >= 1
         && request.resource.data.reason.size() <= 1000
-        && request.resource.data.field is string
-        && request.resource.data.candidateId is string;
+        && request.resource.data.suggestion is string
+        && request.resource.data.suggestion.size() <= 500
+        && request.resource.data.currentValue is string
+        && request.resource.data.currentValue.size() <= 500
+        && request.resource.data.candidateName is string
+        && request.resource.data.candidateName.size() <= 200
+        && request.resource.data.candidateId is string
+        && request.resource.data.candidateId.size() <= 64
+        && (
+             !exists(/databases/$(database)/documents/users/$(request.auth.uid)/meta/throttle)
+             || request.time >
+                  get(/databases/$(database)/documents/users/$(request.auth.uid)/meta/throttle)
+                    .data.lastReportAt + duration.value(10, 's')
+           );
 
       allow read: if isAdmin()
         || (isSignedIn() && resource.data.uid == request.auth.uid);
 
-      allow update, delete: if isAdmin();
+      allow update: if isAdmin()
+        || (isSignedIn() 
+            && resource.data.uid == request.auth.uid
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+            && request.resource.data.status == 'withdrawn');
+
+      allow delete: if isAdmin() 
+        || (isSignedIn() && resource.data.uid == request.auth.uid);
     }
 
     // --- Deny everything else ----------------------------------------------

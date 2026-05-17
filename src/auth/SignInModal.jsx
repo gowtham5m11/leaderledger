@@ -169,7 +169,9 @@ const SignInModal = ({ open, onClose, onSignIn, error }) => {
 
         <p style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--on-surface-variant)', textAlign: 'center', lineHeight: 1.5 }}>
           By signing in you agree that your name, email, and profile picture will
-          be stored to power bookmarks and reports.
+          be stored to power bookmarks and reports, and that you accept our{' '}
+          <a href="#/terms" style={{ color: 'var(--primary)' }}>Terms</a> and{' '}
+          <a href="#/privacy" style={{ color: 'var(--primary)' }}>Privacy Policy</a>.
         </p>
       </div>
     </div>

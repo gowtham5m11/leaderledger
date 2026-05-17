@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { X, AlertTriangle, Check } from 'lucide-react';
-import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
+import { collection, doc, serverTimestamp, writeBatch } from 'firebase/firestore';
 import { db } from '../firebase';
 import { useAuth } from '../auth/AuthContext';
 
@@ -69,10 +69,16 @@ const ReportModal = ({ open, onClose, candidate, defaultField = 'education' }) =
         setSubmitting(false);
         return;
       }
-      await addDoc(collection(db, 'reports'), {
+      // Atomic write: the report doc + the per-uid throttle doc. The rules
+      // for /reports/{} require the throttle's previous lastReportAt to be
+      // > 10s old, so skipping the throttle update doesn't let an attacker
+      // bypass — their next report would still be blocked by the stale doc.
+      const batch = writeBatch(db);
+      const reportRef = doc(collection(db, 'reports'));
+      batch.set(reportRef, {
         uid: u.uid,
-        candidateId: String(candidate.id),
-        candidateName: candidate.name || '',
+        candidateId: String(candidate.id).slice(0, 64),
+        candidateName: (candidate.name || '').slice(0, 200),
         field,
         currentValue: String(currentValue || '').slice(0, 500),
         suggestion: suggestion.slice(0, 500),
@@ -80,10 +86,18 @@ const ReportModal = ({ open, onClose, candidate, defaultField = 'education' }) =
         status: 'open',
         createdAt: serverTimestamp(),
       });
+      batch.set(doc(db, 'users', u.uid, 'meta', 'throttle'), {
+        lastReportAt: serverTimestamp(),
+      });
+      await batch.commit();
       setSubmitted(true);
     } catch (err) {
-      console.error('Report submit failed:', err);
-      setError(err?.message || 'Could not submit the report. Please try again.');
+      console.error('Report submit failed:', err?.code || err?.message);
+      if (err?.code === 'permission-denied') {
+        setError("You're submitting too fast — please wait a few seconds and try again.");
+      } else {
+        setError('Could not submit the report. Please try again.');
+      }
     } finally {
       setSubmitting(false);
     }

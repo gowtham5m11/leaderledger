@@ -4,6 +4,7 @@ import { Flag } from 'lucide-react';
 import candidates from '../data/candidates.json';
 import { partyColors, partyColor as partyColorVar, sectorColor, sectorLabel } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
+import { safeHref } from '../utils/safeHref';
 import BookmarkButton from './BookmarkButton';
 import ReportModal from './ReportModal';
 import { useAuth } from '../auth/AuthContext';
@@ -271,7 +272,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                       {candidate.social_media.facebook && (
                         <div style={{ fontSize: '0.875rem' }}>
                           <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Facebook:</span>
-                          <a href={candidate.social_media.facebook} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                          <a href={safeHref(candidate.social_media.facebook)} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
                             {candidate.social_media.facebook}
                           </a>
                         </div>
@@ -279,7 +280,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                       {candidate.social_media.instagram && (
                         <div style={{ fontSize: '0.875rem' }}>
                           <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Instagram:</span>
-                          <a href={candidate.social_media.instagram} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                          <a href={safeHref(candidate.social_media.instagram)} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
                             {candidate.social_media.instagram}
                           </a>
                         </div>
@@ -287,7 +288,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                       {candidate.social_media.x && (
                         <div style={{ fontSize: '0.875rem' }}>
                           <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.5rem' }}>Twitter/X:</span>
-                          <a href={candidate.social_media.x} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
+                          <a href={safeHref(candidate.social_media.x)} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', wordBreak: 'break-all' }}>
                             {candidate.social_media.x}
                           </a>
                         </div>
