@@ -1,0 +1,702 @@
+{
+  "1": {
+    "name": "Ichchapuram",
+    "url": "https://en.wikipedia.org/wiki/Ichchapuram_Assembly_constituency"
+  },
+  "2": {
+    "name": "Palasa",
+    "url": "https://en.wikipedia.org/wiki/Palasa_Assembly_constituency"
+  },
+  "3": {
+    "name": "Tekkali",
+    "url": "https://en.wikipedia.org/wiki/Tekkali_Assembly_constituency"
+  },
+  "4": {
+    "name": "Pathapatnam",
+    "url": "https://en.wikipedia.org/wiki/Pathapatnam_Assembly_constituency"
+  },
+  "5": {
+    "name": "Srikakulam",
+    "url": "https://en.wikipedia.org/wiki/Srikakulam_Assembly_constituency"
+  },
+  "6": {
+    "name": "Amadalavalasa",
+    "url": "https://en.wikipedia.org/wiki/Amadalavalasa_Assembly_constituency"
+  },
+  "7": {
+    "name": "Etcherla",
+    "url": "https://en.wikipedia.org/wiki/Etcherla_Assembly_constituency"
+  },
+  "8": {
+    "name": "Narasannapeta",
+    "url": "https://en.wikipedia.org/wiki/Narasannapeta_Assembly_constituency"
+  },
+  "9": {
+    "name": "Rajam",
+    "url": "https://en.wikipedia.org/wiki/Rajam_Assembly_constituency"
+  },
+  "10": {
+    "name": "Palakonda",
+    "url": "https://en.wikipedia.org/wiki/Palakonda_Assembly_constituency"
+  },
+  "11": {
+    "name": "Kurupam",
+    "url": "https://en.wikipedia.org/wiki/Kurupam_Assembly_constituency"
+  },
+  "12": {
+    "name": "Parvathipuram",
+    "url": "https://en.wikipedia.org/wiki/Parvathipuram_Assembly_constituency"
+  },
+  "13": {
+    "name": "Salur",
+    "url": "https://en.wikipedia.org/wiki/Salur_Assembly_constituency"
+  },
+  "14": {
+    "name": "Bobbili",
+    "url": "https://en.wikipedia.org/wiki/Bobbili_Assembly_constituency"
+  },
+  "15": {
+    "name": "Cheepurupalli",
+    "url": "https://en.wikipedia.org/wiki/Cheepurupalli_Assembly_constituency"
+  },
+  "16": {
+    "name": "Gajapathinagaram",
+    "url": "https://en.wikipedia.org/wiki/Gajapathinagaram_Assembly_constituency"
+  },
+  "17": {
+    "name": "Nellimarla",
+    "url": "https://en.wikipedia.org/wiki/Nellimarla_Assembly_constituency"
+  },
+  "18": {
+    "name": "Vizianagaram",
+    "url": "https://en.wikipedia.org/wiki/Vizianagaram_Assembly_constituency"
+  },
+  "19": {
+    "name": "Srungavarapukota",
+    "url": "https://en.wikipedia.org/wiki/Srungavarapukota_Assembly_constituency"
+  },
+  "20": {
+    "name": "Bhimili",
+    "url": "https://en.wikipedia.org/wiki/Bheemili_Assembly_constituency"
+  },
+  "21": {
+    "name": "Visakhapatnam East",
+    "url": "https://en.wikipedia.org/wiki/Visakhapatnam_East_Assembly_constituency"
+  },
+  "22": {
+    "name": "Visakhapatnam South",
+    "url": "https://en.wikipedia.org/wiki/Visakhapatnam_South_Assembly_constituency"
+  },
+  "23": {
+    "name": "Visakhapatnam North",
+    "url": "https://en.wikipedia.org/wiki/Visakhapatnam_North_Assembly_constituency"
+  },
+  "24": {
+    "name": "Visakhapatnam West",
+    "url": "https://en.wikipedia.org/wiki/Visakhapatnam_West_Assembly_constituency"
+  },
+  "25": {
+    "name": "Gajuwaka",
+    "url": "https://en.wikipedia.org/wiki/Gajuwaka_Assembly_constituency"
+  },
+  "26": {
+    "name": "Chodavaram",
+    "url": "https://en.wikipedia.org/wiki/Chodavaram_Assembly_constituency"
+  },
+  "27": {
+    "name": "Madugula",
+    "url": "https://en.wikipedia.org/wiki/Madugula_Assembly_constituency"
+  },
+  "28": {
+    "name": "Araku Valley",
+    "url": "https://en.wikipedia.org/wiki/Araku_Valley_Assembly_constituency"
+  },
+  "29": {
+    "name": "Paderu",
+    "url": "https://en.wikipedia.org/wiki/Paderu_Assembly_constituency"
+  },
+  "30": {
+    "name": "Anakapalle",
+    "url": "https://en.wikipedia.org/wiki/Anakapalli_Assembly_constituency"
+  },
+  "31": {
+    "name": "Pendurthi",
+    "url": "https://en.wikipedia.org/wiki/Pendurthi_Assembly_constituency"
+  },
+  "32": {
+    "name": "Elamanchili",
+    "url": "https://en.wikipedia.org/wiki/Elamanchili_Assembly_constituency"
+  },
+  "33": {
+    "name": "Payakaraopet",
+    "url": "https://en.wikipedia.org/wiki/Payakaraopet_Assembly_constituency"
+  },
+  "34": {
+    "name": "Narsipatnam",
+    "url": "https://en.wikipedia.org/wiki/Narsipatnam_Assembly_constituency"
+  },
+  "35": {
+    "name": "Tuni",
+    "url": "https://en.wikipedia.org/wiki/Tuni_Assembly_constituency"
+  },
+  "36": {
+    "name": "Prathipadu",
+    "url": "https://en.wikipedia.org/wiki/Prathipadu,_Kakinada_Assembly_constituency"
+  },
+  "37": {
+    "name": "Pithapuram",
+    "url": "https://en.wikipedia.org/wiki/Pithapuram_Assembly_constituency"
+  },
+  "38": {
+    "name": "Kakinada Rural",
+    "url": "https://en.wikipedia.org/wiki/Kakinada_Rural_Assembly_constituency"
+  },
+  "39": {
+    "name": "Peddapuram",
+    "url": "https://en.wikipedia.org/wiki/Peddapuram_Assembly_constituency"
+  },
+  "40": {
+    "name": "Anaparthy",
+    "url": "https://en.wikipedia.org/wiki/Anaparthy_Assembly_constituency"
+  },
+  "41": {
+    "name": "Kakinada City",
+    "url": "https://en.wikipedia.org/wiki/Kakinada_City_Assembly_constituency"
+  },
+  "42": {
+    "name": "Ramachandrapuram",
+    "url": "https://en.wikipedia.org/wiki/Ramachandrapuram_Assembly_constituency"
+  },
+  "43": {
+    "name": "Mummidivaram",
+    "url": "https://en.wikipedia.org/wiki/Mummidivaram_Assembly_constituency"
+  },
+  "44": {
+    "name": "Amalapuram",
+    "url": "https://en.wikipedia.org/wiki/Amalapuram_Assembly_constituency"
+  },
+  "45": {
+    "name": "Razole",
+    "url": "https://en.wikipedia.org/wiki/Razole_Assembly_constituency"
+  },
+  "46": {
+    "name": "Gannavaram",
+    "url": "https://en.wikipedia.org/wiki/Gannavaram,_Konaseema_Assembly_constituency"
+  },
+  "47": {
+    "name": "Kothapeta",
+    "url": "https://en.wikipedia.org/wiki/Kothapeta_Assembly_constituency"
+  },
+  "48": {
+    "name": "Mandapeta",
+    "url": "https://en.wikipedia.org/wiki/Mandapeta_Assembly_constituency"
+  },
+  "49": {
+    "name": "Rajanagaram",
+    "url": "https://en.wikipedia.org/wiki/Rajanagaram_Assembly_constituency"
+  },
+  "50": {
+    "name": "Rajahmundry City",
+    "url": "https://en.wikipedia.org/wiki/Rajahmundry_City_Assembly_constituency"
+  },
+  "51": {
+    "name": "Rajahmundry Rural",
+    "url": "https://en.wikipedia.org/wiki/Rajahmundry_Rural_Assembly_constituency"
+  },
+  "52": {
+    "name": "Jaggampeta",
+    "url": "https://en.wikipedia.org/wiki/Jaggampeta_Assembly_constituency"
+  },
+  "53": {
+    "name": "Rampachodavaram",
+    "url": "https://en.wikipedia.org/wiki/Rampachodavaram_Assembly_constituency"
+  },
+  "54": {
+    "name": "Kovvur",
+    "url": "https://en.wikipedia.org/wiki/Kovvur_Assembly_constituency"
+  },
+  "55": {
+    "name": "Nidadavole",
+    "url": "https://en.wikipedia.org/wiki/Nidadavole_Assembly_constituency"
+  },
+  "56": {
+    "name": "Achanta",
+    "url": "https://en.wikipedia.org/wiki/Achanta_Assembly_constituency"
+  },
+  "57": {
+    "name": "Palakollu",
+    "url": "https://en.wikipedia.org/wiki/Palakollu_Assembly_constituency"
+  },
+  "58": {
+    "name": "Narasapuram",
+    "url": "https://en.wikipedia.org/wiki/Narasapuram_Assembly_constituency"
+  },
+  "59": {
+    "name": "Bhimavaram",
+    "url": "https://en.wikipedia.org/wiki/Bhimavaram_Assembly_constituency"
+  },
+  "60": {
+    "name": "Undi",
+    "url": "https://en.wikipedia.org/wiki/Undi_Assembly_constituency"
+  },
+  "61": {
+    "name": "Tanuku",
+    "url": "https://en.wikipedia.org/wiki/Tanuku_Assembly_constituency"
+  },
+  "62": {
+    "name": "Tadepalligudem",
+    "url": "https://en.wikipedia.org/wiki/Tadepalligudem_Assembly_constituency"
+  },
+  "63": {
+    "name": "Unguturu",
+    "url": "https://en.wikipedia.org/wiki/Unguturu_Assembly_constituency"
+  },
+  "64": {
+    "name": "Denduluru",
+    "url": "https://en.wikipedia.org/wiki/Denduluru_Assembly_constituency"
+  },
+  "65": {
+    "name": "Eluru",
+    "url": "https://en.wikipedia.org/wiki/Eluru_Assembly_constituency"
+  },
+  "66": {
+    "name": "Gopalapuram",
+    "url": "https://en.wikipedia.org/wiki/Gopalapuram_Assembly_constituency"
+  },
+  "67": {
+    "name": "Polavaram",
+    "url": "https://en.wikipedia.org/wiki/Polavaram_Assembly_constituency"
+  },
+  "68": {
+    "name": "Chintalapudi",
+    "url": "https://en.wikipedia.org/wiki/Chintalapudi_Assembly_constituency"
+  },
+  "69": {
+    "name": "Tiruvuru",
+    "url": "https://en.wikipedia.org/wiki/Tiruvuru_Assembly_constituency"
+  },
+  "70": {
+    "name": "Nuzvid",
+    "url": "https://en.wikipedia.org/wiki/Nuzvid_Assembly_constituency"
+  },
+  "71": {
+    "name": "Gannavaram",
+    "url": "https://en.wikipedia.org/wiki/Gannavaram,_Krishna_Assembly_constituency"
+  },
+  "72": {
+    "name": "Gudivada",
+    "url": "https://en.wikipedia.org/wiki/Gudivada_Assembly_constituency"
+  },
+  "73": {
+    "name": "Kaikalur",
+    "url": "https://en.wikipedia.org/wiki/Kaikalur_Assembly_constituency"
+  },
+  "74": {
+    "name": "Pedana",
+    "url": "https://en.wikipedia.org/wiki/Pedana_Assembly_constituency"
+  },
+  "75": {
+    "name": "Machilipatnam",
+    "url": "https://en.wikipedia.org/wiki/Machilipatnam_Assembly_constituency"
+  },
+  "76": {
+    "name": "Avanigadda",
+    "url": "https://en.wikipedia.org/wiki/Avanigadda_Assembly_constituency"
+  },
+  "77": {
+    "name": "Pamarru",
+    "url": "https://en.wikipedia.org/wiki/Pamarru_Assembly_constituency"
+  },
+  "78": {
+    "name": "Penamaluru",
+    "url": "https://en.wikipedia.org/wiki/Penamaluru_Assembly_constituency"
+  },
+  "79": {
+    "name": "Vijayawada West",
+    "url": "https://en.wikipedia.org/wiki/Vijayawada_West_Assembly_constituency"
+  },
+  "80": {
+    "name": "Vijayawada Central",
+    "url": "https://en.wikipedia.org/wiki/Vijayawada_Central_Assembly_constituency"
+  },
+  "81": {
+    "name": "Vijayawada East",
+    "url": "https://en.wikipedia.org/wiki/Vijayawada_East_Assembly_constituency"
+  },
+  "82": {
+    "name": "Mylavaram",
+    "url": "https://en.wikipedia.org/wiki/Mylavaram_Assembly_constituency"
+  },
+  "83": {
+    "name": "Nandigama",
+    "url": "https://en.wikipedia.org/wiki/Nandigama_Assembly_constituency"
+  },
+  "84": {
+    "name": "Jaggayyapeta",
+    "url": "https://en.wikipedia.org/wiki/Jaggayyapeta_Assembly_constituency"
+  },
+  "85": {
+    "name": "Pedakurapadu",
+    "url": "https://en.wikipedia.org/wiki/Pedakurapadu_Assembly_constituency"
+  },
+  "86": {
+    "name": "Tadikonda",
+    "url": "https://en.wikipedia.org/wiki/Tadikonda_Assembly_constituency"
+  },
+  "87": {
+    "name": "Mangalagiri",
+    "url": "https://en.wikipedia.org/wiki/Mangalagiri_Assembly_constituency"
+  },
+  "88": {
+    "name": "Ponnuru",
+    "url": "https://en.wikipedia.org/wiki/Ponnur_Assembly_constituency"
+  },
+  "89": {
+    "name": "Vemuru",
+    "url": "https://en.wikipedia.org/wiki/Vemuru_Assembly_constituency"
+  },
+  "90": {
+    "name": "Repalle",
+    "url": "https://en.wikipedia.org/wiki/Repalle_Assembly_constituency"
+  },
+  "91": {
+    "name": "Tenali",
+    "url": "https://en.wikipedia.org/wiki/Tenali_Assembly_constituency"
+  },
+  "92": {
+    "name": "Bapatla",
+    "url": "https://en.wikipedia.org/wiki/Bapatla_Assembly_constituency"
+  },
+  "93": {
+    "name": "Prathipadu",
+    "url": "https://en.wikipedia.org/wiki/Prathipadu,_Guntur_Assembly_constituency"
+  },
+  "94": {
+    "name": "Guntur West",
+    "url": "https://en.wikipedia.org/wiki/Guntur_West_Assembly_constituency"
+  },
+  "95": {
+    "name": "Guntur East",
+    "url": "https://en.wikipedia.org/wiki/Guntur_East_Assembly_constituency"
+  },
+  "96": {
+    "name": "Chilakaluripet",
+    "url": "https://en.wikipedia.org/wiki/Chilakaluripet_Assembly_constituency"
+  },
+  "97": {
+    "name": "Narasaraopet",
+    "url": "https://en.wikipedia.org/wiki/Narasaraopet_Assembly_constituency"
+  },
+  "98": {
+    "name": "Sattenapalle",
+    "url": "https://en.wikipedia.org/wiki/Sattenapalle_Assembly_constituency"
+  },
+  "99": {
+    "name": "Vinukonda",
+    "url": "https://en.wikipedia.org/wiki/Vinukonda_Assembly_constituency"
+  },
+  "100": {
+    "name": "Gurajala",
+    "url": "https://en.wikipedia.org/wiki/Gurazala_Assembly_constituency"
+  },
+  "101": {
+    "name": "Macherla",
+    "url": "https://en.wikipedia.org/wiki/Macherla_Assembly_constituency"
+  },
+  "102": {
+    "name": "Yerragondapalem",
+    "url": "https://en.wikipedia.org/wiki/Yerragondapalem_Assembly_constituency"
+  },
+  "103": {
+    "name": "Darsi",
+    "url": "https://en.wikipedia.org/wiki/Darsi_Assembly_constituency"
+  },
+  "104": {
+    "name": "Parchur",
+    "url": "https://en.wikipedia.org/wiki/Parchur_Assembly_constituency"
+  },
+  "105": {
+    "name": "Addanki",
+    "url": "https://en.wikipedia.org/wiki/Addanki_Assembly_constituency"
+  },
+  "106": {
+    "name": "Chirala",
+    "url": "https://en.wikipedia.org/wiki/Chirala_Assembly_constituency"
+  },
+  "107": {
+    "name": "Santhanuthalapadu",
+    "url": "https://en.wikipedia.org/wiki/Santhanuthalapadu_Assembly_constituency"
+  },
+  "108": {
+    "name": "Ongole",
+    "url": "https://en.wikipedia.org/wiki/Ongole_Assembly_constituency"
+  },
+  "109": {
+    "name": "Kandukur",
+    "url": "https://en.wikipedia.org/wiki/Kandukur_Assembly_constituency"
+  },
+  "110": {
+    "name": "Kondapi",
+    "url": "https://en.wikipedia.org/wiki/Kondapi_Assembly_constituency"
+  },
+  "111": {
+    "name": "Markapuram",
+    "url": "https://en.wikipedia.org/wiki/Markapuram_Assembly_constituency"
+  },
+  "112": {
+    "name": "Giddalur",
+    "url": "https://en.wikipedia.org/wiki/Giddalur_Assembly_constituency"
+  },
+  "113": {
+    "name": "Kanigiri",
+    "url": "https://en.wikipedia.org/wiki/Kanigiri_Assembly_constituency"
+  },
+  "114": {
+    "name": "Kavali",
+    "url": "https://en.wikipedia.org/wiki/Kavali_Assembly_constituency"
+  },
+  "115": {
+    "name": "Atmakur",
+    "url": "https://en.wikipedia.org/wiki/Atmakur_Assembly_constituency"
+  },
+  "116": {
+    "name": "Kovur",
+    "url": "https://en.wikipedia.org/wiki/Kovur_Assembly_constituency"
+  },
+  "117": {
+    "name": "Nellore City",
+    "url": "https://en.wikipedia.org/wiki/Nellore_City_Assembly_constituency"
+  },
+  "118": {
+    "name": "Nellore Rural",
+    "url": "https://en.wikipedia.org/wiki/Nellore_Rural_Assembly_constituency"
+  },
+  "119": {
+    "name": "Sarvepalli",
+    "url": "https://en.wikipedia.org/wiki/Sarvepalli_Assembly_constituency"
+  },
+  "120": {
+    "name": "Gudur",
+    "url": "https://en.wikipedia.org/wiki/Gudur_Assembly_constituency"
+  },
+  "121": {
+    "name": "Sullurpeta",
+    "url": "https://en.wikipedia.org/wiki/Sullurpeta_Assembly_constituency"
+  },
+  "122": {
+    "name": "Venkatagiri",
+    "url": "https://en.wikipedia.org/wiki/Venkatagiri_Assembly_constituency"
+  },
+  "123": {
+    "name": "Udayagiri",
+    "url": "https://en.wikipedia.org/wiki/Udayagiri_Assembly_constituency"
+  },
+  "124": {
+    "name": "Badvel",
+    "url": "https://en.wikipedia.org/wiki/Badvel_Assembly_constituency"
+  },
+  "125": {
+    "name": "Rajampet",
+    "url": "https://en.wikipedia.org/wiki/Rajampet_Assembly_constituency"
+  },
+  "126": {
+    "name": "Kadapa",
+    "url": "https://en.wikipedia.org/wiki/Kadapa_Assembly_constituency"
+  },
+  "127": {
+    "name": "Kodur",
+    "url": "https://en.wikipedia.org/wiki/Kodur_Assembly_constituency"
+  },
+  "128": {
+    "name": "Rayachoti",
+    "url": "https://en.wikipedia.org/wiki/Rayachoti_Assembly_constituency"
+  },
+  "129": {
+    "name": "Pulivendla",
+    "url": "https://en.wikipedia.org/wiki/Pulivendla_Assembly_constituency"
+  },
+  "130": {
+    "name": "Kamalapuram",
+    "url": "https://en.wikipedia.org/wiki/Kamalapuram_Assembly_constituency"
+  },
+  "131": {
+    "name": "Jammalamadugu",
+    "url": "https://en.wikipedia.org/wiki/Jammalamadugu_Assembly_constituency"
+  },
+  "132": {
+    "name": "Proddatur",
+    "url": "https://en.wikipedia.org/wiki/Proddatur_Assembly_constituency"
+  },
+  "133": {
+    "name": "Mydukur",
+    "url": "https://en.wikipedia.org/wiki/Mydukur_Assembly_constituency"
+  },
+  "134": {
+    "name": "Allagadda",
+    "url": "https://en.wikipedia.org/wiki/Allagadda_Assembly_constituency"
+  },
+  "135": {
+    "name": "Srisailam",
+    "url": "https://en.wikipedia.org/wiki/Srisailam_Assembly_constituency"
+  },
+  "136": {
+    "name": "Nandikotkur",
+    "url": "https://en.wikipedia.org/wiki/Nandikotkur_Assembly_constituency"
+  },
+  "137": {
+    "name": "Kurnool",
+    "url": "https://en.wikipedia.org/wiki/Kurnool_Assembly_constituency"
+  },
+  "138": {
+    "name": "Panyam",
+    "url": "https://en.wikipedia.org/wiki/Panyam_Assembly_constituency"
+  },
+  "139": {
+    "name": "Nandyal",
+    "url": "https://en.wikipedia.org/wiki/Nandyal_Assembly_constituency"
+  },
+  "140": {
+    "name": "Banaganapalle",
+    "url": "https://en.wikipedia.org/wiki/Banaganapalle_Assembly_constituency"
+  },
+  "141": {
+    "name": "Dhone",
+    "url": "https://en.wikipedia.org/wiki/Dhone_Assembly_constituency"
+  },
+  "142": {
+    "name": "Pattikonda",
+    "url": "https://en.wikipedia.org/wiki/Pattikonda_Assembly_constituency"
+  },
+  "143": {
+    "name": "Kodumur",
+    "url": "https://en.wikipedia.org/wiki/Kodumur_Assembly_constituency"
+  },
+  "144": {
+    "name": "Yemmiganur",
+    "url": "https://en.wikipedia.org/wiki/Yemmiganur_Assembly_constituency"
+  },
+  "145": {
+    "name": "Mantralayam",
+    "url": "https://en.wikipedia.org/wiki/Mantralayam_Assembly_constituency"
+  },
+  "146": {
+    "name": "Adoni",
+    "url": "https://en.wikipedia.org/wiki/Adoni_Assembly_constituency"
+  },
+  "147": {
+    "name": "Alur",
+    "url": "https://en.wikipedia.org/wiki/Alur_Assembly_constituency"
+  },
+  "148": {
+    "name": "Rayadurg",
+    "url": "https://en.wikipedia.org/wiki/Rayadurg_Assembly_constituency"
+  },
+  "149": {
+    "name": "Uravakonda",
+    "url": "https://en.wikipedia.org/wiki/Uravakonda_Assembly_constituency"
+  },
+  "150": {
+    "name": "Guntakal",
+    "url": "https://en.wikipedia.org/wiki/Guntakal_Assembly_constituency"
+  },
+  "151": {
+    "name": "Tadipatri",
+    "url": "https://en.wikipedia.org/wiki/Tadpatri_Assembly_constituency"
+  },
+  "152": {
+    "name": "Singanamala",
+    "url": "https://en.wikipedia.org/wiki/Singanamala_Assembly_constituency"
+  },
+  "153": {
+    "name": "Anantapur Urban",
+    "url": "https://en.wikipedia.org/wiki/Anantapur_Urban_Assembly_constituency"
+  },
+  "154": {
+    "name": "Kalyandurg",
+    "url": "https://en.wikipedia.org/wiki/Kalyandurg_Assembly_constituency"
+  },
+  "155": {
+    "name": "Raptadu",
+    "url": "https://en.wikipedia.org/wiki/Raptadu_Assembly_constituency"
+  },
+  "156": {
+    "name": "Madakasira",
+    "url": "https://en.wikipedia.org/wiki/Madakasira_Assembly_constituency"
+  },
+  "157": {
+    "name": "Hindupur",
+    "url": "https://en.wikipedia.org/wiki/Hindupur_Assembly_constituency"
+  },
+  "158": {
+    "name": "Penukonda",
+    "url": "https://en.wikipedia.org/wiki/Penukonda_Assembly_constituency"
+  },
+  "159": {
+    "name": "Puttaparthi",
+    "url": "https://en.wikipedia.org/wiki/Puttaparthi_Assembly_constituency"
+  },
+  "160": {
+    "name": "Dharmavaram",
+    "url": "https://en.wikipedia.org/wiki/Dharmavaram_Assembly_constituency"
+  },
+  "161": {
+    "name": "Kadiri",
+    "url": "https://en.wikipedia.org/wiki/Kadiri_Assembly_constituency"
+  },
+  "162": {
+    "name": "Thamballapalle",
+    "url": "https://en.wikipedia.org/wiki/Thamballapalle_Assembly_constituency"
+  },
+  "163": {
+    "name": "Pileru",
+    "url": "https://en.wikipedia.org/wiki/Pileru_Assembly_constituency"
+  },
+  "164": {
+    "name": "Madanapalle",
+    "url": "https://en.wikipedia.org/wiki/Madanapalle_Assembly_constituency"
+  },
+  "165": {
+    "name": "Punganur",
+    "url": "https://en.wikipedia.org/wiki/Punganur_Assembly_constituency"
+  },
+  "166": {
+    "name": "Chandragiri",
+    "url": "https://en.wikipedia.org/wiki/Chandragiri_Assembly_constituency"
+  },
+  "167": {
+    "name": "Tirupati",
+    "url": "https://en.wikipedia.org/wiki/Tirupati_Assembly_constituency"
+  },
+  "168": {
+    "name": "Srikalahasti",
+    "url": "https://en.wikipedia.org/wiki/Srikalahasti_Assembly_constituency"
+  },
+  "169": {
+    "name": "Sathyavedu",
+    "url": "https://en.wikipedia.org/wiki/Satyavedu_Assembly_constituency"
+  },
+  "170": {
+    "name": "Nagari",
+    "url": "https://en.wikipedia.org/wiki/Nagari_Assembly_constituency"
+  },
+  "171": {
+    "name": "Gangadhara Nellore",
+    "url": "https://en.wikipedia.org/wiki/Gangadhara_Nellore_Assembly_constituency"
+  },
+  "172": {
+    "name": "Chittoor",
+    "url": "https://en.wikipedia.org/wiki/Chittoor_Assembly_constituency"
+  },
+  "173": {
+    "name": "Puthalapattu",
+    "url": "https://en.wikipedia.org/wiki/Puthalapattu_Assembly_constituency"
+  },
+  "174": {
+    "name": "Palamaner",
+    "url": "https://en.wikipedia.org/wiki/Palamaner_Assembly_constituency"
+  },
+  "175": {
+    "name": "Kuppam",
+    "url": "https://en.wikipedia.org/wiki/Kuppam_Assembly_constituency"
+  }
+}

@@ -29,6 +29,10 @@ Output: scraper_lab/eci_results.json, a list of:
         "fetched_at": str,             # ISO timestamp
     }
 
+ECI's per-constituency result page intentionally omits registered-electors
+totals — that data lives on CEO AP and is sourced separately. See
+`fetch_wikipedia_electors.py` + `merge_electors_into_candidates.py`.
+
 Run:
     .venv/bin/python scraper_lab/fetch_eci_results.py
     .venv/bin/python scraper_lab/fetch_eci_results.py --resume

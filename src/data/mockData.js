@@ -73,16 +73,22 @@ export const getDistrictData = (name) => {
     const pastMla = prev
       ? `${prev.name} (${prevParty})`
       : "Former representative records pending";
+    const er = candidateFound.election_result;
+    const electors = er?.total_electors;
+    const polled = er?.total_votes_polled;
     return {
       id: candidateFound.id,
       name: candidateFound.constituency,
-      population: "Constituency Wide",
+      population: electors ? electors.toLocaleString("en-IN") : "—",
+      electorsYear: er?.total_electors_year ?? null,
+      votesPolled: polled ? polled.toLocaleString("en-IN") : null,
+      turnoutPercent: er?.turnout_percent ?? null,
       currentMla: candidateFound.name,
       party: party,
       pastMla,
       partyChanges: 0,
       votersCount: "Verified Assembly Ledger",
-      majorityVotes: candidateFound.election_result?.margin ?? 0,
+      majorityVotes: er?.margin ?? 0,
       image: candidateFound.image ? getAssetPath(candidateFound.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidateFound.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`,
       social_media: candidateFound.social_media
     };

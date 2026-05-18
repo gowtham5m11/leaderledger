@@ -908,10 +908,10 @@ h6,
   .list-title-block { display: none; }
 
   .map-wrapper {
-    /* When the bottom sheet is up, --ll-sheet-vh holds its current snap
-       height (set from JS in DistrictView). When the sheet is closed,
-       the variable is unset and the fallback 0px keeps the wrapper at
-       full inset height. */
+    /* When the bottom sheet is up, --ll-sheet-vh holds its current
+       free-drag height (set from JS in DistrictView after each release).
+       When the sheet is closed, the variable is unset and the fallback
+       0px keeps the wrapper at full inset height. */
     height: calc(100vh - var(--ll-sheet-vh, 0px));
   }
   
@@ -1605,15 +1605,12 @@ h6,
 }
 
 /* ----------------------------------------------------------------
-   District snap-point bottom sheet (mobile only).
+   District free-resize bottom sheet (mobile only).
+   Height is driven by inline style from DistrictView.jsx (sheetVh state),
+   clamped to SHEET_MIN_VH..SHEET_MAX_VH there. The 70vh rule earlier in
+   this file is the fallback the moment before React applies inline style.
    ---------------------------------------------------------------- */
 @media (max-width: 768px) {
-  /* Default mobile sheet height is now controlled by a snap modifier
-     class — overrides the legacy 70vh from earlier in this file. */
-  .details-panel-container.snap-peek    { height: 14vh; }
-  .details-panel-container.snap-half    { height: 48vh; }
-  .details-panel-container.snap-full    { height: 88vh; }
-
   .details-panel-container.is-dragging { transition: none !important; }
 
   /* Visible drag affordance at the top of the sheet. */

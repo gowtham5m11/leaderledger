@@ -5,10 +5,12 @@ import { getDistrictData, partyColor } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
 import { safeHref } from '../utils/safeHref';
 
-// Snap heights for the mobile bottom sheet — must match the .snap-* rules
-// in src/index.css. Peek shows the constituency name + handle, half shows
-// the winner card, full reveals everything.
-const SNAP_VH = { peek: 14, half: 48, full: 88 };
+// Mobile bottom-sheet sizing. Sheet is freely draggable like the desktop
+// side panel — no snap points. Height is stored in vh units and clamped
+// to this range so the handle stays reachable and the map stays visible.
+const SHEET_MIN_VH = 8;
+const SHEET_MAX_VH = 95;
+const SHEET_DEFAULT_VH = 48;
 
 const MapTooltip = ({ data }) => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -71,11 +73,13 @@ const DistrictView = () => {
   const [panelWidth, setPanelWidth] = useState(440);
   const [isResizing, setIsResizing] = useState(false);
 
-  // Mobile bottom-sheet snap state.
-  const [snap, setSnap] = useState('half');
+  // Mobile bottom-sheet free-drag state. `sheetVh` persists wherever the
+  // user releases the drag; during the drag we mutate the DOM directly
+  // (via panelRef) to avoid a re-render per frame.
+  const [sheetVh, setSheetVh] = useState(SHEET_DEFAULT_VH);
   const [isDragging, setIsDragging] = useState(false);
   const panelRef = useRef(null);
-  const dragRef = useRef({ active: false, startY: 0, startVh: 48 });
+  const dragRef = useRef({ active: false, startY: 0, startVh: SHEET_DEFAULT_VH });
 
   const startSheetDrag = React.useCallback((clientY) => {
     if (!panelRef.current) return;
@@ -88,29 +92,25 @@ const DistrictView = () => {
     if (!dragRef.current.active || !panelRef.current) return;
     const deltaPx = dragRef.current.startY - clientY; // up-swipe is positive
     const deltaVh = (deltaPx / window.innerHeight) * 100;
-    const nextVh = Math.max(8, Math.min(95, dragRef.current.startVh + deltaVh));
+    const nextVh = Math.max(SHEET_MIN_VH, Math.min(SHEET_MAX_VH, dragRef.current.startVh + deltaVh));
     panelRef.current.style.height = `${nextVh}vh`;
   }, []);
 
   const endSheetDrag = React.useCallback(() => {
     if (!dragRef.current.active || !panelRef.current) return;
     dragRef.current.active = false;
-    setIsDragging(false);
     const rect = panelRef.current.getBoundingClientRect();
     const currentVh = (rect.height / window.innerHeight) * 100;
-    let closest = 'half';
-    let best = Infinity;
-    for (const [name, vh] of Object.entries(SNAP_VH)) {
-      const d = Math.abs(vh - currentVh);
-      if (d < best) { best = d; closest = name; }
-    }
-    panelRef.current.style.height = ''; // hand back to the .snap-* class
-    setSnap(closest);
+    const finalVh = Math.max(SHEET_MIN_VH, Math.min(SHEET_MAX_VH, currentVh));
+    // Don't clear panelRef.style.height — React's next render will overwrite
+    // it with the new `sheetVh`, avoiding a one-frame fallback to the base CSS.
+    setIsDragging(false);
+    setSheetVh(finalVh);
   }, []);
 
   // Publish the current sheet height as a CSS variable so .map-wrapper can
   // subtract it from 100vh and keep the map visible above the sheet. Only
-  // fires on snap-state changes (not during drag), so the map underneath
+  // fires after the user releases the drag (not during), so the map underneath
   // stays stable while the user is gesturing.
   React.useEffect(() => {
     const root = document.documentElement;
@@ -118,9 +118,9 @@ const DistrictView = () => {
       root.style.removeProperty('--ll-sheet-vh');
       return undefined;
     }
-    root.style.setProperty('--ll-sheet-vh', `${SNAP_VH[snap] ?? 48}vh`);
+    root.style.setProperty('--ll-sheet-vh', `${sheetVh}vh`);
     return () => root.style.removeProperty('--ll-sheet-vh');
-  }, [snap, isPanelVisible]);
+  }, [sheetVh, isPanelVisible]);
 
   const startResizing = React.useCallback((e) => {
     e.preventDefault();
@@ -157,7 +157,7 @@ const DistrictView = () => {
   const handleDistrictClick = (data) => {
     setSelectedDistrict(data);
     setIsPanelVisible(true);
-    setSnap('half');
+    setSheetVh(SHEET_DEFAULT_VH);
   };
 
   if (!selectedDistrict) return <div className="p-8">Loading district data...</div>;
@@ -204,9 +204,15 @@ const DistrictView = () => {
 
       <div
         ref={panelRef}
-        className={`details-panel-container ${isPanelVisible ? `mobile-visible snap-${snap}` : ''} ${isDragging ? 'is-dragging' : ''}`}
+        className={`details-panel-container ${isPanelVisible ? 'mobile-visible' : ''} ${isDragging ? 'is-dragging' : ''}`}
         style={{
           width: window.innerWidth <= 768 ? undefined : `${panelWidth}px`,
+          // On mobile, height is controlled here (free-resize). While the
+          // user is mid-drag we leave it undefined so the inline ref-write
+          // in moveSheetDrag owns the value frame-by-frame.
+          height: window.innerWidth <= 768 && isPanelVisible && !isDragging
+            ? `${sheetVh}vh`
+            : undefined,
           transition: isResizing ? 'none' : 'all 500ms cubic-bezier(0.16, 1, 0.3, 1)',
           transform: window.innerWidth > 768 ? (isPanelVisible ? 'translateX(0)' : 'translateX(120%)') : undefined,
           opacity: window.innerWidth > 768 ? (isPanelVisible ? 1 : 0) : undefined
@@ -299,9 +305,18 @@ const DistrictView = () => {
               <div className="p-6 rounded-3xl bg-surface-container-low border border-outline-variant shadow-sm">
                 <div className="flex items-center gap-3 mb-2 text-primary opacity-90">
                   <Users size={16} />
-                  <span className="label-sm uppercase tracking-wider font-bold">Electors</span>
+                  <span className="label-sm uppercase tracking-wider font-bold">
+                    Electors{selectedDistrict.electorsYear === 2019 ? " (2019)" : ""}
+                  </span>
                 </div>
                 <p className="headline-sm text-on-surface font-semibold">{selectedDistrict.population}</p>
+                {selectedDistrict.electorsYear === 2024
+                  && selectedDistrict.votesPolled
+                  && selectedDistrict.turnoutPercent != null && (
+                  <p className="label-sm text-on-surface-variant mt-1 opacity-80">
+                    {selectedDistrict.votesPolled} voted • {selectedDistrict.turnoutPercent}% turnout
+                  </p>
+                )}
               </div>
               <div className="p-6 rounded-3xl bg-surface-container-low border border-outline-variant shadow-sm">
                 <div className="flex items-center gap-3 mb-2 text-primary opacity-90">
