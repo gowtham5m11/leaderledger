@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { HashRouter as Router, Routes, Route, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
-import candidates from './data/candidates.json';
 import Header from './components/Header';
-import DistrictView from './components/DistrictView';
-import CandidateList from './components/CandidateList';
-import CandidateProfile from './components/CandidateProfile';
-import AccountPage from './pages/AccountPage';
-import PrivacyPage from './pages/PrivacyPage';
-import TermsPage from './pages/TermsPage';
 import IntroGuide from './components/IntroGuide';
 import DesktopHint from './components/DesktopHint';
 import CookieConsent from './components/CookieConsent';
 import PolicyGate from './components/PolicyGate';
 import { AuthProvider } from './auth/AuthContext';
+import { DistrictSkeleton, ListSkeleton, ProfileSkeleton, GenericPageSkeleton } from './components/Skeletons';
+
+const DistrictView = React.lazy(() => import('./components/DistrictView'));
+const CandidateList = React.lazy(() => import('./components/CandidateList'));
+const CandidateProfile = React.lazy(() => import('./components/CandidateProfile'));
+const AccountPage = React.lazy(() => import('./pages/AccountPage'));
+const PrivacyPage = React.lazy(() => import('./pages/PrivacyPage'));
+const TermsPage = React.lazy(() => import('./pages/TermsPage'));
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -48,12 +49,36 @@ function App() {
           <main className="main-content">
             <Routes>
               <Route path="/" element={<Navigate to="/district" replace />} />
-              <Route path="/district" element={<DistrictView />} />
-              <Route path="/list" element={<CandidateList />} />
-              <Route path="/profile/:id" element={<CandidateProfile />} />
-              <Route path="/account" element={<AccountPage />} />
-              <Route path="/privacy" element={<PrivacyPage />} />
-              <Route path="/terms" element={<TermsPage />} />
+              <Route path="/district" element={
+                <Suspense fallback={<DistrictSkeleton />}>
+                  <DistrictView />
+                </Suspense>
+              } />
+              <Route path="/list" element={
+                <Suspense fallback={<ListSkeleton />}>
+                  <CandidateList />
+                </Suspense>
+              } />
+              <Route path="/profile/:id" element={
+                <Suspense fallback={<ProfileSkeleton />}>
+                  <CandidateProfile />
+                </Suspense>
+              } />
+              <Route path="/account" element={
+                <Suspense fallback={<GenericPageSkeleton />}>
+                  <AccountPage />
+                </Suspense>
+              } />
+              <Route path="/privacy" element={
+                <Suspense fallback={<GenericPageSkeleton />}>
+                  <PrivacyPage />
+                </Suspense>
+              } />
+              <Route path="/terms" element={
+                <Suspense fallback={<GenericPageSkeleton />}>
+                  <TermsPage />
+                </Suspense>
+              } />
             </Routes>
           </main>
 

@@ -1685,3 +1685,22 @@ h6,
   /* Floating-nav labels shrink one more notch. */
   .floating-nav span { font-size: 0.5rem; }
 }
+
+/* Skeleton Loading Animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.skeleton-box {
+  background-color: var(--surface-container-highest);
+  border-radius: 0.5rem;
+}
