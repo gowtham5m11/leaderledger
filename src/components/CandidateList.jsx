@@ -65,10 +65,11 @@ const CandidateList = () => {
       if (query) {
         const matchesName = (l.name || '').toLowerCase().includes(query);
         const matchesConstituency = (l.constituency || '').toLowerCase().includes(query);
+        const matchesRole = (l.role || '').toLowerCase().includes(query);
         const matchesMinistry = (l.ministries || []).some(m =>
           (m.name || '').toLowerCase().includes(query)
         );
-        if (!(matchesName || matchesConstituency || matchesMinistry)) return false;
+        if (!(matchesName || matchesConstituency || matchesMinistry || matchesRole)) return false;
       }
       if (selectedParties.length && !selectedParties.includes(l.party)) return false;
       if (selectedCases.length) {

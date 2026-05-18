@@ -1,0 +1,4727 @@
+[
+  {
+    "constituency_no": 1,
+    "constituency_name": "ICHCHAPURAM",
+    "winner": {
+      "name": "ASHOK BENDALAM",
+      "party": "Telugu Desam",
+      "evm_votes": 79405,
+      "postal_votes": 587,
+      "total_votes": 79992,
+      "percent": 46.39
+    },
+    "runner_up": {
+      "name": "PIRIYA SAIRAJ",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 71931,
+      "postal_votes": 916,
+      "total_votes": 72847,
+      "percent": 42.25
+    },
+    "margin": 7145,
+    "margin_percent": 4.14,
+    "total_votes_polled": 172423,
+    "nota_votes": 3880,
+    "candidate_count": 9,
+    "source_url": "https://web.archive.org/web/20190529001534/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS011.htm",
+    "fetched_at": "2026-05-17T21:04:42.642958+00:00"
+  },
+  {
+    "constituency_no": 2,
+    "constituency_name": "PALASA",
+    "winner": {
+      "name": "APPALARAJU SEEDIRI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 75357,
+      "postal_votes": 1246,
+      "total_votes": 76603,
+      "percent": 50.83
+    },
+    "runner_up": {
+      "name": "GOUTHU SIREESHA",
+      "party": "Telugu Desam",
+      "evm_votes": 59873,
+      "postal_votes": 483,
+      "total_votes": 60356,
+      "percent": 40.05
+    },
+    "margin": 16247,
+    "margin_percent": 10.78,
+    "total_votes_polled": 150691,
+    "nota_votes": 3044,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043314/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS012.htm",
+    "fetched_at": "2026-05-17T21:04:46.335338+00:00"
+  },
+  {
+    "constituency_no": 3,
+    "constituency_name": "TEKKALI",
+    "winner": {
+      "name": "ATCHANNAIDU KINJARAPU",
+      "party": "Telugu Desam",
+      "evm_votes": 86626,
+      "postal_votes": 1032,
+      "total_votes": 87658,
+      "percent": 49.64
+    },
+    "runner_up": {
+      "name": "PERADA TILAK",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77769,
+      "postal_votes": 1344,
+      "total_votes": 79113,
+      "percent": 44.8
+    },
+    "margin": 8545,
+    "margin_percent": 4.84,
+    "total_votes_polled": 176583,
+    "nota_votes": 2935,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043409/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS013.htm",
+    "fetched_at": "2026-05-17T21:04:49.952337+00:00"
+  },
+  {
+    "constituency_no": 4,
+    "constituency_name": "PATHAPATNAM",
+    "winner": {
+      "name": "REDDY SHANTHI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 75669,
+      "postal_votes": 1272,
+      "total_votes": 76941,
+      "percent": 50.42
+    },
+    "runner_up": {
+      "name": "KALAMATA VENKATA RAMANA MURTHY",
+      "party": "Telugu Desam",
+      "evm_votes": 60975,
+      "postal_votes": 415,
+      "total_votes": 61390,
+      "percent": 40.23
+    },
+    "margin": 15551,
+    "margin_percent": 10.19,
+    "total_votes_polled": 152599,
+    "nota_votes": 4217,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043502/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS014.htm",
+    "fetched_at": "2026-05-17T21:04:53.683278+00:00"
+  },
+  {
+    "constituency_no": 5,
+    "constituency_name": "SRIKAKULAM",
+    "winner": {
+      "name": "DHARMANA PRASADA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 82388,
+      "postal_votes": 1696,
+      "total_votes": 84084,
+      "percent": 47.43
+    },
+    "runner_up": {
+      "name": "GUNDA LAKSHMI DEVI",
+      "party": "Telugu Desam",
+      "evm_votes": 77575,
+      "postal_votes": 732,
+      "total_votes": 78307,
+      "percent": 44.17
+    },
+    "margin": 5777,
+    "margin_percent": 3.26,
+    "total_votes_polled": 177297,
+    "nota_votes": 3082,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043557/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS015.htm",
+    "fetched_at": "2026-05-17T21:04:57.424764+00:00"
+  },
+  {
+    "constituency_no": 6,
+    "constituency_name": "AMADALAVALASA",
+    "winner": {
+      "name": "THAMMINENI SEETHARAM",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 76801,
+      "postal_votes": 1096,
+      "total_votes": 77897,
+      "percent": 51.91
+    },
+    "runner_up": {
+      "name": "KOONA RAVIKUMAR",
+      "party": "Telugu Desam",
+      "evm_votes": 63274,
+      "postal_votes": 632,
+      "total_votes": 63906,
+      "percent": 42.58
+    },
+    "margin": 13991,
+    "margin_percent": 9.33,
+    "total_votes_polled": 150071,
+    "nota_votes": 2656,
+    "candidate_count": 9,
+    "source_url": "https://web.archive.org/web/20190526043652/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS016.htm",
+    "fetched_at": "2026-05-17T21:05:01.919057+00:00"
+  },
+  {
+    "constituency_no": 7,
+    "constituency_name": "ETCHERLA",
+    "winner": {
+      "name": "Gorle. Kiran Kumar",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 99070,
+      "postal_votes": 602,
+      "total_votes": 99672,
+      "percent": 51.02
+    },
+    "runner_up": {
+      "name": "Kalavenkata Rao Kimidi",
+      "party": "Telugu Desam",
+      "evm_votes": 80690,
+      "postal_votes": 271,
+      "total_votes": 80961,
+      "percent": 41.44
+    },
+    "margin": 18711,
+    "margin_percent": 9.58,
+    "total_votes_polled": 195372,
+    "nota_votes": 4628,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043742/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS017.htm",
+    "fetched_at": "2026-05-17T21:05:05.933980+00:00"
+  },
+  {
+    "constituency_no": 8,
+    "constituency_name": "NARASANNAPETA",
+    "winner": {
+      "name": "DHARMANA KRISHNA DAS",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 85622,
+      "postal_votes": 0,
+      "total_votes": 85622,
+      "percent": 51.75
+    },
+    "runner_up": {
+      "name": "Baggu Ramana Murthy",
+      "party": "Telugu Desam",
+      "evm_votes": 66597,
+      "postal_votes": 0,
+      "total_votes": 66597,
+      "percent": 40.25
+    },
+    "margin": 19025,
+    "margin_percent": 11.5,
+    "total_votes_polled": 165449,
+    "nota_votes": 3485,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043841/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS018.htm",
+    "fetched_at": "2026-05-17T21:05:09.746927+00:00"
+  },
+  {
+    "constituency_no": 9,
+    "constituency_name": "RAJAM (SC)",
+    "winner": {
+      "name": "KAMBALA JOGULU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 82569,
+      "postal_votes": 992,
+      "total_votes": 83561,
+      "percent": 51.41
+    },
+    "runner_up": {
+      "name": "KONDRU MURALI MOHAN",
+      "party": "Telugu Desam",
+      "evm_votes": 66272,
+      "postal_votes": 441,
+      "total_votes": 66713,
+      "percent": 41.05
+    },
+    "margin": 16848,
+    "margin_percent": 10.36,
+    "total_votes_polled": 162534,
+    "nota_votes": 3587,
+    "candidate_count": 9,
+    "source_url": "https://web.archive.org/web/20190526043936/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS019.htm",
+    "fetched_at": "2026-05-17T21:05:13.919457+00:00"
+  },
+  {
+    "constituency_no": 10,
+    "constituency_name": "PALAKONDA  (ST)",
+    "winner": {
+      "name": "VISWASARAYI KALAVATHI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 70778,
+      "postal_votes": 1276,
+      "total_votes": 72054,
+      "percent": 52.7
+    },
+    "runner_up": {
+      "name": "JAYAKRISHNA NIMMAKA",
+      "party": "Telugu Desam",
+      "evm_votes": 53622,
+      "postal_votes": 452,
+      "total_votes": 54074,
+      "percent": 39.55
+    },
+    "margin": 17980,
+    "margin_percent": 13.15,
+    "total_votes_polled": 136712,
+    "nota_votes": 3548,
+    "candidate_count": 10,
+    "source_url": "https://web.archive.org/web/20190526042630/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0110.htm",
+    "fetched_at": "2026-05-17T21:05:17.921381+00:00"
+  },
+  {
+    "constituency_no": 11,
+    "constituency_name": "KURUPAM",
+    "winner": {
+      "name": "PUSHPASREEVANI . PAMULA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 73863,
+      "postal_votes": 664,
+      "total_votes": 74527,
+      "percent": 52.02
+    },
+    "runner_up": {
+      "name": "VEERA VARA THODRAMAL NARA SIMHA PRIYA THATRAJ",
+      "party": "Telugu Desam",
+      "evm_votes": 47607,
+      "postal_votes": 318,
+      "total_votes": 47925,
+      "percent": 33.45
+    },
+    "margin": 26602,
+    "margin_percent": 18.57,
+    "total_votes_polled": 143258,
+    "nota_votes": 4535,
+    "candidate_count": 9,
+    "source_url": "https://web.archive.org/web/20190526042727/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0111.htm",
+    "fetched_at": "2026-05-17T21:05:21.846295+00:00"
+  },
+  {
+    "constituency_no": 12,
+    "constituency_name": "PARVATHIPURAM",
+    "winner": {
+      "name": "ALAJANGI JOGARAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 74223,
+      "postal_votes": 1081,
+      "total_votes": 75304,
+      "percent": 53.53
+    },
+    "runner_up": {
+      "name": "Bobbili Chiranjeevulu",
+      "party": "Telugu Desam",
+      "evm_votes": 50661,
+      "postal_votes": 444,
+      "total_votes": 51105,
+      "percent": 36.33
+    },
+    "margin": 24199,
+    "margin_percent": 17.2,
+    "total_votes_polled": 140675,
+    "nota_votes": 3521,
+    "candidate_count": 10,
+    "source_url": "https://web.archive.org/web/20190526042817/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0112.htm",
+    "fetched_at": "2026-05-17T21:05:25.316557+00:00"
+  },
+  {
+    "constituency_no": 13,
+    "constituency_name": "SALUR",
+    "winner": {
+      "name": "PEEDIKA. RAJANNA DORA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77616,
+      "postal_votes": 814,
+      "total_votes": 78430,
+      "percent": 51.7
+    },
+    "runner_up": {
+      "name": "R. P. BHANJ DEO",
+      "party": "Telugu Desam",
+      "evm_votes": 58085,
+      "postal_votes": 316,
+      "total_votes": 58401,
+      "percent": 38.49
+    },
+    "margin": 20029,
+    "margin_percent": 13.21,
+    "total_votes_polled": 151713,
+    "nota_votes": 4874,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526042857/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0113.htm",
+    "fetched_at": "2026-05-17T21:05:28.838137+00:00"
+  },
+  {
+    "constituency_no": 14,
+    "constituency_name": "BOBBILI",
+    "winner": {
+      "name": "SAMBANGI VENKATACHINA APPALA NAIDU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 83885,
+      "postal_votes": 1070,
+      "total_votes": 84955,
+      "percent": 48.7
+    },
+    "runner_up": {
+      "name": "VENKATA SUJAY KRISHNA RANGA RAO RAVU",
+      "party": "Telugu Desam",
+      "evm_votes": 75842,
+      "postal_votes": 761,
+      "total_votes": 76603,
+      "percent": 43.91
+    },
+    "margin": 8352,
+    "margin_percent": 4.79,
+    "total_votes_polled": 174457,
+    "nota_votes": 3031,
+    "candidate_count": 9,
+    "source_url": "https://web.archive.org/web/20190526042942/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0114.htm",
+    "fetched_at": "2026-05-17T21:05:35.293467+00:00"
+  },
+  {
+    "constituency_no": 15,
+    "constituency_name": "CHEEPURUPALLI",
+    "winner": {
+      "name": "BOTCHA SATYANARAYANA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 88593,
+      "postal_votes": 669,
+      "total_votes": 89262,
+      "percent": 53.81
+    },
+    "runner_up": {
+      "name": "NAGARJUNA KIMIDI",
+      "party": "Telugu Desam",
+      "evm_votes": 62556,
+      "postal_votes": 208,
+      "total_votes": 62764,
+      "percent": 37.84
+    },
+    "margin": 26498,
+    "margin_percent": 15.97,
+    "total_votes_polled": 165883,
+    "nota_votes": 3353,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043037/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0115.htm",
+    "fetched_at": "2026-05-17T21:05:39.317627+00:00"
+  },
+  {
+    "constituency_no": 16,
+    "constituency_name": "GAJAPATHINAGARAM",
+    "winner": {
+      "name": "APPALANARASAYYA BOTCHA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 92402,
+      "postal_votes": 868,
+      "total_votes": 93270,
+      "percent": 54.12
+    },
+    "runner_up": {
+      "name": "APPALA NAIDU KONDAPALLI",
+      "party": "Telugu Desam",
+      "evm_votes": 65859,
+      "postal_votes": 400,
+      "total_votes": 66259,
+      "percent": 38.45
+    },
+    "margin": 27011,
+    "margin_percent": 15.67,
+    "total_votes_polled": 172331,
+    "nota_votes": 4638,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043132/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0116.htm",
+    "fetched_at": "2026-05-17T21:05:43.289902+00:00"
+  },
+  {
+    "constituency_no": 17,
+    "constituency_name": "NELLIMARLA",
+    "winner": {
+      "name": "APPALA NAIDU BADDUKONDA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 93643,
+      "postal_votes": 615,
+      "total_votes": 94258,
+      "percent": 53.11
+    },
+    "runner_up": {
+      "name": "NARAYANASWAMY NAIDU PATHIVADA",
+      "party": "Telugu Desam",
+      "evm_votes": 65861,
+      "postal_votes": 346,
+      "total_votes": 66207,
+      "percent": 37.31
+    },
+    "margin": 28051,
+    "margin_percent": 15.8,
+    "total_votes_polled": 177463,
+    "nota_votes": 4766,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043228/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0117.htm",
+    "fetched_at": "2026-05-17T21:05:47.893074+00:00"
+  },
+  {
+    "constituency_no": 18,
+    "constituency_name": "VIZIANAGARAM",
+    "winner": {
+      "name": "VEERA BHADRA SWAMY KOLAGATLA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77545,
+      "postal_votes": 1304,
+      "total_votes": 78849,
+      "percent": 47.96
+    },
+    "runner_up": {
+      "name": "ADITI VIJAYALAKSHMI GAJAPATHI RAJU PUSAPATI",
+      "party": "Telugu Desam",
+      "evm_votes": 71936,
+      "postal_votes": 496,
+      "total_votes": 72432,
+      "percent": 44.05
+    },
+    "margin": 6417,
+    "margin_percent": 3.91,
+    "total_votes_polled": 164420,
+    "nota_votes": 1797,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043303/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0118.htm",
+    "fetched_at": "2026-05-17T21:05:52.092674+00:00"
+  },
+  {
+    "constituency_no": 19,
+    "constituency_name": "SRUNGAVARAPUKOTA",
+    "winner": {
+      "name": "Kadubandi Srinivasa Rao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 90723,
+      "postal_votes": 728,
+      "total_votes": 91451,
+      "percent": 49.73
+    },
+    "runner_up": {
+      "name": "Kolla Lalitha Kumari",
+      "party": "Telugu Desam",
+      "evm_votes": 79477,
+      "postal_votes": 609,
+      "total_votes": 80086,
+      "percent": 43.55
+    },
+    "margin": 11365,
+    "margin_percent": 6.18,
+    "total_votes_polled": 183901,
+    "nota_votes": 3636,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043308/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0119.htm",
+    "fetched_at": "2026-05-17T21:05:56.104343+00:00"
+  },
+  {
+    "constituency_no": 20,
+    "constituency_name": "BHIMLI",
+    "winner": {
+      "name": "MUTTAMSETTI SRINIVASARAO (AVANTHI SRINIVAS)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 100540,
+      "postal_votes": 1089,
+      "total_votes": 101629,
+      "percent": 44.21
+    },
+    "runner_up": {
+      "name": "SABBAM HARI",
+      "party": "Telugu Desam",
+      "evm_votes": 91598,
+      "postal_votes": 319,
+      "total_votes": 91917,
+      "percent": 39.98
+    },
+    "margin": 9712,
+    "margin_percent": 4.23,
+    "total_votes_polled": 229890,
+    "nota_votes": 4263,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043318/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0120.htm",
+    "fetched_at": "2026-05-17T21:05:59.993145+00:00"
+  },
+  {
+    "constituency_no": 21,
+    "constituency_name": "VISAKHAPATNAM EAST",
+    "winner": {
+      "name": "RAMAKRISHNA BABU VELAGAPUDI",
+      "party": "Telugu Desam",
+      "evm_votes": 86752,
+      "postal_votes": 321,
+      "total_votes": 87073,
+      "percent": 50.1
+    },
+    "runner_up": {
+      "name": "AKKARAMANI VIJAYA NIRMALA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 59956,
+      "postal_votes": 643,
+      "total_votes": 60599,
+      "percent": 34.87
+    },
+    "margin": 26474,
+    "margin_percent": 15.23,
+    "total_votes_polled": 173804,
+    "nota_votes": 1741,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043323/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0121.htm",
+    "fetched_at": "2026-05-17T21:06:04.174385+00:00"
+  },
+  {
+    "constituency_no": 22,
+    "constituency_name": "VISAKHAPATNAM SOUTH",
+    "winner": {
+      "name": "GANESH KUMAR VASUPALLI",
+      "party": "Telugu Desam",
+      "evm_votes": 52026,
+      "postal_votes": 146,
+      "total_votes": 52172,
+      "percent": 41.5
+    },
+    "runner_up": {
+      "name": "DRONAMRAJU SRINIVASA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 48133,
+      "postal_votes": 310,
+      "total_votes": 48443,
+      "percent": 38.54
+    },
+    "margin": 3729,
+    "margin_percent": 2.96,
+    "total_votes_polled": 125701,
+    "nota_votes": 1208,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043328/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0122.htm",
+    "fetched_at": "2026-05-17T21:06:08.472886+00:00"
+  },
+  {
+    "constituency_no": 23,
+    "constituency_name": "VISAKHAPATNAM  NORTH",
+    "winner": {
+      "name": "GANTA SRINIVASA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 67160,
+      "postal_votes": 192,
+      "total_votes": 67352,
+      "percent": 38.09
+    },
+    "runner_up": {
+      "name": "KAMMILA KANNAPARAJU (K.K. RAJU)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 64963,
+      "postal_votes": 445,
+      "total_votes": 65408,
+      "percent": 36.99
+    },
+    "margin": 1944,
+    "margin_percent": 1.1,
+    "total_votes_polled": 176841,
+    "nota_votes": 1411,
+    "candidate_count": 19,
+    "source_url": "https://web.archive.org/web/20190526043333/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0123.htm",
+    "fetched_at": "2026-05-17T21:06:12.432192+00:00"
+  },
+  {
+    "constituency_no": 24,
+    "constituency_name": "VISAKHAPATNAM  WEST",
+    "winner": {
+      "name": "GANA VENKATA REDDY NAIDU PETHAKAMSETTI (GANA BABU)",
+      "party": "Telugu Desam",
+      "evm_votes": 68390,
+      "postal_votes": 309,
+      "total_votes": 68699,
+      "percent": 50.96
+    },
+    "runner_up": {
+      "name": "VIJAY PRASAD MALLA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 49387,
+      "postal_votes": 331,
+      "total_votes": 49718,
+      "percent": 36.88
+    },
+    "margin": 18981,
+    "margin_percent": 14.08,
+    "total_votes_polled": 134818,
+    "nota_votes": 1561,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043338/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0124.htm",
+    "fetched_at": "2026-05-17T21:06:16.157684+00:00"
+  },
+  {
+    "constituency_no": 25,
+    "constituency_name": "GAJUWAKA",
+    "winner": {
+      "name": "NAGIREDDY TIPPALA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 74769,
+      "postal_votes": 523,
+      "total_votes": 75292,
+      "percent": 37.78
+    },
+    "runner_up": {
+      "name": "PAWAN KALYAN KONIDALA",
+      "party": "Janasena Party",
+      "evm_votes": 58283,
+      "postal_votes": 256,
+      "total_votes": 58539,
+      "percent": 29.37
+    },
+    "margin": 16753,
+    "margin_percent": 8.41,
+    "total_votes_polled": 199284,
+    "nota_votes": 1764,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043344/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0125.htm",
+    "fetched_at": "2026-05-17T21:06:20.225586+00:00"
+  },
+  {
+    "constituency_no": 26,
+    "constituency_name": "CHODAVARAM",
+    "winner": {
+      "name": "KARANAM DHARMASRI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 93456,
+      "postal_votes": 759,
+      "total_votes": 94215,
+      "percent": 53.92
+    },
+    "runner_up": {
+      "name": "KALIDINDI SURYA NAGA SANYASI RAJU",
+      "party": "Telugu Desam",
+      "evm_votes": 66210,
+      "postal_votes": 368,
+      "total_votes": 66578,
+      "percent": 38.1
+    },
+    "margin": 27637,
+    "margin_percent": 15.82,
+    "total_votes_polled": 174724,
+    "nota_votes": 5036,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043349/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0126.htm",
+    "fetched_at": "2026-05-17T21:06:24.195305+00:00"
+  },
+  {
+    "constituency_no": 27,
+    "constituency_name": "V.MADUGULA",
+    "winner": {
+      "name": "BUDI MUTYALA NAIDU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77965,
+      "postal_votes": 865,
+      "total_votes": 78830,
+      "percent": 50.99
+    },
+    "runner_up": {
+      "name": "GAVIREDDI RAMANAIDU",
+      "party": "Telugu Desam",
+      "evm_votes": 62158,
+      "postal_votes": 280,
+      "total_votes": 62438,
+      "percent": 40.38
+    },
+    "margin": 16392,
+    "margin_percent": 10.61,
+    "total_votes_polled": 154609,
+    "nota_votes": 4672,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043354/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0127.htm",
+    "fetched_at": "2026-05-17T21:06:28.282686+00:00"
+  },
+  {
+    "constituency_no": 28,
+    "constituency_name": "ARAKU VALLEY",
+    "winner": {
+      "name": "CHETTI. PALGUNA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 52266,
+      "postal_votes": 835,
+      "total_votes": 53101,
+      "percent": 33.7
+    },
+    "runner_up": {
+      "name": "DONNU DORA SIYYARI",
+      "party": "Independent",
+      "evm_votes": 27598,
+      "postal_votes": 62,
+      "total_votes": 27660,
+      "percent": 17.55
+    },
+    "margin": 25441,
+    "margin_percent": 16.15,
+    "total_votes_polled": 157575,
+    "nota_votes": 10177,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043359/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0128.htm",
+    "fetched_at": "2026-05-17T21:06:32.544920+00:00"
+  },
+  {
+    "constituency_no": 29,
+    "constituency_name": "PADERU",
+    "winner": {
+      "name": "BHAGYA LAKSHMI KOTTAGULLI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 70875,
+      "postal_votes": 278,
+      "total_votes": 71153,
+      "percent": 50.6
+    },
+    "runner_up": {
+      "name": "ESWARI. GIDDI",
+      "party": "Telugu Desam",
+      "evm_votes": 27912,
+      "postal_votes": 437,
+      "total_votes": 28349,
+      "percent": 20.16
+    },
+    "margin": 42804,
+    "margin_percent": 30.44,
+    "total_votes_polled": 140616,
+    "nota_votes": 7808,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043404/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0129.htm",
+    "fetched_at": "2026-05-17T21:06:36.507715+00:00"
+  },
+  {
+    "constituency_no": 30,
+    "constituency_name": "ANAKAPALLI",
+    "winner": {
+      "name": "A V S S Amarnath Gudivada",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 72514,
+      "postal_votes": 693,
+      "total_votes": 73207,
+      "percent": 45.97
+    },
+    "runner_up": {
+      "name": "Peela Govinda Satyanarayana",
+      "party": "Telugu Desam",
+      "evm_votes": 64579,
+      "postal_votes": 459,
+      "total_votes": 65038,
+      "percent": 40.84
+    },
+    "margin": 8169,
+    "margin_percent": 5.13,
+    "total_votes_polled": 159249,
+    "nota_votes": 2558,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043414/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0130.htm",
+    "fetched_at": "2026-05-17T21:06:40.862696+00:00"
+  },
+  {
+    "constituency_no": 31,
+    "constituency_name": "PENDURTHI",
+    "winner": {
+      "name": "ANNAMREDDY ADEEP RAJ",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 99171,
+      "postal_votes": 588,
+      "total_votes": 99759,
+      "percent": 49.79
+    },
+    "runner_up": {
+      "name": "BANDARU SATYANARAYANA MURTHY",
+      "party": "Telugu Desam",
+      "evm_votes": 70695,
+      "postal_votes": 204,
+      "total_votes": 70899,
+      "percent": 35.38
+    },
+    "margin": 28860,
+    "margin_percent": 14.41,
+    "total_votes_polled": 200371,
+    "nota_votes": 3737,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043419/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0131.htm",
+    "fetched_at": "2026-05-17T21:06:45.291193+00:00"
+  },
+  {
+    "constituency_no": 32,
+    "constituency_name": "ELAMANCHILI",
+    "winner": {
+      "name": "UPPALAPATI VENKATA RAMANAMURTHY RAJU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 71473,
+      "postal_votes": 461,
+      "total_votes": 71934,
+      "percent": 42.62
+    },
+    "runner_up": {
+      "name": "PANCHAKARLA RAMESH BABU",
+      "party": "Telugu Desam",
+      "evm_votes": 67483,
+      "postal_votes": 305,
+      "total_votes": 67788,
+      "percent": 40.17
+    },
+    "margin": 4146,
+    "margin_percent": 2.45,
+    "total_votes_polled": 168766,
+    "nota_votes": 2963,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043423/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0132.htm",
+    "fetched_at": "2026-05-17T21:06:49.976991+00:00"
+  },
+  {
+    "constituency_no": 33,
+    "constituency_name": "PAYAKARAOPETA",
+    "winner": {
+      "name": "GOLLA BABURAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 98168,
+      "postal_votes": 577,
+      "total_votes": 98745,
+      "percent": 50.45
+    },
+    "runner_up": {
+      "name": "B. BANGARAIAH",
+      "party": "Telugu Desam",
+      "evm_votes": 67354,
+      "postal_votes": 202,
+      "total_votes": 67556,
+      "percent": 34.52
+    },
+    "margin": 31189,
+    "margin_percent": 15.93,
+    "total_votes_polled": 195725,
+    "nota_votes": 5189,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526054041/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0133.htm",
+    "fetched_at": "2026-05-17T21:06:54.742886+00:00"
+  },
+  {
+    "constituency_no": 34,
+    "constituency_name": "NARSIPATNAM",
+    "winner": {
+      "name": "UMA SANKARA GANESH PETLA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 92762,
+      "postal_votes": 1056,
+      "total_votes": 93818,
+      "percent": 53.82
+    },
+    "runner_up": {
+      "name": "AYYANNA PATRUDU CHINTAKAYALA",
+      "party": "Telugu Desam",
+      "evm_votes": 69935,
+      "postal_votes": 517,
+      "total_votes": 70452,
+      "percent": 40.41
+    },
+    "margin": 23366,
+    "margin_percent": 13.41,
+    "total_votes_polled": 174330,
+    "nota_votes": 5765,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043429/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0134.htm",
+    "fetched_at": "2026-05-17T21:07:00.219979+00:00"
+  },
+  {
+    "constituency_no": 35,
+    "constituency_name": "TUNI",
+    "winner": {
+      "name": "DADISETTI RAJA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 92015,
+      "postal_votes": 444,
+      "total_votes": 92459,
+      "percent": 52.13
+    },
+    "runner_up": {
+      "name": "YANAMALA KRISHNUDU",
+      "party": "Telugu Desam",
+      "evm_votes": 67903,
+      "postal_votes": 540,
+      "total_votes": 68443,
+      "percent": 38.59
+    },
+    "margin": 24016,
+    "margin_percent": 13.54,
+    "total_votes_polled": 177375,
+    "nota_votes": 2586,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043434/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0135.htm",
+    "fetched_at": "2026-05-17T21:07:07.238112+00:00"
+  },
+  {
+    "constituency_no": 36,
+    "constituency_name": "PRATHIPADU",
+    "winner": {
+      "name": "Sri Purnachandra Prasad Parvatha",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 76820,
+      "postal_votes": 283,
+      "total_votes": 77103,
+      "percent": 46.75
+    },
+    "runner_up": {
+      "name": "Varupula Raja",
+      "party": "Telugu Desam",
+      "evm_votes": 72077,
+      "postal_votes": 415,
+      "total_votes": 72492,
+      "percent": 43.96
+    },
+    "margin": 4611,
+    "margin_percent": 2.79,
+    "total_votes_polled": 164915,
+    "nota_votes": 2079,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043439/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0136.htm",
+    "fetched_at": "2026-05-17T21:07:12.660918+00:00"
+  },
+  {
+    "constituency_no": 37,
+    "constituency_name": "PITHAPURAM",
+    "winner": {
+      "name": "Dorababu Pendem",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 83099,
+      "postal_votes": 360,
+      "total_votes": 83459,
+      "percent": 44.71
+    },
+    "runner_up": {
+      "name": "S.V.S.N. VARMA",
+      "party": "Telugu Desam",
+      "evm_votes": 67718,
+      "postal_votes": 749,
+      "total_votes": 68467,
+      "percent": 36.68
+    },
+    "margin": 14992,
+    "margin_percent": 8.03,
+    "total_votes_polled": 186682,
+    "nota_votes": 2339,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043451/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0137.htm",
+    "fetched_at": "2026-05-17T21:07:19.498790+00:00"
+  },
+  {
+    "constituency_no": 38,
+    "constituency_name": "KAKINADA RURAL",
+    "winner": {
+      "name": "Kurasala Kannababu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 73688,
+      "postal_votes": 380,
+      "total_votes": 74068,
+      "percent": 40.14
+    },
+    "runner_up": {
+      "name": "Ananthlakshmi Pilli",
+      "party": "Telugu Desam",
+      "evm_votes": 64902,
+      "postal_votes": 377,
+      "total_votes": 65279,
+      "percent": 35.38
+    },
+    "margin": 8789,
+    "margin_percent": 4.76,
+    "total_votes_polled": 184507,
+    "nota_votes": 1575,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043452/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0138.htm",
+    "fetched_at": "2026-05-17T21:07:24.895562+00:00"
+  },
+  {
+    "constituency_no": 39,
+    "constituency_name": "PEDDAPURAM",
+    "winner": {
+      "name": "Nimmakayala China Rajappa",
+      "party": "Telugu Desam",
+      "evm_votes": 67133,
+      "postal_votes": 260,
+      "total_votes": 67393,
+      "percent": 41.36
+    },
+    "runner_up": {
+      "name": "Thota Saraswathi Ane Vani",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 62929,
+      "postal_votes": 437,
+      "total_votes": 63366,
+      "percent": 38.89
+    },
+    "margin": 4027,
+    "margin_percent": 2.47,
+    "total_votes_polled": 162928,
+    "nota_votes": 2072,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043457/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0139.htm",
+    "fetched_at": "2026-05-17T21:07:30.648069+00:00"
+  },
+  {
+    "constituency_no": 40,
+    "constituency_name": "ANAPARTHY",
+    "winner": {
+      "name": "DOCTOR. SATHI SURYANARAYANA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 111169,
+      "postal_votes": 602,
+      "total_votes": 111771,
+      "percent": 59.86
+    },
+    "runner_up": {
+      "name": "NALLAMILLI RAMAKRISHNA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 56340,
+      "postal_votes": 224,
+      "total_votes": 56564,
+      "percent": 30.3
+    },
+    "margin": 55207,
+    "margin_percent": 29.56,
+    "total_votes_polled": 186710,
+    "nota_votes": 2114,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043507/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0140.htm",
+    "fetched_at": "2026-05-17T21:07:36.849572+00:00"
+  },
+  {
+    "constituency_no": 41,
+    "constituency_name": "KAKINADA CITY",
+    "winner": {
+      "name": "Dwarampudi Chandra Sekhara Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 73322,
+      "postal_votes": 568,
+      "total_votes": 73890,
+      "percent": 43.06
+    },
+    "runner_up": {
+      "name": "VANAMADI VENKATESWARA RAO @ KONDABABU",
+      "party": "Telugu Desam",
+      "evm_votes": 59606,
+      "postal_votes": 173,
+      "total_votes": 59779,
+      "percent": 34.84
+    },
+    "margin": 14111,
+    "margin_percent": 8.22,
+    "total_votes_polled": 171604,
+    "nota_votes": 1654,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043512/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0141.htm",
+    "fetched_at": "2026-05-17T21:07:43.713597+00:00"
+  },
+  {
+    "constituency_no": 42,
+    "constituency_name": "RAMACHANDRAPURAM",
+    "winner": {
+      "name": "CHELLUBOYINA SRINIVASA VENUGOPALAKRISHNA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 74888,
+      "postal_votes": 477,
+      "total_votes": 75365,
+      "percent": 44.62
+    },
+    "runner_up": {
+      "name": "THOTA TRIMURTHULU",
+      "party": "Telugu Desam",
+      "evm_votes": 69464,
+      "postal_votes": 733,
+      "total_votes": 70197,
+      "percent": 41.56
+    },
+    "margin": 5168,
+    "margin_percent": 3.06,
+    "total_votes_polled": 168891,
+    "nota_votes": 1463,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043517/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0142.htm",
+    "fetched_at": "2026-05-17T21:07:49.286927+00:00"
+  },
+  {
+    "constituency_no": 43,
+    "constituency_name": "MUMMIDIVARAM",
+    "winner": {
+      "name": "PONNADA VENKATA SATISH KUMAR",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 78050,
+      "postal_votes": 472,
+      "total_votes": 78522,
+      "percent": 40.89
+    },
+    "runner_up": {
+      "name": "DATLA SUBBA RAJU (BUTCHI BABU)",
+      "party": "Telugu Desam",
+      "evm_votes": 72610,
+      "postal_votes": 365,
+      "total_votes": 72975,
+      "percent": 38.0
+    },
+    "margin": 5547,
+    "margin_percent": 2.89,
+    "total_votes_polled": 192043,
+    "nota_votes": 2298,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043522/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0143.htm",
+    "fetched_at": "2026-05-17T21:07:54.916016+00:00"
+  },
+  {
+    "constituency_no": 44,
+    "constituency_name": "AMALAPURAM",
+    "winner": {
+      "name": "VISWARUPU PINIPE",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 71287,
+      "postal_votes": 716,
+      "total_votes": 72003,
+      "percent": 42.51
+    },
+    "runner_up": {
+      "name": "AITHABATHULA ANANDARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 46052,
+      "postal_votes": 297,
+      "total_votes": 46349,
+      "percent": 27.36
+    },
+    "margin": 25654,
+    "margin_percent": 15.15,
+    "total_votes_polled": 169382,
+    "nota_votes": 2006,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043527/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0144.htm",
+    "fetched_at": "2026-05-17T21:08:01.044935+00:00"
+  },
+  {
+    "constituency_no": 45,
+    "constituency_name": "RAZOLE",
+    "winner": {
+      "name": "RAPAKA VARA PRASADA RAO",
+      "party": "Janasena Party",
+      "evm_votes": 49553,
+      "postal_votes": 500,
+      "total_votes": 50053,
+      "percent": 33.46
+    },
+    "runner_up": {
+      "name": "RAJESWARA RAO BONTHU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 48612,
+      "postal_votes": 627,
+      "total_votes": 49239,
+      "percent": 32.91
+    },
+    "margin": 814,
+    "margin_percent": 0.55,
+    "total_votes_polled": 149605,
+    "nota_votes": 1413,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043532/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0145.htm",
+    "fetched_at": "2026-05-17T21:08:06.387316+00:00"
+  },
+  {
+    "constituency_no": 46,
+    "constituency_name": "GANNAVARAM",
+    "winner": {
+      "name": "KONDETI CHITTI BABU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 66582,
+      "postal_votes": 791,
+      "total_votes": 67373,
+      "percent": 43.13
+    },
+    "runner_up": {
+      "name": "NELAPUDI STALIN BABU",
+      "party": "Telugu Desam",
+      "evm_votes": 45040,
+      "postal_votes": 126,
+      "total_votes": 45166,
+      "percent": 28.91
+    },
+    "margin": 22207,
+    "margin_percent": 14.22,
+    "total_votes_polled": 156212,
+    "nota_votes": 2470,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043537/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0146.htm",
+    "fetched_at": "2026-05-17T21:08:10.910162+00:00"
+  },
+  {
+    "constituency_no": 47,
+    "constituency_name": "KOTHAPETA",
+    "winner": {
+      "name": "CHIRLA JAGGIREDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 81901,
+      "postal_votes": 744,
+      "total_votes": 82645,
+      "percent": 40.52
+    },
+    "runner_up": {
+      "name": "BANDARU SATYANANDA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 78077,
+      "postal_votes": 530,
+      "total_votes": 78607,
+      "percent": 38.54
+    },
+    "margin": 4038,
+    "margin_percent": 1.98,
+    "total_votes_polled": 203938,
+    "nota_votes": 1996,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043542/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0147.htm",
+    "fetched_at": "2026-05-17T21:08:15.888517+00:00"
+  },
+  {
+    "constituency_no": 48,
+    "constituency_name": "MANDAPETA",
+    "winner": {
+      "name": "JOGESWARA RAO. V",
+      "party": "Telugu Desam",
+      "evm_votes": 77635,
+      "postal_votes": 394,
+      "total_votes": 78029,
+      "percent": 41.85
+    },
+    "runner_up": {
+      "name": "PILLI SUBHAS CHANDRA BOSE",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 67042,
+      "postal_votes": 387,
+      "total_votes": 67429,
+      "percent": 36.17
+    },
+    "margin": 10600,
+    "margin_percent": 5.68,
+    "total_votes_polled": 186429,
+    "nota_votes": 1584,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043547/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0148.htm",
+    "fetched_at": "2026-05-17T21:08:20.426023+00:00"
+  },
+  {
+    "constituency_no": 49,
+    "constituency_name": "RAJANAGARAM",
+    "winner": {
+      "name": "JAKKAMPUDI RAJA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 90213,
+      "postal_votes": 467,
+      "total_votes": 90680,
+      "percent": 51.29
+    },
+    "runner_up": {
+      "name": "PENDURTHI VENKATESH",
+      "party": "Telugu Desam",
+      "evm_votes": 58718,
+      "postal_votes": 190,
+      "total_votes": 58908,
+      "percent": 33.32
+    },
+    "margin": 31772,
+    "margin_percent": 17.97,
+    "total_votes_polled": 176785,
+    "nota_votes": 2200,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043552/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0149.htm",
+    "fetched_at": "2026-05-17T21:08:25.056433+00:00"
+  },
+  {
+    "constituency_no": 50,
+    "constituency_name": "RAJAHMUNDRY CITY",
+    "winner": {
+      "name": "ADIREDDY BHAVANI",
+      "party": "Telugu Desam",
+      "evm_votes": 83364,
+      "postal_votes": 338,
+      "total_votes": 83702,
+      "percent": 49.94
+    },
+    "runner_up": {
+      "name": "ROUTHU SURYA PRAKASA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 52928,
+      "postal_votes": 709,
+      "total_votes": 53637,
+      "percent": 32.0
+    },
+    "margin": 30065,
+    "margin_percent": 17.94,
+    "total_votes_polled": 167604,
+    "nota_votes": 1369,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043602/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0150.htm",
+    "fetched_at": "2026-05-17T21:08:29.723350+00:00"
+  },
+  {
+    "constituency_no": 51,
+    "constituency_name": "RAJAMUNDRY RURAL",
+    "winner": {
+      "name": "Gorantla Butchaiah Choudary",
+      "party": "Telugu Desam",
+      "evm_votes": 74019,
+      "postal_votes": 147,
+      "total_votes": 74166,
+      "percent": 39.28
+    },
+    "runner_up": {
+      "name": "AKULA VEERRAJU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 63096,
+      "postal_votes": 666,
+      "total_votes": 63762,
+      "percent": 33.77
+    },
+    "margin": 10404,
+    "margin_percent": 5.51,
+    "total_votes_polled": 188827,
+    "nota_votes": 1621,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043607/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0151.htm",
+    "fetched_at": "2026-05-17T21:08:35.657431+00:00"
+  },
+  {
+    "constituency_no": 52,
+    "constituency_name": "JAGGAMPETA",
+    "winner": {
+      "name": "Jyothula Naga Veera Venkata Vishnu Satya Marthanda Rao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 93231,
+      "postal_votes": 265,
+      "total_votes": 93496,
+      "percent": 51.62
+    },
+    "runner_up": {
+      "name": "JYOTHULA VENKATA APPARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 69583,
+      "postal_votes": 548,
+      "total_votes": 70131,
+      "percent": 38.72
+    },
+    "margin": 23365,
+    "margin_percent": 12.9,
+    "total_votes_polled": 181127,
+    "nota_votes": 3016,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043612/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0152.htm",
+    "fetched_at": "2026-05-17T21:08:40.391378+00:00"
+  },
+  {
+    "constituency_no": 53,
+    "constituency_name": "RAMPACHODAVARAM",
+    "winner": {
+      "name": "NAGULAPALLI DHANALAKSHMI.",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 97853,
+      "postal_votes": 465,
+      "total_votes": 98318,
+      "percent": 48.72
+    },
+    "runner_up": {
+      "name": "VANTHALA RAJESWARI",
+      "party": "Telugu Desam",
+      "evm_votes": 59062,
+      "postal_votes": 150,
+      "total_votes": 59212,
+      "percent": 29.34
+    },
+    "margin": 39106,
+    "margin_percent": 19.38,
+    "total_votes_polled": 201807,
+    "nota_votes": 4453,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043617/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0153.htm",
+    "fetched_at": "2026-05-17T21:08:45.227261+00:00"
+  },
+  {
+    "constituency_no": 54,
+    "constituency_name": "KOVVUR",
+    "winner": {
+      "name": "TANETI VANITA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 79352,
+      "postal_votes": 540,
+      "total_votes": 79892,
+      "percent": 52.35
+    },
+    "runner_up": {
+      "name": "ANITHA VANGALAPUDI",
+      "party": "Telugu Desam",
+      "evm_votes": 54481,
+      "postal_votes": 163,
+      "total_votes": 54644,
+      "percent": 35.81
+    },
+    "margin": 25248,
+    "margin_percent": 16.54,
+    "total_votes_polled": 152611,
+    "nota_votes": 2165,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043622/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0154.htm",
+    "fetched_at": "2026-05-17T21:08:49.953814+00:00"
+  },
+  {
+    "constituency_no": 55,
+    "constituency_name": "NIDADAVOLE",
+    "winner": {
+      "name": "G. Srinivas Naidu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 80243,
+      "postal_votes": 758,
+      "total_votes": 81001,
+      "percent": 48.19
+    },
+    "runner_up": {
+      "name": "Burugupalli Sesharao",
+      "party": "Telugu Desam",
+      "evm_votes": 59052,
+      "postal_votes": 261,
+      "total_votes": 59313,
+      "percent": 35.29
+    },
+    "margin": 21688,
+    "margin_percent": 12.9,
+    "total_votes_polled": 168096,
+    "nota_votes": 1693,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043627/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0155.htm",
+    "fetched_at": "2026-05-17T21:08:55.193331+00:00"
+  },
+  {
+    "constituency_no": 56,
+    "constituency_name": "ACHANTA",
+    "winner": {
+      "name": "CHERUKUVADA SRIRANGANADHA RAJU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 66013,
+      "postal_votes": 481,
+      "total_votes": 66494,
+      "percent": 47.92
+    },
+    "runner_up": {
+      "name": "SATYANARAYANA PITHANI",
+      "party": "Telugu Desam",
+      "evm_votes": 53366,
+      "postal_votes": 242,
+      "total_votes": 53608,
+      "percent": 38.64
+    },
+    "margin": 12886,
+    "margin_percent": 9.28,
+    "total_votes_polled": 138747,
+    "nota_votes": 1453,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043632/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0156.htm",
+    "fetched_at": "2026-05-17T21:09:01.471128+00:00"
+  },
+  {
+    "constituency_no": 57,
+    "constituency_name": "PALACOLE",
+    "winner": {
+      "name": "DR. NIMMALA RAMANAIDU",
+      "party": "Telugu Desam",
+      "evm_votes": 67025,
+      "postal_votes": 524,
+      "total_votes": 67549,
+      "percent": 43.18
+    },
+    "runner_up": {
+      "name": "Dr. SATYANARAYANA MURTY CHAVATAPALLI @Dr.BABJI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 48945,
+      "postal_votes": 795,
+      "total_votes": 49740,
+      "percent": 31.8
+    },
+    "margin": 17809,
+    "margin_percent": 11.38,
+    "total_votes_polled": 156421,
+    "nota_votes": 1170,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043637/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0157.htm",
+    "fetched_at": "2026-05-17T21:09:05.767910+00:00"
+  },
+  {
+    "constituency_no": 58,
+    "constituency_name": "NARASAPURAM",
+    "winner": {
+      "name": "MUDUNURI PRASADA RAJU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 54861,
+      "postal_votes": 695,
+      "total_votes": 55556,
+      "percent": 40.68
+    },
+    "runner_up": {
+      "name": "BOMMIDI. NAYAKER",
+      "party": "Janasena Party",
+      "evm_votes": 48892,
+      "postal_votes": 228,
+      "total_votes": 49120,
+      "percent": 35.97
+    },
+    "margin": 6436,
+    "margin_percent": 4.71,
+    "total_votes_polled": 136556,
+    "nota_votes": 1143,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043642/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0158.htm",
+    "fetched_at": "2026-05-17T21:09:10.134587+00:00"
+  },
+  {
+    "constituency_no": 59,
+    "constituency_name": "BHIMAVARAM",
+    "winner": {
+      "name": "GRANDHI SRINIVAS",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 69743,
+      "postal_votes": 899,
+      "total_votes": 70642,
+      "percent": 36.78
+    },
+    "runner_up": {
+      "name": "PAWAN KALYAN KONIDALA",
+      "party": "Janasena Party",
+      "evm_votes": 61951,
+      "postal_votes": 334,
+      "total_votes": 62285,
+      "percent": 32.43
+    },
+    "margin": 8357,
+    "margin_percent": 4.35,
+    "total_votes_polled": 192061,
+    "nota_votes": 1492,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043647/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0159.htm",
+    "fetched_at": "2026-05-17T21:09:14.732459+00:00"
+  },
+  {
+    "constituency_no": 60,
+    "constituency_name": "UNDI",
+    "winner": {
+      "name": "MANTENA RAMARAJU",
+      "party": "Telugu Desam",
+      "evm_votes": 82374,
+      "postal_votes": 356,
+      "total_votes": 82730,
+      "percent": 44.46
+    },
+    "runner_up": {
+      "name": "P V L Narasimha Raju",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 71048,
+      "postal_votes": 733,
+      "total_votes": 71781,
+      "percent": 38.58
+    },
+    "margin": 10949,
+    "margin_percent": 5.88,
+    "total_votes_polled": 186077,
+    "nota_votes": 1885,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043657/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0160.htm",
+    "fetched_at": "2026-05-17T21:09:19.239724+00:00"
+  },
+  {
+    "constituency_no": 61,
+    "constituency_name": "TANUKU",
+    "winner": {
+      "name": "KARUMURI VENKATA NAGESWARA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 75133,
+      "postal_votes": 842,
+      "total_votes": 75975,
+      "percent": 40.31
+    },
+    "runner_up": {
+      "name": "ARIMILLI RADHA KRISHNA",
+      "party": "Telugu Desam",
+      "evm_votes": 73276,
+      "postal_votes": 504,
+      "total_votes": 73780,
+      "percent": 39.14
+    },
+    "margin": 2195,
+    "margin_percent": 1.17,
+    "total_votes_polled": 188494,
+    "nota_votes": 1885,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043702/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0161.htm",
+    "fetched_at": "2026-05-17T21:09:24.232059+00:00"
+  },
+  {
+    "constituency_no": 62,
+    "constituency_name": "TADEPALLIGUDEM",
+    "winner": {
+      "name": "KOTTU SATYANARAYANA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 70078,
+      "postal_votes": 663,
+      "total_votes": 70741,
+      "percent": 42.17
+    },
+    "runner_up": {
+      "name": "ELI VENKATA MADHUSUDHANARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 54028,
+      "postal_votes": 247,
+      "total_votes": 54275,
+      "percent": 32.35
+    },
+    "margin": 16466,
+    "margin_percent": 9.82,
+    "total_votes_polled": 167760,
+    "nota_votes": 1789,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043707/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0162.htm",
+    "fetched_at": "2026-05-17T21:09:28.156151+00:00"
+  },
+  {
+    "constituency_no": 63,
+    "constituency_name": "UNGUTURU",
+    "winner": {
+      "name": "Puppala Srinivasarao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 94012,
+      "postal_votes": 609,
+      "total_votes": 94621,
+      "percent": 54.43
+    },
+    "runner_up": {
+      "name": "Ganni Veeranjaneyulu",
+      "party": "Telugu Desam",
+      "evm_votes": 61288,
+      "postal_votes": 180,
+      "total_votes": 61468,
+      "percent": 35.36
+    },
+    "margin": 33153,
+    "margin_percent": 19.07,
+    "total_votes_polled": 173841,
+    "nota_votes": 2321,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043712/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0163.htm",
+    "fetched_at": "2026-05-17T21:09:32.297105+00:00"
+  },
+  {
+    "constituency_no": 64,
+    "constituency_name": "DENDULURU",
+    "winner": {
+      "name": "ABBAYA CHOWDARY KOTHARI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 95788,
+      "postal_votes": 354,
+      "total_votes": 96142,
+      "percent": 51.42
+    },
+    "runner_up": {
+      "name": "CHINTHAMANENI PRABHAKAR",
+      "party": "Telugu Desam",
+      "evm_votes": 78508,
+      "postal_votes": 175,
+      "total_votes": 78683,
+      "percent": 42.08
+    },
+    "margin": 17459,
+    "margin_percent": 9.34,
+    "total_votes_polled": 186989,
+    "nota_votes": 2546,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043717/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0164.htm",
+    "fetched_at": "2026-05-17T21:09:36.389166+00:00"
+  },
+  {
+    "constituency_no": 65,
+    "constituency_name": "ELURU",
+    "winner": {
+      "name": "ALLA KALI KRISHNA SRINIVAS",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 71404,
+      "postal_votes": 843,
+      "total_votes": 72247,
+      "percent": 44.73
+    },
+    "runner_up": {
+      "name": "BADETI KOTA RAMA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 67868,
+      "postal_votes": 307,
+      "total_votes": 68175,
+      "percent": 42.21
+    },
+    "margin": 4072,
+    "margin_percent": 2.52,
+    "total_votes_polled": 161511,
+    "nota_votes": 1524,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043722/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0165.htm",
+    "fetched_at": "2026-05-17T21:09:40.440983+00:00"
+  },
+  {
+    "constituency_no": 66,
+    "constituency_name": "GOPALAPURAM",
+    "winner": {
+      "name": "Venkatrao Talari",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 111490,
+      "postal_votes": 295,
+      "total_votes": 111785,
+      "percent": 56.04
+    },
+    "runner_up": {
+      "name": "Muppidi Venkateswara Rao",
+      "party": "Telugu Desam",
+      "evm_votes": 74210,
+      "postal_votes": 114,
+      "total_votes": 74324,
+      "percent": 37.26
+    },
+    "margin": 37461,
+    "margin_percent": 18.78,
+    "total_votes_polled": 199464,
+    "nota_votes": 3998,
+    "candidate_count": 10,
+    "source_url": "https://web.archive.org/web/20190526043727/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0166.htm",
+    "fetched_at": "2026-05-17T21:09:44.655949+00:00"
+  },
+  {
+    "constituency_no": 67,
+    "constituency_name": "POLAVARAM",
+    "winner": {
+      "name": "TELLAM BALA RAJU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 109522,
+      "postal_votes": 1001,
+      "total_votes": 110523,
+      "percent": 51.81
+    },
+    "runner_up": {
+      "name": "BORAGAM SRINIVASULU",
+      "party": "Telugu Desam",
+      "evm_votes": 68117,
+      "postal_votes": 336,
+      "total_votes": 68453,
+      "percent": 32.09
+    },
+    "margin": 42070,
+    "margin_percent": 19.72,
+    "total_votes_polled": 213311,
+    "nota_votes": 6004,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043732/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0167.htm",
+    "fetched_at": "2026-05-17T21:09:49.035926+00:00"
+  },
+  {
+    "constituency_no": 68,
+    "constituency_name": "CHINTALAPUDI",
+    "winner": {
+      "name": "VUNNAMATLA RAKADA ELIZA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 114515,
+      "postal_votes": 1240,
+      "total_votes": 115755,
+      "percent": 53.53
+    },
+    "runner_up": {
+      "name": "KARRA RAJARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 79250,
+      "postal_votes": 330,
+      "total_votes": 79580,
+      "percent": 36.8
+    },
+    "margin": 36175,
+    "margin_percent": 16.73,
+    "total_votes_polled": 216232,
+    "nota_votes": 3477,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526054046/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0168.htm",
+    "fetched_at": "2026-05-17T21:09:53.765049+00:00"
+  },
+  {
+    "constituency_no": 69,
+    "constituency_name": "TIRUVURU",
+    "winner": {
+      "name": "Kokkiligadda Rakshana Nidhi",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 88739,
+      "postal_votes": 379,
+      "total_votes": 89118,
+      "percent": 50.73
+    },
+    "runner_up": {
+      "name": "Kothapalli Samuel Jawahar",
+      "party": "Telugu Desam",
+      "evm_votes": 78092,
+      "postal_votes": 191,
+      "total_votes": 78283,
+      "percent": 44.56
+    },
+    "margin": 10835,
+    "margin_percent": 6.17,
+    "total_votes_polled": 175682,
+    "nota_votes": 1749,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043737/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0169.htm",
+    "fetched_at": "2026-05-17T21:09:58.233531+00:00"
+  },
+  {
+    "constituency_no": 70,
+    "constituency_name": "NUZVID",
+    "winner": {
+      "name": "Meka Venkata Pratap Apparao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 101705,
+      "postal_votes": 245,
+      "total_votes": 101950,
+      "percent": 50.84
+    },
+    "runner_up": {
+      "name": "Muddaraboina Venkateswararao.",
+      "party": "Telugu Desam",
+      "evm_votes": 85645,
+      "postal_votes": 95,
+      "total_votes": 85740,
+      "percent": 42.75
+    },
+    "margin": 16210,
+    "margin_percent": 8.09,
+    "total_votes_polled": 200547,
+    "nota_votes": 2247,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043747/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0170.htm",
+    "fetched_at": "2026-05-17T21:10:02.975779+00:00"
+  },
+  {
+    "constituency_no": 71,
+    "constituency_name": "GANNAVARAM",
+    "winner": {
+      "name": "Vamsi Vallabhaneni",
+      "party": "Telugu Desam",
+      "evm_votes": 103704,
+      "postal_votes": 177,
+      "total_votes": 103881,
+      "percent": 47.07
+    },
+    "runner_up": {
+      "name": "Yarlagadda Venkatarao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 102714,
+      "postal_votes": 329,
+      "total_votes": 103043,
+      "percent": 46.69
+    },
+    "margin": 838,
+    "margin_percent": 0.38,
+    "total_votes_polled": 220718,
+    "nota_votes": 1818,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043752/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0171.htm",
+    "fetched_at": "2026-05-17T21:10:07.965292+00:00"
+  },
+  {
+    "constituency_no": 72,
+    "constituency_name": "GUDIVADA",
+    "winner": {
+      "name": "KODALI SRI VENKATESWARA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 88991,
+      "postal_votes": 842,
+      "total_votes": 89833,
+      "percent": 53.5
+    },
+    "runner_up": {
+      "name": "AVINASH DEVINENI",
+      "party": "Telugu Desam",
+      "evm_votes": 70022,
+      "postal_votes": 332,
+      "total_votes": 70354,
+      "percent": 41.9
+    },
+    "margin": 19479,
+    "margin_percent": 11.6,
+    "total_votes_polled": 167902,
+    "nota_votes": 3285,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043757/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0172.htm",
+    "fetched_at": "2026-05-17T21:10:12.159618+00:00"
+  },
+  {
+    "constituency_no": 73,
+    "constituency_name": "KAIKALUR",
+    "winner": {
+      "name": "DULAM NAGESWARA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 81578,
+      "postal_votes": 550,
+      "total_votes": 82128,
+      "percent": 47.81
+    },
+    "runner_up": {
+      "name": "JAYAMANGALA VENKATA RAMANA",
+      "party": "Telugu Desam",
+      "evm_votes": 72579,
+      "postal_votes": 192,
+      "total_votes": 72771,
+      "percent": 42.36
+    },
+    "margin": 9357,
+    "margin_percent": 5.45,
+    "total_votes_polled": 171772,
+    "nota_votes": 1529,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043802/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0173.htm",
+    "fetched_at": "2026-05-17T21:10:16.430567+00:00"
+  },
+  {
+    "constituency_no": 74,
+    "constituency_name": "PEDANA",
+    "winner": {
+      "name": "JOGI RAMESH",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 61603,
+      "postal_votes": 317,
+      "total_votes": 61920,
+      "percent": 42.46
+    },
+    "runner_up": {
+      "name": "KAGITHA KRISHNA PRASAD",
+      "party": "Telugu Desam",
+      "evm_votes": 53898,
+      "postal_votes": 183,
+      "total_votes": 54081,
+      "percent": 37.08
+    },
+    "margin": 7839,
+    "margin_percent": 5.38,
+    "total_votes_polled": 145848,
+    "nota_votes": 1407,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043807/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0174.htm",
+    "fetched_at": "2026-05-17T21:10:20.175366+00:00"
+  },
+  {
+    "constituency_no": 75,
+    "constituency_name": "MACHILIPATNAM",
+    "winner": {
+      "name": "PERNI VENKATARAMAIAH (NANI)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 65008,
+      "postal_votes": 1133,
+      "total_votes": 66141,
+      "percent": 44.36
+    },
+    "runner_up": {
+      "name": "KOLLU RAVINDRA",
+      "party": "Telugu Desam",
+      "evm_votes": 59770,
+      "postal_votes": 520,
+      "total_votes": 60290,
+      "percent": 40.44
+    },
+    "margin": 5851,
+    "margin_percent": 3.92,
+    "total_votes_polled": 149102,
+    "nota_votes": 1258,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043812/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0175.htm",
+    "fetched_at": "2026-05-17T21:10:24.717946+00:00"
+  },
+  {
+    "constituency_no": 76,
+    "constituency_name": "AVANIGADDA",
+    "winner": {
+      "name": "RAMESH BABU SIMHADRI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77636,
+      "postal_votes": 811,
+      "total_votes": 78447,
+      "percent": 42.54
+    },
+    "runner_up": {
+      "name": "BUDDHAPRASAD MANDALI",
+      "party": "Telugu Desam",
+      "evm_votes": 57305,
+      "postal_votes": 417,
+      "total_votes": 57722,
+      "percent": 31.3
+    },
+    "margin": 20725,
+    "margin_percent": 11.24,
+    "total_votes_polled": 184397,
+    "nota_votes": 1779,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043820/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0176.htm",
+    "fetched_at": "2026-05-17T21:10:29.444690+00:00"
+  },
+  {
+    "constituency_no": 77,
+    "constituency_name": "PAMARRU",
+    "winner": {
+      "name": "Anil Kumar Kaile",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 87910,
+      "postal_votes": 637,
+      "total_votes": 88547,
+      "percent": 56.15
+    },
+    "runner_up": {
+      "name": "Kalpana Uppuleti",
+      "party": "Telugu Desam",
+      "evm_votes": 57493,
+      "postal_votes": 181,
+      "total_votes": 57674,
+      "percent": 36.57
+    },
+    "margin": 30873,
+    "margin_percent": 19.58,
+    "total_votes_polled": 157691,
+    "nota_votes": 1934,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043825/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0177.htm",
+    "fetched_at": "2026-05-17T21:10:34.508092+00:00"
+  },
+  {
+    "constituency_no": 78,
+    "constituency_name": "PENAMALURU",
+    "winner": {
+      "name": "KOLUSU PARTHA SARATHY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 100597,
+      "postal_votes": 888,
+      "total_votes": 101485,
+      "percent": 47.44
+    },
+    "runner_up": {
+      "name": "Bode Prasad",
+      "party": "Telugu Desam",
+      "evm_votes": 89580,
+      "postal_votes": 588,
+      "total_votes": 90168,
+      "percent": 42.15
+    },
+    "margin": 11317,
+    "margin_percent": 5.29,
+    "total_votes_polled": 213929,
+    "nota_votes": 1550,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043831/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0178.htm",
+    "fetched_at": "2026-05-17T21:10:39.345091+00:00"
+  },
+  {
+    "constituency_no": 79,
+    "constituency_name": "VIJAYWADA WEST",
+    "winner": {
+      "name": "Velam Palli Srinivasa Rao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 58126,
+      "postal_votes": 309,
+      "total_votes": 58435,
+      "percent": 38.04
+    },
+    "runner_up": {
+      "name": "Shabana Musarat Khatoon",
+      "party": "Telugu Desam",
+      "evm_votes": 50670,
+      "postal_votes": 94,
+      "total_votes": 50764,
+      "percent": 33.04
+    },
+    "margin": 7671,
+    "margin_percent": 5.0,
+    "total_votes_polled": 153623,
+    "nota_votes": 776,
+    "candidate_count": 25,
+    "source_url": "https://web.archive.org/web/20190526043836/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0179.htm",
+    "fetched_at": "2026-05-17T21:10:43.662269+00:00"
+  },
+  {
+    "constituency_no": 80,
+    "constituency_name": "VIJAYAWADA CENTRAL",
+    "winner": {
+      "name": "VISHNU VARDHAN MALLADI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 70351,
+      "postal_votes": 370,
+      "total_votes": 70721,
+      "percent": 39.73
+    },
+    "runner_up": {
+      "name": "BONDA UMAMAHESWARA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 70552,
+      "postal_votes": 144,
+      "total_votes": 70696,
+      "percent": 39.71
+    },
+    "margin": 25,
+    "margin_percent": 0.02,
+    "total_votes_polled": 178013,
+    "nota_votes": 1016,
+    "candidate_count": 20,
+    "source_url": "https://web.archive.org/web/20190526043845/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0180.htm",
+    "fetched_at": "2026-05-17T21:10:49.834894+00:00"
+  },
+  {
+    "constituency_no": 81,
+    "constituency_name": "VIJAYAWADA EAST",
+    "winner": {
+      "name": "Gadde Rama Mohan",
+      "party": "Telugu Desam",
+      "evm_votes": 82556,
+      "postal_votes": 434,
+      "total_votes": 82990,
+      "percent": 44.4
+    },
+    "runner_up": {
+      "name": "Boppana Bhava Kumar",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 67156,
+      "postal_votes": 670,
+      "total_votes": 67826,
+      "percent": 36.29
+    },
+    "margin": 15164,
+    "margin_percent": 8.11,
+    "total_votes_polled": 186923,
+    "nota_votes": 1063,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043850/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0181.htm",
+    "fetched_at": "2026-05-17T21:10:56.455307+00:00"
+  },
+  {
+    "constituency_no": 82,
+    "constituency_name": "MYLAVARAM",
+    "winner": {
+      "name": "VASANTHA VENKATA KRISHNA PRASAD",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 114749,
+      "postal_votes": 191,
+      "total_votes": 114940,
+      "percent": 49.44
+    },
+    "runner_up": {
+      "name": "UMA MAHESWARARAO DEVINENI",
+      "party": "Telugu Desam",
+      "evm_votes": 102164,
+      "postal_votes": 123,
+      "total_votes": 102287,
+      "percent": 43.99
+    },
+    "margin": 12653,
+    "margin_percent": 5.45,
+    "total_votes_polled": 232500,
+    "nota_votes": 815,
+    "candidate_count": 21,
+    "source_url": "https://web.archive.org/web/20190526043855/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0182.htm",
+    "fetched_at": "2026-05-17T21:11:03.198807+00:00"
+  },
+  {
+    "constituency_no": 83,
+    "constituency_name": "NANDIGAMA",
+    "winner": {
+      "name": "MONDITOKA JAGAN MOHANA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 86912,
+      "postal_votes": 581,
+      "total_votes": 87493,
+      "percent": 51.32
+    },
+    "runner_up": {
+      "name": "Tangirala Sowmya",
+      "party": "Telugu Desam",
+      "evm_votes": 76283,
+      "postal_votes": 329,
+      "total_votes": 76612,
+      "percent": 44.94
+    },
+    "margin": 10881,
+    "margin_percent": 6.38,
+    "total_votes_polled": 170474,
+    "nota_votes": 1026,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043900/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0183.htm",
+    "fetched_at": "2026-05-17T21:11:09.405491+00:00"
+  },
+  {
+    "constituency_no": 84,
+    "constituency_name": "JAGGAYYAPETA",
+    "winner": {
+      "name": "UDAYABHANU SAMINENI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 87561,
+      "postal_votes": 404,
+      "total_votes": 87965,
+      "percent": 49.95
+    },
+    "runner_up": {
+      "name": "RAJAGOPAL SREERAM",
+      "party": "Telugu Desam",
+      "evm_votes": 82877,
+      "postal_votes": 310,
+      "total_votes": 83187,
+      "percent": 47.23
+    },
+    "margin": 4778,
+    "margin_percent": 2.72,
+    "total_votes_polled": 176115,
+    "nota_votes": 1039,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043906/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0184.htm",
+    "fetched_at": "2026-05-17T21:11:15.266421+00:00"
+  },
+  {
+    "constituency_no": 85,
+    "constituency_name": "PEDAKURAPADU",
+    "winner": {
+      "name": "SANKARA RAO NAMBURU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 98871,
+      "postal_votes": 706,
+      "total_votes": 99577,
+      "percent": 50.32
+    },
+    "runner_up": {
+      "name": "KOMMALAPATI SRIDHAR",
+      "party": "Telugu Desam",
+      "evm_votes": 85121,
+      "postal_votes": 352,
+      "total_votes": 85473,
+      "percent": 43.19
+    },
+    "margin": 14104,
+    "margin_percent": 7.13,
+    "total_votes_polled": 197885,
+    "nota_votes": 1397,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043911/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0185.htm",
+    "fetched_at": "2026-05-17T21:11:21.748023+00:00"
+  },
+  {
+    "constituency_no": 86,
+    "constituency_name": "TADIKONDA (SC)",
+    "winner": {
+      "name": "Vundavalli Sridevi",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 86186,
+      "postal_votes": 662,
+      "total_votes": 86848,
+      "percent": 48.66
+    },
+    "runner_up": {
+      "name": "Tenali Sravan Kumar",
+      "party": "Telugu Desam",
+      "evm_votes": 81995,
+      "postal_votes": 420,
+      "total_votes": 82415,
+      "percent": 46.18
+    },
+    "margin": 4433,
+    "margin_percent": 2.48,
+    "total_votes_polled": 178473,
+    "nota_votes": 835,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043916/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0186.htm",
+    "fetched_at": "2026-05-17T21:11:27.348382+00:00"
+  },
+  {
+    "constituency_no": 87,
+    "constituency_name": "MANGALAGIRI",
+    "winner": {
+      "name": "Alla Rama Krishna Reddy (RK)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 108365,
+      "postal_votes": 99,
+      "total_votes": 108464,
+      "percent": 47.47
+    },
+    "runner_up": {
+      "name": "Nara Lokesh",
+      "party": "Telugu Desam",
+      "evm_votes": 103095,
+      "postal_votes": 32,
+      "total_votes": 103127,
+      "percent": 45.14
+    },
+    "margin": 5337,
+    "margin_percent": 2.33,
+    "total_votes_polled": 228469,
+    "nota_votes": 679,
+    "candidate_count": 35,
+    "source_url": "https://web.archive.org/web/20190526043921/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0187.htm",
+    "fetched_at": "2026-05-17T21:11:33.527049+00:00"
+  },
+  {
+    "constituency_no": 88,
+    "constituency_name": "PONNUR",
+    "winner": {
+      "name": "Venkatroshaiah Kilari",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 86582,
+      "postal_votes": 988,
+      "total_votes": 87570,
+      "percent": 45.88
+    },
+    "runner_up": {
+      "name": "Dhulipalla Narendra Kumar",
+      "party": "Telugu Desam",
+      "evm_votes": 85812,
+      "postal_votes": 646,
+      "total_votes": 86458,
+      "percent": 45.3
+    },
+    "margin": 1112,
+    "margin_percent": 0.58,
+    "total_votes_polled": 190849,
+    "nota_votes": 1187,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043926/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0188.htm",
+    "fetched_at": "2026-05-17T21:11:39.718847+00:00"
+  },
+  {
+    "constituency_no": 89,
+    "constituency_name": "VEMURU (SC)",
+    "winner": {
+      "name": "MERUGU NAGARJUNA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 80989,
+      "postal_votes": 682,
+      "total_votes": 81671,
+      "percent": 47.59
+    },
+    "runner_up": {
+      "name": "ANANDA BABU NAKKA",
+      "party": "Telugu Desam",
+      "evm_votes": 71268,
+      "postal_votes": 404,
+      "total_votes": 71672,
+      "percent": 41.76
+    },
+    "margin": 9999,
+    "margin_percent": 5.83,
+    "total_votes_polled": 171618,
+    "nota_votes": 1793,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043931/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0189.htm",
+    "fetched_at": "2026-05-17T21:11:45.035651+00:00"
+  },
+  {
+    "constituency_no": 90,
+    "constituency_name": "REPALLE",
+    "winner": {
+      "name": "ANAGANI SATYA PRASAD",
+      "party": "Telugu Desam",
+      "evm_votes": 89011,
+      "postal_votes": 964,
+      "total_votes": 89975,
+      "percent": 48.34
+    },
+    "runner_up": {
+      "name": "VENKATA RAMANA RAO MOPIDEVI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77430,
+      "postal_votes": 990,
+      "total_votes": 78420,
+      "percent": 42.13
+    },
+    "margin": 11555,
+    "margin_percent": 6.21,
+    "total_votes_polled": 186123,
+    "nota_votes": 1329,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043941/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0190.htm",
+    "fetched_at": "2026-05-17T21:11:50.997434+00:00"
+  },
+  {
+    "constituency_no": 91,
+    "constituency_name": "TENALI",
+    "winner": {
+      "name": "ANNABATHUNI SIVA KUMAR",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 92927,
+      "postal_votes": 1568,
+      "total_votes": 94495,
+      "percent": 45.92
+    },
+    "runner_up": {
+      "name": "ALAPATI RAJENDRA PRASAD",
+      "party": "Telugu Desam",
+      "evm_votes": 76138,
+      "postal_votes": 708,
+      "total_votes": 76846,
+      "percent": 37.35
+    },
+    "margin": 17649,
+    "margin_percent": 8.57,
+    "total_votes_polled": 205768,
+    "nota_votes": 1152,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043946/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0191.htm",
+    "fetched_at": "2026-05-17T21:11:58.688625+00:00"
+  },
+  {
+    "constituency_no": 92,
+    "constituency_name": "BAPATLA",
+    "winner": {
+      "name": "KONA RAGHUPATHI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 78709,
+      "postal_votes": 1127,
+      "total_votes": 79836,
+      "percent": 51.92
+    },
+    "runner_up": {
+      "name": "ANNAM SATISH PRABHAKAR",
+      "party": "Telugu Desam",
+      "evm_votes": 63729,
+      "postal_votes": 908,
+      "total_votes": 64637,
+      "percent": 42.04
+    },
+    "margin": 15199,
+    "margin_percent": 9.88,
+    "total_votes_polled": 153769,
+    "nota_votes": 760,
+    "candidate_count": 22,
+    "source_url": "https://web.archive.org/web/20190526043952/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0192.htm",
+    "fetched_at": "2026-05-17T21:12:04.812619+00:00"
+  },
+  {
+    "constituency_no": 93,
+    "constituency_name": "PRATHIPADU (SC)",
+    "winner": {
+      "name": "Mekathoti Sucharitha",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 91876,
+      "postal_votes": 632,
+      "total_votes": 92508,
+      "percent": 43.98
+    },
+    "runner_up": {
+      "name": "Dokka Manikya Varaprasada Rao",
+      "party": "Telugu Desam",
+      "evm_votes": 84767,
+      "postal_votes": 343,
+      "total_votes": 85110,
+      "percent": 40.46
+    },
+    "margin": 7398,
+    "margin_percent": 3.52,
+    "total_votes_polled": 210342,
+    "nota_votes": 839,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526043957/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0193.htm",
+    "fetched_at": "2026-05-17T21:12:09.862166+00:00"
+  },
+  {
+    "constituency_no": 94,
+    "constituency_name": "GUNTUR WEST",
+    "winner": {
+      "name": "MADDALI GIRIDHARA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 71820,
+      "postal_votes": 44,
+      "total_votes": 71864,
+      "percent": 41.15
+    },
+    "runner_up": {
+      "name": "CHANDRAGIRI YESURATNAM",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 67493,
+      "postal_votes": 82,
+      "total_votes": 67575,
+      "percent": 38.69
+    },
+    "margin": 4289,
+    "margin_percent": 2.46,
+    "total_votes_polled": 174645,
+    "nota_votes": 769,
+    "candidate_count": 37,
+    "source_url": "https://web.archive.org/web/20190526044002/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0194.htm",
+    "fetched_at": "2026-05-17T21:12:14.914182+00:00"
+  },
+  {
+    "constituency_no": 95,
+    "constituency_name": "GUNTUR EAST",
+    "winner": {
+      "name": "MOHAMMED MUSTAFA SHAIK",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 76880,
+      "postal_votes": 167,
+      "total_votes": 77047,
+      "percent": 47.7
+    },
+    "runner_up": {
+      "name": "MOHAMMED NASEER",
+      "party": "Telugu Desam",
+      "evm_votes": 54889,
+      "postal_votes": 67,
+      "total_votes": 54956,
+      "percent": 34.02
+    },
+    "margin": 22091,
+    "margin_percent": 13.68,
+    "total_votes_polled": 161522,
+    "nota_votes": 712,
+    "candidate_count": 30,
+    "source_url": "https://web.archive.org/web/20190526044007/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0195.htm",
+    "fetched_at": "2026-05-17T21:12:19.123895+00:00"
+  },
+  {
+    "constituency_no": 96,
+    "constituency_name": "CHILAKALURIPET",
+    "winner": {
+      "name": "RAJINI VIDADALA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 93458,
+      "postal_votes": 972,
+      "total_votes": 94430,
+      "percent": 50.2
+    },
+    "runner_up": {
+      "name": "PRATHIPATI PULLARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 85523,
+      "postal_votes": 606,
+      "total_votes": 86129,
+      "percent": 45.79
+    },
+    "margin": 8301,
+    "margin_percent": 4.41,
+    "total_votes_polled": 188115,
+    "nota_votes": 897,
+    "candidate_count": 22,
+    "source_url": "https://web.archive.org/web/20190526044012/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0196.htm",
+    "fetched_at": "2026-05-17T21:12:24.646715+00:00"
+  },
+  {
+    "constituency_no": 97,
+    "constituency_name": "NARASARAOPET",
+    "winner": {
+      "name": "GOPIREDDY SRINIVASAREDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 99895,
+      "postal_votes": 1099,
+      "total_votes": 100994,
+      "percent": 55.15
+    },
+    "runner_up": {
+      "name": "ARAVINDA BABU CHADALAVADA",
+      "party": "Telugu Desam",
+      "evm_votes": 68183,
+      "postal_votes": 534,
+      "total_votes": 68717,
+      "percent": 37.52
+    },
+    "margin": 32277,
+    "margin_percent": 17.63,
+    "total_votes_polled": 183129,
+    "nota_votes": 1019,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526044017/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0197.htm",
+    "fetched_at": "2026-05-17T21:12:29.119547+00:00"
+  },
+  {
+    "constituency_no": 98,
+    "constituency_name": "SATTENAPALLI",
+    "winner": {
+      "name": "AMBATI RAMBABU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 104130,
+      "postal_votes": 933,
+      "total_votes": 105063,
+      "percent": 51.57
+    },
+    "runner_up": {
+      "name": "KODELA SIVA PRASADA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 83726,
+      "postal_votes": 461,
+      "total_votes": 84187,
+      "percent": 41.32
+    },
+    "margin": 20876,
+    "margin_percent": 10.25,
+    "total_votes_polled": 203731,
+    "nota_votes": 1244,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526044022/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0198.htm",
+    "fetched_at": "2026-05-17T21:12:33.373426+00:00"
+  },
+  {
+    "constituency_no": 99,
+    "constituency_name": "VINUKONDA",
+    "winner": {
+      "name": "Bolla Brahma Naidu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 119811,
+      "postal_votes": 892,
+      "total_votes": 120703,
+      "percent": 53.96
+    },
+    "runner_up": {
+      "name": "Gonuguntla Venkata Seeta Ramnjaneyulu",
+      "party": "Telugu Desam",
+      "evm_votes": 91607,
+      "postal_votes": 468,
+      "total_votes": 92075,
+      "percent": 41.16
+    },
+    "margin": 28628,
+    "margin_percent": 12.8,
+    "total_votes_polled": 223677,
+    "nota_votes": 1942,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526044032/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0199.htm",
+    "fetched_at": "2026-05-17T21:12:36.330929+00:00"
+  },
+  {
+    "constituency_no": 100,
+    "constituency_name": "GURAZALA",
+    "winner": {
+      "name": "KASU MAHESH REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 116526,
+      "postal_votes": 678,
+      "total_votes": 117204,
+      "percent": 52.07
+    },
+    "runner_up": {
+      "name": "YARAPATHINENI SRINIVASA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 88306,
+      "postal_votes": 285,
+      "total_votes": 88591,
+      "percent": 39.36
+    },
+    "margin": 28613,
+    "margin_percent": 12.71,
+    "total_votes_polled": 225103,
+    "nota_votes": 2062,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526042635/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01100.htm",
+    "fetched_at": "2026-05-17T21:12:39.846061+00:00"
+  },
+  {
+    "constituency_no": 101,
+    "constituency_name": "MACHERLA",
+    "winner": {
+      "name": "RAMAKRISHNAREDDY PINNELLI.",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 109613,
+      "postal_votes": 793,
+      "total_votes": 110406,
+      "percent": 52.1
+    },
+    "runner_up": {
+      "name": "ANJI REDDY ANNAPUREDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 88181,
+      "postal_votes": 307,
+      "total_votes": 88488,
+      "percent": 41.76
+    },
+    "margin": 21918,
+    "margin_percent": 10.34,
+    "total_votes_polled": 211900,
+    "nota_votes": 1914,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526042640/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01101.htm",
+    "fetched_at": "2026-05-17T21:12:42.706039+00:00"
+  },
+  {
+    "constituency_no": 102,
+    "constituency_name": "YERRAGONDAPALEM",
+    "winner": {
+      "name": "Audimulapu Suresh",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 98391,
+      "postal_votes": 1017,
+      "total_votes": 99408,
+      "percent": 56.34
+    },
+    "runner_up": {
+      "name": "Budala Ajitha Rao",
+      "party": "Telugu Desam",
+      "evm_votes": 67295,
+      "postal_votes": 481,
+      "total_votes": 67776,
+      "percent": 38.41
+    },
+    "margin": 31632,
+    "margin_percent": 17.93,
+    "total_votes_polled": 176447,
+    "nota_votes": 2997,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526042646/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01102.htm",
+    "fetched_at": "2026-05-17T21:12:45.781889+00:00"
+  },
+  {
+    "constituency_no": 103,
+    "constituency_name": "DARSI",
+    "winner": {
+      "name": "Maddisetty Venugopal",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 110895,
+      "postal_votes": 1019,
+      "total_votes": 111914,
+      "percent": 57.29
+    },
+    "runner_up": {
+      "name": "Kadiri Babu Rao",
+      "party": "Telugu Desam",
+      "evm_votes": 72242,
+      "postal_votes": 615,
+      "total_votes": 72857,
+      "percent": 37.3
+    },
+    "margin": 39057,
+    "margin_percent": 19.99,
+    "total_votes_polled": 195348,
+    "nota_votes": 2498,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526042651/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01103.htm",
+    "fetched_at": "2026-05-17T21:12:48.947642+00:00"
+  },
+  {
+    "constituency_no": 104,
+    "constituency_name": "PARCHUR",
+    "winner": {
+      "name": "YELURI SAMBA SIVARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 96077,
+      "postal_votes": 999,
+      "total_votes": 97076,
+      "percent": 47.78
+    },
+    "runner_up": {
+      "name": "DAGGUBATI VENKATESWARA RAO",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 94574,
+      "postal_votes": 855,
+      "total_votes": 95429,
+      "percent": 46.97
+    },
+    "margin": 1647,
+    "margin_percent": 0.81,
+    "total_votes_polled": 203155,
+    "nota_votes": 1181,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042656/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01104.htm",
+    "fetched_at": "2026-05-17T21:12:51.821136+00:00"
+  },
+  {
+    "constituency_no": 105,
+    "constituency_name": "ADDANKI",
+    "winner": {
+      "name": "GOTTIPATI RAVIKUMAR",
+      "party": "Telugu Desam",
+      "evm_votes": 104539,
+      "postal_votes": 1006,
+      "total_votes": 105545,
+      "percent": 50.86
+    },
+    "runner_up": {
+      "name": "BACHINA CHENCHU GARATAIAH",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 91792,
+      "postal_votes": 762,
+      "total_votes": 92554,
+      "percent": 44.6
+    },
+    "margin": 12991,
+    "margin_percent": 6.26,
+    "total_votes_polled": 207501,
+    "nota_votes": 1567,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526042701/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01105.htm",
+    "fetched_at": "2026-05-17T21:12:54.629687+00:00"
+  },
+  {
+    "constituency_no": 106,
+    "constituency_name": "CHIRALA",
+    "winner": {
+      "name": "KARANAM BALARAMA KRISHNA MURTHY",
+      "party": "Telugu Desam",
+      "evm_votes": 83163,
+      "postal_votes": 738,
+      "total_votes": 83901,
+      "percent": 53.27
+    },
+    "runner_up": {
+      "name": "AMANCHI KRISHNA MOHAN",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 65251,
+      "postal_votes": 1231,
+      "total_votes": 66482,
+      "percent": 42.21
+    },
+    "margin": 17419,
+    "margin_percent": 11.06,
+    "total_votes_polled": 157511,
+    "nota_votes": 1348,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042707/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01106.htm",
+    "fetched_at": "2026-05-17T21:12:57.771269+00:00"
+  },
+  {
+    "constituency_no": 107,
+    "constituency_name": "SANTHANUTHALAPADU",
+    "winner": {
+      "name": "T.J.R. Sudhakar Babu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 88384,
+      "postal_votes": 776,
+      "total_votes": 89160,
+      "percent": 49.45
+    },
+    "runner_up": {
+      "name": "Vijay Kumar B.N",
+      "party": "Telugu Desam",
+      "evm_votes": 79392,
+      "postal_votes": 690,
+      "total_votes": 80082,
+      "percent": 44.42
+    },
+    "margin": 9078,
+    "margin_percent": 5.03,
+    "total_votes_polled": 180290,
+    "nota_votes": 1634,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042712/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01107.htm",
+    "fetched_at": "2026-05-17T21:13:00.615527+00:00"
+  },
+  {
+    "constituency_no": 108,
+    "constituency_name": "ONGOLE",
+    "winner": {
+      "name": "BALINENI SRINIVASA REDDY (VASU)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 99069,
+      "postal_votes": 1953,
+      "total_votes": 101022,
+      "percent": 52.08
+    },
+    "runner_up": {
+      "name": "DAMACHARLA JANARDHANA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 77562,
+      "postal_votes": 1215,
+      "total_votes": 78777,
+      "percent": 40.61
+    },
+    "margin": 22245,
+    "margin_percent": 11.47,
+    "total_votes_polled": 193971,
+    "nota_votes": 1333,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042717/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01108.htm",
+    "fetched_at": "2026-05-17T21:13:05.458023+00:00"
+  },
+  {
+    "constituency_no": 109,
+    "constituency_name": "KANDUKUR",
+    "winner": {
+      "name": "MAHEEDHAR REDDY MANUGUNTA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 100131,
+      "postal_votes": 1144,
+      "total_votes": 101275,
+      "percent": 51.69
+    },
+    "runner_up": {
+      "name": "POTHULA RAMA RAO",
+      "party": "Telugu Desam",
+      "evm_votes": 85494,
+      "postal_votes": 845,
+      "total_votes": 86339,
+      "percent": 44.07
+    },
+    "margin": 14936,
+    "margin_percent": 7.62,
+    "total_votes_polled": 195916,
+    "nota_votes": 962,
+    "candidate_count": 23,
+    "source_url": "https://web.archive.org/web/20190526042722/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01109.htm",
+    "fetched_at": "2026-05-17T21:13:08.428661+00:00"
+  },
+  {
+    "constituency_no": 110,
+    "constituency_name": "KONDAPI",
+    "winner": {
+      "name": "DOCTOR DOLA SREE BALA VEERANJANEYA SWAMY",
+      "party": "Telugu Desam",
+      "evm_votes": 97255,
+      "postal_votes": 887,
+      "total_votes": 98142,
+      "percent": 48.26
+    },
+    "runner_up": {
+      "name": "MADASI VENKAIAH",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 96280,
+      "postal_votes": 838,
+      "total_votes": 97118,
+      "percent": 47.75
+    },
+    "margin": 1024,
+    "margin_percent": 0.51,
+    "total_votes_polled": 203376,
+    "nota_votes": 2099,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042732/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01110.htm",
+    "fetched_at": "2026-05-17T21:13:11.494279+00:00"
+  },
+  {
+    "constituency_no": 111,
+    "constituency_name": "MARKAPURAM",
+    "winner": {
+      "name": "Kunduru Nagarjuna Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 91514,
+      "postal_votes": 1166,
+      "total_votes": 92680,
+      "percent": 52.15
+    },
+    "runner_up": {
+      "name": "Kandula Narayana Reddy",
+      "party": "Telugu Desam",
+      "evm_votes": 73061,
+      "postal_votes": 952,
+      "total_votes": 74013,
+      "percent": 41.65
+    },
+    "margin": 18667,
+    "margin_percent": 10.5,
+    "total_votes_polled": 177714,
+    "nota_votes": 1811,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042737/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01111.htm",
+    "fetched_at": "2026-05-17T21:13:14.908235+00:00"
+  },
+  {
+    "constituency_no": 112,
+    "constituency_name": "GIDDALUR",
+    "winner": {
+      "name": "Anna Rambabu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 129688,
+      "postal_votes": 3423,
+      "total_votes": 133111,
+      "percent": 67.9
+    },
+    "runner_up": {
+      "name": "Ashok Reddy Muthumula",
+      "party": "Telugu Desam",
+      "evm_votes": 51210,
+      "postal_votes": 866,
+      "total_votes": 52076,
+      "percent": 26.56
+    },
+    "margin": 81035,
+    "margin_percent": 41.34,
+    "total_votes_polled": 196036,
+    "nota_votes": 3623,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526042742/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01112.htm",
+    "fetched_at": "2026-05-17T21:13:17.823421+00:00"
+  },
+  {
+    "constituency_no": 113,
+    "constituency_name": "KANIGIRI",
+    "winner": {
+      "name": "Burra Madhu Sudhan Yadav",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 111553,
+      "postal_votes": 1177,
+      "total_votes": 112730,
+      "percent": 58.48
+    },
+    "runner_up": {
+      "name": "Dr. MUKKU UGRA NARASIMHA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 70885,
+      "postal_votes": 942,
+      "total_votes": 71827,
+      "percent": 37.26
+    },
+    "margin": 40903,
+    "margin_percent": 21.22,
+    "total_votes_polled": 192770,
+    "nota_votes": 2248,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042747/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01113.htm",
+    "fetched_at": "2026-05-17T21:13:21.527498+00:00"
+  },
+  {
+    "constituency_no": 114,
+    "constituency_name": "KAVALI",
+    "winner": {
+      "name": "RAMIREDDY PRATAP KUMAR REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 94561,
+      "postal_votes": 1267,
+      "total_votes": 95828,
+      "percent": 49.12
+    },
+    "runner_up": {
+      "name": "KATAMREDDY VISHNU VARDHAN REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 80744,
+      "postal_votes": 967,
+      "total_votes": 81711,
+      "percent": 41.89
+    },
+    "margin": 14117,
+    "margin_percent": 7.23,
+    "total_votes_polled": 195071,
+    "nota_votes": 2297,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526054016/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01114.htm",
+    "fetched_at": "2026-05-17T21:13:24.365936+00:00"
+  },
+  {
+    "constituency_no": 115,
+    "constituency_name": "ATMAKUR",
+    "winner": {
+      "name": "MEKAPATI GOUTHAM REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 91725,
+      "postal_votes": 1033,
+      "total_votes": 92758,
+      "percent": 53.22
+    },
+    "runner_up": {
+      "name": "BOLLINENI KRISHNAIAH",
+      "party": "Telugu Desam",
+      "evm_votes": 69709,
+      "postal_votes": 773,
+      "total_votes": 70482,
+      "percent": 40.44
+    },
+    "margin": 22276,
+    "margin_percent": 12.78,
+    "total_votes_polled": 174307,
+    "nota_votes": 2161,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526042752/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01115.htm",
+    "fetched_at": "2026-05-17T21:13:27.358146+00:00"
+  },
+  {
+    "constituency_no": 116,
+    "constituency_name": "KOVUR",
+    "winner": {
+      "name": "NALLAPAREDDY PRASANNA KUMAR REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 115399,
+      "postal_votes": 840,
+      "total_votes": 116239,
+      "percent": 56.55
+    },
+    "runner_up": {
+      "name": "POLAMREDDY SRINIVASULU REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 75630,
+      "postal_votes": 718,
+      "total_votes": 76348,
+      "percent": 37.14
+    },
+    "margin": 39891,
+    "margin_percent": 19.41,
+    "total_votes_polled": 205567,
+    "nota_votes": 2624,
+    "candidate_count": 10,
+    "source_url": "https://web.archive.org/web/20190526042757/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01116.htm",
+    "fetched_at": "2026-05-17T21:13:30.297273+00:00"
+  },
+  {
+    "constituency_no": 117,
+    "constituency_name": "NELLORE CITY",
+    "winner": {
+      "name": "ANIL KUMAR POLUBOINA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 73942,
+      "postal_votes": 1098,
+      "total_votes": 75040,
+      "percent": 47.38
+    },
+    "runner_up": {
+      "name": "NARAYANA PONGURU",
+      "party": "Telugu Desam",
+      "evm_votes": 72485,
+      "postal_votes": 567,
+      "total_votes": 73052,
+      "percent": 46.13
+    },
+    "margin": 1988,
+    "margin_percent": 1.25,
+    "total_votes_polled": 158363,
+    "nota_votes": 1154,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042802/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01117.htm",
+    "fetched_at": "2026-05-17T21:13:33.093929+00:00"
+  },
+  {
+    "constituency_no": 118,
+    "constituency_name": "NELLORE RURAL",
+    "winner": {
+      "name": "Kotamreddy Sridhar Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 84381,
+      "postal_votes": 1343,
+      "total_votes": 85724,
+      "percent": 51.61
+    },
+    "runner_up": {
+      "name": "Abdul Aziz Shaik",
+      "party": "Telugu Desam",
+      "evm_votes": 64277,
+      "postal_votes": 671,
+      "total_votes": 64948,
+      "percent": 39.1
+    },
+    "margin": 20776,
+    "margin_percent": 12.51,
+    "total_votes_polled": 166092,
+    "nota_votes": 1875,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042807/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01118.htm",
+    "fetched_at": "2026-05-17T21:13:36.132399+00:00"
+  },
+  {
+    "constituency_no": 119,
+    "constituency_name": "SARVEPALLI",
+    "winner": {
+      "name": "KAKANI GOVARDHAN REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 96731,
+      "postal_votes": 541,
+      "total_votes": 97272,
+      "percent": 51.36
+    },
+    "runner_up": {
+      "name": "CHANDRAMOHAN REDDY SOMIREDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 82865,
+      "postal_votes": 434,
+      "total_votes": 83299,
+      "percent": 43.98
+    },
+    "margin": 13973,
+    "margin_percent": 7.38,
+    "total_votes_polled": 189392,
+    "nota_votes": 2782,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526042812/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01119.htm",
+    "fetched_at": "2026-05-17T21:13:39.842725+00:00"
+  },
+  {
+    "constituency_no": 120,
+    "constituency_name": "GUDUR",
+    "winner": {
+      "name": "Velagapalli Varaprasad Rao",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 108990,
+      "postal_votes": 769,
+      "total_votes": 109759,
+      "percent": 59.58
+    },
+    "runner_up": {
+      "name": "Pasim Sunil Kumar",
+      "party": "Telugu Desam",
+      "evm_votes": 63574,
+      "postal_votes": 727,
+      "total_votes": 64301,
+      "percent": 34.9
+    },
+    "margin": 45458,
+    "margin_percent": 24.68,
+    "total_votes_polled": 184230,
+    "nota_votes": 2885,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042822/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01120.htm",
+    "fetched_at": "2026-05-17T21:13:43.566981+00:00"
+  },
+  {
+    "constituency_no": 121,
+    "constituency_name": "SULLURPETA",
+    "winner": {
+      "name": "Kiliveti Sanjeevaiah",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 118636,
+      "postal_votes": 991,
+      "total_votes": 119627,
+      "percent": 61.99
+    },
+    "runner_up": {
+      "name": "Dr. Parasa Venkata Rathnaiah",
+      "party": "Telugu Desam",
+      "evm_votes": 57961,
+      "postal_votes": 374,
+      "total_votes": 58335,
+      "percent": 30.23
+    },
+    "margin": 61292,
+    "margin_percent": 31.76,
+    "total_votes_polled": 192963,
+    "nota_votes": 4025,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526054021/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01121.htm",
+    "fetched_at": "2026-05-17T21:13:46.315900+00:00"
+  },
+  {
+    "constituency_no": 122,
+    "constituency_name": "VENKATAGIRI",
+    "winner": {
+      "name": "ANAM RAMANARAYANA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 108158,
+      "postal_votes": 1046,
+      "total_votes": 109204,
+      "percent": 57.26
+    },
+    "runner_up": {
+      "name": "KURUGONDLA RAMAKRISHNA",
+      "party": "Telugu Desam",
+      "evm_votes": 69581,
+      "postal_votes": 903,
+      "total_votes": 70484,
+      "percent": 36.96
+    },
+    "margin": 38720,
+    "margin_percent": 20.3,
+    "total_votes_polled": 190714,
+    "nota_votes": 4106,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526042827/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01122.htm",
+    "fetched_at": "2026-05-17T21:13:49.263763+00:00"
+  },
+  {
+    "constituency_no": 123,
+    "constituency_name": "UDAYAGIRI",
+    "winner": {
+      "name": "MEKAPATI CHANDRA SEKHAR REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 105478,
+      "postal_votes": 1009,
+      "total_votes": 106487,
+      "percent": 57.31
+    },
+    "runner_up": {
+      "name": "BOLLINENI VENKATA RAMARAO",
+      "party": "Telugu Desam",
+      "evm_votes": 69138,
+      "postal_votes": 821,
+      "total_votes": 69959,
+      "percent": 37.65
+    },
+    "margin": 36528,
+    "margin_percent": 19.66,
+    "total_votes_polled": 185820,
+    "nota_votes": 2949,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526042832/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01123.htm",
+    "fetched_at": "2026-05-17T21:13:52.278473+00:00"
+  },
+  {
+    "constituency_no": 124,
+    "constituency_name": "BADVEL",
+    "winner": {
+      "name": "Dr. G. Venkata Subbaiah",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 95080,
+      "postal_votes": 402,
+      "total_votes": 95482,
+      "percent": 60.89
+    },
+    "runner_up": {
+      "name": "Dr. Obulapuram Raja Sekhar",
+      "party": "Telugu Desam",
+      "evm_votes": 50541,
+      "postal_votes": 207,
+      "total_votes": 50748,
+      "percent": 32.36
+    },
+    "margin": 44734,
+    "margin_percent": 28.53,
+    "total_votes_polled": 156819,
+    "nota_votes": 2004,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526054026/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01124.htm",
+    "fetched_at": "2026-05-17T21:13:54.993206+00:00"
+  },
+  {
+    "constituency_no": 125,
+    "constituency_name": "RAJAMPET",
+    "winner": {
+      "name": "Meda Venkata Mallikarjuna Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 94050,
+      "postal_votes": 1216,
+      "total_votes": 95266,
+      "percent": 57.79
+    },
+    "runner_up": {
+      "name": "Bathyala Changal Rayudu",
+      "party": "Telugu Desam",
+      "evm_votes": 59186,
+      "postal_votes": 808,
+      "total_votes": 59994,
+      "percent": 36.39
+    },
+    "margin": 35272,
+    "margin_percent": 21.4,
+    "total_votes_polled": 164846,
+    "nota_votes": 1448,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042837/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01125.htm",
+    "fetched_at": "2026-05-17T21:13:57.745121+00:00"
+  },
+  {
+    "constituency_no": 126,
+    "constituency_name": "KADAPA",
+    "winner": {
+      "name": "AMZATH BASHA SHAIK BEPARI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 102544,
+      "postal_votes": 2278,
+      "total_votes": 104822,
+      "percent": 62.89
+    },
+    "runner_up": {
+      "name": "AMEER BABU NAWABJAN",
+      "party": "Telugu Desam",
+      "evm_votes": 48963,
+      "postal_votes": 1065,
+      "total_votes": 50028,
+      "percent": 30.01
+    },
+    "margin": 54794,
+    "margin_percent": 32.88,
+    "total_votes_polled": 166688,
+    "nota_votes": 1459,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042842/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01126.htm",
+    "fetched_at": "2026-05-17T21:14:01.105017+00:00"
+  },
+  {
+    "constituency_no": 127,
+    "constituency_name": "KODUR",
+    "winner": {
+      "name": "Koramutla Sreenivasulu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 77981,
+      "postal_votes": 331,
+      "total_votes": 78312,
+      "percent": 57.26
+    },
+    "runner_up": {
+      "name": "Panthagani Narasimha Prasad",
+      "party": "Telugu Desam",
+      "evm_votes": 43268,
+      "postal_votes": 165,
+      "total_votes": 43433,
+      "percent": 31.76
+    },
+    "margin": 34879,
+    "margin_percent": 25.5,
+    "total_votes_polled": 136770,
+    "nota_votes": 1570,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526231009/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01127.htm",
+    "fetched_at": "2026-05-17T21:14:04.377896+00:00"
+  },
+  {
+    "constituency_no": 128,
+    "constituency_name": "RAYACHOTI",
+    "winner": {
+      "name": "GADIKOTA. SRIKANTH REDDY.",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 98600,
+      "postal_votes": 390,
+      "total_votes": 98990,
+      "percent": 56.94
+    },
+    "runner_up": {
+      "name": "RAMESH KUMAR REDDY REDDAPPAGARI",
+      "party": "Telugu Desam",
+      "evm_votes": 65838,
+      "postal_votes": 290,
+      "total_votes": 66128,
+      "percent": 38.04
+    },
+    "margin": 32862,
+    "margin_percent": 18.9,
+    "total_votes_polled": 173843,
+    "nota_votes": 2226,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526042847/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01128.htm",
+    "fetched_at": "2026-05-17T21:14:07.541832+00:00"
+  },
+  {
+    "constituency_no": 129,
+    "constituency_name": "PULIVENDLA",
+    "winner": {
+      "name": "YEDUGURI SANDINTI JAGAN MOHAN REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 131776,
+      "postal_votes": 580,
+      "total_votes": 132356,
+      "percent": 73.48
+    },
+    "runner_up": {
+      "name": "VENKATA SATISH KUMAR REDDY SINGA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 42068,
+      "postal_votes": 178,
+      "total_votes": 42246,
+      "percent": 23.45
+    },
+    "margin": 90110,
+    "margin_percent": 50.03,
+    "total_votes_polled": 180127,
+    "nota_votes": 2160,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042852/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01129.htm",
+    "fetched_at": "2026-05-17T21:14:10.804494+00:00"
+  },
+  {
+    "constituency_no": 130,
+    "constituency_name": "KAMALAPURAM",
+    "winner": {
+      "name": "POCHIMAREDDY RAVINDRANATH REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 87662,
+      "postal_votes": 820,
+      "total_votes": 88482,
+      "percent": 55.88
+    },
+    "runner_up": {
+      "name": "NARASIMHA REDDY PUTHA",
+      "party": "Telugu Desam",
+      "evm_votes": 60541,
+      "postal_votes": 608,
+      "total_votes": 61149,
+      "percent": 38.62
+    },
+    "margin": 27333,
+    "margin_percent": 17.26,
+    "total_votes_polled": 158347,
+    "nota_votes": 1589,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526054031/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01130.htm",
+    "fetched_at": "2026-05-17T21:14:14.241656+00:00"
+  },
+  {
+    "constituency_no": 131,
+    "constituency_name": "JAMMALAMADUGU",
+    "winner": {
+      "name": "Mule Sudheer Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 124201,
+      "postal_votes": 804,
+      "total_votes": 125005,
+      "percent": 61.31
+    },
+    "runner_up": {
+      "name": "Rama Subba Reddy Ponnapureddy",
+      "party": "Telugu Desam",
+      "evm_votes": 72856,
+      "postal_votes": 508,
+      "total_votes": 73364,
+      "percent": 35.98
+    },
+    "margin": 51641,
+    "margin_percent": 25.33,
+    "total_votes_polled": 203879,
+    "nota_votes": 2260,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042902/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01131.htm",
+    "fetched_at": "2026-05-17T21:14:17.380369+00:00"
+  },
+  {
+    "constituency_no": 132,
+    "constituency_name": "PRODDATUR",
+    "winner": {
+      "name": "Rachamallu Siva Prasad Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 107618,
+      "postal_votes": 323,
+      "total_votes": 107941,
+      "percent": 59.21
+    },
+    "runner_up": {
+      "name": "Mallela Linga Reddy",
+      "party": "Telugu Desam",
+      "evm_votes": 64664,
+      "postal_votes": 129,
+      "total_votes": 64793,
+      "percent": 35.54
+    },
+    "margin": 43148,
+    "margin_percent": 23.67,
+    "total_votes_polled": 182293,
+    "nota_votes": 1523,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526042907/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01132.htm",
+    "fetched_at": "2026-05-17T21:14:21.604238+00:00"
+  },
+  {
+    "constituency_no": 133,
+    "constituency_name": "MYDUKUR",
+    "winner": {
+      "name": "Raghurami Reddy Settipally",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 94789,
+      "postal_votes": 60,
+      "total_votes": 94849,
+      "percent": 56.03
+    },
+    "runner_up": {
+      "name": "Sudhakar Yadav Putta",
+      "party": "Telugu Desam",
+      "evm_votes": 65467,
+      "postal_votes": 38,
+      "total_votes": 65505,
+      "percent": 38.69
+    },
+    "margin": 29344,
+    "margin_percent": 17.34,
+    "total_votes_polled": 169289,
+    "nota_votes": 1613,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526042912/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01133.htm",
+    "fetched_at": "2026-05-17T21:14:24.944865+00:00"
+  },
+  {
+    "constituency_no": 134,
+    "constituency_name": "ALLAGADDA",
+    "winner": {
+      "name": "Gangula Brijendra Reddy (Nani)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 105170,
+      "postal_votes": 735,
+      "total_votes": 105905,
+      "percent": 57.03
+    },
+    "runner_up": {
+      "name": "Akhila Priya Bhuma",
+      "party": "Telugu Desam",
+      "evm_votes": 69718,
+      "postal_votes": 574,
+      "total_votes": 70292,
+      "percent": 37.85
+    },
+    "margin": 35613,
+    "margin_percent": 19.18,
+    "total_votes_polled": 185693,
+    "nota_votes": 1683,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042917/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01134.htm",
+    "fetched_at": "2026-05-17T21:14:28.520757+00:00"
+  },
+  {
+    "constituency_no": 135,
+    "constituency_name": "SRISAILAM",
+    "winner": {
+      "name": "SILPA CHAKRAPANI REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 91603,
+      "postal_votes": 633,
+      "total_votes": 92236,
+      "percent": 60.41
+    },
+    "runner_up": {
+      "name": "BUDDA RAJASEKHARA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 53176,
+      "postal_votes": 362,
+      "total_votes": 53538,
+      "percent": 35.07
+    },
+    "margin": 38698,
+    "margin_percent": 25.34,
+    "total_votes_polled": 152679,
+    "nota_votes": 1471,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526042922/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01135.htm",
+    "fetched_at": "2026-05-17T21:14:32.295334+00:00"
+  },
+  {
+    "constituency_no": 136,
+    "constituency_name": "NANDIKOTKUR",
+    "winner": {
+      "name": "THOGURU ARTHUR",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 102005,
+      "postal_votes": 560,
+      "total_votes": 102565,
+      "percent": 59.45
+    },
+    "runner_up": {
+      "name": "BANDI JAYARAJU",
+      "party": "Telugu Desam",
+      "evm_votes": 61746,
+      "postal_votes": 209,
+      "total_votes": 61955,
+      "percent": 35.91
+    },
+    "margin": 40610,
+    "margin_percent": 23.54,
+    "total_votes_polled": 172529,
+    "nota_votes": 1842,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526054036/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01136.htm",
+    "fetched_at": "2026-05-17T21:14:36.176018+00:00"
+  },
+  {
+    "constituency_no": 137,
+    "constituency_name": "KURNOOL",
+    "winner": {
+      "name": "Abdul Hafeez Khan",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 71954,
+      "postal_votes": 865,
+      "total_votes": 72819,
+      "percent": 47.7
+    },
+    "runner_up": {
+      "name": "T.G. Bharath",
+      "party": "Telugu Desam",
+      "evm_votes": 66064,
+      "postal_votes": 1402,
+      "total_votes": 67466,
+      "percent": 44.19
+    },
+    "margin": 5353,
+    "margin_percent": 3.51,
+    "total_votes_polled": 152659,
+    "nota_votes": 700,
+    "candidate_count": 31,
+    "source_url": "https://web.archive.org/web/20190526042927/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01137.htm",
+    "fetched_at": "2026-05-17T21:14:39.037762+00:00"
+  },
+  {
+    "constituency_no": 138,
+    "constituency_name": "PANYAM",
+    "winner": {
+      "name": "KATASANI RAMBHUPAL REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 121636,
+      "postal_votes": 840,
+      "total_votes": 122476,
+      "percent": 56.78
+    },
+    "runner_up": {
+      "name": "GOWRU CHARITHA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 77681,
+      "postal_votes": 938,
+      "total_votes": 78619,
+      "percent": 36.45
+    },
+    "margin": 43857,
+    "margin_percent": 20.33,
+    "total_votes_polled": 215690,
+    "nota_votes": 2617,
+    "candidate_count": 16,
+    "source_url": "https://web.archive.org/web/20190526042932/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01138.htm",
+    "fetched_at": "2026-05-17T21:14:41.898923+00:00"
+  },
+  {
+    "constituency_no": 139,
+    "constituency_name": "NANDYAL",
+    "winner": {
+      "name": "SHILPA RAVI CHANDRA KISHORE REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 107003,
+      "postal_votes": 1865,
+      "total_votes": 108868,
+      "percent": 55.13
+    },
+    "runner_up": {
+      "name": "Bhuma Brahmanandha Reddy",
+      "party": "Telugu Desam",
+      "evm_votes": 73576,
+      "postal_votes": 732,
+      "total_votes": 74308,
+      "percent": 37.63
+    },
+    "margin": 34560,
+    "margin_percent": 17.5,
+    "total_votes_polled": 197490,
+    "nota_votes": 1009,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042937/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01139.htm",
+    "fetched_at": "2026-05-17T21:14:44.626160+00:00"
+  },
+  {
+    "constituency_no": 140,
+    "constituency_name": "BANAGANAPALLE",
+    "winner": {
+      "name": "KATASANI RAMI REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 99240,
+      "postal_votes": 758,
+      "total_votes": 99998,
+      "percent": 51.28
+    },
+    "runner_up": {
+      "name": "B.C.JANARDHAN REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 85693,
+      "postal_votes": 921,
+      "total_votes": 86614,
+      "percent": 44.41
+    },
+    "margin": 13384,
+    "margin_percent": 6.87,
+    "total_votes_polled": 195020,
+    "nota_votes": 1628,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042947/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01140.htm",
+    "fetched_at": "2026-05-17T21:14:47.421549+00:00"
+  },
+  {
+    "constituency_no": 141,
+    "constituency_name": "DHONE",
+    "winner": {
+      "name": "Buggana Raja Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 100402,
+      "postal_votes": 443,
+      "total_votes": 100845,
+      "percent": 57.79
+    },
+    "runner_up": {
+      "name": "Kambalapadu Ediga Prathap",
+      "party": "Telugu Desam",
+      "evm_votes": 65007,
+      "postal_votes": 322,
+      "total_votes": 65329,
+      "percent": 37.44
+    },
+    "margin": 35516,
+    "margin_percent": 20.35,
+    "total_votes_polled": 174495,
+    "nota_votes": 1803,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526042952/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01141.htm",
+    "fetched_at": "2026-05-17T21:15:03.253093+00:00"
+  },
+  {
+    "constituency_no": 142,
+    "constituency_name": "PATTIKONDA",
+    "winner": {
+      "name": "KANGATI SREEDEVI",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 100414,
+      "postal_votes": 567,
+      "total_votes": 100981,
+      "percent": 59.83
+    },
+    "runner_up": {
+      "name": "K E SHYAM KUMAR",
+      "party": "Telugu Desam",
+      "evm_votes": 58558,
+      "postal_votes": 358,
+      "total_votes": 58916,
+      "percent": 34.91
+    },
+    "margin": 42065,
+    "margin_percent": 24.92,
+    "total_votes_polled": 168788,
+    "nota_votes": 1956,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526042957/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01142.htm",
+    "fetched_at": "2026-05-17T21:15:05.997314+00:00"
+  },
+  {
+    "constituency_no": 143,
+    "constituency_name": "KODUMUR",
+    "winner": {
+      "name": "JARADODDI SUDHAKAR",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 94754,
+      "postal_votes": 283,
+      "total_votes": 95037,
+      "percent": 56.58
+    },
+    "runner_up": {
+      "name": "BURLA. RAMANJANEYULU",
+      "party": "Telugu Desam",
+      "evm_votes": 58825,
+      "postal_votes": 167,
+      "total_votes": 58992,
+      "percent": 35.12
+    },
+    "margin": 36045,
+    "margin_percent": 21.46,
+    "total_votes_polled": 167971,
+    "nota_votes": 2485,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043002/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01143.htm",
+    "fetched_at": "2026-05-17T21:15:08.997388+00:00"
+  },
+  {
+    "constituency_no": 144,
+    "constituency_name": "YEMMIGANUR",
+    "winner": {
+      "name": "K CHENNAKESAVA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 95996,
+      "postal_votes": 502,
+      "total_votes": 96498,
+      "percent": 53.28
+    },
+    "runner_up": {
+      "name": "B JAYA NAGESWARA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 70160,
+      "postal_votes": 728,
+      "total_votes": 70888,
+      "percent": 39.14
+    },
+    "margin": 25610,
+    "margin_percent": 14.14,
+    "total_votes_polled": 181121,
+    "nota_votes": 2460,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043007/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01144.htm",
+    "fetched_at": "2026-05-17T21:15:11.805340+00:00"
+  },
+  {
+    "constituency_no": 145,
+    "constituency_name": "MANTRALAYAM",
+    "winner": {
+      "name": "Y. BALANAGI REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 86794,
+      "postal_votes": 102,
+      "total_votes": 86896,
+      "percent": 54.53
+    },
+    "runner_up": {
+      "name": "PALAKURTHI THIKKA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 62873,
+      "postal_votes": 144,
+      "total_votes": 63017,
+      "percent": 39.55
+    },
+    "margin": 23879,
+    "margin_percent": 14.98,
+    "total_votes_polled": 159345,
+    "nota_votes": 2916,
+    "candidate_count": 11,
+    "source_url": "https://web.archive.org/web/20190526043012/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01145.htm",
+    "fetched_at": "2026-05-17T21:15:14.637570+00:00"
+  },
+  {
+    "constituency_no": 146,
+    "constituency_name": "ADONI",
+    "winner": {
+      "name": "Y. SAI PRASAD REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 73575,
+      "postal_votes": 534,
+      "total_votes": 74109,
+      "percent": 47.11
+    },
+    "runner_up": {
+      "name": "KONKA MEENAKSHI NAIDU",
+      "party": "Telugu Desam",
+      "evm_votes": 61409,
+      "postal_votes": 381,
+      "total_votes": 61790,
+      "percent": 39.28
+    },
+    "margin": 12319,
+    "margin_percent": 7.83,
+    "total_votes_polled": 157298,
+    "nota_votes": 1519,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043018/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01146.htm",
+    "fetched_at": "2026-05-17T21:15:17.615242+00:00"
+  },
+  {
+    "constituency_no": 147,
+    "constituency_name": "ALUR",
+    "winner": {
+      "name": "P Jayaram",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 106940,
+      "postal_votes": 161,
+      "total_votes": 107101,
+      "percent": 56.57
+    },
+    "runner_up": {
+      "name": "Kotla Sujathamma",
+      "party": "Telugu Desam",
+      "evm_votes": 66912,
+      "postal_votes": 293,
+      "total_votes": 67205,
+      "percent": 35.5
+    },
+    "margin": 39896,
+    "margin_percent": 21.07,
+    "total_votes_polled": 189321,
+    "nota_votes": 2981,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043022/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01147.htm",
+    "fetched_at": "2026-05-17T21:15:20.744304+00:00"
+  },
+  {
+    "constituency_no": 148,
+    "constituency_name": "RAYADURG",
+    "winner": {
+      "name": "KAPU RAMACHANDRA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 108708,
+      "postal_votes": 335,
+      "total_votes": 109043,
+      "percent": 50.46
+    },
+    "runner_up": {
+      "name": "KALAVA SRINIVASULU",
+      "party": "Telugu Desam",
+      "evm_votes": 94723,
+      "postal_votes": 271,
+      "total_votes": 94994,
+      "percent": 43.96
+    },
+    "margin": 14049,
+    "margin_percent": 6.5,
+    "total_votes_polled": 216112,
+    "nota_votes": 3883,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043027/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01148.htm",
+    "fetched_at": "2026-05-17T21:15:26.763053+00:00"
+  },
+  {
+    "constituency_no": 149,
+    "constituency_name": "URAVAKONDA",
+    "winner": {
+      "name": "PAYYAVULA KESHAV",
+      "party": "Telugu Desam",
+      "evm_votes": 89443,
+      "postal_votes": 766,
+      "total_votes": 90209,
+      "percent": 48.3
+    },
+    "runner_up": {
+      "name": "Y.VISWESWARA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 87273,
+      "postal_votes": 804,
+      "total_votes": 88077,
+      "percent": 47.16
+    },
+    "margin": 2132,
+    "margin_percent": 1.14,
+    "total_votes_polled": 186756,
+    "nota_votes": 1517,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043032/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01149.htm",
+    "fetched_at": "2026-05-17T21:15:30.008103+00:00"
+  },
+  {
+    "constituency_no": 150,
+    "constituency_name": "GUNTAKAL",
+    "winner": {
+      "name": "Y. VENKATARAMA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 105828,
+      "postal_votes": 1094,
+      "total_votes": 106922,
+      "percent": 55.96
+    },
+    "runner_up": {
+      "name": "R Jitendra Gowd",
+      "party": "Telugu Desam",
+      "evm_votes": 57898,
+      "postal_votes": 492,
+      "total_votes": 58390,
+      "percent": 30.56
+    },
+    "margin": 48532,
+    "margin_percent": 25.4,
+    "total_votes_polled": 191057,
+    "nota_votes": 1547,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043042/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01150.htm",
+    "fetched_at": "2026-05-17T21:15:33.564694+00:00"
+  },
+  {
+    "constituency_no": 151,
+    "constituency_name": "TADIPATRI",
+    "winner": {
+      "name": "K. PEDDA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 92375,
+      "postal_votes": 536,
+      "total_votes": 92911,
+      "percent": 49.45
+    },
+    "runner_up": {
+      "name": "ASHMIT REDDY.J.C.",
+      "party": "Telugu Desam",
+      "evm_votes": 84867,
+      "postal_votes": 533,
+      "total_votes": 85400,
+      "percent": 45.46
+    },
+    "margin": 7511,
+    "margin_percent": 3.99,
+    "total_votes_polled": 187874,
+    "nota_votes": 2063,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043048/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01151.htm",
+    "fetched_at": "2026-05-17T21:15:37.062963+00:00"
+  },
+  {
+    "constituency_no": 152,
+    "constituency_name": "SINGANAMALA",
+    "winner": {
+      "name": "Padmavathy Jonnalagadda",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 117269,
+      "postal_votes": 775,
+      "total_votes": 118044,
+      "percent": 59.78
+    },
+    "runner_up": {
+      "name": "Bandaru Sravani Sree",
+      "party": "Telugu Desam",
+      "evm_votes": 71415,
+      "postal_votes": 387,
+      "total_votes": 71802,
+      "percent": 36.36
+    },
+    "margin": 46242,
+    "margin_percent": 23.42,
+    "total_votes_polled": 197466,
+    "nota_votes": 2340,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043052/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01152.htm",
+    "fetched_at": "2026-05-17T21:15:39.775699+00:00"
+  },
+  {
+    "constituency_no": 153,
+    "constituency_name": "ANANTAPUR URBAN",
+    "winner": {
+      "name": "ANANTHA VENKATARAMI REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 86625,
+      "postal_votes": 2079,
+      "total_votes": 88704,
+      "percent": 53.71
+    },
+    "runner_up": {
+      "name": "PRABHAKAR CHOWDARY .V",
+      "party": "Telugu Desam",
+      "evm_votes": 59076,
+      "postal_votes": 930,
+      "total_votes": 60006,
+      "percent": 36.34
+    },
+    "margin": 28698,
+    "margin_percent": 17.37,
+    "total_votes_polled": 165141,
+    "nota_votes": 1312,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043057/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01153.htm",
+    "fetched_at": "2026-05-17T21:15:42.565866+00:00"
+  },
+  {
+    "constituency_no": 154,
+    "constituency_name": "KALYANDURG",
+    "winner": {
+      "name": "K.V. Usha Sricharan",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 87268,
+      "postal_votes": 783,
+      "total_votes": 88051,
+      "percent": 46.14
+    },
+    "runner_up": {
+      "name": "Umamaheswara Naidu Madineni",
+      "party": "Telugu Desam",
+      "evm_votes": 67734,
+      "postal_votes": 421,
+      "total_votes": 68155,
+      "percent": 35.71
+    },
+    "margin": 19896,
+    "margin_percent": 10.43,
+    "total_votes_polled": 190841,
+    "nota_votes": 1515,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043102/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01154.htm",
+    "fetched_at": "2026-05-17T21:15:45.902393+00:00"
+  },
+  {
+    "constituency_no": 155,
+    "constituency_name": "RAPTADU",
+    "winner": {
+      "name": "Thopudurthi Prakash Reddy",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 109991,
+      "postal_votes": 1210,
+      "total_votes": 111201,
+      "percent": 55.0
+    },
+    "runner_up": {
+      "name": "Paritala Sreeram",
+      "party": "Telugu Desam",
+      "evm_votes": 84882,
+      "postal_votes": 744,
+      "total_votes": 85626,
+      "percent": 42.35
+    },
+    "margin": 25575,
+    "margin_percent": 12.65,
+    "total_votes_polled": 202180,
+    "nota_votes": 1801,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043107/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01155.htm",
+    "fetched_at": "2026-05-17T21:15:48.763824+00:00"
+  },
+  {
+    "constituency_no": 156,
+    "constituency_name": "MADAKASIRA",
+    "winner": {
+      "name": "M THIPPESWAMY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 88070,
+      "postal_votes": 457,
+      "total_votes": 88527,
+      "percent": 49.99
+    },
+    "runner_up": {
+      "name": "K ERANNA",
+      "party": "Telugu Desam",
+      "evm_votes": 74970,
+      "postal_votes": 421,
+      "total_votes": 75391,
+      "percent": 42.57
+    },
+    "margin": 13136,
+    "margin_percent": 7.42,
+    "total_votes_polled": 177103,
+    "nota_votes": 2656,
+    "candidate_count": 10,
+    "source_url": "https://web.archive.org/web/20190526043112/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01156.htm",
+    "fetched_at": "2026-05-17T21:15:51.628679+00:00"
+  },
+  {
+    "constituency_no": 157,
+    "constituency_name": "HINDUPUR",
+    "winner": {
+      "name": "Nandamuri Balakrishna",
+      "party": "Telugu Desam",
+      "evm_votes": 91406,
+      "postal_votes": 298,
+      "total_votes": 91704,
+      "percent": 51.47
+    },
+    "runner_up": {
+      "name": "SHAIK MOHAMMED IQBAL",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 74257,
+      "postal_votes": 419,
+      "total_votes": 74676,
+      "percent": 41.91
+    },
+    "margin": 17028,
+    "margin_percent": 9.56,
+    "total_votes_polled": 178167,
+    "nota_votes": 1290,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043118/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01157.htm",
+    "fetched_at": "2026-05-17T21:15:54.342673+00:00"
+  },
+  {
+    "constituency_no": 158,
+    "constituency_name": "PENUKONDA",
+    "winner": {
+      "name": "MALAGUNDLA SANKARANARAYANA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 95875,
+      "postal_votes": 732,
+      "total_votes": 96607,
+      "percent": 51.08
+    },
+    "runner_up": {
+      "name": "B.K.PARTHASARATHI",
+      "party": "Telugu Desam",
+      "evm_votes": 81016,
+      "postal_votes": 533,
+      "total_votes": 81549,
+      "percent": 43.12
+    },
+    "margin": 15058,
+    "margin_percent": 7.96,
+    "total_votes_polled": 189114,
+    "nota_votes": 1553,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043122/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01158.htm",
+    "fetched_at": "2026-05-17T21:15:57.247976+00:00"
+  },
+  {
+    "constituency_no": 159,
+    "constituency_name": "PUTTAPARTHI",
+    "winner": {
+      "name": "DUDDUKUNTA SREEDHAR REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 96159,
+      "postal_votes": 1075,
+      "total_votes": 97234,
+      "percent": 56.77
+    },
+    "runner_up": {
+      "name": "PALLE.RAGHUNATHA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 65321,
+      "postal_votes": 658,
+      "total_votes": 65979,
+      "percent": 38.52
+    },
+    "margin": 31255,
+    "margin_percent": 18.25,
+    "total_votes_polled": 171291,
+    "nota_votes": 1310,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043127/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01159.htm",
+    "fetched_at": "2026-05-17T21:16:00.070471+00:00"
+  },
+  {
+    "constituency_no": 160,
+    "constituency_name": "DHARMAVARAM",
+    "winner": {
+      "name": "KETHIREDDY VENKATARAMI REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 106024,
+      "postal_votes": 0,
+      "total_votes": 106024,
+      "percent": 50.68
+    },
+    "runner_up": {
+      "name": "GONUGUNTLA SURYANARAYANA",
+      "party": "Telugu Desam",
+      "evm_votes": 90738,
+      "postal_votes": 0,
+      "total_votes": 90738,
+      "percent": 43.37
+    },
+    "margin": 15286,
+    "margin_percent": 7.31,
+    "total_votes_polled": 209209,
+    "nota_votes": 1759,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043137/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01160.htm",
+    "fetched_at": "2026-05-17T21:16:02.929184+00:00"
+  },
+  {
+    "constituency_no": 161,
+    "constituency_name": "KADIRI",
+    "winner": {
+      "name": "P.V. SIDDA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 101724,
+      "postal_votes": 708,
+      "total_votes": 102432,
+      "percent": 53.92
+    },
+    "runner_up": {
+      "name": "KANDIKUNTA VENKATA PRASAD",
+      "party": "Telugu Desam",
+      "evm_votes": 74668,
+      "postal_votes": 521,
+      "total_votes": 75189,
+      "percent": 39.58
+    },
+    "margin": 27243,
+    "margin_percent": 14.34,
+    "total_votes_polled": 189980,
+    "nota_votes": 1567,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043142/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01161.htm",
+    "fetched_at": "2026-05-17T21:16:06.033412+00:00"
+  },
+  {
+    "constituency_no": 162,
+    "constituency_name": "THAMBALLAPALLE",
+    "winner": {
+      "name": "PEDDIREDDY DWARAKANATHA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 104864,
+      "postal_votes": 580,
+      "total_votes": 105444,
+      "percent": 59.48
+    },
+    "runner_up": {
+      "name": "GULLOLA SHANKAR",
+      "party": "Telugu Desam",
+      "evm_votes": 58164,
+      "postal_votes": 342,
+      "total_votes": 58506,
+      "percent": 33.0
+    },
+    "margin": 46938,
+    "margin_percent": 26.48,
+    "total_votes_polled": 177269,
+    "nota_votes": 2886,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043148/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01162.htm",
+    "fetched_at": "2026-05-17T21:16:08.693950+00:00"
+  },
+  {
+    "constituency_no": 163,
+    "constituency_name": "PILERU",
+    "winner": {
+      "name": "CHINTHALA RAMACHANDRA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 86397,
+      "postal_votes": 903,
+      "total_votes": 87300,
+      "percent": 48.92
+    },
+    "runner_up": {
+      "name": "NALLARI KISHAN KUMAR REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 78504,
+      "postal_votes": 922,
+      "total_votes": 79426,
+      "percent": 44.51
+    },
+    "margin": 7874,
+    "margin_percent": 4.41,
+    "total_votes_polled": 178447,
+    "nota_votes": 2145,
+    "candidate_count": 17,
+    "source_url": "https://web.archive.org/web/20190526043152/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01163.htm",
+    "fetched_at": "2026-05-17T21:16:13.816620+00:00"
+  },
+  {
+    "constituency_no": 164,
+    "constituency_name": "MADANAPALLE",
+    "winner": {
+      "name": "Mohammed Nawaz Basha",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 91163,
+      "postal_votes": 903,
+      "total_votes": 92066,
+      "percent": 51.2
+    },
+    "runner_up": {
+      "name": "Dommalapati Ramesh",
+      "party": "Telugu Desam",
+      "evm_votes": 61810,
+      "postal_votes": 608,
+      "total_votes": 62418,
+      "percent": 34.71
+    },
+    "margin": 29648,
+    "margin_percent": 16.49,
+    "total_votes_polled": 179830,
+    "nota_votes": 1420,
+    "candidate_count": 22,
+    "source_url": "https://web.archive.org/web/20190526043158/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01164.htm",
+    "fetched_at": "2026-05-17T21:16:16.593865+00:00"
+  },
+  {
+    "constituency_no": 165,
+    "constituency_name": "PUNGANUR",
+    "winner": {
+      "name": "PEDDIREDDI RAMACHANDRA REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 106271,
+      "postal_votes": 1160,
+      "total_votes": 107431,
+      "percent": 54.85
+    },
+    "runner_up": {
+      "name": "N.ANESHA REDDY",
+      "party": "Telugu Desam",
+      "evm_votes": 63561,
+      "postal_votes": 315,
+      "total_votes": 63876,
+      "percent": 32.61
+    },
+    "margin": 43555,
+    "margin_percent": 22.24,
+    "total_votes_polled": 195868,
+    "nota_votes": 3287,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043203/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01165.htm",
+    "fetched_at": "2026-05-17T21:16:19.368372+00:00"
+  },
+  {
+    "constituency_no": 166,
+    "constituency_name": "CHANDRAGIRI",
+    "winner": {
+      "name": "Dr.CHEVIREDDY BHASKAR REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 126124,
+      "postal_votes": 1666,
+      "total_votes": 127790,
+      "percent": 56.0
+    },
+    "runner_up": {
+      "name": "PULLIVARTHI VENKATA MANI PRASAD",
+      "party": "Telugu Desam",
+      "evm_votes": 85349,
+      "postal_votes": 686,
+      "total_votes": 86035,
+      "percent": 37.7
+    },
+    "margin": 41755,
+    "margin_percent": 18.3,
+    "total_votes_polled": 228192,
+    "nota_votes": 1777,
+    "candidate_count": 25,
+    "source_url": "https://web.archive.org/web/20190526043209/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01166.htm",
+    "fetched_at": "2026-05-17T21:16:23.069999+00:00"
+  },
+  {
+    "constituency_no": 167,
+    "constituency_name": "TIRUPATI",
+    "winner": {
+      "name": "BHUMANA KARUNAKAR REDDY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 79377,
+      "postal_votes": 1167,
+      "total_votes": 80544,
+      "percent": 44.64
+    },
+    "runner_up": {
+      "name": "M SUGUNA",
+      "party": "Telugu Desam",
+      "evm_votes": 79145,
+      "postal_votes": 691,
+      "total_votes": 79836,
+      "percent": 44.25
+    },
+    "margin": 708,
+    "margin_percent": 0.39,
+    "total_votes_polled": 180429,
+    "nota_votes": 1420,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043213/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01167.htm",
+    "fetched_at": "2026-05-17T21:16:25.869363+00:00"
+  },
+  {
+    "constituency_no": 168,
+    "constituency_name": "SRIKALAHASTI",
+    "winner": {
+      "name": "Madhusudhan Reddy Biyyapu",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 108672,
+      "postal_votes": 869,
+      "total_votes": 109541,
+      "percent": 55.89
+    },
+    "runner_up": {
+      "name": "Bojjala Venkata Sudhir Reddy",
+      "party": "Telugu Desam",
+      "evm_votes": 70561,
+      "postal_votes": 839,
+      "total_votes": 71400,
+      "percent": 36.43
+    },
+    "margin": 38141,
+    "margin_percent": 19.46,
+    "total_votes_polled": 195994,
+    "nota_votes": 1669,
+    "candidate_count": 18,
+    "source_url": "https://web.archive.org/web/20190526043218/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01168.htm",
+    "fetched_at": "2026-05-17T21:16:28.919431+00:00"
+  },
+  {
+    "constituency_no": 169,
+    "constituency_name": "SATYAVEDU",
+    "winner": {
+      "name": "Adimulam Koneti",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 103332,
+      "postal_votes": 609,
+      "total_votes": 103941,
+      "percent": 59.02
+    },
+    "runner_up": {
+      "name": "Jadda Rajasekhar",
+      "party": "Telugu Desam",
+      "evm_votes": 59072,
+      "postal_votes": 125,
+      "total_votes": 59197,
+      "percent": 33.61
+    },
+    "margin": 44744,
+    "margin_percent": 25.41,
+    "total_votes_polled": 176114,
+    "nota_votes": 3347,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043223/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01169.htm",
+    "fetched_at": "2026-05-17T21:16:31.952504+00:00"
+  },
+  {
+    "constituency_no": 170,
+    "constituency_name": "NAGARI",
+    "winner": {
+      "name": "R.K. ROJA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 79499,
+      "postal_votes": 834,
+      "total_votes": 80333,
+      "percent": 47.6
+    },
+    "runner_up": {
+      "name": "GALI BHANU PRAKASH",
+      "party": "Telugu Desam",
+      "evm_votes": 76818,
+      "postal_votes": 807,
+      "total_votes": 77625,
+      "percent": 46.0
+    },
+    "margin": 2708,
+    "margin_percent": 1.6,
+    "total_votes_polled": 168764,
+    "nota_votes": 1688,
+    "candidate_count": 15,
+    "source_url": "https://web.archive.org/web/20190526043233/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01170.htm",
+    "fetched_at": "2026-05-17T21:16:35.052332+00:00"
+  },
+  {
+    "constituency_no": 171,
+    "constituency_name": "GANGADHARA NELLORE",
+    "winner": {
+      "name": "K. NARAYANA SWAMY",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 102356,
+      "postal_votes": 682,
+      "total_votes": 103038,
+      "percent": 59.67
+    },
+    "runner_up": {
+      "name": "ANAGANTI HARIKRISHNA",
+      "party": "Telugu Desam",
+      "evm_votes": 56941,
+      "postal_votes": 503,
+      "total_votes": 57444,
+      "percent": 33.27
+    },
+    "margin": 45594,
+    "margin_percent": 26.4,
+    "total_votes_polled": 172673,
+    "nota_votes": 2829,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043238/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01171.htm",
+    "fetched_at": "2026-05-17T21:16:37.724486+00:00"
+  },
+  {
+    "constituency_no": 172,
+    "constituency_name": "CHITTOOR",
+    "winner": {
+      "name": "Aranii Srenevasulu (Jangalapalli)",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 90263,
+      "postal_votes": 943,
+      "total_votes": 91206,
+      "percent": 60.18
+    },
+    "runner_up": {
+      "name": "A. S. Manohar",
+      "party": "Telugu Desam",
+      "evm_votes": 50610,
+      "postal_votes": 628,
+      "total_votes": 51238,
+      "percent": 33.81
+    },
+    "margin": 39968,
+    "margin_percent": 26.37,
+    "total_votes_polled": 151550,
+    "nota_votes": 1340,
+    "candidate_count": 14,
+    "source_url": "https://web.archive.org/web/20190526043243/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01172.htm",
+    "fetched_at": "2026-05-17T21:16:40.588811+00:00"
+  },
+  {
+    "constituency_no": 173,
+    "constituency_name": "PUTHALAPATTU",
+    "winner": {
+      "name": "M. BABU",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 102338,
+      "postal_votes": 927,
+      "total_votes": 103265,
+      "percent": 55.25
+    },
+    "runner_up": {
+      "name": "LALITHA KUMARI",
+      "party": "Telugu Desam",
+      "evm_votes": 73655,
+      "postal_votes": 447,
+      "total_votes": 74102,
+      "percent": 39.64
+    },
+    "margin": 29163,
+    "margin_percent": 15.61,
+    "total_votes_polled": 186918,
+    "nota_votes": 2103,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043249/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01173.htm",
+    "fetched_at": "2026-05-17T21:16:43.451291+00:00"
+  },
+  {
+    "constituency_no": 174,
+    "constituency_name": "PALAMANER",
+    "winner": {
+      "name": "N VENKATE GOWDA",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 118346,
+      "postal_votes": 895,
+      "total_votes": 119241,
+      "percent": 54.46
+    },
+    "runner_up": {
+      "name": "AMARNATHA REDDY. N",
+      "party": "Telugu Desam",
+      "evm_votes": 86995,
+      "postal_votes": 630,
+      "total_votes": 87625,
+      "percent": 40.02
+    },
+    "margin": 31616,
+    "margin_percent": 14.44,
+    "total_votes_polled": 218957,
+    "nota_votes": 2561,
+    "candidate_count": 13,
+    "source_url": "https://web.archive.org/web/20190526043253/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01174.htm",
+    "fetched_at": "2026-05-17T21:16:46.274629+00:00"
+  },
+  {
+    "constituency_no": 175,
+    "constituency_name": "KUPPAM",
+    "winner": {
+      "name": "Nara Chandra Babu Naidu",
+      "party": "Telugu Desam",
+      "evm_votes": 99657,
+      "postal_votes": 489,
+      "total_votes": 100146,
+      "percent": 55.18
+    },
+    "runner_up": {
+      "name": "Krishna Chandra Mouli",
+      "party": "Yuvajana Sramika Rythu Congress Party",
+      "evm_votes": 69251,
+      "postal_votes": 173,
+      "total_votes": 69424,
+      "percent": 38.25
+    },
+    "margin": 30722,
+    "margin_percent": 16.93,
+    "total_votes_polled": 181499,
+    "nota_votes": 2905,
+    "candidate_count": 12,
+    "source_url": "https://web.archive.org/web/20190526043258/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS01175.htm",
+    "fetched_at": "2026-05-17T21:16:49.167099+00:00"
+  }
+]

@@ -23,7 +23,9 @@ const CandidateView = () => {
   const filteredCandidates = candidates.filter(c => 
     c.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     c.constituency.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    c.party.toLowerCase().includes(searchTerm.toLowerCase())
+    c.party.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (c.role || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (c.ministries || []).some(m => (m.name || '').toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
   const handleOpenProfile = (candidate) => {

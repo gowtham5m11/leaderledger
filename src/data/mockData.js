@@ -68,13 +68,18 @@ export const getDistrictData = (name) => {
 
   if (candidateFound) {
     const party = candidateFound.party === "Janasena Party" ? "JSP" : candidateFound.party;
+    const prev = candidateFound.previous_mla;
+    const prevParty = prev?.party === "Janasena Party" ? "JSP" : prev?.party;
+    const pastMla = prev
+      ? `${prev.name} (${prevParty})`
+      : "Former representative records pending";
     return {
       id: candidateFound.id,
       name: candidateFound.constituency,
       population: "Constituency Wide",
       currentMla: candidateFound.name,
       party: party,
-      pastMla: "Former representative records pending",
+      pastMla,
       partyChanges: 0,
       votersCount: "Verified Assembly Ledger",
       majorityVotes: candidateFound.election_result?.margin ?? 0,
