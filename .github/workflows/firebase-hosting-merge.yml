@@ -1,0 +1,61 @@
+# Firebase Hosting auto-deploy on push to main.
+#
+# Triggers on every push to main, including the bot commits from
+# news-refresh.yml. Each run is ~2 min of GH Actions time.
+#
+# Auth: service-account JSON key in repo secret
+# FIREBASE_SERVICE_ACCOUNT_HOSTING. The SA
+# (github-action-hosting@leaderledger-da9a6.iam.gserviceaccount.com)
+# has roles/firebasehosting.admin + roles/serviceusage.serviceUsageConsumer
+# at project level — both required by the FirebaseExtended action.
+#
+# Build env: Firebase Web App config is in committed .env.production
+# (values are public per CLAUDE.md). No build-time secret injection.
+#
+# Concurrency: only one deploy at a time. New pushes during a deploy
+# queue and run after; intermediate pushes are coalesced because GitHub
+# only keeps the most-recent queued run.
+
+name: Firebase Hosting — deploy on merge
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-hosting-deploy
+  cancel-in-progress: false
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOSTING }}
+          projectId: leaderledger-da9a6
+          channelId: live
