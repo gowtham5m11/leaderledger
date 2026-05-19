@@ -50,10 +50,16 @@ on:
         default: ""
 
 # contents: write — the workflow commits + pushes news.json updates.
+# actions:  write — the final step dispatches firebase-hosting-merge.yml
+#                   via `gh workflow run`. Bot pushes from GITHUB_TOKEN
+#                   don't trigger downstream workflows on their own
+#                   (anti-loop), but workflow_dispatch IS allowed from
+#                   GITHUB_TOKEN per the GitHub Actions docs.
 # Default GITHUB_TOKEN permissions are read-only on most repos; we need
-# write here.
+# write for both contents and actions here.
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: news-refresh
@@ -126,6 +132,7 @@ jobs:
             --no-decode
 
       - name: Commit & push if news.json changed
+        id: commit
         run: |
           set -euo pipefail
           git config user.name  "leaderledger-news-bot"
@@ -137,6 +144,7 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "news.json unchanged — skipping commit (bucket produced no diff)"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -147,10 +155,19 @@ jobs:
           N_CAND=$(jq '.by_candidate | length' "${LOCAL_PATH}")
           N_ITEMS=$(jq '[.by_candidate[]? | length] | add // 0' "${LOCAL_PATH}")
 
-          # No [skip ci] marker: news commits SHOULD trigger the Firebase
-          # Hosting auto-deploy workflow (firebase-hosting-merge.yml).
-          # Otherwise the news pipeline is pointless — the file lands on
-          # main but never reaches production.
+          # The bot push from GITHUB_TOKEN won't auto-trigger downstream
+          # workflows (anti-loop), so the next step dispatches
+          # firebase-hosting-merge.yml explicitly via workflow_dispatch
+          # (one of the two trigger types GITHUB_TOKEN is allowed to fire).
           git commit -m "news: refresh bucket ${BUCKET} (${N_CAND} candidates, ${N_ITEMS} items)"
           git push origin HEAD:main
           echo "pushed news.json update for bucket ${BUCKET}"
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger Firebase Hosting deploy
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run firebase-hosting-merge.yml --ref main
+          echo "Dispatched firebase-hosting-merge.yml on main"
