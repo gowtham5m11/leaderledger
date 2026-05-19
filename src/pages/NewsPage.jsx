@@ -100,7 +100,7 @@ const EmptyCard = ({ title, body, cta }) => (
 );
 
 const NewsPage = () => {
-  const { user, configured, openSignIn } = useAuth();
+  const { user, loading: authLoading, configured, openSignIn } = useAuth();
   const { ids: bookmarkIds, loading: bookmarksLoading } = useBookmarks();
 
   const [newsDoc, setNewsDoc] = useState(null);
@@ -145,6 +145,15 @@ const NewsPage = () => {
           title="News needs sign-in"
           body="The news feed follows the candidates you bookmark. Authentication isn't configured in this build, so the feed is unavailable here."
         />
+      </main>
+    );
+  }
+
+  if (authLoading) {
+    return (
+      <main className="page-main">
+        <h1 className="display-md" style={{ marginBottom: '1.5rem' }}>News</h1>
+        <p className="body-md text-on-surface-variant">Loading…</p>
       </main>
     );
   }

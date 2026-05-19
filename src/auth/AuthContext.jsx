@@ -60,9 +60,11 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    if (user && pendingResolvers.length) {
-      pendingResolvers.forEach((r) => r(user));
-      setPendingResolvers([]);
+    if (user) {
+      if (pendingResolvers.length) {
+        pendingResolvers.forEach((r) => r(user));
+        setPendingResolvers([]);
+      }
       setModalOpen(false);
     }
   }, [user, pendingResolvers]);
@@ -73,6 +75,13 @@ export const AuthProvider = ({ children }) => {
     try {
       const provider = googleProvider || new GoogleAuthProvider();
       const result = await signInWithPopup(auth, provider);
+      
+      setPendingResolvers((prev) => {
+        prev.forEach((r) => r(result.user));
+        return [];
+      });
+      setModalOpen(false);
+      
       return result.user;
     } catch (err) {
       if (err?.code !== 'auth/popup-closed-by-user' && err?.code !== 'auth/cancelled-popup-request') {
@@ -100,11 +109,16 @@ export const AuthProvider = ({ children }) => {
 
   const requireAuth = useCallback(() => {
     if (user) return Promise.resolve(user);
+    if (loading) {
+      return new Promise((resolve) => {
+        setPendingResolvers((prev) => [...prev, resolve]);
+      });
+    }
     setModalOpen(true);
     return new Promise((resolve) => {
       setPendingResolvers((prev) => [...prev, resolve]);
     });
-  }, [user]);
+  }, [user, loading]);
 
   return (
     <AuthContext.Provider
