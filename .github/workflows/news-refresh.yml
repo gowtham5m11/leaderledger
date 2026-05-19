@@ -2,8 +2,9 @@
 #
 # Architecture: Plan A (Firebase Spark plan, no Storage).
 #   1. Cron fires; workflow checks out main.
-#   2. Scraper reads existing public/data/news.json from the repo, runs
-#      its bucket, merges results, writes the file back.
+#   2. Scraper reads existing public/data/news.json from the repo,
+#      refreshes all 175 candidates, merges results, writes the file
+#      back.
 #   3. If news.json actually changed, commit + push to main.
 #   4. Firebase Hosting picks up the new news.json on the next deploy
 #      (manual `npm run deploy`, OR your Firebase Hosting GitHub
@@ -13,41 +14,34 @@
 # serves public/) and prod (Firebase Hosting serves dist/, which Vite
 # populates from public/ at build time). No Firebase Storage involved.
 #
-# Cron */30 means GitHub aims for every 30 minutes; in practice the
-# free-tier scheduler often runs 10–30 min late and occasionally skips
-# a slot. The 2-hour staleness banner on /news is calibrated for that.
+# Hourly cron ("0 * * * *"). Every firing refreshes ALL 175 candidates
+# (no bucket rotation — the repo is public so GitHub Actions minutes are
+# unlimited, and the user wants every candidate refreshed every hour).
 #
-# Bucket rotation: each run only refreshes ~1/3 of the 175 candidates
-# (bucket = (UTC-hour*2 + UTC-minute/30) % 3). Buckets we don't process
-# keep their previous entries verbatim — the scraper merges its new
-# bucket into the existing news.json checked out from main.
+# GitHub's free-tier scheduler often runs 10–30 min late and occasionally
+# skips a slot, so per-candidate freshness in practice is "≤1h on the
+# happy path, occasionally 2–3h during scheduler drift." The 2-hour
+# staleness banner on /news will trip during those skips — that's the
+# intended signal, not a misconfiguration.
 #
-# Expected runtime: ~14 min/bucket (58 candidates × 2 RSS queries × 1.5 s,
-# plus per-candidate processing). Comfortably inside the 20-min timeout
-# below. This assumes --no-decode. The local Phase B run WITH decode
-# took 3h 33m for all 175 — the googlenewsdecoder call to Google adds
-# ~2 s/URL × up to 25 URLs/candidate ≈ ~50 s/candidate, which would
-# blow past the 20-min timeout for a single bucket.
+# Expected runtime: 175 candidates × 2 RSS queries × 1.5 s = ~9 min of
+# pure delay, plus per-candidate processing → ~40–45 min observed.
+# Comfortably inside the 60-min timeout below. This assumes --no-decode.
+# The local Phase B run WITH decode took 3h 33m — the googlenewsdecoder
+# call to Google adds ~2 s/URL × up to 25 URLs/candidate ≈ ~50 s/candidate,
+# which would blow past 60 min for a full-catalog run.
 #
-# Commit noise: */30 cron writes a bot commit on every successful run
-# where the JSON actually changed (skipped otherwise — see "if news.json
-# changed" guard below). That's up to 48 commits/day on main. Each
-# commit triggers the Firebase Hosting auto-deploy workflow so the new
-# news.json reaches production. If commit noise becomes a problem,
-# change the cron to "0 * * * *" (hourly) — refresh interval per
-# candidate becomes ~3h, slightly past the 2h staleness banner cutoff.
+# Previous shape (kept for context): "*/30" cron with bucket rotation
+# refreshing 1/3 of candidates per firing. Each candidate hit every
+# ~90 min on paper, ~3 h in practice because the free-tier scheduler
+# only delivered ~5 of the expected ~20 firings per 10-h window.
 
 name: News refresh
 
 on:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
-    inputs:
-      bucket_override:
-        description: "Override bucket (N/3). Leave blank for time-based."
-        required: false
-        default: ""
 
 # contents: write — the workflow commits + pushes news.json updates.
 # actions:  write — the final step dispatches firebase-hosting-merge.yml
@@ -68,7 +62,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # All 175 candidates × 2 RSS queries × 1.5s delay ≈ 9 min of pure sleep,
+    # plus per-candidate processing → ~40–45 min observed in the original
+    # Phase B local seed (without --no-decode it was 3h33m; --no-decode
+    # brings it well inside this window). 60 min gives comfortable headroom.
+    timeout-minutes: 60
 
     env:
       LOCAL_PATH: public/data/news.json
@@ -83,22 +81,6 @@ jobs:
           # depth 1 is fine — we don't need history, just the current
           # state of news.json to merge into.
           fetch-depth: 1
-
-      - name: Compute bucket
-        id: bucket
-        run: |
-          set -euo pipefail
-          if [ -n "${{ github.event.inputs.bucket_override }}" ]; then
-            B="${{ github.event.inputs.bucket_override }}"
-          else
-            H=$(date -u +%H)
-            M=$(date -u +%M)
-            # epoch_hour*2 + epoch_minute/30, mod 3
-            N=$(( (10#$H * 2 + 10#$M / 30) % 3 ))
-            B="$N/3"
-          fi
-          echo "bucket=$B" >> "$GITHUB_OUTPUT"
-          echo "Selected bucket: $B"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -119,14 +101,13 @@ jobs:
             echo "found existing news.json ($(wc -c < "${LOCAL_PATH}") bytes)"
           fi
 
-      - name: Run news scraper for this bucket
+      - name: Run news scraper (all 175 candidates)
         run: |
           set -euo pipefail
-          # --no-decode keeps the run inside the 20-min timeout; URLs stay
+          # --no-decode keeps the run inside the 60-min timeout; URLs stay
           # as news.google.com/rss/articles/... and the browser bounces to
           # the publisher on click. See header comment for rationale.
           python scraper_lab/fetch_news.py \
-            --bucket "${{ steps.bucket.outputs.bucket }}" \
             --merge-into "${LOCAL_PATH}" \
             --delay 1.5 \
             --no-decode
@@ -143,14 +124,13 @@ jobs:
           git add "${LOCAL_PATH}"
 
           if git diff --cached --quiet; then
-            echo "news.json unchanged — skipping commit (bucket produced no diff)"
+            echo "news.json unchanged — skipping commit (run produced no diff)"
             echo "committed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          BUCKET="${{ steps.bucket.outputs.bucket }}"
           # jq is pre-installed on ubuntu-latest. Defensive `// 0` so the
-          # commit doesn't error if the bucket somehow produced an empty
+          # commit doesn't error if the run somehow produced an empty
           # by_candidate object.
           N_CAND=$(jq '.by_candidate | length' "${LOCAL_PATH}")
           N_ITEMS=$(jq '[.by_candidate[]? | length] | add // 0' "${LOCAL_PATH}")
@@ -159,9 +139,9 @@ jobs:
           # workflows (anti-loop), so the next step dispatches
           # firebase-hosting-merge.yml explicitly via workflow_dispatch
           # (one of the two trigger types GITHUB_TOKEN is allowed to fire).
-          git commit -m "news: refresh bucket ${BUCKET} (${N_CAND} candidates, ${N_ITEMS} items)"
+          git commit -m "news: refresh (${N_CAND} candidates, ${N_ITEMS} items)"
           git push origin HEAD:main
-          echo "pushed news.json update for bucket ${BUCKET}"
+          echo "pushed news.json update"
           echo "committed=true" >> "$GITHUB_OUTPUT"
 
       - name: Trigger Firebase Hosting deploy

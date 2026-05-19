@@ -23,6 +23,19 @@ export const partyColors = {
 export const partyColor = (party) =>
   party === "YSRCP" ? "var(--ysrcp)" : (partyColors[party] || "var(--outline)");
 
+// Text color to pair with `partyColor(party)` when the party hex is used as a
+// fill background (nametag-style chips). TDP's #fce903 is too bright for white
+// text — needs dark text. The rest are dark enough that white reads cleanly.
+const PARTY_ON_COLOR = {
+  TDP: "#191c1b",
+  YSRCP: "#ffffff",
+  JSP: "#ffffff",
+  "Janasena Party": "#ffffff",
+  BJP: "#ffffff",
+  INC: "#ffffff",
+};
+export const partyOnColor = (party) => PARTY_ON_COLOR[party] || "#ffffff";
+
 // Sector taxonomy for cabinet portfolios. Each sector has a label and a base
 // hue used for the chip background / text on both themes (the chip uses
 // color-mix with --surface so the same hex reads well in light & dark).

@@ -1737,22 +1737,25 @@ h6,
 .news-candidate-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.4rem;
   align-self: flex-start;
-  border: 1px solid var(--outline);
+  border: 1px solid transparent;
   border-radius: 999px;
-  padding: 0.2rem 0.7rem;
+  padding: 0.25rem 0.75rem;
   font-size: 0.78rem;
-  font-weight: 600;
-  background: color-mix(in srgb, var(--primary) 6%, var(--surface-container-lowest));
+  font-weight: 700;
+  letter-spacing: 0.01em;
   text-decoration: none;
   max-width: 100%;
+  box-shadow: var(--shadow-1);
 }
+.news-candidate-chip:hover { filter: brightness(0.95); }
 
 .news-candidate-chip-sep { opacity: 0.55; }
 .news-candidate-chip-const {
-  color: var(--on-surface-variant);
-  font-weight: 500;
+  color: inherit;
+  opacity: 0.78;
+  font-weight: 600;
   overflow-wrap: anywhere;
 }
 
@@ -1825,11 +1828,91 @@ h6,
 }
 .news-load-more:hover { background: var(--surface-container-highest); }
 
+/* "Why is this article here" tag — small pill that explains how Google News
+   linked this article to the candidate (name in headline / constituency /
+   party / loose body-text inference). */
+.news-card-why {
+  display: inline-flex;
+  align-self: flex-start;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--primary) 14%, transparent);
+  color: var(--primary);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.news-card-why--constituency {
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+}
+.news-card-why--party {
+  background: color-mix(in srgb, var(--on-surface-variant) 14%, transparent);
+  color: var(--on-surface-variant);
+}
+.news-card-why--loose {
+  background: color-mix(in srgb, var(--outline) 16%, transparent);
+  color: var(--on-surface-variant);
+  cursor: help;
+}
+
+/* Filter strip: one pill per bookmarked candidate. Toggling a pill highlights
+   that candidate's news and dims the rest. */
+.news-filter-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+.news-filter-pill {
+  border: 1.5px solid var(--outline-variant);
+  background: var(--surface-container-lowest);
+  padding: 0.32rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 100ms ease, box-shadow 120ms ease;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.news-filter-pill:hover { transform: translateY(-1px); }
+.news-filter-pill.is-selected {
+  box-shadow: var(--shadow-1);
+}
+.news-filter-clear {
+  background: transparent;
+  border: none;
+  color: var(--primary);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.32rem 0.6rem;
+}
+.news-filter-clear:hover { text-decoration: underline; }
+
+/* Dimmed (un-selected) news cards when a filter is active. Still readable on
+   hover, just visually pushed back so selected candidates' items dominate. */
+.news-card--dim {
+  opacity: 0.38;
+  filter: saturate(0.55);
+  transition: opacity 150ms ease, filter 150ms ease;
+}
+.news-card--dim:hover { opacity: 0.85; filter: saturate(0.85); }
+
 @media (max-width: 480px) {
   .news-card { padding: 0.85rem 0.95rem; border-radius: 0.75rem; }
   .news-card-title { font-size: 0.95rem; }
   .news-empty-card { padding: 1.5rem 1rem; }
-  .news-candidate-chip { font-size: 0.72rem; padding: 0.15rem 0.6rem; }
+  .news-candidate-chip { font-size: 0.72rem; padding: 0.2rem 0.65rem; }
+  .news-filter-pill { font-size: 0.74rem; padding: 0.28rem 0.7rem; }
 }
 
 /* Skeleton Loading Animations */

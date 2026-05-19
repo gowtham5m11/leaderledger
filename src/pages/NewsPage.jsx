@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import { useBookmarks } from '../hooks/useBookmarks';
 import candidates from '../data/candidates.json';
-import { partyColor } from '../data/mockData';
+import { partyColor, partyOnColor } from '../data/mockData';
 import { safeHref } from '../utils/safeHref';
 import { loadNews } from '../data/newsClient';
 
@@ -36,13 +36,69 @@ function relativeMinutes(iso) {
 
 const candidatesById = new Map(candidates.map((c) => [String(c.id), c]));
 
-const NewsCard = ({ item }) => {
+const PARTY_ALIASES = {
+  TDP: ['tdp', 'telugu desam'],
+  YSRCP: ['ysrcp', 'ysr congress', 'ysr cong'],
+  JSP: ['jsp', 'jana sena', 'janasena'],
+  'Janasena Party': ['jsp', 'jana sena', 'janasena'],
+  BJP: ['bjp', 'bharatiya janata'],
+  INC: ['inc', ' congress'], // leading space → avoid colliding with 'ysr congress'
+};
+
+const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Why this article is in the candidate's feed. Inferred from the stuff we
+// already have on the news item (title + snippet) — no extra fetch. Returns
+// `{ label, kind }` so the UI can colour the pill by kind.
+function relationFor(item, cand) {
+  if (!cand) return null;
+  const text = `${item.title || ''} ${item.snippet || ''}`;
+  const lc = text.toLowerCase();
+
+  // 1. Direct name mention — any name-word ≥4 chars, word-boundary match.
+  const nameWords = String(cand.name || '')
+    .split(/\s+/)
+    .filter((w) => w.length >= 4);
+  if (nameWords.some((w) => new RegExp(`\\b${escapeRegex(w)}\\b`, 'i').test(text))) {
+    return { label: 'Named in article', kind: 'name' };
+  }
+
+  // 2. Constituency mention — strip the disambiguating winner-name suffix
+  // (PRATHIPADU (VARUPULA …) → PRATHIPADU) before matching.
+  const constStem = String(cand.constituency || '')
+    .replace(/\s*\([^)]*\)\s*$/, '')
+    .trim();
+  if (constStem) {
+    const constWords = constStem.split(/\s+/).filter((w) => w.length >= 4);
+    if (constWords.some((w) => new RegExp(`\\b${escapeRegex(w)}\\b`, 'i').test(text))) {
+      const pretty = constStem
+        .toLowerCase()
+        .split(/\s+/)
+        .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : ''))
+        .join(' ');
+      return { label: `Mentions ${pretty}`, kind: 'constituency' };
+    }
+  }
+
+  // 3. Party mention — short code or common verbose alias.
+  const aliases = PARTY_ALIASES[cand.party] || [];
+  if (aliases.some((a) => lc.includes(a))) {
+    return { label: `${cand.party} coverage`, kind: 'party' };
+  }
+
+  // 4. Google News surfaced this for the candidate but title+snippet don't
+  // tell us why — usually a body-text mention we can't see.
+  return { label: 'Related coverage', kind: 'loose' };
+}
+
+const NewsCard = ({ item, dimmed = false }) => {
   const cand = candidatesById.get(String(item.candidate_id));
   const colorVar = cand ? partyColor(cand.party) : 'var(--outline)';
+  const onColor = cand ? partyOnColor(cand.party) : 'var(--on-surface)';
   const href = safeHref(item.url);
   return (
     <article
-      className="news-card"
+      className={`news-card${dimmed ? ' news-card--dim' : ''}`}
       style={{ borderLeftColor: colorVar }}
     >
       <div className="news-card-meta">
@@ -63,8 +119,9 @@ const NewsCard = ({ item }) => {
           to={`/profile/${cand.id}`}
           className="news-candidate-chip"
           style={{
+            background: colorVar,
+            color: onColor,
             borderColor: colorVar,
-            color: colorVar,
           }}
         >
           {cand.name}
@@ -72,6 +129,22 @@ const NewsCard = ({ item }) => {
           <span className="news-candidate-chip-const">{cand.constituency}</span>
         </Link>
       )}
+
+      {cand && (() => {
+        const rel = relationFor(item, cand);
+        return rel ? (
+          <span
+            className={`news-card-why news-card-why--${rel.kind}`}
+            title={
+              rel.kind === 'loose'
+                ? "Google News surfaced this for the candidate, but their name doesn't appear in the title or snippet — likely a body-text mention."
+                : undefined
+            }
+          >
+            {rel.label}
+          </span>
+        ) : null;
+      })()}
 
       <a
         href={href}
@@ -106,6 +179,7 @@ const NewsPage = () => {
   const [newsDoc, setNewsDoc] = useState(null);
   const [newsLoading, setNewsLoading] = useState(true);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [selectedIds, setSelectedIds] = useState(() => new Set());
 
   useEffect(() => {
     let alive = true;
@@ -129,8 +203,53 @@ const NewsPage = () => {
     return flat;
   }, [newsDoc, bookmarkIds]);
 
-  // Reset pagination whenever the underlying flat list changes.
-  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [items.length]);
+  // Bookmarked candidates in Firestore order (most-recently bookmarked first),
+  // driving the filter strip.
+  const bookmarkedCandidates = useMemo(() => {
+    const arr = [];
+    bookmarkIds.forEach((cid) => {
+      const c = candidatesById.get(String(cid));
+      if (c) arr.push(c);
+    });
+    return arr;
+  }, [bookmarkIds]);
+
+  // Drop stale selections if a candidate gets un-bookmarked while selected.
+  useEffect(() => {
+    setSelectedIds((prev) => {
+      if (prev.size === 0) return prev;
+      const next = new Set();
+      prev.forEach((id) => { if (bookmarkIds.has(id)) next.add(id); });
+      return next.size === prev.size ? prev : next;
+    });
+  }, [bookmarkIds]);
+
+  const hasFilter = selectedIds.size > 0;
+
+  // Selected first (still date-sorted), unselected pushed below (still date-sorted).
+  const orderedItems = useMemo(() => {
+    if (!hasFilter) return items;
+    const sel = [];
+    const unsel = [];
+    items.forEach((it) => {
+      if (selectedIds.has(String(it.candidate_id))) sel.push(it);
+      else unsel.push(it);
+    });
+    return [...sel, ...unsel];
+  }, [items, selectedIds, hasFilter]);
+
+  const toggleSelect = (cid) => {
+    const id = String(cid);
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  };
+
+  // Reset pagination whenever the displayed list or filter changes.
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [items.length, selectedIds]);
 
   const generatedAt = newsDoc && newsDoc.generated_at;
   const staleMinutes = relativeMinutes(generatedAt);
@@ -222,7 +341,7 @@ const NewsPage = () => {
     );
   }
 
-  const visible = items.slice(0, visibleCount);
+  const visible = orderedItems.slice(0, visibleCount);
 
   return (
     <main className="page-main">
@@ -244,19 +363,61 @@ const NewsPage = () => {
         </div>
       )}
 
+      {bookmarkedCandidates.length > 1 && (
+        <div className="news-filter-strip" role="group" aria-label="Filter by bookmarked candidate">
+          {bookmarkedCandidates.map((c) => {
+            const sel = selectedIds.has(String(c.id));
+            const color = partyColor(c.party);
+            const onColor = partyOnColor(c.party);
+            return (
+              <button
+                key={c.id}
+                type="button"
+                className={`news-filter-pill${sel ? ' is-selected' : ''}`}
+                onClick={() => toggleSelect(c.id)}
+                aria-pressed={sel}
+                style={
+                  sel
+                    ? { background: color, color: onColor, borderColor: color }
+                    : { borderColor: color, color: 'var(--on-surface)' }
+                }
+              >
+                {c.name}
+              </button>
+            );
+          })}
+          {hasFilter && (
+            <button
+              type="button"
+              className="news-filter-clear"
+              onClick={() => setSelectedIds(new Set())}
+            >
+              Clear
+            </button>
+          )}
+        </div>
+      )}
+
       <div className="news-feed">
-        {visible.map((item) => (
-          <NewsCard key={`${item.candidate_id}:${item.url}`} item={item} />
-        ))}
+        {visible.map((item) => {
+          const dimmed = hasFilter && !selectedIds.has(String(item.candidate_id));
+          return (
+            <NewsCard
+              key={`${item.candidate_id}:${item.url}`}
+              item={item}
+              dimmed={dimmed}
+            />
+          );
+        })}
       </div>
 
-      {visibleCount < items.length && (
+      {visibleCount < orderedItems.length && (
         <button
           type="button"
           className="news-load-more"
           onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
         >
-          Load more ({items.length - visibleCount} remaining)
+          Load more ({orderedItems.length - visibleCount} remaining)
         </button>
       )}
     </main>
