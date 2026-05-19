@@ -20,6 +20,12 @@
     ],
     "headers": [
       {
+        "source": "/data/news.json",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=60, must-revalidate" }
+        ]
+      },
+      {
         "source": "**",
         "headers": [
           { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },
@@ -27,7 +33,7 @@
           { "key": "X-Frame-Options",           "value": "DENY" },
           { "key": "Referrer-Policy",           "value": "strict-origin-when-cross-origin" },
           { "key": "Permissions-Policy",        "value": "camera=(), microphone=(), geolocation=()" },
-          { "key": "Content-Security-Policy",   "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://www.gstatic.com https://apis.google.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com wss://*.firebaseio.com https://www.google-analytics.com https://firebaseappcheck.googleapis.com https://www.google.com; img-src 'self' data: https: blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src https://*.firebaseapp.com https://leaderledger-da9a6.firebaseapp.com https://www.google.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" }
+          { "key": "Content-Security-Policy",   "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://www.gstatic.com https://apis.google.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com wss://*.firebaseio.com https://www.google-analytics.com https://firebaseappcheck.googleapis.com https://www.google.com; img-src 'self' data: https: blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src https://*.firebaseapp.com https://leaderledger-da9a6.firebaseapp.com https://leaderledger.in https://www.google.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" }
         ]
       }
     ]
