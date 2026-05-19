@@ -8,12 +8,43 @@ import { safeHref } from '../utils/safeHref';
 import BookmarkButton from './BookmarkButton';
 import ReportModal from './ReportModal';
 import { useAuth } from '../auth/AuthContext';
+import { loadNewsForCandidate } from '../data/newsClient';
+
+const PROFILE_NEWS_LIMIT = 3;
+
+const profileRtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+const profileRelativeTime = (iso) => {
+  if (!iso) return '';
+  const then = Date.parse(iso);
+  if (Number.isNaN(then)) return '';
+  const deltaSec = Math.round((then - Date.now()) / 1000);
+  const abs = Math.abs(deltaSec);
+  if (abs < 60) return profileRtf.format(deltaSec, 'second');
+  if (abs < 3600) return profileRtf.format(Math.round(deltaSec / 60), 'minute');
+  if (abs < 86400) return profileRtf.format(Math.round(deltaSec / 3600), 'hour');
+  if (abs < 86400 * 7) return profileRtf.format(Math.round(deltaSec / 86400), 'day');
+  if (abs < 86400 * 30) return profileRtf.format(Math.round(deltaSec / (86400 * 7)), 'week');
+  if (abs < 86400 * 365) return profileRtf.format(Math.round(deltaSec / (86400 * 30)), 'month');
+  return profileRtf.format(Math.round(deltaSec / (86400 * 365)), 'year');
+};
 
 const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const { id } = useParams();
   const navigate = useNavigate();
   const { configured, requireAuth } = useAuth();
   const [reportOpen, setReportOpen] = useState(false);
+  const [newsItems, setNewsItems] = useState(null); // null=loading, []=empty
+
+  const effectiveId = propCandidate ? propCandidate.id : id;
+  React.useEffect(() => {
+    let alive = true;
+    setNewsItems(null);
+    if (!effectiveId) return undefined;
+    loadNewsForCandidate(effectiveId).then((items) => {
+      if (alive) setNewsItems(items || []);
+    });
+    return () => { alive = false; };
+  }, [effectiveId]);
 
   const candidate = propCandidate || candidates.find(l => String(l.id) === String(id));
 
@@ -420,40 +451,60 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 </div>
               </section>
 
-              {/* Latest News Section */}
-              <section>
-                <h3 className="profile-section-title" style={{ marginBottom: '1.5rem' }}>In the Headlines</h3>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                  {[...Array(3)].map((_, i) => (
-                    <div key={i} style={{ cursor: 'pointer' }}>
-                      <span className="label-sm text-outline" style={{ display: 'block', marginBottom: '0.5rem' }}>
-                        {i === 0 ? 'LIVE • 2 HOURS AGO' : i === 1 ? 'YESTERDAY' : '3 DAYS AGO'}
-                      </span>
-                      <h4 style={{ fontWeight: 600, color: 'var(--on-surface)', lineHeight: 1.3 }}>
-                        {i === 0 ? `${candidate.name} chairs high-level meet on capital progress.` : 
-                         i === 1 ? `Key agricultural reform masterplan received with widespread support.` : 
-                         `Constituency record: Remarkable improvements in educational infrastructure.`}
-                      </h4>
-                      {i !== 2 && <div style={{ width: '100%', height: '1px', backgroundColor: 'var(--outline-variant)', marginTop: '1rem' }}></div>}
-                    </div>
-                  ))}
-                </div>
-                
-                <button style={{ 
-                  width: '100%', 
-                  marginTop: '2rem', 
-                  padding: '0.75rem', 
-                  backgroundColor: 'var(--surface-container-high)', 
-                  color: 'var(--on-surface)', 
-                  fontSize: '0.875rem', 
-                  fontWeight: 600, 
-                  borderRadius: '0.5rem',
-                  border: 'none',
-                  cursor: 'pointer'
-                }}>
-                  See All Media Coverage
-                </button>
-              </section>
+              {/* Latest News Section — hidden entirely when no items (strict no-estimates) */}
+              {Array.isArray(newsItems) && newsItems.length > 0 && (
+                <section>
+                  <h3 className="profile-section-title" style={{ marginBottom: '1.5rem' }}>In the Headlines</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                    {newsItems.slice(0, PROFILE_NEWS_LIMIT).map((item, i, arr) => {
+                      const href = safeHref(item.url);
+                      return (
+                        <div key={`${item.url}:${i}`}>
+                          <span className="label-sm text-outline" style={{ display: 'block', marginBottom: '0.5rem' }}>
+                            {(item.source || 'Source unknown')} · {profileRelativeTime(item.published_at).toUpperCase()}
+                          </span>
+                          <a
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                              fontWeight: 600,
+                              color: 'var(--on-surface)',
+                              lineHeight: 1.3,
+                              textDecoration: 'none',
+                              display: 'block',
+                            }}
+                          >
+                            {item.title}
+                          </a>
+                          {i !== arr.length - 1 && (
+                            <div style={{ width: '100%', height: '1px', backgroundColor: 'var(--outline-variant)', marginTop: '1rem' }} />
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => navigate('/news')}
+                    style={{
+                      width: '100%',
+                      marginTop: '2rem',
+                      padding: '0.75rem',
+                      backgroundColor: 'var(--surface-container-high)',
+                      color: 'var(--on-surface)',
+                      fontSize: '0.875rem',
+                      fontWeight: 600,
+                      borderRadius: '0.5rem',
+                      border: 'none',
+                      cursor: 'pointer'
+                    }}
+                  >
+                    See All Media Coverage
+                  </button>
+                </section>
+              )}
             </div>
           </div>
         </div>

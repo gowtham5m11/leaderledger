@@ -14,6 +14,7 @@ const CandidateProfile = React.lazy(() => import('./components/CandidateProfile'
 const AccountPage = React.lazy(() => import('./pages/AccountPage'));
 const PrivacyPage = React.lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = React.lazy(() => import('./pages/TermsPage'));
+const NewsPage = React.lazy(() => import('./pages/NewsPage'));
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -29,10 +30,20 @@ const ScrollToTop = () => {
 };
 
 function App() {
-  const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = React.useState(() => {
+    try {
+      return localStorage.getItem('theme') || 'light';
+    } catch (e) {
+      return 'light';
+    }
+  });
 
   React.useEffect(() => {
-    localStorage.setItem('theme', theme);
+    try {
+      localStorage.setItem('theme', theme);
+    } catch (e) {
+      // safe fallback
+    }
   }, [theme]);
 
   const toggleTheme = () => {
@@ -57,6 +68,11 @@ function App() {
               <Route path="/list" element={
                 <Suspense fallback={<ListSkeleton />}>
                   <CandidateList />
+                </Suspense>
+              } />
+              <Route path="/news" element={
+                <Suspense fallback={<GenericPageSkeleton />}>
+                  <NewsPage />
                 </Suspense>
               } />
               <Route path="/profile/:id" element={
@@ -101,8 +117,9 @@ const FloatingNav = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   
-  const viewMode = pathname.includes('/district') ? 'district' : 
-                   pathname.includes('/list') ? 'list' : 
+  const viewMode = pathname.includes('/district') ? 'district' :
+                   pathname.includes('/list') ? 'list' :
+                   pathname.includes('/news') ? 'news' :
                    pathname.includes('/profile') ? 'profile' : '';
 
   return (
@@ -110,6 +127,7 @@ const FloatingNav = () => {
       {[
         { label: 'Map', icon: 'explore', path: '/district', view: 'district' },
         { label: 'List', icon: 'format_list_bulleted', path: '/list', view: 'list' },
+        { label: 'News', icon: 'newspaper', path: '/news', view: 'news' },
         { label: 'Compare', icon: 'compare_arrows', path: null, view: null },
         { label: 'Profile', icon: 'account_circle', path: id ? `/profile/${id}` : (pathname.includes('/profile') ? pathname : null), view: 'profile' },
       ].map(({ label, icon, path, view }) => {

@@ -95,3 +95,7 @@ claude.md
 
 src/data/candidates.json.bak_pre_2019_merge_20260518T024904
 src/data/candidates.json.bak_pre_2019_merge_20260518T025320
+
+# News pipeline. news.json IS committed (Plan A — Firebase Spark plan,
+# no Storage). Only the in-flight backup files stay untracked.
+public/data/news.json.bak_pre_fetch_*
