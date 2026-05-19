@@ -1613,7 +1613,10 @@ h6,
 @media (max-width: 768px) {
   .details-panel-container.is-dragging { transition: none !important; }
 
-  /* Visible drag affordance at the top of the sheet. */
+  /* Visible drag affordance at the top of the sheet.
+     pointer-events: auto is required — the parent .details-panel-container
+     sets pointer-events: none to let map clicks through, and the handle
+     would otherwise inherit and ignore touches. */
   .sheet-handle {
     position: absolute;
     top: 0;
@@ -1625,6 +1628,7 @@ h6,
     justify-content: center;
     cursor: grab;
     touch-action: none;
+    pointer-events: auto;
     z-index: 5;
   }
   .sheet-handle::before {

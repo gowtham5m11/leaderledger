@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { HashRouter as Router, Routes, Route, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import IntroGuide from './components/IntroGuide';
 import DesktopHint from './components/DesktopHint';
@@ -115,12 +115,10 @@ function App() {
 const FloatingNav = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
-  const { id } = useParams();
-  
+
   const viewMode = pathname.includes('/district') ? 'district' :
                    pathname.includes('/list') ? 'list' :
-                   pathname.includes('/news') ? 'news' :
-                   pathname.includes('/profile') ? 'profile' : '';
+                   pathname.includes('/news') ? 'news' : '';
 
   return (
     <div className="floating-nav">
@@ -128,8 +126,6 @@ const FloatingNav = () => {
         { label: 'Map', icon: 'explore', path: '/district', view: 'district' },
         { label: 'List', icon: 'format_list_bulleted', path: '/list', view: 'list' },
         { label: 'News', icon: 'newspaper', path: '/news', view: 'news' },
-        { label: 'Compare', icon: 'compare_arrows', path: null, view: null },
-        { label: 'Profile', icon: 'account_circle', path: id ? `/profile/${id}` : (pathname.includes('/profile') ? pathname : null), view: 'profile' },
       ].map(({ label, icon, path, view }) => {
         const isActive = viewMode === view;
         return (
