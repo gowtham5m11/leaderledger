@@ -5,7 +5,7 @@ import { useIsMobile } from '../hooks/useIsMobile';
 
 // Bump the storage-key suffix whenever the steps change shape so returning
 // users see the new tour.
-const STORAGE_KEY = 'll_tour_step_v3';
+const STORAGE_KEY = 'll_tour_step_v4';
 // Wait this long after entering a profile before the spotlight steps fire,
 // so the page has time to settle visually.
 const PROFILE_DELAY_MS = 800;
@@ -13,25 +13,21 @@ const PROFILE_DELAY_MS = 800;
 // Step definitions. `selector` is the DOM target for the spotlight (or null
 // for a centered banner). `route` is the path the step belongs on; if the
 // user is elsewhere, the step waits (or shows a hint) until they get there.
+//
+// Order follows the mobile journey: mobile users land on /list (see
+// HomeRedirect in App.jsx), so the tour opens there, walks down a candidate
+// profile, and finishes by sending the user to the district map.
 const STEPS = [
   {
     id: 1,
-    route: '/district',
+    route: '/list',
     selector: null,
-    title: 'Explore the district map',
-    body: 'Pinch and zoom on any district to see who won and who ran in that constituency.',
+    title: 'Welcome to LeaderLedger',
+    body: 'This is the full list of all 175 Assembly candidates. Let’s take a quick tour.',
     placement: 'bottom-banner',
   },
   {
     id: 2,
-    route: '/district',
-    selector: '[data-tour="nav-list"]',
-    title: 'Open the Candidates page',
-    body: 'Tap the List tab below to browse every candidate.',
-    placement: 'above',
-  },
-  {
-    id: 3,
     route: '/list',
     selector: '[data-tour="search"]',
     title: 'Search a candidate',
@@ -39,11 +35,11 @@ const STEPS = [
     placement: 'below',
   },
   {
-    id: 4,
+    id: 3,
     route: '/list',
     selector: '[data-tour="count"]',
     title: 'Watch the counter',
-    body: 'This shows how many of the 175 candidates match your search. Scroll down to see them.',
+    body: 'This shows how many of the 175 candidates match your search. Scroll down and tap any candidate to open their profile.',
     placement: 'below',
   },
   // Profile-route steps are ordered to follow the visual flow down a
@@ -51,7 +47,7 @@ const STEPS = [
   // right column criminal card). When the page layout changes, reorder
   // these to match and bump STORAGE_KEY.
   {
-    id: 5,
+    id: 4,
     route: '/profile',
     selector: '[data-tour="bookmark"]',
     title: 'Bookmark your favourite',
@@ -59,7 +55,7 @@ const STEPS = [
     placement: 'below',
   },
   {
-    id: 6,
+    id: 5,
     route: '/profile',
     selector: '[data-tour="report"]',
     title: 'Spotted something wrong?',
@@ -67,7 +63,7 @@ const STEPS = [
     placement: 'below',
   },
   {
-    id: 7,
+    id: 6,
     route: '/profile',
     selector: '[data-tour="education"]',
     title: 'Education',
@@ -75,7 +71,7 @@ const STEPS = [
     placement: 'below',
   },
   {
-    id: 8,
+    id: 7,
     route: '/profile',
     selector: '[data-tour="profession"]',
     title: 'Profession',
@@ -83,7 +79,7 @@ const STEPS = [
     placement: 'below',
   },
   {
-    id: 9,
+    id: 8,
     route: '/profile',
     selector: '[data-tour="ministries"]',
     title: 'Portfolios held',
@@ -92,7 +88,7 @@ const STEPS = [
     optional: true,
   },
   {
-    id: 10,
+    id: 9,
     route: '/profile',
     selector: '[data-tour="social"]',
     title: 'Official socials',
@@ -101,12 +97,21 @@ const STEPS = [
     optional: true,
   },
   {
-    id: 11,
+    id: 10,
     route: '/profile',
     selector: '[data-tour="criminal"]',
     title: 'Criminal record',
     body: 'Pending cases and convictions pulled from this candidate’s ECI affidavit.',
     placement: 'above',
+  },
+  {
+    id: 11,
+    route: '/district',
+    selector: null,
+    title: 'Explore the district map',
+    body: 'Finally — tap the Map tab any time to pinch and zoom the constituency map and see who won and who ran in each seat.',
+    placement: 'bottom-banner',
+    pinch: true,
   },
 ];
 
@@ -185,6 +190,16 @@ const PinchAnimation = () => (
   </div>
 );
 
+const checkPolicyAccepted = () => {
+  try {
+    const raw = localStorage.getItem('ll_policy_v1');
+    const n = Number(raw);
+    return Number.isFinite(n) && n >= 1; // Matches POLICY_VERSION = 1
+  } catch {
+    return false;
+  }
+};
+
 const IntroGuide = () => {
   const isMobile = useIsMobile();
   const location = useLocation();
@@ -194,6 +209,15 @@ const IntroGuide = () => {
 
   const [step, setStep] = React.useState(() => readStoredStep());
   const [profileReady, setProfileReady] = React.useState(false);
+  const [policyAccepted, setPolicyAccepted] = React.useState(() => checkPolicyAccepted());
+
+  React.useEffect(() => {
+    const handlePolicyAccepted = () => {
+      setPolicyAccepted(true);
+    };
+    window.addEventListener('ll:policy-accepted', handlePolicyAccepted);
+    return () => window.removeEventListener('ll:policy-accepted', handlePolicyAccepted);
+  }, []);
 
   // Reset the profile-ready delay every time the pathname switches to a new
   // profile id (or off-profile).
@@ -217,24 +241,23 @@ const IntroGuide = () => {
   // Auto-advance on route / state changes (still fires even with manual
   // nav buttons, so user actions don't get out of sync with the tour).
   React.useEffect(() => {
-    if (step === 2 && location.pathname.startsWith('/list')) {
-      persistStep(3);
-      return;
-    }
-    if (step === 3) {
+    // Step 2 (search) → advance once the user has typed a query.
+    if (step === 2) {
       const q = (searchParams.get('q') || '').trim();
       if (q.length > 0) {
-        persistStep(4);
+        persistStep(3);
         return;
       }
     }
-    if (step === 4 && location.pathname.startsWith('/profile/')) {
-      persistStep(5);
+    // Step 3 (counter) → advance when the user opens any profile.
+    if (step === 3 && location.pathname.startsWith('/profile/')) {
+      persistStep(4);
+      return;
     }
-    // If Firebase isn't configured, Bookmark + Report buttons never mount —
-    // end the tour after step 4 instead of hanging.
-    if (!configured && (step === 5 || step === 6)) {
-      persistStep('done');
+    // Bookmark + Report need Firebase; if it isn't configured those buttons
+    // never mount — skip past them to the education step instead of hanging.
+    if (!configured && (step === 4 || step === 5)) {
+      persistStep(6);
     }
   }, [step, location.pathname, searchParams, configured, persistStep]);
 
@@ -330,6 +353,7 @@ const IntroGuide = () => {
     scrolledForStepRef.current = currentStep.id;
   }, [currentStep, rect]);
 
+  if (!policyAccepted) return null;
   if (!isMobile) return null;
   if (!currentStep) return null;
   if (!onRightRoute) return null;
@@ -372,7 +396,7 @@ const IntroGuide = () => {
   if (!currentStep.selector || currentStep.placement === 'bottom-banner') {
     return (
       <>
-        {currentStep.id === 1 && <PinchAnimation />}
+        {currentStep.pinch && <PinchAnimation />}
         <div
           className="tour-backdrop tour-backdrop--clear"
           role="dialog"

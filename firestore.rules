@@ -20,6 +20,24 @@ service cloud.firestore {
       return isSignedIn() && request.auth.token.admin == true;
     }
 
+    // --- Reaction helpers ---------------------------------------------------
+    function reactionKeys() {
+      return ['useful', 'concerned', 'needs_investigation'];
+    }
+
+    // A reactions doc holds exactly the 3 counters, all non-negative ints.
+    function validReactionDoc(d) {
+      return d.keys().hasOnly(reactionKeys())
+        && d.useful is int && d.useful >= 0
+        && d.concerned is int && d.concerned >= 0
+        && d.needs_investigation is int && d.needs_investigation >= 0;
+    }
+
+    // A single counter may move by at most 1 per write (toggle / switch).
+    function movesByAtMostOne(next, prev) {
+      return next >= prev - 1 && next <= prev + 1;
+    }
+
     // --- User profile -------------------------------------------------------
     // Each authenticated user maintains exactly one /users/{uid} doc that
     // mirrors their Auth profile. They (and admins) can read it; only they
@@ -126,6 +144,89 @@ service cloud.firestore {
 
       allow delete: if isAdmin() 
         || (isSignedIn() && resource.data.uid == request.auth.uid);
+    }
+
+    // --- Reaction counts ----------------------------------------------------
+    // /reactions/{candidateId} — public aggregate tally: { useful, concerned,
+    // needs_investigation }. Anyone (signed out included) can READ the numbers.
+    //
+    // The draft spec used `allow write: if request.auth != null`, which would
+    // let any signed-in user overwrite the public counts with any value via a
+    // direct SDK call. Instead the write rules below pin the doc shape and
+    // require every counter to move by at most ±1 per write — so a client can
+    // only register a single toggle/switch, never set an arbitrary total. The
+    // client commits this together with the user_reactions doc in one batch
+    // (see ReactionsContext.jsx) using FieldValue.increment().
+    //
+    // This is increment-validation, not abuse-proofing: a determined client
+    // could still loop ±1 writes. A strict per-user rate limit would need a
+    // /users/{uid}/meta throttle doc (as `reports` does) or a Cloud Function.
+    // App Check (already wired in firebase.js) is the intended next gate.
+    match /reactions/{candidateId} {
+      allow read: if true;
+
+      allow create: if isSignedIn()
+        && candidateId.size() <= 64
+        && candidateId.matches('[A-Za-z0-9_-]+')
+        && validReactionDoc(request.resource.data)
+        && request.resource.data.useful <= 1
+        && request.resource.data.concerned <= 1
+        && request.resource.data.needs_investigation <= 1;
+
+      allow update: if isSignedIn()
+        && validReactionDoc(request.resource.data)
+        && movesByAtMostOne(request.resource.data.useful, resource.data.useful)
+        && movesByAtMostOne(request.resource.data.concerned, resource.data.concerned)
+        && movesByAtMostOne(request.resource.data.needs_investigation, resource.data.needs_investigation);
+
+      // Aggregate tallies are never deleted by the client.
+      allow delete: if false;
+    }
+
+    // --- News article reaction counts --------------------------------------
+    // /news_reactions/{articleId} — same public-read, increment-locked tally
+    // as /reactions, but for news items. articleId is a hash of the article
+    // URL (see src/reactions/newsReactionId.js). Kept in its own collection
+    // because the news catalogue churns hourly and must NOT be pulled with a
+    // single collection-wide listener — counts are loaded per screen.
+    match /news_reactions/{articleId} {
+      allow read: if true;
+
+      allow create: if isSignedIn()
+        && articleId.size() <= 64
+        && articleId.matches('[A-Za-z0-9_-]+')
+        && validReactionDoc(request.resource.data)
+        && request.resource.data.useful <= 1
+        && request.resource.data.concerned <= 1
+        && request.resource.data.needs_investigation <= 1;
+
+      allow update: if isSignedIn()
+        && validReactionDoc(request.resource.data)
+        && movesByAtMostOne(request.resource.data.useful, resource.data.useful)
+        && movesByAtMostOne(request.resource.data.concerned, resource.data.concerned)
+        && movesByAtMostOne(request.resource.data.needs_investigation, resource.data.needs_investigation);
+
+      allow delete: if false;
+    }
+
+    // --- Per-user reaction record ------------------------------------------
+    // /user_reactions/{uid}/{kind}/{itemId} — one doc per item the user has
+    // reacted to: { reaction, timestamp }. `kind` is 'candidates' or 'news'.
+    // Owner-only read/write; schema-locked so a direct SDK call can't smuggle
+    // in extra fields, an off-enum reaction, or a back-dated timestamp.
+    // Toggling a reaction off deletes the doc.
+    match /user_reactions/{uid}/{kind}/{itemId} {
+      allow read: if isOwner(uid);
+
+      allow create, update: if isOwner(uid)
+        && kind in ['candidates', 'news']
+        && itemId.size() <= 64
+        && itemId.matches('[A-Za-z0-9_-]+')
+        && request.resource.data.keys().hasOnly(['reaction', 'timestamp'])
+        && request.resource.data.reaction in reactionKeys()
+        && request.resource.data.timestamp == request.time;
+
+      allow delete: if isOwner(uid);
     }
 
     // --- Deny everything else ----------------------------------------------

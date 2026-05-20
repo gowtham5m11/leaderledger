@@ -2,7 +2,7 @@ import React from 'react';
 import { useIsMobile } from '../hooks/useIsMobile';
 
 const STORAGE_KEY = 'll_desktop_hint_v1';
-const DELAY_MS = 10000;
+const DELAY_MS = 1000000;
 
 const DesktopHint = () => {
   const isMobile = useIsMobile();

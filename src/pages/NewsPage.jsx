@@ -6,6 +6,9 @@ import candidates from '../data/candidates.json';
 import { partyColor, partyOnColor } from '../data/mockData';
 import { safeHref } from '../utils/safeHref';
 import { loadNews } from '../data/newsClient';
+import { newsReactionId } from '../reactions/newsReactionId';
+import { useNewsReactionCounts } from '../hooks/useNewsReactionCounts';
+import NewsReactionBar from '../components/NewsReactionBar';
 
 const PAGE_SIZE = 30;
 const STALE_AFTER_MS = 2 * 60 * 60 * 1000; // 2h
@@ -91,7 +94,7 @@ function relationFor(item, cand) {
   return { label: 'Related coverage', kind: 'loose' };
 }
 
-const NewsCard = ({ item, dimmed = false }) => {
+const NewsCard = ({ item, dimmed = false, reactionId, reactionCounts }) => {
   const cand = candidatesById.get(String(item.candidate_id));
   const colorVar = cand ? partyColor(cand.party) : 'var(--outline)';
   const onColor = cand ? partyOnColor(cand.party) : 'var(--on-surface)';
@@ -158,6 +161,8 @@ const NewsCard = ({ item, dimmed = false }) => {
       {item.snippet && (
         <p className="news-card-snippet body-sm">{item.snippet}</p>
       )}
+
+      <NewsReactionBar articleId={reactionId} counts={reactionCounts} />
     </article>
   );
 };
@@ -237,6 +242,17 @@ const NewsPage = () => {
     });
     return [...sel, ...unsel];
   }, [items, selectedIds, hasFilter]);
+
+  // Reaction counts for the articles currently rendered. Declared before the
+  // early returns below so the hook call order stays stable across renders.
+  const visibleArticleIds = useMemo(
+    () => orderedItems
+      .slice(0, visibleCount)
+      .map((it) => newsReactionId(it.url))
+      .filter(Boolean),
+    [orderedItems, visibleCount],
+  );
+  const getNewsCounts = useNewsReactionCounts(visibleArticleIds);
 
   const toggleSelect = (cid) => {
     const id = String(cid);
@@ -401,11 +417,14 @@ const NewsPage = () => {
       <div className="news-feed">
         {visible.map((item) => {
           const dimmed = hasFilter && !selectedIds.has(String(item.candidate_id));
+          const rid = newsReactionId(item.url);
           return (
             <NewsCard
               key={`${item.candidate_id}:${item.url}`}
               item={item}
               dimmed={dimmed}
+              reactionId={rid}
+              reactionCounts={getNewsCounts(rid)}
             />
           );
         })}

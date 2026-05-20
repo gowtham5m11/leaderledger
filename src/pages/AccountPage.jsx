@@ -8,20 +8,29 @@ import { useBookmarks } from '../hooks/useBookmarks';
 import candidates from '../data/candidates.json';
 import LeaderCard from '../components/LeaderCard';
 
-// Right-to-erasure: wipes all bookmarks (subcollection), the throttle doc,
-// then the user doc itself. Reports are kept (moderation records about
-// candidate data, not about you — privacy policy documents this).
+// Right-to-erasure: wipes all bookmarks, the user's candidate + news reaction
+// records, the throttle doc, then the user doc itself. Reports are kept
+// (moderation records about candidate data, not about you — privacy policy
+// documents this). The aggregate /reactions + /news_reactions counts are kept
+// too: they're anonymous community tallies that no longer identify the user
+// once their /user_reactions docs are gone.
 // Firestore SDK can't delete a subcollection in one call, so we batch the
 // children first, then delete the parent.
-async function deleteUserData(uid) {
-  if (!db || !uid) return;
-  const bookmarksSnap = await getDocs(collection(db, 'users', uid, 'bookmarks'));
-  const docs = bookmarksSnap.docs;
+async function deleteCollectionDocs(ref) {
+  const snap = await getDocs(ref);
+  const docs = snap.docs;
   for (let i = 0; i < docs.length; i += 400) {
     const batch = writeBatch(db);
     docs.slice(i, i + 400).forEach((d) => batch.delete(d.ref));
     await batch.commit();
   }
+}
+
+async function deleteUserData(uid) {
+  if (!db || !uid) return;
+  await deleteCollectionDocs(collection(db, 'users', uid, 'bookmarks'));
+  await deleteCollectionDocs(collection(db, 'user_reactions', uid, 'candidates'));
+  await deleteCollectionDocs(collection(db, 'user_reactions', uid, 'news'));
   await deleteDoc(doc(db, 'users', uid, 'meta', 'throttle')).catch(() => {});
   await deleteDoc(doc(db, 'users', uid));
 }
@@ -50,7 +59,7 @@ const AccountPage = () => {
     if (!user) return;
     const confirmed = window.confirm(
       'Delete your account?\n\n' +
-      'This permanently removes your profile and all bookmarks.\n' +
+      'This permanently removes your profile, bookmarks and reactions.\n' +
       "Reports you've submitted are kept (they're moderation records about candidate data) but no longer linked to your identity.\n\n" +
       'This action cannot be undone.'
     );

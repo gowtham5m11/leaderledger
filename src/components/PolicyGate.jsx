@@ -48,10 +48,12 @@ const PolicyGate = () => {
           if (fsAccepted) {
             setAccepted(true);
             try { localStorage.setItem(STORAGE_KEY, String(POLICY_VERSION)); } catch { /* ignore */ }
+            window.dispatchEvent(new CustomEvent('ll:policy-accepted'));
           } else if (lsAccepted) {
             setAccepted(true);
             setDoc(doc(db, 'users', user.uid), { policyVersion: POLICY_VERSION }, { merge: true })
               .catch((err) => console.warn('Policy sync failed:', err?.code || err?.message));
+            window.dispatchEvent(new CustomEvent('ll:policy-accepted'));
           } else {
             setAccepted(false);
           }
@@ -89,6 +91,7 @@ const PolicyGate = () => {
     } finally {
       setAccepted(true);
       setSubmitting(false);
+      window.dispatchEvent(new CustomEvent('ll:policy-accepted'));
     }
   };
 

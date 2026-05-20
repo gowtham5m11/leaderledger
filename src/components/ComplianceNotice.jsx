@@ -21,7 +21,7 @@ const setConsent = (value) => {
   }
 };
 
-const CookieConsent = () => {
+const ComplianceNotice = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -107,4 +107,4 @@ const CookieConsent = () => {
   );
 };
 
-export default CookieConsent;
+export default ComplianceNotice;

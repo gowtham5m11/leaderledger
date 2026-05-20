@@ -92,6 +92,10 @@ scraper_lab/affidavit_guidlines.pdf
 scraper_lab/affidavit_cases_styles.pdf
 CLAUDE.md
 claude.md
+# Split-out CLAUDE.md runbooks + dated archives — local-only, same as CLAUDE.md.
+# Repo is public; these hold internal infra/security notes. Carve out a public
+# doc later with e.g. `!docs/public-thing.md` if ever needed.
+docs/
 
 src/data/candidates.json.bak_pre_2019_merge_20260518T024904
 src/data/candidates.json.bak_pre_2019_merge_20260518T025320

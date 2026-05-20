@@ -6,9 +6,13 @@ import { partyColors, partyColor as partyColorVar, sectorColor, sectorLabel } fr
 import { getAssetPath } from '../utils/assetHelper';
 import { safeHref } from '../utils/safeHref';
 import BookmarkButton from './BookmarkButton';
+import ReactionBar from './ReactionBar';
+import NewsReactionBar from './NewsReactionBar';
 import ReportModal from './ReportModal';
 import { useAuth } from '../auth/AuthContext';
 import { loadNewsForCandidate } from '../data/newsClient';
+import { newsReactionId } from '../reactions/newsReactionId';
+import { useNewsReactionCounts } from '../hooks/useNewsReactionCounts';
 
 const PROFILE_NEWS_LIMIT = 3;
 
@@ -45,6 +49,16 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
     });
     return () => { alive = false; };
   }, [effectiveId]);
+
+  // Reaction counts for the headline teaser items. Declared before the early
+  // return below so the hook call order stays stable across renders.
+  const headlineIds = React.useMemo(
+    () => (Array.isArray(newsItems) ? newsItems.slice(0, PROFILE_NEWS_LIMIT) : [])
+      .map((it) => newsReactionId(it.url))
+      .filter(Boolean),
+    [newsItems],
+  );
+  const getNewsCounts = useNewsReactionCounts(headlineIds);
 
   const candidate = propCandidate || candidates.find(l => String(l.id) === String(id));
 
@@ -378,6 +392,9 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
 
             {/* Right Column: Critical Info & News */}
             <div className="profile-side">
+              {/* Community Reactions */}
+              <ReactionBar candidateId={candidate.id} />
+
               {/* Criminal Record Section */}
               <section data-tour="criminal" className="profile-criminal" style={{
                 backgroundColor: hasNoCases ? 'color-mix(in srgb, var(--primary) 12%, transparent)' : 'var(--error-container)',
@@ -458,6 +475,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                     {newsItems.slice(0, PROFILE_NEWS_LIMIT).map((item, i, arr) => {
                       const href = safeHref(item.url);
+                      const rid = newsReactionId(item.url);
                       return (
                         <div key={`${item.url}:${i}`}>
                           <span className="label-sm text-outline" style={{ display: 'block', marginBottom: '0.5rem' }}>
@@ -477,6 +495,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                           >
                             {item.title}
                           </a>
+                          <NewsReactionBar articleId={rid} counts={getNewsCounts(rid)} />
                           {i !== arr.length - 1 && (
                             <div style={{ width: '100%', height: '1px', backgroundColor: 'var(--outline-variant)', marginTop: '1rem' }} />
                           )}

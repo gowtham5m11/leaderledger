@@ -2,6 +2,7 @@ import React from 'react';
 import { sectorColor } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
 import BookmarkButton from './BookmarkButton';
+import ReactionSummary from './ReactionSummary';
 
 const roleIcon = (role) => {
   if (!role) return null;
@@ -132,8 +133,9 @@ const LeaderCard = ({ leader, onClick }) => {
         )}
       </div>
 
-      <div className="card-footer" style={{ marginTop: 'auto', paddingTop: '0.5rem', display: 'flex', justifyContent: 'flex-end' }}>
-        <span className="material-symbols-outlined" style={{ color: 'var(--primary)', opacity: 0.5 }}>
+      <div className="card-footer" style={{ marginTop: 'auto', paddingTop: '0.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.5rem' }}>
+        <ReactionSummary candidateId={leader.id} />
+        <span className="material-symbols-outlined" style={{ color: 'var(--primary)', opacity: 0.5, flexShrink: 0 }}>
           arrow_forward
         </span>
       </div>
