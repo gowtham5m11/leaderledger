@@ -1898,6 +1898,25 @@ h6,
 }
 .news-filter-clear:hover { text-decoration: underline; }
 
+/* Party news strip: always-on, one pill per party with elected MLAs. Toggling
+   a pill folds that party's MLA coverage into the feed. Works with zero
+   bookmarks — pills reuse .news-filter-pill styling. */
+.news-party-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+.news-party-strip-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--on-surface-variant);
+  margin-right: 0.15rem;
+}
+
 /* Dimmed (un-selected) news cards when a filter is active. Still readable on
    hover, just visually pushed back so selected candidates' items dominate. */
 .news-card--dim {
@@ -1913,6 +1932,7 @@ h6,
   .news-empty-card { padding: 1.5rem 1rem; }
   .news-candidate-chip { font-size: 0.72rem; padding: 0.2rem 0.65rem; }
   .news-filter-pill { font-size: 0.74rem; padding: 0.28rem 0.7rem; }
+  .news-party-strip-label { font-size: 0.7rem; }
 }
 
 /* Skeleton Loading Animations */

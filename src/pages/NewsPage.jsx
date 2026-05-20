@@ -10,7 +10,7 @@ import { newsReactionId } from '../reactions/newsReactionId';
 import { useNewsReactionCounts } from '../hooks/useNewsReactionCounts';
 import NewsReactionBar from '../components/NewsReactionBar';
 
-const PAGE_SIZE = 30;
+const PAGE_SIZE = 20;
 const STALE_AFTER_MS = 2 * 60 * 60 * 1000; // 2h
 
 const rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
@@ -38,6 +38,23 @@ function relativeMinutes(iso) {
 }
 
 const candidatesById = new Map(candidates.map((c) => [String(c.id), c]));
+
+// Parties with 2024 elected MLAs, in seat order — drives the always-on party
+// news strip. There's no party-level scrape, so a party's feed is assembled
+// from the per-candidate news of every MLA in that party.
+const PARTY_BUTTONS = [
+  { party: 'TDP', label: 'TDP' },
+  { party: 'Janasena Party', label: 'Janasena' },
+  { party: 'YSRCP', label: 'YSRCP' },
+  { party: 'BJP', label: 'BJP' },
+];
+
+const candidateIdsByParty = candidates.reduce((m, c) => {
+  const arr = m.get(c.party) || [];
+  arr.push(String(c.id));
+  m.set(c.party, arr);
+  return m;
+}, new Map());
 
 const PARTY_ALIASES = {
   TDP: ['tdp', 'telugu desam'],
@@ -183,8 +200,9 @@ const NewsPage = () => {
 
   const [newsDoc, setNewsDoc] = useState(null);
   const [newsLoading, setNewsLoading] = useState(true);
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [currentPage, setCurrentPage] = useState(1);
   const [selectedIds, setSelectedIds] = useState(() => new Set());
+  const [selectedParties, setSelectedParties] = useState(() => new Set());
 
   useEffect(() => {
     let alive = true;
@@ -207,6 +225,43 @@ const NewsPage = () => {
     flat.sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''));
     return flat;
   }, [newsDoc, bookmarkIds]);
+
+  // Party feed — every MLA's news for the toggled parties, deduped by URL.
+  // Independent of bookmarks, so the strip works on a fresh account.
+  const partyItems = useMemo(() => {
+    if (!newsDoc || selectedParties.size === 0) return [];
+    const seen = new Set();
+    const flat = [];
+    selectedParties.forEach((party) => {
+      (candidateIdsByParty.get(party) || []).forEach((cid) => {
+        (newsDoc.by_candidate[cid] || []).forEach((it) => {
+          if (it.url) {
+            if (seen.has(it.url)) return;
+            seen.add(it.url);
+          }
+          flat.push({ ...it, candidate_id: cid });
+        });
+      });
+    });
+    flat.sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''));
+    return flat;
+  }, [newsDoc, selectedParties]);
+
+  // Bookmark news + selected-party news, deduped by URL into one date-sorted
+  // feed. Falls back to plain bookmark items when no party is toggled.
+  const feedItems = useMemo(() => {
+    if (selectedParties.size === 0) return items;
+    const seen = new Set();
+    const out = [];
+    [...items, ...partyItems].forEach((it) => {
+      const key = it.url || `${it.candidate_id}:${it.title}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      out.push(it);
+    });
+    out.sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''));
+    return out;
+  }, [items, partyItems, selectedParties]);
 
   // Bookmarked candidates in Firestore order (most-recently bookmarked first),
   // driving the filter strip.
@@ -233,24 +288,24 @@ const NewsPage = () => {
 
   // Selected first (still date-sorted), unselected pushed below (still date-sorted).
   const orderedItems = useMemo(() => {
-    if (!hasFilter) return items;
+    if (!hasFilter) return feedItems;
     const sel = [];
     const unsel = [];
-    items.forEach((it) => {
+    feedItems.forEach((it) => {
       if (selectedIds.has(String(it.candidate_id))) sel.push(it);
       else unsel.push(it);
     });
     return [...sel, ...unsel];
-  }, [items, selectedIds, hasFilter]);
+  }, [feedItems, selectedIds, hasFilter]);
 
   // Reaction counts for the articles currently rendered. Declared before the
   // early returns below so the hook call order stays stable across renders.
   const visibleArticleIds = useMemo(
     () => orderedItems
-      .slice(0, visibleCount)
+      .slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
       .map((it) => newsReactionId(it.url))
       .filter(Boolean),
-    [orderedItems, visibleCount],
+    [orderedItems, currentPage],
   );
   const getNewsCounts = useNewsReactionCounts(visibleArticleIds);
 
@@ -264,8 +319,19 @@ const NewsPage = () => {
     });
   };
 
+  const toggleParty = (party) => {
+    setSelectedParties((prev) => {
+      const next = new Set(prev);
+      if (next.has(party)) next.delete(party);
+      else next.add(party);
+      return next;
+    });
+  };
+
   // Reset pagination whenever the displayed list or filter changes.
-  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [items.length, selectedIds]);
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [feedItems.length, selectedIds, selectedParties]);
 
   const generatedAt = newsDoc && newsDoc.generated_at;
   const staleMinutes = relativeMinutes(generatedAt);
@@ -323,41 +389,45 @@ const NewsPage = () => {
     );
   }
 
-  if (bookmarkIds.size === 0) {
-    return (
-      <main className="page-main">
-        <h1 className="display-md" style={{ marginBottom: '1.5rem' }}>News</h1>
-        <EmptyCard
-          title="Bookmark a candidate to see their news here"
-          body="Tap the bookmark icon on any candidate's profile to start your feed."
-          cta={
-            <Link to="/list" className="news-cta-btn">
-              Browse candidates
-            </Link>
-          }
-        />
-      </main>
-    );
-  }
+  const totalPages = Math.max(1, Math.ceil(orderedItems.length / PAGE_SIZE));
+  const visible = orderedItems.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+  const hasParty = selectedParties.size > 0;
 
-  if (items.length === 0) {
-    return (
-      <main className="page-main">
-        <h1 className="display-md" style={{ marginBottom: '1.5rem' }}>News</h1>
-        {generatedAt && (
-          <p className="body-sm text-on-surface-variant" style={{ marginBottom: '1rem' }}>
-            Last refreshed {relativeTime(generatedAt)}
-          </p>
-        )}
-        <EmptyCard
-          title="No recent coverage yet"
-          body="We didn't find any news from the last 90 days for your bookmarked candidates. Check back after the next refresh."
-        />
-      </main>
-    );
-  }
-
-  const visible = orderedItems.slice(0, visibleCount);
+  const partyStrip = (
+    <div className="news-party-strip" role="group" aria-label="Browse news by party">
+      <span className="news-party-strip-label">Party news</span>
+      {PARTY_BUTTONS.map(({ party, label }) => {
+        const sel = selectedParties.has(party);
+        const color = partyColor(party);
+        const onColor = partyOnColor(party);
+        return (
+          <button
+            key={party}
+            type="button"
+            className={`news-filter-pill${sel ? ' is-selected' : ''}`}
+            onClick={() => toggleParty(party)}
+            aria-pressed={sel}
+            style={
+              sel
+                ? { background: color, color: onColor, borderColor: color }
+                : { borderColor: color, color: 'var(--on-surface)' }
+            }
+          >
+            {label}
+          </button>
+        );
+      })}
+      {hasParty && (
+        <button
+          type="button"
+          className="news-filter-clear"
+          onClick={() => setSelectedParties(new Set())}
+        >
+          Clear
+        </button>
+      )}
+    </div>
+  );
 
   return (
     <main className="page-main">
@@ -366,9 +436,8 @@ const NewsPage = () => {
       {generatedAt && (
         <p className="body-sm text-on-surface-variant" style={{ marginBottom: '1rem' }}>
           Last refreshed {relativeTime(generatedAt)}
-          {' · '}
-          {items.length} item{items.length === 1 ? '' : 's'} across{' '}
-          {bookmarkIds.size} bookmark{bookmarkIds.size === 1 ? '' : 's'}
+          {orderedItems.length > 0 &&
+            ` · ${orderedItems.length} item${orderedItems.length === 1 ? '' : 's'}`}
         </p>
       )}
 
@@ -378,6 +447,8 @@ const NewsPage = () => {
           The automated refresh may be delayed.
         </div>
       )}
+
+      {partyStrip}
 
       {bookmarkedCandidates.length > 1 && (
         <div className="news-filter-strip" role="group" aria-label="Filter by bookmarked candidate">
@@ -414,30 +485,77 @@ const NewsPage = () => {
         </div>
       )}
 
-      <div className="news-feed">
-        {visible.map((item) => {
-          const dimmed = hasFilter && !selectedIds.has(String(item.candidate_id));
-          const rid = newsReactionId(item.url);
-          return (
-            <NewsCard
-              key={`${item.candidate_id}:${item.url}`}
-              item={item}
-              dimmed={dimmed}
-              reactionId={rid}
-              reactionCounts={getNewsCounts(rid)}
-            />
-          );
-        })}
-      </div>
+      {orderedItems.length === 0 ? (
+        <EmptyCard
+          title={
+            bookmarkIds.size === 0
+              ? 'Pick a party, or bookmark a candidate'
+              : 'No recent coverage yet'
+          }
+          body={
+            bookmarkIds.size === 0
+              ? 'Tap a party above to browse recent coverage of its MLAs — or bookmark candidates to build a feed that follows them.'
+              : "We didn't find any news from the last 90 days for your bookmarked candidates. Tap a party above to browse wider coverage."
+          }
+          cta={
+            bookmarkIds.size === 0 ? (
+              <Link to="/list" className="news-cta-btn">
+                Browse candidates
+              </Link>
+            ) : null
+          }
+        />
+      ) : (
+        <>
+          <div className="news-feed">
+            {visible.map((item) => {
+              const dimmed = hasFilter && !selectedIds.has(String(item.candidate_id));
+              const rid = newsReactionId(item.url);
+              return (
+                <NewsCard
+                  key={`${item.candidate_id}:${item.url}`}
+                  item={item}
+                  dimmed={dimmed}
+                  reactionId={rid}
+                  reactionCounts={getNewsCounts(rid)}
+                />
+              );
+            })}
+          </div>
 
-      {visibleCount < orderedItems.length && (
-        <button
-          type="button"
-          className="news-load-more"
-          onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
-        >
-          Load more ({orderedItems.length - visibleCount} remaining)
-        </button>
+          <div
+            className="news-pagination"
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              padding: '1.5rem 0 6rem 0',
+              marginTop: '1rem',
+            }}
+          >
+            <button
+              type="button"
+              className="news-cta-btn"
+              disabled={currentPage === 1}
+              onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+              style={{ padding: '0.5rem 1rem', opacity: currentPage === 1 ? 0.5 : 1 }}
+            >
+              Previous
+            </button>
+            <span className="body-sm text-on-surface-variant font-medium">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              type="button"
+              className="news-cta-btn"
+              disabled={currentPage === totalPages}
+              onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+              style={{ padding: '0.5rem 1rem', opacity: currentPage === totalPages ? 0.5 : 1 }}
+            >
+              Next
+            </button>
+          </div>
+        </>
       )}
     </main>
   );

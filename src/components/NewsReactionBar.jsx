@@ -3,11 +3,10 @@ import { useNewsReactions } from '../reactions/NewsReactionsContext';
 import { useAuth } from '../auth/AuthContext';
 
 // Compact, dense variant of the reaction bar for news cards (cards already
-// carry a lot of metadata). One row of three pill buttons: emoji + count.
+// carry a lot of metadata). One row of two pill buttons: emoji + count.
 const REACTIONS = [
-  { key: 'useful', emoji: '👍', label: 'Useful' },
-  { key: 'concerned', emoji: '😠', label: 'Concerned' },
-  { key: 'needs_investigation', emoji: '🔍', label: 'Needs investigation' },
+  { key: 'useful', emoji: '👍', label: 'Thumbs Up' },
+  { key: 'concerned', emoji: '👎', label: 'Thumbs Down' },
 ];
 const EMPTY_COUNTS = { useful: 0, concerned: 0, needs_investigation: 0 };
 
@@ -57,7 +56,11 @@ const NewsReactionBar = ({ articleId, counts }) => {
             aria-label={`${r.label}: ${c[r.key]} ${
               c[r.key] === 1 ? 'reaction' : 'reactions'
             }`}
-            title={r.label}
+            title={
+              active
+                ? `Remove '${r.label}'`
+                : r.label
+            }
             style={{
               display: 'inline-flex',
               alignItems: 'center',

@@ -156,6 +156,7 @@ const InsightsPage = () => {
   const { configured } = useAuth();
   const { counts, loading } = useReactions();
 
+  const mostLiked = rankBy(counts, 'useful');
   const mostConcerning = rankBy(counts, 'concerned');
   const mostInvestigated = rankBy(counts, 'needs_investigation');
 
@@ -188,6 +189,14 @@ const InsightsPage = () => {
             }}
           >
             <InsightSection
+              emoji="👍"
+              title="Most Liked"
+              blurb="Candidates readers reacted to with thumbs up."
+              accent="var(--primary)"
+              rows={mostLiked}
+              navigate={navigate}
+            />
+            <InsightSection
               emoji="😠"
               title="Most Concerning"
               blurb="Candidates readers flagged as most concerning."
@@ -199,7 +208,7 @@ const InsightsPage = () => {
               emoji="🔍"
               title="Most Investigated"
               blurb="Candidates readers most want investigated further."
-              accent="var(--primary)"
+              accent="var(--outline)"
               rows={mostInvestigated}
               navigate={navigate}
             />

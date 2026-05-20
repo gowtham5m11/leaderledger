@@ -74,6 +74,11 @@ const ReactionBar = ({ candidateId }) => {
               aria-label={`${r.label} — ${counts[r.key]} ${
                 counts[r.key] === 1 ? 'reaction' : 'reactions'
               }`}
+              title={
+                active
+                  ? `Remove '${r.label}'`
+                  : r.label
+              }
               style={{
                 flex: 1,
                 minHeight: 44,
