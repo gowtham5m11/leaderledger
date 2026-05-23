@@ -78,9 +78,9 @@ jobs:
           # token is the default GITHUB_TOKEN; explicit so the later
           # push reuses the same auth.
           token: ${{ secrets.GITHUB_TOKEN }}
-          # depth 1 is fine — we don't need history, just the current
-          # state of news.json to merge into.
-          fetch-depth: 1
+          ref: main
+          # Fetch full history so we can pull and rebase in case of concurrent commits.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -140,8 +140,16 @@ jobs:
           # firebase-hosting-merge.yml explicitly via workflow_dispatch
           # (one of the two trigger types GITHUB_TOKEN is allowed to fire).
           git commit -m "news: refresh (${N_CAND} candidates, ${N_ITEMS} items)"
-          git push origin HEAD:main
-          echo "pushed news.json update"
+          
+          # Push to remote main, pulling and rebasing in case of concurrent updates.
+          if git push origin HEAD:main; then
+            echo "pushed news.json update"
+          else
+            echo "Push failed. Pulling remote changes and rebasing..."
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "pushed news.json update after rebase"
+          fi
           echo "committed=true" >> "$GITHUB_OUTPUT"
 
       - name: Trigger Firebase Hosting deploy
