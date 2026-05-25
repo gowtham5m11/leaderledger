@@ -28,6 +28,7 @@ const LeaderCard = ({ leader, onClick }) => {
   const extraMinistriesCount = ministries ? Math.max(0, ministries.length - 1) : 0;
   const chipHex = primaryMinistry ? sectorColor(primaryMinistry.sector) : null;
   const isTopRole = role === 'Chief Minister' || role === 'Deputy Chief Minister';
+  const isPendingDOB = !leader.dob || leader.dob.startsWith('Age:');
 
   return (
     <div className={`leader-card ${partyClass}`} onClick={onClick}>
@@ -52,8 +53,8 @@ const LeaderCard = ({ leader, onClick }) => {
         <BookmarkButton candidateId={leader.id} variant="icon" />
       </div>
 
-      {/* Ministry / role pill row — only renders for cabinet members */}
-      {(role || primaryMinistry) && (
+      {/* Ministry / role / status pill row */}
+      {(role || primaryMinistry || isPendingDOB) && (
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.5rem' }}>
           {isTopRole && (
             <span style={{
@@ -103,6 +104,24 @@ const LeaderCard = ({ leader, onClick }) => {
                   opacity: 0.85,
                 }}>+{extraMinistriesCount}</span>
               )}
+            </span>
+          )}
+          {isPendingDOB && (
+            <span style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.3rem',
+              fontSize: '0.85rem',
+              fontWeight: 600,
+              padding: '0.45rem 0.9rem',
+              borderRadius: '9999px',
+              background: 'color-mix(in srgb, var(--outline) 10%, transparent)',
+              color: 'var(--outline)',
+              border: '1px solid color-mix(in srgb, var(--outline) 20%, transparent)',
+              whiteSpace: 'nowrap',
+            }}>
+              <span className="material-symbols-outlined" style={{ fontSize: '1.1rem' }}>sync</span>
+              Under Process
             </span>
           )}
         </div>

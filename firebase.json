@@ -26,6 +26,41 @@
         ]
       },
       {
+        "source": "/data/candidates.json",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" },
+          { "key": "Access-Control-Allow-Origin", "value": "*" }
+        ]
+      },
+      {
+        "source": "/robots.txt",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400" },
+          { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+        ]
+      },
+      {
+        "source": "/llms.txt",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400" },
+          { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+        ]
+      },
+      {
+        "source": "/sitemap.xml",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400" },
+          { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
+        ]
+      },
+      {
+        "source": "/sitemap-candidates.xml",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400" },
+          { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
+        ]
+      },
+      {
         "source": "**",
         "headers": [
           { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },

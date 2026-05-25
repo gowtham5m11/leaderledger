@@ -1,0 +1,79 @@
+# LeaderLedger.in — robots.txt
+# Public-interest transparency site: AP 2024 Assembly candidate data (ECI affidavits)
+# All data is sourced from publicly available government records.
+
+# ---------- Search engines ----------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ---------- AI training / retrieval crawlers ----------
+
+# OpenAI (ChatGPT, GPT-4, Browsing)
+User-agent: GPTBot
+Allow: /
+
+# OpenAI search grounding
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI (Llama)
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon Alexa / Rufus
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (feeds many LLM training datasets)
+User-agent: CCBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Bytedance / Doubao
+User-agent: Bytespider
+Allow: /
+
+# ---------- Catch-all ----------
+User-agent: *
+Allow: /
+
+# ---------- Sitemaps ----------
+Sitemap: https://leaderledger.in/sitemap.xml
+Sitemap: https://leaderledger.in/sitemap-candidates.xml

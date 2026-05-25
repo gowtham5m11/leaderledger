@@ -102,6 +102,7 @@ export const getDistrictData = (name) => {
       partyChanges: 0,
       votersCount: "Verified Assembly Ledger",
       majorityVotes: er?.margin ?? 0,
+      dob: candidateFound.dob,
       image: candidateFound.image ? getAssetPath(candidateFound.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidateFound.name)}&background=${partyColors[party]?.replace('#', '') || 'cccccc'}&color=fff&size=128`,
       social_media: candidateFound.social_media
     };

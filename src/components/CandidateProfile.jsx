@@ -90,6 +90,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const displayCriminalCases = candidate.criminal_cases || "0";
   const displayEducation = candidate.education || "Information not available";
   const displayProfession = candidate.profession || "Information not available";
+  const isPendingDOB = !candidate.dob || candidate.dob.startsWith('Age:');
 
   const invalidValues = ['NA', 'N/A', 'NIL', 'NONE', 'NOT APPLICABLE', '-', ''];
   const isInvalid = (val) => {
@@ -102,7 +103,12 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
     return !(isInvalid(caseItem.fir_no) && isInvalid(caseItem.description));
   });
 
-  const hasNoCases = displayCriminalCases === "0" || displayCriminalCases === 0;
+  const validConvictionCases = (candidate.criminal_details_convictions || []).filter(caseItem => {
+    return !(isInvalid(caseItem.fir_no) && isInvalid(caseItem.description));
+  });
+
+  const numConvictions = candidate.criminal_summary?.num_convictions || 0;
+  const hasNoCases = (displayCriminalCases === "0" || displayCriminalCases === 0) && numConvictions === 0;
 
   return (
     <div style={{ 
@@ -215,22 +221,43 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
             
             <div style={{ position: 'relative', zIndex: 10, flex: 1 }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                <span style={{ 
-                  fontSize: '0.75rem', 
-                  fontWeight: 600, 
-                  letterSpacing: '0.1em', 
-                  textTransform: 'uppercase',
-                  padding: '0.25rem 0.75rem',
-                  borderRadius: '9999px',
-                  display: 'inline-block',
-                  backgroundColor: isTDP
-                    ? 'color-mix(in srgb, var(--tdp) 28%, transparent)'
-                    : 'color-mix(in srgb, var(--primary) 14%, transparent)',
-                  color: 'var(--primary)',
-                  border: '1px solid var(--outline-variant)'
-                }}>
-                  {displayRole}
-                </span>
+                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                  <span style={{ 
+                    fontSize: '0.75rem', 
+                    fontWeight: 600, 
+                    letterSpacing: '0.1em', 
+                    textTransform: 'uppercase',
+                    padding: '0.25rem 0.75rem',
+                    borderRadius: '9999px',
+                    display: 'inline-block',
+                    backgroundColor: isTDP
+                      ? 'color-mix(in srgb, var(--tdp) 28%, transparent)'
+                      : 'color-mix(in srgb, var(--primary) 14%, transparent)',
+                    color: 'var(--primary)',
+                    border: '1px solid var(--outline-variant)'
+                  }}>
+                    {displayRole}
+                  </span>
+                  {isPendingDOB && (
+                    <span style={{ 
+                      fontSize: '0.72rem', 
+                      fontWeight: 600, 
+                      letterSpacing: '0.05em', 
+                      textTransform: 'uppercase',
+                      padding: '0.25rem 0.75rem',
+                      borderRadius: '9999px',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.3rem',
+                      backgroundColor: 'color-mix(in srgb, var(--outline) 14%, transparent)',
+                      color: 'var(--outline)',
+                      border: '1px solid var(--outline-variant)'
+                    }}>
+                      <span className="material-symbols-outlined" style={{ fontSize: '0.9rem' }}>cached</span>
+                      Under Process
+                    </span>
+                  )}
+                </div>
                 <h1 className="profile-hero-name">
                   {candidate.name}
                 </h1>
@@ -248,6 +275,11 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age / DOB</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || candidate.dob || 'Unknown'}</p>
+                  {isPendingDOB && (
+                    <span style={{ fontSize: '0.72rem', color: 'var(--outline)', display: 'block', marginTop: '0.25rem', lineHeight: '1.3' }}>
+                      Gathering data about this candidate
+                    </span>
+                  )}
                 </div>
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Experience</p>
@@ -409,13 +441,22 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   </h3>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                  <div>
-                    <p className="profile-case-count" style={{ color: hasNoCases ? 'var(--primary)' : 'var(--error)' }}>{displayCriminalCases} Pending Cases</p>
+                  <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
+                    <div>
+                      <p className="profile-case-count" style={{ color: hasNoCases ? 'var(--primary)' : 'var(--error)' }}>{displayCriminalCases} Pending Cases</p>
+                    </div>
+                    {numConvictions > 0 && (
+                      <div>
+                        <p className="profile-case-count" style={{ color: 'var(--error)' }}>
+                          {numConvictions} Conviction{numConvictions !== 1 ? 's' : ''}
+                        </p>
+                      </div>
+                    )}
                   </div>
 
-                  {/* Detailed Case List */}
+                  {/* Pending Case List */}
                   {!hasNoCases && validPendingCases.length > 0 && (
-                    <div style={{ 
+                    <div style={{
                       marginTop: '0.5rem',
                       maxHeight: '300px',
                       overflowY: 'auto',
@@ -436,6 +477,11 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                               FIR: {isInvalid(caseItem.fir_no) ? 'Not Specified' : caseItem.fir_no}
                             </span>
                           </div>
+                          {!isInvalid(caseItem.sections) && (
+                            <p style={{ fontSize: '0.75rem', color: 'var(--on-surface-variant)', marginBottom: '0.25rem' }}>
+                              {caseItem.sections}
+                            </p>
+                          )}
                           <p style={{ fontSize: '0.8125rem', color: 'var(--on-surface)', lineHeight: 1.4 }}>
                             {isInvalid(caseItem.description) ? "Description not available in summary." : caseItem.description}
                           </p>
@@ -444,19 +490,70 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                     </div>
                   )}
 
-                  {(hasNoCases || validPendingCases.length === 0) && (
+                  {/* Conviction Case List */}
+                  {validConvictionCases.length > 0 && (
+                    <div>
+                      <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.5rem' }}>
+                        Convictions
+                      </p>
+                      <div style={{
+                        maxHeight: '300px',
+                        overflowY: 'auto',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '0.75rem',
+                        paddingRight: '0.5rem'
+                      }} className="custom-scrollbar">
+                        {validConvictionCases.map((caseItem, idx) => (
+                          <div key={idx} style={{
+                            backgroundColor: 'var(--surface-container-lowest)',
+                            padding: '0.75rem',
+                            borderRadius: '0.5rem',
+                            border: '2px solid color-mix(in srgb, var(--error) 40%, transparent)'
+                          }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.25rem' }}>
+                              <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)' }}>
+                                FIR: {isInvalid(caseItem.fir_no) ? 'Not Specified' : caseItem.fir_no}
+                              </span>
+                              <span style={{
+                                fontSize: '0.625rem',
+                                fontWeight: 700,
+                                color: 'var(--on-error)',
+                                backgroundColor: 'var(--error)',
+                                padding: '0.125rem 0.375rem',
+                                borderRadius: '9999px',
+                                letterSpacing: '0.05em'
+                              }}>
+                                CONVICTED
+                              </span>
+                            </div>
+                            {!isInvalid(caseItem.sections) && (
+                              <p style={{ fontSize: '0.75rem', color: 'var(--on-surface-variant)', marginBottom: '0.25rem' }}>
+                                {caseItem.sections}
+                              </p>
+                            )}
+                            <p style={{ fontSize: '0.8125rem', color: 'var(--on-surface)', lineHeight: 1.4 }}>
+                              {isInvalid(caseItem.description) ? "Description not available in summary." : caseItem.description}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {(hasNoCases || (validPendingCases.length === 0 && validConvictionCases.length === 0)) && (
                     <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>
                       Based on official disclosures. {hasNoCases ? 'No pending criminal cases declared.' : 'Primarily related to public protest or administrative disputes where applicable.'}
                     </p>
                   )}
 
                   {!hasNoCases && (
-                    <button style={{ 
-                      fontSize: '0.75rem', 
-                      fontWeight: 700, 
-                      color: 'var(--error)', 
-                      textDecoration: 'underline', 
-                      textDecorationThickness: '2px', 
+                    <button style={{
+                      fontSize: '0.75rem',
+                      fontWeight: 700,
+                      color: 'var(--error)',
+                      textDecoration: 'underline',
+                      textDecorationThickness: '2px',
                       textUnderlineOffset: '4px',
                       textAlign: 'left',
                       background: 'none',

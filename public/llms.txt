@@ -1,0 +1,228 @@
+# LeaderLedger
+
+> Andhra Pradesh 2024 State Assembly election — candidate transparency database. Criminal cases from ECI affidavits, education, profession, election results, and live news for all 175 elected MLAs. Data sourced exclusively from official government records.
+
+LeaderLedger.in is a public-interest data journalism tool for voters in Andhra Pradesh, India. It covers the 2024 AP Legislative Assembly election in which the Telugu Desam Party (TDP) + Janasena + BJP alliance won 164 of 175 seats. All candidate data is drawn from Election Commission of India (ECI) sworn affidavits, official ECI result portals, and TCPD electoral databases — no estimates or extrapolations are used.
+
+## What the site contains
+
+- **175 elected MLA profiles** — one per constituency across all 26 districts of Andhra Pradesh
+- **Criminal cases** — counts and summaries from ECI Form 26 affidavits, extracted via OCR + LLM pipeline
+- **Education & profession** — as declared on affidavits
+- **2024 election results** — vote counts, margins, runner-up details (ECI June 2024)
+- **2019 baseline** — previous MLA, votes, margin for comparison
+- **Live news feed** — Google News RSS, refreshed hourly via GitHub Actions, per candidate
+- **Constituency map** — interactive SVG district/constituency map of Andhra Pradesh
+- **Party coverage** — TDP (135 MLAs), Janasena Party (21), YSRCP (11), BJP (8)
+
+## How to use this site
+
+The site is a React SPA with hash-based routing:
+
+| Page | URL |
+|------|-----|
+| Home / District map | https://leaderledger.in/ |
+| Candidate gallery (search, filter by party/criminal cases) | https://leaderledger.in/#/list |
+| Individual MLA profile | https://leaderledger.in/#/profile/{id} |
+| News feed | https://leaderledger.in/#/news |
+
+Candidate IDs are integers 1–175 corresponding to constituency numbers 1–175.
+
+## Machine-readable data
+
+- Full candidate dataset (JSON): https://leaderledger.in/data/candidates.json
+- News feed (JSON): https://leaderledger.in/data/news.json
+- Candidate sitemaps: https://leaderledger.in/sitemap-candidates.xml
+
+## All 175 MLAs — quick reference
+
+Format: [id] Name (Party) — Constituency | criminal cases | election margin | prev MLA
+
+- [1] **Ashok Bendalam** (TDP) — ICHCHAPURAM | 5 criminal case(s) | won by 39,783 votes | prev MLA 2019 (TDP)
+- [2] **Jagadeeswari Thoyaka** (TDP) — KURUPAM | 3 criminal case(s) | won by 23,500 votes | prev MLA 2019 (YSRCP)
+- [3] **Gouthu Sireesha** (TDP) — PALASA | 3 criminal case(s) | won by 40,350 votes | prev MLA 2019 (YSRCP)
+- [4] **Jayakrishna Nimmaka** (Janasena Party) — PALAKONDA | 6 criminal case(s) | won by 13,291 votes | prev MLA 2019 (YSRCP)
+- [5] **Mamidi Govinda Rao** (TDP) — PATHAPATNAM | 3 criminal case(s) | won by 26,527 votes | prev MLA 2019 (YSRCP)
+- [6] **Bonela Vijaya Chandra** (TDP) — PARVATHIPURAM | 2 criminal case(s) | won by 24,414 votes | prev MLA 2019 (YSRCP)
+- [7] **Gummidi Sandhyarani** (TDP) — SALUR | 3 criminal case(s) | won by 13,733 votes | prev MLA 2019 (YSRCP)
+- [8] **Atchannaidu Kinjarapu** (TDP) — TEKKALI | 13 criminal case(s) | won by 34,435 votes | prev MLA 2019 (TDP)
+- [9] **Baggu Ramanamurthy** (TDP) — NARASANNAPETA | 0 criminal case(s) | won by 29,371 votes | prev MLA 2019 (YSRCP)
+- [10] **Kondru Murali Mohan** (TDP) — RAJAM | 1 criminal case(s) | won by 20,722 votes | prev MLA 2019 (YSRCP)
+- [11] **R.V.S.K.K.Ranga Rao @ Babynayana** (TDP) — BOBBILI | 1 criminal case(s) | won by 44,648 votes | prev MLA 2019 (YSRCP)
+- [12] **Koona Ravi Kumar** (TDP) — AMADALAVALASA | 15 criminal case(s) | won by 35,032 votes | prev MLA 2019 (YSRCP)
+- [13] **Regam Matyalingam** (YSRCP) — ARAKU VALLEY | 1 criminal case(s) | won by 31,877 votes | prev MLA 2019 (YSRCP)
+- [14] **Kondapalli Srinivas** (TDP) — GAJAPATHINAGARAM | 1 criminal case(s) | won by 25,301 votes | prev MLA 2019 (YSRCP)
+- [15] **Eswara Rao Nadukuditi** (BJP) — ETCHERLA | 8 criminal case(s) | won by 29,089 votes | prev MLA 2019 (YSRCP)
+- [16] **Gondu Shankar** (TDP) — SRIKAKULAM | 7 criminal case(s) | won by 52,521 votes | prev MLA 2019 (YSRCP)
+- [17] **Kalavenkatarao Kimidi** (TDP) — CHEEPURUPALLE | 2 criminal case(s) | won by 11,971 votes | prev MLA 2019 (YSRCP)
+- [18] **Lokam Naga Madhavi** (Janasena Party) — NELLIMARLA | 26 criminal case(s) | won by 39,829 votes | prev MLA 2019 (YSRCP)
+- [19] **Kolla Lalitha Kumari** (TDP) — SRUNGAVARAPUKOTA | 5 criminal case(s) | won by 38,790 votes | prev MLA 2019 (YSRCP)
+- [20] **Aditi Vijayalakshmi Gajapathi Raju Pusapati** (TDP) — VIZIANAGARAM | 1 criminal case(s) | won by 60,609 votes | prev MLA 2019 (YSRCP)
+- [21] **Matsyarasa Visweswara Raju** (YSRCP) — PADERU | 0 criminal case(s) | won by 19,338 votes | prev MLA 2019 (YSRCP)
+- [22] **Bandaru Satyanarayana Murthy** (TDP) — MADUGULA | 7 criminal case(s) | won by 28,026 votes | prev MLA 2019 (YSRCP)
+- [23] **Ganta Srinivasa Rao** (TDP) — BHIMILI | 1 criminal case(s) | won by 92,401 votes | prev MLA 2019 (YSRCP)
+- [24] **Miriyala Sirisha Devi** (TDP) — RAMPACHODAVARAM(ST) | 0 criminal case(s) | won by 9,139 votes | prev MLA 2019 (YSRCP)
+- [25] **Surya Naga Sanyasi Raju Kalidindi** (TDP) — CHODAVARAM | 1 criminal case(s) | won by 42,189 votes | prev MLA 2019 (YSRCP)
+- [26] **Panchakarla Ramesh Babu** (Janasena Party) — PENDURTHI | 16 criminal case(s) | won by 81,870 votes | prev MLA 2019 (YSRCP)
+- [27] **Konathala Ramakrishna** (Janasena Party) — ANAKAPALLE | 1 criminal case(s) | won by 65,764 votes | prev MLA 2019 (YSRCP)
+- [28] **Vishnu Kumar Raju Penmetsa** (BJP) — VISAKHAPATNAM NORTH | 1 criminal case(s) | won by 47,534 votes | prev MLA 2019 (TDP)
+- [29] **Ayyannapatrudu Chintakayala** (TDP) — NARSIPATNAM | 17 criminal case(s) | won by 24,676 votes | prev MLA 2019 (YSRCP)
+- [30] **Ramakrishna Babu Velagapudi** (TDP) — VISAKHAPATNAM EAST | 4 criminal case(s) | won by 70,877 votes | prev MLA 2019 (TDP)
+- [31] **P.G.V.R.Naidu(Ganababu)** (TDP) — VISAKHAPATNAM WEST | 0 criminal case(s) | won by 35,184 votes | prev MLA 2019 (TDP)
+- [32] **Palla Srinivas Rao** (TDP) — GAJUWAKA | 6 criminal case(s) | won by 95,235 votes | prev MLA 2019 (YSRCP)
+- [33] **Ch.Vamsi Krishna Srinivas** (Janasena Party) — VISAKHAPATNAM SOUTH | 8 criminal case(s) | won by 64,594 votes | prev MLA 2019 (TDP)
+- [34] **Sundarapu Vijay Kumar** (Janasena Party) — YELAMANCHILI | 8 criminal case(s) | won by 48,956 votes | prev MLA 2019 (YSRCP)
+- [35] **Anitha Vangalapudi** (TDP) — PAYAKARAOPET | 7 criminal case(s) | won by 43,727 votes | prev MLA 2019 (YSRCP)
+- [36] **Divya Yanamala** (TDP) — TUNI | 0 criminal case(s) | won by 15,177 votes | prev MLA 2019 (YSRCP)
+- [37] **Chirri Balaraju** (Janasena Party) — POLAVARAM | 0 criminal case(s) | won by 7,935 votes | prev MLA 2019 (YSRCP)
+- [38] **Varupula Satya Prabha** (TDP) — PRATHIPADU (VARUPULA SATYA PRABHA) | 6 criminal case(s) | won by 38,768 votes | prev MLA 2019 (YSRCP)
+- [39] **Jyothula Nehru** (TDP) — JAGGAMPETA | 4 criminal case(s) | won by 52,676 votes | prev MLA 2019 (YSRCP)
+- [40] **Bathula Balaramakrishna S/O Gangarao** (Janasena Party) — RAJANAGARAM | 3 criminal case(s) | won by 34,049 votes | prev MLA 2019 (YSRCP)
+- [41] **Konidala Pawan Kalyan** (Janasena Party) — PITHAPURAM | 8 criminal case(s) | won by 70,279 votes | prev MLA 2019 (YSRCP)
+- [42] **Roshan Kumar Songa** (TDP) — CHINTALAPUDI | 0 criminal case(s) | won by 27,766 votes | prev MLA 2019 (YSRCP)
+- [43] **Maddipati Venkata Raju** (TDP) — GOPALAPURAM | 4 criminal case(s) | won by 26,784 votes | prev MLA 2019 (YSRCP)
+- [44] **China Rajappa Nimmakayala** (TDP) — PEDDAPURAM | 17 criminal case(s) | won by 40,451 votes | prev MLA 2019 (TDP)
+- [45] **Muppidi Venkateswara Rao** (TDP) — KOVVUR | 12 criminal case(s) | won by 33,946 votes | prev MLA 2019 (YSRCP)
+- [46] **Kolikapudi Srinivasa Rao** (TDP) — TIRUVURU | 17 criminal case(s) | won by 21,874 votes | prev MLA 2019 (YSRCP)
+- [47] **Ramakrishna Reddy Nallamilli** (BJP) — ANAPARTHY | 32 criminal case(s) | won by 20,850 votes | prev MLA 2019 (YSRCP)
+- [48] **Adireddy Srinivas** (TDP) — RAJAHMUNDRY CITY | 8 criminal case(s) | won by 71,404 votes | prev MLA 2019 (TDP)
+- [49] **Kolusu Partha Sarathy** (TDP) — NUZVID | 5 criminal case(s) | won by 12,378 votes | prev MLA 2019 (YSRCP)
+- [50] **Pantam Venkateswara Rao (Pantam Nanaji)** (Janasena Party) — KAKINADA RURAL | 11 criminal case(s) | won by 72,040 votes | prev MLA 2019 (YSRCP)
+- [51] **Rajagopal Sreeram (Tataiah)** (TDP) — JAGGAYYAPETA | 8 criminal case(s) | won by 15,977 votes | prev MLA 2019 (YSRCP)
+- [52] **Gorantla Butchaiah Choudary** (TDP) — RAJAHMUNDRY RURAL | 3 criminal case(s) | won by 64,090 votes | prev MLA 2019 (TDP)
+- [53] **Bandaru Satyananda Rao** (TDP) — KOTHAPETA | 1 criminal case(s) | won by 56,479 votes | prev MLA 2019 (YSRCP)
+- [54] **Datla Subbaraju (Buchibabu)** (TDP) — MUMMIDIVARAM | 13 criminal case(s) | won by 38,736 votes | prev MLA 2019 (YSRCP)
+- [55] **Vasantha Venkata Krishna Prasad** (TDP) — MYLAVARAM | 8 criminal case(s) | won by 42,829 votes | prev MLA 2019 (YSRCP)
+- [56] **Jogeswara Rao.V** (TDP) — MANDAPETA | 6 criminal case(s) | won by 44,435 votes | prev MLA 2019 (TDP)
+- [57] **Bolisetty Srinivas** (Janasena Party) — TADEPALLIGUDEM | 5 criminal case(s) | won by 62,492 votes | prev MLA 2019 (YSRCP)
+- [58] **Vanamadi Venkateswara Rao @ Kondababu** (TDP) — KAKINADA CITY | 13 criminal case(s) | won by 56,572 votes | prev MLA 2019 (YSRCP)
+- [59] **Kandula Durgesh** (Janasena Party) — NIDADAVOLE | 26 criminal case(s) | won by 33,304 votes | prev MLA 2019 (YSRCP)
+- [60] **Chintamaneni Prabhakar** (TDP) — DENDULURU | 90 criminal case(s) | won by 26,266 votes | prev MLA 2019 (YSRCP)
+- [61] **Dharmaraju Patsamatla** (Janasena Party) — UNGUTUR | 0 criminal case(s) | won by 44,945 votes | prev MLA 2019 (YSRCP)
+- [62] **Tangirala Sowmya** (TDP) — NANDIGAMA | 23 criminal case(s) | won by 27,395 votes | prev MLA 2019 (YSRCP)
+- [63] **Vasamsetti. Subash** (TDP) — RAMACHANDRAPURAM | 12 criminal case(s) | won by 26,291 votes | prev MLA 2019 (YSRCP)
+- [64] **Bhashyam Praveen** (TDP) — PEDAKURAPADU | 0 criminal case(s) | won by 21,089 votes | prev MLA 2019 (YSRCP)
+- [65] **Arimilli Radha Krishna** (TDP) — TANUKU | 7 criminal case(s) | won by 72,121 votes | prev MLA 2019 (YSRCP)
+- [66] **Radha Krishnayya Badeti** (TDP) — ELURU | 2 criminal case(s) | won by 62,388 votes | prev MLA 2019 (YSRCP)
+- [67] **Yarapathineni Srinivasa Rao** (TDP) — GURAJALA | 22 criminal case(s) | won by 29,486 votes | prev MLA 2019 (YSRCP)
+- [68] **Yarlagadda Venkata Rao** (TDP) — GANNAVARAM (YARLAGADDA VENKATA RAO) | 9 criminal case(s) | won by 37,628 votes | prev MLA 2019 (TDP)
+- [69] **Giddi. Satyanarayana** (Janasena Party) — GANNAVARAM (GIDDI. SATYANARAYANA) | 0 criminal case(s) | won by 33,367 votes | prev MLA 2019 (YSRCP)
+- [70] **Kamineni Srinivas** (BJP) — KAIKALUR | 1 criminal case(s) | won by 45,273 votes | prev MLA 2019 (YSRCP)
+- [71] **Satyanarayana Pithani** (TDP) — ACHANTA | 3 criminal case(s) | won by 26,554 votes | prev MLA 2019 (YSRCP)
+- [72] **Kanumuru Raghu Rama Krishna Raju (R R R)** (TDP) — UNDI | 19 criminal case(s) | won by 56,777 votes | prev MLA 2019 (TDP)
+- [73] **Julakanti Brahmananda Reddy** (TDP) — MACHERLA | 5 criminal case(s) | won by 33,318 votes | prev MLA 2019 (YSRCP)
+- [74] **Ramanjaneyulu Pulaparthi (Anjibabu)** (Janasena Party) — BHIMAVARAM | 0 criminal case(s) | won by 66,974 votes | prev MLA 2019 (YSRCP)
+- [75] **Aithabathula Anandarao** (TDP) — AMALAPURAM | 3 criminal case(s) | won by 38,628 votes | prev MLA 2019 (YSRCP)
+- [76] **Tenali Sravan Kumar** (TDP) — TADIKONDA | 8 criminal case(s) | won by 39,606 votes | prev MLA 2019 (YSRCP)
+- [77] **Dr.Nimmala Ramanaidu** (TDP) — PALACOLE | 1 criminal case(s) | won by 67,945 votes | prev MLA 2019 (TDP)
+- [78] **Bonda Umamaheswararao** (TDP) — VIJAYAWADA CENTRAL | 21 criminal case(s) | won by 68,886 votes | prev MLA 2019 (YSRCP)
+- [79] **Venigandla Ramu** (TDP) — GUDIVADA | 1 criminal case(s) | won by 53,040 votes | prev MLA 2019 (YSRCP)
+- [80] **Yalamanchili Satyanarayana Chowdary (Sujana Chowdary)** (BJP) — VIJAYAWADA WEST | 5 criminal case(s) | won by 47,032 votes | prev MLA 2019 (YSRCP)
+- [81] **Deva Varaprasad** (Janasena Party) — RAZOLE | 0 criminal case(s) | won by 39,011 votes | prev MLA 2019 (Janasena Party)
+- [82] **Kumar Raja Varla** (TDP) — PAMARRU | 10 criminal case(s) | won by 29,690 votes | prev MLA 2019 (YSRCP)
+- [83] **Bode Prasad** (TDP) — PENAMALURU | 14 criminal case(s) | won by 59,915 votes | prev MLA 2019 (YSRCP)
+- [84] **Gadde Rama Mohan** (TDP) — VIJAYAWADA EAST | 9 criminal case(s) | won by 49,640 votes | prev MLA 2019 (TDP)
+- [85] **Nara Lokesh** (TDP) — MANGALAGIRI | 17 criminal case(s) | won by 91,413 votes | prev MLA 2019 (YSRCP)
+- [86] **Kanna Lakshminarayana** (TDP) — SATTENAPALLE | 4 criminal case(s) | won by 27,836 votes | prev MLA 2019 (YSRCP)
+- [87] **Bommidi Narayana Nayakar** (Janasena Party) — NARASAPURAM | 6 criminal case(s) | won by 49,738 votes | prev MLA 2019 (YSRCP)
+- [88] **Kagitha Krishnaprasad** (TDP) — PEDANA | 9 criminal case(s) | won by 38,123 votes | prev MLA 2019 (YSRCP)
+- [89] **Gonuguntla Venkata Siva Sita Rama Anzanneyllu** (TDP) — VINUKONDA | 18 criminal case(s) | won by 30,267 votes | prev MLA 2019 (YSRCP)
+- [90] **Mohammed Naseer Ahmed** (TDP) — GUNTUR EAST | 8 criminal case(s) | won by 31,962 votes | prev MLA 2019 (YSRCP)
+- [91] **Dhulipalla Narendra Kumar** (TDP) — PONNUR | 17 criminal case(s) | won by 32,915 votes | prev MLA 2019 (YSRCP)
+- [92] **Nadendla Manohar** (Janasena Party) — TENALI | 1 criminal case(s) | won by 48,112 votes | prev MLA 2019 (YSRCP)
+- [93] **Galla Madhavi** (TDP) — GUNTUR WEST | 2 criminal case(s) | won by 51,150 votes | prev MLA 2019 (TDP)
+- [94] **Aravinda Babu Chadalavada** (TDP) — NARASARAOPET | 17 criminal case(s) | won by 19,705 votes | prev MLA 2019 (YSRCP)
+- [95] **Chandra Sekhar Tatiparthi** (YSRCP) — YERRAGONDAPALEM | 3 criminal case(s) | won by 5,200 votes | prev MLA 2019 (YSRCP)
+- [96] **Burla Ramanjaneyulu** (TDP) — PRATHIPADU (BURLA RAMANJANEYULU) | 3 criminal case(s) | won by 42,015 votes | prev MLA 2019 (YSRCP)
+- [97] **Prathipati Pullarao** (TDP) — CHILAKALURIPET | 13 criminal case(s) | won by 33,262 votes | prev MLA 2019 (YSRCP)
+- [98] **Kollu. Ravindra** (TDP) — MACHILIPATNAM | 20 criminal case(s) | won by 50,242 votes | prev MLA 2019 (YSRCP)
+- [99] **Ananda Babu Nakka** (TDP) — VEMURU | 12 criminal case(s) | won by 22,021 votes | prev MLA 2019 (YSRCP)
+- [100] **Buddhaprasad Mandali** (Janasena Party) — AVANIGADDA | 0 criminal case(s) | won by 46,434 votes | prev MLA 2019 (YSRCP)
+- [101] **Budda Rajasekhara Reddy** (TDP) — SRISAILAM | 4 criminal case(s) | won by 6,385 votes | prev MLA 2019 (YSRCP)
+- [102] **Gottipati  Ravi Kumar** (TDP) — ADDANKI | 8 criminal case(s) | won by 24,890 votes | prev MLA 2019 (TDP)
+- [103] **G Jayasurya** (TDP) — NANDIKOTKUR | 0 criminal case(s) | won by 9,792 votes | prev MLA 2019 (YSRCP)
+- [104] **Anagani Satya Prasad** (TDP) — REPALLE | 3 criminal case(s) | won by 39,947 votes | prev MLA 2019 (TDP)
+- [105] **Yeluri Sambasiva Rao** (TDP) — PARCHUR | 6 criminal case(s) | won by 24,013 votes | prev MLA 2019 (TDP)
+- [106] **Vegesana Narendra Varma Raju** (TDP) — BAPATLA | 15 criminal case(s) | won by 27,768 votes | prev MLA 2019 (YSRCP)
+- [107] **Y. Balanagi Reddy** (YSRCP) — MANTRALAYAM | 1 criminal case(s) | won by 12,805 votes | prev MLA 2019 (YSRCP)
+- [108] **Buchepalli Siva Prasad Reddy** (YSRCP) — DARSI | 0 criminal case(s) | won by 2,456 votes | prev MLA 2019 (YSRCP)
+- [109] **B. Jayanageswara Reddy** (TDP) — YEMMIGANUR | 5 criminal case(s) | won by 15,837 votes | prev MLA 2019 (YSRCP)
+- [110] **Madduluri Mala Kondaiah** (TDP) — CHIRALA | 8 criminal case(s) | won by 20,984 votes | prev MLA 2019 (TDP)
+- [111] **Boggula Dastagiri** (TDP) — KODUMUR | 2 criminal case(s) | won by 21,583 votes | prev MLA 2019 (YSRCP)
+- [112] **T.G.Bharath** (TDP) — KURNOOL | 2 criminal case(s) | won by 18,876 votes | prev MLA 2019 (YSRCP)
+- [113] **Gowru Charitha Reddy** (TDP) — PANYAM | 1 criminal case(s) | won by 40,591 votes | prev MLA 2019 (YSRCP)
+- [114] **Kandula Narayana Reddy** (TDP) — MARKAPURAM | 13 criminal case(s) | won by 13,979 votes | prev MLA 2019 (YSRCP)
+- [115] **Dr. Partha Sarathi Valmiki** (BJP) — ADONI | 3 criminal case(s) | won by 18,164 votes | prev MLA 2019 (YSRCP)
+- [116] **Ashok Reddy Muthumula** (TDP) — GIDDALUR | 3 criminal case(s) | won by 973 votes | prev MLA 2019 (YSRCP)
+- [117] **Vijay Kumar B.N** (TDP) — SANTHANUTHALAPADU | 5 criminal case(s) | won by 30,385 votes | prev MLA 2019 (YSRCP)
+- [118] **B. Virupakshi** (YSRCP) — ALUR | 1 criminal case(s) | won by 2,831 votes | prev MLA 2019 (YSRCP)
+- [119] **K.E. Shyam Kumar** (TDP) — PATTIKONDA | 2 criminal case(s) | won by 14,211 votes | prev MLA 2019 (YSRCP)
+- [120] **Kotla Jaya Surya Prakash Reddy** (TDP) — DHONE | 9 criminal case(s) | won by 6,049 votes | prev MLA 2019 (YSRCP)
+- [121] **Doctor Dola Sree Bala Veeranjaneya Swamy** (TDP) — KONDAPI | 11 criminal case(s) | won by 24,756 votes | prev MLA 2019 (TDP)
+- [122] **Damacharla Janardhana Rao** (TDP) — ONGOLE | 18 criminal case(s) | won by 34,026 votes | prev MLA 2019 (YSRCP)
+- [123] **Nasyam Mohammed Farook** (TDP) — NANDYAL | 3 criminal case(s) | won by 12,333 votes | prev MLA 2019 (YSRCP)
+- [124] **Dr. Ugra Narasimha Reddy Mukku** (TDP) — KANIGIRI | 4 criminal case(s) | won by 14,604 votes | prev MLA 2019 (YSRCP)
+- [125] **B.C. Janardhan Reddy** (TDP) — BANAGANAPALLE | 10 criminal case(s) | won by 25,566 votes | prev MLA 2019 (YSRCP)
+- [126] **Akhila Priya Bhuma** (TDP) — ALLAGADDA | 12 criminal case(s) | won by 12,037 votes | prev MLA 2019 (YSRCP)
+- [127] **Inturi Nageswara Rao** (TDP) — KANDUKUR | 11 criminal case(s) | won by 18,558 votes | prev MLA 2019 (YSRCP)
+- [128] **Gummanur Jayaram** (TDP) — GUNTAKAL | 2 criminal case(s) | won by 6,826 votes | prev MLA 2019 (YSRCP)
+- [129] **Dasari Sudha** (YSRCP) — BADVEL | 1 criminal case(s) | won by 18,567 votes | prev MLA 2019 (YSRCP)
+- [130] **Payyavula Keshav** (TDP) — URAVAKONDA | 4 criminal case(s) | won by 21,704 votes | prev MLA 2019 (TDP)
+- [131] **Ashmit Reddy J.C** (TDP) — TADPATRI | 28 criminal case(s) | won by 27,731 votes | prev MLA 2019 (YSRCP)
+- [132] **Kalava Srinivasulu** (TDP) — RAYADURG | 19 criminal case(s) | won by 41,659 votes | prev MLA 2019 (YSRCP)
+- [133] **Kakarla Suresh** (TDP) — UDAYAGIRI | 2 criminal case(s) | won by 9,621 votes | prev MLA 2019 (YSRCP)
+- [134] **Adinarayana Reddy Chadipirala** (BJP) — JAMMALAMADUGU | 4 criminal case(s) | won by 17,191 votes | prev MLA 2019 (YSRCP)
+- [135] **Sudhakar Putta** (TDP) — MYDUKUR | 5 criminal case(s) | won by 20,950 votes | prev MLA 2019 (YSRCP)
+- [136] **Dagumati Venkata Krishna Reddy** (TDP) — KAVALI | 0 criminal case(s) | won by 30,948 votes | prev MLA 2019 (YSRCP)
+- [137] **Nandyala Varada Rajula Reddy** (TDP) — PRODDATUR | 7 criminal case(s) | won by 22,744 votes | prev MLA 2019 (YSRCP)
+- [138] **Bandaru Sravani Sree** (TDP) — SINGANAMALA | 1 criminal case(s) | won by 8,788 votes | prev MLA 2019 (YSRCP)
+- [139] **Anam.Ramanarayana Reddy** (TDP) — ATMAKUR | 2 criminal case(s) | won by 7,576 votes | prev MLA 2019 (YSRCP)
+- [140] **Daggupati Prasad** (TDP) — ANANTAPUR URBAN | 1 criminal case(s) | won by 23,023 votes | prev MLA 2019 (YSRCP)
+- [141] **Paritala Sunithamma** (TDP) — RAPTADU | 8 criminal case(s) | won by 23,329 votes | prev MLA 2019 (YSRCP)
+- [142] **Ys Jagan Mohan Reddy** (YSRCP) — PULIVENDLA | 29 criminal case(s) | won by 61,687 votes | prev MLA 2019 (YSRCP)
+- [143] **Amilineni Surendra Babu** (TDP) — KALYANDURG | 3 criminal case(s) | won by 37,734 votes | prev MLA 2019 (YSRCP)
+- [144] **Satya Kumar Yadav** (BJP) — DHARMAVARAM | 8 criminal case(s) | won by 3,734 votes | prev MLA 2019 (YSRCP)
+- [145] **Krishna Chaitanya Reddy Putha** (TDP) — KAMALAPURAM | 5 criminal case(s) | won by 25,357 votes | prev MLA 2019 (YSRCP)
+- [146] **Prashanthi Reddy Vemireddy** (TDP) — KOVUR | 1 criminal case(s) | won by 54,583 votes | prev MLA 2019 (YSRCP)
+- [147] **Chandra Mohan Reddy Somireddy** (TDP) — SARVEPALLI | 16 criminal case(s) | won by 16,288 votes | prev MLA 2019 (YSRCP)
+- [148] **Kurugondla Ramakrishna** (TDP) — VENKATAGIRI | 12 criminal case(s) | won by 16,294 votes | prev MLA 2019 (YSRCP)
+- [149] **Madhavi Reddappa Gari** (TDP) — KADAPA | 4 criminal case(s) | won by 18,860 votes | prev MLA 2019 (YSRCP)
+- [150] **Narayana Ponguru** (TDP) — NELLORE CITY | 8 criminal case(s) | won by 72,489 votes | prev MLA 2019 (YSRCP)
+- [151] **Akepati Amarnath Reddy** (YSRCP) — RAJAMPET | 5 criminal case(s) | won by 7,016 votes | prev MLA 2019 (YSRCP)
+- [152] **Kotamreddy Sridhar Reddy** (TDP) — NELLORE RURAL | 4 criminal case(s) | won by 34,480 votes | prev MLA 2019 (YSRCP)
+- [153] **Palle Sindhura Reddy** (TDP) — PUTTAPARTHI | 2 criminal case(s) | won by 8,760 votes | prev MLA 2019 (YSRCP)
+- [154] **Arava Sreedhar** (Janasena Party) — KODUR | 1 criminal case(s) | won by 11,101 votes | prev MLA 2019 (YSRCP)
+- [155] **Kandikunta Venkata Prasad** (TDP) — KADIRI | 21 criminal case(s) | won by 6,265 votes | prev MLA 2019 (YSRCP)
+- [156] **Mandipalli Ramprasad Reddy** (TDP) — RAYACHOTI | 5 criminal case(s) | won by 2,495 votes | prev MLA 2019 (YSRCP)
+- [157] **S. Savitha** (TDP) — PENUKONDA | 16 criminal case(s) | won by 33,388 votes | prev MLA 2019 (YSRCP)
+- [158] **M.S.Raju** (TDP) — MADAKASIRA | 24 criminal case(s) | won by 351 votes | prev MLA 2019 (YSRCP)
+- [159] **Pasim Sunil Kumar** (TDP) — GUDUR | 14 criminal case(s) | won by 21,192 votes | prev MLA 2019 (YSRCP)
+- [160] **Nelavala Vijayasree** (TDP) — SULLURPETA | 0 criminal case(s) | won by 29,115 votes | prev MLA 2019 (YSRCP)
+- [161] **P. Dwarakanatha Reddy** (YSRCP) — THAMBALLAPALLE | 2 criminal case(s) | won by 10,103 votes | prev MLA 2019 (YSRCP)
+- [162] **Nandamuri Balakrishna** (TDP) — HINDUPUR | 1 criminal case(s) | won by 32,597 votes | prev MLA 2019 (TDP)
+- [163] **Nallari Kishan Kumar Reddy** (TDP) — PILERU | 7 criminal case(s) | won by 25,081 votes | prev MLA 2019 (YSRCP)
+- [164] **Bojjala Venkata Sudhir Reddy** (TDP) — SRIKALAHASTI | 15 criminal case(s) | won by 43,304 votes | prev MLA 2019 (YSRCP)
+- [165] **Venkata Mani Prasad Pullivarthi** (TDP) — CHANDRAGIRI | 31 criminal case(s) | won by 43,852 votes | prev MLA 2019 (YSRCP)
+- [166] **Koneti Adimulam** (TDP) — SATYAVEDU | 0 criminal case(s) | won by 3,739 votes | prev MLA 2019 (YSRCP)
+- [167] **Aranii Srenevasulu** (Janasena Party) — TIRUPATI | 0 criminal case(s) | won by 61,956 votes | prev MLA 2019 (YSRCP)
+- [168] **Peddireddi Ramachandra Reddy** (YSRCP) — PUNGANUR | 0 criminal case(s) | won by 6,095 votes | prev MLA 2019 (YSRCP)
+- [169] **M.Shajahan Basha** (TDP) — MADANAPALLE | 10 criminal case(s) | won by 5,509 votes | prev MLA 2019 (YSRCP)
+- [170] **Gali Bhanu Prakash** (TDP) — NAGARI | 16 criminal case(s) | won by 45,004 votes | prev MLA 2019 (YSRCP)
+- [171] **K Murali Mohan** (TDP) — PUTHALAPATTU | 11 criminal case(s) | won by 15,634 votes | prev MLA 2019 (YSRCP)
+- [172] **Dr. Vm. Thomas** (TDP) — GANGADHARA NELLORE | 5 criminal case(s) | won by 26,011 votes | prev MLA 2019 (YSRCP)
+- [173] **Amaranatha Reddy. N** (TDP) — PALAMANER | 25 criminal case(s) | won by 20,122 votes | prev MLA 2019 (YSRCP)
+- [174] **Gurajala Jagan Mohan (Gjm)** (TDP) — CHITTOOR | 1 criminal case(s) | won by 14,604 votes | prev MLA 2019 (YSRCP)
+- [175] **Chandrababu Naidu Nara** (TDP) — KUPPAM | 19 criminal case(s) | won by 48,006 votes | prev MLA 2019 (TDP)
+
+## Data sources & methodology
+
+- **Criminal cases**: ECI Form 26 affidavits (PDF), OCR via Tesseract, structured extraction via gemma3:4b local LLM. Each case has pending charges or conviction details.
+- **Election results**: ECI June 2024 results portal (archived via Wayback Machine snapshot 2025-11-06).
+- **2019 results**: ECI 2019 results portal (archived via Wayback Machine snapshot 2019-05-26).
+- **Registered electors / turnout**: Wikipedia 2024 (21 constituencies), TCPD 2019 data (154 constituencies). No estimates used — gaps show the available source year.
+- **News**: Google News RSS API, decoded via googlenewsdecoder, refreshed hourly.
+
+## About
+
+Built by an independent researcher. Source: public ECI data. Contact: leaderledger.in (see site footer).
+No affiliation with any political party or government body.

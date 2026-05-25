@@ -81,7 +81,7 @@ def call_ai_text(prompt):
 
 
 PROJECT_ROOT = Path(__file__).parent.parent
-PDF_DIR      = PROJECT_ROOT / "public" / "affidavits"
+PDF_DIR      = PROJECT_ROOT / "scraper_lab" / "affidavits"
 CANDIDATES_JSON          = PROJECT_ROOT / "src" / "data" / "candidates.json"
 PATCHES_JSON             = PROJECT_ROOT / "src" / "data" / "criminal_patches.json"
 CRIMINAL_PAGES_INDEX     = PROJECT_ROOT / "src" / "data" / "criminal_pages_index.json"
