@@ -230,6 +230,63 @@ h6,
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
+/* ── District picker popup (above bottom-left buttons) ── */
+.district-picker-popup {
+  pointer-events: auto;
+  background: var(--surface-dim);
+  backdrop-filter: blur(24px) saturate(180%);
+  border-radius: 1.5rem;
+  border: 1px solid var(--outline-variant);
+  box-shadow: var(--shadow-strong);
+  max-height: 18rem;
+  overflow-y: auto;
+  min-width: 12rem;
+}
+
+.district-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--on-surface);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 150ms;
+  border-radius: 0;
+}
+.district-btn:first-of-type { border-radius: 1.5rem 1.5rem 0 0; }
+.district-btn:last-of-type { border-radius: 0 0 1.5rem 1.5rem; }
+.district-btn:hover { background: var(--surface-container-high); }
+.district-btn.active {
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 600;
+}
+
+/* District MLA list item in right panel */
+.district-mla-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  background: var(--surface-container-low);
+  border: 1px solid var(--outline-variant);
+  cursor: pointer;
+  text-align: left;
+  transition: background 150ms;
+}
+.district-mla-item:hover { background: var(--surface-container-high); }
+
+/* Mobile: hide district picker popup (handled via bottom sheet) */
+@media (max-width: 768px) {
+  .district-picker-popup { max-height: 12rem; }
+}
+
 /* Utilities for non-tailwind fallback */
 .flex {
   display: flex;

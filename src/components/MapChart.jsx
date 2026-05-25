@@ -3,7 +3,7 @@ import { Plus, Minus } from 'lucide-react';
 import { getDistrictData, partyColor } from '../data/mockData';
 import mapPaths from '../data/mapPaths.json';
 
-const MapChart = ({ setTooltipContent, onDistrictClick }) => {
+const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistrictBorders, highlightedDistrict, constituencyDistrict }) => {
   const [position, setPosition] = useState({ x: 0, y: 0, zoom: 1 });
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
@@ -288,6 +288,8 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
             const { name, path, data } = constituency;
             const party = data.party || 'UNKNOWN';
             const color = partyColor(party);
+            const inHighlight = !highlightedDistrict ||
+              constituencyDistrict?.[name.toUpperCase()] === highlightedDistrict;
 
             return (
               <path
@@ -306,12 +308,27 @@ const MapChart = ({ setTooltipContent, onDistrictClick }) => {
                 }}
                 style={{
                   fill: color,
-                  fillOpacity: 0.62,
+                  fillOpacity: inHighlight ? 0.62 : 0.15,
                   '--hover-fill': color,
+                  transition: 'fill-opacity 250ms',
                 }}
               />
             );
           })}
+
+          {showDistrictBorders && districtPaths &&
+            Object.entries(districtPaths).map(([dname, dpath]) => (
+              <path
+                key={`d-${dname}`}
+                d={dpath}
+                fill="none"
+                stroke="var(--on-surface)"
+                strokeWidth={1.5}
+                strokeOpacity={0.75}
+                style={{ pointerEvents: 'none' }}
+              />
+            ))
+          }
 
           {isMobile && position.zoom >= 2.0 && constituencyPaths.map(({ name }) => {
             const bb = bboxes[name];

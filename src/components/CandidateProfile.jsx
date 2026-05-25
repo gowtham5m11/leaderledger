@@ -6,6 +6,7 @@ import { partyColors, partyColor as partyColorVar, sectorColor, sectorLabel } fr
 import { getAssetPath } from '../utils/assetHelper';
 import { safeHref } from '../utils/safeHref';
 import BookmarkButton from './BookmarkButton';
+import CriminalRecordsSection from './CriminalRecordsSection';
 import ReactionBar from './ReactionBar';
 import NewsReactionBar from './NewsReactionBar';
 import ReportModal from './ReportModal';
@@ -87,28 +88,10 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const primaryMinistry = ministries[0] || null;
   const displayRole = candidate.role || "Member of Legislative Assembly";
   const displayMinistry = primaryMinistry?.name || candidate.ministry || "Legislative Leader";
-  const displayCriminalCases = candidate.criminal_cases || "0";
   const displayEducation = candidate.education || "Information not available";
   const displayProfession = candidate.profession || "Information not available";
   const isPendingDOB = !candidate.dob || candidate.dob.startsWith('Age:');
 
-  const invalidValues = ['NA', 'N/A', 'NIL', 'NONE', 'NOT APPLICABLE', '-', ''];
-  const isInvalid = (val) => {
-    if (!val) return true;
-    const strVal = val.toString().trim().toUpperCase();
-    return invalidValues.includes(strVal) || strVal.includes('NOT APPLICABLE');
-  };
-
-  const validPendingCases = (candidate.criminal_details_pending || []).filter(caseItem => {
-    return !(isInvalid(caseItem.fir_no) && isInvalid(caseItem.description));
-  });
-
-  const validConvictionCases = (candidate.criminal_details_convictions || []).filter(caseItem => {
-    return !(isInvalid(caseItem.fir_no) && isInvalid(caseItem.description));
-  });
-
-  const numConvictions = candidate.criminal_summary?.num_convictions || 0;
-  const hasNoCases = (displayCriminalCases === "0" || displayCriminalCases === 0) && numConvictions === 0;
 
   return (
     <div style={{ 
@@ -428,142 +411,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
               <ReactionBar candidateId={candidate.id} />
 
               {/* Criminal Record Section */}
-              <section data-tour="criminal" className="profile-criminal" style={{
-                backgroundColor: hasNoCases ? 'color-mix(in srgb, var(--primary) 12%, transparent)' : 'var(--error-container)',
-                borderLeft: `4px solid ${hasNoCases ? 'var(--primary)' : 'var(--error)'}`
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: hasNoCases ? 'var(--primary)' : 'var(--error)', marginBottom: '1rem' }}>
-                  <span className="material-symbols-outlined">
-                    {hasNoCases ? 'verified_user' : 'gavel'}
-                  </span>
-                  <h3 style={{ fontWeight: 700, fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '-0.025em' }}>
-                    {hasNoCases ? 'Clean Record' : 'Criminal Disclosures'}
-                  </h3>
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                  <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
-                    <div>
-                      <p className="profile-case-count" style={{ color: hasNoCases ? 'var(--primary)' : 'var(--error)' }}>{displayCriminalCases} Pending Cases</p>
-                    </div>
-                    {numConvictions > 0 && (
-                      <div>
-                        <p className="profile-case-count" style={{ color: 'var(--error)' }}>
-                          {numConvictions} Conviction{numConvictions !== 1 ? 's' : ''}
-                        </p>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Pending Case List */}
-                  {!hasNoCases && validPendingCases.length > 0 && (
-                    <div style={{
-                      marginTop: '0.5rem',
-                      maxHeight: '300px',
-                      overflowY: 'auto',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '0.75rem',
-                      paddingRight: '0.5rem'
-                    }} className="custom-scrollbar">
-                      {validPendingCases.map((caseItem, idx) => (
-                        <div key={idx} style={{
-                          backgroundColor: 'var(--surface-container-lowest)',
-                          padding: '0.75rem',
-                          borderRadius: '0.5rem',
-                          border: '1px solid color-mix(in srgb, var(--error) 18%, transparent)'
-                        }}>
-                          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.25rem' }}>
-                            <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)' }}>
-                              FIR: {isInvalid(caseItem.fir_no) ? 'Not Specified' : caseItem.fir_no}
-                            </span>
-                          </div>
-                          {!isInvalid(caseItem.sections) && (
-                            <p style={{ fontSize: '0.75rem', color: 'var(--on-surface-variant)', marginBottom: '0.25rem' }}>
-                              {caseItem.sections}
-                            </p>
-                          )}
-                          <p style={{ fontSize: '0.8125rem', color: 'var(--on-surface)', lineHeight: 1.4 }}>
-                            {isInvalid(caseItem.description) ? "Description not available in summary." : caseItem.description}
-                          </p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {/* Conviction Case List */}
-                  {validConvictionCases.length > 0 && (
-                    <div>
-                      <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.5rem' }}>
-                        Convictions
-                      </p>
-                      <div style={{
-                        maxHeight: '300px',
-                        overflowY: 'auto',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '0.75rem',
-                        paddingRight: '0.5rem'
-                      }} className="custom-scrollbar">
-                        {validConvictionCases.map((caseItem, idx) => (
-                          <div key={idx} style={{
-                            backgroundColor: 'var(--surface-container-lowest)',
-                            padding: '0.75rem',
-                            borderRadius: '0.5rem',
-                            border: '2px solid color-mix(in srgb, var(--error) 40%, transparent)'
-                          }}>
-                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.25rem' }}>
-                              <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--error)' }}>
-                                FIR: {isInvalid(caseItem.fir_no) ? 'Not Specified' : caseItem.fir_no}
-                              </span>
-                              <span style={{
-                                fontSize: '0.625rem',
-                                fontWeight: 700,
-                                color: 'var(--on-error)',
-                                backgroundColor: 'var(--error)',
-                                padding: '0.125rem 0.375rem',
-                                borderRadius: '9999px',
-                                letterSpacing: '0.05em'
-                              }}>
-                                CONVICTED
-                              </span>
-                            </div>
-                            {!isInvalid(caseItem.sections) && (
-                              <p style={{ fontSize: '0.75rem', color: 'var(--on-surface-variant)', marginBottom: '0.25rem' }}>
-                                {caseItem.sections}
-                              </p>
-                            )}
-                            <p style={{ fontSize: '0.8125rem', color: 'var(--on-surface)', lineHeight: 1.4 }}>
-                              {isInvalid(caseItem.description) ? "Description not available in summary." : caseItem.description}
-                            </p>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {(hasNoCases || (validPendingCases.length === 0 && validConvictionCases.length === 0)) && (
-                    <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginTop: '0.25rem' }}>
-                      Based on official disclosures. {hasNoCases ? 'No pending criminal cases declared.' : 'Primarily related to public protest or administrative disputes where applicable.'}
-                    </p>
-                  )}
-
-                  {!hasNoCases && (
-                    <button style={{
-                      fontSize: '0.75rem',
-                      fontWeight: 700,
-                      color: 'var(--error)',
-                      textDecoration: 'underline',
-                      textDecorationThickness: '2px',
-                      textUnderlineOffset: '4px',
-                      textAlign: 'left',
-                      background: 'none',
-                      border: 'none',
-                      padding: 0,
-                      cursor: 'pointer'
-                    }}>VIEW COURT AFFIDAVITS</button>
-                  )}
-                </div>
-              </section>
+              <CriminalRecordsSection candidate={candidate} />
 
               {/* Latest News Section — hidden entirely when no items (strict no-estimates) */}
               {Array.isArray(newsItems) && newsItems.length > 0 && (

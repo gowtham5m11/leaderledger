@@ -1,9 +1,12 @@
 import React, { useState, useMemo, useRef } from 'react';
-import { X, Map as MapIcon, Users, Calendar, Award } from 'lucide-react';
+import { X, Map as MapIcon, Users, Calendar, Award, Layers } from 'lucide-react';
 import MapChart from './MapChart';
-import { getDistrictData, partyColor } from '../data/mockData';
+import { getDistrictData, partyColor, partyOnColor } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
 import { safeHref } from '../utils/safeHref';
+import districtPathsData from '../data/districtPaths.json';
+import constituencyDistrict from '../data/constituencyDistrict.json';
+import candidatesRaw from '../data/candidates.json';
 
 // Mobile bottom-sheet sizing. Sheet is freely draggable like the desktop
 // side panel — no snap points. Height is stored in vh units and clamped
@@ -69,6 +72,23 @@ const DistrictView = () => {
 
   const [selectedDistrict, setSelectedDistrict] = useState(defaultDistrict);
   const [isPanelVisible, setIsPanelVisible] = useState(true);
+  const [selectedDistrictName, setSelectedDistrictName] = useState(null);
+  const [showDistrictBorders, setShowDistrictBorders] = useState(false);
+  const [districtPickerOpen, setDistrictPickerOpen] = useState(false);
+
+  const candidates = Array.isArray(candidatesRaw) ? candidatesRaw : [];
+
+  const districtNames = useMemo(
+    () => [...new Set(Object.values(constituencyDistrict))].sort(),
+    []
+  );
+
+  const districtCandidates = useMemo(() => {
+    if (!selectedDistrictName) return [];
+    return candidates
+      .filter(c => constituencyDistrict[(c.constituency || '').toUpperCase()] === selectedDistrictName)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [selectedDistrictName, candidates]);
 
   const [panelWidth, setPanelWidth] = useState(440);
   const [isResizing, setIsResizing] = useState(false);
@@ -156,6 +176,17 @@ const DistrictView = () => {
 
   const handleDistrictClick = (data) => {
     setSelectedDistrict(data);
+    setSelectedDistrictName(null);
+    setIsPanelVisible(true);
+    setSheetVh(SHEET_DEFAULT_VH);
+  };
+
+  const handleDistrictNameClick = (districtName) => {
+    if (selectedDistrictName === districtName) {
+      setSelectedDistrictName(null);
+      return;
+    }
+    setSelectedDistrictName(districtName);
     setIsPanelVisible(true);
     setSheetVh(SHEET_DEFAULT_VH);
   };
@@ -169,6 +200,10 @@ const DistrictView = () => {
         <MapChart
           setTooltipContent={setTooltipData}
           onDistrictClick={handleDistrictClick}
+          districtPaths={districtPathsData}
+          showDistrictBorders={showDistrictBorders}
+          highlightedDistrict={selectedDistrictName}
+          constituencyDistrict={constituencyDistrict}
         />
         <MapTooltip data={tooltipData} />
 
@@ -177,27 +212,69 @@ const DistrictView = () => {
           {/* branding is inside MapChart actually but we can layer additional things here */}
         </div>
 
-        {/* Map Legend */}
-        <div className="absolute bottom-10 left-10 glass-panel px-6 py-4 rounded-3xl border border-outline-variant flex gap-8 z-50">
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[var(--tdp)]"></div>
-            <span className="label-sm text-on-surface-variant font-medium">TDP</span>
+        {/* Bottom-left controls */}
+        <div style={{ position: 'absolute', bottom: '2.5rem', left: '2.5rem', zIndex: 50, display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'flex-start' }}>
+          {/* District picker popup — floats above the buttons */}
+          {districtPickerOpen && (
+            <div className="district-picker-popup custom-scrollbar">
+              {districtNames.map(name => (
+                <button
+                  key={name}
+                  className={`district-btn${selectedDistrictName === name ? ' active' : ''}`}
+                  onClick={() => handleDistrictNameClick(name)}
+                >
+                  {name.charAt(0) + name.slice(1).toLowerCase()}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {/* Two action buttons side by side */}
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button
+              onClick={() => setShowDistrictBorders(v => !v)}
+              className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${showDistrictBorders ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
+              title="Toggle district borders"
+            >
+              <Layers size={18} />
+              <span className="label-sm font-semibold">Borders</span>
+            </button>
+            <button
+              onClick={() => setDistrictPickerOpen(v => !v)}
+              className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${districtPickerOpen || selectedDistrictName ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
+              title="Select district"
+            >
+              <MapIcon size={18} />
+              <span className="label-sm font-semibold">
+                {selectedDistrictName
+                  ? selectedDistrictName.charAt(0) + selectedDistrictName.slice(1).toLowerCase()
+                  : 'Select District'}
+              </span>
+            </button>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[var(--ysrcp)]"></div>
-            <span className="label-sm text-on-surface-variant font-medium">YSRCP</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[var(--jsp)]"></div>
-            <span className="label-sm text-on-surface-variant font-medium">JSP</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[var(--bjp)]"></div>
-            <span className="label-sm text-on-surface-variant font-medium">BJP</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[var(--inc)]"></div>
-            <span className="label-sm text-on-surface-variant font-medium">INC</span>
+
+          {/* Party legend */}
+          <div className="glass-panel rounded-3xl border border-outline-variant" style={{ padding: '1rem 1.5rem', display: 'flex', gap: '2rem' }}>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-[var(--tdp)]"></div>
+              <span className="label-sm text-on-surface-variant font-medium">TDP</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-[var(--ysrcp)]"></div>
+              <span className="label-sm text-on-surface-variant font-medium">YSRCP</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-[var(--jsp)]"></div>
+              <span className="label-sm text-on-surface-variant font-medium">JSP</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-[var(--bjp)]"></div>
+              <span className="label-sm text-on-surface-variant font-medium">BJP</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-[var(--inc)]"></div>
+              <span className="label-sm text-on-surface-variant font-medium">INC</span>
+            </div>
           </div>
         </div>
       </div>
@@ -262,10 +339,23 @@ const DistrictView = () => {
         <aside className="floating-panel">
           <div className="flex items-start justify-between mb-8">
             <div>
-              <h2 className="headline-md text-primary mb-2">Constituency Ledger</h2>
-              <p className="body-md text-on-surface-variant opacity-80">
-                A key political landscape showcasing the diverse democratic will of the people.
-              </p>
+              {selectedDistrictName ? (
+                <>
+                  <h2 className="headline-md text-primary mb-2">
+                    {selectedDistrictName.charAt(0) + selectedDistrictName.slice(1).toLowerCase()} District
+                  </h2>
+                  <p className="body-md text-on-surface-variant opacity-80">
+                    {districtCandidates.length} constituencies — alphabetical
+                  </p>
+                </>
+              ) : (
+                <>
+                  <h2 className="headline-md text-primary mb-2">Constituency Ledger</h2>
+                  <p className="body-md text-on-surface-variant opacity-80">
+                    A key political landscape showcasing the diverse democratic will of the people.
+                  </p>
+                </>
+              )}
             </div>
             <button
               onClick={() => setIsPanelVisible(false)}
@@ -276,6 +366,49 @@ const DistrictView = () => {
             </button>
           </div>
 
+          {selectedDistrictName ? (
+            /* District MLA list mode */
+            <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar">
+              <div className="space-y-3">
+                {districtCandidates.map(c => {
+                  const data = getDistrictData(c.constituency);
+                  const pColor = partyColor(data.party);
+                  const pOn = partyOnColor(data.party);
+                  return (
+                    <button
+                      key={c.id}
+                      className="district-mla-item"
+                      onClick={() => {
+                        setSelectedDistrict(data);
+                        setSelectedDistrictName(null);
+                      }}
+                    >
+                      <img
+                        src={getAssetPath(c.image)}
+                        alt={c.name}
+                        style={{ width: '3rem', height: '3rem', borderRadius: '0.75rem', objectFit: 'cover', flexShrink: 0 }}
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&background=random&color=fff&size=64`;
+                        }}
+                      />
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <p className="body-md font-semibold text-on-surface" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.name}</p>
+                        <p className="label-sm text-on-surface-variant" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.constituency}</p>
+                      </div>
+                      <span
+                        className="label-sm font-bold px-2 py-1 rounded-full"
+                        style={{ background: pColor, color: pOn, flexShrink: 0 }}
+                      >
+                        {data.party}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ) : (
+          /* Single constituency mode */
           <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar">
             {/* Header Identity */}
             <div className={`p-8 rounded-[2rem] bg-surface-container-low mb-8 ledger-line-${selectedDistrict.party?.toLowerCase()}`}>
@@ -411,6 +544,7 @@ const DistrictView = () => {
               )}
             </div>
           </div>
+          )}
         </aside>
       </div>
     </div>
