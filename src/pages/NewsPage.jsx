@@ -76,9 +76,16 @@ function relationFor(item, cand) {
   const lc = text.toLowerCase();
 
   // 1. Direct name mention — any name-word ≥4 chars, word-boundary match.
-  const nameWords = String(cand.name || '')
-    .split(/\s+/)
+  let cleanName = String(cand.name || '');
+  // Strip parentage like S/O, D/O, W/O and anything after it
+  cleanName = cleanName.replace(/\s+[sSwWdD]\/[oO]\s+.*$/gi, '');
+
+  // Split by non-alphanumeric characters to isolate words cleanly,
+  // which handles aliases, dots, and parenthesized content without causing regex syntax issues.
+  const nameWords = cleanName
+    .split(/[^a-zA-Z0-9]+/)
     .filter((w) => w.length >= 4);
+
   if (nameWords.some((w) => new RegExp(`\\b${escapeRegex(w)}\\b`, 'i').test(text))) {
     return { label: 'Named in article', kind: 'name' };
   }
@@ -89,7 +96,7 @@ function relationFor(item, cand) {
     .replace(/\s*\([^)]*\)\s*$/, '')
     .trim();
   if (constStem) {
-    const constWords = constStem.split(/\s+/).filter((w) => w.length >= 4);
+    const constWords = constStem.split(/[^a-zA-Z0-9]+/).filter((w) => w.length >= 4);
     if (constWords.some((w) => new RegExp(`\\b${escapeRegex(w)}\\b`, 'i').test(text))) {
       const pretty = constStem
         .toLowerCase()

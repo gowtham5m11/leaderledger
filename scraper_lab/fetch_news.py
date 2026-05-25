@@ -285,17 +285,32 @@ def parse_items(xml_text: str, lang: str, matched_query: str,
 
 
 def queries_for(candidate: dict, query3_template: str) -> list[str]:
-    """Two query strings (or one, if --query3-template is empty)."""
+    """Clean name queries plus constituency query (or one, if --query3-template is empty)."""
     name = (candidate.get("name") or "").strip()
     constituency = (candidate.get("constituency") or "").strip()
     queries: list[str] = []
     if name:
-        queries.append(f'"{name}"')
+        # Strip ECI suffixes (parentage, aliases, etc.)
+        clean_name = re.sub(r'\s+[S|D|W]/O\s+.*$', '', name, flags=re.IGNORECASE)
+        clean_name = re.sub(r'\(.*?\)', '', clean_name)
+        clean_name = re.sub(r'@.*$', '', clean_name)
+        clean_name = re.sub(r'\s+', ' ', clean_name).strip()
+
+        queries.append(f'"{clean_name}"')
+
+        # For 3+ word names, add simplified/common name queries
+        words = clean_name.split()
+        if len(words) >= 3:
+            # e.g., "Konidala Pawan Kalyan" -> "Pawan Kalyan"
+            queries.append(f'"{ " ".join(words[-2:]) }"')
+            # e.g., "Chandrababu Naidu Nara" -> "Chandrababu Naidu"
+            queries.append(f'"{ " ".join(words[:-1]) }"')
     if query3_template and constituency:
         queries.append(query3_template.format(constituency=constituency))
     # de-duplicate while preserving order
     seen: set[str] = set()
     return [q for q in queries if not (q in seen or seen.add(q))]
+
 
 
 def fetch_for_candidate(session: requests.Session, candidate: dict,

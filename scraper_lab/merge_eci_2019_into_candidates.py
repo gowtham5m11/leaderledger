@@ -128,9 +128,15 @@ def main() -> int:
         matched += 1
 
         # Track candidates re-elected from 2019 to 2024 (informational)
-        if title_case(w["name"]).split()[0].lower() in c["name"].lower() and \
-           title_case(w["name"]).split()[-1].lower() in c["name"].lower():
+        w_clean = re.sub(r'\s+[S|D|W]/O\s+.*$', '', w["name"], flags=re.IGNORECASE)
+        w_clean = re.sub(r'\(.*?\)|@.*$', '', w_clean).lower()
+        c_clean = re.sub(r'\s+[S|D|W]/O\s+.*$', '', c["name"], flags=re.IGNORECASE)
+        c_clean = re.sub(r'\(.*?\)|@.*$', '', c_clean).lower()
+        w_parts = set(re.sub(r'[^a-z0-9\s]', '', w_clean).split())
+        c_parts = set(re.sub(r'[^a-z0-9\s]', '', c_clean).split())
+        if len(w_parts & c_parts) >= 2:
             repeated_winner += 1
+
 
     print(f"matched: {matched}/{len(candidates)} candidates")
     print(f"  re-elected (2019→2024, name overlap): {repeated_winner}")

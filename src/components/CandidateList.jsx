@@ -63,13 +63,17 @@ const CandidateList = () => {
   const filteredLeaders = candidates
     .filter((l) => {
       if (query) {
-        const matchesName = (l.name || '').toLowerCase().includes(query);
-        const matchesConstituency = (l.constituency || '').toLowerCase().includes(query);
-        const matchesRole = (l.role || '').toLowerCase().includes(query);
-        const matchesMinistry = (l.ministries || []).some(m =>
-          (m.name || '').toLowerCase().includes(query)
-        );
-        if (!(matchesName || matchesConstituency || matchesMinistry || matchesRole)) return false;
+        // Strip parentage like S/O, D/O, W/O and anything after it from candidate name
+        const cleanName = (l.name || '').replace(/\s+[sSwWdD]\/[oO]\s+.*$/gi, '');
+        const nameText = cleanName.toLowerCase();
+        const constText = (l.constituency || '').toLowerCase();
+        const roleText = (l.role || '').toLowerCase();
+        const ministryText = (l.ministries || []).map(m => (m.name || '').toLowerCase()).join(' ');
+        const combinedText = `${nameText} ${constText} ${roleText} ${ministryText}`;
+
+        // Every token in the search query must be present in the candidate's combined text
+        const matchesQuery = query.split(/\s+/).every(token => combinedText.includes(token));
+        if (!matchesQuery) return false;
       }
       if (selectedParties.length && !selectedParties.includes(l.party)) return false;
       if (selectedCases.length) {
