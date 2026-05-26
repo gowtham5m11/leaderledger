@@ -50,8 +50,14 @@ const MapTooltip = ({ data }) => {
           }}
         />
         <div
-          className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full border-2 border-[var(--surface-container-lowest)] flex items-center justify-center"
-          style={{ backgroundColor: partyColor(data.party) }}
+          className="absolute -bottom-1 -right-1 flex items-center justify-center"
+          style={{ 
+            width: '1.25rem', 
+            height: '1.25rem', 
+            borderRadius: '50%', 
+            border: '2px solid var(--surface-container-lowest)', 
+            backgroundColor: partyColor(data.party) 
+          }}
         >
         </div>
       </div>
@@ -254,27 +260,19 @@ const DistrictView = () => {
           </div>
 
           {/* Party legend */}
-          <div className="glass-panel rounded-3xl border border-outline-variant" style={{ padding: '1rem 1.5rem', display: 'flex', gap: '2rem' }}>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-[var(--tdp)]"></div>
-              <span className="label-sm text-on-surface-variant font-medium">TDP</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-[var(--ysrcp)]"></div>
-              <span className="label-sm text-on-surface-variant font-medium">YSRCP</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-[var(--jsp)]"></div>
-              <span className="label-sm text-on-surface-variant font-medium">JSP</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-[var(--bjp)]"></div>
-              <span className="label-sm text-on-surface-variant font-medium">BJP</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-[var(--inc)]"></div>
-              <span className="label-sm text-on-surface-variant font-medium">INC</span>
-            </div>
+          <div className="glass-panel rounded-3xl border border-outline-variant" style={{ padding: '1rem 1.5rem', display: 'flex', gap: '2rem', alignItems: 'center' }}>
+            {[
+              { party: 'TDP',   color: 'var(--tdp)'   },
+              { party: 'YSRCP', color: 'var(--ysrcp)' },
+              { party: 'JSP',   color: 'var(--jsp)'   },
+              { party: 'BJP',   color: 'var(--bjp)'   },
+              { party: 'INC',   color: 'var(--inc)'   },
+            ].map(({ party, color }) => (
+              <div key={party} style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                <div style={{ width: '0.75rem', height: '0.75rem', borderRadius: '50%', background: color, flexShrink: 0 }} />
+                <span className="label-sm text-on-surface-variant font-medium">{party}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -397,8 +395,8 @@ const DistrictView = () => {
                         <p className="label-sm text-on-surface-variant" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.constituency}</p>
                       </div>
                       <span
-                        className="label-sm font-bold px-2 py-1 rounded-full"
-                        style={{ background: pColor, color: pOn, flexShrink: 0 }}
+                        className="party-badge"
+                        style={{ backgroundColor: pColor, color: pOn }}
                       >
                         {data.party}
                       </span>
@@ -424,7 +422,7 @@ const DistrictView = () => {
                 />
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '0.75rem' }}>
-                    <span className="label-sm px-4 py-1.5 rounded-full bg-white font-bold text-primary inline-flex items-center justify-center shadow-sm border border-primary/10 whitespace-nowrap leading-none">
+                    <span className="constituency-badge">
                       {selectedDistrict.name}
                     </span>
                     {(!selectedDistrict.dob || selectedDistrict.dob.startsWith('Age:')) && (
@@ -493,7 +491,7 @@ const DistrictView = () => {
                   </div>
                   <div className="flex justify-between items-center py-2 border-b border-outline-variant/20">
                     <span className="label-sm text-on-surface-variant opacity-70">Constituency Status</span>
-                    <span className="label-sm px-3 py-1 rounded-full bg-primary/10 text-primary">
+                    <span className="status-badge">
                       Verified
                     </span>
                   </div>

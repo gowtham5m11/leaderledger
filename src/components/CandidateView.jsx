@@ -86,12 +86,12 @@ const CandidateView = () => {
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
                     <span 
-                      className="px-2 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-widest text-white"
-                      style={{ backgroundColor: partyColor(candidate.partyDisplay) }}
+                      className="party-badge party-badge--sm"
+                      style={{ backgroundColor: partyColor(candidate.partyDisplay), color: '#ffffff' }}
                     >
                       {candidate.partyDisplay}
                     </span>
-                    <span className="text-[10px] font-bold text-outline uppercase tracking-wider opacity-60">Verified</span>
+                    <span style={{ fontSize: '10px', fontWeight: 'bold', color: 'var(--outline)', textTransform: 'uppercase', letterSpacing: '0.05em', opacity: 0.6 }}>Verified</span>
                   </div>
                   <h3 className="text-xl font-headline group-hover:text-primary transition-colors pr-8">
                     {candidate.name}
