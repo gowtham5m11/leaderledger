@@ -4379,7 +4379,7 @@
       "status": "needs_manual_review",
       "reason": "page index missed section headers",
       "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T15:29:17.275636+00:00"
+      "extracted_at": "2026-05-27T03:37:58.068237+00:00"
     },
     "criminal_details_pending": [],
     "criminal_details_convictions": [],
@@ -8098,15 +8098,25 @@
         "Corruption & Fraud": 0,
         "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 0
+        "Minor/Other": 1
       },
       "count_source": "abstract",
-      "extracted_count": 0,
+      "extracted_count": 1,
       "abstract_count": 22,
       "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T16:08:58.480341+00:00"
+      "extracted_at": "2026-05-27T03:39:54.726458+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "Not Applicable",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: Not Applicable",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 29486,
@@ -14797,7 +14807,7 @@
       "status": "needs_manual_review",
       "reason": "page index missed section headers",
       "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T17:02:16.084240+00:00"
+      "extracted_at": "2026-05-27T03:40:34.856995+00:00"
     },
     "criminal_details_pending": [],
     "criminal_details_convictions": [],
@@ -18794,7 +18804,7 @@
       "count_source": "extraction",
       "extracted_count": 0,
       "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:31:29.630130+00:00"
+      "extracted_at": "2026-05-27T03:43:04.869708+00:00"
     },
     "criminal_details_pending": [],
     "criminal_details_convictions": [],
@@ -22155,7 +22165,7 @@
     "name": "Chandrababu Naidu Nara",
     "constituency": "KUPPAM",
     "party": "TDP",
-    "criminal_cases": "19",
+    "criminal_cases": "24",
     "education": "completed M.A in Economics in Sri Venkateswara University, Tirupati in 1974",
     "dob": "20 April 1950",
     "image": "/candidate-images/chandrababu_naidu_nara.jpg",
@@ -22167,14 +22177,261 @@
     },
     "profession": "Agriculture and Public Service",
     "criminal_summary": {
-      "num_criminal_cases": 19,
+      "num_criminal_cases": 24,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 19
+        "Corruption & Fraud": 8,
+        "Serious/Violent": 3,
+        "Political/Protest": 12,
+        "Election Offenses": 1
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "affidavit_abstract",
+      "extracted_count": 24,
+      "source": "OCR+Manual-Audit:Affidavit-Annexure-1",
+      "extracted_at": "2026-05-26T00:00:00+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "19/2023",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "Irregularities in decision-making while implementing policy to provide Free Sand, causing loss to the state exchequer",
+        "sections": "120B, 409 r/w 34 IPC; 13(1)(d) r/w 13(2) Prevention of Corruption Act 1988",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 17,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "18/2023",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "Irregularities in decisions taken between 2014–19, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
+        "sections": "166, 167, 409, 120B r/w 34 IPC; 13(1)(d) r/w 13(2) Prevention of Corruption Act 1988",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 17,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "NIL",
+        "police_station": "Mudiveedu Police Station, Annamayya District",
+        "description": "Conspired and instigated TDP workers with a common motive to form an unlawful assembly, hurled abuses and instigated attack on YCP activist with weapons",
+        "sections": "143, 147, 148, 109, 323, 324, 506 r/w 149 IPC",
+        "charges_framed": "No",
+        "category": "Serious/Violent",
+        "page": 17,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "56/2023",
+        "police_station": "Biccavole / Mulakalacheruvu Police Station, East Godavari District",
+        "description": "During a road show, addressed a gathering promoting enmity between political parties and uttered inappropriate comments on the local MLA",
+        "sections": "143, 341, 153, 153A, 290, 506 r/w 149 IPC",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 18,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "41/2023",
+        "police_station": "Anaparthy Police Station, East Godavari District",
+        "description": "Defied orders of a public officer; encouraged TDP leaders and followers to move forward, causing obstruction to public servants performing their legitimate duties",
+        "sections": "143, 353 r/w 149 IPC",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 18,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "NIL",
+        "police_station": "Mulakalacheruvu, East Godavari District",
+        "description": "Addressed a gathering from a vehicle with loud speakers, disobeying the orders of a Police Officer and by threatening",
+        "sections": "188, 506 r/w 34 IPC",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 18,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "16/2022",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "Irregularities in designing the Master Plan for AP Capital region and alignment of the Inner Ring Road to cause wrongful gain to certain persons",
+        "sections": "120B, 420, 35, 36, 37, 166, 167, 217 IPC; 13(2) r/w 13(1)(d) Prevention of Corruption Act 1988",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 19,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "75/2022",
+        "police_station": "Kalyanadurgam Police Station, Ananthapur District",
+        "description": "Social media post regarding the death of a girl child during a road show held by Minister for Women & Child Welfare, alleged to provoke public",
+        "sections": "420, 153A r/w 34 IPC",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 19,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "29/2021",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "Swindling of funds by M/s. Siemens, M/s. Design Tech and their shell companies through bogus invoices, siphoning off Government funds (Skill Development Corporation scam)",
+        "sections": "166, 167, 418, 420, 465, 468, 471, 409, 201, 109 r/w 120B IPC; 13(2) r/w 13(1)(c)(d) Prevention of Corruption Act 1988",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 19,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "24/2021",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "Violation of AP State Government E-Procurement Policy rules in awarding contracts by A.P. State FiberNet Limited to M/s. Tera Software Limited",
+        "sections": "166, 167, 418, 465, 468, 471, 409, 506 r/w 120B IPC; 13(2) r/w 13(1)(c)(d) Prevention of Corruption Act 1988",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 20,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "230/2021",
+        "police_station": "Avandalpet Police Station, Guntur District",
+        "description": "Spoke about the 2nd wave of Covid and about the N440K variant being 10–15 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh",
+        "sections": "188, 505(1)(b), 505(2) IPC; 54 Disaster Management Act 2005",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 20,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "88/2021",
+        "police_station": "Narasaraopet-II Town Police Station, Palnadu District",
+        "description": "Statements about spread of the N440K variant virus on various news channels and teleconferencing meetings, causing fears among general public",
+        "sections": "188, 505(1)(b), 505(2), 153A IPC; 54 Disaster Management Act 2005",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 20,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "94/2021",
+        "police_station": "Suryaraopeta Police Station, Vijayawada, N.T.R. District",
+        "description": "Statements on social media and news channels about non-availability of vaccines, alleged to spread falsehood and blame the state government [Note in affidavit: referred as Mistake of Fact on 29.12.2023]",
+        "sections": "505(1)(b) r/w 120B IPC; 3 Epidemic Diseases Act 1897",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 21,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "80/2021",
+        "police_station": "Kurnool I Town Police Station, Kurnool District",
+        "description": "Spoke about the N440K variant virus causing fears among the public [Note in affidavit: case dropped for lack of evidence on 17.02.2023]",
+        "sections": "188, 505(1)(b), 505(2) IPC; 54 Disaster Management Act 2005",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 21,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "5/2021",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "Irregularities in issuing Government Orders that caused loss to SC & ST Community",
+        "sections": "166, 167, 217, 120B r/w 34, 35, 36, 37 IPC; 3(1)(2) SC/ST (Prevention of Atrocities) Act 1989; 10 AP Assigned Land (Prohibition of Transfers) Act 1977",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 21,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "65/2021",
+        "police_station": "Yerpedu Police Station, Tirupati District",
+        "description": "Preventive arrest [Note in affidavit: as per police report, action dropped]",
+        "sections": "151 Cr.P.C.",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 22,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "1/2021",
+        "police_station": "Nellimarla Police Station, Vizianagaram District",
+        "description": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3–A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]",
+        "sections": "307, 326, 427, 503, 506, 323, 120B r/w 34 IPC; 3 Prevention of Damage to Public Property Act 1984",
+        "charges_framed": "No",
+        "category": "Serious/Violent",
+        "page": 22,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "511/2020",
+        "police_station": "Nandigama Police Station, Krishna District",
+        "description": "During journey from Hyderabad to AP, came out of car and greeted a gathering by waving hand and showing two fingers, in violation of Covid-19 protocol and guidelines",
+        "sections": "188, 270 IPC; 3 Epidemic Diseases Act 1897",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 22,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "15/2020",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "As public servants, indulged in misconduct by abusing official capacity for providing wrongful benefit to themselves and their relatives/associates",
+        "sections": "420, 120B IPC; 3(1)(G), 3(2)(va) SC/ST (Prevention of Atrocities) Amendment Act 2018; 7 AP Assigned Lands (Prohibition of Transfers) Act 1977",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 23,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "46/2020",
+        "police_station": "Airport Police Station, West Sub-Division, Visakhapatnam City",
+        "description": "Preventive arrest [Note in affidavit: disposed on same day at Magistrate Court, Gopalapatnam, Visakhapatnam]",
+        "sections": "151 Cr.P.C.",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 23,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "14/2020",
+        "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
+        "description": "As public servants, indulged in misconduct by abusing official capacity for providing wrongful benefit to themselves and their relatives/associates",
+        "sections": "166, 167, 217, 420, 409, 109 r/w 34, 35, 36, 37, 120B IPC; 3(1)(f)(g), 3(2)(va) SC/ST (Prevention of Atrocities) Amendment Act 2015; 7 AP Assigned Lands Act; 13(2) r/w 13(1)(c)(d) Prevention of Corruption Act 1988",
+        "charges_framed": "No",
+        "category": "Corruption & Fraud",
+        "page": 23,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "23/2020",
+        "police_station": "Patamata Police Station, Vijayawada",
+        "description": "Preventive arrest [Note in affidavit: case referred as Action Dropped on 08.01.2020]",
+        "sections": "151 Cr.P.C.",
+        "charges_framed": "No",
+        "category": "Political/Protest",
+        "page": 24,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "48/2012",
+        "police_station": "Allagadda Town Police Station, Nandyal District",
+        "description": "During bye-election, held a meeting in violation of instructions of the Election Commission of India",
+        "sections": "188 IPC; 156(3) Cr.P.C.",
+        "charges_framed": "No",
+        "category": "Election Offenses",
+        "page": 24,
+        "method": "OCR:tesseract/manual-audit"
+      },
+      {
+        "fir_no": "67/2010",
+        "police_station": "Dharmabad Police Station, Maharashtra",
+        "description": "Trespassed into Maharashtra violating prohibitory orders, formed unlawful assembly, shouted slogans in prohibited area and violated Section 144 Cr.P.C.",
+        "sections": "353, 324, 332, 336, 337, 323, 504, 506, 109 r/w 34 IPC",
+        "charges_framed": "No",
+        "category": "Serious/Violent",
+        "page": 24,
+        "method": "OCR:tesseract/manual-audit"
+      }
+    ],
     "criminal_details_convictions": [],
     "role": "Chief Minister",
     "ministries": [

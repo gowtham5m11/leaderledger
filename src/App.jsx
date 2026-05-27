@@ -20,6 +20,7 @@ const PrivacyPage = React.lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = React.lazy(() => import('./pages/TermsPage'));
 const NewsPage = React.lazy(() => import('./pages/NewsPage'));
 const InsightsPage = React.lazy(() => import('./pages/InsightsPage'));
+const CriminalDisclosurePage = React.lazy(() => import('./pages/CriminalDisclosurePage'));
 
 // Landing route. Mobile users start on the candidates list (the map is hard
 // to use on a small screen — see DesktopHint); desktop users start on the
@@ -100,6 +101,11 @@ function App() {
                 <Route path="/profile/:id" element={
                   <Suspense fallback={<ProfileSkeleton />}>
                     <CandidateProfile />
+                  </Suspense>
+                } />
+                <Route path="/criminal/:id" element={
+                  <Suspense fallback={<GenericPageSkeleton />}>
+                    <CriminalDisclosurePage />
                   </Suspense>
                 } />
                 <Route path="/account" element={

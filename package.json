@@ -38,6 +38,7 @@
     "firebase-admin": "^13.10.0",
     "globals": "^15.11.0",
     "mapshaper": "^0.6.113",
+    "playwright": "^1.60.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.1",
     "topojson-client": "^3.1.0",
