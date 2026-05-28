@@ -4447,34 +4447,34 @@
       "num_criminal_cases": 8,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 2,
+        "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 0,
-        "Election Offenses": 1,
+        "Political/Protest": 3,
+        "Election Offenses": 0,
         "Minor/Other": 5
       },
       "count_source": "extraction",
       "extracted_count": 8,
       "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-12T06:37:46.642754+00:00"
+      "extracted_at": "2026-05-28T11:20:10.631486+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "C.FNo: — 1084/2023",
+        "fir_no": "2 /2024",
         "description": "Private Complaint",
         "sections": "IPC",
         "page": 26,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.FNo: — 1084/2023 | Desc: Private Complaint",
+        "raw_text": "FIR: 2 /2024 | Desc: Private Complaint",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "C.C No: 2 /2024",
+        "fir_no": "1084/2023",
         "description": "Private Complaint",
         "sections": "IPC",
         "page": 26,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C No: 2 /2024 | Desc: Private Complaint",
+        "raw_text": "FIR: 1084/2023 | Desc: Private Complaint",
         "category": "Minor/Other"
       },
       {
@@ -4489,47 +4489,47 @@
       {
         "fir_no": "246/2023",
         "description": "Provocative speech in public meeting",
-        "sections": "153, 505(2) of IPC",
+        "sections": "153, 04,505(2) of IPC",
         "page": 27,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 246/2023 | Desc: Provocative speech in public meeting",
-        "category": "Minor/Other"
+        "category": "Political/Protest"
       },
       {
         "fir_no": "405/2023",
-        "description": "Speech in meeting alleged as provocative speech",
+        "description": "Speech in meeting alleged as provocative",
         "sections": "153, 153 A, 505 (2) of IPC",
         "page": 27,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 405/2023 | Desc: Speech in meeting alleged as provocative speech",
-        "category": "Minor/Other"
+        "raw_text": "FIR: 405/2023 | Desc: Speech in meeting alleged as provocative",
+        "category": "Political/Protest"
       },
       {
         "fir_no": "817/2022",
-        "description": "Rash & negligent driving of driver Al, Pawan Kalyan A2 seated in the rooftop of the car, violated Motor Vehicle Rules",
-        "sections": "279, 337 IPC r/w 177 of MV Act",
+        "description": "Rash & negligent driving of driver Al, Pawan Kalyan",
+        "sections": "279,337 IPC r/w 177 of MV Act",
         "page": 27,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 817/2022 | Desc: Rash & negligent driving of driver Al, Pawan Kalyan A2 seated in the rooftop of the car, violated Motor Vehicle Rules",
-        "category": "Election Offenses"
+        "raw_text": "FIR: 817/2022 | Desc: Rash & negligent driving of driver Al, Pawan Kalyan",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "4118/2018",
-        "description": "Thorrur PS,Thorrur",
+        "fir_no": "118/2018",
+        "description": "Allegations against Sri. K.Chandrasekhara Rao in political public meeting",
         "sections": "504,506, 469 of IPC",
         "page": 28,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 4118/2018 | Desc: Thorrur PS,Thorrur",
-        "category": "Serious/Violent"
+        "raw_text": "FIR: 118/2018 | Desc: Allegations against Sri. K.Chandrasekhara Rao in political public meeting",
+        "category": "Political/Protest"
       },
       {
         "fir_no": "367/2018",
-        "description": "Banjara Hills, Hyderabad",
+        "description": "Allegations against news channels",
         "sections": "153 A, 506 of IPC",
         "page": 28,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 367/2018 | Desc: Banjara Hills, Hyderabad",
-        "category": "Serious/Violent"
+        "raw_text": "FIR: 367/2018 | Desc: Allegations against news channels",
+        "category": "Minor/Other"
       }
     ],
     "criminal_details_convictions": [],
