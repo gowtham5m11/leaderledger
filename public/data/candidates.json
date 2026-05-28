@@ -10766,7 +10766,7 @@
     "name": "Nara Lokesh",
     "constituency": "MANGALAGIRI",
     "party": "TDP",
-    "criminal_cases": "17",
+    "criminal_cases": "23",
     "education": "completed Master of Business Administration from Stanford University Graduate School of Business in 2008",
     "dob": "23 January 1983",
     "image": "/candidate-images/nara_lokesh.jpg",
@@ -10777,14 +10777,229 @@
     },
     "profession": "Public Service",
     "criminal_summary": {
-      "num_criminal_cases": 17,
+      "num_criminal_cases": 23,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 17
+        "Political/Protest": 20,
+        "Corruption & Fraud": 1,
+        "Serious/Violent": 1,
+        "Minor/Other": 1
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "affidavit_abstract",
+      "extracted_count": 23,
+      "source": "Manual-OCR:2026-05-28",
+      "extracted_at": "2026-05-28T11:45:00.000000+00:00",
+      "note": "criminal_cases updated 17->23 to match affidavit abstract (page 17). Cases from Annexure-B (pages 21-28). FIR nos for cols 3 and 18 unclear due to scan quality."
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "193/2023",
+        "description": "Obstructing public official from performing legitimate duties; threatening with dire consequences",
+        "sections": "341, 427, 506, 109 r/w 34 IPC",
+        "page": 21,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 193/2023 Nallajerla PS, East Godavari | Obstructing public official; threatening",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "32/2023",
+        "description": "Conducting meeting without permission; violating orders of superior officers; causing obstruction to traffic and disturbing public peace",
+        "sections": "143, 353, 506, 188 r/w 149 IPC",
+        "page": 21,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 32/2023 Gajula Mandyam PS, Tirupathi | Meeting without permission, traffic obstruction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "FIR/2023",
+        "description": "Roaming in vehicles with mike and loud speakers without prior permission; causing annoyance and disobeying orders of a public servant",
+        "sections": "188, 341, 290 r/w 34 IPC",
+        "page": 21,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: [no. unclear] S.R. Puram PS, Chittoor | Vehicles with mike without permission, disobeying public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "7/2023",
+        "description": "Conducting meeting without permission; violating orders; causing obstruction to traffic and disturbing public peace",
+        "sections": "188, 341, 290 r/w 34 IPC",
+        "page": 22,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 7/2023 Narasingarayanipet PS, Chittoor | Meeting without permission, traffic obstruction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "20/2023",
+        "description": "Conducting public meeting without permission; used mike and sound system atop vehicle on National Highway blocking road and traffic",
+        "sections": "341, 188, 290 r/w 34 IPC",
+        "page": 22,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 20/2023 Palamaner Urban PS, Chittoor | Meeting atop vehicle on National Highway blocking traffic",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "16/2023",
+        "description": "Campaigning without permission; causing obstruction to free flow of traffic and disturbing public peace",
+        "sections": "353, 290, 188, 341 r/w 34 IPC",
+        "page": 22,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 16/2023 Bangarupalem Urban PS, Chittoor | Campaigning without permission, traffic obstruction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "162/2022",
+        "description": "Preventive arrest to avoid law and order problem in land disputes in Ullasapeta Village, Palasa Mandal",
+        "sections": "Section 151 CrPC",
+        "page": 23,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 162/2022 Amadalavalasa PS, Srikakulam | Preventive arrest, Ullasapeta Village land disputes",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "161/2022",
+        "description": "Supported people in Ullasapeta Village, Palasa Mandal; involved in disputes and created law and order problem",
+        "sections": "341, 188 r/w 34 IPC",
+        "page": 23,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 161/2022 Amadalavalasa PS, Srikakulam | Supported people in Ullasapeta Village, law and order problem",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "16/2022",
+        "description": "Conspiracy while designing the Master Plan for AP Capital region and alignment of Inner Ring Road to cause wrongful gain to certain persons [charge sheet filed 08.02.2024 before Special Judge for SPE & ACB Cases]",
+        "sections": "120B, 420, 34, 35, 36, 37, 166, 167, 217 IPC; Section 13(2) r/w 13(1)(a) Prevention of Corruption Act 1988",
+        "page": 23,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 16/2022 CID PS, AP Amaravathi | Conspiracy AP Capital Master Plan and Inner Ring Road alignment for wrongful gain | Prevention of Corruption Act | Charge sheet filed 08.02.2024",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "75/2022",
+        "description": "Social media post on Twitter regarding death of girl child during road show held by Minister for Women & Child Welfare; alleged to provoke public",
+        "sections": "153A r/w 34 IPC",
+        "page": 24,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 75/2022 Kalyanadurgam PS, Ananthapur | Social media post about girl child death during minister's road show",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "651/2021",
+        "description": "Caught hold of the complainant and questioned about the identity of the complainant [IPC 307 - attempt to murder; SC/ST Prevention of Atrocities Act]",
+        "sections": "147, 148, 307, 332, 427, 323, 324, 342 r/w 149 IPC; Section 3(1)(r), 3(1)(s) SC & ST Prevention of Atrocities Act 1989",
+        "page": 24,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 651/2021 Mangalagiri Rural PS, Guntur | Caught hold of complainant; IPC 307 (attempt to murder) and SC/ST PoA Act",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "665/2021",
+        "description": "Blocking National Highway at Varadhi Junction resulting in traffic congestion",
+        "sections": "341, 186, 269 r/w 34 IPC",
+        "page": 24,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 665/2021 Krishna Lanka PS, Vijayawada | Blocking National Highway at Varadhi Junction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "448/2021",
+        "description": "TDP members formed unlawful assembly; blocked traffic; gave slogans against AP Government; resisted and obstructed police duties",
+        "sections": "341, 353, 147 r/w 149, 120B IPC",
+        "page": 25,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 448/2021 Old Guntur PS | TDP members unlawful assembly, blocked traffic, obstructed police",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "447/2021",
+        "description": "Preventive arrest to control untoward incidents [Note: case closed per CCTNS]",
+        "sections": "Section 151 CrPC",
+        "page": 25,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 447/2021 Old Guntur PS | Preventive arrest [case closed]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "111/2021",
+        "description": "Tweet on social media pointing out failure of Rayadurgam MLA Kapu Ramachandra Reddy",
+        "sections": "153A, 505, 506 IPC",
+        "page": 25,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 111/2021 D.Hirehal PS, Ananthapur | Tweet pointing out failure of Rayadurgam MLA",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "230/2020",
+        "description": "Driving tractor in contravention of Motor Vehicle Act without following social distancing norms during Covid-19 period [Note: involvement of Nara Lokesh not established during investigation]",
+        "sections": "279 IPC; Section 184 MV Act; Section 51(a) Disaster Management Act 2005; Section 3 Epidemic Diseases Act 1897",
+        "page": 26,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 230/2020 West Godavari PS | Driving tractor without social distancing, Covid-19 [involvement not established]",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "511/2020",
+        "description": "Violated Covid-19 guidelines by not maintaining social/physical distance and shouting slogans during prohibited gatherings",
+        "sections": "188, 270 IPC; Section 3 Epidemic Diseases Act 1897",
+        "page": 26,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 511/2020 Nandigama PS, Krishna | Violated Covid-19 guidelines; shouting slogans during prohibited gatherings",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "FIR/2020",
+        "description": "Shouting slogans during Covid-19 period when gatherings were prohibited [Note: acquitted vide CC No. 1658/2021, I Addl Jr Metropolitan Magistrate, Vijayawada]",
+        "sections": "188 r/w 34 IPC; Section 3 Epidemic Diseases Act 1897",
+        "page": 26,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: [no. unclear]/2020 Vijayawada | Slogans during Covid-19 [acquitted]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "23/2020",
+        "description": "Preventive arrest to avoid any untoward incident [Note: action dropped 08.01.2020]",
+        "sections": "Section 151 CrPC",
+        "page": 27,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 23/2020 Patamata PS, Vijayawada | Preventive arrest [action dropped 08.01.2020]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "9/2020",
+        "description": "Preventive arrest to avoid any untoward incident [Note: action dropped 07.01.2020]",
+        "sections": "Section 151 CrPC",
+        "page": 27,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 9/2020 Krishna Lanka PS, Vijayawada | Preventive arrest [action dropped 07.01.2020]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "263/2019",
+        "description": "Social media post by TDP activists criticising CM Jagan Mohan Reddy and Minister K. Anil Kumar Yadav; causing anguish to YSRCP activists [Note: name of Nara Lokesh deleted after investigation; acquitted 14.08.2023]",
+        "sections": "153, 505(2), 120B IPC",
+        "page": 27,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 263/2019 Pamarru PS, Krishna | Social media post criticising CM Jagan [name deleted; acquitted 14.08.2023]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "222/2019",
+        "description": "Social media post by TDP sympathisers criticising Poluboyina Anil Kumar Yadav [Note: name of Nara Lokesh deleted from accused list after chargesheet filed 14.05.2021]",
+        "sections": "120B, 505(2), 153 r/w 34 IPC",
+        "page": 28,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 222/2019 Tiruvuru PS, Krishna | Social media post criticising Poluboyina Anil Kumar Yadav [name deleted from accused list]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "156/2019",
+        "description": "Social media posts by TDP activists hurting feelings of Yadav community",
+        "sections": "153, 505(2), 120B r/w 34 IPC",
+        "page": 28,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 156/2019 A.Konduru PS, Krishna | Social media posts hurting feelings of Yadav community",
+        "category": "Political/Protest"
+      }
+    ],
     "criminal_details_convictions": [],
     "role": "Cabinet Minister",
     "ministries": [
@@ -18046,11 +18261,280 @@
       "num_criminal_cases": 29,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 29
+        "Corruption & Fraud": 20,
+        "Minor/Other": 4,
+        "Election Offenses": 2,
+        "Political/Protest": 3
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "affidavit",
+      "extracted_count": 29,
+      "source": "Manual-OCR:2026-05-28",
+      "extracted_at": "2026-05-28T13:30:00.000000+00:00",
+      "note": "LLM extraction had wrong categories (9 PMLA + 11 CBI cases tagged Minor/Other) and missed 2 cases. Replaced with full manual OCR from affidavit pages 3-17. 9 ED/PMLA cases all under ECIR 09/HZO/2011; 11 CBI cases under RC 19(A)/2011."
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 3 of 2021, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 3,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 3 of 2021 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 2 of 2021, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 4,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2021 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 1 of 2021, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 4,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2021 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering [SC No. 1 of 2020 (old: SC No. 92/2016), Principal Special Judge for CBI Cases, Nampally, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 and Section 8(5) of Prevention of Money Laundering Act 2002",
+        "page": 5,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2020 (old SC No. 92/2016) | PMLA Sections 4 r/w 3, Section 8(5)",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 2 of 2018, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 5,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2018 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 1 of 2018, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 6,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2018 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "Not applicable",
+        "description": "Defamation — printing or engraving defamatory matter and sale of such material [CC No. 33 of 2018, Special Court for trial of MPs/MLAs, Vijayawada]",
+        "sections": "499, 500, 501, 502 r/w 34 IPC",
+        "page": 6,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: Not applicable | CC No. 33/2018 Special Court MPs/MLAs Vijayawada | IPC 499-502 r/w 34 Defamation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 2 of 2017, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 7,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2017 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "192/2017",
+        "description": "Disobedience to order duly promulgated by public servant; intentional insult; criminal intimidation; promoting enmity between classes in connection with election [Nandyala III Town PS; no cognizance yet taken]",
+        "sections": "188, 504, 506 IPC; Section 125 Representation of People Act 1951",
+        "page": 7,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 192/2017 Nandyala III Town PS | IPC 188, 504, 506; Section 125 RPA 1951",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "177/2017",
+        "description": "Promoting enmity between classes in connection with election [Nandyala III Town PS; no cognizance yet taken]",
+        "sections": "Section 125 Representation of People Act 1951",
+        "page": 8,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 177/2017 Nandyala III Town PS | Section 125 RPA 1951 promoting enmity in connection with election",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "122/2017",
+        "description": "Promoting enmity between different groups on grounds of religion, race, place of birth etc.; criminal intimidation [Kakinada III Town PS; no cognizance yet taken; came to know 24.04.2024]",
+        "sections": "153A, 506 IPC",
+        "page": 8,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 122/2017 Kakinada III Town PS | IPC 153A, 506 promoting enmity; criminal intimidation",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "23/2016",
+        "description": "Abetment of offence; promoting enmity between different groups; defamation [Ramagiri PS; no cognizance yet taken; came to know 24.04.2024]",
+        "sections": "116, 153A, 500 IPC",
+        "page": 9,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 23/2016 Ramagiri PS | IPC 116, 153A, 500 abetment, promoting enmity, defamation",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering — punishment for money-laundering and the act of money-laundering [SC No. 2 of 2016, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "page": 9,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2016 | PMLA Section 4 r/w 3",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "ECIR No. 09/HZO/2011",
+        "description": "Money laundering [SC No. 1 of 2016 (old: SC No. 106/2015), Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 3, 4 and 8(5) of Prevention of Money Laundering Act",
+        "page": 10,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2016 (old SC No. 106/2015) | PMLA Sections 3, 4, 8(5)",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "59/2016",
+        "description": "Mischief; mischief causing damage to amount of fifty rupees; statements conducive to public mischief [Mangalagiri Rural PS, Guntur; no cognizance yet taken]",
+        "sections": "425, 427, 505(ii) r/w 24 IPC",
+        "page": 10,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 59/2016 Mangalagiri Rural PS, Guntur Urban | IPC 425, 427, 505(ii) r/w 24 mischief",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "45/2016",
+        "description": "Defamation; printing or engraving matter known to be defamatory [Ponnur Rural PS, Guntur; no cognizance yet taken]",
+        "sections": "500, 501 IPC",
+        "page": 11,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 45/2016 Ponnur Rural PS, Guntur | IPC 500, 501 defamation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; criminal breach of trust by public servant; public servant obtaining valuable thing; criminal misconduct by public servant [CC No. 26 of 2014, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B, 420, 409 IPC; Section 11, 13(2) r/w 13(1)(c)(d) Prevention of Corruption Act 1988",
+        "page": 11,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 26/2014 | IPC 120B, 420, 409; PC Act 11, 13(2) r/w 13(1)(c)(d)",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating; forgery for purpose of cheating; using forged document; taking gratification for exercise of personal influence with public servant [CC No. 28 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B r/w 420, 468, 471 IPC; Section 9 Prevention of Corruption Act 1988",
+        "page": 12,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 28/2013 | IPC 120B r/w 420, 468, 471; PC Act Section 9",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; taking gratification for exercise of personal influence with public servant [CC No. 27 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B, 420 IPC; Section 9 Prevention of Corruption Act 1988",
+        "page": 12,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 27/2013 | IPC 120B, 420; PC Act Section 9",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; taking gratification for exercise of personal influence with public servant [CC No. 26 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B r/w 420 IPC; Section 9 Prevention of Corruption Act 1988",
+        "page": 13,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 26/2013 | IPC 120B r/w 420; PC Act Section 9",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; abetment; criminal misconduct by public servant [CC No. 25 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B, 420, 107 IPC; Section 13(2) r/w 13(1)(d) Prevention of Corruption Act",
+        "page": 13,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 25/2013 | IPC 120B, 420, 107; PC Act 13(2) r/w 13(1)(d)",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating; taking gratification and abetment of such offence [CC No. 24 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B r/w 420, 420 IPC; Section 9, 12 Prevention of Corruption Act 1988",
+        "page": 14,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 24/2013 | IPC 120B r/w 420; PC Act Sections 9, 12",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; taking gratification for exercise of personal influence with public servant [CC No. 12 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B, 420 IPC; Section 9 Prevention of Corruption Act",
+        "page": 14,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 12/2013 | IPC 120B, 420; PC Act Section 9",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "861/2013",
+        "description": "Prevention of singing of Indian National Anthem [Saroor Nagar PS, Cyberabad; no cognizance yet taken]",
+        "sections": "Section 3 of Prevention of Insults to National Honour Act 1971",
+        "page": 15,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 861/2013 Saroor Nagar PS, Cyberabad | Section 3 Prevention of Insults to National Honour Act 1971",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating; criminal breach of trust by public servant; taking gratification and abetment of such offence [CC No. 14 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B, 420, 409 IPC; Section 9, 12 Prevention of Corruption Act",
+        "page": 15,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 14/2012 | IPC 120B, 420, 409; PC Act Sections 9, 12",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating; using forged document; taking gratification and abetment [CC No. 10 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B, 420, 471 IPC; Section 9, 12 Prevention of Corruption Act",
+        "page": 16,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 10/2012 | IPC 120B, 420, 471; PC Act Sections 9, 12",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Criminal conspiracy; cheating; using forged document [CC No. 9 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "120B r/w 420, 420, 471 IPC",
+        "page": 16,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 9/2012 | IPC 120B r/w 420, 420, 471",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "R.C. No. 19(A) of 2011 — CBI/HYD",
+        "description": "Public servant obtaining valuable thing; taking gratification; criminal conspiracy; cheating [CC No. 8 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
+        "sections": "Section 12 r/w 11 Prevention of Corruption Act; 120B r/w 420 IPC",
+        "page": 17,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 8/2012 | PC Act Section 12 r/w 11; IPC 120B r/w 420",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "114/2008",
+        "description": "General provision for punishment of offences under Motor Vehicles Act; acts done by several persons in furtherance of common intention [Vempalle PS, AP; no cognizance yet taken; came to know 24.04.2024]",
+        "sections": "Section 177 Motor Vehicles Act 1988; Section 34 IPC",
+        "page": 17,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 114/2008 Vempalle PS, AP | Section 177 MV Act 1988; Section 34 IPC",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 61687,
