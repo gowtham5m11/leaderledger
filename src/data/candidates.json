@@ -10766,7 +10766,7 @@
     "name": "Nara Lokesh",
     "constituency": "MANGALAGIRI",
     "party": "TDP",
-    "criminal_cases": "17",
+    "criminal_cases": "23",
     "education": "completed Master of Business Administration from Stanford University Graduate School of Business in 2008",
     "dob": "23 January 1983",
     "image": "/candidate-images/nara_lokesh.jpg",
@@ -10777,14 +10777,229 @@
     },
     "profession": "Public Service",
     "criminal_summary": {
-      "num_criminal_cases": 17,
+      "num_criminal_cases": 23,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 17
+        "Political/Protest": 20,
+        "Corruption & Fraud": 1,
+        "Serious/Violent": 1,
+        "Minor/Other": 1
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "affidavit_abstract",
+      "extracted_count": 23,
+      "source": "Manual-OCR:2026-05-28",
+      "extracted_at": "2026-05-28T11:45:00.000000+00:00",
+      "note": "criminal_cases updated 17->23 to match affidavit abstract (page 17). Cases from Annexure-B (pages 21-28). FIR nos for cols 3 and 18 unclear due to scan quality."
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "193/2023",
+        "description": "Obstructing public official from performing legitimate duties; threatening with dire consequences",
+        "sections": "341, 427, 506, 109 r/w 34 IPC",
+        "page": 21,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 193/2023 Nallajerla PS, East Godavari | Obstructing public official; threatening",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "32/2023",
+        "description": "Conducting meeting without permission; violating orders of superior officers; causing obstruction to traffic and disturbing public peace",
+        "sections": "143, 353, 506, 188 r/w 149 IPC",
+        "page": 21,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 32/2023 Gajula Mandyam PS, Tirupathi | Meeting without permission, traffic obstruction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "FIR/2023",
+        "description": "Roaming in vehicles with mike and loud speakers without prior permission; causing annoyance and disobeying orders of a public servant",
+        "sections": "188, 341, 290 r/w 34 IPC",
+        "page": 21,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: [no. unclear] S.R. Puram PS, Chittoor | Vehicles with mike without permission, disobeying public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "7/2023",
+        "description": "Conducting meeting without permission; violating orders; causing obstruction to traffic and disturbing public peace",
+        "sections": "188, 341, 290 r/w 34 IPC",
+        "page": 22,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 7/2023 Narasingarayanipet PS, Chittoor | Meeting without permission, traffic obstruction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "20/2023",
+        "description": "Conducting public meeting without permission; used mike and sound system atop vehicle on National Highway blocking road and traffic",
+        "sections": "341, 188, 290 r/w 34 IPC",
+        "page": 22,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 20/2023 Palamaner Urban PS, Chittoor | Meeting atop vehicle on National Highway blocking traffic",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "16/2023",
+        "description": "Campaigning without permission; causing obstruction to free flow of traffic and disturbing public peace",
+        "sections": "353, 290, 188, 341 r/w 34 IPC",
+        "page": 22,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 16/2023 Bangarupalem Urban PS, Chittoor | Campaigning without permission, traffic obstruction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "162/2022",
+        "description": "Preventive arrest to avoid law and order problem in land disputes in Ullasapeta Village, Palasa Mandal",
+        "sections": "Section 151 CrPC",
+        "page": 23,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 162/2022 Amadalavalasa PS, Srikakulam | Preventive arrest, Ullasapeta Village land disputes",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "161/2022",
+        "description": "Supported people in Ullasapeta Village, Palasa Mandal; involved in disputes and created law and order problem",
+        "sections": "341, 188 r/w 34 IPC",
+        "page": 23,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 161/2022 Amadalavalasa PS, Srikakulam | Supported people in Ullasapeta Village, law and order problem",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "16/2022",
+        "description": "Conspiracy while designing the Master Plan for AP Capital region and alignment of Inner Ring Road to cause wrongful gain to certain persons [charge sheet filed 08.02.2024 before Special Judge for SPE & ACB Cases]",
+        "sections": "120B, 420, 34, 35, 36, 37, 166, 167, 217 IPC; Section 13(2) r/w 13(1)(a) Prevention of Corruption Act 1988",
+        "page": 23,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 16/2022 CID PS, AP Amaravathi | Conspiracy AP Capital Master Plan and Inner Ring Road alignment for wrongful gain | Prevention of Corruption Act | Charge sheet filed 08.02.2024",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "75/2022",
+        "description": "Social media post on Twitter regarding death of girl child during road show held by Minister for Women & Child Welfare; alleged to provoke public",
+        "sections": "153A r/w 34 IPC",
+        "page": 24,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 75/2022 Kalyanadurgam PS, Ananthapur | Social media post about girl child death during minister's road show",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "651/2021",
+        "description": "Caught hold of the complainant and questioned about the identity of the complainant [IPC 307 - attempt to murder; SC/ST Prevention of Atrocities Act]",
+        "sections": "147, 148, 307, 332, 427, 323, 324, 342 r/w 149 IPC; Section 3(1)(r), 3(1)(s) SC & ST Prevention of Atrocities Act 1989",
+        "page": 24,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 651/2021 Mangalagiri Rural PS, Guntur | Caught hold of complainant; IPC 307 (attempt to murder) and SC/ST PoA Act",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "665/2021",
+        "description": "Blocking National Highway at Varadhi Junction resulting in traffic congestion",
+        "sections": "341, 186, 269 r/w 34 IPC",
+        "page": 24,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 665/2021 Krishna Lanka PS, Vijayawada | Blocking National Highway at Varadhi Junction",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "448/2021",
+        "description": "TDP members formed unlawful assembly; blocked traffic; gave slogans against AP Government; resisted and obstructed police duties",
+        "sections": "341, 353, 147 r/w 149, 120B IPC",
+        "page": 25,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 448/2021 Old Guntur PS | TDP members unlawful assembly, blocked traffic, obstructed police",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "447/2021",
+        "description": "Preventive arrest to control untoward incidents [Note: case closed per CCTNS]",
+        "sections": "Section 151 CrPC",
+        "page": 25,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 447/2021 Old Guntur PS | Preventive arrest [case closed]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "111/2021",
+        "description": "Tweet on social media pointing out failure of Rayadurgam MLA Kapu Ramachandra Reddy",
+        "sections": "153A, 505, 506 IPC",
+        "page": 25,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 111/2021 D.Hirehal PS, Ananthapur | Tweet pointing out failure of Rayadurgam MLA",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "230/2020",
+        "description": "Driving tractor in contravention of Motor Vehicle Act without following social distancing norms during Covid-19 period [Note: involvement of Nara Lokesh not established during investigation]",
+        "sections": "279 IPC; Section 184 MV Act; Section 51(a) Disaster Management Act 2005; Section 3 Epidemic Diseases Act 1897",
+        "page": 26,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 230/2020 West Godavari PS | Driving tractor without social distancing, Covid-19 [involvement not established]",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "511/2020",
+        "description": "Violated Covid-19 guidelines by not maintaining social/physical distance and shouting slogans during prohibited gatherings",
+        "sections": "188, 270 IPC; Section 3 Epidemic Diseases Act 1897",
+        "page": 26,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 511/2020 Nandigama PS, Krishna | Violated Covid-19 guidelines; shouting slogans during prohibited gatherings",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "FIR/2020",
+        "description": "Shouting slogans during Covid-19 period when gatherings were prohibited [Note: acquitted vide CC No. 1658/2021, I Addl Jr Metropolitan Magistrate, Vijayawada]",
+        "sections": "188 r/w 34 IPC; Section 3 Epidemic Diseases Act 1897",
+        "page": 26,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: [no. unclear]/2020 Vijayawada | Slogans during Covid-19 [acquitted]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "23/2020",
+        "description": "Preventive arrest to avoid any untoward incident [Note: action dropped 08.01.2020]",
+        "sections": "Section 151 CrPC",
+        "page": 27,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 23/2020 Patamata PS, Vijayawada | Preventive arrest [action dropped 08.01.2020]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "9/2020",
+        "description": "Preventive arrest to avoid any untoward incident [Note: action dropped 07.01.2020]",
+        "sections": "Section 151 CrPC",
+        "page": 27,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 9/2020 Krishna Lanka PS, Vijayawada | Preventive arrest [action dropped 07.01.2020]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "263/2019",
+        "description": "Social media post by TDP activists criticising CM Jagan Mohan Reddy and Minister K. Anil Kumar Yadav; causing anguish to YSRCP activists [Note: name of Nara Lokesh deleted after investigation; acquitted 14.08.2023]",
+        "sections": "153, 505(2), 120B IPC",
+        "page": 27,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 263/2019 Pamarru PS, Krishna | Social media post criticising CM Jagan [name deleted; acquitted 14.08.2023]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "222/2019",
+        "description": "Social media post by TDP sympathisers criticising Poluboyina Anil Kumar Yadav [Note: name of Nara Lokesh deleted from accused list after chargesheet filed 14.05.2021]",
+        "sections": "120B, 505(2), 153 r/w 34 IPC",
+        "page": 28,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 222/2019 Tiruvuru PS, Krishna | Social media post criticising Poluboyina Anil Kumar Yadav [name deleted from accused list]",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "156/2019",
+        "description": "Social media posts by TDP activists hurting feelings of Yadav community",
+        "sections": "153, 505(2), 120B r/w 34 IPC",
+        "page": 28,
+        "method": "Manual-OCR:2026-05-28",
+        "raw_text": "FIR: 156/2019 A.Konduru PS, Krishna | Social media posts hurting feelings of Yadav community",
+        "category": "Political/Protest"
+      }
+    ],
     "criminal_details_convictions": [],
     "role": "Cabinet Minister",
     "ministries": [

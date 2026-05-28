@@ -26,15 +26,6 @@
     "reason": "ECI Website / Manual Audit",
     "last_verified_at": "2026-05-09"
   },
-  "nara_lokesh": {
-    "num_criminal_cases": 17,
-    "num_convictions": 0,
-    "source": "ECI Website / Manual Audit",
-    "created_at": "2026-05-09",
-    "auditor": "manual-audit-pre-2026-05-11",
-    "reason": "ECI Website / Manual Audit",
-    "last_verified_at": "2026-05-09"
-  },
   "chandrababu_naidu_nara": {
     "num_criminal_cases": 19,
     "num_convictions": 0,
