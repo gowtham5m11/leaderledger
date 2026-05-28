@@ -67,7 +67,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
     if (onBack) {
       onBack();
     } else {
-      navigate(-1);
+      navigate('/list');
     }
   };
 
