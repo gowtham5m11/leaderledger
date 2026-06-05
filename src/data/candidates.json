@@ -20703,14 +20703,220 @@
     },
     "profession": "a Business",
     "criminal_summary": {
-      "num_criminal_cases": 21,
+      "num_criminal_cases": 22,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 21
+        "Serious/Violent": 6,
+        "Corruption & Fraud": 1,
+        "Political/Protest": 13,
+        "Election Offenses": 0,
+        "Minor/Other": 2
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "extraction",
+      "extracted_count": 22,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-05T17:10:19.798599+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "Cr.No.167/2023",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "Sec.188, 341 r/w 34 of IPC",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.167/2023 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.92/2023",
+        "description": "wrongful resistance; Act done by several persons in furtherance of common intention",
+        "sections": "324, 506 r/w 149 of IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.92/2023 | Desc: wrongful resistance; Act done by several persons in furtherance of common intention",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.91/2023",
+        "description": "resistant; Disobedience to order duly promulgated by public servant; every member of unlawful assembly guilty of offence committed in prosecution of common object",
+        "sections": "r/w 149 of IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.91/2023 | Desc: resistant; Disobedience to order duly promulgated by public servant; every member of unlawful assembly guilty of offence committed in prosecution of common object",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.90/2023",
+        "description": "wrongful resistance; Act done by several persons in furtherance of common intention",
+        "sections": "147,148,324, 506 r/w 149 of IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.90/2023 | Desc: wrongful resistance; Act done by several persons in furtherance of common intention",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "rioting armed with deadly weapons",
+        "sections": "R/W 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: rioting armed with deadly weapons",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "88/2023",
+        "description": "Assault or criminal force to deter public",
+        "sections": "Sec.147, 148, 353",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 88/2023 | Desc: Assault or criminal force to deter public",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "314/2022",
+        "description": "Rioting; wrongful resistant",
+        "sections": "Sec.341, 188,143",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 314/2022 | Desc: Rioting; wrongful resistant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "279/2022",
+        "description": "Promoting enmity between two groups",
+        "sections": "Sec.153-A, 500, 506 r/w 149",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 279/2022 | Desc: Promoting enmity between two groups",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.242/2022",
+        "description": "Assault",
+        "sections": "Sec.353 riw 34 of IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.242/2022 | Desc: Assault",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.579/2021",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "Sec.504, 506, 509 Sec.188 of IPC rlw 34 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.579/2021 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.275/2021",
+        "description": "Act intended to insult the modesty of a women; Act done by several persons in furtherance of common intention.",
+        "sections": "Sec.66- Sec.51(b), 54 Acts/Codes E, 67-A IT Act, DMA, 2005",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.275/2021 | Desc: Act intended to insult the modesty of a women; Act done by several persons in furtherance of common intention.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.243/2021",
+        "description": "publishing or transmitting of material containing sexually explicit act in electronic form",
+        "sections": "R/W 149 IPC",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.243/2021 | Desc: publishing or transmitting of material containing sexually explicit act in electronic form",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not applicable",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "R/W 149 IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not applicable | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not applicable",
+        "description": "Being member of unlawful assembly",
+        "sections": "Sec.188, 143, 153-",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not applicable | Desc: Being member of unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "72/2021",
+        "description": "unlawful rioting",
+        "sections": "Sec.143 r/w 149 of IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 72/2021 | Desc: unlawful rioting",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "211/2019",
+        "description": "unlawful assembly",
+        "sections": "Sec.147, 186, 341",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 211/2019 | Desc: unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "70/2019",
+        "description": "disobedience to order",
+        "sections": "Sec.188 of IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 70/2019 | Desc: disobedience to order",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.38/2019",
+        "description": "Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
+        "sections": "Sec.285, 435, 188 riw 34 of IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.38/2019 | Desc: Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.57/2018",
+        "description": "Punishment for voluntarily causing hurt; Punishment for criminal intimidation; Act done by several persons in furtherance of common intention",
+        "sections": "Sec.323, 506 riw 34 of IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.57/2018 | Desc: Punishment for voluntarily causing hurt; Punishment for criminal intimidation; Act done by several persons in furtherance of common intention",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.120/2018",
+        "description": "Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment; and any magistrate empowered u/Sec.190 may order such an investigation as above mentioned",
+        "sections": "Sec.500, 506, 109 riw 34 of IPC, Sec.156(3) of Cr.P.C.",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.120/2018 | Desc: Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment; and any magistrate empowered u/Sec.190 may order such an investigation as above mentioned",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "C.C.No.2/2003",
+        "description": "C.C.No.2/2003",
+        "sections": "Sec.120-B, 409, 419, 420, 467, 468, 471 of I.P.C. r/w Sec.13(2) and 1",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: C.C.No.2/2003 | Desc: C.C.No.2/2003",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "CRL.A.No.454/2016",
+        "description": "R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "sections": "R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: CRL.A.No.454/2016 | Desc: R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 6265,
