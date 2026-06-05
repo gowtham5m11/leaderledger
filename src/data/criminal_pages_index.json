@@ -43,29 +43,60 @@
         5,
         6,
         7,
-        8
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
       ],
-      "conviction_pages": [],
+      "conviction_pages": [
+        37,
+        38
+      ],
       "section_5_header_page": 3,
-      "section_6_header_page": null,
-      "section_7_header_page": null,
+      "section_6_header_page": 37,
+      "section_7_header_page": 39,
       "pending_trigger_page": 3,
-      "conviction_trigger_page": null,
+      "conviction_trigger_page": 37,
       "anchoring_method": {
         "section_5": "header",
-        "section_6": null,
-        "section_7": null
+        "section_6": "header",
+        "section_7": "header"
       },
       "abstract_pending_count": null,
       "abstract_conviction_count": null,
       "pending_table_style": "style_1",
-      "conviction_table_style": null,
-      "pending_case_count_hint": 13,
-      "conviction_case_count_hint": null,
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 95,
+      "conviction_case_count_hint": 1,
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 5.8
+      "scan_seconds": 4.2
     },
     "adireddy_srinivas": {
       "pdf": "adireddy_srinivas.pdf",
@@ -6200,6 +6231,6 @@
       "scan_seconds": 104.1
     }
   },
-  "generated_at": "2026-05-12T06:34:34+00:00",
+  "generated_at": "2026-06-05T03:24:48+00:00",
   "total_pdfs": 175
 }

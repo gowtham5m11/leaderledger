@@ -87,14 +87,14 @@ from pdf2image.exceptions import PDFInfoNotInstalledError, PDFPageCountError
 
 
 PROJECT_ROOT = Path(__file__).parent.parent
-AFFIDAVITS_DIR = PROJECT_ROOT / "public" / "affidavits"
+AFFIDAVITS_DIR = PROJECT_ROOT / "scraper_lab" / "affidavits"
 OUTPUT_JSON = PROJECT_ROOT / "src" / "data" / "criminal_pages_index.json"
 
 PDFPLUMBER_MIN_CHARS = 50
 OCR_DPI = 200
-MAX_SCAN_PAGES = 35          # how many leading pages we OCR/scan per PDF
+MAX_SCAN_PAGES = 50          # how many leading pages we OCR/scan per PDF
 NO_END_ANCHOR_WINDOW = 6     # fallback page window when §6/§7 can't be found
-SANITY_MAX_SECTION_PAGES = 25  # absolute upper bound on one section's page span
+SANITY_MAX_SECTION_PAGES = 45  # absolute upper bound on one section's page span
 
 
 # --- section-header anchors (boundary markers) -----------------------------
