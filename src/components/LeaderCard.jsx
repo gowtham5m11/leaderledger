@@ -28,7 +28,7 @@ const LeaderCard = ({ leader, onClick }) => {
   const extraMinistriesCount = ministries ? Math.max(0, ministries.length - 1) : 0;
   const chipHex = primaryMinistry ? sectorColor(primaryMinistry.sector) : null;
   const isTopRole = role === 'Chief Minister' || role === 'Deputy Chief Minister';
-  const isPendingDOB = !leader.dob || leader.dob.startsWith('Age:');
+  const isPendingDOB = (!leader.dob || leader.dob.startsWith('Age:')) && !leader.data_complete;
 
   return (
     <div className={`leader-card ${partyClass}`} onClick={onClick}>

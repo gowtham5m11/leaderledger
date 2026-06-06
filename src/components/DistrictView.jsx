@@ -425,7 +425,7 @@ const DistrictView = () => {
                     <span className="constituency-badge">
                       {selectedDistrict.name}
                     </span>
-                    {(!selectedDistrict.dob || selectedDistrict.dob.startsWith('Age:')) && (
+                    {(!selectedDistrict.dob || selectedDistrict.dob.startsWith('Age:')) && !selectedDistrict.data_complete && (
                       <span style={{
                         display: 'inline-flex',
                         alignItems: 'center',

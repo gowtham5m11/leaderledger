@@ -90,7 +90,7 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const displayMinistry = primaryMinistry?.name || candidate.ministry || "Legislative Leader";
   const displayEducation = candidate.education || "Information not available";
   const displayProfession = candidate.profession || "Information not available";
-  const isPendingDOB = !candidate.dob || candidate.dob.startsWith('Age:');
+  const isPendingDOB = (!candidate.dob || candidate.dob.startsWith('Age:')) && !candidate.data_complete;
 
 
   return (
