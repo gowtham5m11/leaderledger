@@ -254,13 +254,18 @@ const NewsPage = () => {
     return flat;
   }, [newsDoc, selectedParties]);
 
-  // Bookmark news + selected-party news, deduped by URL into one date-sorted
-  // feed. Falls back to plain bookmark items when no party is toggled.
+  // When parties are selected, show only articles from candidates in those
+  // parties (bookmarks filtered to matching party + party-feed items), deduped.
+  // Falls back to all bookmark items when no party is toggled.
   const feedItems = useMemo(() => {
     if (selectedParties.size === 0) return items;
+    const filteredBookmarks = items.filter((it) => {
+      const cand = candidatesById.get(String(it.candidate_id));
+      return cand && selectedParties.has(cand.party);
+    });
     const seen = new Set();
     const out = [];
-    [...items, ...partyItems].forEach((it) => {
+    [...filteredBookmarks, ...partyItems].forEach((it) => {
       const key = it.url || `${it.candidate_id}:${it.title}`;
       if (seen.has(key)) return;
       seen.add(key);
