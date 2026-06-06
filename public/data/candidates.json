@@ -7375,14 +7375,841 @@
     },
     "profession": "a SOCIAL SERVICE Politician",
     "criminal_summary": {
-      "num_criminal_cases": 90,
+      "num_criminal_cases": 91,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 90
+        "Serious/Violent": 16,
+        "Corruption & Fraud": 1,
+        "Political/Protest": 35,
+        "Election Offenses": 3,
+        "Minor/Other": 36
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "extraction",
+      "extracted_count": 91,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-05T03:34:39.867376+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "71/2024",
+        "description": "Sections 34, 224, 319, 34 TP",
+        "sections": "Sec 34], 224, 319 34 TP",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 71/2024 | Desc: Sections 34, 224, 319, 34 TP",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "3622035",
+        "description": "wrongful restrain, danger or obstruction, punishment, unlawful assembly",
+        "sections": "R/W 144 [PC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 3622035 | Desc: wrongful restrain, danger or obstruction, punishment, unlawful assembly",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "5351/2023",
+        "description": "wrongful restrain, danger or obstruction, punishment, unlawful assembly",
+        "sections": "R/W 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 5351/2023 | Desc: wrongful restrain, danger or obstruction, punishment, unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "2535/2023",
+        "description": "criminal conspiracy, attempt to murder, voluntarily causing hurt, unlawful assembly, rioting, armed with deadly weapon, unlawful assembly",
+        "sections": "R/W 120 (8), 307, 332, 4324, 143, 148, 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2535/2023 | Desc: criminal conspiracy, attempt to murder, voluntarily causing hurt, unlawful assembly, rioting, armed with deadly weapon, unlawful assembly",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "2532/2023",
+        "description": "Mischief causing damage",
+        "sections": "Sec 427 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2532/2023 | Desc: Mischief causing damage",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1920235",
+        "description": "Punishment for unlawful assembly",
+        "sections": "Sec 143 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1920235 | Desc: Punishment for unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "1920235",
+        "description": "Voluntarily causing hurt",
+        "sections": "Sec 323 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1920235 | Desc: Voluntarily causing hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "1920235",
+        "description": "Attempt to extort",
+        "sections": "Sec 384 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1920235 | Desc: Attempt to extort",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1920235",
+        "description": "Unlawful assembly",
+        "sections": "Sec 149 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1920235 | Desc: Unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "32023",
+        "description": "Assault of criminal force",
+        "sections": "Sec 283, 336, 279, 188",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 32023 | Desc: Assault of criminal force",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "5342027",
+        "description": "Resistance or duty",
+        "sections": "Sec 188 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 5342027 | Desc: Resistance or duty",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "2/2083",
+        "description": "Obstruction by a person or riding on public wa",
+        "sections": "Sec 183, 184, MV chet",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2/2083 | Desc: Obstruction by a person or riding on public wa",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "149",
+        "description": "Disobedience to order",
+        "sections": "R/W 149 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 149 | Desc: Disobedience to order",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "32",
+        "description": "Criminal intimidation",
+        "sections": "Sec 306",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 32 | Desc: Criminal intimidation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "183",
+        "description": "Driving at excessive speed",
+        "sections": "MV Act",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 183 | Desc: Driving at excessive speed",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "14",
+        "description": "Driving dangerously",
+        "sections": "14",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 14 | Desc: Driving dangerously",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "4442072",
+        "description": "Gaming or Setting Birds or Animals to fight in a",
+        "sections": "Sec 9(2) of TS Gaming Act",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 4442072 | Desc: Gaming or Setting Birds or Animals to fight in a",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "3982022",
+        "description": "house trespass",
+        "sections": "Sec 448, 324, 36 of TPC",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 3982022 | Desc: house trespass",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "3802022",
+        "description": "wrongful restrain (341), tress-pass (448), criminal intimidation",
+        "sections": "Sec 3 (0) (2) (5) SCL STs",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 3802022 | Desc: wrongful restrain (341), tress-pass (448), criminal intimidation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1838/2022",
+        "description": "intimidation",
+        "sections": "S04, 309, 190 TPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1838/2022 | Desc: intimidation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "41/2071",
+        "description": "Obstruction public servant",
+        "sections": "143, 186, 353",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 41/2071 | Desc: Obstruction public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "E2021",
+        "description": "Arrest to prevent the commission of cognizable offences",
+        "sections": "151",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: E2021 | Desc: Arrest to prevent the commission of cognizable offences",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "3689/2021",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "183",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 3689/2021 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2935/2021",
+        "description": "Section 293 IPC",
+        "sections": "R/W 149 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2935/2021 | Desc: Section 293 IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "83/2021",
+        "description": "Pedavegi PS",
+        "sections": "R/W 149 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 83/2021 | Desc: Pedavegi PS",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "4762022",
+        "description": "Bhimadole",
+        "sections": "R/W 149 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 4762022 | Desc: Bhimadole",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "4135/2021",
+        "description": "Eluru",
+        "sections": "R/W 149 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 4135/2021 | Desc: Eluru",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "240/2021",
+        "description": "Dendaluru",
+        "sections": "R/W 149 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 240/2021 | Desc: Dendaluru",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "unlawful assembly",
+        "description": "assembly",
+        "sections": "object (149)",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: unlawful assembly | Desc: assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "guilty of offence",
+        "description": "assembly",
+        "sections": "object (149)",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: guilty of offence | Desc: assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "committed in offence",
+        "description": "committed in",
+        "sections": "penalty for",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: committed in offence | Desc: committed in",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "prosecution of common",
+        "description": "object (149)",
+        "sections": "R/W 149 IPC",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: prosecution of common | Desc: object (149)",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "75/2021",
+        "description": "IPC, ete",
+        "sections": "Sec.341, 188, 171(F), 279, 336, 143",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 75/2021 | Desc: IPC, ete",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "46/2021",
+        "description": "IPC, ete",
+        "sections": "Sec.341, 188, 171(F), 279, 336, 143",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 46/2021 | Desc: IPC, ete",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "161/2020",
+        "description": "IPC, ete",
+        "sections": "Sec.341, 188, 171(F), 279, 336, 143",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 161/2020 | Desc: IPC, ete",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "1334/2020",
+        "description": "Eluru 1 Towns PS",
+        "sections": "R/W 149 IPC",
+        "page": 14,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1334/2020 | Desc: Eluru 1 Towns PS",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "79/2023",
+        "description": "Acts dome by several persons in furtherance of common intention (r/w 34 IPC)",
+        "sections": "R/W 149 IPC",
+        "page": 15,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 79/2023 | Desc: Acts dome by several persons in furtherance of common intention (r/w 34 IPC)",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "32020",
+        "description": "Prohibition and Excise Court",
+        "sections": "143, 341, 353 rw 34 IPC",
+        "page": 16,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 32020 | Desc: Prohibition and Excise Court",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "33/2020",
+        "description": "Arrest to prevent the commission of cognizable offences",
+        "sections": "Sec 151 of Cr.P.C",
+        "page": 16,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 33/2020 | Desc: Arrest to prevent the commission of cognizable offences",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "28/2020",
+        "description": "Arrest to prevent the commission of cognizable offences",
+        "sections": "Sec 151 of Cr.P.C",
+        "page": 16,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 28/2020 | Desc: Arrest to prevent the commission of cognizable offences",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "373/2019",
+        "description": "Unlawful Assembly, Disobedience to Public Servant, Assault, Public Nuisance, Endangering Life, Wrongful Restrain",
+        "sections": "Sec 341, 143, r/w 149, 188, 353, 336, 290 IPC, Sec 184 of MV Act and 30 police Act.",
+        "page": 17,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 373/2019 | Desc: Unlawful Assembly, Disobedience to Public Servant, Assault, Public Nuisance, Endangering Life, Wrongful Restrain",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "29 1/2019",
+        "description": "Assault of criminal force to deter public servant from discharge of his duty",
+        "sections": "343, 342, 208, 186, 120b, 34 IPC, SC ST Act",
+        "page": 18,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 29 1/2019 | Desc: Assault of criminal force to deter public servant from discharge of his duty",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2845/2019",
+        "description": "Punishment for wrongful restraint, criminal intimidation, threatening any person to give false evidence, punishment of abatement if the act abetted is committed in consequence and where no express provision is made for this punishment",
+        "sections": "344, 195-A, 104 IPC, 3/2 SC ST Act",
+        "page": 18,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2845/2019 | Desc: Punishment for wrongful restraint, criminal intimidation, threatening any person to give false evidence, punishment of abatement if the act abetted is committed in consequence and where no express provision is made for this punishment",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2782/2019",
+        "description": "Arrest to prevent the commission of cognizable offences",
+        "sections": "151 Cr.P.C",
+        "page": 18,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2782/2019 | Desc: Arrest to prevent the commission of cognizable offences",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "2287019",
+        "description": "Section 143, 341, 186, 506",
+        "sections": "R/W 149 IPC",
+        "page": 19,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2287019 | Desc: Section 143, 341, 186, 506",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "22S/2019",
+        "description": "Section 447, 427, Sec DPC",
+        "sections": "R/W 149 IPC",
+        "page": 19,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 22S/2019 | Desc: Section 447, 427, Sec DPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "42/2021",
+        "description": "Section 3(1) (F), 42) (va) SC",
+        "sections": "R/W 149 IPC",
+        "page": 19,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 42/2021 | Desc: Section 3(1) (F), 42) (va) SC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "1451/2020",
+        "description": "Dis. 447, S06 TAC and M1) (f(s) SC ST Act",
+        "sections": "R/W 149 IPC",
+        "page": 19,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1451/2020 | Desc: Dis. 447, S06 TAC and M1) (f(s) SC ST Act",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "222/2019",
+        "description": "House breaking",
+        "sections": "R/W 149 IPC",
+        "page": 20,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 222/2019 | Desc: House breaking",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "2271/2019",
+        "description": "Punishment for voluntarily causing hurt",
+        "sections": "R/W 149 IPC",
+        "page": 20,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2271/2019 | Desc: Punishment for voluntarily causing hurt",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "216/2019",
+        "description": "Punishment for criminal intimidation",
+        "sections": "R/W 34 IPC",
+        "page": 20,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 216/2019 | Desc: Punishment for criminal intimidation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2162019",
+        "description": "Cheating and wrongfully dishonestly inducing delivery of property",
+        "sections": "Sec 420, 384, 431 rw",
+        "page": 21,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2162019 | Desc: Cheating and wrongfully dishonestly inducing delivery of property",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "92020",
+        "description": "Cheating",
+        "sections": "Sec 3 of POPP Act",
+        "page": 21,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 92020 | Desc: Cheating",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "L362019",
+        "description": "Cheating",
+        "sections": "Us. 342, Sed, 324, rife 34 TPC and 3(1) (ros), 3(2) via) SC \u00a7T Act",
+        "page": 21,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: L362019 | Desc: Cheating",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "94/2020",
+        "description": "Cheating",
+        "sections": "Us. Sle TPC aod 301) 1) (r}, 12) v(a) SC ST Act",
+        "page": 21,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 94/2020 | Desc: Cheating",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "R65/D0Z1",
+        "description": "Punishment for criminal intimidation",
+        "sections": "Us. 506",
+        "page": 21,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: R65/D0Z1 | Desc: Punishment for criminal intimidation",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "7249/2018",
+        "description": "Assault",
+        "sections": "S71 rw 34 IPC",
+        "page": 22,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 7249/2018 | Desc: Assault",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2748/2018",
+        "description": "Criminal trespass",
+        "sections": "447",
+        "page": 22,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2748/2018 | Desc: Criminal trespass",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2358/2018",
+        "description": "Mischief causing damage",
+        "sections": "427, 3453",
+        "page": 22,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2358/2018 | Desc: Mischief causing damage",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1946/2018",
+        "description": "causing hurt",
+        "sections": "323,504,506 IPC",
+        "page": 23,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1946/2018 | Desc: causing hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "722017",
+        "description": "Assault, 353, 506, 323",
+        "sections": "R/W 34",
+        "page": 24,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 722017 | Desc: Assault, 353, 506, 323",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Db 2016",
+        "description": "Extortion, 384, 323, 506",
+        "sections": "R/W 34",
+        "page": 24,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Db 2016 | Desc: Extortion, 384, 323, 506",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1935/2016",
+        "description": "Wrongful Restraint, 341, 506, 509",
+        "sections": "R/W 34, 1 (r Ws)",
+        "page": 24,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1935/2016 | Desc: Wrongful Restraint, 341, 506, 509",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "81/2016",
+        "description": "Mischief causing damage",
+        "sections": "IPC Section 3/1",
+        "page": 25,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 81/2016 | Desc: Mischief causing damage",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "37/2006",
+        "description": "Voluntarily causing hurt",
+        "sections": "IPC Section 323, 324",
+        "page": 25,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 37/2006 | Desc: Voluntarily causing hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "62/2015",
+        "description": "Voluntarily causing hurt",
+        "sections": "IPC Section 353, 332",
+        "page": 25,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 62/2015 | Desc: Voluntarily causing hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "1122015",
+        "description": "trespass, Assault of criminal force to deter public servant, Mischief causing damage to the amount of fifty rupees",
+        "sections": "44 IPC",
+        "page": 26,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1122015 | Desc: trespass, Assault of criminal force to deter public servant, Mischief causing damage to the amount of fifty rupees",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "147/2014",
+        "description": "Assault or criminal force to deter public servant, attempt, Voluntarily causing hurt",
+        "sections": "147, 148, 452, 307, 427, 324, 323, 120 (B) IPC",
+        "page": 26,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 147/2014 | Desc: Assault or criminal force to deter public servant, attempt, Voluntarily causing hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "147/2015",
+        "description": "Assault or criminal force to deter public servant, attempt",
+        "sections": "332, 353, 379 riw 34 IPC",
+        "page": 26,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 147/2015 | Desc: Assault or criminal force to deter public servant, attempt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "1/2014",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "188, 127 BP. Act",
+        "page": 28,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1/2014 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "8/2014",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "144, 30 of Police Act",
+        "page": 28,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 8/2014 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "77/2014",
+        "description": "Penalty for disfigurement by objectionable advertisement",
+        "sections": "3",
+        "page": 28,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 77/2014 | Desc: Penalty for disfigurement by objectionable advertisement",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.130/2020",
+        "description": "Disturbance at election meetings",
+        "sections": "127 BP. Act",
+        "page": 28,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.130/2020 | Desc: Disturbance at election meetings",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2635/2013",
+        "description": "criminal trespass",
+        "sections": "GE IPC",
+        "page": 29,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2635/2013 | Desc: criminal trespass",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1692/2013",
+        "description": "Mischief",
+        "sections": "CrPC",
+        "page": 29,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1692/2013 | Desc: Mischief",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "160/2013",
+        "description": "house causing damage to the tress-pass",
+        "sections": "CrPC",
+        "page": 29,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 160/2013 | Desc: house causing damage to the tress-pass",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "2S 7/2013",
+        "description": "Voluntarily causing hurt",
+        "sections": "Sec. 341, 1435 [PC]",
+        "page": 30,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 2S 7/2013 | Desc: Voluntarily causing hurt",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "1242013",
+        "description": "Voluntarily causing hurt",
+        "sections": "Sec. 341, 352, 383, 2 IPC",
+        "page": 30,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1242013 | Desc: Voluntarily causing hurt",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "P2013",
+        "description": "Voluntarily causing hurt",
+        "sections": "Sec. 7 (1) of Criminal Amendment Act 1932",
+        "page": 30,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: P2013 | Desc: Voluntarily causing hurt",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "VO",
+        "description": "Dishonest misappropriation of wrongial restrain",
+        "sections": "Sec. 403, 40h rie a TRC",
+        "page": 30,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: VO | Desc: Dishonest misappropriation of wrongial restrain",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "181/2012",
+        "description": "riw Sec. 143, 341, 149 IPC",
+        "sections": "Sec. 143, 341, 149 IPC",
+        "page": 31,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 181/2012 | Desc: riw Sec. 143, 341, 149 IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "1617/2011",
+        "description": "Gaming Act Sec. 9 (2)",
+        "sections": "R/W 149 IPC",
+        "page": 32,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1617/2011 | Desc: Gaming Act Sec. 9 (2)",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "64/2000",
+        "description": "concenred",
+        "sections": "Section 447, 427 IPC",
+        "page": 35,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 64/2000 | Desc: concenred",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1/2000",
+        "description": "kidnapping",
+        "sections": "363",
+        "page": 35,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1/2000 | Desc: kidnapping",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "68/1999",
+        "description": "Mischief",
+        "sections": "323",
+        "page": 35,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 68/1999 | Desc: Mischief",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "voluntarily causing grievous hurt",
+        "sections": "326",
+        "page": 35,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: voluntarily causing grievous hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "Acts done by several persons in furtherance of common intention",
+        "sections": "34 IPC",
+        "page": 35,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: Acts done by several persons in furtherance of common intention",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "40/1999",
+        "description": "Rape (376)",
+        "sections": "Sec. M1, 342, 324, 376",
+        "page": 36,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 40/1999 | Desc: Rape (376)",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "36/1999",
+        "description": "Rape (376)",
+        "sections": "Sec. 341, 342, 324, 376",
+        "page": 36,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 36/1999 | Desc: Rape (376)",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "218/2011",
+        "description": "Assault or Criminal force to deter public servant from discharge of his duty, Criminal Intimidation, Molesting a person to prejudice of employment or business",
+        "sections": "353, 506 (2) IPC, 7 (1) of Criminal Law Amendment Act",
+        "page": 37,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 218/2011 | Desc: Assault or Criminal force to deter public servant from discharge of his duty, Criminal Intimidation, Molesting a person to prejudice of employment or business",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "CrLMP.No. 148/18",
+        "description": "suspension of conviction",
+        "sections": "R/W 149 IPC",
+        "page": 38,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: CrLMP.No. 148/18 | Desc: suspension of conviction",
+        "category": "Political/Protest"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 26266,
@@ -19876,14 +20703,220 @@
     },
     "profession": "a Business",
     "criminal_summary": {
-      "num_criminal_cases": 21,
+      "num_criminal_cases": 22,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 21
+        "Serious/Violent": 6,
+        "Corruption & Fraud": 1,
+        "Political/Protest": 13,
+        "Election Offenses": 0,
+        "Minor/Other": 2
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "extraction",
+      "extracted_count": 22,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-05T17:10:19.798599+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "Cr.No.167/2023",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "Sec.188, 341 r/w 34 of IPC",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.167/2023 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.92/2023",
+        "description": "wrongful resistance; Act done by several persons in furtherance of common intention",
+        "sections": "324, 506 r/w 149 of IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.92/2023 | Desc: wrongful resistance; Act done by several persons in furtherance of common intention",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.91/2023",
+        "description": "resistant; Disobedience to order duly promulgated by public servant; every member of unlawful assembly guilty of offence committed in prosecution of common object",
+        "sections": "r/w 149 of IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.91/2023 | Desc: resistant; Disobedience to order duly promulgated by public servant; every member of unlawful assembly guilty of offence committed in prosecution of common object",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.90/2023",
+        "description": "wrongful resistance; Act done by several persons in furtherance of common intention",
+        "sections": "147,148,324, 506 r/w 149 of IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.90/2023 | Desc: wrongful resistance; Act done by several persons in furtherance of common intention",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "rioting armed with deadly weapons",
+        "sections": "R/W 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: rioting armed with deadly weapons",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "88/2023",
+        "description": "Assault or criminal force to deter public",
+        "sections": "Sec.147, 148, 353",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 88/2023 | Desc: Assault or criminal force to deter public",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "314/2022",
+        "description": "Rioting; wrongful resistant",
+        "sections": "Sec.341, 188,143",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 314/2022 | Desc: Rioting; wrongful resistant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "279/2022",
+        "description": "Promoting enmity between two groups",
+        "sections": "Sec.153-A, 500, 506 r/w 149",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 279/2022 | Desc: Promoting enmity between two groups",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.242/2022",
+        "description": "Assault",
+        "sections": "Sec.353 riw 34 of IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.242/2022 | Desc: Assault",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.579/2021",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "Sec.504, 506, 509 Sec.188 of IPC rlw 34 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.579/2021 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.275/2021",
+        "description": "Act intended to insult the modesty of a women; Act done by several persons in furtherance of common intention.",
+        "sections": "Sec.66- Sec.51(b), 54 Acts/Codes E, 67-A IT Act, DMA, 2005",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.275/2021 | Desc: Act intended to insult the modesty of a women; Act done by several persons in furtherance of common intention.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.243/2021",
+        "description": "publishing or transmitting of material containing sexually explicit act in electronic form",
+        "sections": "R/W 149 IPC",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.243/2021 | Desc: publishing or transmitting of material containing sexually explicit act in electronic form",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not applicable",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "R/W 149 IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not applicable | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not applicable",
+        "description": "Being member of unlawful assembly",
+        "sections": "Sec.188, 143, 153-",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not applicable | Desc: Being member of unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "72/2021",
+        "description": "unlawful rioting",
+        "sections": "Sec.143 r/w 149 of IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 72/2021 | Desc: unlawful rioting",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "211/2019",
+        "description": "unlawful assembly",
+        "sections": "Sec.147, 186, 341",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 211/2019 | Desc: unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "70/2019",
+        "description": "disobedience to order",
+        "sections": "Sec.188 of IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 70/2019 | Desc: disobedience to order",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.38/2019",
+        "description": "Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
+        "sections": "Sec.285, 435, 188 riw 34 of IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.38/2019 | Desc: Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.57/2018",
+        "description": "Punishment for voluntarily causing hurt; Punishment for criminal intimidation; Act done by several persons in furtherance of common intention",
+        "sections": "Sec.323, 506 riw 34 of IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.57/2018 | Desc: Punishment for voluntarily causing hurt; Punishment for criminal intimidation; Act done by several persons in furtherance of common intention",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.120/2018",
+        "description": "Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment; and any magistrate empowered u/Sec.190 may order such an investigation as above mentioned",
+        "sections": "Sec.500, 506, 109 riw 34 of IPC, Sec.156(3) of Cr.P.C.",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.120/2018 | Desc: Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment; and any magistrate empowered u/Sec.190 may order such an investigation as above mentioned",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "C.C.No.2/2003",
+        "description": "C.C.No.2/2003",
+        "sections": "Sec.120-B, 409, 419, 420, 467, 468, 471 of I.P.C. r/w Sec.13(2) and 1",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: C.C.No.2/2003 | Desc: C.C.No.2/2003",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "CRL.A.No.454/2016",
+        "description": "R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "sections": "R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: CRL.A.No.454/2016 | Desc: R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 6265,
@@ -21432,11 +22465,299 @@
       "num_criminal_cases": 31,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 31
+        "Serious/Violent": 4,
+        "Corruption & Fraud": 0,
+        "Political/Protest": 24,
+        "Election Offenses": 0,
+        "Minor/Other": 3
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "abstract",
+      "extracted_count": 31,
+      "abstract_count": 31,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-05T16:41:57.073394+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "276/2023",
+        "description": "Section 188, 341, 290 R/w 120B,147,148,153,30",
+        "sections": "R/W 149 IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 276/2023 | Desc: Section 188, 341, 290 R/w 120B,147,148,153,30",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "07/2023",
+        "description": "unlawful assemble, Conducting meeting with armed sticks and iron rods with criminal conspiracy",
+        "sections": "R/W 149 IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 07/2023 | Desc: unlawful assemble, Conducting meeting with armed sticks and iron rods with criminal conspiracy",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "7,115,109,323,324,50",
+        "description": "34 IPC, wrongful caused obstruction, attempt to kill him",
+        "sections": "R/W 149 IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 7,115,109,323,324,50 | Desc: 34 IPC, wrongful caused obstruction, attempt to kill him",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "16/2023",
+        "description": "Section 353, 290, 188, 341 R/w 34 IPC",
+        "sections": "R/W 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 16/2023 | Desc: Section 353, 290, 188, 341 R/w 34 IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "501/2022",
+        "description": "Unlawful assemble in front of district jail, conduct rally, wrongfully restrained the moving vehicles on the road, and pushed the complainant and deter the public servants with common intention in view of releasing the tdp leaders from jail",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 501/2022 | Desc: Unlawful assemble in front of district jail, conduct rally, wrongfully restrained the moving vehicles on the road, and pushed the complainant and deter the public servants with common intention in view of releasing the tdp leaders from jail",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "334/2022",
+        "description": "Sec 341, 188 R/w 149 IPC",
+        "sections": "R/W 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 334/2022 | Desc: Sec 341, 188 R/w 149 IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "166/2022",
+        "description": "unlawful assemble with out taking care of Covid-19",
+        "sections": "Sec 307, 427, 341, 143, 147, 148 R/w 149 IPC, 188,341,269,270,271, 149 IPC, 71, R/w 149 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 166/2022 | Desc: unlawful assemble with out taking care of Covid-19",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "1019/2021",
+        "description": "unlawful assemble with armed sticks and iron rods",
+        "sections": "Sec 143, Sec 143, 188,341,269,270,2",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 1019/2021 | Desc: unlawful assemble with armed sticks and iron rods",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "674/2021",
+        "description": "unlawful assemble and they made big sounds with speakers and drums",
+        "sections": "Sec 307, 427, 341, 143, 147, 148 R/w 149 IPC, 188,341,269,270,271, 149 IPC, 71, R/w 149 IPC",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 674/2021 | Desc: unlawful assemble and they made big sounds with speakers and drums",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "673/2021",
+        "description": "unlawful assemble",
+        "sections": "R/W 188,341,269,270,271, 149 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 673/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "431/2021",
+        "description": "unlawful assemble",
+        "sections": "R/W 188,341,269,270,271, 149 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 431/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "350/2021",
+        "description": "unlawful assemble",
+        "sections": "R/W 188,341,269,270,271, 149 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 350/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "349/2021",
+        "description": "unlawful assemble",
+        "sections": "Sec 143, Sec 188,341,269,270,271, R/w 188,341,269,270,2",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 349/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "343/2021",
+        "description": "unlawful assemble",
+        "sections": "Sec 143, Sec 149 IPC, 71",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 343/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "342/2021",
+        "description": "unlawful assemble",
+        "sections": "Sec 143, Sec 149 IPC, 71",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 342/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "373/2021",
+        "description": "Unlawful assemble",
+        "sections": "R/W 34 IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 373/2021 | Desc: Unlawful assemble",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "341/2021",
+        "description": "Unlawful assemble",
+        "sections": "R/W 149 IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 341/2021 | Desc: Unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "340/2021",
+        "description": "Unlawful assemble",
+        "sections": "R/W 149 IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 340/2021 | Desc: Unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "339/2021",
+        "description": "unlawful assemble",
+        "sections": "Sec 341, 283, 269, 270, 143 R/w 149 IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 339/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "544/2021",
+        "description": "unlawful assemble",
+        "sections": "Sec 143, 353 R/w 149 IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 544/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "161/2021",
+        "description": "unlawful assemble",
+        "sections": "Sec 143, 353 R/w 149 IPC",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 161/2021 | Desc: unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "324/2021",
+        "description": "Unlawful assemble, criminally trespassed, dharna",
+        "sections": "Sec 341, 283, 269, 270, 143 R/w 149 IPC, Sec 3 PDPPA Act",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 324/2021 | Desc: Unlawful assemble, criminally trespassed, dharna",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "485/2021",
+        "description": "Unlawful assemble",
+        "sections": "Sec 143, 147, 353, 427 R/w 149 IPC, sec 3 PDPPA act",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 485/2021 | Desc: Unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "453/2021",
+        "description": "Unlawful assemble",
+        "sections": "Sec 3 PDPPA Act",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 453/2021 | Desc: Unlawful assemble",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "65/2021",
+        "description": "Unlawful assemble",
+        "sections": "R/W 149 IPC",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 65/2021 | Desc: Unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "52/2021",
+        "description": "Unlawful assemble",
+        "sections": "R/W 149 IPC",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 52/2021 | Desc: Unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "504/2020",
+        "description": "Unlawful assemble",
+        "sections": "R/W 149 IPC",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 504/2020 | Desc: Unlawful assemble",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "11/2020",
+        "description": "Unlawful assemble and gathered in public road and raising slogans one state one capital",
+        "sections": "Sec 143, 341, 188 R/w 149 IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 11/2020 | Desc: Unlawful assemble and gathered in public road and raising slogans one state one capital",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "69/2019",
+        "description": "Wrongfully entered restrained the complainant attempted to hack with stickle and he escaped further he slapped with his hand due to political rival",
+        "sections": "Sec 341, 323, 506 IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 69/2019 | Desc: Wrongfully entered restrained the complainant attempted to hack with stickle and he escaped further he slapped with his hand due to political rival",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "81/2019",
+        "description": "Tdp followers carrying sticks and stones and pushed the complainant and objected the official duties while performing the law and order on the time of Re-election",
+        "sections": "Sec 188, 147, 148, 353 R/w 149 IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 81/2019 | Desc: Tdp followers carrying sticks and stones and pushed the complainant and objected the official duties while performing the law and order on the time of Re-election",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "50/2019",
+        "description": "Assault",
+        "sections": "Sec 341, 323, 506 R/w 34",
+        "page": 14,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 50/2019 | Desc: Assault",
+        "category": "Serious/Violent"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 43852,

@@ -785,11 +785,136 @@
       "num_criminal_cases": 13,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 13
+        "Serious/Violent": 1,
+        "Corruption & Fraud": 1,
+        "Political/Protest": 9,
+        "Election Offenses": 0,
+        "Minor/Other": 2
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "extraction",
+      "extracted_count": 13,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-06T08:38:13.566492+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "F.LR.No.217 of 20223",
+        "description": "Preventive Arrest",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: F.LR.No.217 of 20223 | Desc: Preventive Arrest",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "F.LR.No.211 of 2023",
+        "description": "Preventive Arrest",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: F.LR.No.211 of 2023 | Desc: Preventive Arrest",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "F.LR.No.204 of 2023",
+        "description": "Preventive Arrest",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: F.LR.No.204 of 2023 | Desc: Preventive Arrest",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "25 of F.LR.No.348 of F.LR.No.310 of 2022",
+        "description": "Preventive Arrest",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 25 of F.LR.No.348 of F.LR.No.310 of 2022 | Desc: Preventive Arrest",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "7821",
+        "description": "Section 143, 341, 279, 283 IPC",
+        "sections": "Sections 353, 109 1860 and Section 8(B)",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 7821 | Desc: Section 143, 341, 279, 283 IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "13 of 2022",
+        "description": "Violation of Covid rules and causing public nuisance",
+        "sections": "Section 34 of IPC, Motor Vehicle Act, 1988",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 13 of 2022 | Desc: Violation of Covid rules and causing public nuisance",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "177 of 2022",
+        "description": "Spread of new variant virus on highways",
+        "sections": "190(2), 119/184, 122",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 177 of 2022 | Desc: Spread of new variant virus on highways",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "NR/156/Zone-1/2022",
+        "description": "Sections 147, 148, 324, 307, 384, 506, 341, 120-B, 109, 188 r/w Section 149 of Indian Penal Code",
+        "sections": "Section 151 of Indian Penal Procedure, 1973 and Section 123 of Indian Penal Code, 1860 and Section 212 of A.P. Panchyatraj Act, 1994 Act, 1988.",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NR/156/Zone-1/2022 | Desc: Sections 147, 148, 324, 307, 384, 506, 341, 120-B, 109, 188 r/w Section 149 of Indian Penal Code",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "13",
+        "description": "Attempt to murder",
+        "sections": "R/W 307, 326, 427, 503, 506, 323, 153(a), 120-B",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 13 | Desc: Attempt to murder",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "4",
+        "description": "Rioting",
+        "sections": "Section 153(a), 120-B r/w Section 295(a), 120-B, S04",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 4 | Desc: Rioting",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "79/2023",
+        "description": "Corruption Buren Vacepalll Pattee office Staton sah",
+        "sections": "R/W 149 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 79/2023 | Desc: Corruption Buren Vacepalll Pattee office Staton sah",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "516 of 2019",
+        "description": "Violations of rules and insulted the police image",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 516 of 2019 | Desc: Violations of rules and insulted the police image",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "50/2008",
+        "description": "Violation of section 149 of IPC",
+        "sections": "R/W 149 IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 50/2008 | Desc: Violation of section 149 of IPC",
+        "category": "Political/Protest"
+      }
+    ],
     "criminal_details_convictions": [],
     "role": "Cabinet Minister",
     "ministries": [
