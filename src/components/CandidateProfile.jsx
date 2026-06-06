@@ -90,7 +90,6 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const displayMinistry = primaryMinistry?.name || candidate.ministry || "Legislative Leader";
   const displayEducation = candidate.education || "Information not available";
   const displayProfession = candidate.profession || "Information not available";
-  const isPendingDOB = !candidate.dob || candidate.dob.startsWith('Age:');
 
 
   return (
@@ -221,25 +220,6 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                   }}>
                     {displayRole}
                   </span>
-                  {isPendingDOB && (
-                    <span style={{ 
-                      fontSize: '0.72rem', 
-                      fontWeight: 600, 
-                      letterSpacing: '0.05em', 
-                      textTransform: 'uppercase',
-                      padding: '0.25rem 0.75rem',
-                      borderRadius: '9999px',
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: '0.3rem',
-                      backgroundColor: 'color-mix(in srgb, var(--outline) 14%, transparent)',
-                      color: 'var(--outline)',
-                      border: '1px solid var(--outline-variant)'
-                    }}>
-                      <span className="material-symbols-outlined" style={{ fontSize: '0.9rem' }}>cached</span>
-                      Under Process
-                    </span>
-                  )}
                 </div>
                 <h1 className="profile-hero-name">
                   {candidate.name}
@@ -258,11 +238,6 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Age / DOB</p>
                   <p style={{ fontWeight: 600, color: 'var(--on-surface)' }}>{candidate.age || candidate.dob || 'Unknown'}</p>
-                  {isPendingDOB && (
-                    <span style={{ fontSize: '0.72rem', color: 'var(--outline)', display: 'block', marginTop: '0.25rem', lineHeight: '1.3' }}>
-                      Gathering data about this candidate
-                    </span>
-                  )}
                 </div>
                 <div>
                   <p className="label-sm text-outline" style={{ marginBottom: '0.25rem' }}>Experience</p>

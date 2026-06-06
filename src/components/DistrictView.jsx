@@ -425,24 +425,6 @@ const DistrictView = () => {
                     <span className="constituency-badge">
                       {selectedDistrict.name}
                     </span>
-                    {(!selectedDistrict.dob || selectedDistrict.dob.startsWith('Age:')) && (
-                      <span style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '0.25rem',
-                        fontSize: '0.75rem',
-                        fontWeight: 600,
-                        padding: '0.25rem 0.65rem',
-                        borderRadius: '9999px',
-                        background: 'color-mix(in srgb, var(--outline) 12%, transparent)',
-                        color: 'var(--outline)',
-                        border: '1px solid color-mix(in srgb, var(--outline) 24%, transparent)',
-                        verticalAlign: 'middle'
-                      }}>
-                        <span className="material-symbols-outlined" style={{ fontSize: '0.90rem' }}>sync</span>
-                        Under Process
-                      </span>
-                    )}
                   </div>
                   <h1 className="candidate-sheet-name">
                     {selectedDistrict.currentMla}
