@@ -1254,11 +1254,154 @@
       "num_criminal_cases": 15,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 15
+        "Serious/Violent": 5,
+        "Corruption & Fraud": 0,
+        "Political/Protest": 5,
+        "Election Offenses": 0,
+        "Minor/Other": 5
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "extraction",
+      "extracted_count": 15,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-06T11:14:03.674839+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "MEKPPES314N",
+        "description": "iii",
+        "sections": "R/W 149 IPC",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: MEKPPES314N | Desc: iii",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "174/2021",
+        "description": "Intimidation",
+        "sections": "R/W S 353, 506 IPC",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 174/2021 | Desc: Intimidation",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Not Allotted",
+        "description": "Did-obedience to order promulgated by public servant and violation of Covid19",
+        "sections": "Section ......0f EPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Allotted | Desc: Did-obedience to order promulgated by public servant and violation of Covid19",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.113/2019",
+        "description": "Assault against Public servant",
+        "sections": "R/W 353, 427, 506, 143",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.113/2019 | Desc: Assault against Public servant",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "0374/2020",
+        "description": "Intimidation",
+        "sections": "R/W 149 IPC",
+        "page": 7,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 0374/2020 | Desc: Intimidation",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "400/2020",
+        "description": "Criminal Intimidation",
+        "sections": "R/W 506 IPC",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 400/2020 | Desc: Criminal Intimidation",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.36/2020",
+        "description": "Assault against Public servant",
+        "sections": "U/S 353, 506 r/w 109",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.36/2020 | Desc: Assault against Public servant",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "",
+        "description": "Intimidation with common object",
+        "sections": "",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR:  | Desc: Intimidation with common object",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.38/2023",
+        "description": "Rash and negligence, screening of evidence NOT and tresspass etc.,",
+        "sections": "U/S 304-A, 201, 447",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.38/2023 | Desc: Rash and negligence, screening of evidence NOT and tresspass etc.,",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "Cr.No.156/2021",
+        "description": "dis-obedience to order puion ofeffence cluly promulgated by public servant and Covid 19 regulations",
+        "sections": "U/S 341, 188 IPC",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.156/2021 | Desc: dis-obedience to order puion ofeffence cluly promulgated by public servant and Covid 19 regulations",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "31/2022",
+        "description": "U/S 504 LPC",
+        "sections": "R/W 155 (2) Cr.P.C, Section 499 IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 31/2022 | Desc: U/S 504 LPC",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.133/2021",
+        "description": "Disobedience to order duly promulgated by public servant, negligent act likely to spread infection of disease",
+        "sections": "186, 269, 341, RPC",
+        "page": 14,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.133/2021 | Desc: Disobedience to order duly promulgated by public servant, negligent act likely to spread infection of disease",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not Applicable",
+        "description": "Dis-obedience to order",
+        "sections": "NOT APPLICABLE",
+        "page": 15,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: Dis-obedience to order",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.63/2021",
+        "description": "rioting, armed with deadly weapons, assault and Dis-obedience to order duly promulgated by public servant, unlawful assembly with a common object",
+        "sections": "S 147, 148, 353, 188 /wi49 LPC",
+        "page": 16,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.63/2021 | Desc: rioting, armed with deadly weapons, assault and Dis-obedience to order duly promulgated by public servant, unlawful assembly with a common object",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "65/2021",
+        "description": "Udicial Magistrate of Court",
+        "sections": "IPC",
+        "page": 17,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 65/2021 | Desc: Udicial Magistrate of Court",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 35032,
@@ -20149,9 +20292,7 @@
     "criminal_summary": {
       "num_criminal_cases": 16,
       "num_convictions": 0,
-      "pending_by_category": {
-        "Patched": 16
-      },
+      "count_source": "patch",
       "source": "ECI Website / Manual Audit"
     },
     "criminal_details_pending": [],
