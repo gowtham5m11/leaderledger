@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import gc
 import re
 import tempfile
 from pathlib import Path
@@ -124,11 +125,22 @@ def load_patches():
 # qwen2.5vl:7b swap-thrashed, moondream:1.8b regurgitated prompt placeholders,
 # gemma3:4b hallucinated sequential FIRs (919, 920, 921...). Tesseract reads the
 # table reliably; gemma3:4b in text-only mode parses FIRs from that text correctly.
-def _process_page(pil_page, page_num, cand_id):
+def _process_page(pil_page, page_num, cand_id, pdf_path=None, use_pdfplumber=False):
     """Return (parsed_cases, ocr_text). ocr_text is kept so the caller can do
     style detection (CASE-N headers etc.) and abstract-count cross-checks."""
-    temp_page = os.path.join(tempfile.gettempdir(), f"criminal_page_{cand_id}_{page_num}.png")
     empty = {"pending": [], "convictions": []}
+    if use_pdfplumber and pdf_path:
+        with pdfplumber.open(pdf_path) as pdf:
+            ocr_text = pdf.pages[page_num - 1].extract_text() or ""
+        if ocr_text.strip():
+            response = call_ai_text(build_criminal_text_prompt(ocr_text))
+            if not response:
+                return empty, ocr_text
+            parsed = parse_criminal_json_response(
+                response, page_num=page_num, method=f"pdfplumber+LLM:{OLLAMA_MODEL}",
+            )
+            return parsed, ocr_text
+    temp_page = os.path.join(tempfile.gettempdir(), f"criminal_page_{cand_id}_{page_num}.png")
     try:
         pil_page.save(temp_page, "PNG")
         try:
@@ -191,6 +203,7 @@ def extract_criminal_details(pdf_path, cand_id="global"):
         cases["summary"] = summary
         return cases
 
+    use_pdfplumber   = entry.get("extraction_method") == "pdfplumber"
     pending_pages    = entry.get("pending_pages", []) or []
     conviction_pages = entry.get("conviction_pages", []) or []
     pages_to_process = sorted(set(pending_pages) | set(conviction_pages))
@@ -216,7 +229,10 @@ def extract_criminal_details(pdf_path, cand_id="global"):
             )
             if not images:
                 continue
-            page_result, ocr_text = _process_page(images[0], page_num=page_num, cand_id=str(cand_id))
+            page_result, ocr_text = _process_page(
+                images[0], page_num=page_num, cand_id=str(cand_id),
+                pdf_path=str(pdf_path), use_pdfplumber=use_pdfplumber,
+            )
             cases["pending"].extend(page_result["pending"])
             cases["convictions"].extend(page_result["convictions"])
             if page_num in pending_set:
@@ -439,11 +455,13 @@ def main():
             num = results["summary"].get("num_criminal_cases", 0)
             print(f"  [{completed}/{total_queue}] ✅ {cand_name} ({num} cases)", flush=True)
             commit_candidate(candidates, cand_id, results)
+            gc.collect()
         else:
             failure_count += 1
             print(f"  [{completed}/{total_queue}] ❌ {cand_name}: {status}", flush=True)
             append_failure({"id": cand_id, "name": cand_name, "reason": str(status)})
 
+    pool = None
     try:
         if workers == 1:
             for cand in to_process:
@@ -465,6 +483,8 @@ def main():
                         cand_id, results, status = c["id"], None, f"{type(e).__name__}: {e}"
                     _handle_result(cand_id, results, status)
     except KeyboardInterrupt:
+        if pool is not None:
+            pool.shutdown(wait=False, cancel_futures=True)
         print("\n\n🛑 STOPPING: Ctrl+C detected. Partial state already saved per-candidate.", flush=True)
 
     consolidated = consolidate_failures()

@@ -9155,11 +9155,102 @@
       "num_criminal_cases": 7,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 7
+        "Serious/Violent": 1,
+        "Corruption & Fraud": 0,
+        "Political/Protest": 5,
+        "Election Offenses": 0,
+        "Minor/Other": 3
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "abstract",
+      "extracted_count": 9,
+      "abstract_count": 7,
+      "style3_count": 6,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-07T04:39:50.191540+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "186t2023",
+        "description": "Every member of unlawful assembly guilty of offence committed in prosecution of the common object",
+        "sections": "R/W 149 IPC",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 186t2023 | Desc: Every member of unlawful assembly guilty of offence committed in prosecution of the common object",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "186t2023",
+        "description": "Punishment for voluntarily causing hurt",
+        "sections": "323",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 186t2023 | Desc: Punishment for voluntarily causing hurt",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "186t2023",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "188",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 186t2023 | Desc: Disobedience to order duly promulgated by public servant",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "r87t2023",
+        "description": "unlawful assembly",
+        "sections": "143, 341, 188",
+        "page": 5,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: r87t2023 | Desc: unlawful assembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "19u2023",
+        "description": "Cognizable offences",
+        "sections": "R/W 151 Cr.P.C",
+        "page": 6,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 19u2023 | Desc: Cognizable offences",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "193/2023",
+        "description": "Cognizable offences",
+        "sections": "R/W 151 Cr.P.C",
+        "page": 6,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 193/2023 | Desc: Cognizable offences",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "37/2024",
+        "description": "Obstructing public servant in discharge of public functions",
+        "sections": "186",
+        "page": 7,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 37/2024 | Desc: Obstructing public servant in discharge of public functions",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "55t2020",
+        "description": "Cognizable offences",
+        "sections": null,
+        "page": 8,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 55t2020 | Desc: Cognizable offences",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "s7t2020",
+        "description": "Cognizable offences",
+        "sections": null,
+        "page": 8,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: s7t2020 | Desc: Cognizable offences",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 72121,
