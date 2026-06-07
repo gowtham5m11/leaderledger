@@ -17,44 +17,8 @@
     "reason": "ECI Website / Manual Audit",
     "last_verified_at": "2026-05-09"
   },
-  "madhavi_reddappa_gari": {
-    "num_criminal_cases": 4,
-    "num_convictions": 0,
-    "source": "ECI Website / Manual Audit",
-    "created_at": "2026-05-09",
-    "auditor": "manual-audit-pre-2026-05-11",
-    "reason": "ECI Website / Manual Audit",
-    "last_verified_at": "2026-05-09"
-  },
   "prathipati_pullarao": {
     "num_criminal_cases": 13,
-    "num_convictions": 0,
-    "source": "ECI Website / Manual Audit",
-    "created_at": "2026-05-09",
-    "auditor": "manual-audit-pre-2026-05-11",
-    "reason": "ECI Website / Manual Audit",
-    "last_verified_at": "2026-05-09"
-  },
-  "yarlagadda_venkata_rao": {
-    "num_criminal_cases": 9,
-    "num_convictions": 0,
-    "source": "MyNeta + Tesseract verification",
-    "created_at": "2026-05-09",
-    "auditor": "claude-tesseract-2026-05-11",
-    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 15+ FIRs. Using MyNeta count.",
-    "last_verified_at": "2026-05-11"
-  },
-  "doctor_dola_sree_bala_veeranjaneya_swamy": {
-    "num_criminal_cases": 11,
-    "num_convictions": 0,
-    "source": "MyNeta + Tesseract verification",
-    "created_at": "2026-05-09",
-    "auditor": "claude-tesseract-2026-05-11",
-    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 15+ FIRs. Using MyNeta count.",
-    "last_verified_at": "2026-05-11"
-  },
-  "paritala_sunithamma": {
-    "num_criminal_cases": 8,
     "num_convictions": 0,
     "source": "ECI Website / Manual Audit",
     "created_at": "2026-05-09",
@@ -68,8 +32,17 @@
     "source": "ECI Website / Manual Audit",
     "created_at": "2026-05-09",
     "auditor": "manual-audit-pre-2026-05-11",
-    "reason": "ECI Website / Manual Audit",
+    "reason": "ECI Website / Manual Audit — OCR reads but LLM splits multi-section FIRs; 35 extracted vs 16 declared",
     "last_verified_at": "2026-05-09"
+  },
+  "yarlagadda_venkata_rao": {
+    "num_criminal_cases": 9,
+    "num_convictions": 0,
+    "source": "MyNeta + Tesseract verification",
+    "created_at": "2026-05-09",
+    "auditor": "claude-tesseract-2026-05-11",
+    "reason": "LLM splits IPC sections as FIR numbers; page-finder found 4 pages but 4/10 extracted entries are artifacts",
+    "last_verified_at": "2026-06-07"
   },
   "kurugondla_ramakrishna": {
     "num_criminal_cases": 12,
@@ -77,7 +50,7 @@
     "source": "MyNeta + Tesseract verification",
     "created_at": "2026-05-09",
     "auditor": "claude-tesseract-2026-05-11",
-    "reason": "PDF re-OCRed 2026-05-11; original patch=0 was incorrect, found 24+ FIRs. Using MyNeta count.",
-    "last_verified_at": "2026-05-11"
+    "reason": "Consistent JSONDecodeError from gemma3:4b — OCR text too long across 6 pages; abstract_pending=11",
+    "last_verified_at": "2026-06-07"
   }
 }

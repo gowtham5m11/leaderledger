@@ -1019,7 +1019,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "headers_missed",
-      "scan_seconds": 1.8
+      "scan_seconds": 2.0
     },
     "baggu_ramanamurthy": {
       "pdf": "baggu_ramanamurthy.pdf",
@@ -1716,7 +1716,7 @@
       "pdf": "chandra_mohan_reddy_somireddy.pdf",
       "pdf_sha1": "c79cfbbddfe48a7065f744f1cfbe4af43165f6ef",
       "total_pages": 38,
-      "extraction_method": "mixed",
+      "extraction_method": "tesseract",
       "pending_pages": [
         5,
         6,
@@ -1761,7 +1761,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 118.3
+      "scan_seconds": 89.3
     },
     "datla_subbaraju__buchibabu_": {
       "pdf": "datla_subbaraju__buchibabu_.pdf",
@@ -1969,7 +1969,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 1.5
+      "scan_seconds": 1.7
     },
     "damacharla_janardhana_rao": {
       "pdf": "damacharla_janardhana_rao.pdf",
@@ -3918,7 +3918,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 85.6
+      "scan_seconds": 107.2
     },
     "m_shajahan_basha": {
       "pdf": "m_shajahan_basha.pdf",
@@ -4738,7 +4738,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 140.0
+      "scan_seconds": 251.1
     },
     "pantam_venkateswara_rao__pantam_nanaji_": {
       "pdf": "pantam_venkateswara_rao__pantam_nanaji_.pdf",
@@ -4810,7 +4810,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 1.6
+      "scan_seconds": 1.4
     },
     "palle_sindhura_reddy": {
       "pdf": "palle_sindhura_reddy.pdf",
@@ -4984,7 +4984,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 3.6
+      "scan_seconds": 14.9
     },
     "r_v_s_k_k_ranga_rao___babynayana": {
       "pdf": "r_v_s_k_k_ranga_rao___babynayana.pdf",
@@ -5158,7 +5158,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "headers_missed",
-      "scan_seconds": 21.2
+      "scan_seconds": 22.7
     },
     "ramanjaneyulu_pulaparthi__anjibabu_": {
       "pdf": "ramanjaneyulu_pulaparthi__anjibabu_.pdf",
@@ -5852,7 +5852,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "headers_missed",
-      "scan_seconds": 6.6
+      "scan_seconds": 7.2
     },
     "tenali_sravan_kumar": {
       "pdf": "tenali_sravan_kumar.pdf",
@@ -6051,7 +6051,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 1.7
+      "scan_seconds": 2.0
     },
     "yalamanchili_satyanarayana_chowdary__sujana_chowdary_": {
       "pdf": "yalamanchili_satyanarayana_chowdary__sujana_chowdary_.pdf",
@@ -6231,6 +6231,6 @@
       "scan_seconds": 104.1
     }
   },
-  "generated_at": "2026-06-05T03:24:48+00:00",
+  "generated_at": "2026-06-07T13:08:38+00:00",
   "total_pdfs": 175
 }
