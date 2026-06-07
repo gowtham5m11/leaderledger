@@ -4635,21 +4635,68 @@
     },
     "profession": "CULTIVATION & POLITICS",
     "criminal_summary": {
-      "num_criminal_cases": 0,
+      "num_criminal_cases": 3,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 0,
+        "Political/Protest": 4,
         "Election Offenses": 0,
-        "Minor/Other": 0
+        "Minor/Other": 1
       },
-      "status": "needs_manual_review",
-      "reason": "page index missed section headers",
+      "count_source": "abstract",
+      "extracted_count": 5,
+      "abstract_count": 3,
       "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-27T03:37:58.068237+00:00"
+      "extracted_at": "2026-06-07T14:01:40.615580+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "Cr.No.432/2023",
+        "description": "Unspecified",
+        "sections": "U/s. 143,341,290 IPC",
+        "page": 3,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.432/2023 | Desc: Unspecified",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.275/2023",
+        "description": "Unspecified",
+        "sections": "U/s. 188,341, 143",
+        "page": 3,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.275/2023 | Desc: Unspecified",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.88/2023",
+        "description": "Unspecified",
+        "sections": "U/s.341,143 IPC",
+        "page": 3,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.88/2023 | Desc: Unspecified",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not Applicable",
+        "description": "Wrongfully Unlowtul ossembly",
+        "sections": "R/W 149 IPC",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: Wrongfully Unlowtul ossembly",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Not Applicable",
+        "description": "Disobedience to Police",
+        "sections": "30 & 144 tPC",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: Disobedience to Police",
+        "category": "Minor/Other"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 34049,

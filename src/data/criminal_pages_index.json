@@ -998,28 +998,32 @@
       "pdf_sha1": "c6dfc72c2639cd90034a2b3bf34ddbcdc0785d2b",
       "total_pages": 34,
       "extraction_method": "pdfplumber",
-      "pending_pages": [],
-      "conviction_pages": [],
-      "section_5_header_page": null,
-      "section_6_header_page": null,
+      "pending_pages": [
+        3,
+        4
+      ],
+      "conviction_pages": [
+        5
+      ],
+      "section_5_header_page": 3,
+      "section_6_header_page": 4,
       "section_7_header_page": null,
-      "pending_trigger_page": null,
+      "pending_trigger_page": 3,
       "conviction_trigger_page": null,
       "anchoring_method": {
-        "section_5": null,
-        "section_6": null,
-        "section_7": null
+        "section_5": "manual",
+        "section_6": "manual"
       },
-      "abstract_pending_count": null,
-      "abstract_conviction_count": null,
-      "pending_table_style": null,
+      "abstract_pending_count": 3,
+      "abstract_conviction_count": 0,
+      "pending_table_style": "style_1",
       "conviction_table_style": null,
-      "pending_case_count_hint": null,
-      "conviction_case_count_hint": null,
+      "pending_case_count_hint": 3,
+      "conviction_case_count_hint": 0,
       "annexure_pages": [],
       "pending_from_annexure": false,
-      "status": "headers_missed",
-      "scan_seconds": 2.0
+      "status": "ok",
+      "note": "Manually patched 2026-06-07: garbled font encoding (e->o, i->l) hid section headers from page-finder"
     },
     "baggu_ramanamurthy": {
       "pdf": "baggu_ramanamurthy.pdf",
