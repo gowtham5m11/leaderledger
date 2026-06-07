@@ -13920,11 +13920,134 @@
       "num_criminal_cases": 13,
       "num_convictions": 0,
       "pending_by_category": {
-        "Patched": 13
+        "Serious/Violent": 3,
+        "Corruption & Fraud": 2,
+        "Political/Protest": 6,
+        "Election Offenses": 0,
+        "Minor/Other": 2
       },
-      "source": "ECI Website / Manual Audit"
+      "count_source": "extraction",
+      "extracted_count": 13,
+      "source": "VLM:gemma3:4b/ocr_text_v2",
+      "extracted_at": "2026-06-07T13:37:10.269094+00:00"
     },
-    "criminal_details_pending": [],
+    "criminal_details_pending": [
+      {
+        "fir_no": "238/2023",
+        "description": "wrongful restraint, Assault or criminal force to deter public servant from discharge of hi duty, Punishment of criminal Joining unlawful assembly armed with deadly weapon, Rioting armed with deadly weapon, Every Lean of unlawful assembly guilty ofommitted in prosecution o common object.",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 238/2023 | Desc: wrongful restraint, Assault or criminal force to deter public servant from discharge of hi duty, Punishment of criminal Joining unlawful assembly armed with deadly weapon, Rioting armed with deadly weapon, Every Lean of unlawful assembly guilty ofommitted in prosecution o common object.",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "129 and 149 of Cr.P.C.",
+        "description": "Rioting armed with deadly weapon, Every Lean of unlawful assembly guilty o committed in prosecution o common object.",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 129 and 149 of Cr.P.C. | Desc: Rioting armed with deadly weapon, Every Lean of unlawful assembly guilty o committed in prosecution o common object.",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "240/2023",
+        "description": "Assault or criminal force to deter public servant from discharge of hi duty, Conspiracy and Every member o unlawful assembly guilty of offence ommitted in prosecution of common object.",
+        "sections": "u/s.435, 353, 120-B r/w.149 of IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 240/2023 | Desc: Assault or criminal force to deter public servant from discharge of hi duty, Conspiracy and Every member o unlawful assembly guilty of offence ommitted in prosecution of common object.",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "93/2023",
+        "description": "Punishment for either unlawful assembly or member of unlawful assembly, Punishment for wrongfu restraint, Punishment for rioting",
+        "sections": "ju/s.143, 341, 290 r/w.149 of IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 93/2023 | Desc: Punishment for either unlawful assembly or member of unlawful assembly, Punishment for wrongfu restraint, Punishment for rioting",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "197/2023",
+        "description": "Crime Stage - commits any offence specified in the schedule, against a person or property knowing that such person is a membe of a scheduled caste or a scheduled tribe or such property belongs to such member, shall be punishable with such punishment as specified under th Indian Penal Code for such offence: and shall also be liable to fine.",
+        "sections": "u/s.3(2) (v-a), 3(1) (r) (s) of SC and S Act, u/s.506, 504, 143, 149, 323, 114 of L.P.C.",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 197/2023 | Desc: Crime Stage - commits any offence specified in the schedule, against a person or property knowing that such person is a membe of a scheduled caste or a scheduled tribe or such property belongs to such member, shall be punishable with such punishment as specified under th Indian Penal Code for such offence: and shall also be liable to fine.",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "277/2022",
+        "description": "criminal intimidation",
+        "sections": "Intentional insult with intent to provoke breach of he peace",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 277/2022 | Desc: criminal intimidation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "276/2022",
+        "description": "insult with intent to provoke breach of he peace",
+        "sections": "",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 276/2022 | Desc: insult with intent to provoke breach of he peace",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "136/2022",
+        "description": "u/s.188, 341, 143 r/w.149 of IPC",
+        "sections": "Disobedience to order dul promulgated by public servant, Punishment for wrongful restraint, Punishment for either unlawful assembly or member of unlawful assemby and Every member of unlawful assembly guilty of offence committed in prosecution of common object.",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 136/2022 | Desc: u/s.188, 341, 143 r/w.149 of IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "167/2022",
+        "description": "fraudulent use of genuine document",
+        "sections": "u/s.471, 420, 506 r/w.34 I.P.C.",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 167/2022 | Desc: fraudulent use of genuine document",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "45/2020",
+        "description": "criminal intimidation",
+        "sections": "ws.151 of CRP C",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 45/2020 | Desc: criminal intimidation",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "44/2024",
+        "description": "wrongful restraint, assault or criminal force to deter public servant from discharging his duty",
+        "sections": "u/s.341, 353, 147, 120-B r/w.149 of IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 44/2024 | Desc: wrongful restraint, assault or criminal force to deter public servant from discharging his duty",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "12/2019",
+        "description": "dishonestly inducin delivery of property",
+        "sections": "R/W 420, 506 r/w.120-B",
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 12/2019 | Desc: dishonestly inducin delivery of property",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "96-PULLARAO",
+        "description": "u/s.341, 353, ot 120-B, 144, 148",
+        "sections": "r/w.149 of IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 96-PULLARAO | Desc: u/s.341, 353, ot 120-B, 144, 148",
+        "category": "Political/Protest"
+      }
+    ],
     "criminal_details_convictions": [],
     "election_result": {
       "margin": 33262,
