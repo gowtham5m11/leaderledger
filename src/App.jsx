@@ -19,7 +19,8 @@ const AccountPage = React.lazy(() => import('./pages/AccountPage'));
 const PrivacyPage = React.lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = React.lazy(() => import('./pages/TermsPage'));
 const NewsPage = React.lazy(() => import('./pages/NewsPage'));
-const InsightsPage = React.lazy(() => import('./pages/InsightsPage'));
+const AchievementsPage = React.lazy(() => import('./pages/AchievementsPage'));
+const AchievementDetailPage = React.lazy(() => import('./pages/AchievementDetailPage'));
 const CriminalDisclosurePage = React.lazy(() => import('./pages/CriminalDisclosurePage'));
 
 // Landing route. Mobile users start on the candidates list (the map is hard
@@ -93,9 +94,14 @@ function App() {
                     <NewsPage />
                   </Suspense>
                 } />
-                <Route path="/insights" element={
+                <Route path="/achievements" element={
                   <Suspense fallback={<GenericPageSkeleton />}>
-                    <InsightsPage />
+                    <AchievementsPage />
+                  </Suspense>
+                } />
+                <Route path="/achievements/:id" element={
+                  <Suspense fallback={<GenericPageSkeleton />}>
+                    <AchievementDetailPage />
                   </Suspense>
                 } />
                 <Route path="/profile/:id" element={
@@ -150,7 +156,7 @@ const FloatingNav = () => {
   const viewMode = pathname.includes('/district') ? 'district' :
                    pathname.includes('/list') ? 'list' :
                    pathname.includes('/news') ? 'news' :
-                   pathname.includes('/insights') ? 'insights' : '';
+                   pathname.includes('/achievements') ? 'achievements' : '';
 
   return (
     <div className="floating-nav">
@@ -158,7 +164,7 @@ const FloatingNav = () => {
         { label: 'Map', icon: 'explore', path: '/district', view: 'district' },
         { label: 'List', icon: 'format_list_bulleted', path: '/list', view: 'list' },
         { label: 'News', icon: 'newspaper', path: '/news', view: 'news' },
-        { label: 'Insights', icon: 'insights', path: '/insights', view: 'insights' },
+        { label: 'Wins', icon: 'emoji_events', path: '/achievements', view: 'achievements' },
       ].map(({ label, icon, path, view }) => {
         const isActive = viewMode === view;
         return (

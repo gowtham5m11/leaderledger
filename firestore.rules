@@ -38,6 +38,28 @@ service cloud.firestore {
       return next >= prev - 1 && next <= prev + 1;
     }
 
+    // --- Achievement helpers ------------------------------------------------
+    // The spec's achievements update rule was owner-only, which would block the
+    // like / comment / report flows (a liker/reporter is never the submitter).
+    // This codebase already solves "public counter that any signed-in user may
+    // nudge" with the increment-validation pattern used by /reactions, so the
+    // achievements update rule gets a SECOND branch (alongside the owner branch)
+    // that allows a signed-in user to touch ONLY the denormalised counters and
+    // the auto-escalation fields, each counter moving by at most ±1. Like
+    // /reactions this is increment-validation, not abuse-proofing — App Check is
+    // the intended hard gate. Client may flip status to 'under_review' (the
+    // auto-escalation path) but never to 'removed' (moderator-only, via Console
+    // or admin SDK).
+    function achievementCounterUpdate(next, prev) {
+      return next.diff(prev).affectedKeys().hasOnly(
+               ['like_count', 'comment_count', 'report_count',
+                'status', 'review_reason', 'updated_at'])
+        && movesByAtMostOne(next.like_count, prev.like_count)
+        && movesByAtMostOne(next.comment_count, prev.comment_count)
+        && movesByAtMostOne(next.report_count, prev.report_count)
+        && next.status in ['live', 'under_review'];
+    }
+
     // --- User profile -------------------------------------------------------
     // Each authenticated user maintains exactly one /users/{uid} doc that
     // mirrors their Auth profile. They (and admins) can read it; only they
@@ -227,6 +249,64 @@ service cloud.firestore {
         && request.resource.data.timestamp == request.time;
 
       allow delete: if isOwner(uid);
+    }
+
+    // --- Achievements -------------------------------------------------------
+    // Public-data record of government actions / manifesto promises. Anyone can
+    // read LIVE entries; under_review and removed entries are hidden from the
+    // client (a moderator reads them via the Console / admin SDK). Community
+    // creates are pinned to status 'live' + tier 'community' so a client can't
+    // self-promote to an "official" source. Owners may edit their own entry's
+    // content; any signed-in user may nudge the public counters (see
+    // achievementCounterUpdate). Deletes are admin/Console-only.
+    match /achievements/{achievementId} {
+      allow read: if resource.data.status == 'live';
+
+      allow create: if isSignedIn()
+        && request.resource.data.status == 'live'
+        && request.resource.data.source_tier == 'community'
+        && request.resource.data.submitted_by == request.auth.uid;
+
+      allow update: if
+        // (a) Owner edits their own entry's content.
+        (isSignedIn() && request.auth.uid == resource.data.submitted_by)
+        // (b) Any signed-in user toggles a like / posts-or-removes a comment /
+        //     files a report — counter + auto-escalation fields only.
+        || (isSignedIn() && achievementCounterUpdate(request.resource.data, resource.data));
+
+      // Removal is a moderation action (Console / admin SDK), never a client op.
+      allow delete: if false;
+
+      // --- Comments ---------------------------------------------------------
+      // Anyone can read; signed-in users post their own (≤500 chars); authors
+      // delete their own. comment_count on the parent is kept in sync client-
+      // side via achievementCounterUpdate.
+      match /comments/{commentId} {
+        allow read: if true;
+        allow create: if isSignedIn()
+          && request.resource.data.uid == request.auth.uid
+          && request.resource.data.text is string
+          && request.resource.data.text.size() >= 1
+          && request.resource.data.text.size() <= 500;
+        allow delete: if isSignedIn()
+          && request.auth.uid == resource.data.uid;
+      }
+
+      // --- Likes ------------------------------------------------------------
+      // One doc per user; readable so cards can show whether you've liked.
+      match /likes/{uid} {
+        allow read: if true;
+        allow write: if isOwner(uid);
+      }
+    }
+
+    // --- Achievement reports ------------------------------------------------
+    // Any signed-in user can file a report; the report doc is write-only from
+    // the client (only admins read the moderation queue, via Console/SDK).
+    match /achievement_reports/{reportId} {
+      allow create: if isSignedIn()
+        && request.resource.data.reported_by == request.auth.uid;
+      allow read, update, delete: if false;
     }
 
     // --- Deny everything else ----------------------------------------------
