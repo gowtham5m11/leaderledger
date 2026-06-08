@@ -105,3 +105,10 @@ src/data/candidates.json.bak_pre_2019_merge_20260518T025320
 public/data/news.json.bak_pre_fetch_*
 src/data/candidates.json.bak_pre_dob_ministers_20260525T215602
 scratch/Scrape.py
+
+# minister criminal re-extract backups (2026-06-08)
+src/data/candidates.json.bak_pre_minister_extract_*
+scraper_lab/_minister_run.txt
+scraper_lab/minister_extract.log
+src/data/candidates.json.bak_pre_minister_improve_*
+src/data/candidates.json.bak_pre_holdout_manual_*

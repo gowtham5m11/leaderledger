@@ -276,6 +276,47 @@ def detect_markers(text: str) -> dict[str, object]:
     return out
 
 
+def _ocr_autorotate(img) -> str:
+    """OCR a page image, auto-correcting 90/180/270° rotation.
+
+    Some scanned affidavits include sideways pages — the pending-criminal-cases
+    table in particular (e.g. Gottipati Ravi Kumar: the §5 table sat on rotated
+    pages 4-11, so a flat OCR pass returned garbled text, the section markers
+    were missed, and the finder mis-indexed pending onto an upright income page).
+
+    Tesseract's OSD (Orientation & Script Detection) reports the rotation needed
+    to upright the page; we apply it before the real OCR pass. A plain word count
+    can't be used to detect rotation — Tesseract emits plenty of junk 3+ letter
+    tokens from a sideways page — so OSD is the reliable signal. If OSD can't
+    decide (too little text), we fall back to keeping whichever of the four
+    orientations yields the most *long* (5+ letter) tokens, which garbled rotated
+    text produces far fewer of."""
+    try:
+        osd = pytesseract.image_to_osd(img)
+        m = re.search(r"Rotate:\s*(\d+)", osd)
+        rot = int(m.group(1)) % 360 if m else 0
+    except Exception:
+        rot = -1  # OSD failed (sparse page) — fall through to the brute-force check
+
+    if rot in (0, 90, 180, 270):
+        upright = img.rotate(-rot, expand=True) if rot else img  # OSD angle is clockwise-to-upright
+        return pytesseract.image_to_string(upright) or ""
+
+    # OSD inconclusive: brute-force the four orientations, score by long tokens.
+    def _long_score(s: str) -> int:
+        return len(re.findall(r"[A-Za-z]{5,}", s or ""))
+    best_text, best_score = "", -1
+    for deg in (0, 90, 180, 270):
+        try:
+            cand = pytesseract.image_to_string(img.rotate(deg, expand=True) if deg else img) or ""
+        except Exception:
+            continue
+        sc = _long_score(cand)
+        if sc > best_score:
+            best_text, best_score = cand, sc
+    return best_text
+
+
 def ocr_page(pdf_path: Path, page_num: int) -> str:
     """OCR a single PDF page (1-indexed) via pdf2image + Tesseract."""
     try:
@@ -284,7 +325,7 @@ def ocr_page(pdf_path: Path, page_num: int) -> str:
         )
         if not images:
             return ""
-        return pytesseract.image_to_string(images[0]) or ""
+        return _ocr_autorotate(images[0])
     except Exception as e:
         print(f"    OCR error on {pdf_path.name} p{page_num}: {e}", file=sys.stderr)
         return ""
@@ -325,7 +366,7 @@ def get_page_texts(pdf_path: Path) -> tuple[list[str], list[str]]:
         try:
             images = convert_from_path(str(pdf_path), first_page=1, last_page=max_scan, dpi=OCR_DPI)
             for img in images:
-                texts.append(pytesseract.image_to_string(img) or "")
+                texts.append(_ocr_autorotate(img))
                 methods.append("tesseract")
             for _ in range(max_scan, n):
                 texts.append("")
@@ -366,7 +407,7 @@ def get_page_texts(pdf_path: Path) -> tuple[list[str], list[str]]:
                 base = min(pages_to_ocr)
                 for page_num in pages_to_ocr:
                     img = images[page_num - base]
-                    texts[page_num - 1] = pytesseract.image_to_string(img) or ""
+                    texts[page_num - 1] = _ocr_autorotate(img)
             except Exception as e:
                 print(f"    Batch OCR error on {pdf_path.name}: {e}")
 

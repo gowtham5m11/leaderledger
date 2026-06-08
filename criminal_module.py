@@ -30,10 +30,10 @@ CRIMINAL_PROMPT = (
 CRIMINAL_VLM_PROMPT = CRIMINAL_PROMPT
 
 
-PROMPT_VERSION = "ocr_text_v2"  # bump when build_criminal_text_prompt changes
+PROMPT_VERSION = "ocr_text_v3"  # bump when build_criminal_text_prompt changes
 
 
-def build_criminal_text_prompt(ocr_text):
+def build_criminal_text_prompt(ocr_text, declared_total=None):
     """Build the prompt for the OCR + text-LLM pipeline.
 
     The OCR text comes from Tesseract on a single rasterized affidavit page.
@@ -43,7 +43,23 @@ def build_criminal_text_prompt(ocr_text):
 
     The Form-26 case tables appear in three layouts (documented in
     scraper_lab/affidavit_cases_styles.pdf); the prompt teaches the model all three.
+
+    ``declared_total`` is the candidate's OWN affidavit-stated pending-case count
+    (the headline ``criminal_cases`` figure from the same document — a fact, not
+    an estimate). It is passed in as a SANITY BOUND only: it helps the model reject
+    'Not Applicable' template columns as filler. It is a whole-affidavit total, so
+    a single page legitimately holds a subset — the prompt must NOT pad a page up
+    to it. The post-hoc reconciliation in extract_criminal_details still owns the
+    final headline count.
     """
+    declared_line = ""
+    if isinstance(declared_total, int) and declared_total > 0:
+        declared_line = (
+            f"- CONTEXT: across the ENTIRE affidavit this candidate declares {declared_total} pending case(s) in total. "
+            "This page may hold only some of them. Use this only as an upper-bound sanity check to reject "
+            "'Not Applicable'/template columns — NEVER invent or duplicate cases to reach this number, and never "
+            "drop a real FIR just because the running total would exceed it.\n"
+        )
     return (
         "The text below was extracted by OCR from ONE page of an Indian election affidavit (Form 26), "
         "Section 5 (Pending criminal cases) or Section 6 (Cases of conviction). "
@@ -61,6 +77,7 @@ def build_criminal_text_prompt(ocr_text):
         "Count the 'CASE N' headers — that's the number of cases on this page.\n"
         "\n"
         "RULES:\n"
+        + declared_line +
         "- Copy FIR numbers VERBATIM from the text (e.g. '79/2023', 'Cr.No.130/2020'). Never invent, increment, or guess a number.\n"
         "- A real case has an FIR/Crime number that looks like <digits>/<year> or 'Cr.No.<digits>/<year>'. "
         "Asset values ('Rs 5,16,480'), section numbers ('R/W 149 IPC'), dates, and 'Not Applicable'/'NIL' are NOT FIR numbers — skip them.\n"

@@ -2802,7 +2802,15 @@
       "total_pages": 56,
       "extraction_method": "mixed",
       "pending_pages": [
-        3
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
       ],
       "conviction_pages": [
         12
@@ -2819,14 +2827,14 @@
       },
       "abstract_pending_count": null,
       "abstract_conviction_count": null,
-      "pending_table_style": null,
+      "pending_table_style": "style_1",
       "conviction_table_style": null,
-      "pending_case_count_hint": null,
+      "pending_case_count_hint": 13,
       "conviction_case_count_hint": null,
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 106.7
+      "scan_seconds": 178.6
     },
     "gurajala_jagan_mohan__gjm_": {
       "pdf": "gurajala_jagan_mohan__gjm_.pdf",
@@ -6235,6 +6243,6 @@
       "scan_seconds": 104.1
     }
   },
-  "generated_at": "2026-06-07T13:08:38+00:00",
+  "generated_at": "2026-06-08T15:18:16+00:00",
   "total_pdfs": 175
 }

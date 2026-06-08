@@ -59,6 +59,7 @@ def call_ai_vision(image_path, prompt):
         resp = client.chat(
             model=OLLAMA_MODEL,
             messages=[{"role": "user", "content": prompt, "images": [image_path]}],
+            options={"temperature": 0, "seed": 42},  # greedy + fixed seed → reproducible, no re-run drift
             keep_alive=KEEP_ALIVE,
         )
         return resp["message"]["content"]
@@ -73,6 +74,7 @@ def call_ai_text(prompt):
         resp = client.chat(
             model=OLLAMA_MODEL,
             messages=[{"role": "user", "content": prompt}],
+            options={"temperature": 0, "seed": 42},  # greedy + fixed seed → reproducible, no re-run drift
             keep_alive=KEEP_ALIVE,
         )
         return resp["message"]["content"]
@@ -125,15 +127,18 @@ def load_patches():
 # qwen2.5vl:7b swap-thrashed, moondream:1.8b regurgitated prompt placeholders,
 # gemma3:4b hallucinated sequential FIRs (919, 920, 921...). Tesseract reads the
 # table reliably; gemma3:4b in text-only mode parses FIRs from that text correctly.
-def _process_page(pil_page, page_num, cand_id, pdf_path=None, use_pdfplumber=False):
+def _process_page(pil_page, page_num, cand_id, pdf_path=None, use_pdfplumber=False, declared_total=None):
     """Return (parsed_cases, ocr_text). ocr_text is kept so the caller can do
-    style detection (CASE-N headers etc.) and abstract-count cross-checks."""
+    style detection (CASE-N headers etc.) and abstract-count cross-checks.
+
+    declared_total is the candidate's affidavit-stated pending count, passed to the
+    prompt as a sanity bound (see build_criminal_text_prompt)."""
     empty = {"pending": [], "convictions": []}
     if use_pdfplumber and pdf_path:
         with pdfplumber.open(pdf_path) as pdf:
             ocr_text = pdf.pages[page_num - 1].extract_text() or ""
         if ocr_text.strip():
-            response = call_ai_text(build_criminal_text_prompt(ocr_text))
+            response = call_ai_text(build_criminal_text_prompt(ocr_text, declared_total))
             if not response:
                 return empty, ocr_text
             parsed = parse_criminal_json_response(
@@ -150,7 +155,7 @@ def _process_page(pil_page, page_num, cand_id, pdf_path=None, use_pdfplumber=Fal
             return empty, ""
         if not ocr_text.strip():
             return empty, ""
-        response = call_ai_text(build_criminal_text_prompt(ocr_text))
+        response = call_ai_text(build_criminal_text_prompt(ocr_text, declared_total))
         if not response:
             return empty, ocr_text
         parsed = parse_criminal_json_response(
@@ -176,7 +181,7 @@ def _style3_case_count(ocr_texts):
     return len(nums) if len(nums) >= 2 else 0
 
 
-def extract_criminal_details(pdf_path, cand_id="global"):
+def extract_criminal_details(pdf_path, cand_id="global", declared_total=None):
     cases = {"pending": [], "convictions": []}
     safe_name = Path(pdf_path).stem
 
@@ -232,6 +237,7 @@ def extract_criminal_details(pdf_path, cand_id="global"):
             page_result, ocr_text = _process_page(
                 images[0], page_num=page_num, cand_id=str(cand_id),
                 pdf_path=str(pdf_path), use_pdfplumber=use_pdfplumber,
+                declared_total=declared_total,
             )
             cases["pending"].extend(page_result["pending"])
             cases["convictions"].extend(page_result["convictions"])
@@ -291,7 +297,12 @@ def process_single_candidate(cand):
         if not pdf_path.exists():
             return cand["id"], None, "Missing PDF"
 
-        results = extract_criminal_details(str(pdf_path), cand["id"])
+        # Pass the candidate's own affidavit-stated pending count as a prompt sanity bound.
+        try:
+            declared_total = int(cand.get("criminal_cases"))
+        except (TypeError, ValueError):
+            declared_total = None
+        results = extract_criminal_details(str(pdf_path), cand["id"], declared_total)
         return cand["id"], results, "Success"
     except Exception as e:
         return cand["id"], None, f"{type(e).__name__}: {e}"
