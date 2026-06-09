@@ -135,7 +135,7 @@ const SubmitAchievementModal = ({ open, onClose, onSubmitted }) => {
             required
           />
 
-          <div style={twoCol}>
+          <div className="ach-form-two-col">
             <div>
               <Label htmlFor="ach-category">Category</Label>
               <select id="ach-category" value={form.category} onChange={set('category')} style={inputStyle}>
@@ -165,7 +165,7 @@ const SubmitAchievementModal = ({ open, onClose, onSubmitted }) => {
             style={inputStyle}
           />
 
-          <div style={twoCol}>
+          <div className="ach-form-two-col">
             <div>
               <Label htmlFor="ach-status">Manifesto status</Label>
               <select id="ach-status" value={form.manifesto_status} onChange={set('manifesto_status')} style={inputStyle}>
@@ -316,12 +316,6 @@ const inputStyle = {
   fontFamily: 'inherit',
   outline: 'none',
   boxSizing: 'border-box',
-};
-
-const twoCol = {
-  display: 'grid',
-  gridTemplateColumns: '1fr 1fr',
-  gap: '0.85rem',
 };
 
 const hintStyle = {

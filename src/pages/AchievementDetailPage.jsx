@@ -121,13 +121,9 @@ const AchievementDetailPage = () => {
         <BackLink onClick={() => navigate('/achievements')} />
 
         <article
-          className="bg-surface-container-lowest"
+          className="bg-surface-container-lowest achievement-detail-article"
           style={{
-            borderRadius: '1.25rem',
-            border: '1px solid var(--outline-variant)',
             borderLeft: `5px solid ${accent}`,
-            padding: '1.75rem',
-            boxShadow: 'var(--shadow-1)',
           }}
         >
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem', alignItems: 'center' }}>

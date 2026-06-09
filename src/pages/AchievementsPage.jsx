@@ -37,7 +37,7 @@ const Chip = ({ label, active, onClick, accent }) => (
 );
 
 const FilterRow = ({ label, children }) => (
-  <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+  <div className="ach-filter-row">
     <span className="label-sm text-on-surface-variant" style={{ minWidth: '4.5rem' }}>
       {label}
     </span>
@@ -64,7 +64,7 @@ const AchievementsPage = () => {
   return (
     <div className="bg-surface text-on-surface" style={{ fontFamily: "'Outfit', sans-serif" }}>
       <main className="page-main">
-        <div className="list-title-block" style={{ marginBottom: '2rem' }}>
+        <div style={{ marginBottom: '2rem' }}>
           <h1 className="display-lg text-on-surface" style={{ marginBottom: '1rem' }}>
             Achievements &amp; Promises
           </h1>
