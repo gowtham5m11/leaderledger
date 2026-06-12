@@ -5864,7 +5864,7 @@
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "headers_missed",
-      "scan_seconds": 7.2
+      "scan_seconds": 14.6
     },
     "tenali_sravan_kumar": {
       "pdf": "tenali_sravan_kumar.pdf",
@@ -6243,6 +6243,6 @@
       "scan_seconds": 104.1
     }
   },
-  "generated_at": "2026-06-08T15:18:16+00:00",
+  "generated_at": "2026-06-12T05:02:12+00:00",
   "total_pdfs": 175
 }
