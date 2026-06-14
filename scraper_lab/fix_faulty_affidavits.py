@@ -20,7 +20,7 @@ from audit_pdfs import check_pdf
 # --- CONFIG ---
 SCRAPER_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRAPER_DIR)
-FINAL_DIR = os.path.join(PROJECT_ROOT, "public", "affidavits")
+FINAL_DIR = os.path.join(PROJECT_ROOT, "scraper_lab", "affidavits")
 JSON_PATH = os.path.join(PROJECT_ROOT, "src", "data", "candidates.json")
 TEMP_DIR = os.path.expanduser("~/Downloads")
 
@@ -36,7 +36,8 @@ FAULTY_NAMES = [
     "Kumar Raja Varla", "Gonuguntla Venkata Siva Sita Rama Anzanneyllu",
     "Aravinda Babu Chadalavada", "G Jayasurya", "Vegesana Narendra Varma Raju",
     "B. Virupakshi", "K.E. Shyam Kumar", "Gummanur Jayaram",
-    "Adinarayana Reddy Chadipirala", "Bandaru Sravani Sree", "S. Savitha", "Dr. Vm. Thomas"
+    "Adinarayana Reddy Chadipirala", "Bandaru Sravani Sree", "S. Savitha", "Dr. Vm. Thomas",
+    "Ganta Srinivasa Rao"
 ]
 
 os.makedirs(TEMP_DIR, exist_ok=True)
@@ -251,13 +252,9 @@ def main():
     with open(JSON_PATH, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    # Final 11 candidates
+    # Targeted re-download: Ganta Srinivasa Rao (TDP, BHIMILI) — wrong PDF was downloaded
     remaining_targets = [
-        "R.V.S.K.K.Ranga Rao @ Babynayana", "Anitha Vangalapudi", 
-        "Ramakrishna Reddy Nallamilli", "Giddi. Satyanarayana", 
-        "Bonda Umamaheswararao", "Gonuguntla Venkata Siva Sita Rama Anzanneyllu", 
-        "G Jayasurya", "Vegesana Narendra Varma Raju", "K.E. Shyam Kumar", 
-        "Gummanur Jayaram", "Bandaru Sravani Sree"
+        "Ganta Srinivasa Rao",
     ]
     
     targets = [c for c in data if c['name'] in remaining_targets]

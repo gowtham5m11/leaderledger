@@ -18,10 +18,11 @@ CRIMINAL_PROMPT = (
     "(g) Whether appeal/application filed. "
     "Some pages show ONLY rows e/f/g (continuation pages) without an FIR No. — for those, "
     "treat the page as having no extractable case and return empty lists. "
-    "For each case column with an FIR No., extract fir_no (row a), description (row d), sections (row c). "
+    "For each case column with an FIR No., extract fir_no (row a), court (row b), description (row d), sections (row c). "
+    "For court (row b), copy the Case No. and the name of the court VERBATIM; if that cell is 'Not Applicable' or blank, use an empty string. "
     'Return ONLY valid JSON in this exact shape: '
-    '{"pending":[{"fir_no":"...","description":"...","sections":"..."}], '
-    '"convictions":[{"fir_no":"...","description":"...","sections":"..."}]}. '
+    '{"pending":[{"fir_no":"...","court":"...","description":"...","sections":"..."}], '
+    '"convictions":[{"fir_no":"...","court":"...","description":"...","sections":"..."}]}. '
     "Place an item under 'convictions' only if the page header clearly says 'Cases of conviction' or 'Section 6'. "
     "Use empty strings for missing fields."
 )
@@ -30,7 +31,7 @@ CRIMINAL_PROMPT = (
 CRIMINAL_VLM_PROMPT = CRIMINAL_PROMPT
 
 
-PROMPT_VERSION = "ocr_text_v3"  # bump when build_criminal_text_prompt changes
+PROMPT_VERSION = "ocr_text_v4"  # bump when build_criminal_text_prompt changes; v4 adds court (row b) extraction
 
 
 def build_criminal_text_prompt(ocr_text, declared_total=None):
@@ -67,7 +68,7 @@ def build_criminal_text_prompt(ocr_text, declared_total=None):
         "\n"
         "STYLE 1 (most common): a horizontal table. The FIRST TWO columns from the left are labels "
         "(row letter (a)/(b)/(c)... and the question text). EVERY column AFTER those two is ONE separate case. "
-        "Row (a) holds the FIR No., row (c) the sections, row (d) the offence description. "
+        "Row (a) holds the FIR No., row (b) the Case No. and name of the court, row (c) the sections, row (d) the offence description. "
         "IMPORTANT: a column whose cells are ALL 'Not Applicable' or 'NIL' is an UNUSED template slot — do NOT count it as a case.\n"
         "\n"
         "STYLE 2: same horizontal table, but with an EXTRA TOP ROW of bare numbers like '1  2  3'. "
@@ -79,6 +80,8 @@ def build_criminal_text_prompt(ocr_text, declared_total=None):
         "RULES:\n"
         + declared_line +
         "- Copy FIR numbers VERBATIM from the text (e.g. '79/2023', 'Cr.No.130/2020'). Never invent, increment, or guess a number.\n"
+        "- For 'court' (row (b)): copy the Case No. and the court name VERBATIM for THAT case's column. "
+        "If row (b) for that column is 'Not Applicable', 'NIL' or blank, use an empty string. Never borrow another column's court.\n"
         "- A real case has an FIR/Crime number that looks like <digits>/<year> or 'Cr.No.<digits>/<year>'. "
         "Asset values ('Rs 5,16,480'), section numbers ('R/W 149 IPC'), dates, and 'Not Applicable'/'NIL' are NOT FIR numbers — skip them.\n"
         "- If the page is a continuation (only rows (e)/(f)/(g) visible, no FIR No.), return empty lists.\n"
@@ -87,7 +90,7 @@ def build_criminal_text_prompt(ocr_text, declared_total=None):
         "- Do NOT include any placeholder or example value from THIS prompt.\n"
         "\n"
         "Return ONLY valid JSON, starting with `{` and ending with `}`, no prose, no markdown fences:\n"
-        '{"pending":[{"fir_no":"<verbatim>","description":"<short offence>","sections":"<sections>"}],"convictions":[]}\n'
+        '{"pending":[{"fir_no":"<verbatim>","court":"<case no + court name, verbatim>","description":"<short offence>","sections":"<sections>"}],"convictions":[]}\n'
         "\n"
         "OCR TEXT:\n"
         "===\n"
@@ -211,12 +214,13 @@ def build_criminal_summary(cases):
 if __name__ == "__main__":
     # Strict JSON, multi-bucket, low-confidence flag
     test_json = (
-        '{"pending": [{"fir_no": "45/2019", "description": "Attempt to murder", "sections": "307 IPC", "confidence": 0.5}],'
+        '{"pending": [{"fir_no": "45/2019", "court": "CC 12/2020, JFCM Court Guntur", "description": "Attempt to murder", "sections": "307 IPC", "confidence": 0.5}],'
         ' "convictions": [{"fir_no": "12/2015", "description": "Cheating", "sections": "420 IPC", "confidence": 0.9}]}'
     )
     parsed = parse_criminal_json_response(test_json, page_num=3, method="VLM")
     assert len(parsed["pending"]) == 1 and parsed["pending"][0]["page"] == 3
     assert parsed["pending"][0].get("needs_review") is True
+    assert parsed["pending"][0].get("court") == "CC 12/2020, JFCM Court Guntur", "court field dropped by parser"
     assert parsed["convictions"][0].get("needs_review") is None
 
     # Lenient parser: narration around JSON

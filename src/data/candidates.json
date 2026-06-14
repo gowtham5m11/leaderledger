@@ -2790,7 +2790,7 @@
     "name": "Ganta Srinivasa Rao",
     "constituency": "BHIMILI",
     "party": "TDP",
-    "criminal_cases": "1",
+    "criminal_cases": "3",
     "education": "completed B.A from Andhra University, Visakhapatnam",
     "dob": "Age: 64 (2024 Affidavits)",
     "image": "/candidate-images/ganta_srinivasa_rao.jpg",
@@ -2799,23 +2799,6 @@
       "facebook": "https://facebook.com/GantaSrinivasaRao"
     },
     "profession": "Agriculture Labour",
-    "criminal_summary": {
-      "num_criminal_cases": 0,
-      "num_convictions": 0,
-      "pending_by_category": {
-        "Serious/Violent": 0,
-        "Corruption & Fraud": 0,
-        "Political/Protest": 0,
-        "Election Offenses": 0,
-        "Minor/Other": 0
-      },
-      "count_source": "extraction",
-      "extracted_count": 0,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
-      "extracted_at": "2026-06-12T09:31:46.566042+00:00"
-    },
-    "criminal_details_pending": [],
-    "criminal_details_convictions": [],
     "election_result": {
       "margin": 92401,
       "margin_percent": 33.21,
@@ -2858,7 +2841,56 @@
       },
       "source": "ECI 2019 results (via Wayback snapshot 2019-05-26..29)",
       "source_url": "https://web.archive.org/web/20190526043318/http://results.eci.gov.in/ac/en/constituencywise/ConstituencywiseS0120.htm"
-    }
+    },
+    "criminal_summary": {
+      "num_criminal_cases": 1,
+      "num_convictions": 0,
+      "pending_by_category": {
+        "Serious/Violent": 1,
+        "Corruption & Fraud": 0,
+        "Political/Protest": 2,
+        "Election Offenses": 1,
+        "Minor/Other": 1
+      },
+      "count_source": "abstract",
+      "extracted_count": 5,
+      "abstract_count": 1,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-14T07:11:40.246801+00:00"
+    },
+    "criminal_details_pending": [
+      {
+        "fir_no": "334/2023",
+        "description": "On 29-10-2023 at about 19:20 Hrs at MVP double road returning Visakhapatnam City to Prevent untowards incident as TDP cadre gathered to observe protest program Party workers conducted by the agitation program on road near by G. Srinivasa Rao residence without prior police permission. Hence the FIR filed this case against Ganta Srinivasa Rao and the above material are seized with the mediators. Hence this FIR",
+        "sections": "u/s 153(A), 285 R/W 34 IPC and 188 IPC r/w 30 of Police Act 1961",
+        "court": "",
+        "page": 6,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 334/2023, Bheemunipatnam PS, Visakhapatnam",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "133/2009",
+        "description": "On 03-04-2009 instruction received from other police officer, received reliable information the accused Sri Ganta Srinivasa Rao and His party office and His house search by police department his traced Cricket kits and sarees and party material without proper bills and without proper receipt is not shown the SHO. Hence this FIR",
+        "sections": "u/s 171(E) 511 of IPC",
+        "court": "CC No. 35/2023, Special Court for the trial of Criminal Cases relating to Elected MPs and MLAs of the State of Andhra Pradesh, Vijayawada",
+        "page": 6,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 133/2009 of Anakapalli Town Police Station",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "15/2009",
+        "description": "On 11-01-2009 at 18:00 Hrs stating that he along with other police personal while on Bandobasth Rally and meeting conducted by the PRP Party leader Dantuluri Dilip Kumar, G. Srinivasa Rao and other marginal noted accused with other workers formed themselves into unlawful assembly armed with sticks, stones, beat the complaint and others at Thummapala Sugar Factory, Anakapalli. Some police persons simple injuries with intention to kill them. Hence this FIR",
+        "sections": "u/s 147,148,332,307,447,188, r/w 149 IPC, 3 & 4 of P.D.P.P Act",
+        "court": "PRC No. 4/2023, XIth Additional Metropolitan Magistrate cum I Additional Jr. Civil Judge at Anakapalli",
+        "page": 6,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 15/2009 of Anakapalli Town PS",
+        "category": "Serious/Violent"
+      }
+    ],
+    "criminal_details_convictions": []
   },
   {
     "id": 24,
@@ -3483,11 +3515,11 @@
       },
       {
         "fir_no": "217/2021",
-        "description": "abuse of shri jagan mohan reddy,CM and insulted the modesty of Hon\u2019ble Home minister",
+        "description": "abuse of shri jagan mohan reddy,CM and insulted the modesty of Hon’ble Home minister",
         "sections": "Section 188, 504, 509 IPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 217/2021 | Desc: abuse of shri jagan mohan reddy,CM and insulted the modesty of Hon\u2019ble Home minister",
+        "raw_text": "FIR: 217/2021 | Desc: abuse of shri jagan mohan reddy,CM and insulted the modesty of Hon’ble Home minister",
         "category": "Political/Protest"
       },
       {
@@ -5287,11 +5319,11 @@
       },
       {
         "fir_no": "243/2023",
-        "description": "Obstruction to pedestrians\u2019 and motorists and also created nuisance to the general public by disobedience to order duly promulgated by the Government",
+        "description": "Obstruction to pedestrians’ and motorists and also created nuisance to the general public by disobedience to order duly promulgated by the Government",
         "sections": "Not Applicable",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 243/2023 | Desc: Obstruction to pedestrians\u2019 and motorists and also created nuisance to the general public by disobedience to order duly promulgated by the Government",
+        "raw_text": "FIR: 243/2023 | Desc: Obstruction to pedestrians’ and motorists and also created nuisance to the general public by disobedience to order duly promulgated by the Government",
         "category": "Minor/Other"
       },
       {
@@ -5912,7 +5944,7 @@
       {
         "fir_no": "353/2020",
         "description": "unlawful assembly",
-        "sections": "U/s \u2014 143, 188, 26",
+        "sections": "U/s — 143, 188, 26",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 353/2020 | Desc: unlawful assembly",
@@ -5930,7 +5962,7 @@
       {
         "fir_no": "20/2020",
         "description": "Assault/cri. Force to deter public servant from discharging office duty, criminal intimidation, disobedience to an order, sharing common intention, disobeying orders violating license conditions",
-        "sections": "U/s \u2014 353, 506, 188, 34 IPC & Section 32 of Police Act",
+        "sections": "U/s — 353, 506, 188, 34 IPC & Section 32 of Police Act",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 20/2020 | Desc: Assault/cri. Force to deter public servant from discharging office duty, criminal intimidation, disobedience to an order, sharing common intention, disobeying orders violating license conditions",
@@ -5939,7 +5971,7 @@
       {
         "fir_no": "135/2019",
         "description": "wrongful restraining any person wrongfully, criminal intimidation for treating to cause either death or grievous",
-        "sections": "U/s \u2014 341, 506 IPC",
+        "sections": "U/s — 341, 506 IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 135/2019 | Desc: wrongful restraining any person wrongfully, criminal intimidation for treating to cause either death or grievous",
@@ -6011,7 +6043,7 @@
       {
         "fir_no": "69/2005",
         "description": "security for keeping the peace",
-        "sections": "U/s \u2014 107 CRPC",
+        "sections": "U/s — 107 CRPC",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 69/2005 | Desc: security for keeping the peace",
@@ -6218,7 +6250,7 @@
       {
         "fir_no": "Cr.No.221/2020",
         "description": "On 16-05-2020 at 10:0 AM at Burugupudi , Adireddy Srinivas along with others without taking precautions to avoid covid-19 and without maintaining social distance and by violating prohibitory orders U/S 144 Cr.P.C formed themselves into unlawful assembly while the ASI D.Satya narayana and others discharging their duties and interrupted them in discharging their duties.",
-        "sections": "Sec.143, 353, 188, 26\u00a2 270 r/w.34 IPC and Sec.2, 3 & 4 of ED Act.",
+        "sections": "Sec.143, 353, 188, 26¢ 270 r/w.34 IPC and Sec.2, 3 & 4 of ED Act.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.221/2020 | Desc: On 16-05-2020 at 10:0 AM at Burugupudi , Adireddy Srinivas along with others without taking precautions to avoid covid-19 and without maintaining social distance and by violating prohibitory orders U/S 144 Cr.P.C formed themselves into unlawful assembly while the ASI D.Satya narayana and others discharging their duties and interrupted them in discharging their duties.",
@@ -8435,11 +8467,11 @@
       },
       {
         "fir_no": "183, 184, MV chet",
-        "description": "Criminal intimidation \u2014 done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
+        "description": "Criminal intimidation — done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
         "sections": "",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 183, 184, MV chet | Desc: Criminal intimidation \u2014 done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
+        "raw_text": "FIR: 183, 184, MV chet | Desc: Criminal intimidation — done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
         "category": "Political/Protest"
       },
       {
@@ -9560,11 +9592,11 @@
       },
       {
         "fir_no": "272/2023",
-        "description": "Gathered and interrupting to the vehicular and shouting as \u2018Isukasura \u2014 Jaganasura\u2019",
+        "description": "Gathered and interrupting to the vehicular and shouting as ‘Isukasura — Jaganasura’",
         "sections": "",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 272/2023 | Desc: Gathered and interrupting to the vehicular and shouting as \u2018Isukasura \u2014 Jaganasura\u2019",
+        "raw_text": "FIR: 272/2023 | Desc: Gathered and interrupting to the vehicular and shouting as ‘Isukasura — Jaganasura’",
         "category": "Minor/Other"
       },
       {
@@ -10345,7 +10377,7 @@
       "extracted_count": 0,
       "abstract_count": 22,
       "source": "VLM:gemma3:4b/ocr_text_v3",
-      "extracted_at": "2026-06-12T10:29:39.732011+00:00"
+      "extracted_at": "2026-06-14T05:14:47.059652+00:00"
     },
     "criminal_details_pending": [],
     "criminal_details_convictions": [],
@@ -10949,11 +10981,11 @@
       },
       {
         "fir_no": "38/2021",
-        "description": "Alleged \u2014 promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
+        "description": "Alleged — promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
         "sections": "",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 38/2021 | Desc: Alleged \u2014 promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
+        "raw_text": "FIR: 38/2021 | Desc: Alleged — promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
         "category": "Minor/Other"
       },
       {
@@ -11432,11 +11464,11 @@
       },
       {
         "fir_no": "79/2023",
-        "description": "obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID \u2014 19 rules.",
+        "description": "obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID — 19 rules.",
         "sections": "Sec 143, 341, 353, 188, 269, 283 R/W 149, of the Sections, e.g Section,...of IPC, etc.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID \u2014 19 rules.",
+        "raw_text": "FIR: 79/2023 | Desc: obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID — 19 rules.",
         "category": "Political/Protest"
       },
       {
@@ -11485,12 +11517,12 @@
         "category": "Minor/Other"
       },
       {
-        "fir_no": "00\u20ac-Py1",
+        "fir_no": "00€-Py1",
         "description": "jaddo>} ueysnputy",
         "sections": "",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 00\u20ac-Py1 | Desc: jaddo>} ueysnputy",
+        "raw_text": "FIR: 00€-Py1 | Desc: jaddo>} ueysnputy",
         "category": "Minor/Other"
       },
       {
@@ -11620,12 +11652,12 @@
         "category": "Minor/Other"
       },
       {
-        "fir_no": "ATEVIMddV\u00a5",
+        "fir_no": "ATEVIMddV¥",
         "description": "LON",
         "sections": "",
         "page": 24,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: ATEVIMddV\u00a5 | Desc: LON",
+        "raw_text": "FIR: ATEVIMddV¥ | Desc: LON",
         "category": "Minor/Other"
       },
       {
@@ -11684,11 +11716,11 @@
       },
       {
         "fir_no": "719V) ",
-        "description": "JGVINddV Mdd\u00a5 | LON SANG ON | S3NG ON LON Sind ON Sand ON Sanp 19430 Auy",
+        "description": "JGVINddV Mdd¥ | LON SANG ON | S3NG ON LON Sind ON Sand ON Sanp 19430 Auy",
         "sections": "",
         "page": 25,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 719V)  | Desc: JGVINddV Mdd\u00a5 | LON SANG ON | S3NG ON LON Sind ON Sand ON Sanp 19430 Auy",
+        "raw_text": "FIR: 719V)  | Desc: JGVINddV Mdd¥ | LON SANG ON | S3NG ON LON Sind ON Sand ON Sanp 19430 Auy",
         "category": "Minor/Other"
       },
       {
@@ -12150,11 +12182,11 @@
       },
       {
         "fir_no": "140/2019",
-        "description": "ACTS OF UNLAWFUL GOVERNEMNT, ASSEMBLY AND RESTRAINT OF OFFENCE OF CRIMINAL INTIMIDATION \u2014",
+        "description": "ACTS OF UNLAWFUL GOVERNEMNT, ASSEMBLY AND RESTRAINT OF OFFENCE OF CRIMINAL INTIMIDATION —",
         "sections": "",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 140/2019 | Desc: ACTS OF UNLAWFUL GOVERNEMNT, ASSEMBLY AND RESTRAINT OF OFFENCE OF CRIMINAL INTIMIDATION \u2014",
+        "raw_text": "FIR: 140/2019 | Desc: ACTS OF UNLAWFUL GOVERNEMNT, ASSEMBLY AND RESTRAINT OF OFFENCE OF CRIMINAL INTIMIDATION —",
         "category": "Minor/Other"
       },
       {
@@ -12914,10 +12946,10 @@
       },
       {
         "fir_no": "Cr.No.922/2021",
-        "description": "Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)\u00ae, 3(1)(s), 32(Va)SCSTPOA Act",
+        "description": "Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)®, 3(1)(s), 32(Va)SCSTPOA Act",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.922/2021 | Desc: Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)\u00ae, 3(1)(s), 32(Va)SCSTPOA Act",
+        "raw_text": "FIR: Cr.No.922/2021 | Desc: Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)®, 3(1)(s), 32(Va)SCSTPOA Act",
         "category": "Serious/Violent"
       },
       {
@@ -13109,7 +13141,7 @@
       {
         "fir_no": "272/2023",
         "description": "unlawful gathering causing traffic obstruction",
-        "sections": "U/s \u2014 151 -CRPC",
+        "sections": "U/s — 151 -CRPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 272/2023 | Desc: unlawful gathering causing traffic obstruction",
@@ -13384,7 +13416,7 @@
       {
         "fir_no": "C",
         "description": "Rent Deposit from Craftsman Automation Limited",
-        "sections": "\u2014Rs.17,21,520/-",
+        "sections": "—Rs.17,21,520/-",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: C | Desc: Rent Deposit from Craftsman Automation Limited",
@@ -13393,7 +13425,7 @@
       {
         "fir_no": "D",
         "description": "Hand Loan from Smt. N. Bhuvaneswari",
-        "sections": "\u2014Rs.10,01,72,198/-",
+        "sections": "—Rs.10,01,72,198/-",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: D | Desc: Hand Loan from Smt. N. Bhuvaneswari",
@@ -13402,7 +13434,7 @@
       {
         "fir_no": "E",
         "description": "Rent Deposit from Heritage Foods Limited",
-        "sections": "\u2014Rs.57,39,090/-",
+        "sections": "—Rs.57,39,090/-",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: E | Desc: Rent Deposit from Heritage Foods Limited",
@@ -13411,7 +13443,7 @@
       {
         "fir_no": "F",
         "description": "Rent Deposit from Heritage Nutrivet Limited",
-        "sections": "\u2014Rs.3,36,798/-",
+        "sections": "—Rs.3,36,798/-",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: F | Desc: Rent Deposit from Heritage Nutrivet Limited",
@@ -13420,7 +13452,7 @@
       {
         "fir_no": "G",
         "description": "Rent Deposit from Heritage Noavndie Private Limited",
-        "sections": "\u2014Rs.32,130/-",
+        "sections": "—Rs.32,130/-",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: G | Desc: Rent Deposit from Heritage Noavndie Private Limited",
@@ -14901,11 +14933,11 @@
       },
       {
         "fir_no": "158/2023",
-        "description": "Assault or criminal Acts done by serval persons in \u2018furtherance of common intention.\u201d",
+        "description": "Assault or criminal Acts done by serval persons in ‘furtherance of common intention.”",
         "sections": "U/s. 151",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 158/2023 | Desc: Assault or criminal Acts done by serval persons in \u2018furtherance of common intention.\u201d",
+        "raw_text": "FIR: 158/2023 | Desc: Assault or criminal Acts done by serval persons in ‘furtherance of common intention.”",
         "category": "Political/Protest"
       },
       {
@@ -16254,20 +16286,20 @@
       },
       {
         "fir_no": "243",
-        "description": "Aq siy O\u20ac'6T Je Aep awes",
+        "description": "Aq siy O€'6T Je Aep awes",
         "sections": "24} UO payodai pue yWedape)",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 243 | Desc: Aq siy O\u20ac'6T Je Aep awes",
+        "raw_text": "FIR: 243 | Desc: Aq siy O€'6T Je Aep awes",
         "category": "Minor/Other"
       },
       {
         "fir_no": "d5d",
-        "description": "3\u20ac Ssy OO'ST 3& TZ0Z'60\u00b0LT",
-        "sections": "UO passNIDO \u201cSq WJedapey jo Dg)",
+        "description": "3€ Ssy OO'ST 3& TZ0Z'60°LT",
+        "sections": "UO passNIDO “Sq WJedapey jo Dg)",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: d5d | Desc: 3\u20ac Ssy OO'ST 3& TZ0Z'60\u00b0LT",
+        "raw_text": "FIR: d5d | Desc: 3€ Ssy OO'ST 3& TZ0Z'60°LT",
         "category": "Minor/Other"
       }
     ],
@@ -20066,24 +20098,24 @@
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 5,
-        "Corruption & Fraud": 10,
-        "Political/Protest": 10,
+        "Corruption & Fraud": 13,
+        "Political/Protest": 6,
         "Election Offenses": 2,
-        "Minor/Other": 1
+        "Minor/Other": 2
       },
       "count_source": "extraction",
       "extracted_count": 28,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T22:38:46.365075+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:06:43.043993+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Cr.No.405/2023",
-        "description": "Disobedience to order duly promulgated by public servant, wrongful restraint, assault or criminal force to deter public servant from discharge of his duty",
+        "fir_no": "405/2023",
+        "description": "Disobedience to order duly promulgated by public servant",
         "sections": "U/s. 188,341,353 r/w 34 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.405/2023 | Desc: Disobedience to order duly promulgated by public servant, wrongful restraint, assault or criminal force to deter public servant from discharge of his duty",
+        "raw_text": "FIR: 405/2023 | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Political/Protest"
       },
       {
@@ -20097,65 +20129,56 @@
       },
       {
         "fir_no": "130/2023",
-        "description": "Acts done by several persons in furtherance of common intention",
-        "sections": "34 IPC",
+        "description": "Punishment for wrongful restraint",
+        "sections": "347",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 130/2023 | Desc: Acts done by several persons in furtherance of common intention",
+        "raw_text": "FIR: 130/2023 | Desc: Punishment for wrongful restraint",
         "category": "Minor/Other"
       },
       {
         "fir_no": "FIR NO.ECIR/HYZ0/33/2020",
-        "description": "188:Disobedience to order duly promulgated by public servant",
-        "sections": "R/W 188,341 r/w 34 IPC",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "188,341 r/w 34 IPC",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: FIR NO.ECIR/HYZ0/33/2020 | Desc: 188:Disobedience to order duly promulgated by public servant",
+        "raw_text": "FIR: FIR NO.ECIR/HYZ0/33/2020 | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Political/Protest"
       },
       {
         "fir_no": "CrNo.4/2023",
-        "description": "2441: Punishment for wrongful restraint, 34: Acts done by several persons in furtherance of commen intention",
-        "sections": "R/W 188,341 r/w 34 IPC",
+        "description": "Punishment for wrongful restraint",
+        "sections": "2441: Punishment for wrongful restraint, 34: Acts done by several persons in furtherance of commen intention",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: CrNo.4/2023 | Desc: 2441: Punishment for wrongful restraint, 34: Acts done by several persons in furtherance of commen intention",
-        "category": "Political/Protest"
+        "raw_text": "FIR: CrNo.4/2023 | Desc: Punishment for wrongful restraint",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "Cr.No.1863/2022",
-        "description": "Rioting",
+        "fir_no": "Cr.No.378/2022",
+        "description": "Rioting, armed with deadly weapons, attempt to murder, criminal intimidation, every member of unlawful assembly guilty of the offence committed in prosecution of the common object",
         "sections": "U/s. 147,148,307,506 r/w 149 IPC",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.1863/2022 | Desc: Rioting",
-        "category": "Serious/Violent"
-      },
-      {
-        "fir_no": "ATT P2452006",
-        "description": "Rioting",
-        "sections": "U/s 147,148,506,307",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: ATT P2452006 | Desc: Rioting",
+        "raw_text": "FIR: Cr.No.378/2022 | Desc: Rioting, armed with deadly weapons, attempt to murder, criminal intimidation, every member of unlawful assembly guilty of the offence committed in prosecution of the common object",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "Cr.No.850/2020",
-        "description": "Criminal intimidation, attempt to murder, mischief",
-        "sections": "U/s 427 r/w 149 IPC, 3(1)(r),3(1)(s),3(2)(v) of SC/ST POA Act",
+        "description": "Rioting, armed with deadly weapons, criminal intimidation, attempt to murder, mischief causing damage, every member of unlawful assembly guilty of the offence committed in prosecution of the common object, intentional humiliation of a member of a Scheduled Caste or Scheduled Tribe in public by someone who is not a member of either caste, abusing a member of a Scheduled Caste or Tribe by their caste name in a public place",
+        "sections": "U/s 147,148,506,307 r/w 149 IPC, 3(1)(r),3(1)(s),3(2)(v) of SC/ST POA Act",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.850/2020 | Desc: Criminal intimidation, attempt to murder, mischief",
-        "category": "Political/Protest"
+        "raw_text": "FIR: Cr.No.850/2020 | Desc: Rioting, armed with deadly weapons, criminal intimidation, attempt to murder, mischief causing damage, every member of unlawful assembly guilty of the offence committed in prosecution of the common object, intentional humiliation of a member of a Scheduled Caste or Scheduled Tribe in public by someone who is not a member of either caste, abusing a member of a Scheduled Caste or Tribe by their caste name in a public place",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "Cr.No.849/2020",
-        "description": "Rioting, criminal intimidation, attempt to murder",
-        "sections": "U/s 147,148,506,307 r/w 149 IPC, 3(1)(r), 3(1)(s),3(2)(v) of SC/ST POA Act",
+        "description": "Rioting, armed with deadly weapons, criminal intimidation, attempt to murder, every member of unlawful assembly guilty of the offence committed in prosecution of the common object, intentional humiliation of a member of a Scheduled Caste or Scheduled Tribe in public by someone who is not a member of either caste, abusing a member of a Scheduled Caste or Tribe by their caste name in a public place",
+        "sections": "U/s 147,148,506,307 r/w 149 IPC, 3(1)(r),3(1)(s),3(2)(v) of SC/ST POA Act",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.849/2020 | Desc: Rioting, criminal intimidation, attempt to murder",
+        "raw_text": "FIR: Cr.No.849/2020 | Desc: Rioting, armed with deadly weapons, criminal intimidation, attempt to murder, every member of unlawful assembly guilty of the offence committed in prosecution of the common object, intentional humiliation of a member of a Scheduled Caste or Scheduled Tribe in public by someone who is not a member of either caste, abusing a member of a Scheduled Caste or Tribe by their caste name in a public place",
         "category": "Serious/Violent"
       },
       {
@@ -20178,47 +20201,56 @@
       },
       {
         "fir_no": "545/2020",
-        "description": "Cheating",
-        "sections": "U/s 420,467,468,471,120b r/w 34 IPC",
+        "description": "Cheating and dishonestly inducting delivery of property",
+        "sections": "U/s 420,467,468,471,120b r/w 34 IPC & 179(2),182,190(2) of MV act",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 545/2020 | Desc: Cheating",
+        "raw_text": "FIR: 545/2020 | Desc: Cheating and dishonestly inducting delivery of property",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "544/2020",
-        "description": "Cheating",
-        "sections": "U/s 420,467,468,471,120(8) c/w 34 IPC",
+        "description": "Cheating and dishonestly inducting delivery of property",
+        "sections": "U/s 420,467,468,471,120(8) c/w 34 IPC & 179(2),182,190(2) of MV act",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 544/2020 | Desc: Cheating",
+        "raw_text": "FIR: 544/2020 | Desc: Cheating and dishonestly inducting delivery of property",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "272/2020",
-        "description": "Cheating and dishonestly inducting delivery of property, Forgery of valuable security, will, ete., Using as genuine a forged document or electronic record",
+        "description": "Cheating and dishonestly inducting delivery of property, forgery of valuable security, will, ete., using as genuine a forged document or electronic record",
         "sections": "U/s 420,467,471 r/w 34 IPC",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 272/2020 | Desc: Cheating and dishonestly inducting delivery of property, Forgery of valuable security, will, ete., Using as genuine a forged document or electronic record",
+        "raw_text": "FIR: 272/2020 | Desc: Cheating and dishonestly inducting delivery of property, forgery of valuable security, will, ete., using as genuine a forged document or electronic record",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "270/2020",
-        "description": "Cheating",
-        "sections": "U/s 420,467,471 r/w 34 IPC",
-        "page": 11,
+        "fir_no": "271/2020",
+        "description": "Cheating and dishonestly inducting delivery of property, using as genuine a forged document or electronic record",
+        "sections": "U/s 420,471 r/w 34 IPC",
+        "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 270/2020 | Desc: Cheating",
+        "raw_text": "FIR: 271/2020 | Desc: Cheating and dishonestly inducting delivery of property, using as genuine a forged document or electronic record",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "269/2020",
-        "description": "Cheating",
+        "description": "Cheating and dishonestly inducting delivery of property, forgery of valuable security, will etc., using as genuine a forged document or electronic record, acts done by several persons in furtherance of common intention",
         "sections": "U/s 420,467,471 r/w 34 IPC",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 269/2020 | Desc: Cheating",
+        "raw_text": "FIR: 269/2020 | Desc: Cheating and dishonestly inducting delivery of property, forgery of valuable security, will etc., using as genuine a forged document or electronic record, acts done by several persons in furtherance of common intention",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "270/2020",
+        "description": "Cheating and dishonestly inducting delivery of property, forgery of valuable security, will etc., using as genuine a forged document or electronic record, acts done by several persons in furtherance of common intention",
+        "sections": "U/s 420,467,471 r/w 34 IPC",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 270/2020 | Desc: Cheating and dishonestly inducting delivery of property, forgery of valuable security, will etc., using as genuine a forged document or electronic record, acts done by several persons in furtherance of common intention",
         "category": "Corruption & Fraud"
       },
       {
@@ -20232,53 +20264,53 @@
       },
       {
         "fir_no": "Cr.No.172/2020",
-        "description": "Wrongful restraint, criminal intimidation, disobedience to order, negligent act likely to spread infection, negligent conduct with respect to fire or combustible matter",
+        "description": "Punishment for wrongful restraint, criminal intimidation, disobedience to order duly promulgated by public servant, negligent act likely to spread infection of disease, negligent conduct with respect to fire or combustible matter, Acts done by several persons in furtherance of common intention",
         "sections": "U/s 143,341,506,186,269,265 r/w 34 IPC & 3 EDA",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.172/2020 | Desc: Wrongful restraint, criminal intimidation, disobedience to order, negligent act likely to spread infection, negligent conduct with respect to fire or combustible matter",
+        "raw_text": "FIR: Cr.No.172/2020 | Desc: Punishment for wrongful restraint, criminal intimidation, disobedience to order duly promulgated by public servant, negligent act likely to spread infection of disease, negligent conduct with respect to fire or combustible matter, Acts done by several persons in furtherance of common intention",
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "Cr.No.142/2020",
-        "description": "Assault or criminal force to deter public servant",
-        "sections": "353,506,188 r/w 34 IPC",
+        "fir_no": "142/2020",
+        "description": "Assault or criminal force to deter public servant, Disobedience to order duly promulgated by public servant, Acts done by several persons in furtherance of common intention, Cheating and dishonestly inducting delivery of property, Forgery of valuable security, will, ete., Using as genuine a forged document or electronic record",
+        "sections": "U/s 353,506,188 r/w 34 IPC, U/s 420,467,468,471,120b r/w 341PC & 179(1),182,190 of MV act",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.142/2020 | Desc: Assault or criminal force to deter public servant",
+        "raw_text": "FIR: 142/2020 | Desc: Assault or criminal force to deter public servant, Disobedience to order duly promulgated by public servant, Acts done by several persons in furtherance of common intention, Cheating and dishonestly inducting delivery of property, Forgery of valuable security, will, ete., Using as genuine a forged document or electronic record",
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "Cr.No.105/2020",
-        "description": "Cheating and dishonestly inducting delivery of property",
-        "sections": "420,467,468,471,120b r/w 341PC & 179(1),182,190 of MV act",
+        "fir_no": "105/2020",
+        "description": "Cheating and dishonestly inducting delivery of property, Forgery of valuable security, will, ete.,Forgery for purpose of cheating, Using as genuine a forged document or electronic record, a person who is a party toa criminal conspiracy to cammit an offense, Acts done by several persons in furtherance of common intention",
+        "sections": "U/s 420,467,468,471,120b r/w 341PC & 179(1),182,190 of MV act",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.105/2020 | Desc: Cheating and dishonestly inducting delivery of property",
+        "raw_text": "FIR: 105/2020 | Desc: Cheating and dishonestly inducting delivery of property, Forgery of valuable security, will, ete.,Forgery for purpose of cheating, Using as genuine a forged document or electronic record, a person who is a party toa criminal conspiracy to cammit an offense, Acts done by several persons in furtherance of common intention",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "101/2020",
-        "description": "Cheating",
-        "sections": "R/W 149 IPC",
+        "description": "Cheating and dishonestly Inducting delivery of property, Forgery of valuable security, will, ete., Using a5 genuine a forged document or electronic record, a person who is a party to a criminal conspiracy to commit an offense, Acts done by several persons in furtherance of common Intention",
+        "sections": "U/s 420,467,471, 120(8) r/w 34 IPC & 179,182, 190 of MV act",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 101/2020 | Desc: Cheating",
-        "category": "Political/Protest"
+        "raw_text": "FIR: 101/2020 | Desc: Cheating and dishonestly Inducting delivery of property, Forgery of valuable security, will, ete., Using a5 genuine a forged document or electronic record, a person who is a party to a criminal conspiracy to commit an offense, Acts done by several persons in furtherance of common Intention",
+        "category": "Corruption & Fraud"
       },
       {
         "fir_no": "74/2020",
-        "description": "Cheating",
-        "sections": "R/W 149 IPC",
+        "description": "Cheating and dishonestly Inducting delivery of property, Forgery of valuable security, will, ete., Using as genuine a forged document or electronic record, a person who is a party to a criminal conspiracy to commit an offense, Acts done by several persons in furtherance of common intention",
+        "sections": "U/s 420,467,471, 120b r/w 34 IPC & 179,182, 190 of MV act",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 74/2020 | Desc: Cheating",
-        "category": "Political/Protest"
+        "raw_text": "FIR: 74/2020 | Desc: Cheating and dishonestly Inducting delivery of property, Forgery of valuable security, will, ete., Using as genuine a forged document or electronic record, a person who is a party to a criminal conspiracy to commit an offense, Acts done by several persons in furtherance of common intention",
+        "category": "Corruption & Fraud"
       },
       {
         "fir_no": "73/2020",
         "description": "Cheating and dishonestly inducting delivery of property",
-        "sections": "U/s 420,467,471,120b r/w 34 IPC & 179,182, 190(1) of MV act",
+        "sections": "U/s 420,467,471, 120b r/w 34 IPC & 179,182, 190(1) of MV act",
         "page": 15,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 73/2020 | Desc: Cheating and dishonestly inducting delivery of property",
@@ -20286,17 +20318,17 @@
       },
       {
         "fir_no": "33/2020",
-        "description": "Forgery of valuable security, will, ete, Using a5 penuine a forged document or electronic record",
-        "sections": "U/s 420,467,471,120b c/w 34 IPC & 179,182, 190(1) of MV act",
+        "description": "Cheating and dishonestly inducting delivery of property",
+        "sections": "U/s 420,467,471, 120b c/w 34 IPC & 179,182, 190(1) of MV act",
         "page": 15,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 33/2020 | Desc: Forgery of valuable security, will, ete, Using a5 penuine a forged document or electronic record",
+        "raw_text": "FIR: 33/2020 | Desc: Cheating and dishonestly inducting delivery of property",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "Cr.No.28/2020",
         "description": "Cheating and dishonestly inducting delivery of property",
-        "sections": "420 IPC",
+        "sections": "U's 420,467,468,471,472 IPC",
         "page": 16,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.28/2020 | Desc: Cheating and dishonestly inducting delivery of property",
@@ -20304,29 +20336,29 @@
       },
       {
         "fir_no": "123/2019",
-        "description": "Disobedience to order duly promulgated by public servant",
-        "sections": "188,171-C",
+        "description": "Disobedience to order duly promulgated by public servant.",
+        "sections": "U/s 188,171-C",
         "page": 17,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 123/2019 | Desc: Disobedience to order duly promulgated by public servant",
+        "raw_text": "FIR: 123/2019 | Desc: Disobedience to order duly promulgated by public servant.",
         "category": "Election Offenses"
       },
       {
         "fir_no": "127/2019",
         "description": "Wrongful restraint",
-        "sections": "341,188,171-H IPC c/w 34 IPC",
+        "sections": "U/s 341,188,171-H IPC c/w 34 IPC",
         "page": 17,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 127/2019 | Desc: Wrongful restraint",
         "category": "Election Offenses"
       },
       {
-        "fir_no": "79/2023",
+        "fir_no": "Anantapuram IV Town PS",
         "description": "Disobedience to order duly promulgated by public servant",
-        "sections": "R/W 188 IPC",
+        "sections": "U's. 188 IPC",
         "page": 18,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Disobedience to order duly promulgated by public servant",
+        "raw_text": "FIR: Anantapuram IV Town PS | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Political/Protest"
       }
     ],
@@ -20396,53 +20428,53 @@
       "num_criminal_cases": 15,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 1,
-        "Corruption & Fraud": 0,
-        "Political/Protest": 12,
-        "Election Offenses": 2,
-        "Minor/Other": 8
+        "Serious/Violent": 3,
+        "Corruption & Fraud": 1,
+        "Political/Protest": 10,
+        "Election Offenses": 4,
+        "Minor/Other": 5
       },
       "count_source": "abstract",
       "extracted_count": 23,
       "abstract_count": 15,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T20:21:11.966802+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:09:57.148240+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "AGFPV3191C",
-        "description": "NIL",
-        "sections": "NIL",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
         "page": 2,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: AGFPV3191C | Desc: NIL",
+        "raw_text": "FIR: AGFPV3191C | Desc: Not Applicable",
         "category": "Minor/Other"
       },
       {
         "fir_no": "ACAPK8639B",
-        "description": "NIL",
-        "sections": "NIL",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
         "page": 2,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: ACAPK8639B | Desc: NIL",
+        "raw_text": "FIR: ACAPK8639B | Desc: Not Applicable",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "",
-        "description": "Illegal rally from TDP office to NTR Statue obstructing traffic and causing nuisance to public peace and tranquility",
+        "fir_no": "Not Applicable",
+        "description": "illegal rally from TDP office to NTR Statue obstructed the traffic",
         "sections": "188, 341; R/w.34 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: Illegal rally from TDP office to NTR Statue obstructing traffic and causing nuisance to public peace and tranquility",
+        "raw_text": "FIR: Not Applicable | Desc: illegal rally from TDP office to NTR Statue obstructed the traffic",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "",
-        "description": "Rally near Unthakal Cross to Unthakal Village without permission violating M.C.C. Code",
-        "sections": "",
+        "fir_no": "Not Applicable",
+        "description": "conducted rally near Unthakal Cross to Unthakal Village without permission",
+        "sections": "M.C.C. Code",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: Rally near Unthakal Cross to Unthakal Village without permission violating M.C.C. Code",
+        "raw_text": "FIR: Not Applicable | Desc: conducted rally near Unthakal Cross to Unthakal Village without permission",
         "category": "Minor/Other"
       },
       {
@@ -20457,7 +20489,7 @@
       {
         "fir_no": "165/2023",
         "description": "illegal assembly and conduct of meeting without prior permission",
-        "sections": "188; 341; R/w.34 .P.C.",
+        "sections": "188, 341; R/w.34",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 165/2023 | Desc: illegal assembly and conduct of meeting without prior permission",
@@ -20466,7 +20498,7 @@
       {
         "fir_no": "157/2023",
         "description": "Urban Police Station, Rayadurgam",
-        "sections": "IPC, I.P.C.",
+        "sections": "",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 157/2023 | Desc: Urban Police Station, Rayadurgam",
@@ -20492,11 +20524,11 @@
       },
       {
         "fir_no": "525/2021",
-        "description": "obstructed traffic, caused damage to public peace",
+        "description": "obstructed traffic",
         "sections": "188; 341; R/w.34 I.P.C.",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 525/2021 | Desc: obstructed traffic, caused damage to public peace",
+        "raw_text": "FIR: 525/2021 | Desc: obstructed traffic",
         "category": "Political/Protest"
       },
       {
@@ -20520,38 +20552,29 @@
       {
         "fir_no": "201/2021",
         "description": "wrongfully restrained the Public",
-        "sections": "151 Cr.P.C.",
+        "sections": "IPC",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 201/2021 | Desc: wrongfully restrained the Public",
-        "category": "Political/Protest"
+        "category": "Minor/Other"
       },
       {
         "fir_no": "88/2020",
-        "description": "threatened Asst. District Election Authority",
-        "sections": "34 IPC, 136 (2) R.P. Act",
+        "description": "questioned Asst. District Election Authority",
+        "sections": "353; 506; R/w.34 I.P.C. and Sec.136 (2) of R.P. Act.",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 88/2020 | Desc: threatened Asst. District Election Authority",
-        "category": "Minor/Other"
+        "raw_text": "FIR: 88/2020 | Desc: questioned Asst. District Election Authority",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "02/2020",
-        "description": "assembled unlawfully",
+        "description": "assembled unlawfully in front of Arya VysyaKalyanamantapam",
         "sections": "151 Cr.P.C.",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 02/2020 | Desc: assembled unlawfully",
+        "raw_text": "FIR: 02/2020 | Desc: assembled unlawfully in front of Arya VysyaKalyanamantapam",
         "category": "Political/Protest"
-      },
-      {
-        "fir_no": "C.C.No.2/2024",
-        "description": "Dharna and slogans against the Government of Andhra Pradesh",
-        "sections": "NIL",
-        "page": 9,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.No.2/2024 | Desc: Dharna and slogans against the Government of Andhra Pradesh",
-        "category": "Minor/Other"
       },
       {
         "fir_no": "20/2009",
@@ -20564,48 +20587,48 @@
       },
       {
         "fir_no": "STC No.570/2013",
-        "description": "U/Ss.147 and 174 (A) of Railway Act",
+        "description": "U/Ss.147 and 174 (A) of Railway Act.",
         "sections": "U/Ss.147 and 174 (A)",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: STC No.570/2013 | Desc: U/Ss.147 and 174 (A) of Railway Act",
+        "raw_text": "FIR: STC No.570/2013 | Desc: U/Ss.147 and 174 (A) of Railway Act.",
         "category": "Election Offenses"
       },
       {
         "fir_no": "STC No.574/2013",
-        "description": "U/Ss.147 and 174 (A) of Railway Act",
+        "description": "U/Ss.147 and 174 (A) of Railway Act.",
         "sections": "U/Ss.147 and 174 (A)",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: STC No.574/2013 | Desc: U/Ss.147 and 174 (A) of Railway Act",
+        "raw_text": "FIR: STC No.574/2013 | Desc: U/Ss.147 and 174 (A) of Railway Act.",
         "category": "Election Offenses"
       },
       {
         "fir_no": "STC No.1014/2013",
-        "description": "147 and 174 (A) of Railway Act",
-        "sections": "Railway Act.",
+        "description": "U/Ss.147 and 174 (A) of Railway Act.",
+        "sections": "",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: STC No.1014/2013 | Desc: 147 and 174 (A) of Railway Act",
-        "category": "Minor/Other"
+        "raw_text": "FIR: STC No.1014/2013 | Desc: U/Ss.147 and 174 (A) of Railway Act.",
+        "category": "Election Offenses"
       },
       {
         "fir_no": "STC No.1492/2015",
-        "description": "147 and 174 (A) of Railway Act",
-        "sections": "Railway Act.",
+        "description": "U/Ss.147 and 174 (A) of Railway Act.",
+        "sections": "",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: STC No.1492/2015 | Desc: 147 and 174 (A) of Railway Act",
-        "category": "Minor/Other"
+        "raw_text": "FIR: STC No.1492/2015 | Desc: U/Ss.147 and 174 (A) of Railway Act.",
+        "category": "Election Offenses"
       },
       {
         "fir_no": "79/2023",
-        "description": "Assaulting a public servant",
-        "sections": "S. 151 Cr.P.C.",
+        "description": "Assault",
+        "sections": "R/W 323 IPC",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Assaulting a public servant",
-        "category": "Political/Protest"
+        "raw_text": "FIR: 79/2023 | Desc: Assault",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "130/2020",
@@ -20615,6 +20638,15 @@
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 130/2020 | Desc: Theft",
         "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "456/2022",
+        "description": "Cheating",
+        "sections": "R/W 420 IPC",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 456/2022 | Desc: Cheating",
+        "category": "Corruption & Fraud"
       }
     ],
     "criminal_details_convictions": [],
@@ -20679,38 +20711,29 @@
     },
     "profession": "Software Consultant",
     "criminal_summary": {
-      "num_criminal_cases": 2,
+      "num_criminal_cases": 1,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 0,
-        "Election Offenses": 1,
-        "Minor/Other": 1
+        "Political/Protest": 1,
+        "Election Offenses": 0,
+        "Minor/Other": 0
       },
       "count_source": "extraction",
-      "extracted_count": 2,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T17:56:56.883486+00:00"
+      "extracted_count": 1,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:10:16.275817+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "79/2023",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
         "fir_no": "30/2024",
-        "description": "obstruction to traffic and public",
-        "sections": "171, 188, 283, 341 IPC",
+        "description": "caused obstruction to Traffic and Public by violating the Model Code of Conduct (MCC)",
+        "sections": "I 7l -H,I 88,283,341 IPC",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 30/2024 | Desc: obstruction to traffic and public",
-        "category": "Election Offenses"
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 30/2024 | Desc: caused obstruction to Traffic and Public by violating the Model Code of Conduct (MCC)",
+        "category": "Political/Protest"
       }
     ],
     "criminal_details_convictions": [],
@@ -20777,62 +20800,53 @@
       "num_criminal_cases": 4,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 0,
+        "Serious/Violent": 1,
         "Corruption & Fraud": 0,
-        "Political/Protest": 5,
+        "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 0
+        "Minor/Other": 2
       },
       "count_source": "abstract",
-      "extracted_count": 5,
+      "extracted_count": 4,
       "abstract_count": 4,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T17:57:58.038279+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:11:06.710075+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "Cr.No.130/2020",
-        "description": "unlawful assembly",
-        "sections": "143,144,147",
+        "description": "attempt murder",
+        "sections": "R/W 323,324,307 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.130/2020 | Desc: unlawful assembly",
-        "category": "Political/Protest"
+        "raw_text": "FIR: Cr.No.130/2020 | Desc: attempt murder",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "Cr.No.239/2020",
-        "description": "unlawful assembly",
-        "sections": "143,144,147",
+        "description": "disobedience to the orders of public servants",
+        "sections": "U/S 594,504,505(2) IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.239/2020 | Desc: unlawful assembly",
-        "category": "Political/Protest"
+        "raw_text": "FIR: Cr.No.239/2020 | Desc: disobedience to the orders of public servants",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "92/2021",
-        "description": "unlawful assembly",
-        "sections": "143,144,147",
+        "fir_no": "Cr.No.92/2021",
+        "description": "annoyance of others obscene words",
+        "sections": "294,504,505(2) IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 92/2021 | Desc: unlawful assembly",
-        "category": "Political/Protest"
+        "raw_text": "FIR: Cr.No.92/2021 | Desc: annoyance of others obscene words",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "443 444.147",
-        "description": "unlawful assembly",
-        "sections": "143,144,147",
+        "fir_no": "C. 1o,65/2023",
+        "description": "wrongfully attempt murder",
+        "sections": "U/S 188 r/w 34 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 443 444.147 | Desc: unlawful assembly",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "10,65/2023",
-        "description": "unlawful assembly",
-        "sections": "143,144,147",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10,65/2023 | Desc: unlawful assembly",
+        "raw_text": "FIR: C. 1o,65/2023 | Desc: wrongfully attempt murder",
         "category": "Political/Protest"
       }
     ],
@@ -20899,65 +20913,56 @@
     },
     "profession": "Business and Politician b",
     "criminal_summary": {
-      "num_criminal_cases": 5,
+      "num_criminal_cases": 4,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 2,
+        "Serious/Violent": 1,
         "Corruption & Fraud": 0,
-        "Political/Protest": 2,
+        "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 2
       },
       "count_source": "extraction",
-      "extracted_count": 5,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T17:59:11.191364+00:00"
+      "extracted_count": 4,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:11:53.984984+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Cr.No.156/2023",
+        "fir_no": "Cr. No. 156/2023",
         "description": "U/S 341,188, RIW 34 IPC",
-        "sections": "U/S 341,188, RIW 34 IPC",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.156/2023 | Desc: U/S 341,188, RIW 34 IPC",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "Cr.No. 155/2023",
-        "description": "U/S 341,188, RIW 34 IPC",
-        "sections": "U/S 341,188, RIW 34 IPC",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No. 155/2023 | Desc: U/S 341,188, RIW 34 IPC",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "STC No.267/2022",
-        "description": "U/S 427 I.P.C AND Under Section 3 of Prevention of Damage to Public Property Act, 1984",
         "sections": "U/S 427 I.P.C AND Under Section 3 of Prevention of Damage to Public Property Act, 1984",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: STC No.267/2022 | Desc: U/S 427 I.P.C AND Under Section 3 of Prevention of Damage to Public Property Act, 1984",
+        "raw_text": "FIR: Cr. No. 156/2023 | Desc: U/S 341,188, RIW 34 IPC",
         "category": "Minor/Other"
       },
       {
         "fir_no": "Cr.No.106/2021",
-        "description": "assault and damage to NH-67 CC Road",
-        "sections": "U/S 143,188,189,353 r/w. 149, U/S.147,148,324,307 r/w 149 IPC, Sec I.P.C and 7(1) CLA Act, 1932",
+        "description": "Abuse of police and assault on duties",
+        "sections": "U/S 143,188,189,353 r/w. 149 IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.106/2021 | Desc: assault and damage to NH-67 CC Road",
-        "category": "Serious/Violent"
+        "raw_text": "FIR: Cr.No.106/2021 | Desc: Abuse of police and assault on duties",
+        "category": "Political/Protest"
       },
       {
         "fir_no": "Cr.No.103/2014",
-        "description": "assault and abuse",
-        "sections": "U/S.147,148,324,307 r/w 149 IPC, Sec I.P.C and 7(1) CLA Act, 1932",
+        "description": "Damage to NH-67 CC Road",
+        "sections": "U/S.147,148,324,307 r/w 149 IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.103/2014 | Desc: assault and abuse",
+        "raw_text": "FIR: Cr.No.103/2014 | Desc: Damage to NH-67 CC Road",
         "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "CC.NO 980/2022",
+        "description": "Abuse and threats to a person",
+        "sections": "I.P.C and 7(1) CLA Act, 1932",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: CC.NO 980/2022 | Desc: Abuse and threats to a person",
+        "category": "Minor/Other"
       }
     ],
     "criminal_details_convictions": [],
@@ -21031,8 +21036,8 @@
       },
       "count_source": "extraction",
       "extracted_count": 0,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-12T01:40:38.681383+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:12:10.630973+00:00"
     },
     "criminal_details_pending": [],
     "criminal_details_convictions": [],
@@ -21095,25 +21100,25 @@
     },
     "profession": "Housewife",
     "criminal_summary": {
-      "num_criminal_cases": 7,
+      "num_criminal_cases": 8,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 1,
         "Corruption & Fraud": 0,
-        "Political/Protest": 5,
+        "Political/Protest": 6,
         "Election Offenses": 1,
         "Minor/Other": 0
       },
       "count_source": "extraction",
-      "extracted_count": 7,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:25:33.631508+00:00"
+      "extracted_count": 8,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:13:07.224187+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "Cr.No.230/2024",
         "description": "188, 354, 427",
-        "sections": "143, 341, 352, 447,448,506, 171(C), 147, 279,290 r/w 188, r/w 34 of LPG, LP:C",
+        "sections": "143, 341, 352, 447,448, 506, 171(C), 147",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.230/2024 | Desc: 188, 354, 427",
@@ -21121,29 +21126,38 @@
       },
       {
         "fir_no": "Cr.No.255/2024",
-        "description": "188, r/w 34 of LPG, LP:C",
-        "sections": "143, 341, 353, 290, 188",
+        "description": "188, r/w 34 of LPG, LP:C, 32 P.A. 1861.",
+        "sections": "188, r/w 34 of LPG, LP:C.",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.255/2024 | Desc: 188, r/w 34 of LPG, LP:C",
+        "raw_text": "FIR: Cr.No.255/2024 | Desc: 188, r/w 34 of LPG, LP:C, 32 P.A. 1861.",
         "category": "Political/Protest"
       },
       {
         "fir_no": "Cr.No.110/2024",
-        "description": "188, r/w 34 of LPG, LP:C",
-        "sections": "143,341, 353",
+        "description": "1. Sec.143 Being member of an unlawful assembly — [promulgated by a public servant",
+        "sections": "1. Sec.143",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.110/2024 | Desc: 188, r/w 34 of LPG, LP:C",
+        "raw_text": "FIR: Cr.No.110/2024 | Desc: 1. Sec.143 Being member of an unlawful assembly — [promulgated by a public servant",
         "category": "Political/Protest"
       },
       {
         "fir_no": "Cr.No.91/2024",
-        "description": "188, r/w 34 of LPG, LP:C",
-        "sections": "143,341, 353",
+        "description": "2.Sec.341 Wrongfully restraining any person criminal force",
+        "sections": "2.Sec.341",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.91/2024 | Desc: 188, r/w 34 of LPG, LP:C",
+        "raw_text": "FIR: Cr.No.91/2024 | Desc: 2.Sec.341 Wrongfully restraining any person criminal force",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.78/2021",
+        "description": "Assault ae of criminal force grave Miaehioh ans * fet, saci to",
+        "sections": "188, r/w 34 of LPG, LP:C,",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.78/2021 | Desc: Assault ae of criminal force grave Miaehioh ans * fet, saci to",
         "category": "Political/Protest"
       },
       {
@@ -21166,11 +21180,11 @@
       },
       {
         "fir_no": "10",
-        "description": "every other member of such assembly",
+        "description": "every member of unlawful assembly",
         "sections": "Sec. 149",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10 | Desc: every other member of such assembly",
+        "raw_text": "FIR: 10 | Desc: every member of unlawful assembly",
         "category": "Political/Protest"
       }
     ],
@@ -21240,24 +21254,24 @@
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 0,
+        "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 0
       },
       "count_source": "extraction",
       "extracted_count": 1,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:25:52.666119+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:13:27.369902+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "202/2022",
-        "description": "cognizable offence",
-        "sections": "CR.PC",
+        "description": "U/S 151 CR.PC",
+        "sections": "USS 151",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 202/2022 | Desc: cognizable offence",
-        "category": "Minor/Other"
+        "raw_text": "FIR: 202/2022 | Desc: U/S 151 CR.PC",
+        "category": "Political/Protest"
       }
     ],
     "criminal_details_convictions": [],
@@ -21324,32 +21338,32 @@
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 2,
+        "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 0
+        "Minor/Other": 1
       },
       "count_source": "extraction",
       "extracted_count": 2,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:26:22.613612+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:13:55.715965+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "b020",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
+        "fir_no": "Not Applicable",
+        "description": "",
+        "sections": "",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: b020 | Desc: Not Applicable",
-        "category": "Political/Protest"
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: ",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "216/2023",
+        "fir_no": "2L612023",
         "description": "Disrupting the traffic",
-        "sections": "143, 341 r/w 149 IPC",
+        "sections": "R/W 149 IPC",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 216/2023 | Desc: Disrupting the traffic",
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 2L612023 | Desc: Disrupting the traffic",
         "category": "Political/Protest"
       }
     ],
@@ -21419,29 +21433,38 @@
     },
     "profession": "Business & Agriculturist",
     "criminal_summary": {
-      "num_criminal_cases": 1,
+      "num_criminal_cases": 2,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 0,
+        "Serious/Violent": 1,
         "Corruption & Fraud": 0,
-        "Political/Protest": 1,
+        "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 0
+        "Minor/Other": 1
       },
       "count_source": "extraction",
-      "extracted_count": 1,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T22:41:54.593874+00:00"
+      "extracted_count": 2,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:14:27.033168+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "Cr.No.56/2015",
         "description": "Murder",
-        "sections": "R/W 149 IPC",
+        "sections": "R/W 147, 148, 307, 302, 120(b) rlw 149 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.56/2015 | Desc: Murder",
-        "category": "Political/Protest"
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "PRC No.16/2019",
+        "description": "protest petition",
+        "sections": "PCR Act-cum-li Addl. Junior Civil Judge Court",
+        "page": 4,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: PRC No.16/2019 | Desc: protest petition",
+        "category": "Minor/Other"
       }
     ],
     "criminal_details_convictions": [],
@@ -21506,25 +21529,25 @@
     },
     "profession": "LEGISLATURE PENSION SECRETARIAT & AGRICULTURE",
     "criminal_summary": {
-      "num_criminal_cases": 8,
+      "num_criminal_cases": 11,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 6,
+        "Political/Protest": 10,
         "Election Offenses": 0,
-        "Minor/Other": 2
+        "Minor/Other": 1
       },
       "count_source": "extraction",
-      "extracted_count": 8,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-06-07T13:12:44.867057+00:00"
+      "extracted_count": 11,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:15:55.975782+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "247/2023",
         "description": "Unlawful Assembly",
-        "sections": "u/s.34 IPC, R/W 149 RPC, u/s. 188 RPC",
+        "sections": "u/s.34 IPC, R/W 149 RPC",
         "page": 3,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 247/2023 | Desc: Unlawful Assembly",
@@ -21532,65 +21555,92 @@
       },
       {
         "fir_no": "79/2023",
-        "description": "Disobedience of orders",
-        "sections": "U/S 151 CRPC, R/W 149 IPC, 341 IPC",
+        "description": "Disobedience of orders promulgated",
+        "sections": "U/S. 151 CRPC, U/S 341 IPC",
         "page": 4,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Disobedience of orders",
+        "raw_text": "FIR: 79/2023 | Desc: Disobedience of orders promulgated",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "7 4 /2023",
+        "fir_no": "227/2023",
+        "description": "Causing inconvenience",
+        "sections": "R/W 149 IPC",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 227/2023 | Desc: Causing inconvenience",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "7/2023",
         "description": "DHARNA",
-        "sections": "u/s. 188,34 rPC u/s. 341, r88 R/W 34 IPC",
+        "sections": "u/s. 188,34 rPC",
         "page": 5,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 7 4 /2023 | Desc: DHARNA",
+        "raw_text": "FIR: 7/2023 | Desc: DHARNA",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Cr.No.945t2023",
-        "description": "Violation of Section 144 CrPC",
+        "fir_no": "945/2023",
+        "description": "DHARNA",
         "sections": "R/W 34 IPC",
         "page": 5,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.945t2023 | Desc: Violation of Section 144 CrPC",
+        "raw_text": "FIR: 945/2023 | Desc: DHARNA",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "97/2022",
-        "description": "IPC u/s. 153 RyW 34",
-        "sections": "u/s.143,341,188 R/W 34 IPC",
-        "page": 6,
+        "fir_no": "224/2022",
+        "description": "DHARNA",
+        "sections": "u/s. 341, r88 R/W 34 IPC",
+        "page": 5,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 97/2022 | Desc: IPC u/s. 153 RyW 34",
+        "raw_text": "FIR: 224/2022 | Desc: DHARNA",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "0F/2022",
-        "description": "Allegation regarding inappropriate comments against CM and obstruction of vehicles",
-        "sections": "",
+        "fir_no": "97/2022",
+        "description": "u/s. 153 RyW 34 IPC",
+        "sections": "u/s.143,341,188 R/W 34 IPC",
         "page": 6,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 0F/2022 | Desc: Allegation regarding inappropriate comments against CM and obstruction of vehicles",
-        "category": "Minor/Other"
+        "raw_text": "FIR: 97/2022 | Desc: u/s. 153 RyW 34 IPC",
+        "category": "Political/Protest"
       },
       {
-        "fir_no": "19312013",
-        "description": "unspecified",
+        "fir_no": "S3/2022",
+        "description": "u/s. 153 RyW 34 IPC",
+        "sections": "u/s.143,341,188 R/W 34 IPC",
+        "page": 6,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: S3/2022 | Desc: u/s. 153 RyW 34 IPC",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "II",
+        "description": "Offence related to Ananthapuram Town Police Station",
         "sections": "R/W 149 IPC",
         "page": 7,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 19312013 | Desc: unspecified",
+        "raw_text": "FIR: II | Desc: Offence related to Ananthapuram Town Police Station",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.17/2022",
+        "description": "Allegation of staged dharana in front of Collector Office and other pelted stone",
+        "sections": "u/s. 151, CRPC",
+        "page": 7,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.17/2022 | Desc: Allegation of staged dharana in front of Collector Office and other pelted stone",
         "category": "Political/Protest"
       },
       {
         "fir_no": "294/2009",
-        "description": "Staging dharna demanding samikya Andhra",
+        "description": "Demonstration/Protest",
         "sections": "R/W 149 IPC",
         "page": 8,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 294/2009 | Desc: Staging dharna demanding samikya Andhra",
+        "raw_text": "FIR: 294/2009 | Desc: Demonstration/Protest",
         "category": "Political/Protest"
       }
     ],
@@ -21659,278 +21709,252 @@
       "num_criminal_cases": 29,
       "num_convictions": 0,
       "pending_by_category": {
-        "Corruption & Fraud": 20,
-        "Minor/Other": 4,
-        "Election Offenses": 2,
-        "Political/Protest": 3
+        "Serious/Violent": 1,
+        "Corruption & Fraud": 11,
+        "Political/Protest": 0,
+        "Election Offenses": 1,
+        "Minor/Other": 13
       },
-      "count_source": "affidavit",
-      "extracted_count": 29,
-      "source": "Manual-OCR:2026-05-28",
-      "extracted_at": "2026-05-28T13:30:00.000000+00:00",
-      "note": "LLM extraction had wrong categories (9 PMLA + 11 CBI cases tagged Minor/Other) and missed 2 cases. Replaced with full manual OCR from affidavit pages 3-17. 9 ED/PMLA cases all under ECIR 09/HZO/2011; 11 CBI cases under RC 19(A)/2011."
+      "count_source": "abstract",
+      "extracted_count": 26,
+      "abstract_count": 29,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:20:25.308941+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 3 of 2021, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "description": "Section 4 R/W Section 3 of Prevention of Money Laundering Act, 2002",
+        "sections": "Section 4",
         "page": 3,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 3 of 2021 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: ECIR No. 09/HZO/2011 | Desc: Section 4 R/W Section 3 of Prevention of Money Laundering Act, 2002",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 2 of 2021, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
+        "fir_no": "09/HZO/2011",
+        "description": "money laundering",
+        "sections": "SECTION 4 R/W SECTION 3 OF PREVENTION OF MONEY LAUNDERING ACT, 2002",
         "page": 4,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2021 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 1 of 2021, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
-        "page": 4,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2021 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering [SC No. 1 of 2020 (old: SC No. 92/2016), Principal Special Judge for CBI Cases, Nampally, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 and Section 8(5) of Prevention of Money Laundering Act 2002",
-        "page": 5,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2020 (old SC No. 92/2016) | PMLA Sections 4 r/w 3, Section 8(5)",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 2 of 2018, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
-        "page": 5,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2018 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 1 of 2018, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
-        "page": 6,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2018 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "Not applicable",
-        "description": "Defamation \u2014 printing or engraving defamatory matter and sale of such material [CC No. 33 of 2018, Special Court for trial of MPs/MLAs, Vijayawada]",
-        "sections": "499, 500, 501, 502 r/w 34 IPC",
-        "page": 6,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: Not applicable | CC No. 33/2018 Special Court MPs/MLAs Vijayawada | IPC 499-502 r/w 34 Defamation",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 09/HZO/2011 | Desc: money laundering",
         "category": "Minor/Other"
       },
       {
         "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 2 of 2017, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
-        "page": 7,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2017 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
+        "description": "Section 4: Punishment for money-laundering. Section 3: The act of money laundering.",
+        "sections": "Prevention of Money Laundering Act, 2002.",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: ECIR No. 09/HZO/2011 | Desc: Section 4: Punishment for money-laundering. Section 3: The act of money laundering.",
+        "category": "Minor/Other"
       },
       {
-        "fir_no": "192/2017",
-        "description": "Disobedience to order duly promulgated by public servant; intentional insult; criminal intimidation; promoting enmity between classes in connection with election [Nandyala III Town PS; no cognizance yet taken]",
-        "sections": "188, 504, 506 IPC; Section 125 Representation of People Act 1951",
-        "page": 7,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 192/2017 Nandyala III Town PS | IPC 188, 504, 506; Section 125 RPA 1951",
-        "category": "Election Offenses"
+        "fir_no": "SC No. 2 OF 2018",
+        "description": "Section 4: Punishment for money-laundering. Section 3: The act of money laundering.",
+        "sections": "Prevention of Money Laundering Act, 2002.",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: SC No. 2 OF 2018 | Desc: Section 4: Punishment for money-laundering. Section 3: The act of money laundering.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "SC No. 1 OF 2018",
+        "description": "Punishment for Defamation",
+        "sections": "SECTIONS 499,500,501,502 R/W SECTION 34 OF INDIAN PENAL CODE, 1860",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: SC No. 1 OF 2018 | Desc: Punishment for Defamation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "C.C No.33 of 2018",
+        "description": "Acts done by several persons in furtherance of common intention",
+        "sections": "",
+        "page": 6,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: C.C No.33 of 2018 | Desc: Acts done by several persons in furtherance of common intention",
+        "category": "Minor/Other"
       },
       {
         "fir_no": "177/2017",
-        "description": "Promoting enmity between classes in connection with election [Nandyala III Town PS; no cognizance yet taken]",
-        "sections": "Section 125 Representation of People Act 1951",
+        "description": "Promoting enmity between classes in connection with election",
+        "sections": "SECTION 125 OF RPA, 1951",
         "page": 8,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 177/2017 Nandyala III Town PS | Section 125 RPA 1951 promoting enmity in connection with election",
-        "category": "Election Offenses"
-      },
-      {
-        "fir_no": "122/2017",
-        "description": "Promoting enmity between different groups on grounds of religion, race, place of birth etc.; criminal intimidation [Kakinada III Town PS; no cognizance yet taken; came to know 24.04.2024]",
-        "sections": "153A, 506 IPC",
-        "page": 8,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 122/2017 Kakinada III Town PS | IPC 153A, 506 promoting enmity; criminal intimidation",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "23/2016",
-        "description": "Abetment of offence; promoting enmity between different groups; defamation [Ramagiri PS; no cognizance yet taken; came to know 24.04.2024]",
-        "sections": "116, 153A, 500 IPC",
-        "page": 9,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 23/2016 Ramagiri PS | IPC 116, 153A, 500 abetment, promoting enmity, defamation",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering \u2014 punishment for money-laundering and the act of money-laundering [SC No. 2 of 2016, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 4 r/w Section 3 of Prevention of Money Laundering Act 2002",
-        "page": 9,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 2 of 2016 | PMLA Section 4 r/w 3",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "ECIR No. 09/HZO/2011",
-        "description": "Money laundering [SC No. 1 of 2016 (old: SC No. 106/2015), Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 3, 4 and 8(5) of Prevention of Money Laundering Act",
-        "page": 10,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "ECIR No. 09/HZO/2011 | SC No. 1 of 2016 (old SC No. 106/2015) | PMLA Sections 3, 4, 8(5)",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "59/2016",
-        "description": "Mischief; mischief causing damage to amount of fifty rupees; statements conducive to public mischief [Mangalagiri Rural PS, Guntur; no cognizance yet taken]",
-        "sections": "425, 427, 505(ii) r/w 24 IPC",
-        "page": 10,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 59/2016 Mangalagiri Rural PS, Guntur Urban | IPC 425, 427, 505(ii) r/w 24 mischief",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "45/2016",
-        "description": "Defamation; printing or engraving matter known to be defamatory [Ponnur Rural PS, Guntur; no cognizance yet taken]",
-        "sections": "500, 501 IPC",
-        "page": 11,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 45/2016 Ponnur Rural PS, Guntur | IPC 500, 501 defamation",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 177/2017 | Desc: Promoting enmity between classes in connection with election",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; criminal breach of trust by public servant; public servant obtaining valuable thing; criminal misconduct by public servant [CC No. 26 of 2014, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B, 420, 409 IPC; Section 11, 13(2) r/w 13(1)(c)(d) Prevention of Corruption Act 1988",
+        "fir_no": "122/2017",
+        "description": "Promoting enmity between different groups on ground of religion, race, place of birth, residence, language, etc.",
+        "sections": "SECTIONS 153A & 506 OF INDIAN PENAL CODE, 1860",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 122/2017 | Desc: Promoting enmity between different groups on ground of religion, race, place of birth, residence, language, etc.",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "23/2016",
+        "description": "Abetment of offence, Promoting enmity between different groups, Punishment for Defamation",
+        "sections": "SECTIONS 116, 153A, 500 OF INDIAN PENAL CODE, 1860.",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 23/2016 | Desc: Abetment of offence, Promoting enmity between different groups, Punishment for Defamation",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "09/HZO/2011",
+        "description": "Money laundering",
+        "sections": "OF MONEY LAUNDERING ACT, 2002.",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 09/HZO/2011 | Desc: Money laundering",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "09/HZO/2011",
+        "description": "money-laundering",
+        "sections": "SECTION 3, 4 & 8 (5) OF PREVENTION OF MONEY LAUNDERING ACT",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 09/HZO/2011 | Desc: money-laundering",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "59/2016",
+        "description": "Mischief",
+        "sections": "Sections 425, 427, 505(ii) r/w 24 of Indian Penal Code, 1860",
+        "page": 10,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 59/2016 | Desc: Mischief",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "R.C. No. 19 (A) of 2011 -CBI/HYD",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
+        "sections": "Section 120-B, Section 420, Section 409",
         "page": 11,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 26/2014 | IPC 120B, 420, 409; PC Act 11, 13(2) r/w 13(1)(c)(d)",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: R.C. No. 19 (A) of 2011 -CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating; forgery for purpose of cheating; using forged document; taking gratification for exercise of personal influence with public servant [CC No. 28 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B r/w 420, 468, 471 IPC; Section 9 Prevention of Corruption Act 1988",
+        "fir_no": "R.C. No. 19 (A) of 2011 -CBV/HYD",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Forgery, Taking gratification",
+        "sections": "Section 120-B R/W 420, 468, 471 IPC & SEC.9 OF PREVENTION OF CORRUPTION ACT, 1988",
         "page": 12,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 28/2013 | IPC 120B r/w 420, 468, 471; PC Act Section 9",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: R.C. No. 19 (A) of 2011 -CBV/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Forgery, Taking gratification",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; taking gratification for exercise of personal influence with public servant [CC No. 27 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B, 420 IPC; Section 9 Prevention of Corruption Act 1988",
+        "fir_no": "C.C NO. 27 of 2013",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Taking gratification",
+        "sections": "Section 120-B, 420 IPC & SEC.9 OF PREVENTION OF CORRUPTION ACT, 1988",
         "page": 12,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 27/2013 | IPC 120B, 420; PC Act Section 9",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: C.C NO. 27 of 2013 | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Taking gratification",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; taking gratification for exercise of personal influence with public servant [CC No. 26 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B r/w 420 IPC; Section 9 Prevention of Corruption Act 1988",
+        "fir_no": "19 (A) of 2011 - CBI/HYD",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Taking gratification for exercise of personal influence with public servant, Abetment of a thing, Criminal misconduct by a Public Servant, Criminal misconduct by Public Servant",
+        "sections": "PREVENTION OF CORRUPTION ACT, 1988. Section 120-B r/w 420 of IPC, Section 9 of Prevention of Corruption Act, Section 107 of IPC r/w 13 (2) r/w 13 (1) (d) PREVENTION OF CORRUPTION ACT",
         "page": 13,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 26/2013 | IPC 120B r/w 420; PC Act Section 9",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 19 (A) of 2011 - CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Taking gratification for exercise of personal influence with public servant, Abetment of a thing, Criminal misconduct by a Public Servant, Criminal misconduct by Public Servant",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; abetment; criminal misconduct by public servant [CC No. 25 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B, 420, 107 IPC; Section 13(2) r/w 13(1)(d) Prevention of Corruption Act",
+        "fir_no": "25 of 2013",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Abetment of a thing, Criminal misconduct by a Public Servant, Criminal misconduct by Public Servant",
+        "sections": "SECTION 120-B, 420 IPC AND 107 OF IPC R/W 13(2) PREVENTION OF CORRUPTION ACT. R/W 13(1) (D) PREVENTION OF CORRUPTION ACT",
         "page": 13,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 25/2013 | IPC 120B, 420, 107; PC Act 13(2) r/w 13(1)(d)",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 25 of 2013 | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Abetment of a thing, Criminal misconduct by a Public Servant, Criminal misconduct by Public Servant",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating; taking gratification and abetment of such offence [CC No. 24 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B r/w 420, 420 IPC; Section 9, 12 Prevention of Corruption Act 1988",
+        "fir_no": "19 (A) of 2011 -CBI/HYD",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
+        "sections": "Section 120-B R/W 420 IPC AND SEC.9 & 12 OF PREVENTION OF CORRUPTION ACT, 1988",
         "page": 14,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 24/2013 | IPC 120B r/w 420; PC Act Sections 9, 12",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 19 (A) of 2011 -CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating and dishonestly inducing delivery of property; taking gratification for exercise of personal influence with public servant [CC No. 12 of 2013, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B, 420 IPC; Section 9 Prevention of Corruption Act",
+        "fir_no": "19 (A) of 2011 — CBI/HYD",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
+        "sections": "Section 120-B r/w 420 of IPC AND Section 9 of Prevention of Corruption Act",
         "page": 14,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 12/2013 | IPC 120B, 420; PC Act Section 9",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 19 (A) of 2011 — CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "861/2013",
-        "description": "Prevention of singing of Indian National Anthem [Saroor Nagar PS, Cyberabad; no cognizance yet taken]",
-        "sections": "Section 3 of Prevention of Insults to National Honour Act 1971",
+        "description": "Prevention of singing of Indian National Anthem",
+        "sections": "Section 3 of Prevention of Insults to Honour Act, 1971",
         "page": 15,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 861/2013 Saroor Nagar PS, Cyberabad | Section 3 Prevention of Insults to National Honour Act 1971",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 861/2013 | Desc: Prevention of singing of Indian National Anthem",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating; criminal breach of trust by public servant; taking gratification and abetment of such offence [CC No. 14 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B, 420, 409 IPC; Section 9, 12 Prevention of Corruption Act",
+        "fir_no": "19 (A) of 2011 — CBI/HYD",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
+        "sections": "Section 120-B, Section 420, Section 409, Section 9 & 12 of Prevention of Corruption Act",
         "page": 15,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 14/2012 | IPC 120B, 420, 409; PC Act Sections 9, 12",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 19 (A) of 2011 — CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating; using forged document; taking gratification and abetment [CC No. 10 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B, 420, 471 IPC; Section 9, 12 Prevention of Corruption Act",
+        "fir_no": "19 (A) of 2011",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Using as genuine a forged document or electronic record",
+        "sections": "Section 120-B, Section 420 & 471 IPC, Section 9 & 12 of Prevention of Corruption Act",
         "page": 16,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 10/2012 | IPC 120B, 420, 471; PC Act Sections 9, 12",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 19 (A) of 2011 | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Using as genuine a forged document or electronic record",
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Criminal conspiracy; cheating; using forged document [CC No. 9 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "120B r/w 420, 420, 471 IPC",
+        "fir_no": "10 of 2012",
+        "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Using as genuine a forged document or electronic record",
+        "sections": "Section 120-B r/w 420, 420 & 471 OF IPC",
         "page": 16,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 9/2012 | IPC 120B r/w 420, 420, 471",
-        "category": "Corruption & Fraud"
-      },
-      {
-        "fir_no": "R.C. No. 19(A) of 2011 \u2014 CBI/HYD",
-        "description": "Public servant obtaining valuable thing; taking gratification; criminal conspiracy; cheating [CC No. 8 of 2012, Principal Special Judge for CBI Cases, Hyderabad]",
-        "sections": "Section 12 r/w 11 Prevention of Corruption Act; 120B r/w 420 IPC",
-        "page": 17,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "R.C. No. 19(A)/2011 CBI/HYD | CC No. 8/2012 | PC Act Section 12 r/w 11; IPC 120B r/w 420",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 10 of 2012 | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Using as genuine a forged document or electronic record",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "114/2008",
-        "description": "General provision for punishment of offences under Motor Vehicles Act; acts done by several persons in furtherance of common intention [Vempalle PS, AP; no cognizance yet taken; came to know 24.04.2024]",
-        "sections": "Section 177 Motor Vehicles Act 1988; Section 34 IPC",
+        "description": "Section 177 of Motor Vehicles Act, 1988 & Section 34 of Indian Penal Code, 1860",
+        "sections": "Section 177 of Motor Vehicles Act, 1988; Section 34 of IPC",
         "page": 17,
-        "method": "Manual-OCR:2026-05-28",
-        "raw_text": "FIR: 114/2008 Vempalle PS, AP | Section 177 MV Act 1988; Section 34 IPC",
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 114/2008 | Desc: Section 177 of Motor Vehicles Act, 1988 & Section 34 of Indian Penal Code, 1860",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "Section 12 r/w 11 of Prevention of Corruption Act",
+        "sections": "Section 12 of P.C. Act",
+        "page": 17,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: Section 12 r/w 11 of Prevention of Corruption Act",
         "category": "Minor/Other"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "Section 120 B: Punishment of Criminal Conspiracy.",
+        "sections": "Section 120 B of IPC",
+        "page": 17,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: Section 120 B: Punishment of Criminal Conspiracy.",
+        "category": "Corruption & Fraud"
       }
     ],
     "criminal_details_convictions": [],
@@ -21995,46 +22019,64 @@
     },
     "profession": "Business & Social Activities",
     "criminal_summary": {
-      "num_criminal_cases": 3,
+      "num_criminal_cases": 5,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 2,
         "Corruption & Fraud": 0,
         "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 3
       },
       "count_source": "extraction",
-      "extracted_count": 3,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T21:43:17.817376+00:00"
+      "extracted_count": 5,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:21:03.418042+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "125/2019",
-        "description": "U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST\u2019s (POA) Act",
-        "sections": "U/S 506 R/W 34 IPC",
-        "page": 5,
+        "fir_no": "Not Applicable",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
+        "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 125/2019 | Desc: U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST\u2019s (POA) Act",
-        "category": "Serious/Violent"
-      },
-      {
-        "fir_no": "123/2019",
-        "description": "PRIVATE COMPLAINT FOR SC/ST\u2019s ATROCITY.",
-        "sections": "",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 123/2019 | Desc: PRIVATE COMPLAINT FOR SC/ST\u2019s ATROCITY.",
+        "raw_text": "FIR: Not Applicable | Desc: Not Applicable",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "Cr.No.143,324,506 R/W 34 IPC",
-        "description": "U/S 143,324,506 R/W 34 IPC",
+        "fir_no": "125/2019",
+        "description": "ATMAKUR PS, ANANTAPURAMU",
         "sections": "",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.143,324,506 R/W 34 IPC | Desc: U/S 143,324,506 R/W 34 IPC",
+        "raw_text": "FIR: 125/2019 | Desc: ATMAKUR PS, ANANTAPURAMU",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "123/2019",
+        "description": "ATMAKUR PS, ANANTAPURAMU",
+        "sections": "",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 123/2019 | Desc: ATMAKUR PS, ANANTAPURAMU",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST’s (POA) Act",
+        "description": "PRIVATE COMPLAINT FOR SC/ST’s ATROCITY.",
+        "sections": "",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST’s (POA) Act | Desc: PRIVATE COMPLAINT FOR SC/ST’s ATROCITY.",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "U/S 143,324,506 R/W 34 IPC",
+        "description": "PRIVATE COMPLAINT FOR RIOTING, VOLUNTARILY CAUSING HURT, CRIMINAL INTIMIDATION.",
+        "sections": "",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: U/S 143,324,506 R/W 34 IPC | Desc: PRIVATE COMPLAINT FOR RIOTING, VOLUNTARILY CAUSING HURT, CRIMINAL INTIMIDATION.",
         "category": "Serious/Violent"
       }
     ],
@@ -22097,91 +22139,154 @@
     },
     "profession": "Social Service and BJP National Secretary",
     "criminal_summary": {
-      "num_criminal_cases": 8,
+      "num_criminal_cases": 15,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 3,
+        "Political/Protest": 4,
         "Election Offenses": 0,
-        "Minor/Other": 5
+        "Minor/Other": 11
       },
       "count_source": "extraction",
-      "extracted_count": 8,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T23:04:12.761752+00:00"
+      "extracted_count": 15,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:23:32.681075+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "131601002396",
+        "fir_no": "Not Applicable",
         "description": "Not Applicable",
         "sections": "Not Applicable",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 131601002396 | Desc: Not Applicable",
+        "page": 3,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: Not Applicable",
         "category": "Minor/Other"
-      },
-      {
-        "fir_no": "TG07 0077",
-        "description": "Hybrid-VX(7S) BSVI",
-        "sections": "NIL",
-        "page": 6,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: TG07 0077 | Desc: Hybrid-VX(7S) BSVI",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "Not Applicable",
-        "sections": "NIL",
-        "page": 6,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "1. Ac 2-00 Cts Not Not 1.Ac 4.78 cts Not Not",
-        "description": "Agricultural Land",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 1. Ac 2-00 Cts Not Not 1.Ac 4.78 cts Not Not | Desc: Agricultural Land",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "2. Ac 1-35 Gts Not Not 2.Ac 2.48 cts _Applicabl Applicab!",
-        "description": "Agricultural Land",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 2. Ac 1-35 Gts Not Not 2.Ac 2.48 cts _Applicabl Applicab! | Desc: Agricultural Land",
-        "category": "Political/Protest"
       },
       {
         "fir_no": "79/2023",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 8,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Not Applicable",
+        "description": "Theft (S.378 IPC)",
+        "sections": "R/W 378 IPC",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 79/2023 | Desc: Theft (S.378 IPC)",
         "category": "Minor/Other"
       },
       {
         "fir_no": "Cr.No.130/2020",
         "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 10,
-        "method": "OCR+LLM:gemma3:4b",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.130/2020 | Desc: Not Applicable",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "GB81HBUK401",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: GB81HBUK401 | Desc: Not Applicable",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "131601002396",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 131601002396 | Desc: Not Applicable",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "GB31HBUK4011929222998",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: GB31HBUK4011929222998 | Desc: Not Applicable",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "131601002408",
+        "description": "Not Applicable",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 131601002408 | Desc: Not Applicable",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "TGO7 0077",
+        "description": "Hycross BSVI",
+        "sections": "",
+        "page": 6,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: TGO7 0077 | Desc: Hycross BSVI",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Rs.45,00,000/Loan to C.Srinivasa Rao",
+        "description": "Loan to C.Srinivasa Rao",
+        "sections": "",
+        "page": 6,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Rs.45,00,000/Loan to C.Srinivasa Rao | Desc: Loan to C.Srinivasa Rao",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Rs.34,50,000/Nature's Postures Agro Farms",
+        "description": "Nature's Postures Agro Farms",
+        "sections": "",
+        "page": 6,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Rs.34,50,000/Nature's Postures Agro Farms | Desc: Nature's Postures Agro Farms",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "1",
+        "description": "Not Applicable",
+        "sections": "R/W 149 IPC",
+        "page": 7,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 1 | Desc: Not Applicable",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Cr.No.TG 07 0077",
+        "fir_no": "2",
         "description": "Not Applicable",
-        "sections": "Not Applicable",
+        "sections": "R/W 149 IPC",
+        "page": 7,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 2 | Desc: Not Applicable",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "3",
+        "description": "Not Applicable",
+        "sections": "R/W 149 IPC",
+        "page": 7,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 3 | Desc: Not Applicable",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.131/2020",
+        "description": "Loan taken from B.Prasada Rao",
+        "sections": "R/W 149 IPC",
         "page": 10,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.TG 07 0077 | Desc: Not Applicable",
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.131/2020 | Desc: Loan taken from B.Prasada Rao",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "NIL",
+        "description": "NIL",
+        "sections": "NIL",
+        "page": 11,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: NIL | Desc: NIL",
         "category": "Minor/Other"
       }
     ],
@@ -22259,19 +22364,19 @@
     },
     "profession": "Business",
     "criminal_summary": {
-      "num_criminal_cases": 5,
+      "num_criminal_cases": 6,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 2,
         "Corruption & Fraud": 0,
-        "Political/Protest": 2,
+        "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 3
       },
       "count_source": "extraction",
-      "extracted_count": 5,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:30:41.932105+00:00"
+      "extracted_count": 6,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:24:26.886027+00:00"
     },
     "criminal_details_pending": [
       {
@@ -22302,21 +22407,30 @@
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "Unlawful assembly causing simple and grievous hurt, threatened and abusing by touching caste name",
-        "description": "Unlawful assembly causing simple and grievous hurt, threatened and abusing by touching caste name",
-        "sections": "R/W 149 IPC",
+        "fir_no": "79/2023",
+        "description": "attempt to murder and wrongfully restrain",
+        "sections": "Not Applicable",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Unlawful assembly causing simple and grievous hurt, threatened and abusing by touching caste name | Desc: Unlawful assembly causing simple and grievous hurt, threatened and abusing by touching caste name",
-        "category": "Political/Protest"
+        "raw_text": "FIR: 79/2023 | Desc: attempt to murder and wrongfully restrain",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.130/2020",
+        "description": "Causing obstruction to the police officer while discharging his official duties",
+        "sections": "Not Applicable",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.130/2020 | Desc: Causing obstruction to the police officer while discharging his official duties",
+        "category": "Minor/Other"
       },
       {
         "fir_no": "Not Applicable",
-        "description": "Not Applicable",
+        "description": "Unlawful assembly causing simple and grievous hurt, threatened and abusing by touching caste name",
         "sections": "Not Applicable",
-        "page": 6,
+        "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Not Applicable | Desc: Not Applicable",
+        "raw_text": "FIR: Not Applicable | Desc: Unlawful assembly causing simple and grievous hurt, threatened and abusing by touching caste name",
         "category": "Minor/Other"
       }
     ],
@@ -22380,19 +22494,19 @@
     },
     "profession": "a Business",
     "criminal_summary": {
-      "num_criminal_cases": 1,
+      "num_criminal_cases": 2,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 0,
+        "Political/Protest": 1,
         "Election Offenses": 0,
         "Minor/Other": 1
       },
       "count_source": "extraction",
-      "extracted_count": 1,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:31:13.903474+00:00"
+      "extracted_count": 2,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:24:54.296196+00:00"
     },
     "criminal_details_pending": [
       {
@@ -22403,6 +22517,15 @@
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Not Applicable | Desc: Not Applicable",
         "category": "Minor/Other"
+      },
+      {
+        "fir_no": "79/2023",
+        "description": "Sections",
+        "sections": "R/W 149 IPC",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 79/2023 | Desc: Sections",
+        "category": "Political/Protest"
       }
     ],
     "criminal_details_convictions": [],
@@ -22615,14 +22738,14 @@
       "count_source": "abstract",
       "extracted_count": 4,
       "abstract_count": 4,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-06-07T13:14:19.439349+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:25:25.833879+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "Cr.No.33/2024",
         "description": "Abuse and assault",
-        "sections": "U/S 452, 352, 506 r/w 34 I.P.C",
+        "sections": "U/S 452,352,506 r/w 34 I.P.C",
         "page": 3,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.33/2024 | Desc: Abuse and assault",
@@ -22638,21 +22761,21 @@
         "category": "Election Offenses"
       },
       {
-        "fir_no": "Cr.No. 100/2024",
-        "description": "violated Model Code of Conduct rules and guidelines",
-        "sections": "U/S 1BB,186 r/w 34 LP.C",
+        "fir_no": "100 12024",
+        "description": "U/S 1BB,186 r/w 34 LP.C",
+        "sections": "",
         "page": 4,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No. 100/2024 | Desc: violated Model Code of Conduct rules and guidelines",
+        "raw_text": "FIR: 100 12024 | Desc: U/S 1BB,186 r/w 34 LP.C",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "Cr. No. 106/2024",
-        "description": "R Madhavi Reddy (A1) along with other accused beat the defacto complainant",
+        "fir_no": "106l2O24",
+        "description": "R Madhavi Reddy (A11) along with other accused beat the defacto complainant",
         "sections": "Section.......of IPC",
         "page": 4,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr. No. 106/2024 | Desc: R Madhavi Reddy (A1) along with other accused beat the defacto complainant",
+        "raw_text": "FIR: 106l2O24 | Desc: R Madhavi Reddy (A11) along with other accused beat the defacto complainant",
         "category": "Minor/Other"
       }
     ],
@@ -22719,7 +22842,7 @@
     },
     "profession": "SOCIAL SERVICE",
     "criminal_summary": {
-      "num_criminal_cases": 8,
+      "num_criminal_cases": 0,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
@@ -22728,23 +22851,12 @@
         "Election Offenses": 0,
         "Minor/Other": 0
       },
-      "count_source": "affidavit_partB_abstract",
+      "count_source": "extraction",
       "extracted_count": 0,
-      "source": "Manual-OCR-Audit:Affidavit-pages3-4-2026-06-08",
-      "extracted_at": "2026-05-27T03:43:04.869708+00:00",
-      "note": "Section 5 table (pages 3-4) defers all case details to Annexure-B. Annexure-B is absent from the 71-page digitised PDF \u2014 zero FIR/police-station markers found in OCR sweep of pages 5-68 (asset schedules). Part-B abstract (page 69) confirms pending=8, convicted=Nil. Per-case detail is genuinely unavailable from this scan."
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:25:42.646321+00:00"
     },
-    "criminal_details_pending": [
-      {
-        "fir_no": "N/A",
-        "sections": "N/A",
-        "description": "Case details unavailable \u2014 all 8 cases were deferred to Annexure-B (a separately-attached sheet where candidates list case details when the main affidavit table has insufficient space) in the affidavit, which is absent from the digitised PDF on record with the ECI.",
-        "category": "Minor/Other",
-        "page": 3,
-        "method": "Manual-OCR-Audit:Affidavit-pages3-4-2026-06-08",
-        "raw_text": "Section 5 table (pages 3-4): every field defers to \"Annexure-B\". Annexure-B absent from 71-page PDF. Part-B abstract (page 69) confirms pending=8, convicted=Nil."
-      }
-    ],
+    "criminal_details_pending": [],
     "criminal_details_convictions": [],
     "role": "Cabinet Minister",
     "ministries": [
@@ -22811,28 +22923,28 @@
     },
     "profession": "HOUSE WIFE",
     "criminal_summary": {
-      "num_criminal_cases": 5,
+      "num_criminal_cases": 4,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
         "Political/Protest": 4,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 0
       },
       "count_source": "extraction",
-      "extracted_count": 5,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:33:02.221676+00:00"
+      "extracted_count": 4,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:27:17.716923+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "79/2023",
-        "description": "Not Applicable",
+        "description": "Sections",
         "sections": "R/W 149 IPC",
-        "page": 9,
+        "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Not Applicable",
+        "raw_text": "FIR: 79/2023 | Desc: Sections",
         "category": "Political/Protest"
       },
       {
@@ -22861,15 +22973,6 @@
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.5000/2023 | Desc: Not Applicable",
         "category": "Political/Protest"
-      },
-      {
-        "fir_no": "7998-2093",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 13,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 7998-2093 | Desc: Not Applicable",
-        "category": "Minor/Other"
       }
     ],
     "criminal_details_convictions": [],
@@ -22931,38 +23034,47 @@
     },
     "profession": "REAL fSTATE",
     "criminal_summary": {
-      "num_criminal_cases": 2,
+      "num_criminal_cases": 3,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 1,
+        "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 3
       },
       "count_source": "extraction",
-      "extracted_count": 2,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:33:29.672302+00:00"
+      "extracted_count": 3,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:27:47.784984+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "152 of 2023",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
+        "fir_no": "30 of 2023",
+        "description": "Vedayapale Bazaar Police Station",
+        "sections": "Jayawada dated 04-10-2023",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 152 of 2023 | Desc: Not Applicable",
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 30 of 2023 | Desc: Vedayapale Bazaar Police Station",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "C No.420 OF 2024",
-        "description": "Assault",
-        "sections": "R/W 149 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C No.420 OF 2024 | Desc: Assault",
-        "category": "Political/Protest"
+        "fir_no": "152 of 2023",
+        "description": "Chinna of Dargamitta CB/2018",
+        "sections": "Police Station on the file",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 152 of 2023 | Desc: Chinna of Dargamitta CB/2018",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "216 of 2023",
+        "description": "No.3/RCO-CIU- address of Police on the file",
+        "sections": "",
+        "page": 4,
+        "method": "pdfplumber+LLM:gemma3:4b",
+        "raw_text": "FIR: 216 of 2023 | Desc: No.3/RCO-CIU- address of Police on the file",
+        "category": "Minor/Other"
       }
     ],
     "criminal_details_convictions": [],
@@ -23026,37 +23138,46 @@
     },
     "profession": "SL No Name OfThe Company GST No Name Of the Person VANVIA BAKERS VANVIA ORGANIC AND FERTILIZERS PRIVATE LTD VANIA CONSTRUCTION & A SEE INDURA REDDY VANVIA CONSTRUCTIONS & N SUAL CONSCIENC RPROJECTS PRIVATE LTD AACVBZB N SINDURA REDDY DIRECTORPRIVATE Designation PROPRIETOI TANAGING DIRECTOI MANAGING DIRECTOR DIRECTO N sindhun Reddy g Ventrile o ADVOCATE NCIARY Penukonda O Scanned with OKEN Scanner",
     "criminal_summary": {
-      "num_criminal_cases": 2,
+      "num_criminal_cases": 3,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
         "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 2
+        "Minor/Other": 3
       },
       "count_source": "extraction",
-      "extracted_count": 2,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:33:43.512105+00:00"
+      "extracted_count": 3,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:28:13.256918+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "76/2024",
-        "description": "Criminal case",
-        "sections": "PUTTAPARTHI",
+        "fir_no": "39/2024",
+        "description": "Case Under Investigation by Police",
+        "sections": "",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 76/2024 | Desc: Criminal case",
+        "raw_text": "FIR: 39/2024 | Desc: Case Under Investigation by Police",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "39/2024",
-        "description": "Conduct of press meet",
-        "sections": "R/W 34 IPC",
-        "page": 4,
+        "fir_no": "75/2024",
+        "description": "Case Under Investigation by Police",
+        "sections": "",
+        "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 39/2024 | Desc: Conduct of press meet",
+        "raw_text": "FIR: 75/2024 | Desc: Case Under Investigation by Police",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "76/2024",
+        "description": "Case Under Investigation by Police",
+        "sections": "",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 76/2024 | Desc: Case Under Investigation by Police",
         "category": "Minor/Other"
       }
     ],
@@ -23130,17 +23251,17 @@
       },
       "count_source": "extraction",
       "extracted_count": 1,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:34:01.368159+00:00"
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:28:30.945017+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Cr.No.166/2021",
-        "description": "abuse and beat complainant",
-        "sections": "U/S 323, R/W 34 LP.C",
+        "fir_no": "166/2021",
+        "description": "Abused the defacto complainant and her daughter and beat her with hands and legs in drunken condition",
+        "sections": "U/S 323 R/ 34 LP.C",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.166/2021 | Desc: abuse and beat complainant",
+        "raw_text": "FIR: 166/2021 | Desc: Abused the defacto complainant and her daughter and beat her with hands and legs in drunken condition",
         "category": "Serious/Violent"
       }
     ],
@@ -23204,28 +23325,46 @@
     },
     "profession": "a Business",
     "criminal_summary": {
-      "num_criminal_cases": 22,
+      "num_criminal_cases": 30,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 6,
-        "Corruption & Fraud": 1,
-        "Political/Protest": 13,
+        "Serious/Violent": 7,
+        "Corruption & Fraud": 0,
+        "Political/Protest": 15,
         "Election Offenses": 0,
-        "Minor/Other": 2
+        "Minor/Other": 8
       },
       "count_source": "extraction",
-      "extracted_count": 22,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-06-05T17:10:19.798599+00:00"
+      "extracted_count": 30,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:32:31.594107+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "Cr.No.167/2023",
-        "description": "Disobedience to order duly promulgated by public servant",
-        "sections": "Sec.188, 341 r/w 34 of IPC",
+        "description": "Anantapur II Town P.S.",
+        "sections": "Sec.188, 341 rlw 34 of IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.167/2023 | Desc: Disobedience to order duly promulgated by public servant",
+        "raw_text": "FIR: Cr.No.167/2023 | Desc: Anantapur II Town P.S.",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.244/2023",
+        "description": "Kadiri Town P.S.",
+        "sections": "Sec.143, 341, 188 149 of IPC",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.244/2023 | Desc: Kadiri Town P.S.",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.247/2023",
+        "description": "Kadiri Town P.S.",
+        "sections": "Sec.188, 341 rlw 34 of IPC",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.247/2023 | Desc: Kadiri Town P.S.",
         "category": "Political/Protest"
       },
       {
@@ -23248,102 +23387,129 @@
       },
       {
         "fir_no": "Cr.No.90/2023",
-        "description": "wrongful resistance; Act done by several persons in furtherance of common intention",
-        "sections": "147,148,324, 506 r/w 149 of IPC",
+        "description": "Occ. 147,148, a, 324, 506 r/w 149 of IPC; Sec.3(1)(r)(s) of SC, ST POA Act",
+        "sections": "r/w 149 of IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.90/2023 | Desc: wrongful resistance; Act done by several persons in furtherance of common intention",
-        "category": "Serious/Violent"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "rioting armed with deadly weapons",
-        "sections": "R/W 149 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: rioting armed with deadly weapons",
+        "raw_text": "FIR: Cr.No.90/2023 | Desc: Occ. 147,148, a, 324, 506 r/w 149 of IPC; Sec.3(1)(r)(s) of SC, ST POA Act",
         "category": "Political/Protest"
       },
       {
+        "fir_no": "Not Applicable",
+        "description": "rioting; armed with deadly weapons; attempt to murder; voluntarily causing hurt to dangerous servant from his duty",
+        "sections": "R/W IPC, etc.",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Not Applicable | Desc: rioting; armed with deadly weapons; attempt to murder; voluntarily causing hurt to dangerous servant from his duty",
+        "category": "Minor/Other"
+      },
+      {
         "fir_no": "88/2023",
-        "description": "Assault or criminal force to deter public",
+        "description": "Assault or criminal force to deter public, rioting; wrongful resistant",
         "sections": "Sec.147, 148, 353",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 88/2023 | Desc: Assault or criminal force to deter public",
+        "raw_text": "FIR: 88/2023 | Desc: Assault or criminal force to deter public, rioting; wrongful resistant",
         "category": "Political/Protest"
       },
       {
         "fir_no": "314/2022",
-        "description": "Rioting; wrongful resistant",
+        "description": "Disobedience to order duly promulgated by public servant",
         "sections": "Sec.341, 188,143",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 314/2022 | Desc: Rioting; wrongful resistant",
+        "raw_text": "FIR: 314/2022 | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Political/Protest"
       },
       {
         "fir_no": "279/2022",
-        "description": "Promoting enmity between two groups",
+        "description": "Promoting enmity between two groups; every act intended to insult the modesty of a guilty women",
         "sections": "Sec.153-A, 500, 506 r/w 149",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 279/2022 | Desc: Promoting enmity between two groups",
+        "raw_text": "FIR: 279/2022 | Desc: Promoting enmity between two groups; every act intended to insult the modesty of a guilty women",
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "Cr.No.242/2022",
+        "fir_no": "242/2022",
         "description": "Assault",
         "sections": "Sec.353 riw 34 of IPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.242/2022 | Desc: Assault",
+        "raw_text": "FIR: 242/2022 | Desc: Assault",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Cr.No.579/2021",
+        "fir_no": "579/2021",
         "description": "Disobedience to order duly promulgated by public servant",
         "sections": "Sec.504, 506, 509 Sec.188 of IPC rlw 34 IPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.579/2021 | Desc: Disobedience to order duly promulgated by public servant",
+        "raw_text": "FIR: 579/2021 | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "Cr.No.275/2021",
-        "description": "Act intended to insult the modesty of a women; Act done by several persons in furtherance of common intention.",
+        "fir_no": "275/2021",
+        "description": "Act done by several persons in furtherance of common intention.",
         "sections": "Sec.66- Sec.51(b), 54 Acts/Codes E, 67-A IT Act, DMA, 2005",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.275/2021 | Desc: Act intended to insult the modesty of a women; Act done by several persons in furtherance of common intention.",
+        "raw_text": "FIR: 275/2021 | Desc: Act done by several persons in furtherance of common intention.",
         "category": "Minor/Other"
       },
       {
         "fir_no": "Cr.No.243/2021",
         "description": "publishing or transmitting of material containing sexually explicit act in electronic form",
-        "sections": "R/W 149 IPC",
+        "sections": "",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.243/2021 | Desc: publishing or transmitting of material containing sexually explicit act in electronic form",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.188/2021",
+        "description": "publishing or transmitting of material containing sexually explicit act in electronic form",
+        "sections": "",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.188/2021 | Desc: publishing or transmitting of material containing sexually explicit act in electronic form",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Not applicable",
+        "fir_no": "Cr.No.73/2021",
+        "description": "publishing or transmitting of material containing sexually explicit act in electronic form",
+        "sections": "",
+        "page": 8,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.73/2021 | Desc: publishing or transmitting of material containing sexually explicit act in electronic form",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "79/2023",
         "description": "Disobedience to order duly promulgated by public servant",
-        "sections": "R/W 149 IPC",
+        "sections": "Sec.188 r/w 34 of IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Not applicable | Desc: Disobedience to order duly promulgated by public servant",
+        "raw_text": "FIR: 79/2023 | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Not applicable",
-        "description": "Being member of unlawful assembly",
-        "sections": "Sec.188, 143, 153-",
+        "fir_no": "51(b) of D.M.Act, 2005",
+        "description": "Act done by several persons in furtherance of common intention; Failure of an officer to perform the duty under the Act.",
+        "sections": "Sec.51(b) of D.M.Act, 2005",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Not applicable | Desc: Being member of unlawful assembly",
-        "category": "Political/Protest"
+        "raw_text": "FIR: 51(b) of D.M.Act, 2005 | Desc: Act done by several persons in furtherance of common intention; Failure of an officer to perform the duty under the Act.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "Cr.No.130/2020",
+        "description": "Punishment for criminal intimidation; Criminal trespass; voluntarily causing hurt by dangerous weapons or means; Act done by several persons in furtherance of common intention.",
+        "sections": "Sec.506, 447, 324 rlw 34 of IPC",
+        "page": 9,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.130/2020 | Desc: Punishment for criminal intimidation; Criminal trespass; voluntarily causing hurt by dangerous weapons or means; Act done by several persons in furtherance of common intention.",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "72/2021",
@@ -23365,56 +23531,83 @@
       },
       {
         "fir_no": "70/2019",
-        "description": "disobedience to order",
+        "description": "unlawful assembly",
         "sections": "Sec.188 of IPC",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 70/2019 | Desc: disobedience to order",
+        "raw_text": "FIR: 70/2019 | Desc: unlawful assembly",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Cr.No.38/2019",
+        "fir_no": "19",
         "description": "Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
         "sections": "Sec.285, 435, 188 riw 34 of IPC",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.38/2019 | Desc: Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
+        "raw_text": "FIR: 19 | Desc: Negligent conduct with respect to fire or combustible matter; mischief by fire or explosive substance with intent to cause damage to amount of one or ten rupees",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "Cr.No.38/2019",
+        "description": "Disobedience to order duly promulgated by public servant",
+        "sections": "Sec.285, 435, 188",
+        "page": 11,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: Cr.No.38/2019 | Desc: Disobedience to order duly promulgated by public servant",
         "category": "Political/Protest"
       },
       {
         "fir_no": "Cr.No.57/2018",
-        "description": "Punishment for voluntarily causing hurt; Punishment for criminal intimidation; Act done by several persons in furtherance of common intention",
+        "description": "Punishment for voluntarily causing hurt; Punishment for criminal intimidation",
         "sections": "Sec.323, 506 riw 34 of IPC",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.57/2018 | Desc: Punishment for voluntarily causing hurt; Punishment for criminal intimidation; Act done by several persons in furtherance of common intention",
+        "raw_text": "FIR: Cr.No.57/2018 | Desc: Punishment for voluntarily causing hurt; Punishment for criminal intimidation",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "Cr.No.120/2018",
-        "description": "Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment; and any magistrate empowered u/Sec.190 may order such an investigation as above mentioned",
-        "sections": "Sec.500, 506, 109 riw 34 of IPC, Sec.156(3) of Cr.P.C.",
+        "description": "Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment",
+        "sections": "Sec.500, 506, 109 rlw 34 of IPC and Sec.156(3) of Cr.P.C.",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.120/2018 | Desc: Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment; and any magistrate empowered u/Sec.190 may order such an investigation as above mentioned",
+        "raw_text": "FIR: Cr.No.120/2018 | Desc: Punishment for defamation; Punishment for criminal intimidation; punishment of abetment if the Act abetted is committed in consequence and where no express provision is made for its punishment",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "C.C.No.2/2003",
-        "description": "C.C.No.2/2003",
-        "sections": "Sec.120-B, 409, 419, 420, 467, 468, 471 of I.P.C. r/w Sec.13(2) and 1",
+        "description": "Sec.120-B, 409, 419, 420, 467, 468, 471 of I.P.C.",
+        "sections": "r/w Sec.13(2) and 1",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.No.2/2003 | Desc: C.C.No.2/2003",
-        "category": "Corruption & Fraud"
+        "raw_text": "FIR: C.C.No.2/2003 | Desc: Sec.120-B, 409, 419, 420, 467, 468, 471 of I.P.C.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "C.C.No.33/2007",
+        "description": "Sec.120-B, 411, 420, 467, 468, 471 r/w 511 of I.P.C.",
+        "sections": null,
+        "page": 12,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: C.C.No.33/2007 | Desc: Sec.120-B, 411, 420, 467, 468, 471 r/w 511 of I.P.C.",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "CRL.A.No.454/2016",
-        "description": "R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
-        "sections": "R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "description": "Convicted u/S.120-B, 420, 420 r/w 511, 471, 471 r/w 511 of 1.P.C.",
+        "sections": "R.I. for 3 years and fine of Rs.10,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.I. for 1 Year each and fine of Rs.25,000/-; R.I. for 5 years and fine of Rs.2,00,000/-; R.I. for 2 years and fine of Rs.1,00,000/-",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: CRL.A.No.454/2016 | Desc: R.I. for 5 years and fine of Rs.1,00,000/-; R.I. for 3 Years and fine of Rs.50,000/-; R.1. for 5 Years and fine of Rs.1,00,000/-; R.I. for 7 years and fine of Rs.5,00,000/- ; RI. for 7 years and fine of Rs.5,00,000/- and R.I. for 3 years and fine of Rs.50,000/-",
+        "raw_text": "FIR: CRL.A.No.454/2016 | Desc: Convicted u/S.120-B, 420, 420 r/w 511, 471, 471 r/w 511 of 1.P.C.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "CRL.A.No.1382/2017",
+        "description": "Not applicable",
+        "sections": "Not applicable",
+        "page": 13,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: CRL.A.No.1382/2017 | Desc: Not applicable",
         "category": "Minor/Other"
       }
     ],
@@ -23477,46 +23670,46 @@
     },
     "profession": "Agriculturist",
     "criminal_summary": {
-      "num_criminal_cases": 5,
+      "num_criminal_cases": 4,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 2,
+        "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 3
+        "Minor/Other": 4
       },
       "count_source": "extraction",
-      "extracted_count": 5,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T19:34:57.174713+00:00"
+      "extracted_count": 4,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-13T19:33:34.898493+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "79/2023",
-        "description": "investigation",
-        "sections": "188,286 IPC",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: investigation",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "224/2024",
-        "description": "investigation",
+        "fir_no": "42/2024",
+        "description": "Chinnamandem P.S.",
         "sections": "273/2023",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 224/2024 | Desc: investigation",
+        "raw_text": "FIR: 42/2024 | Desc: Chinnamandem P.S.",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "79/2023",
+        "description": "Mudivedu Police Station, Mudivedu, Annamayya District",
+        "sections": "",
+        "page": 3,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 79/2023 | Desc: Mudivedu Police Station, Mudivedu, Annamayya District",
         "category": "Minor/Other"
       },
       {
         "fir_no": "122/2021",
-        "description": "investigation",
-        "sections": "NIL",
+        "description": "Chinnamandem P.S., Chittoor Dist.",
+        "sections": "",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 122/2021 | Desc: investigation",
+        "raw_text": "FIR: 122/2021 | Desc: Chinnamandem P.S., Chittoor Dist.",
         "category": "Minor/Other"
       },
       {
@@ -23527,15 +23720,6 @@
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: NIL | Desc: Epidemic Disease Act",
         "category": "Minor/Other"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "attacked complainant and caused bleeding injuries",
-        "sections": "R/W 149 IPC",
-        "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: attacked complainant and caused bleeding injuries",
-        "category": "Political/Protest"
       }
     ],
     "criminal_details_convictions": [],
@@ -23608,19 +23792,19 @@
     },
     "profession": "POLITICIAN SOCIAL WORKER & BUSINESS",
     "criminal_summary": {
-      "num_criminal_cases": 16,
+      "num_criminal_cases": 17,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 4,
-        "Corruption & Fraud": 0,
+        "Corruption & Fraud": 1,
         "Political/Protest": 8,
-        "Election Offenses": 0,
-        "Minor/Other": 4
+        "Election Offenses": 1,
+        "Minor/Other": 3
       },
       "count_source": "extraction",
-      "extracted_count": 16,
-      "source": "VLM:gemma3:4b/ocr_text_v2",
-      "extracted_at": "2026-05-11T23:16:01.490004+00:00"
+      "extracted_count": 17,
+      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "extracted_at": "2026-06-14T05:01:39.113728+00:00"
     },
     "criminal_details_pending": [
       {
@@ -23634,26 +23818,26 @@
       },
       {
         "fir_no": "247/2023",
-        "description": "Prevention of committing any cognizable offence",
-        "sections": "151 Cr.P.C, 151 Cr.P.C. IPC",
+        "description": "Prevention of committing any cognizable offence.",
+        "sections": "151 Cr.P.C, 151 IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 247/2023 | Desc: Prevention of committing any cognizable offence",
+        "raw_text": "FIR: 247/2023 | Desc: Prevention of committing any cognizable offence.",
         "category": "Political/Protest"
       },
       {
         "fir_no": "204/2023",
-        "description": "Prevention of committing any cognizable offence",
-        "sections": "IPC",
+        "description": "Prevention of committing any cognizable offence.",
+        "sections": null,
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 204/2023 | Desc: Prevention of committing any cognizable offence",
+        "raw_text": "FIR: 204/2023 | Desc: Prevention of committing any cognizable offence.",
         "category": "Minor/Other"
       },
       {
         "fir_no": "181/2023",
         "description": "Unlawful assembly, obstruction of traffic, Public Peace and tranquility, conducting rally without permission",
-        "sections": "188, 341 r/w 34 IPC 151 Cr.P.C",
+        "sections": "188, 341 r/w 34 IPC 151 Cr.P.C.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 181/2023 | Desc: Unlawful assembly, obstruction of traffic, Public Peace and tranquility, conducting rally without permission",
@@ -23662,11 +23846,20 @@
       {
         "fir_no": "180/2023",
         "description": "Prevention of committing any cognizable offence",
-        "sections": "151 Cr.P.C",
+        "sections": "",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 180/2023 | Desc: Prevention of committing any cognizable offence",
-        "category": "Political/Protest"
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "179/2023",
+        "description": "Prevention of committing any cognizable offence",
+        "sections": "",
+        "page": 5,
+        "method": "OCR+LLM:gemma3:4b",
+        "raw_text": "FIR: 179/2023 | Desc: Prevention of committing any cognizable offence",
+        "category": "Election Offenses"
       },
       {
         "fir_no": "132/2023",
@@ -23697,29 +23890,29 @@
       },
       {
         "fir_no": "RC0372022A0015",
-        "description": "Criminal Conspiracy",
-        "sections": "120B IPC",
+        "description": "Criminal Conspiracy, obtaining undue advantage by public servant, private person giving undue advantage to public servant, abetment of offences",
+        "sections": "120B IPC Section 7,8&12 under PC ACT-1988 (as Amended in 2018)",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: RC0372022A0015 | Desc: Criminal Conspiracy",
-        "category": "Minor/Other"
+        "raw_text": "FIR: RC0372022A0015 | Desc: Criminal Conspiracy, obtaining undue advantage by public servant, private person giving undue advantage to public servant, abetment of offences",
+        "category": "Corruption & Fraud"
       },
       {
         "fir_no": "162/2022",
-        "description": "Obtaining undue advantage by public servant",
-        "sections": "120B IPC",
+        "description": "Prevention of committing any cognizable offence.",
+        "sections": "151 Cr.P.C.",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 162/2022 | Desc: Obtaining undue advantage by public servant",
-        "category": "Minor/Other"
+        "raw_text": "FIR: 162/2022 | Desc: Prevention of committing any cognizable offence.",
+        "category": "Political/Protest"
       },
       {
         "fir_no": "48/2022",
-        "description": "Causing obstruction of public servant",
+        "description": "Causing obstruction of public servant while discharging his duties and wrongful restraint",
         "sections": "341,353,506 r/w 34 IPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 48/2022 | Desc: Causing obstruction of public servant",
+        "raw_text": "FIR: 48/2022 | Desc: Causing obstruction of public servant while discharging his duties and wrongful restraint",
         "category": "Serious/Violent"
       },
       {
@@ -23733,11 +23926,11 @@
       },
       {
         "fir_no": "64/2019",
-        "description": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P",
+        "description": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P",
         "sections": "109, 379, 411 r/w 34",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 64/2019 | Desc: Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P",
+        "raw_text": "FIR: 64/2019 | Desc: Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P",
         "category": "Serious/Violent"
       },
       {
@@ -25798,11 +25991,11 @@
       },
       {
         "fir_no": "Crime No.166/2023",
-        "description": "Causing \u2013 hurt by act endangering life or personal safety of others",
+        "description": "Causing – hurt by act endangering life or personal safety of others",
         "sections": "IPC",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Crime No.166/2023 | Desc: Causing \u2013 hurt by act endangering life or personal safety of others",
+        "raw_text": "FIR: Crime No.166/2023 | Desc: Causing – hurt by act endangering life or personal safety of others",
         "category": "Minor/Other"
       },
       {
@@ -26636,7 +26829,7 @@
       {
         "fir_no": "18/2023",
         "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
-        "description": "Irregularities in decisions taken between 2014\u201319, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
+        "description": "Irregularities in decisions taken between 2014–19, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
         "sections": "166, 167, 409, 120B r/w 34 IPC; 13(1)(d) r/w 13(2) Prevention of Corruption Act 1988",
         "charges_framed": "No",
         "category": "Corruption & Fraud",
@@ -26726,7 +26919,7 @@
       {
         "fir_no": "230/2021",
         "police_station": "Avandalpet Police Station, Guntur District",
-        "description": "Spoke about the 2nd wave of Covid and about the N440K variant being 10\u201315 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh",
+        "description": "Spoke about the 2nd wave of Covid and about the N440K variant being 10–15 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh",
         "sections": "188, 505(1)(b), 505(2) IPC; 54 Disaster Management Act 2005",
         "charges_framed": "No",
         "category": "Political/Protest",
@@ -26786,7 +26979,7 @@
       {
         "fir_no": "1/2021",
         "police_station": "Nellimarla Police Station, Vizianagaram District",
-        "description": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3\u2013A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]",
+        "description": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3–A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]",
         "sections": "307, 326, 427, 503, 506, 323, 120B r/w 34 IPC; 3 Prevention of Damage to Public Property Act 1984",
         "charges_framed": "No",
         "category": "Serious/Violent",

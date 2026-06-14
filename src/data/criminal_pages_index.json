@@ -2323,35 +2323,36 @@
     },
     "ganta_srinivasa_rao": {
       "pdf": "ganta_srinivasa_rao.pdf",
-      "pdf_sha1": "4fc0cfbe771e381e064b6a075535d7f850c2384d",
-      "total_pages": 13,
+      "pdf_sha1": "19491fa1a60a1750de21761662343ff3db0569cb",
+      "total_pages": 25,
       "extraction_method": "tesseract",
       "pending_pages": [
-        3
+        5,
+        6
       ],
       "conviction_pages": [
-        4
+        22
       ],
-      "section_5_header_page": 3,
-      "section_6_header_page": 4,
-      "section_7_header_page": 6,
-      "pending_trigger_page": 3,
-      "conviction_trigger_page": 4,
+      "section_5_header_page": 5,
+      "section_6_header_page": 22,
+      "section_7_header_page": null,
+      "pending_trigger_page": 5,
+      "conviction_trigger_page": 22,
       "anchoring_method": {
-        "section_5": "fallback",
-        "section_6": "fallback",
-        "section_7": "fallback"
+        "section_5": "manual",
+        "section_6": "manual",
+        "section_7": "manual"
       },
-      "abstract_pending_count": null,
+      "abstract_pending_count": 1,
       "abstract_conviction_count": null,
-      "pending_table_style": null,
-      "conviction_table_style": null,
-      "pending_case_count_hint": null,
+      "pending_table_style": "style_1",
+      "conviction_table_style": "style_1",
+      "pending_case_count_hint": 1,
       "conviction_case_count_hint": null,
       "annexure_pages": [],
       "pending_from_annexure": false,
       "status": "ok",
-      "scan_seconds": 42.1
+      "scan_seconds": 0.0
     },
     "gali_bhanu_prakash": {
       "pdf": "gali_bhanu_prakash.pdf",

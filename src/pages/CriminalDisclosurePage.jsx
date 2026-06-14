@@ -154,7 +154,7 @@ export default function CriminalDisclosurePage() {
                 backgroundColor: 'var(--surface-container-high)',
                 borderBottom: '2px solid var(--outline-variant)',
               }}>
-                {['#', 'Category', 'FIR No.', 'Description', 'Sections'].map((h, i) => (
+                {['#', 'Category', 'FIR No.', 'Description', 'Sections', 'Court'].map((h, i) => (
                   <th key={h} style={{
                     padding: '0.65rem 0.85rem',
                     textAlign: i === 0 ? 'center' : 'left',
@@ -248,6 +248,17 @@ export default function CriminalDisclosurePage() {
                           color: 'var(--on-surface-variant)', lineHeight: 1.6,
                         }}>
                           {row.sections}
+                        </span>
+                      ) : (
+                        <span style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic', fontSize: '0.7rem' }}>—</span>
+                      )}
+                    </td>
+
+                    {/* Court */}
+                    <td style={{ padding: '0.7rem 0.85rem', lineHeight: 1.5 }}>
+                      {!isInvalid(row.court) ? (
+                        <span style={{ fontSize: '0.7rem', color: 'var(--on-surface-variant)' }}>
+                          {row.court}
                         </span>
                       ) : (
                         <span style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic', fontSize: '0.7rem' }}>—</span>
