@@ -8075,7 +8075,7 @@
     "name": "Kandula Durgesh",
     "constituency": "NIDADAVOLE",
     "party": "Janasena Party",
-    "criminal_cases": "26",
+    "criminal_cases": "10",
     "education": "completed M.A from Andhra University, Waltair",
     "dob": "Age: 64 (2024 Affidavits)",
     "image": "/candidate-images/kandula_durgesh.jpg",
@@ -8084,308 +8084,127 @@
     },
     "profession": "a SOCIAL SERVICE Politician",
     "criminal_summary": {
-      "num_criminal_cases": 32,
+      "num_criminal_cases": 10,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 2,
+        "Serious/Violent": 3,
         "Corruption & Fraud": 0,
-        "Political/Protest": 9,
+        "Political/Protest": 5,
         "Election Offenses": 0,
-        "Minor/Other": 21
+        "Minor/Other": 2
       },
-      "count_source": "extraction",
-      "extracted_count": 32,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
-      "extracted_at": "2026-06-12T10:14:24.827078+00:00"
+      "source": "manual:OCR-verified (Section 5, 10 cases)"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "79/2023",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
         "fir_no": "09/2020",
-        "description": "Unlawful assembly, Obstructing public servant, Assault or criminal force",
-        "sections": "R/W 143, 188, 353 r/w 149 IPC",
-        "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 09/2020 | Desc: Unlawful assembly, Obstructing public servant, Assault or criminal force",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "C.C.No. 324/2021",
-        "description": "Unlawful assembly, Obstructing public servant in discharge of public functions, Assault or criminal force to deter public servant from discharge of his duty, Every member of unlawful assembly guilty of offence committed in prosecution of common Object.",
-        "sections": "R/W 149 IPC",
-        "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.No. 324/2021 | Desc: Unlawful assembly, Obstructing public servant in discharge of public functions, Assault or criminal force to deter public servant from discharge of his duty, Every member of unlawful assembly guilty of offence committed in prosecution of common Object.",
-        "category": "Political/Protest"
+        "description": "Unlawful assembly; obstructing/assaulting a public servant in discharge of public functions.",
+        "sections": "Sections 143, 188, 353 r/w 149 IPC",
+        "police_station": "Two Town Crime PS, Kakinada",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 09/2020 of Two Town Crime PS, Kakinada",
+        "category": "Political/Protest",
+        "court": "C.C.No. 324/2021, 2nd Additional Judicial First Class Magistrate, Kakinada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "10/2020",
-        "description": "Rioting, Armed with deadly weapon, voluntarily causing hurt, Causing hurt by dangerous weapon, Every member of unlawful assembly guilty of offence committed in prosecution of common Object.",
-        "sections": "U/S 147, 148, 323, 324 r/w 149 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10/2020 | Desc: Rioting, Armed with deadly weapon, voluntarily causing hurt, Causing hurt by dangerous weapon, Every member of unlawful assembly guilty of offence committed in prosecution of common Object.",
-        "category": "Serious/Violent"
-      },
-      {
-        "fir_no": "C.C.No.1621/2022",
-        "description": "Rioting, Armed with deadly weapon, voluntarily causing hurt, Causing hurt by dangerous weapon, Every member of unlawful assembly guilty of offence committed in prosecution of common Object.",
-        "sections": "U/S 147, 148, 323, 324 r/w 149 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.No.1621/2022 | Desc: Rioting, Armed with deadly weapon, voluntarily causing hurt, Causing hurt by dangerous weapon, Every member of unlawful assembly guilty of offence committed in prosecution of common Object.",
-        "category": "Serious/Violent"
+        "description": "Rioting, armed with deadly weapon, voluntarily causing hurt.",
+        "sections": "Sections 147, 148, 323, 324 r/w 149 IPC",
+        "police_station": "Two Town Crime PS, Kakinada",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 10/2020 of Two Town Crime PS, Kakinada",
+        "category": "Serious/Violent",
+        "court": "C.C.No. 1621/2022, 2nd Additional Judicial First Class Magistrate, Kakinada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "11/2020",
-        "description": "Rioting, voluntarily causing hurt, criminal intimidation, criminal force to woman with intent to outrage her modesty, Extortion",
-        "sections": "R/W 149 IPC",
-        "page": 6,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 11/2020 | Desc: Rioting, voluntarily causing hurt, criminal intimidation, criminal force to woman with intent to outrage her modesty, Extortion",
-        "category": "Political/Protest"
+        "description": "Rioting; criminal intimidation; criminal force to a woman with intent to outrage her modesty; extortion.",
+        "sections": "Sections 147, 323, 506, 354, 384 r/w 149 IPC",
+        "police_station": "One Town PS, Kakinada",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 11/2020 of One Town PS, Kakinada",
+        "category": "Serious/Violent",
+        "court": "C.C.No. 1555/2021, 3rd Additional Judicial First Class Magistrate, Kakinada",
+        "court_source": "manual:OCR-verified"
+      },
+      {
+        "fir_no": "11/2020",
+        "description": "Rioting, armed with deadly weapon; voluntarily causing hurt to deter a public servant from discharge of duty.",
+        "sections": "Sections 147, 148, 323, 332 r/w 149 IPC",
+        "police_station": "Two Town Crime PS, Kakinada",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 11/2020 of Two Town Crime PS, Kakinada",
+        "category": "Serious/Violent",
+        "court": "C.C.No. 323/2021, 2nd Additional Judicial First Class Magistrate, Kakinada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "12/2020",
-        "description": "Rioting, Assault or criminal force to deter public servant from discharge of his duty, Acts done by several persons in furtherance of common intention.",
-        "sections": "U/S 147, 353, R/W 34 IPC",
-        "page": 8,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 12/2020 | Desc: Rioting, Assault or criminal force to deter public servant from discharge of his duty, Acts done by several persons in furtherance of common intention.",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "C.C.No.1135/2022",
-        "description": "Rioting, Assault or criminal force to deter public servant from discharge of his duty, Acts done by several persons in furtherance of common intention.",
-        "sections": "U/S 147, 353, R/W 34 IPC",
-        "page": 8,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.No.1135/2022 | Desc: Rioting, Assault or criminal force to deter public servant from discharge of his duty, Acts done by several persons in furtherance of common intention.",
-        "category": "Political/Protest"
+        "description": "Rioting; assault or criminal force to deter a public servant from discharge of duty.",
+        "sections": "Sections 147, 353 r/w 34 IPC",
+        "police_station": "One Town PS, Kakinada",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 12/2020 of One Town PS, Kakinada",
+        "category": "Political/Protest",
+        "court": "C.C.No. 1135/2022, 3rd Additional Judicial First Class Magistrate, Kakinada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "226/2021",
-        "description": "Good behavior",
-        "sections": "",
-        "page": 9,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 226/2021 | Desc: Good behavior",
-        "category": "Minor/Other"
+        "description": "Arrest to prevent commission of a cognizable offence. Cited as respondent and bound over for good behaviour for 6 months (M.C.No.68/2021, Tahsildar Kakinada Rural, 20.07.2021).",
+        "sections": "Section 151 Cr.P.C.",
+        "police_station": "Sarpavaram PS, Kakinada",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 226/2021 of Sarpavaram PS, Kakinada",
+        "category": "Political/Protest"
       },
       {
         "fir_no": "226/2015",
-        "description": "Defamation",
-        "sections": "R/W 34 IPC",
-        "page": 10,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 226/2015 | Desc: Defamation",
+        "description": "Defamation; acts by several persons in furtherance of common intention. (Under investigation.)",
+        "sections": "Section 500 r/w 34 IPC",
+        "police_station": "3 Town PS, Rajamahendravaram",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 226/2015 of 3 Town PS, Rajamahendravaram",
         "category": "Minor/Other"
       },
       {
         "fir_no": "51/2012",
-        "description": "False complaint given by third party i.e., attempt to suicide",
-        "sections": "U/S 309 IPC",
-        "page": 11,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 51/2012 | Desc: False complaint given by third party i.e., attempt to suicide",
+        "description": "Alleged attempt to suicide on a false complaint; dropped as Action Dropped by SP East Godavari (letter 16.04.2024).",
+        "sections": "Section 309 IPC",
+        "police_station": "3 Town PS, Rajamahendravaram",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 51/2012 of 3 Town PS, Rajamahendravaram",
         "category": "Minor/Other"
       },
       {
         "fir_no": "44/2017",
-        "description": "Unlawful assembly, Obstructing public servant in discharge of public functions",
-        "sections": "U/S 143,188 IPC",
-        "page": 12,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 44/2017 | Desc: Unlawful assembly, Obstructing public servant in discharge of public functions",
+        "description": "Unlawful assembly; obstructing a public servant. Referred as Mistake of Facts (letter 16.04.2024).",
+        "sections": "Sections 143, 188 IPC",
+        "police_station": "Bommuru PS, East Godavari",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 44/2017 of Bommuru PS, East Godavari",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "169/20",
-        "description": "Obstructing public servant",
-        "sections": "R/W 188, 336, 337, RIW 34 IPC",
-        "page": 13,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 169/20 | Desc: Obstructing public servant",
+        "fir_no": "169/2018",
+        "description": "Obstructing a public servant in discharge of public functions; endangering life/personal safety. Referred as Mistake of Facts.",
+        "sections": "Sections 188, 336, 337 r/w 34 IPC; Section 32 of Police Act 1861",
+        "police_station": "Dowleswaram PS, East Godavari",
+        "page": 0,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 169/2018 of Dowleswaram PS, East Godavari",
         "category": "Political/Protest"
-      },
-      {
-        "fir_no": "69/2018",
-        "description": "Causing life or Personal safety of others",
-        "sections": "32 PA 1861",
-        "page": 13,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 69/2018 | Desc: Causing life or Personal safety of others",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Cr.No.130/2020",
-        "description": "Offence Description",
-        "sections": "R/W 149 IPC",
-        "page": 16,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.130/2020 | Desc: Offence Description",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "AP39KZ3333",
-        "description": "Not Applicable",
-        "sections": "NOT APPLICABLE",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: AP39KZ3333 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs 27,50,000/-",
-        "description": "Not Applicable",
-        "sections": "Nil",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs 27,50,000/- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs. 3,43,400/-",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs. 3,43,400/- | Desc: Not Applicable",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "Rs, 3,34,600/-",
-        "description": "Not Applicable",
-        "sections": "NOT APPLICABLE",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs, 3,34,600/- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs. 4,90,000/-",
-        "description": "Not Applicable",
-        "sections": "Nil",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs. 4,90,000/- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs. 73,591 /-",
-        "description": "Not Applicable",
-        "sections": "NOT APPLICABLE",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs. 73,591 /- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs. 14,76,000/-",
-        "description": "Not Applicable",
-        "sections": "Nil",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs. 14,76,000/- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs. 3,55,00,000/-",
-        "description": "Not Applicable",
-        "sections": "NOT APPLICABLE",
-        "page": 17,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs. 3,55,00,000/- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "10,00,000/-",
-        "description": "Gold Loan",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10,00,000/- | Desc: Gold Loan",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "SB] Home Loan",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: SB] Home Loan",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "86,99,911/-",
-        "description": "SBI Houseing Loan",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 86,99,911/- | Desc: SBI Houseing Loan",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "15,25,266/-",
-        "description": "TOYOTA Financial Services",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 15,25,266/- | Desc: TOYOTA Financial Services",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "5,00,000/-",
-        "description": "K. Soma Sekhar",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 5,00,000/- | Desc: K. Soma Sekhar",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "40,00,000/-",
-        "description": "Ratnam Ayyappa",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 40,00,000/- | Desc: Ratnam Ayyappa",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "1,00,000/-",
-        "description": "Karatam Appaji",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 1,00,000/- | Desc: Karatam Appaji",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "1,01,979/-",
-        "description": "Sravanti Association",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 1,01,979/- | Desc: Sravanti Association",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "1,44,000/ afefm",
-        "description": "Rent Advance",
-        "sections": "NIL",
-        "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 1,44,000/ afefm | Desc: Rent Advance",
-        "category": "Minor/Other"
       }
     ],
     "criminal_details_convictions": [],
@@ -22116,7 +21935,7 @@
     "name": "Satya Kumar Yadav",
     "constituency": "DHARMAVARAM",
     "party": "BJP",
-    "criminal_cases": "8",
+    "criminal_cases": "0",
     "education": "completed Master of Business Administration from ITM, Chennai in 2013",
     "dob": "Age: 52 (2024 Affidavits)",
     "image": "/candidate-images/satya_kumar_yadav.jpg",
@@ -22125,157 +21944,18 @@
     },
     "profession": "Social Service and BJP National Secretary",
     "criminal_summary": {
-      "num_criminal_cases": 15,
+      "num_criminal_cases": 0,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 4,
+        "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 11
+        "Minor/Other": 0
       },
-      "count_source": "extraction",
-      "extracted_count": 15,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
-      "extracted_at": "2026-06-13T19:23:32.681075+00:00"
+      "source": "manual:OCR-verified (affidavit declares no cases)"
     },
-    "criminal_details_pending": [
-      {
-        "fir_no": "Not Applicable",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 3,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Not Applicable | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "79/2023",
-        "description": "Theft (S.378 IPC)",
-        "sections": "R/W 378 IPC",
-        "page": 4,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Theft (S.378 IPC)",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Cr.No.130/2020",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 5,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.130/2020 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "GB81HBUK401",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 5,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: GB81HBUK401 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "131601002396",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 5,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 131601002396 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "GB31HBUK4011929222998",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 5,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: GB31HBUK4011929222998 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "131601002408",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 5,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 131601002408 | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "TGO7 0077",
-        "description": "Hycross BSVI",
-        "sections": "",
-        "page": 6,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: TGO7 0077 | Desc: Hycross BSVI",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs.45,00,000/Loan to C.Srinivasa Rao",
-        "description": "Loan to C.Srinivasa Rao",
-        "sections": "",
-        "page": 6,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs.45,00,000/Loan to C.Srinivasa Rao | Desc: Loan to C.Srinivasa Rao",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs.34,50,000/Nature's Postures Agro Farms",
-        "description": "Nature's Postures Agro Farms",
-        "sections": "",
-        "page": 6,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs.34,50,000/Nature's Postures Agro Farms | Desc: Nature's Postures Agro Farms",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "1",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 1 | Desc: Not Applicable",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "2",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 2 | Desc: Not Applicable",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "3",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 3 | Desc: Not Applicable",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "Cr.No.131/2020",
-        "description": "Loan taken from B.Prasada Rao",
-        "sections": "R/W 149 IPC",
-        "page": 10,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.131/2020 | Desc: Loan taken from B.Prasada Rao",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "NIL",
-        "sections": "NIL",
-        "page": 11,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: NIL",
-        "category": "Minor/Other"
-      }
-    ],
+    "criminal_details_pending": [],
     "criminal_details_convictions": [],
     "role": "Cabinet Minister",
     "ministries": [
