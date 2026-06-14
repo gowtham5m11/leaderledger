@@ -700,49 +700,43 @@
         "Corruption & Fraud": 0,
         "Political/Protest": 3,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 0
       },
       "count_source": "abstract",
       "extracted_count": 4,
       "abstract_count": 3,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-12T09:15:27.286113+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "482/2020",
-        "description": "Violating govt orders on corona at rice mill",
-        "sections": "151 Cr.P.Con",
+        "description": "Protest on a farmers' issue causing traffic violation.",
+        "sections": "Sections 341, 283, 149 r/w 34 IPC",
+        "police_station": "Salur Town PS, Parvathipuram Manyam",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 482/2020 | Desc: Violating govt orders on corona at rice mill",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 482/2020 of Salur Town PS, Parvathipuram Manyam",
         "category": "Political/Protest"
       },
       {
         "fir_no": "227/2023",
-        "description": "Protest on farmers issue",
-        "sections": "188,269,270 IPC",
+        "description": "Protest on the arrest of Chandrababu Naidu.",
+        "sections": "Section 151 Cr.P.C.",
+        "police_station": "Salur Town PS, Parvathipuram",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 227/2023 | Desc: Protest on farmers issue",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 227/2023 of Salur Town PS, Parvathipuram",
         "category": "Political/Protest"
       },
       {
         "fir_no": "104/2021",
-        "description": "Protest on CBN",
-        "sections": "",
+        "description": "Violating Government Covid-19 orders at the rice mill of Pyla Sambasiva Rao.",
+        "sections": "Sections 188, 269, 270 IPC",
+        "police_station": "Kotananduru PS, Rowthulapadi Mandal",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 104/2021 | Desc: Protest on CBN",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "79/2023",
-        "description": "Assault",
-        "sections": "R/W 149 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Assault",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 104/2021 of Kotananduru PS, Rowthulapadi Mandal",
         "category": "Political/Protest"
       }
     ],
@@ -1664,31 +1658,23 @@
         "Corruption & Fraud": 0,
         "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 0
       },
       "count_source": "abstract",
       "extracted_count": 2,
       "abstract_count": 1,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-12T09:23:20.109328+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "31/2024",
-        "description": "Vizianagaram District Andhra Pradesh",
-        "sections": "",
+        "description": "Disobedience to an order duly promulgated by a public servant (registered 19.03.2024). Case not yet numbered.",
+        "sections": "Section 188 IPC",
+        "police_station": "Burjavalasa PS, Vizianagaram",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 31/2024 | Desc: Vizianagaram District Andhra Pradesh",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "188/2024",
-        "description": "Disobedience to order duly promulgated by a public servant",
-        "sections": "R/W 188 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 188/2024 | Desc: Disobedience to order duly promulgated by a public servant",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 31/2024 of Burjavalasa PS, Vizianagaram",
         "category": "Political/Protest"
       }
     ],
@@ -6359,7 +6345,7 @@
     "name": "Kolusu Partha Sarathy",
     "constituency": "NUZVID",
     "party": "TDP",
-    "criminal_cases": 3,
+    "criminal_cases": "3",
     "education": "completed 12th Pass from St. Joseph Junior College, Hyderabad",
     "dob": "18 April 1965",
     "image": "/candidate-images/kolusu_partha_sarathy.jpg",
@@ -6370,59 +6356,82 @@
     },
     "profession": "Business",
     "criminal_summary": {
-      "num_criminal_cases": 4,
-      "num_convictions": 0,
+      "num_criminal_cases": 3,
+      "num_convictions": 2,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 3,
-        "Election Offenses": 0,
-        "Minor/Other": 1
+        "Political/Protest": 2,
+        "Election Offenses": 1,
+        "Minor/Other": 0
       },
       "count_source": "extraction",
       "extracted_count": 4,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-12T09:57:56.373879+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "82/2016",
-        "description": "Criminal Case",
-        "sections": "R/W 33a of thell47,34 1,353,427 R/W 149 IPC",
+        "description": "Agitation for the release of water to agricultural farmers.",
+        "sections": "Sections 143, 188, 341 r/w 149 IPC",
+        "police_station": "Ghantasala PS, Krishna",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 82/2016 | Desc: Criminal Case",
-        "category": "Political/Protest"
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 82/2016 of Ghantasala PS, Krishna",
+        "category": "Political/Protest",
+        "court": "C.C No. 519/2019, Judicial First Class Magistrate, Movva",
+        "court_source": "manual:OCR-verified"
+      },
+      {
+        "fir_no": "N/A",
+        "description": "Election case.",
+        "sections": "Section 1/125A r/w Section 33A of the Representation of the People Act 1951 and Section 177 IPC",
+        "police_station": "(Election case - no FIR)",
+        "page": 3,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. N/A of (Election case - no FIR)",
+        "category": "Election Offenses",
+        "court": "C.C No. 156/2021, VI Metropolitan Magistrate Court cum VI Addl. Junior Civil Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "396/2015",
-        "description": "Criminal Case",
-        "sections": "R/W 149 IPC",
+        "description": "Dharna case.",
+        "sections": "Sections 147, 341, 353, 427 r/w 149 IPC; Section 32 of Indian Police Act",
+        "police_station": "Krishna",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 396/2015 | Desc: Criminal Case",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "CC.No.69/2002",
-        "description": "Sections of FERA Act 1973",
-        "sections": "Section 57 of FERA Act 1973",
-        "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: CC.No.69/2002 | Desc: Sections of FERA Act 1973",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Cr.No.99/2002",
-        "description": "FEMA act &49(30 .49(4)",
-        "sections": "R/W 149 IPC",
-        "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.99/2002 | Desc: FEMA act &49(30 .49(4)",
-        "category": "Political/Protest"
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 396/2015 of Krishna",
+        "category": "Political/Protest",
+        "court": "C.C No. 6/2016, Third Additional Chief Metropolitan Magistrate Court, Vijayawada",
+        "court_source": "manual:OCR-verified"
       }
     ],
-    "criminal_details_convictions": [],
+    "criminal_details_convictions": [
+      {
+        "fir_no": "C.C No. 69/2002",
+        "description": "Penalty for contravention of an order made by the Adjudicating Officer. Convicted 25.07.2012; fine Rs.5,000. Stay of sentence & conviction by Sessions/High Court; SLP pending before the Supreme Court.",
+        "sections": "Section 57 of FERA Act, 1973",
+        "court": "Special Economic Offences Court, Nampally, Hyderabad",
+        "court_source": "manual:OCR-verified",
+        "page": 4,
+        "method": "manual:OCR-verified",
+        "raw_text": "C.C No. 69/2002, Special Economic Offences Court, Nampally, Hyderabad",
+        "category": "Corruption & Fraud"
+      },
+      {
+        "fir_no": "C.C No. 99/2002",
+        "description": "Conditions not complied with by the person who acquires foreign exchange and others. Convicted 25.07.2012; two months simple imprisonment and fine Rs.10,000. Stay of sentence & conviction; SLP pending before the Supreme Court.",
+        "sections": "Sections 8(1) & 8(2), 56 of FERA Act and 49(3), 49(4) of FEMA Act",
+        "court": "Special Economic Offences Court, Nampally, Hyderabad",
+        "court_source": "manual:OCR-verified",
+        "page": 4,
+        "method": "manual:OCR-verified",
+        "raw_text": "C.C No. 99/2002",
+        "category": "Corruption & Fraud"
+      }
+    ],
     "role": "Cabinet Minister",
     "ministries": [
       {
@@ -14585,38 +14594,30 @@
     },
     "profession": "Consultation Social Service",
     "criminal_summary": {
-      "num_criminal_cases": 2,
+      "num_criminal_cases": 1,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 0,
+        "Serious/Violent": 1,
         "Corruption & Fraud": 0,
-        "Political/Protest": 1,
+        "Political/Protest": 0,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 0
       },
       "count_source": "extraction",
       "extracted_count": 2,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-13T18:23:47.204851+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "44/2014",
-        "description": "324, 225, 341, 120(b), 166, 167, 217, 218",
-        "sections": "t/w 34 IPC r/w 156(3)Cr PC",
+        "description": "During the Samaikya Andhra agitation. FIR referred as false; complainant's protest petition C.F.R.No.412/2015 was dismissed; appeal CRL.A.No.318/2018 pending before the XI Additional District & Sessions Judge Court, Tenali.",
+        "sections": "Sections 324, 225, 341, 120(b), 166, 167, 217, 218 r/w 34 IPC r/w 156(3) Cr.P.C.",
+        "police_station": "Tenali II Town PS, Guntur",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 44/2014 | Desc: 324, 225, 341, 120(b), 166, 167, 217, 218",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "79/2023",
-        "description": "Appeal/Application",
-        "sections": "R/W 149 IPC",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Appeal/Application",
-        "category": "Political/Protest"
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 44/2014 of Tenali II Town PS, Guntur",
+        "category": "Serious/Violent"
       }
     ],
     "criminal_details_convictions": [],
@@ -16382,35 +16383,38 @@
       },
       "count_source": "extraction",
       "extracted_count": 3,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-13T18:37:52.787690+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Cr.No.120/20",
-        "description": "false case on me and some others",
-        "sections": "U/s 341, 187, 188, 109, 209, 143 R/w 149 IPC",
+        "fir_no": "120/2023",
+        "description": "Agitation demanding the Government do justice in favour of the Amaranath family.",
+        "sections": "Sections 341, 143 r/w 149 IPC",
+        "police_station": "Cherukupalli PS, Bapatla",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.120/20 | Desc: false case on me and some others",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 120/2023 of Cherukupalli PS, Bapatla",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Cr.No.25/2020",
-        "description": "At the time of local body MPTC Arrest of Former CM Nara Chandra Babu Naidu garu",
-        "sections": "U/s 341, 143 R/w 149 IPC",
+        "fir_no": "25/2020",
+        "description": "Police foisted a false case regarding Alla Chowdary, MPTC candidate of Edupalli Village, Nagaram.",
+        "sections": "Sections 341, 187, 188, 109, 209, 143 r/w 149 IPC",
+        "police_station": "Nagaram PS, Bapatla",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.25/2020 | Desc: At the time of local body MPTC Arrest of Former CM Nara Chandra Babu Naidu garu",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 25/2020 of Nagaram PS, Bapatla",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "Cr.No.469/2023",
-        "description": "At the time of death of Uppala Aranath Gowd in the Hands of Police Officers of Nagaram PS Venkateswara Reddy and some Police Authorities at Savarigudem",
-        "sections": "U/s 151 CrPC",
+        "fir_no": "469/2023",
+        "description": "Detained under Section 151 Cr.P.C. at the time of the arrest of former CM Nara Chandrababu Naidu while travelling to Repalle.",
+        "sections": "Section 151 Cr.P.C.",
+        "police_station": "Gannavaram PS",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.469/2023 | Desc: At the time of death of Uppala Aranath Gowd in the Hands of Police Officers of Nagaram PS Venkateswara Reddy and some Police Authorities at Savarigudem",
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 469/2023 of Gannavaram PS",
         "category": "Political/Protest"
       }
     ],
@@ -18912,7 +18916,7 @@
     "name": "Nasyam Mohammed Farook",
     "constituency": "NANDYAL",
     "party": "TDP",
-    "criminal_cases": "3",
+    "criminal_cases": "0",
     "education": "completed Matriculation from Municipal High School, Nandyal",
     "dob": "15 May 1950",
     "image": "/candidate-images/nasyam_mohammed_farook.jpg",
@@ -18921,59 +18925,56 @@
     },
     "profession": "business Politics",
     "criminal_summary": {
-      "num_criminal_cases": 4,
-      "num_convictions": 0,
+      "num_criminal_cases": 0,
+      "num_convictions": 3,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
-        "Political/Protest": 1,
-        "Election Offenses": 3,
+        "Political/Protest": 0,
+        "Election Offenses": 0,
         "Minor/Other": 0
       },
       "count_source": "extraction",
       "extracted_count": 4,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-13T18:55:50.736355+00:00"
     },
-    "criminal_details_pending": [
+    "criminal_details_pending": [],
+    "criminal_details_convictions": [
       {
-        "fir_no": "79/2023",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Not Applicable",
+        "fir_no": "C.C No. 146/2015",
+        "description": "Rail-Roko call given by political parties (TDP, CPI, CPM) agitating against the increase in prices of LPG gas, petrol and diesel. Convicted 29-07-2016; fine of Rs.500 (default two months simple imprisonment); fine paid.",
+        "sections": "Section 174(a) of Railway Act",
+        "court": "Judicial First Class Magistrate for Railways, Guntur",
+        "court_source": "manual:OCR-verified",
+        "page": 5,
+        "method": "manual:OCR-verified",
+        "raw_text": "C.C No. 146/2015, Judicial First Class Magistrate for Railways, Guntur",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "C.C.146/2015",
-        "description": "Section 174 (a) Railway",
-        "sections": "Sec. 174(a) r/w 146",
+        "fir_no": "C.C No. 149/2015",
+        "description": "Rail-Roko call given by political parties (TDP, CPI, CPM) agitating against the increase in prices of LPG gas, petrol and diesel. Convicted 29-07-2016; fine of Rs.500 (default two months simple imprisonment); fine paid.",
+        "sections": "Section 174(a) r/w 147 of Railway Act",
+        "court": "Judicial First Class Magistrate for Railways, Guntur",
+        "court_source": "manual:OCR-verified",
         "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.146/2015 | Desc: Section 174 (a) Railway",
-        "category": "Election Offenses"
+        "method": "manual:OCR-verified",
+        "raw_text": "C.C No. 149/2015, Judicial First Class Magistrate for Railways, Guntur",
+        "category": "Political/Protest"
       },
       {
-        "fir_no": "C.C.149/2015",
-        "description": "Section 174 (a) Railway",
-        "sections": "Sec. 174(a) r/w 146 &",
+        "fir_no": "C.C No. 151/2015",
+        "description": "Rail-Roko call given by political parties (TDP, CPI, CPM) agitating against the increase in prices of LPG gas, petrol and diesel. Convicted 29-07-2016; fine of Rs.500 (default two months simple imprisonment); fine paid.",
+        "sections": "Section 174(a) r/w 146 & 147 of Railway Act",
+        "court": "Judicial First Class Magistrate for Railways, Guntur",
+        "court_source": "manual:OCR-verified",
         "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.149/2015 | Desc: Section 174 (a) Railway",
-        "category": "Election Offenses"
-      },
-      {
-        "fir_no": "C.C.151/2015",
-        "description": "Section 174 (a) Railway",
-        "sections": "Sec. 174(a) r/w 146 &",
-        "page": 5,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C.C.151/2015 | Desc: Section 174 (a) Railway",
-        "category": "Election Offenses"
+        "method": "manual:OCR-verified",
+        "raw_text": "C.C No. 151/2015, Judicial First Class Magistrate for Railways, Guntur",
+        "category": "Political/Protest"
       }
     ],
-    "criminal_details_convictions": [],
     "role": "Cabinet Minister",
     "ministries": [
       {
@@ -21239,7 +21240,7 @@
     "name": "Anam.Ramanarayana Reddy",
     "constituency": "ATMAKUR",
     "party": "TDP",
-    "criminal_cases": "2",
+    "criminal_cases": "1",
     "education": "completed Bachelor of Laws from Andhra University in 1975",
     "dob": "10 July 1952",
     "image": "/candidate-images/anam_ramanarayana_reddy.jpg",
@@ -21248,38 +21249,32 @@
     },
     "profession": "SeIfAGRICULTURIST",
     "criminal_summary": {
-      "num_criminal_cases": 2,
+      "num_criminal_cases": 1,
       "num_convictions": 0,
       "pending_by_category": {
         "Serious/Violent": 0,
         "Corruption & Fraud": 0,
         "Political/Protest": 1,
         "Election Offenses": 0,
-        "Minor/Other": 1
+        "Minor/Other": 0
       },
       "count_source": "extraction",
       "extracted_count": 2,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-13T19:13:55.715965+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Not Applicable",
-        "description": "",
-        "sections": "",
-        "page": 3,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Not Applicable | Desc: ",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "2L612023",
-        "description": "Disrupting the traffic",
-        "sections": "R/W 149 IPC",
+        "fir_no": "216/2023",
+        "description": "Disrupting the traffic.",
+        "sections": "Sections 143, 341 r/w 149 IPC",
+        "police_station": "Chinna Bazar PS, SPSR Nellore",
         "page": 4,
-        "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: 2L612023 | Desc: Disrupting the traffic",
-        "category": "Political/Protest"
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 216/2023 of Chinna Bazar PS, SPSR Nellore",
+        "category": "Political/Protest",
+        "court": "CC No. 553/2024, 2nd Additional Judicial Magistrate of First Class, Nellore",
+        "court_source": "manual:OCR-verified"
       }
     ],
     "criminal_details_convictions": [],
@@ -23585,56 +23580,72 @@
     },
     "profession": "Agriculturist",
     "criminal_summary": {
-      "num_criminal_cases": 4,
+      "num_criminal_cases": 5,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 0,
+        "Serious/Violent": 2,
         "Corruption & Fraud": 0,
-        "Political/Protest": 0,
-        "Election Offenses": 0,
-        "Minor/Other": 4
+        "Political/Protest": 2,
+        "Election Offenses": 1,
+        "Minor/Other": 0
       },
       "count_source": "extraction",
       "extracted_count": 4,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Section 5/6)",
       "extracted_at": "2026-06-13T19:33:34.898493+00:00"
     },
     "criminal_details_pending": [
       {
         "fir_no": "42/2024",
-        "description": "Chinnamandem P.S.",
-        "sections": "273/2023",
+        "description": "Alleged violation of a public servant's order during political activity (under investigation).",
+        "sections": "Sections 188, 286 IPC",
+        "police_station": "Chinnamandem PS, Annamayya",
         "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 42/2024 | Desc: Chinnamandem P.S.",
-        "category": "Minor/Other"
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 42/2024 of Chinnamandem PS, Annamayya",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "224/2024",
+        "description": "Alleged violation of orders and illegal payments in connection with an election (under investigation).",
+        "sections": "Sections 188, 171-H IPC",
+        "police_station": "Rayachoti UG PS, Annamayya",
+        "page": 3,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 224/2024 of Rayachoti UG PS, Annamayya",
+        "category": "Election Offenses"
+      },
+      {
+        "fir_no": "273/2023",
+        "description": "Alleged unlawful assembly and assault during a political clash (under investigation).",
+        "sections": "Sections 109, 147, 148, 353, 332, 324, 307, 120B r/w 149 IPC",
+        "police_station": "Punganur Urban PS, Chittoor",
+        "page": 3,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 273/2023 of Punganur Urban PS, Chittoor",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "79/2023",
-        "description": "Mudivedu Police Station, Mudivedu, Annamayya District",
-        "sections": "",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Mudivedu Police Station, Mudivedu, Annamayya District",
-        "category": "Minor/Other"
+        "description": "Alleged unlawful assembly armed with weapons causing injuries during a political clash (under investigation).",
+        "sections": "Sections 120B, 147, 148, 153, 307, 115, 109, 326, 324, 506 r/w 149 IPC",
+        "police_station": "Mudivedu PS, Annamayya",
+        "page": 4,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 79/2023 of Mudivedu PS, Annamayya",
+        "category": "Serious/Violent"
       },
       {
         "fir_no": "122/2021",
-        "description": "Chinnamandem P.S., Chittoor Dist.",
-        "sections": "",
-        "page": 3,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 122/2021 | Desc: Chinnamandem P.S., Chittoor Dist.",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "Epidemic Disease Act",
-        "sections": "LP.C. & Sec.3",
+        "description": "Alleged violation of Covid-19 orders.",
+        "sections": "Sections 188, 269 r/w Section 3 IPC and Section 3 of Epidemic Diseases Act, 1897",
+        "police_station": "Chinnamandem PS, Annamayya",
         "page": 4,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: Epidemic Disease Act",
-        "category": "Minor/Other"
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 122/2021 of Chinnamandem PS, Annamayya",
+        "category": "Political/Protest",
+        "court": "C.C No. 827/2022, Additional Judicial First Class Magistrate Court, Rayachoti",
+        "court_source": "manual:OCR-verified"
       }
     ],
     "criminal_details_convictions": [],
