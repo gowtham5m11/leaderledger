@@ -5049,10 +5049,10 @@
     },
     "profession": "Film Actor",
     "criminal_summary": {
-      "num_criminal_cases": 6,
+      "num_criminal_cases": 8,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 0,
+        "Serious/Violent": 2,
         "Corruption & Fraud": 0,
         "Political/Protest": 0,
         "Election Offenses": 0,
@@ -5071,7 +5071,9 @@
         "page": 26,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 712024 | Desc: IPC Sections 499,500,504 & 505",
-        "category": "Minor/Other"
+        "category": "Minor/Other",
+        "court": "C.C No. 2/2024, IV Addl. District & Sessions Judge, Guntur",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "1084/2023",
@@ -5080,7 +5082,9 @@
         "page": 26,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 1084/2023 | Desc: IPC Sections 499,500,504 & 505",
-        "category": "Minor/Other"
+        "category": "Minor/Other",
+        "court": "C.F No. 1084/2023, Principal Junior Civil Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "5991/2023",
@@ -5089,7 +5093,9 @@
         "page": 26,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 5991/2023 | Desc: IPC Sections 499,500,504 & 505",
-        "category": "Minor/Other"
+        "category": "Minor/Other",
+        "court": "C.C SR No. 5997/2023, II Addl. Junior Civil Judge, Eluru",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "246/2023",
@@ -5098,7 +5104,9 @@
         "page": 27,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 246/2023 | Desc: Speech in driving of driver A1, Provocative meeting alleged Pawan Kalyan",
-        "category": "Minor/Other"
+        "category": "Minor/Other",
+        "court": "Cr. No. 246/2023, II Addl. Junior Civil Judge, Eluru",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "405/2023",
@@ -5107,7 +5115,9 @@
         "page": 27,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 405/2023 | Desc: Speech in public as provocative seated in the rooftop meeting speech of the car. violated Motor Vehicle Rules",
-        "category": "Minor/Other"
+        "category": "Minor/Other",
+        "court": "Cr. No. 405/2023, II Addl. Chief Metropolitan Magistrate, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "817/2022",
@@ -5116,7 +5126,31 @@
         "page": 27,
         "method": "pdfplumber+LLM:gemma3:4b",
         "raw_text": "FIR: 817/2022 | Desc: Speech in driving of driver A1, Provocative meeting alleged Pawan Kalyan",
-        "category": "Minor/Other"
+        "category": "Minor/Other",
+        "court": "Cr. No. 817/2022, JFCM-cum-Addl. Junior Civil Judge, Mangalagiri",
+        "court_source": "manual:OCR-verified"
+      },
+      {
+        "fir_no": "118/2018",
+        "description": "Allegations against Sri K. Chandrasekhar Rao in a political public meeting.",
+        "sections": "Sections 153, 506 of IPC",
+        "police_station": "Thorrur PS, Thorrur, Telangana",
+        "page": 28,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 118/2018 of Thorrur PS, Thorrur, Telangana",
+        "category": "Serious/Violent",
+        "court": "C.C No. 486/2021, Junior Civil Judge, Thorrur, Mahaboobabad, Telangana",
+        "court_source": "manual:OCR-verified"
+      },
+      {
+        "fir_no": "367/2018",
+        "description": "Allegations against news channels.",
+        "sections": "Sections 504, 506, 469 of IPC",
+        "police_station": "Banjara Hills PS, Hyderabad",
+        "page": 28,
+        "method": "manual:OCR-verified",
+        "raw_text": "Cr. No. 367/2018 of Banjara Hills PS, Hyderabad",
+        "category": "Serious/Violent"
       }
     ],
     "criminal_details_convictions": [],
@@ -13209,370 +13243,251 @@
     },
     "profession": "Public Service",
     "criminal_summary": {
-      "num_criminal_cases": 39,
+      "num_criminal_cases": 23,
       "num_convictions": 0,
       "pending_by_category": {
-        "Serious/Violent": 2,
-        "Corruption & Fraud": 0,
-        "Political/Protest": 12,
+        "Serious/Violent": 4,
+        "Corruption & Fraud": 1,
+        "Political/Protest": 13,
         "Election Offenses": 0,
-        "Minor/Other": 25
+        "Minor/Other": 5
       },
       "count_source": "extraction",
       "extracted_count": 39,
-      "source": "VLM:gemma3:4b/ocr_text_v3",
+      "source": "manual:OCR-verified (Annexure-B, pages 21-28)",
       "extracted_at": "2026-06-13T18:15:16.862296+00:00"
     },
     "criminal_details_pending": [
       {
-        "fir_no": "79/2023",
-        "description": "Applicable",
-        "sections": "Applicable",
-        "page": 6,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "2248/-",
-        "description": "Not Applicable",
-        "sections": "Not Applicable",
-        "page": 6,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 2248/- | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "NIL",
-        "description": "Not Applicable",
-        "sections": "NIL",
-        "page": 6,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: Not Applicable",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "10037453",
-        "description": "Shares in Foods Limited",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10037453 | Desc: Shares in Foods Limited",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "4,30,952",
-        "description": "Shares in Foods Limited",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 4,30,952 | Desc: Shares in Foods Limited",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "27",
-        "description": "Reliance Power Limited",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 27 | Desc: Reliance Power Limited",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "10,000",
-        "description": "SBI Mutual Funds",
-        "sections": "",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10,000 | Desc: SBI Mutual Funds",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "64,13,153",
-        "description": "Vanguard 500 S&P ETF Units",
-        "sections": "",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 64,13,153 | Desc: Vanguard 500 S&P ETF Units",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "20,10,000",
-        "description": "Megabid Finance & Investment Private Limited Shares",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 20,10,000 | Desc: Megabid Finance & Investment Private Limited Shares",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "16,22,000",
-        "description": "Nirvana Holdings Private Limited Shares",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 16,22,000 | Desc: Nirvana Holdings Private Limited Shares",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "100",
-        "description": "Heritage Finlease Limited Shares",
-        "sections": "",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 100 | Desc: Heritage Finlease Limited Shares",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "33",
-        "description": "Heritage Finlease Limited Debentures",
-        "sections": "",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 33 | Desc: Heritage Finlease Limited Debentures",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "56075",
-        "description": "Limited Shares",
-        "sections": "R/W 149 IPC",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 56075 | Desc: Limited Shares",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "45",
-        "description": "Heritage Finlease Limited Debentures",
-        "sections": "",
-        "page": 7,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 45 | Desc: Heritage Finlease Limited Debentures",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "9039500",
-        "description": "NIL",
-        "sections": "Not Applicable",
-        "page": 10,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 9039500 | Desc: NIL",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "41562600",
-        "description": "NIL",
-        "sections": "Not Applicable",
-        "page": 10,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 41562600 | Desc: NIL",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "1725499",
-        "description": "NIL",
-        "sections": "Not Applicable",
-        "page": 10,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 1725499 | Desc: NIL",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs.12,50,00,000/-",
-        "description": "NIL",
-        "sections": "NIL",
-        "page": 12,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs.12,50,00,000/- | Desc: NIL",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs.7,67,71,025/-",
-        "description": "NIL",
-        "sections": "NIL",
-        "page": 12,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs.7,67,71,025/- | Desc: NIL",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Rs.20,17,71,025/-",
-        "description": "NIL",
-        "sections": "NIL",
-        "page": 12,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Rs.20,17,71,025/- | Desc: NIL",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "B",
-        "description": "Hand Loan from Sri. N Bala Krishna",
-        "sections": "Rs.16,19,986/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: B | Desc: Hand Loan from Sri. N Bala Krishna",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "C",
-        "description": "Rent Deposit from Craftsman Automation Limited",
-        "sections": "—Rs.17,21,520/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: C | Desc: Rent Deposit from Craftsman Automation Limited",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "D",
-        "description": "Hand Loan from Smt. N. Bhuvaneswari",
-        "sections": "—Rs.10,01,72,198/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: D | Desc: Hand Loan from Smt. N. Bhuvaneswari",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "E",
-        "description": "Rent Deposit from Heritage Foods Limited",
-        "sections": "—Rs.57,39,090/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: E | Desc: Rent Deposit from Heritage Foods Limited",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "F",
-        "description": "Rent Deposit from Heritage Nutrivet Limited",
-        "sections": "—Rs.3,36,798/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: F | Desc: Rent Deposit from Heritage Nutrivet Limited",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "G",
-        "description": "Rent Deposit from Heritage Noavndie Private Limited",
-        "sections": "—Rs.32,130/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: G | Desc: Rent Deposit from Heritage Noavndie Private Limited",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "H",
-        "description": "Payables, Sai Priya Developers",
-        "sections": "Rs.5,55,500/-",
-        "page": 14,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: H | Desc: Payables, Sai Priya Developers",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "Cr.No.130/2020",
-        "description": "Not Applicable",
-        "sections": "R/W 149 IPC",
-        "page": 15,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.130/2020 | Desc: Not Applicable",
-        "category": "Political/Protest"
-      },
-      {
-        "fir_no": "193 of F.LR. No.32 of 2023",
-        "description": "Dishonest intention : causing obstruction to free flow of traffic and disturbing public peace.",
-        "sections": "Sections 341, 427, 506, 188 r/w Section 34 of Indian Penal Code, 1860",
+        "fir_no": "193/2023",
+        "description": "Dishonest intention to create disturbances between two parties.",
+        "sections": "341, 427, 506, 188 r/w Section 34 of IPC, 1860",
+        "police_station": "Nallajerla PS, East Godavari",
         "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 193 of F.LR. No.32 of 2023 | Desc: Dishonest intention : causing obstruction to free flow of traffic and disturbing public peace.",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 193/2023 of Nallajerla PS, East Godavari",
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "8544/2013",
-        "description": "threatening with dire consequences.",
-        "sections": "R/W 149 IPC",
+        "fir_no": "32/2023",
+        "description": "Addressing speech to the gathered public, obstructing public official from performing legitimate duties and threatening with dire consequences.",
+        "sections": "143, 353, 506, 188 r/w Section 149 of IPC, 1860",
+        "police_station": "Gajula Mandyam PS, Tirupathi",
         "page": 21,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 8544/2013 | Desc: threatening with dire consequences.",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 32/2023 of Gajula Mandyam PS, Tirupathi",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "16/2023",
+        "description": "Conducting meeting without permission, violating orders of superior officers, causing obstruction to free flow of traffic and disturbing public peace.",
+        "sections": "188, 341, 290 r/w Section 34 of IPC, 1860",
+        "police_station": "S.R. Puram PS, Chittoor",
+        "page": 21,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 16/2023 of S.R. Puram PS, Chittoor",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "7 of 2023",
-        "description": "Conducting meeting without permission; violating orders of superior officers; causing obstruction to free flow of traffic and disturbing public peace.",
-        "sections": "Sections 188, 341, 290 r/w Section 34 of India Penal Code, 1860",
+        "fir_no": "7/2023",
+        "description": "Conducting meeting without permission, violating orders of superior officers, causing obstruction to free flow of traffic and disturbing public peace.",
+        "sections": "188, 341, 290 r/w Section 34 of IPC, 1860",
+        "police_station": "Narasingarayanipet PS, Chittoor",
         "page": 22,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 7 of 2023 | Desc: Conducting meeting without permission; violating orders of superior officers; causing obstruction to free flow of traffic and disturbing public peace.",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 7/2023 of Narasingarayanipet PS, Chittoor",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "20 of 2023",
-        "description": "Conducting public meeting without permission by using mike, sound system standing atop eicher vehicle on National Highway blocking entire road and movement of general public and free flow of traffic.",
-        "sections": "Sections 341, 188, 290 r/w Section 34 of Indian Penal Code, 1860",
+        "fir_no": "20/2023",
+        "description": "Conducting public meeting without permission, standing atop an eicher vehicle on the National Highway, blocking the road and movement of general public.",
+        "sections": "341, 188, 290 r/w Section 34 of IPC, 1860",
+        "police_station": "Palamaner Urban PS, Chittoor",
         "page": 22,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 20 of 2023 | Desc: Conducting public meeting without permission by using mike, sound system standing atop eicher vehicle on National Highway blocking entire road and movement of general public and free flow of traffic.",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 20/2023 of Palamaner Urban PS, Chittoor",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "16 of 2023",
-        "description": "Roaming in campaigning vehicles by keeping mike and loud speakers without having prior permission, causing annoyance and inconvenience to the general public by disobeying the orders of a public servant.",
-        "sections": "Sections 353, 290, 188, 341 r/w Section 34 of Indian Penal Code, 1860",
+        "fir_no": "16/2023",
+        "description": "Roaming in campaigning vehicles with mike and loud speakers without prior permission, causing annoyance and inconvenience to the public by disobeying orders of a public servant.",
+        "sections": "353, 290, 188, 341 r/w Section 34 of IPC, 1860",
+        "police_station": "Bangarupalem Urban PS, Chittoor",
         "page": 22,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 16 of 2023 | Desc: Roaming in campaigning vehicles by keeping mike and loud speakers without having prior permission, causing annoyance and inconvenience to the general public by disobeying the orders of a public servant.",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 16/2023 of Bangarupalem Urban PS, Chittoor",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "F.I.R. No.162 of 2022",
-        "description": "Preventive Arrest to avoid law and order problem in land disputes",
+        "fir_no": "162/2022",
+        "description": "Preventive arrest to avoid law and order problem in land disputes in Ullasapeta Village, Palasa Mandal.",
         "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "police_station": "Amadalavalasa PS, Srikakulam",
         "page": 23,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: F.I.R. No.162 of 2022 | Desc: Preventive Arrest to avoid law and order problem in land disputes",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 162/2022 of Amadalavalasa PS, Srikakulam",
         "category": "Political/Protest"
       },
       {
-        "fir_no": "F.I.R. No.161 of 2022",
-        "description": "Sections 341, 188 r/w Section 34 of Indian Penal Code, 1860",
-        "sections": "C.No.39/3/SCRB/CID/2024",
+        "fir_no": "161/2022",
+        "description": "Supported people in Ullasapeta Village, Palasa Mandal and involved in disputes and created a law and order problem.",
+        "sections": "341, 188 r/w Section 34 of IPC, 1860",
+        "police_station": "Amadalavalasa PS, Srikakulam",
         "page": 23,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: F.I.R. No.161 of 2022 | Desc: Sections 341, 188 r/w Section 34 of Indian Penal Code, 1860",
-        "category": "Minor/Other"
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 161/2022 of Amadalavalasa PS, Srikakulam",
+        "category": "Political/Protest"
       },
       {
-        "fir_no": "F.I.R. No.16 of 2022",
-        "description": "Sections 120B, 420, 34, 35, 36, 37, 166, 167 and 217 of Indian Penal Code, 1860",
-        "sections": "Section 13(2) r/w Section 13(1)(a) of Prevention of Corruption Act, 1988",
+        "fir_no": "16/2022",
+        "description": "Conspiracy while designing the Master Plan for the AP Capital region and the capital city and the alignment of the Inner Ring Road and its connected arterial roads to cause wrongful gain to certain persons.",
+        "sections": "120B, 420, 34, 35, 36, 37, 166, 167 and 217 of IPC, 1860; Section 13(2) r/w 13(1)(a) of Prevention of Corruption Act, 1988",
+        "police_station": "CID PS, A.P., Amaravathi, Mangalagiri",
         "page": 23,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: F.I.R. No.16 of 2022 | Desc: Sections 120B, 420, 34, 35, 36, 37, 166, 167 and 217 of Indian Penal Code, 1860",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 16/2022 of CID PS, A.P., Amaravathi, Mangalagiri",
+        "category": "Corruption & Fraud",
+        "court": "Court of the Special Judge for SPE & ACB Cases-cum-Additional Metropolitan Sessions Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
+      },
+      {
+        "fir_no": "75/2022",
+        "description": "Social media post on Twitter regarding the death of a girl child who died during a road show held by the Minister for Women & Child Welfare Smt. K.V. Ushasri Charan, provoking the public.",
+        "sections": "153A r/w Section 34 of IPC, 1860",
+        "police_station": "Kalyanadurgam PS, Ananthapur",
+        "page": 24,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 75/2022 of Kalyanadurgam PS, Ananthapur",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "75 of 2022",
-        "description": "Social media post regarding death of girl child",
-        "sections": "Section 153A r/w Section 34 of Indian Penal Code, 1860",
+        "fir_no": "651/2021",
+        "description": "Caught hold of the complainant and questioned about the identity of the complainant.",
+        "sections": "147, 148, 307, 323, 324, 342 r/w 149 IPC; 3(1)(r), 3(1)(s) of SC & ST (Prevention of Atrocities) Act, 1989",
+        "police_station": "Mangalagiri Rural PS, Guntur",
         "page": 24,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 75 of 2022 | Desc: Social media post regarding death of girl child",
-        "category": "Minor/Other"
-      },
-      {
-        "fir_no": "651 of 2021",
-        "description": "Sections 147, 148, 307, 332, 427, 323, 324, 342 r/w Section 149 of Indian Penal Code, 1860; Section 3(1)(r), 3(1)(s) of SC & ST Prevention of Atrocities Act, 1989",
-        "sections": "Sections 147, 148, 307, 332, 427, 323, 324, 342 r/w Section 149 of Indian Penal Code, 1860; Section 3(1)(r), 3(1)(s) of SC & ST Prevention of Atrocities Act, 1989",
-        "page": 24,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 651 of 2021 | Desc: Sections 147, 148, 307, 332, 427, 323, 324, 342 r/w Section 149 of Indian Penal Code, 1860; Section 3(1)(r), 3(1)(s) of SC & ST Prevention of Atrocities Act, 1989",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 651/2021 of Mangalagiri Rural PS, Guntur",
         "category": "Serious/Violent"
       },
       {
-        "fir_no": "665 of 2021",
-        "description": "Blocking National Highway at Varadhi Junction resulting in traffic congestion on the National Highway.",
-        "sections": "",
+        "fir_no": "665/2021",
+        "description": "Blocking the National Highway at Varadhi Junction resulting in traffic congestion on the National Highway.",
+        "sections": "341, 186, 269 r/w Section 34 of IPC, 1860",
+        "police_station": "Krishna Lanka PS, Vijayawada City",
         "page": 24,
-        "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 665 of 2021 | Desc: Blocking National Highway at Varadhi Junction resulting in traffic congestion on the National Highway.",
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 665/2021 of Krishna Lanka PS, Vijayawada City",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "448/2021",
+        "description": "Several persons belonging to Telugu Desam Party formed into an unlawful assembly, standing on the road obstructing free flow of traffic, gave slogans against the AP Government, resisted and obstructed duties of police.",
+        "sections": "341, 353, 147 r/w Section 149, 120B of IPC, 1860",
+        "police_station": "Old Guntur PS, Guntur",
+        "page": 25,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 448/2021 of Old Guntur PS, Guntur",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "447/2021",
+        "description": "Preventive arrest to control untoward incidents.",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "police_station": "Old Guntur PS, Guntur",
+        "page": 25,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 447/2021 of Old Guntur PS, Guntur",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "111/2021",
+        "description": "Tweet on social media platform Twitter pointing out the failure of Rayadurgam MLA Kapu Ramachandra Reddy.",
+        "sections": "153A, 505, 506 of IPC, 1860",
+        "police_station": "D.Hirehal PS, Ananthapur",
+        "page": 25,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 111/2021 of D.Hirehal PS, Ananthapur",
+        "category": "Serious/Violent"
+      },
+      {
+        "fir_no": "236/2020",
+        "description": "Driving a tractor in contravention to the provisions of the Motor Vehicle Act 1988 and without following social distancing norms during the Covid-19 period.",
+        "sections": "279 of IPC, 1860; Section 184 Motor Vehicle Act, 1988; Section 51(a) of Disaster Management Act, 2005 and Section 3 of Epidemic Diseases Act, 1897",
+        "police_station": "Akividu PS, West Godavari",
+        "page": 26,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 236/2020 of Akividu PS, West Godavari",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "511/2020",
+        "description": "Violated Covid-19 guidelines by not maintaining social/physical distance and shouting slogans.",
+        "sections": "188, 270 of IPC, 1860 and Section 3 of Epidemic Diseases Act, 1897",
+        "police_station": "Nandigama PS, Krishna",
+        "page": 26,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 511/2020 of Nandigama PS, Krishna",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "224/2020",
+        "description": "Gathering and holding a press meet in an area during the Covid-19 period where public gatherings were prohibited. (C.C.No.1658/2021 before I Addl. Jr. Civil Judge-cum-I Addl. Metropolitan Magistrate, Vijayawada was quashed vide Crl.P.No.9552 of 2022.)",
+        "sections": "188 r/w Section 34 of IPC, 1860; Section 3 of Epidemic Diseases Act, 1897",
+        "police_station": "Suryaraopet PS, Vijayawada, Krishna",
+        "page": 26,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 224/2020 of Suryaraopet PS, Vijayawada, Krishna",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "23/2020",
+        "description": "Preventive arrest. (Referred as Action Dropped on 08.01.2020.)",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "police_station": "Patamata PS, Vijayawada",
+        "page": 27,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 23/2020 of Patamata PS, Vijayawada",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "9/2020",
+        "description": "Preventive arrest to avoid any untoward incident and prevent commission of a cognizable offence. (Referred as action dropped on 07.01.2020.)",
+        "sections": "Section 151 of Code of Criminal Procedure, 1973",
+        "police_station": "Krishna Lanka PS, Vijayawada City",
+        "page": 27,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 9/2020 of Krishna Lanka PS, Vijayawada City",
+        "category": "Political/Protest"
+      },
+      {
+        "fir_no": "263/2019",
+        "description": "Social media post by unknown TDP activists criticizing CM Jagan Mohan Reddy and Minister for Water Resources S. Anil Kumar Yadav. (Name of Sri Nara Lokesh deleted after investigation; remaining accused acquitted on 14.08.2023.)",
+        "sections": "153, 505(2), 120b of IPC, 1860",
+        "police_station": "II Pamarru PS, Krishna",
+        "page": 27,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 263/2019 of II Pamarru PS, Krishna",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "222/2019",
+        "description": "Social media post by sympathizers of Telugu Desam Party criticizing Poluboyina Anil Kumar Yadav. (Chargesheet filed 14.05.2021; name of Sri Nara Lokesh deleted from accused list.)",
+        "sections": "505(2), 153, 120B r/w Section 34 of IPC, 1860",
+        "police_station": "Tiruvuru PS, Krishna",
+        "page": 28,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 222/2019 of Tiruvuru PS, Krishna",
+        "category": "Minor/Other"
+      },
+      {
+        "fir_no": "156/2019",
+        "description": "Social media post by TDP activists hurting the feelings of people belonging to the Yadava community.",
+        "sections": "120B, 153, 505(2) r/w Section 34 of IPC, 1860",
+        "police_station": "A. Konderu PS, Krishna",
+        "page": 28,
+        "method": "manual:OCR-verified (Annexure-B)",
+        "raw_text": "Cr. No. 156/2019 of A. Konderu PS, Krishna",
         "category": "Minor/Other"
       }
     ],
@@ -26884,7 +26799,9 @@
         "charges_framed": "No",
         "category": "Corruption & Fraud",
         "page": 19,
-        "method": "OCR:tesseract/manual-audit"
+        "method": "OCR:tesseract/manual-audit",
+        "court": "Court of the Special Judge for SPE & ACB Cases-cum-Additional Metropolitan Sessions Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "75/2022",
@@ -26904,7 +26821,9 @@
         "charges_framed": "No",
         "category": "Corruption & Fraud",
         "page": 19,
-        "method": "OCR:tesseract/manual-audit"
+        "method": "OCR:tesseract/manual-audit",
+        "court": "Court of the Special Judge for SPE & ACB Cases-cum-Additional Metropolitan Sessions Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "24/2021",
@@ -26914,7 +26833,9 @@
         "charges_framed": "No",
         "category": "Corruption & Fraud",
         "page": 20,
-        "method": "OCR:tesseract/manual-audit"
+        "method": "OCR:tesseract/manual-audit",
+        "court": "Court of the Special Judge for SPE & ACB Cases-cum-Additional Metropolitan Sessions Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "230/2021",
@@ -27004,7 +26925,9 @@
         "charges_framed": "No",
         "category": "Corruption & Fraud",
         "page": 23,
-        "method": "OCR:tesseract/manual-audit"
+        "method": "OCR:tesseract/manual-audit",
+        "court": "Court of the Special Judge for SPE & ACB Cases-cum-Additional Metropolitan Sessions Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "46/2020",
@@ -27024,7 +26947,9 @@
         "charges_framed": "No",
         "category": "Corruption & Fraud",
         "page": 23,
-        "method": "OCR:tesseract/manual-audit"
+        "method": "OCR:tesseract/manual-audit",
+        "court": "Court of the Special Judge for SPE & ACB Cases-cum-Additional Metropolitan Sessions Judge, Vijayawada",
+        "court_source": "manual:OCR-verified"
       },
       {
         "fir_no": "23/2020",
@@ -27054,7 +26979,9 @@
         "charges_framed": "No",
         "category": "Serious/Violent",
         "page": 24,
-        "method": "OCR:tesseract/manual-audit"
+        "method": "OCR:tesseract/manual-audit",
+        "court": "S.C. No. 7 of 2024, 1st Additional Sessions Judge, Biloli, Nanded District",
+        "court_source": "manual:OCR-verified"
       }
     ],
     "criminal_details_convictions": [],
