@@ -82,7 +82,6 @@ const CandidateProfile = ({ candidate: propCandidate, onBack }) => {
   const partyColor = partyColorVar(candidate.party);            // CSS var — auto-brightens YSRCP on dark
   const isTDP = candidate.party === 'TDP';
 
-  // Fallback for missing fields in leaders.json
   const displayImage = candidate.image ? getAssetPath(candidate.image) : `https://ui-avatars.com/api/?name=${encodeURIComponent(candidate.name)}&background=${partyHex.replace('#', '')}&color=fff&size=200`;
   const ministries = Array.isArray(candidate.ministries) ? candidate.ministries : [];
   const primaryMinistry = ministries[0] || null;

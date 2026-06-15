@@ -1,115 +1,85 @@
-# Python
+# ── Python ──────────────────────────────────────────────────────────────────
 .venv/
+venv/
+scraper_lab/venv/
 __pycache__/
 *.pyc
 *.pyo
 
-# Local-only directories
-inspo/
-
-scripts/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
+# ── Node / build ─────────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
+# ── Editor ───────────────────────────────────────────────────────────────────
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-venv/
-scraper_lab/venv/
-__pycache__/
-*.pyc
-scraper_lab/fast_scraper.py
-scraper_lab/get_sample_url.py
-inspo
-scripts/audit_data.py
-scripts/debug_duplicates.py
-scripts/extract_data.py
 
-src/data/candidates_backup.json
-scraper_lab/ocr_models/craft_mlt_25k.pth
-scraper_lab/ocr_models/english_g2.pth
-scraper_lab/alma_details.py
-.gitignore
-scraper_lab/cleanup_logic2.py
-scraper_lab/cleanup_json.py
-scraper_lab/fix_failed.py
-.gitignore
-.gitignore
-# Scraper Temp Files
-scraper_lab/.wdm/
-scraper_lab/chrome_user_data/
+# ── Firebase ─────────────────────────────────────────────────────────────────
+.firebase/
+
+# ── Internal docs & agent config (public repo — keep infra notes local) ──────
+.claude/
+docs/
+CLAUDE.md
+claude.md
+
+# ── Scripts (admin SDK tools — contain service-account paths, never commit) ──
+scripts/
+
+# ── Local-only / scratch files ───────────────────────────────────────────────
+inspo/
+scratch/
+scraper_lab/_*.py
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 scraper_lab/*.log
-scraper_lab/__pycache__/
-scraper_lab/debug_page.py
-.gitignore
-scraper_lab/find_item9.py
-scraper_lab/debug_pdf.py
-scraper_lab/check_pages.py
-public/ap_175_mlas.csv
+scraper_lab/overnight_report.md
+scraper_lab/_minister_run.txt
 scraper_lab/audit_log.txt
 
-# --- pipeline housekeeping (added during criminal-data accuracy work) ---
-# Timestamped data backups (lineage lives in git history)
-src/data/*.backup_pre_*.json
-src/data/*backup*.json
+# ── Pipeline: data backups (lineage lives in git history) ────────────────────
+src/data/candidates.backup_pre_*.json
+src/data/candidates_backup.json
 src/data/criminal_pages_index.backup*.json
-# Transient diff / partial / report artifacts
+public/data/news.json.bak_pre_fetch_*
+
+# ── Pipeline: transient diff / partial / review artifacts ────────────────────
 scraper_lab/changed*.json
 scraper_lab/*.partial.json.bak
 scraper_lab/*_rebuild*.log
-scraper_lab/overnight.log
-scraper_lab/overnight_report.md
 src/data/myneta_validation_report.json
 src/data/failed_extractions.json
 src/data/failed_extractions.jsonl
 src/data/needs_review_cases.json
-# Firebase Hosting CLI upload-skip cache (auto-generated)
-.firebase/
+overnight_report.md
 
-# Local agent settings & dev-only reference PDFs
-.claude/
+# ── Affidavit PDFs (large binaries, re-downloadable) ─────────────────────────
 scraper_lab/affidavits/
+scraper_lab/affidavit_*.pdf
 scraper_lab/affidavit_guidlines.pdf
 scraper_lab/affidavit_cases_styles.pdf
-CLAUDE.md
-claude.md
-# Split-out CLAUDE.md runbooks + dated archives — local-only, same as CLAUDE.md.
-# Repo is public; these hold internal infra/security notes. Carve out a public
-# doc later with e.g. `!docs/public-thing.md` if ever needed.
-docs/
 
-src/data/candidates.json.bak_pre_2019_merge_20260518T024904
-src/data/candidates.json.bak_pre_2019_merge_20260518T025320
+# ── OCR model weights ─────────────────────────────────────────────────────────
+scraper_lab/ocr_models/
 
-# News pipeline. news.json IS committed (Plan A — Firebase Spark plan,
-# no Storage). Only the in-flight backup files stay untracked.
-public/data/news.json.bak_pre_fetch_*
-src/data/candidates.json.bak_pre_dob_ministers_20260525T215602
-scratch/Scrape.py
+# ── Scraper browser caches ────────────────────────────────────────────────────
+scraper_lab/.wdm/
+scraper_lab/chrome_user_data/
 
-# minister criminal re-extract backups (2026-06-08)
-src/data/candidates.json.bak_pre_minister_extract_*
-scraper_lab/_minister_run.txt
-scraper_lab/minister_extract.log
-src/data/candidates.json.bak_pre_minister_improve_*
-src/data/candidates.json.bak_pre_holdout_manual_*
-src/data/candidates.json.bak_pre_electors_merge_20260615T171150
+# ── Misc tracked but should-be-local files ───────────────────────────────────
+public/ap_175_mlas.csv

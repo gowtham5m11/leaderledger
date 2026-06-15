@@ -7,19 +7,18 @@
 // SubmitAchievementModal.jsx ("Please use a news article or official
 // government website").
 //
-// NOTE — a few entries below are kept verbatim from the original spec but will
-// never match a real article hostname; flagged here so they can be corrected:
-//   • "hans india.com"     — contains a space; real host is `hansindia.com`.
-//   • "wire.in"            — The Wire publishes on `thewire.in`.
-//   • "timesofindia.com"   — TOI articles live on `timesofindia.indiatimes.com`.
-// They are harmless (they just won't ever match) but worth fixing before this
-// list is treated as authoritative.
 export const ALLOWED_DOMAINS = [
+  // Government & statutory
   'ap.gov.in', 'cag.gov.in', 'eci.gov.in',
+  // Promise/accountability trackers
+  'manifestowatch.in',
+  // National press
   'thehindu.com', 'deccanchronicle.com', 'ndtv.com',
-  'timesofindia.com', 'indianexpress.com', 'theprint.in',
-  'scroll.in', 'wire.in', 'sakshi.com', 'eenadu.net',
-  'andhrajyothy.com', 'hans india.com', 'newindianexpress.com',
+  'timesofindia.indiatimes.com', 'indianexpress.com', 'theprint.in',
+  'scroll.in', 'thewire.in',
+  // AP regional press
+  'sakshi.com', 'eenadu.net', 'andhrajyothy.com',
+  'hansindia.com', 'newindianexpress.com',
 ];
 
 // Pull the bare hostname out of a URL, lower-cased and without a leading
