@@ -197,7 +197,7 @@
   {
     "constituency_no": 14,
     "constituency_name": "Bobbili",
-    "electors": null,
+    "electors": 231232,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -207,12 +207,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Bobbili_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:01.028644+00:00"
+    "fetched_at": "2026-06-15T09:39:41.610939+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 15,
     "constituency_name": "Cheepurupalli",
-    "electors": null,
+    "electors": 205484,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -222,12 +223,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Cheepurupalli_Assembly_constituency",
     "caption": null,
-    "fetched_at": "2026-05-18T10:02:03.158322+00:00"
+    "fetched_at": "2026-06-15T09:39:56.013895+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 16,
     "constituency_name": "Gajapathinagaram",
-    "electors": null,
+    "electors": 206510,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -237,12 +239,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Gajapathinagaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:05.714966+00:00"
+    "fetched_at": "2026-06-15T09:56:50.687179+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 17,
     "constituency_name": "Nellimarla",
-    "electors": null,
+    "electors": 214986,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -252,12 +255,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Nellimarla_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:07.995064+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 18,
     "constituency_name": "Vizianagaram",
-    "electors": null,
+    "electors": 257205,
     "turnout_votes_wiki": 188807,
     "turnout_percent_wiki": 81.05,
     "votes_source": "turnout",
@@ -267,12 +271,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Vizianagaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Vizianagaram",
-    "fetched_at": "2026-05-18T10:02:09.899062+00:00"
+    "fetched_at": "2026-06-15T09:41:03.705040+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 19,
     "constituency_name": "Srungavarapukota",
-    "electors": null,
+    "electors": 223353,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -282,12 +287,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Srungavarapukota_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:12.184458+00:00"
+    "electors_source": "ceoap_2024",
+    "fetched_at": "2026-06-15T09:57:35.722275+00:00"
   },
   {
     "constituency_no": 20,
     "constituency_name": "Bhimili",
-    "electors": null,
+    "electors": 365862,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -297,12 +303,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Bheemili_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:14.233135+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 21,
     "constituency_name": "Visakhapatnam East",
-    "electors": null,
+    "electors": 292444,
     "turnout_votes_wiki": 203494,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -312,12 +319,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Visakhapatnam_East_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Visakhapatnam East",
-    "fetched_at": "2026-05-18T10:02:15.874201+00:00"
+    "fetched_at": "2026-06-15T09:42:24.703855+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 22,
     "constituency_name": "Visakhapatnam South",
-    "electors": null,
+    "electors": 216970,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -327,12 +335,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Visakhapatnam_South_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:17.194278+00:00"
+    "fetched_at": "2026-06-15T09:58:33.652610+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 23,
     "constituency_name": "Visakhapatnam North",
-    "electors": null,
+    "electors": 286016,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -342,12 +351,13 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Visakhapatnam_North_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:19.420583+00:00"
+    "fetched_at": "2026-06-15T09:42:44.948597+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 24,
     "constituency_name": "Visakhapatnam West",
-    "electors": null,
+    "electors": 213912,
     "turnout_votes_wiki": null,
     "turnout_percent_wiki": null,
     "votes_source": null,
@@ -357,7 +367,8 @@
     "validation_note": "missing turnout_votes",
     "source_url": "https://en.wikipedia.org/wiki/Visakhapatnam_West_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election :",
-    "fetched_at": "2026-05-18T10:02:21.053625+00:00"
+    "electors_source": "ceoap_2024",
+    "fetched_at": "2026-06-15T10:48:37.216747+00:00"
   },
   {
     "constituency_no": 25,
@@ -377,7 +388,7 @@
   {
     "constituency_no": 26,
     "constituency_name": "Chodavaram",
-    "electors": null,
+    "electors": 218095,
     "turnout_votes_wiki": 185741,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -387,12 +398,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Chodavaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Chodavaram",
-    "fetched_at": "2026-05-18T10:02:24.878506+00:00"
+    "fetched_at": "2026-06-15T09:43:20.050144+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 27,
     "constituency_name": "Madugula",
-    "electors": null,
+    "electors": 189560,
     "turnout_votes_wiki": 165221,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -402,12 +414,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Madugula_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Madugula",
-    "fetched_at": "2026-05-18T10:02:26.894659+00:00"
+    "electors_source": "ceoap_2024",
+    "fetched_at": "2026-06-15T10:49:01.464344+00:00"
   },
   {
     "constituency_no": 28,
     "constituency_name": "Araku Valley",
-    "electors": null,
+    "electors": 246452,
     "turnout_votes_wiki": 178852,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -417,12 +430,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Araku_Valley_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Araku Valley",
-    "fetched_at": "2026-05-18T10:02:28.525567+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 29,
     "constituency_name": "Paderu",
-    "electors": null,
+    "electors": 248473,
     "turnout_votes_wiki": 161160,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -432,12 +446,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Paderu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Paderu",
-    "fetched_at": "2026-05-18T10:02:30.505958+00:00"
+    "fetched_at": "2026-06-15T09:59:57.864967+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 30,
     "constituency_name": "Anakapalle",
-    "electors": null,
+    "electors": 213714,
     "turnout_votes_wiki": 172778,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -447,12 +462,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Anakapalli_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Anakapalli",
-    "fetched_at": "2026-05-18T10:02:32.322123+00:00"
+    "fetched_at": "2026-06-15T10:00:14.909344+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 31,
     "constituency_name": "Pendurthi",
-    "electors": null,
+    "electors": 308023,
     "turnout_votes_wiki": 230144,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -462,12 +478,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pendurthi_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pendurthi",
-    "fetched_at": "2026-05-18T10:02:34.531131+00:00"
+    "fetched_at": "2026-06-15T10:00:19.062612+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 32,
     "constituency_name": "Elamanchili",
-    "electors": null,
+    "electors": 206394,
     "turnout_votes_wiki": 179427,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -477,12 +494,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Elamanchili_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Elamanchili",
-    "fetched_at": "2026-05-18T10:02:36.347165+00:00"
+    "fetched_at": "2026-06-15T09:45:11.769804+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 33,
     "constituency_name": "Payakaraopet",
-    "electors": null,
+    "electors": 251185,
     "turnout_votes_wiki": 207486,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -492,12 +510,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Payakaraopet_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Payakaraopet",
-    "fetched_at": "2026-05-18T10:02:37.634262+00:00"
+    "fetched_at": "2026-06-15T09:45:32.523171+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 34,
     "constituency_name": "Narsipatnam",
-    "electors": null,
+    "electors": 212362,
     "turnout_votes_wiki": 182866,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -507,12 +526,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Narsipatnam_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Narsipatnam",
-    "fetched_at": "2026-05-18T10:02:39.437650+00:00"
+    "fetched_at": "2026-06-15T09:45:57.821912+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 35,
     "constituency_name": "Tuni",
-    "electors": null,
+    "electors": 224702,
     "turnout_votes_wiki": 184592,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -522,12 +542,13 @@
     "validation_note": "diff_incl=-4853 diff_excl=-1419",
     "source_url": "https://en.wikipedia.org/wiki/Tuni_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tuni",
-    "fetched_at": "2026-05-18T10:02:41.246963+00:00"
+    "fetched_at": "2026-06-15T10:49:03.564795+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 36,
     "constituency_name": "Prathipadu",
-    "electors": null,
+    "electors": 217267,
     "turnout_votes_wiki": 176485,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -537,12 +558,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Prathipadu,_Kakinada_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Prathipadu",
-    "fetched_at": "2026-05-18T10:02:43.247910+00:00"
+    "fetched_at": "2026-06-15T09:46:06.804992+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 37,
     "constituency_name": "Pithapuram",
-    "electors": null,
+    "electors": 236409,
     "turnout_votes_wiki": 207169,
     "turnout_percent_wiki": 86.63,
     "votes_source": "turnout",
@@ -552,12 +574,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pithapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pithapuram",
-    "fetched_at": "2026-05-18T10:02:44.547167+00:00"
+    "fetched_at": "2026-06-15T09:46:21.134205+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 38,
     "constituency_name": "Kakinada Rural",
-    "electors": null,
+    "electors": 269330,
     "turnout_votes_wiki": 206439,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -567,12 +590,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kakinada_Rural_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kakinada Rural",
-    "fetched_at": "2026-05-18T10:02:46.728023+00:00"
+    "fetched_at": "2026-06-15T09:46:43.681741+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 39,
     "constituency_name": "Peddapuram",
-    "electors": null,
+    "electors": 215205,
     "turnout_votes_wiki": 178849,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -582,12 +606,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Peddapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Peddapuram",
-    "fetched_at": "2026-05-18T10:02:48.367752+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 40,
     "constituency_name": "Anaparthy",
-    "electors": null,
+    "electors": 226103,
     "turnout_votes_wiki": 196754,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -597,12 +622,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Anaparthy_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Anaparthy",
-    "fetched_at": "2026-05-18T10:02:49.659611+00:00"
+    "fetched_at": "2026-06-15T10:00:46.056275+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 41,
     "constituency_name": "Kakinada City",
-    "electors": null,
+    "electors": 241697,
     "turnout_votes_wiki": 177184,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -612,12 +638,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kakinada_City_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kakinada City",
-    "fetched_at": "2026-05-18T10:02:51.446997+00:00"
+    "fetched_at": "2026-06-15T10:49:30.482969+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 42,
     "constituency_name": "Ramachandrapuram",
-    "electors": null,
+    "electors": 203341,
     "turnout_votes_wiki": 175388,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -627,12 +654,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Ramachandrapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Ramachandrapuram",
-    "fetched_at": "2026-05-18T10:02:53.104521+00:00"
+    "fetched_at": "2026-06-15T10:03:09.251326+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 43,
     "constituency_name": "Mummidivaram",
-    "electors": null,
+    "electors": 245294,
     "turnout_votes_wiki": 207321,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -642,12 +670,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Mummidivaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Mummidivaram",
-    "fetched_at": "2026-05-18T10:02:55.188931+00:00"
+    "fetched_at": "2026-06-15T10:49:45.539229+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 44,
     "constituency_name": "Amalapuram",
-    "electors": null,
+    "electors": 213508,
     "turnout_votes_wiki": 177636,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -657,12 +686,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Amalapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Amalapuram",
-    "fetched_at": "2026-05-18T10:02:57.257792+00:00"
+    "fetched_at": "2026-06-15T10:50:03.251345+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 45,
     "constituency_name": "Razole",
-    "electors": null,
+    "electors": 197920,
     "turnout_votes_wiki": 158840,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -672,12 +702,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Razole_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Razole",
-    "fetched_at": "2026-05-18T10:02:59.034780+00:00"
+    "fetched_at": "2026-06-15T09:48:41.364491+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 46,
     "constituency_name": "Gannavaram",
-    "electors": null,
+    "electors": 198602,
     "turnout_votes_wiki": 168202,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -687,12 +718,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Gannavaram,_Konaseema_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Gannavaram",
-    "fetched_at": "2026-05-18T10:03:00.588294+00:00"
+    "fetched_at": "2026-06-15T10:50:30.260014+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 47,
     "constituency_name": "Kothapeta",
-    "electors": null,
+    "electors": 252383,
     "turnout_votes_wiki": 217629,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -702,12 +734,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kothapeta_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kothapeta",
-    "fetched_at": "2026-05-18T10:03:02.201447+00:00"
+    "fetched_at": "2026-06-15T10:50:48.204290+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 48,
     "constituency_name": "Mandapeta",
-    "electors": null,
+    "electors": 220494,
     "turnout_votes_wiki": 194046,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -717,12 +750,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Mandapeta_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Mandapeta",
-    "fetched_at": "2026-05-18T10:03:03.775617+00:00"
+    "fetched_at": "2026-06-15T10:51:00.521501+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 49,
     "constituency_name": "Rajanagaram",
-    "electors": null,
+    "electors": 216185,
     "turnout_votes_wiki": 190938,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -732,12 +766,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Rajanagaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rajanagaram",
-    "fetched_at": "2026-05-18T10:03:05.539182+00:00"
+    "electors_source": "ssr_2025",
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00"
   },
   {
     "constituency_no": 50,
     "constituency_name": "Rajahmundry City",
-    "electors": null,
+    "electors": 267484,
     "turnout_votes_wiki": 182151,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -747,12 +782,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Rajahmundry_City_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rajahmundry City",
-    "fetched_at": "2026-05-18T10:03:07.273935+00:00"
+    "fetched_at": "2026-06-15T09:50:07.592544+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 51,
     "constituency_name": "Rajahmundry Rural",
-    "electors": null,
+    "electors": 272942,
     "turnout_votes_wiki": 199219,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -762,12 +798,13 @@
     "validation_note": "diff_incl=-2839 diff_excl=-140",
     "source_url": "https://en.wikipedia.org/wiki/Rajahmundry_Rural_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rajahmundry Rural",
-    "fetched_at": "2026-05-18T10:03:09.276612+00:00"
+    "fetched_at": "2026-06-15T10:58:58.978863+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 52,
     "constituency_name": "Jaggampeta",
-    "electors": null,
+    "electors": 230404,
     "turnout_votes_wiki": 193979,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -777,12 +814,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Jaggampeta_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Jaggampeta",
-    "fetched_at": "2026-05-18T10:03:10.551593+00:00"
+    "electors_source": "ssr_2025",
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00"
   },
   {
     "constituency_no": 53,
     "constituency_name": "Rampachodavaram",
-    "electors": null,
+    "electors": 277537,
     "turnout_votes_wiki": 210508,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -792,12 +830,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Rampachodavaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rampachodavaram",
-    "fetched_at": "2026-05-18T10:03:12.733928+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 54,
     "constituency_name": "Kovvur",
-    "electors": null,
+    "electors": 184245,
     "turnout_votes_wiki": 159111,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -807,12 +846,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kovvur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kovvur",
-    "fetched_at": "2026-05-18T10:03:14.394401+00:00"
+    "fetched_at": "2026-06-15T10:59:50.175146+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 55,
     "constituency_name": "Nidadavole",
-    "electors": null,
+    "electors": 213110,
     "turnout_votes_wiki": 182503,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -822,12 +862,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nidadavole_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nidadavole",
-    "fetched_at": "2026-05-18T10:03:16.278366+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 56,
     "constituency_name": "Achanta",
-    "electors": null,
+    "electors": 180110,
     "turnout_votes_wiki": 150541,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -837,12 +878,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Achanta_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Achanta",
-    "fetched_at": "2026-05-18T10:03:18.264003+00:00"
+    "fetched_at": "2026-06-15T10:06:20.389294+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 57,
     "constituency_name": "Palakollu",
-    "electors": null,
+    "electors": 195146,
     "turnout_votes_wiki": 163213,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -852,12 +894,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Palakollu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Palakollu",
-    "fetched_at": "2026-05-18T10:03:21.204490+00:00"
+    "fetched_at": "2026-06-15T11:00:16.749367+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 58,
     "constituency_name": "Narasapuram",
-    "electors": null,
+    "electors": 170521,
     "turnout_votes_wiki": 145418,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -867,12 +910,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Narasapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Narasapuram",
-    "fetched_at": "2026-05-18T10:03:22.942620+00:00"
+    "fetched_at": "2026-06-15T10:06:43.166230+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 59,
     "constituency_name": "Bhimavaram",
-    "electors": null,
+    "electors": 253201,
     "turnout_votes_wiki": 203983,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -882,12 +926,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Bhimavaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Bhimavaram",
-    "fetched_at": "2026-05-18T10:03:24.452948+00:00"
+    "fetched_at": "2026-06-15T11:00:48.418866+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 60,
     "constituency_name": "Undi",
-    "electors": null,
+    "electors": 224831,
     "turnout_votes_wiki": 195472,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -897,12 +942,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Undi_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Undi",
-    "fetched_at": "2026-05-18T10:03:25.879622+00:00"
+    "fetched_at": "2026-06-15T10:07:14.136558+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 61,
     "constituency_name": "Tanuku",
-    "electors": null,
+    "electors": 234677,
     "turnout_votes_wiki": 194768,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -912,12 +958,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Tanuku_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tanuku",
-    "fetched_at": "2026-05-18T10:03:27.253400+00:00"
+    "fetched_at": "2026-06-15T10:07:42.282308+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 62,
     "constituency_name": "Tadepalligudem",
-    "electors": null,
+    "electors": 215325,
     "turnout_votes_wiki": 175990,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -927,12 +974,13 @@
     "validation_note": "diff_incl=-2059 diff_excl=-525",
     "source_url": "https://en.wikipedia.org/wiki/Tadepalligudem_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tadepalligudem",
-    "fetched_at": "2026-05-18T10:03:28.577937+00:00"
+    "fetched_at": "2026-06-15T10:07:50.209963+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 63,
     "constituency_name": "Unguturu",
-    "electors": null,
+    "electors": 206634,
     "turnout_votes_wiki": 182623,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -942,12 +990,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Unguturu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Unguturu",
-    "fetched_at": "2026-05-18T10:03:29.886747+00:00"
+    "fetched_at": "2026-06-15T11:01:06.678783+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 64,
     "constituency_name": "Denduluru",
-    "electors": null,
+    "electors": 224114,
     "turnout_votes_wiki": 194666,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -957,12 +1006,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Denduluru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Denduluru",
-    "fetched_at": "2026-05-18T10:03:31.433637+00:00"
+    "fetched_at": "2026-06-15T10:08:21.492630+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 65,
     "constituency_name": "Eluru",
-    "electors": null,
+    "electors": 235464,
     "turnout_votes_wiki": 166257,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -972,12 +1022,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Eluru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Eluru",
-    "fetched_at": "2026-05-18T10:03:32.716960+00:00"
+    "fetched_at": "2026-06-15T10:08:27.329723+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 66,
     "constituency_name": "Gopalapuram",
-    "electors": null,
+    "electors": 242853,
     "turnout_votes_wiki": 208237,
     "turnout_percent_wiki": 98.38,
     "votes_source": "turnout",
@@ -987,12 +1038,13 @@
     "validation_note": "diff_incl=-3422 diff_excl=+1078",
     "source_url": "https://en.wikipedia.org/wiki/Gopalapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Gopalapuram",
-    "fetched_at": "2026-05-18T10:03:35.062012+00:00"
+    "fetched_at": "2026-06-15T10:08:39.250054+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 67,
     "constituency_name": "Polavaram",
-    "electors": null,
+    "electors": 254419,
     "turnout_votes_wiki": 218999,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1002,12 +1054,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Polavaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Polavaram",
-    "fetched_at": "2026-05-18T10:03:36.664693+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 68,
     "constituency_name": "Chintalapudi",
-    "electors": null,
+    "electors": 273141,
     "turnout_votes_wiki": 225391,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1017,12 +1070,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Chintalapudi_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Chintalapudi",
-    "fetched_at": "2026-05-18T10:03:38.681311+00:00"
+    "fetched_at": "2026-06-15T10:09:11.462263+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 69,
     "constituency_name": "Tiruvuru",
-    "electors": null,
+    "electors": 207190,
     "turnout_votes_wiki": 183420,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1032,12 +1086,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Tiruvuru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tiruvuru (SC)",
-    "fetched_at": "2026-05-18T10:03:40.359971+00:00"
+    "fetched_at": "2026-06-15T10:09:25.725484+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 70,
     "constituency_name": "Nuzvid",
-    "electors": null,
+    "electors": 238983,
     "turnout_votes_wiki": 211717,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1047,12 +1102,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nuzvid_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nuzvid",
-    "fetched_at": "2026-05-18T10:03:41.792354+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 71,
     "constituency_name": "Gannavaram",
-    "electors": null,
+    "electors": 279054,
     "turnout_votes_wiki": 239525,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1062,12 +1118,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Gannavaram,_Krishna_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Gannavaram",
-    "fetched_at": "2026-05-18T10:03:43.377583+00:00"
+    "fetched_at": "2026-06-15T10:10:03.719462+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 72,
     "constituency_name": "Gudivada",
-    "electors": null,
+    "electors": 204271,
     "turnout_votes_wiki": 171604,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1077,12 +1134,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Gudivada_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Gudivada",
-    "fetched_at": "2026-05-18T10:03:45.391601+00:00"
+    "fetched_at": "2026-06-15T10:10:11.398820+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 73,
     "constituency_name": "Kaikalur",
-    "electors": null,
+    "electors": 205894,
     "turnout_votes_wiki": 180991,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1092,12 +1150,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kaikalur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kaikalur",
-    "fetched_at": "2026-05-18T10:03:46.802831+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 74,
     "constituency_name": "Pedana",
-    "electors": null,
+    "electors": 167622,
     "turnout_votes_wiki": 149961,
     "turnout_percent_wiki": 90.34,
     "votes_source": "turnout",
@@ -1107,12 +1166,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pedana_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pedana",
-    "fetched_at": "2026-05-18T10:03:48.806038+00:00"
+    "fetched_at": "2026-06-15T11:25:55.261622+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 75,
     "constituency_name": "Machilipatnam",
-    "electors": null,
+    "electors": 196765,
     "turnout_votes_wiki": 164839,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1122,12 +1182,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Machilipatnam_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Machilipatnam",
-    "fetched_at": "2026-05-18T10:03:50.229516+00:00"
+    "fetched_at": "2026-06-15T10:10:33.175584+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 76,
     "constituency_name": "Avanigadda",
-    "electors": null,
+    "electors": 212455,
     "turnout_votes_wiki": 186445,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1137,12 +1198,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Avanigadda_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Avanigadda",
-    "fetched_at": "2026-05-18T10:03:51.466856+00:00"
+    "fetched_at": "2026-06-15T11:02:25.985496+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 77,
     "constituency_name": "Pamarru",
-    "electors": null,
+    "electors": 184716,
     "turnout_votes_wiki": 164869,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1152,12 +1214,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pamarru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pamarru",
-    "fetched_at": "2026-05-18T10:03:53.010206+00:00"
+    "fetched_at": "2026-06-15T10:10:53.246862+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 78,
     "constituency_name": "Penamaluru",
-    "electors": null,
+    "electors": 294928,
     "turnout_votes_wiki": 236539,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1167,12 +1230,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Penamaluru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Penamaluru",
-    "fetched_at": "2026-05-18T10:03:54.590072+00:00"
+    "fetched_at": "2026-06-15T10:11:11.078594+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 79,
     "constituency_name": "Vijayawada West",
-    "electors": null,
+    "electors": 256021,
     "turnout_votes_wiki": 171843,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1182,12 +1246,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Vijayawada_West_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Vijayawada West",
-    "fetched_at": "2026-05-18T10:03:56.176812+00:00"
+    "fetched_at": "2026-06-15T10:11:29.230436+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 80,
     "constituency_name": "Vijayawada Central",
-    "electors": null,
+    "electors": 277724,
     "turnout_votes_wiki": 204717,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1197,12 +1262,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Vijayawada_Central_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Vijayawada Central",
-    "fetched_at": "2026-05-18T10:03:57.596084+00:00"
+    "fetched_at": "2026-06-15T11:02:48.687384+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 81,
     "constituency_name": "Vijayawada East",
-    "electors": null,
+    "electors": 270596,
     "turnout_votes_wiki": 195906,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1212,12 +1278,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Vijayawada_East_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Vijayawada East",
-    "fetched_at": "2026-05-18T10:03:59.028362+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 82,
     "constituency_name": "Mylavaram",
-    "electors": null,
+    "electors": 282726,
     "turnout_votes_wiki": 242597,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1227,12 +1294,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Mylavaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Mylavaram",
-    "fetched_at": "2026-05-18T10:04:00.490724+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 83,
     "constituency_name": "Nandigama",
-    "electors": null,
+    "electors": 205521,
     "turnout_votes_wiki": 181991,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1242,12 +1310,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nandigama_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nandigama",
-    "fetched_at": "2026-05-18T10:04:02.348020+00:00"
+    "fetched_at": "2026-06-15T10:15:13.953362+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 84,
     "constituency_name": "Jaggayyapeta",
-    "electors": null,
+    "electors": 205415,
     "turnout_votes_wiki": 185887,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1257,12 +1326,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Jaggayyapeta_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Jaggayyapeta",
-    "fetched_at": "2026-05-18T10:04:04.163458+00:00"
+    "fetched_at": "2026-06-15T10:15:29.115593+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 85,
     "constituency_name": "Pedakurapadu",
-    "electors": null,
+    "electors": 232338,
     "turnout_votes_wiki": 209298,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1272,12 +1342,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pedakurapadu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pedakurapadu",
-    "fetched_at": "2026-05-18T10:04:05.816685+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 86,
     "constituency_name": "Tadikonda",
-    "electors": null,
+    "electors": 207832,
     "turnout_votes_wiki": 184100,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1287,7 +1358,8 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Tadikonda_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tadikonda",
-    "fetched_at": "2026-05-18T10:04:07.608822+00:00"
+    "fetched_at": "2026-06-15T10:15:46.049096+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 87,
@@ -1322,7 +1394,7 @@
   {
     "constituency_no": 89,
     "constituency_name": "Vemuru",
-    "electors": null,
+    "electors": 198015,
     "turnout_votes_wiki": 172851,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1332,12 +1404,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Vemuru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Vemuru",
-    "fetched_at": "2026-05-18T10:04:11.726611+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 90,
     "constituency_name": "Repalle",
-    "electors": null,
+    "electors": 229005,
     "turnout_votes_wiki": 188832,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1347,12 +1420,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Repalle_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Repalle",
-    "fetched_at": "2026-05-18T10:04:13.360430+00:00"
+    "fetched_at": "2026-06-15T10:16:42.560371+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 91,
     "constituency_name": "Tenali",
-    "electors": null,
+    "electors": 267914,
     "turnout_votes_wiki": 205996,
     "turnout_percent_wiki": 76.16,
     "votes_source": "turnout",
@@ -1362,12 +1436,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Tenali_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tenali",
-    "fetched_at": "2026-05-18T10:04:14.957105+00:00"
+    "fetched_at": "2026-06-15T11:07:31.169619+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 92,
     "constituency_name": "Bapatla",
-    "electors": null,
+    "electors": 192192,
     "turnout_votes_wiki": 161226,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1377,12 +1452,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Bapatla_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Bapatla",
-    "fetched_at": "2026-05-18T10:04:16.591795+00:00"
+    "fetched_at": "2026-06-15T11:08:02.571500+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 93,
     "constituency_name": "Prathipadu",
-    "electors": null,
+    "electors": 267888,
     "turnout_votes_wiki": 221479,
     "turnout_percent_wiki": 83.72,
     "votes_source": "turnout",
@@ -1392,7 +1468,8 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Prathipadu,_Guntur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Prathipadu",
-    "fetched_at": "2026-05-18T10:04:18.617603+00:00"
+    "fetched_at": "2026-06-15T10:17:42.063827+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 94,
@@ -1412,7 +1489,7 @@
   {
     "constituency_no": 95,
     "constituency_name": "Guntur East",
-    "electors": null,
+    "electors": 250790,
     "turnout_votes_wiki": 179491,
     "turnout_percent_wiki": 70.47,
     "votes_source": "turnout",
@@ -1422,12 +1499,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Guntur_East_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Guntur East",
-    "fetched_at": "2026-05-18T10:04:21.544807+00:00"
+    "fetched_at": "2026-06-15T10:18:07.976955+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 96,
     "constituency_name": "Chilakaluripet",
-    "electors": null,
+    "electors": 226646,
     "turnout_votes_wiki": 195400,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1437,12 +1515,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Chilakaluripet_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Chilakaluripet",
-    "fetched_at": "2026-05-18T10:04:23.563316+00:00"
+    "fetched_at": "2026-06-15T10:18:33.859533+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 97,
     "constituency_name": "Narasaraopet",
-    "electors": null,
+    "electors": 232778,
     "turnout_votes_wiki": 191117,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1452,12 +1531,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Narasaraopet_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Narasaraopet",
-    "fetched_at": "2026-05-18T10:04:24.849200+00:00"
+    "fetched_at": "2026-06-15T11:08:36.495779+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 98,
     "constituency_name": "Sattenapalle",
-    "electors": null,
+    "electors": 242047,
     "turnout_votes_wiki": 212568,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1467,7 +1547,8 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Sattenapalle_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Sattenapalle",
-    "fetched_at": "2026-05-18T10:04:26.890741+00:00"
+    "fetched_at": "2026-06-15T10:19:28.459567+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 99,
@@ -1487,7 +1568,7 @@
   {
     "constituency_no": 100,
     "constituency_name": "Gurajala",
-    "electors": null,
+    "electors": 274124,
     "turnout_votes_wiki": 233046,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1497,7 +1578,8 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Gurazala_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Gurazala",
-    "fetched_at": "2026-05-18T10:04:30.520588+00:00"
+    "fetched_at": "2026-06-15T10:19:34.942990+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 101,
@@ -1517,7 +1599,7 @@
   {
     "constituency_no": 102,
     "constituency_name": "Yerragondapalem",
-    "electors": null,
+    "electors": 207435,
     "turnout_votes_wiki": 185725,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1527,12 +1609,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Yerragondapalem_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Yerragondapalem",
-    "fetched_at": "2026-05-18T10:04:33.262956+00:00"
+    "fetched_at": "2026-06-15T11:09:00.882898+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 103,
     "constituency_name": "Darsi",
-    "electors": null,
+    "electors": 226590,
     "turnout_votes_wiki": 207106,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1542,12 +1625,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Darsi_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Darsi",
-    "fetched_at": "2026-05-18T10:04:35.103493+00:00"
+    "fetched_at": "2026-06-15T10:20:03.234528+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 104,
     "constituency_name": "Parchur",
-    "electors": null,
+    "electors": 229562,
     "turnout_votes_wiki": 202274,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1557,12 +1641,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Parchur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Parchur",
-    "fetched_at": "2026-05-18T10:04:37.163869+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 105,
     "constituency_name": "Addanki",
-    "electors": null,
+    "electors": 244190,
     "turnout_votes_wiki": 215518,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1572,12 +1657,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Addanki_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Addanki",
-    "fetched_at": "2026-05-18T10:04:38.411295+00:00"
+    "fetched_at": "2026-06-15T11:09:56.786923+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 106,
     "constituency_name": "Chirala",
-    "electors": null,
+    "electors": 203136,
     "turnout_votes_wiki": 170328,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1587,12 +1673,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Chirala_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Chirala",
-    "fetched_at": "2026-05-18T10:04:40.215105+00:00"
+    "fetched_at": "2026-06-15T10:21:27.094665+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 107,
     "constituency_name": "Santhanuthalapadu",
-    "electors": null,
+    "electors": 214795,
     "turnout_votes_wiki": 189916,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1602,12 +1689,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Santhanuthalapadu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Santhanuthalapadu",
-    "fetched_at": "2026-05-18T10:04:41.849978+00:00"
+    "fetched_at": "2026-06-15T10:21:45.494225+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 108,
     "constituency_name": "Ongole",
-    "electors": null,
+    "electors": 240242,
     "turnout_votes_wiki": 209303,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1617,12 +1705,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Ongole_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Ongole",
-    "fetched_at": "2026-05-18T10:04:43.109497+00:00"
+    "fetched_at": "2026-06-15T10:22:00.322614+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 109,
     "constituency_name": "Kandukur",
-    "electors": null,
+    "electors": 228698,
     "turnout_votes_wiki": 206773,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1632,12 +1721,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kandukur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kandukur",
-    "fetched_at": "2026-05-18T10:04:45.252890+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 110,
     "constituency_name": "Kondapi",
-    "electors": null,
+    "electors": 239702,
     "turnout_votes_wiki": 213944,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1647,12 +1737,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kondapi_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kondapi",
-    "fetched_at": "2026-05-18T10:04:47.083936+00:00"
+    "fetched_at": "2026-06-15T11:10:43.750026+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 111,
     "constituency_name": "Markapuram",
-    "electors": null,
+    "electors": 214657,
     "turnout_votes_wiki": 190930,
     "turnout_percent_wiki": 87.53,
     "votes_source": "turnout",
@@ -1662,12 +1753,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Markapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Markapur",
-    "fetched_at": "2026-05-18T10:04:48.959782+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 112,
     "constituency_name": "Giddalur",
-    "electors": null,
+    "electors": 245114,
     "turnout_votes_wiki": 206869,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1677,12 +1769,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Giddalur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Giddalur",
-    "fetched_at": "2026-05-18T10:04:50.225046+00:00"
+    "fetched_at": "2026-06-15T10:23:25.530435+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 113,
     "constituency_name": "Kanigiri",
-    "electors": null,
+    "electors": 240079,
     "turnout_votes_wiki": 206147,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1692,12 +1785,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kanigiri_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kanigiri",
-    "fetched_at": "2026-05-18T10:04:51.680038+00:00"
+    "fetched_at": "2026-06-15T10:23:39.785732+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 114,
     "constituency_name": "Kavali",
-    "electors": null,
+    "electors": 238645,
     "turnout_votes_wiki": 199982,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1707,12 +1801,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kavali_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kavali",
-    "fetched_at": "2026-05-18T10:04:53.517036+00:00"
+    "fetched_at": "2026-06-15T10:24:20.793750+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 115,
     "constituency_name": "Atmakur",
-    "electors": null,
+    "electors": 215460,
     "turnout_votes_wiki": 182893,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1722,12 +1817,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Atmakur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Atmakur",
-    "fetched_at": "2026-05-18T10:04:55.544288+00:00"
+    "fetched_at": "2026-06-15T11:11:27.328204+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 116,
     "constituency_name": "Kovur",
-    "electors": null,
+    "electors": 267345,
     "turnout_votes_wiki": 215254,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1737,12 +1833,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kovur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kovur",
-    "fetched_at": "2026-05-18T10:04:57.155666+00:00"
+    "fetched_at": "2026-06-15T10:24:57.039184+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 117,
     "constituency_name": "Nellore City",
-    "electors": null,
+    "electors": 239544,
     "turnout_votes_wiki": 174738,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1752,12 +1849,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nellore_City_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nellore City",
-    "fetched_at": "2026-05-18T10:04:58.739201+00:00"
+    "fetched_at": "2026-06-15T10:25:15.468807+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 118,
     "constituency_name": "Nellore Rural",
-    "electors": null,
+    "electors": 280948,
     "turnout_votes_wiki": 194542,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1767,12 +1865,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nellore_Rural_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nellore Rural",
-    "fetched_at": "2026-05-18T10:05:00.458626+00:00"
+    "fetched_at": "2026-06-15T10:25:31.203071+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 119,
     "constituency_name": "Sarvepalli",
-    "electors": null,
+    "electors": 232034,
     "turnout_votes_wiki": 195716,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1782,12 +1881,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Sarvepalli_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Sarvepalli",
-    "fetched_at": "2026-05-18T10:05:02.391186+00:00"
+    "fetched_at": "2026-06-15T10:25:53.089337+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 120,
     "constituency_name": "Gudur",
-    "electors": null,
+    "electors": 244859,
     "turnout_votes_wiki": 194565,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1797,12 +1897,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Gudur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Gudur",
-    "fetched_at": "2026-05-18T10:05:03.850690+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 121,
     "constituency_name": "Sullurpeta",
-    "electors": null,
+    "electors": 242704,
     "turnout_votes_wiki": 203138,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1812,12 +1913,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Sullurpeta_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Sullurupeta",
-    "fetched_at": "2026-05-18T10:05:05.220405+00:00"
+    "fetched_at": "2026-06-15T10:25:59.578591+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 122,
     "constituency_name": "Venkatagiri",
-    "electors": null,
+    "electors": 243582,
     "turnout_votes_wiki": 199565,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1827,12 +1929,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Venkatagiri_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Venkatagiri",
-    "fetched_at": "2026-05-18T10:05:06.564570+00:00"
+    "fetched_at": "2026-06-15T11:11:49.750761+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 123,
     "constituency_name": "Udayagiri",
-    "electors": null,
+    "electors": 241516,
     "turnout_votes_wiki": 200892,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1842,12 +1945,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Udayagiri_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Udayagiri",
-    "fetched_at": "2026-05-18T10:05:07.861031+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 124,
     "constituency_name": "Badvel",
-    "electors": null,
+    "electors": 220220,
     "turnout_votes_wiki": 174880,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1857,12 +1961,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Badvel_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Badvel",
-    "fetched_at": "2026-05-18T10:05:09.155605+00:00"
+    "fetched_at": "2026-06-15T11:12:41.661181+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 125,
     "constituency_name": "Rajampet",
-    "electors": null,
+    "electors": 242064,
     "turnout_votes_wiki": 184557,
     "turnout_percent_wiki": 76.05,
     "votes_source": "turnout",
@@ -1872,12 +1977,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Rajampet_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rajampet",
-    "fetched_at": "2026-05-18T10:05:10.458154+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 126,
     "constituency_name": "Kadapa",
-    "electors": null,
+    "electors": 284548,
     "turnout_votes_wiki": 190527,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1887,12 +1993,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kadapa_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kadapa",
-    "fetched_at": "2026-05-18T10:05:11.748394+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 127,
     "constituency_name": "Kodur",
-    "electors": null,
+    "electors": 204466,
     "turnout_votes_wiki": 152366,
     "turnout_percent_wiki": 74.51,
     "votes_source": "turnout",
@@ -1902,12 +2009,13 @@
     "validation_note": "diff_incl=-1439 diff_excl=-327",
     "source_url": "https://en.wikipedia.org/wiki/Kodur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kodur",
-    "fetched_at": "2026-05-18T10:05:13.051737+00:00"
+    "fetched_at": "2026-06-15T11:13:26.205527+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 128,
     "constituency_name": "Rayachoti",
-    "electors": null,
+    "electors": 256105,
     "turnout_votes_wiki": 199901,
     "turnout_percent_wiki": 77.39,
     "votes_source": "turnout",
@@ -1917,12 +2025,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Rayachoti_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rayachoty",
-    "fetched_at": "2026-05-18T10:05:14.302612+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 129,
     "constituency_name": "Pulivendla",
-    "electors": null,
+    "electors": 230235,
     "turnout_votes_wiki": 199492,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1932,12 +2041,13 @@
     "validation_note": "diff_incl=+10000 diff_excl=+11764",
     "source_url": "https://en.wikipedia.org/wiki/Pulivendla_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pulivendula",
-    "fetched_at": "2026-05-18T10:05:15.523978+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 130,
     "constituency_name": "Kamalapuram",
-    "electors": null,
+    "electors": 204169,
     "turnout_votes_wiki": 172196,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1947,12 +2057,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kamalapuram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kamalapuram",
-    "fetched_at": "2026-05-18T10:05:16.816963+00:00"
+    "fetched_at": "2026-06-15T10:29:30.239250+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 131,
     "constituency_name": "Jammalamadugu",
-    "electors": null,
+    "electors": 242749,
     "turnout_votes_wiki": 213170,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1962,12 +2073,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Jammalamadugu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Jammalamadugu",
-    "fetched_at": "2026-05-18T10:05:18.071452+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 132,
     "constituency_name": "Proddatur",
-    "electors": null,
+    "electors": 248324,
     "turnout_votes_wiki": 201284,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1977,12 +2089,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Proddatur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Proddatur",
-    "fetched_at": "2026-05-18T10:05:19.339754+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 133,
     "constituency_name": "Mydukur",
-    "electors": null,
+    "electors": 211855,
     "turnout_votes_wiki": 180740,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -1992,12 +2105,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Mydukur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Mydukur",
-    "fetched_at": "2026-05-18T10:05:20.561030+00:00"
+    "fetched_at": "2026-06-15T10:30:35.376844+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 134,
     "constituency_name": "Allagadda",
-    "electors": null,
+    "electors": 233237,
     "turnout_votes_wiki": 198052,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2007,12 +2121,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Allagadda_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Allagadda",
-    "fetched_at": "2026-05-18T10:05:21.803362+00:00"
+    "fetched_at": "2026-06-15T10:30:56.804060+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 135,
     "constituency_name": "Srisailam",
-    "electors": null,
+    "electors": 196596,
     "turnout_votes_wiki": 164580,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2022,12 +2137,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Srisailam_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Srisailam",
-    "fetched_at": "2026-05-18T10:05:23.046795+00:00"
+    "fetched_at": "2026-06-15T10:31:14.764783+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 136,
     "constituency_name": "Nandikotkur",
-    "electors": null,
+    "electors": 218047,
     "turnout_votes_wiki": 186853,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2037,12 +2153,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nandikotkur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nandikotkur",
-    "fetched_at": "2026-05-18T10:05:24.338314+00:00"
+    "fetched_at": "2026-06-15T10:31:30.517475+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 137,
     "constituency_name": "Kurnool",
-    "electors": null,
+    "electors": 274557,
     "turnout_votes_wiki": 178594,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2052,12 +2169,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kurnool_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kurnool",
-    "fetched_at": "2026-05-18T10:05:25.583741+00:00"
+    "fetched_at": "2026-06-15T11:34:39.098724+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 138,
     "constituency_name": "Panyam",
-    "electors": null,
+    "electors": 332012,
     "turnout_votes_wiki": 250276,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2067,12 +2185,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Panyam_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Panyam",
-    "fetched_at": "2026-05-18T10:05:26.799445+00:00"
+    "fetched_at": "2026-06-15T10:32:03.219852+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 139,
     "constituency_name": "Nandyal",
-    "electors": null,
+    "electors": 274446,
     "turnout_votes_wiki": 208578,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2082,12 +2201,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nandyal_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nandyal",
-    "fetched_at": "2026-05-18T10:05:28.046485+00:00"
+    "fetched_at": "2026-06-15T10:32:31.306836+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 140,
     "constituency_name": "Banaganapalle",
-    "electors": null,
+    "electors": 242322,
     "turnout_votes_wiki": 205740,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2097,12 +2217,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Banaganapalle_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Banaganapalle",
-    "fetched_at": "2026-05-18T10:05:29.302027+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 141,
     "constituency_name": "Dhone",
-    "electors": null,
+    "electors": 227351,
     "turnout_votes_wiki": 190120,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2112,12 +2233,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Dhone_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Dhone",
-    "fetched_at": "2026-05-18T10:05:30.548600+00:00"
+    "fetched_at": "2026-06-15T10:32:57.291873+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 142,
     "constituency_name": "Pattikonda",
-    "electors": null,
+    "electors": 223603,
     "turnout_votes_wiki": 191631,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2127,12 +2249,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pattikonda_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pattikonda",
-    "fetched_at": "2026-05-18T10:05:31.801886+00:00"
+    "fetched_at": "2026-06-15T10:33:07.600404+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 143,
     "constituency_name": "Kodumur",
-    "electors": null,
+    "electors": 246800,
     "turnout_votes_wiki": 197533,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2142,12 +2265,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kodumur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kodumur",
-    "fetched_at": "2026-05-18T10:05:33.053735+00:00"
+    "fetched_at": "2026-06-15T10:33:32.779108+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 144,
     "constituency_name": "Yemmiganur",
-    "electors": null,
+    "electors": 247752,
     "turnout_votes_wiki": 203089,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2157,12 +2281,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Yemmiganur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Yemmiganur",
-    "fetched_at": "2026-05-18T10:05:34.289086+00:00"
+    "fetched_at": "2026-06-15T10:33:39.238530+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 145,
     "constituency_name": "Mantralayam",
-    "electors": null,
+    "electors": 208407,
     "turnout_votes_wiki": 176324,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2172,12 +2297,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Mantralayam_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Mantralayam",
-    "fetched_at": "2026-05-18T10:05:35.524049+00:00"
+    "fetched_at": "2026-06-15T10:33:59.674025+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 146,
     "constituency_name": "Adoni",
-    "electors": null,
+    "electors": 263169,
     "turnout_votes_wiki": 176133,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2187,12 +2313,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Adoni_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Adoni",
-    "fetched_at": "2026-05-18T10:05:36.781711+00:00"
+    "fetched_at": "2026-06-15T10:34:20.940320+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 147,
     "constituency_name": "Alur",
-    "electors": null,
+    "electors": 258997,
     "turnout_votes_wiki": 210429,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2202,12 +2329,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Alur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Alur",
-    "fetched_at": "2026-05-18T10:05:38.040401+00:00"
+    "fetched_at": "2026-06-15T10:34:24.028473+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 148,
     "constituency_name": "Rayadurg",
-    "electors": null,
+    "electors": 264186,
     "turnout_votes_wiki": 228267,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2217,12 +2345,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Rayadurg_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Rayadurg",
-    "fetched_at": "2026-05-18T10:05:39.272644+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 149,
     "constituency_name": "Uravakonda",
-    "electors": null,
+    "electors": 224339,
     "turnout_votes_wiki": 194522,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2232,12 +2361,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Uravakonda_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Uravakonda",
-    "fetched_at": "2026-05-18T10:05:40.511146+00:00"
+    "fetched_at": "2026-06-15T10:35:18.839652+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 150,
     "constituency_name": "Guntakal",
-    "electors": null,
+    "electors": 271057,
     "turnout_votes_wiki": 206731,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2247,12 +2377,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Guntakal_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Guntakal",
-    "fetched_at": "2026-05-18T10:05:41.746599+00:00"
+    "fetched_at": "2026-06-15T10:36:00.884346+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 151,
     "constituency_name": "Tadipatri",
-    "electors": null,
+    "electors": 248880,
     "turnout_votes_wiki": 207679,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2262,12 +2393,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Tadpatri_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tadpatri",
-    "fetched_at": "2026-05-18T10:05:42.973660+00:00"
+    "fetched_at": "2026-06-15T10:36:20.538693+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 152,
     "constituency_name": "Singanamala",
-    "electors": null,
+    "electors": 247803,
     "turnout_votes_wiki": 208233,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2277,12 +2409,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Singanamala_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Singanamala",
-    "fetched_at": "2026-05-18T10:05:44.215897+00:00"
+    "fetched_at": "2026-06-15T10:36:28.064831+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 153,
     "constituency_name": "Anantapur Urban",
-    "electors": null,
+    "electors": 281403,
     "turnout_votes_wiki": 189575,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2292,12 +2425,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Anantapur_Urban_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Anantapur Urban",
-    "fetched_at": "2026-05-18T10:05:45.463648+00:00"
+    "fetched_at": "2026-06-15T10:36:48.728887+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 154,
     "constituency_name": "Kalyandurg",
-    "electors": null,
+    "electors": 230785,
     "turnout_votes_wiki": 205841,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2307,12 +2441,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kalyandurg_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kalyandurg",
-    "fetched_at": "2026-05-18T10:05:46.678210+00:00"
+    "fetched_at": "2026-06-15T11:35:43.406064+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 155,
     "constituency_name": "Raptadu",
-    "electors": null,
+    "electors": 250571,
     "turnout_votes_wiki": 217157,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2322,12 +2457,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Raptadu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Raptadu",
-    "fetched_at": "2026-05-18T10:05:47.905322+00:00"
+    "fetched_at": "2026-06-15T11:36:06.316443+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 156,
     "constituency_name": "Madakasira",
-    "electors": null,
+    "electors": 210804,
     "turnout_votes_wiki": 186138,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2337,12 +2473,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Madakasira_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Madakasira",
-    "fetched_at": "2026-05-18T10:05:49.158769+00:00"
+    "fetched_at": "2026-06-15T11:18:05.495808+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 157,
     "constituency_name": "Hindupur",
-    "electors": null,
+    "electors": 249174,
     "turnout_votes_wiki": 195961,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2352,12 +2489,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Hindupur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Hindupur",
-    "fetched_at": "2026-05-18T10:05:50.444770+00:00"
+    "fetched_at": "2026-06-15T10:37:47.889747+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 158,
     "constituency_name": "Penukonda",
-    "electors": null,
+    "electors": 236189,
     "turnout_votes_wiki": 207615,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2367,12 +2505,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Penukonda_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Penukonda",
-    "fetched_at": "2026-05-18T10:05:51.708371+00:00"
+    "fetched_at": "2026-06-15T10:38:07.367911+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 159,
     "constituency_name": "Puttaparthi",
-    "electors": null,
+    "electors": 212137,
     "turnout_votes_wiki": 183975,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2382,12 +2521,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Puttaparthi_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Puttaparthi",
-    "fetched_at": "2026-05-18T10:05:52.916078+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 160,
     "constituency_name": "Dharmavaram",
-    "electors": null,
+    "electors": 246016,
     "turnout_votes_wiki": 219848,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2397,12 +2537,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Dharmavaram_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Dharmavaram",
-    "fetched_at": "2026-05-18T10:05:54.162984+00:00"
+    "fetched_at": "2026-06-15T10:38:31.167647+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 161,
     "constituency_name": "Kadiri",
-    "electors": null,
+    "electors": 253682,
     "turnout_votes_wiki": 209152,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2412,12 +2553,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Kadiri_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Kadiri",
-    "fetched_at": "2026-05-18T10:05:55.369907+00:00"
+    "fetched_at": "2026-06-15T10:38:46.111516+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 162,
     "constituency_name": "Thamballapalle",
-    "electors": null,
+    "electors": 225414,
     "turnout_votes_wiki": 187866,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2427,12 +2569,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Thamballapalle_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Thamballapalle",
-    "fetched_at": "2026-05-18T10:05:56.609835+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 163,
     "constituency_name": "Pileru",
-    "electors": null,
+    "electors": 234008,
     "turnout_votes_wiki": 193741,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2442,12 +2585,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Pileru_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Pileru",
-    "fetched_at": "2026-05-18T10:05:57.874559+00:00"
+    "fetched_at": "2026-06-15T11:36:50.466131+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 164,
     "constituency_name": "Madanapalle",
-    "electors": null,
+    "electors": 267829,
     "turnout_votes_wiki": 202871,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2457,12 +2601,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Madanapalle_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Madanapalle",
-    "fetched_at": "2026-05-18T10:05:59.093683+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 165,
     "constituency_name": "Punganur",
-    "electors": null,
+    "electors": 239256,
     "turnout_votes_wiki": 206911,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2472,12 +2617,13 @@
     "validation_note": "diff_incl=-2763 diff_excl=+141",
     "source_url": "https://en.wikipedia.org/wiki/Punganur_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Punganur",
-    "fetched_at": "2026-05-18T10:06:00.328961+00:00"
+    "fetched_at": "2026-06-15T10:40:10.801820+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 166,
     "constituency_name": "Chandragiri",
-    "electors": null,
+    "electors": 315558,
     "turnout_votes_wiki": 255249,
     "turnout_percent_wiki": 79.89,
     "votes_source": "turnout",
@@ -2487,12 +2633,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Chandragiri_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Chandragiri",
-    "fetched_at": "2026-05-18T10:06:01.595874+00:00"
+    "fetched_at": "2026-06-15T11:19:20.605828+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 167,
     "constituency_name": "Tirupati",
-    "electors": null,
+    "electors": 302503,
     "turnout_votes_wiki": 193742,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2502,12 +2649,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Tirupati_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Tirupati",
-    "fetched_at": "2026-05-18T10:06:02.847741+00:00"
+    "fetched_at": "2026-06-15T11:19:48.639395+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 168,
     "constituency_name": "Srikalahasti",
-    "electors": null,
+    "electors": 248536,
     "turnout_votes_wiki": 209316,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2517,12 +2665,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Srikalahasti_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Srikalahasti",
-    "fetched_at": "2026-05-18T10:06:04.330112+00:00"
+    "fetched_at": "2026-06-15T11:19:56.382616+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 169,
     "constituency_name": "Sathyavedu",
-    "electors": null,
+    "electors": 214931,
     "turnout_votes_wiki": 184522,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2532,12 +2681,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Satyavedu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Sathyavedu",
-    "fetched_at": "2026-05-18T10:06:05.577935+00:00"
+    "fetched_at": "2026-06-15T11:41:34.386269+00:00",
+    "electors_source": "ssr_2025"
   },
   {
     "constituency_no": 170,
     "constituency_name": "Nagari",
-    "electors": null,
+    "electors": 202713,
     "turnout_votes_wiki": 178530,
     "turnout_percent_wiki": null,
     "votes_source": "total valid votes",
@@ -2547,7 +2697,8 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Nagari_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Nagari",
-    "fetched_at": "2026-05-18T10:06:06.861341+00:00"
+    "fetched_at": "2026-06-15T11:20:13.026022+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 171,
@@ -2567,7 +2718,7 @@
   {
     "constituency_no": 172,
     "constituency_name": "Chittoor",
-    "electors": null,
+    "electors": 202850,
     "turnout_votes_wiki": 167789,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2577,12 +2728,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Chittoor_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Chittoor",
-    "fetched_at": "2026-05-18T10:06:09.339342+00:00"
+    "fetched_at": "2026-06-15T10:41:11.967265+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 173,
     "constituency_name": "Puthalapattu",
-    "electors": null,
+    "electors": 220999,
     "turnout_votes_wiki": 195018,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2592,12 +2744,13 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Puthalapattu_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Puthalapattu",
-    "fetched_at": "2026-05-18T10:06:10.572819+00:00"
+    "fetched_at": "2026-06-15T10:41:32.629940+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 174,
     "constituency_name": "Palamaner",
-    "electors": null,
+    "electors": 268135,
     "turnout_votes_wiki": 236556,
     "turnout_percent_wiki": null,
     "votes_source": "turnout",
@@ -2607,7 +2760,8 @@
     "validation_note": "matches polled",
     "source_url": "https://en.wikipedia.org/wiki/Palamaner_Assembly_constituency",
     "caption": "2024 Andhra Pradesh Legislative Assembly election : Palamaner",
-    "fetched_at": "2026-05-18T10:06:11.809420+00:00"
+    "fetched_at": "2026-06-15T10:41:43.031293+00:00",
+    "electors_source": "ceoap_2024"
   },
   {
     "constituency_no": 175,

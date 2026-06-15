@@ -3,8 +3,9 @@
 Strict, no-estimates pipeline:
 
 - For ACs where Wikipedia carries a 2024 "Registered electors" row
-  (see `fetch_wikipedia_electors.py`, ~21/175), use that and compute
-  turnout_percent from our existing ECI total_votes_polled.
+  (see `fetch_wikipedia_electors.py`, ~21/175), use that.
+- For ACs filled by fetch_ceoap_electors.py (Form-20 PDFs from CEO AP),
+  use those — marked with electors_source="ceoap_2024" in wikipedia_electors.json.
 - For the rest, fall back to TCPD's 2019 electors (Andhra_Pradesh_AE.csv.gz,
   staged at scraper_lab/tcpd_ap_ae.csv.gz; 100% AP coverage in 2019).
   Turnout is intentionally left null — mixing 2024 polled with 2019 electors
@@ -14,7 +15,7 @@ Adds to each candidate's `election_result`:
 
     total_electors:         int                 # always populated
     total_electors_year:    2024 | 2019         # year the electors number refers to
-    total_electors_source:  "wikipedia_2024" | "tcpd_2019"
+    total_electors_source:  "wikipedia_2024" | "ceoap_2024" | "tcpd_2019"
     turnout_percent:        float | null        # only populated when year==2024
 
 Run:
@@ -70,7 +71,7 @@ def main() -> int:
     wiki_by_no = load_wiki_by_no()
     tcpd_by_no = load_tcpd_2019_by_no()
 
-    counts = {"wikipedia_2024": 0, "tcpd_2019": 0, "missing": 0}
+    counts = {"wikipedia_2024": 0, "ceoap_2024": 0, "ssr_2025": 0, "tcpd_2019": 0, "missing": 0}
     missing_rows: list[str] = []
 
     for c in candidates:
@@ -84,10 +85,11 @@ def main() -> int:
 
         wiki = wiki_by_no.get(eci_no) or {}
         wiki_elec = wiki.get("electors")
+        wiki_src = wiki.get("electors_source", "wikipedia_2024")
         tcpd_elec = tcpd_by_no.get(eci_no)
 
         if wiki_elec:
-            electors, source, year = wiki_elec, "wikipedia_2024", 2024
+            electors, source, year = wiki_elec, wiki_src, 2024
             turnout = round(polled / electors * 100, 2) if polled else None
         elif tcpd_elec:
             electors, source, year = tcpd_elec, "tcpd_2019", 2019
@@ -105,6 +107,8 @@ def main() -> int:
         c["election_result"] = er
 
     print(f"wikipedia_2024: {counts['wikipedia_2024']}")
+    print(f"ceoap_2024:     {counts['ceoap_2024']}")
+    print(f"ssr_2025:       {counts['ssr_2025']}")
     print(f"tcpd_2019:      {counts['tcpd_2019']}")
     print(f"missing:        {counts['missing']}")
     if missing_rows:

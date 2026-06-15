@@ -112,3 +112,4 @@ scraper_lab/_minister_run.txt
 scraper_lab/minister_extract.log
 src/data/candidates.json.bak_pre_minister_improve_*
 src/data/candidates.json.bak_pre_holdout_manual_*
+src/data/candidates.json.bak_pre_electors_merge_20260615T171150

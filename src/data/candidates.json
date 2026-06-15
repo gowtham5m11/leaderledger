@@ -500,7 +500,7 @@
     "criminal_details_pending": [
       {
         "fir_no": "1678/2023",
-        "court": "Court of the 1\u00b0 Additional Judicial Magistrate of first class Srikakulam",
+        "court": "Court of the 1° Additional Judicial Magistrate of first class Srikakulam",
         "description": "Making allegation of dishonor of cheque.",
         "sections": "u/s 138, 142 of NI Act.",
         "page": 3,
@@ -607,7 +607,7 @@
       },
       {
         "fir_no": "62/2024",
-        "court": "Parvatipuram Police station, Parvatipuram Sub \u2014 Division , Parvatipuram manyam -Dist",
+        "court": "Parvatipuram Police station, Parvatipuram Sub — Division , Parvatipuram manyam -Dist",
         "description": "dis- obedience of, cause riot or affray and Violation o women etc Elections code",
         "sections": "1951 R/w 188 IPC",
         "page": 4,
@@ -1232,7 +1232,7 @@
         "fir_no": "101/2024",
         "court": "First-Class Magistrate, Bobbili",
         "description": "Section 188 Of IPC",
-        "sections": "Conducted a rally on 20-03-2024 to promote a candidate\u2019s election without any authorization in disobedience to the order promulgated by a public servant which violates election code of conduct.",
+        "sections": "Conducted a rally on 20-03-2024 to promote a candidate’s election without any authorization in disobedience to the order promulgated by a public servant which violates election code of conduct.",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 101/2024 | Desc: Section 188 Of IPC",
@@ -1262,10 +1262,10 @@
       "eci_constituency_name": "BOBBILI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203830/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0114.htm",
-      "total_electors": 220854,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 231232,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 81.75
     },
     "previous_mla": {
       "name": "Sambangi Venkatachina Appala Naidu",
@@ -1604,10 +1604,10 @@
       "eci_constituency_name": "ARAKU VALLEY",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204046/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0128.htm",
-      "total_electors": 220893,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 246452,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 72.57
     },
     "previous_mla": {
       "name": "Chetti. Palguna",
@@ -1717,10 +1717,10 @@
       "eci_constituency_name": "GAJAPATHINAGARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203411/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0116.htm",
-      "total_electors": 198309,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 206510,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.35
     },
     "previous_mla": {
       "name": "Appalanarasayya Botcha",
@@ -2024,10 +2024,10 @@
       "eci_constituency_name": "CHEEPURUPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203531/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0115.htm",
-      "total_electors": 198988,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 205484,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.22
     },
     "previous_mla": {
       "name": "Botcha Satyanarayana",
@@ -2341,10 +2341,10 @@
       "eci_constituency_name": "NELLIMARLA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204201/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0117.htm",
-      "total_electors": 201692,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 214986,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 88.52
     },
     "previous_mla": {
       "name": "Appala Naidu Baddukonda",
@@ -2456,10 +2456,10 @@
       "eci_constituency_name": "SRUNGAVARAPUKOTA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203308/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0119.htm",
-      "total_electors": 213388,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 223353,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.18
     },
     "previous_mla": {
       "name": "Kadubandi Srinivasa Rao",
@@ -2508,13 +2508,13 @@
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Edeo! P \u2014 sine shin Lick tite al weite",
+        "fir_no": "Edeo! P — sine shin Lick tite al weite",
         "court": "Cr.No.151 Cr. PC",
         "description": "Preventive arrest.",
         "sections": "285, 283, 341, 353 R/W. 34 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Edeo! P \u2014 sine shin Lick tite al weite | Desc: Preventive arrest.",
+        "raw_text": "FIR: Edeo! P — sine shin Lick tite al weite | Desc: Preventive arrest.",
         "category": "Political/Protest"
       }
     ],
@@ -2541,10 +2541,10 @@
       "eci_constituency_name": "VIZIANAGARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203528/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0118.htm",
-      "total_electors": 232031,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 257205,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 73.41
     },
     "previous_mla": {
       "name": "Veera Bhadra Swamy Kolagatla",
@@ -2615,10 +2615,10 @@
       "eci_constituency_name": "PADERU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204026/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0129.htm",
-      "total_electors": 227117,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 248473,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 64.86
     },
     "previous_mla": {
       "name": "Bhagya Lakshmi Kottagulli",
@@ -2753,10 +2753,10 @@
       "eci_constituency_name": "MADUGULA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203929/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0127.htm",
-      "total_electors": 186294,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 189560,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.16
     },
     "previous_mla": {
       "name": "Budi Mutyala Naidu",
@@ -2811,10 +2811,10 @@
       "eci_constituency_name": "BHIMILI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203745/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0120.htm",
-      "total_electors": 307144,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 365862,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 76.05
     },
     "previous_mla": {
       "name": "Muttamsetti Srinivasarao (avanthi Srinivas)",
@@ -2975,10 +2975,10 @@
       "eci_constituency_name": "RAMPACHODAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203957/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0153.htm",
-      "total_electors": 260380,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 277537,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 75.85
     },
     "previous_mla": {
       "name": "Nagulapalli Dhanalakshmi.",
@@ -3070,10 +3070,10 @@
       "eci_constituency_name": "CHODAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203952/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0126.htm",
-      "total_electors": 210806,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 218095,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.17
     },
     "previous_mla": {
       "name": "Karanam Dharmasri",
@@ -3166,7 +3166,7 @@
       },
       {
         "fir_no": "SA 194/2023",
-        "court": "Hon\u2019ble Debts Recovery Tribunal, Visakhapatnam",
+        "court": "Hon’ble Debts Recovery Tribunal, Visakhapatnam",
         "description": "(disposed)",
         "sections": "",
         "page": 12,
@@ -3228,10 +3228,10 @@
       "eci_constituency_name": "PENDURTHI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204117/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0131.htm",
-      "total_electors": 268878,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 308023,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 74.72
     },
     "previous_mla": {
       "name": "Annamreddy Adeep Raj",
@@ -3363,10 +3363,10 @@
       "eci_constituency_name": "ANAKAPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204143/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0130.htm",
-      "total_electors": 205573,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 213714,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.85
     },
     "previous_mla": {
       "name": "A V S S Amarnath Gudivada",
@@ -3448,10 +3448,10 @@
       "eci_constituency_name": "VISAKHAPATNAM NORTH",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204051/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0123.htm",
-      "total_electors": 280328,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 286016,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 65.8
     },
     "previous_mla": {
       "name": "Ganta Srinivasa Rao",
@@ -3639,21 +3639,21 @@
       {
         "fir_no": "542/2019",
         "court": "C.C 1694/2022, Dt: 21.6.2022, Addl Junior Civil Judge Court cum JFCM Court at Narsipatnam",
-        "description": "Alleged that the disputes arose between the family member\u2019s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "description": "Alleged that the disputes arose between the family member’s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "sections": "U/s 179, 186, 189, 353,500 and U/s 153(a), 500, 506 IPC",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 542/2019 | Desc: Alleged that the disputes arose between the family member\u2019s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "raw_text": "FIR: 542/2019 | Desc: Alleged that the disputes arose between the family member’s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "361/2019",
         "court": "C.C 1694/2022, Dt: 21.6.2022, Addl Junior Civil Judge Court cum JFCM Court at Narsipatnam",
-        "description": "Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "description": "Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "sections": "U/s 179, 186, 189, 353,500 and U/s 153(a), 500, 506 IPC",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 361/2019 | Desc: Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "raw_text": "FIR: 361/2019 | Desc: Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "category": "Serious/Violent"
       }
     ],
@@ -3680,10 +3680,10 @@
       "eci_constituency_name": "NARSIPATNAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203942/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0134.htm",
-      "total_electors": 210578,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 212362,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.11
     },
     "previous_mla": {
       "name": "Uma Sankara Ganesh Petla",
@@ -3766,10 +3766,10 @@
       "eci_constituency_name": "VISAKHAPATNAM EAST",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203508/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0121.htm",
-      "total_electors": 272448,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 292444,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 69.58
     },
     "previous_mla": {
       "name": "Ramakrishna Babu Velagapudi",
@@ -3840,10 +3840,10 @@
       "eci_constituency_name": "VISAKHAPATNAM WEST",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203519/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0124.htm",
-      "total_electors": 236625,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 213912,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 70.59
     },
     "previous_mla": {
       "name": "Gana Venkata Reddy Naidu Pethakamsetti (gana Babu)",
@@ -4154,10 +4154,10 @@
       "eci_constituency_name": "VISAKHAPATNAM SOUTH",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204148/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0122.htm",
-      "total_electors": 209356,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 216970,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 64.22
     },
     "previous_mla": {
       "name": "Ganesh Kumar Vasupalli",
@@ -4329,10 +4329,10 @@
       "eci_constituency_name": "YELAMANCHILI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204157/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0132.htm",
-      "total_electors": 198556,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 206394,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.93
     },
     "previous_mla": {
       "name": "Uppalapati Venkata Ramanamurthy Raju",
@@ -4486,10 +4486,10 @@
       "eci_constituency_name": "PAYAKARAOPET",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203422/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0133.htm",
-      "total_electors": 240678,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 251185,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.6
     },
     "previous_mla": {
       "name": "Golla Baburao",
@@ -4571,10 +4571,10 @@
       "eci_constituency_name": "TUNI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203509/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0135.htm",
-      "total_electors": 213055,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 224702,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.31
     },
     "previous_mla": {
       "name": "Dadisetti Raja",
@@ -4654,10 +4654,10 @@
       "eci_constituency_name": "POLAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204118/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0167.htm",
-      "total_electors": 245535,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 254419,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 86.08
     },
     "previous_mla": {
       "name": "Tellam Bala Raju",
@@ -4879,10 +4879,10 @@
       "eci_constituency_name": "PRATHIPADU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203801/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0136.htm",
-      "total_electors": 202808,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 217267,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 81.23
     },
     "previous_mla": {
       "name": "Sri Purnachandra Prasad Parvatha",
@@ -4994,10 +4994,10 @@
       "eci_constituency_name": "JAGGAMPETA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203415/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0152.htm",
-      "total_electors": 211481,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 230404,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 84.19
     },
     "previous_mla": {
       "name": "Jyothula Naga Veera Venkata Vishnu Satya Marthanda Rao",
@@ -5132,10 +5132,10 @@
       "eci_constituency_name": "RAJANAGARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204217/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0149.htm",
-      "total_electors": 201260,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 216185,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 88.32
     },
     "previous_mla": {
       "name": "Jakkampudi Raja",
@@ -5297,10 +5297,10 @@
       "eci_constituency_name": "PITHAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204202/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0137.htm",
-      "total_electors": 229729,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 236409,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.63
     },
     "previous_mla": {
       "name": "Dorababu Pendem",
@@ -5385,10 +5385,10 @@
       "eci_constituency_name": "CHINTALAPUDI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203504/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0168.htm",
-      "total_electors": 263398,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 273141,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.52
     },
     "previous_mla": {
       "name": "Vunnamatla Rakada Eliza",
@@ -5512,10 +5512,10 @@
       "eci_constituency_name": "GOPALAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203837/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0166.htm",
-      "total_electors": 232124,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 242853,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.16
     },
     "previous_mla": {
       "name": "Venkatrao Talari",
@@ -5738,10 +5738,10 @@
       "eci_constituency_name": "PEDDAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203738/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0139.htm",
-      "total_electors": 201975,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 215205,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 83.11
     },
     "previous_mla": {
       "name": "Nimmakayala China Rajappa",
@@ -5933,10 +5933,10 @@
       "eci_constituency_name": "KOVVUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203642/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0154.htm",
-      "total_electors": 176505,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 184245,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.36
     },
     "previous_mla": {
       "name": "Taneti Vanita",
@@ -6048,7 +6048,7 @@
       },
       {
         "fir_no": "353/2020",
-        "court": "Machavaram PS, U/s \u2014 143, 188, 26 IPC",
+        "court": "Machavaram PS, U/s — 143, 188, 26 IPC",
         "description": "unlawful assembly, disobedience to an order duly promulgated by public servant, violence",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
@@ -6067,21 +6067,21 @@
       {
         "fir_no": "20/2020",
         "court": "Machavaram PS",
-        "description": "U/s \u2014 353, 506, 188, 34 IPC & Section 32 of Police Act",
+        "description": "U/s — 353, 506, 188, 34 IPC & Section 32 of Police Act",
         "sections": "Sec 353 IPC, Sec 506 IPC, Sec 188 IPC, Sec 34 IPC, Section 32 Police Act",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 20/2020 | Desc: U/s \u2014 353, 506, 188, 34 IPC & Section 32 of Police Act",
+        "raw_text": "FIR: 20/2020 | Desc: U/s — 353, 506, 188, 34 IPC & Section 32 of Police Act",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "135/2019",
         "court": "AS Nagar PS, Vijayawada",
-        "description": "U/s \u2014 341, 506 IPC",
+        "description": "U/s — 341, 506 IPC",
         "sections": "Sec 341 IPC, Sec 506 IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 135/2019 | Desc: U/s \u2014 341, 506 IPC",
+        "raw_text": "FIR: 135/2019 | Desc: U/s — 341, 506 IPC",
         "category": "Serious/Violent"
       },
       {
@@ -6137,28 +6137,28 @@
       {
         "fir_no": "",
         "court": "Crime NO. 316/2013 at Nunna PS, Vijayawada",
-        "description": "U/s \u2014 143, 341, 188 IPC",
+        "description": "U/s — 143, 341, 188 IPC",
         "sections": "Sec 143 IPC: punishment for being member of unlawful assembly; Sec 341 IPC: punishment for wrongful, restraining any person wrongfully; Sec 188 IPC: Disobedience to an order duly promulgated by public servant who is directed to obstain from order.",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: U/s \u2014 143, 341, 188 IPC",
+        "raw_text": "FIR:  | Desc: U/s — 143, 341, 188 IPC",
         "category": "Political/Protest"
       },
       {
         "fir_no": "",
         "court": "Crime NO. 552/2011 at SN Puram PS, Vijayawada",
-        "description": "U/s \u2014 420, 506 IPC",
+        "description": "U/s — 420, 506 IPC",
         "sections": "Sec 420 IPC: for commission of cheating and dishonesty inducing delivery of property fraudulently with an inducement; Sec 506 IPC: punishment for criminal intimidation for treating to cause either death or grievous",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: U/s \u2014 420, 506 IPC",
+        "raw_text": "FIR:  | Desc: U/s — 420, 506 IPC",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "69/2005",
         "court": "Machavaram PS",
         "description": "security for keeping the peace",
-        "sections": "U/s \u2014 107 CRPC",
+        "sections": "U/s — 107 CRPC",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 69/2005 | Desc: security for keeping the peace",
@@ -6188,10 +6188,10 @@
       "eci_constituency_name": "TIRUVURU (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203834/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0169.htm",
-      "total_electors": 203436,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 207190,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.53
     },
     "previous_mla": {
       "name": "Kokkiligadda Rakshana Nidhi",
@@ -6256,10 +6256,10 @@
       "eci_constituency_name": "ANAPARTHY",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204048/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0140.htm",
-      "total_electors": 213511,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 226103,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.02
     },
     "previous_mla": {
       "name": "Doctor. Sathi Suryanarayana Reddy",
@@ -6360,7 +6360,7 @@
       },
       {
         "fir_no": "Not Applicable",
-        "court": "Adireddy Srinivas and others burnt the government G.O\u2019s and indulge in the acts of violence and caused breach of peace, and caused mischief by forming into unlawful assembly.",
+        "court": "Adireddy Srinivas and others burnt the government G.O’s and indulge in the acts of violence and caused breach of peace, and caused mischief by forming into unlawful assembly.",
         "description": "burning government GO's and causing violence",
         "sections": "Sec.143, 426 r/w.149 IPC",
         "page": 4,
@@ -6392,7 +6392,7 @@
         "fir_no": "Cr.No.221/2020",
         "court": "Korukonda PS",
         "description": "On 16-05-2020 at 10:0 AM at Burugupudi , Adireddy Srinivas along with others without taking precautions to avoid covid-19 and without maintaining social distance and by violating prohibitory orders U/S 144 Cr.P.C formed themselves into unlawful assembly while the ASI D.Satya narayana and others discharging their duties and interrupted them in discharging their duties and there by the present case is registered.",
-        "sections": "Sec.143, 353, 188, 26\u00a2 270 r/w.34 IPC and Sec.2, 3 & 4 of ED Act.",
+        "sections": "Sec.143, 353, 188, 26¢ 270 r/w.34 IPC and Sec.2, 3 & 4 of ED Act.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.221/2020 | Desc: On 16-05-2020 at 10:0 AM at Burugupudi , Adireddy Srinivas along with others without taking precautions to avoid covid-19 and without maintaining social distance and by violating prohibitory orders U/S 144 Cr.P.C formed themselves into unlawful assembly while the ASI D.Satya narayana and others discharging their duties and interrupted them in discharging their duties and there by the present case is registered.",
@@ -6452,10 +6452,10 @@
       "eci_constituency_name": "RAJAHMUNDRY CITY",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203832/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0150.htm",
-      "total_electors": 253184,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 267484,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 68.1
     },
     "previous_mla": {
       "name": "Adireddy Bhavani",
@@ -6580,10 +6580,10 @@
       "eci_constituency_name": "NUZVID",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203335/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0170.htm",
-      "total_electors": 230693,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 238983,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 88.59
     },
     "previous_mla": {
       "name": "Meka Venkata Pratap Apparao",
@@ -6695,10 +6695,10 @@
       "eci_constituency_name": "KAKINADA RURAL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204155/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0138.htm",
-      "total_electors": 249109,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 269330,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 76.65
     },
     "previous_mla": {
       "name": "Kurasala Kannababu",
@@ -6891,10 +6891,10 @@
       "eci_constituency_name": "JAGGAYYAPETA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203543/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0184.htm",
-      "total_electors": 195729,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 205415,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 90.49
     },
     "previous_mla": {
       "name": "Udayabhanu Samineni",
@@ -7016,10 +7016,10 @@
       "eci_constituency_name": "RAJAHMUNDRY RURAL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203317/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0151.htm",
-      "total_electors": 254432,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 272942,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 74.03
     },
     "previous_mla": {
       "name": "Gorantla Butchaiah Choudary",
@@ -7103,10 +7103,10 @@
       "eci_constituency_name": "KOTHAPETA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203459/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0147.htm",
-      "total_electors": 241645,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 252383,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.23
     },
     "previous_mla": {
       "name": "Chirla Jaggireddy",
@@ -7265,10 +7265,10 @@
       "eci_constituency_name": "MUMMIDIVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203814/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0143.htm",
-      "total_electors": 229600,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 245294,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.52
     },
     "previous_mla": {
       "name": "Ponnada Venkata Satish Kumar",
@@ -7319,7 +7319,7 @@
     "criminal_details_pending": [
       {
         "fir_no": "193/2019",
-        "court": "Cr. No. 193/2019 \u2014 Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
+        "court": "Cr. No. 193/2019 — Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
         "description": "Basing on the complaint of B.V watnantra subba lakshmi",
         "sections": "Sec. 70(2) & 4 Section 143, 188,324 &, 149 of IPC.",
         "page": 3,
@@ -7329,7 +7329,7 @@
       },
       {
         "fir_no": "113/2019",
-        "court": "Cr. No. 113/2019 \u2014 Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
+        "court": "Cr. No. 113/2019 — Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
         "description": "Basing on the complaint of B.V watnantra subba lakshmi",
         "sections": "Section 143, 188,324 &, 149 of IPC.",
         "page": 3,
@@ -7411,10 +7411,10 @@
       "eci_constituency_name": "MYLAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203549/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0182.htm",
-      "total_electors": 280536,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 282726,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 85.81
     },
     "previous_mla": {
       "name": "Vasantha Venkata Krishna Prasad",
@@ -7591,10 +7591,10 @@
       "eci_constituency_name": "MANDAPETA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203939/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0148.htm",
-      "total_electors": 214388,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 220494,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.01
     },
     "previous_mla": {
       "name": "Jogeswara RAO. V",
@@ -7759,10 +7759,10 @@
       "eci_constituency_name": "TADEPALLIGUDEM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204127/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0162.htm",
-      "total_electors": 208789,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 215325,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.69
     },
     "previous_mla": {
       "name": "Kottu Satyanarayana",
@@ -7916,10 +7916,10 @@
       "eci_constituency_name": "KAKINADA CITY",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203819/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0141.htm",
-      "total_electors": 255773,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 241697,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 73.31
     },
     "previous_mla": {
       "name": "Dwarampudi Chandra Sekhara Reddy",
@@ -8116,10 +8116,10 @@
       "eci_constituency_name": "NIDADAVOLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204216/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0155.htm",
-      "total_electors": 203240,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 213110,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 85.64
     },
     "previous_mla": {
       "name": "G. Srinivas Naidu",
@@ -8332,11 +8332,11 @@
       {
         "fir_no": "NIL",
         "court": "",
-        "description": "criminal intimidation \u2014 done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
+        "description": "criminal intimidation — done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
         "sections": "riw 34 [PC Driving at excessive speed (183 MV Act), Driving dangerously (14)",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: criminal intimidation \u2014 done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
+        "raw_text": "FIR: NIL | Desc: criminal intimidation — done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
         "category": "Minor/Other"
       },
       {
@@ -8703,7 +8703,7 @@
         "fir_no": "2845/2019",
         "court": "Elaura",
         "description": "Punishment for wrongful restrain (241), punishment for criminal intimidation (506), threatening any person to give false evidence (192-A), punishment of abatement if the act abetted is committed in consequence and where no express provision is made for tis punishment (10%), Acts done by several persons in furtherance of common intention (r/w 34 IPC)",
-        "sections": "344, \u00a306, 195-A, 104 c/w 34 IPC and 3/2) via) SC ST Act",
+        "sections": "344, £06, 195-A, 104 c/w 34 IPC and 3/2) via) SC ST Act",
         "page": 18,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 2845/2019 | Desc: Punishment for wrongful restrain (241), punishment for criminal intimidation (506), threatening any person to give false evidence (192-A), punishment of abatement if the act abetted is committed in consequence and where no express provision is made for tis punishment (10%), Acts done by several persons in furtherance of common intention (r/w 34 IPC)",
@@ -8813,7 +8813,7 @@
         "fir_no": "92020",
         "court": "Additional District SC, ST Judge cum SC, ST",
         "description": "kidnapping abducting in order to murder",
-        "sections": "Us. 342, Sed, 324, rife 34 TPC and 3(1) (ros), 3(2) via) SC \u00a7T Act",
+        "sections": "Us. 342, Sed, 324, rife 34 TPC and 3(1) (ros), 3(2) via) SC §T Act",
         "page": 21,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 92020 | Desc: kidnapping abducting in order to murder",
@@ -8871,7 +8871,7 @@
       },
       {
         "fir_no": "COC No, 24/2018",
-        "court": "Judicial Magistrate of 1\u00b0 Class (Excise), Elru",
+        "court": "Judicial Magistrate of 1° Class (Excise), Elru",
         "description": "Lil charge sheet not filed",
         "sections": "",
         "page": 22,
@@ -8912,11 +8912,11 @@
       {
         "fir_no": "325, 324",
         "court": "",
-        "description": "Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (\u00a5a)]",
+        "description": "Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (¥a)]",
         "sections": "",
         "page": 22,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 325, 324 | Desc: Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (\u00a5a)]",
+        "raw_text": "FIR: 325, 324 | Desc: Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (¥a)]",
         "category": "Serious/Violent"
       },
       {
@@ -9392,10 +9392,10 @@
       "eci_constituency_name": "DENDULURU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203947/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0164.htm",
-      "total_electors": 220361,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 224114,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.86
     },
     "previous_mla": {
       "name": "Abbaya Chowdary Kothari",
@@ -9479,10 +9479,10 @@
       "eci_constituency_name": "UNGUTUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204207/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0163.htm",
-      "total_electors": 200216,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 206634,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.38
     },
     "previous_mla": {
       "name": "Puppala Srinivasarao",
@@ -9604,11 +9604,11 @@
       {
         "fir_no": "272/2023",
         "court": "C.C 63/2024",
-        "description": "Gathered and interrupting to the vehicular and shouting as \u2018Isukasura \u2014 Jaganasura\u2019",
+        "description": "Gathered and interrupting to the vehicular and shouting as ‘Isukasura — Jaganasura’",
         "sections": "",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 272/2023 | Desc: Gathered and interrupting to the vehicular and shouting as \u2018Isukasura \u2014 Jaganasura\u2019",
+        "raw_text": "FIR: 272/2023 | Desc: Gathered and interrupting to the vehicular and shouting as ‘Isukasura — Jaganasura’",
         "category": "Minor/Other"
       },
       {
@@ -9785,10 +9785,10 @@
       "eci_constituency_name": "NANDIGAMA (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203803/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0183.htm",
-      "total_electors": 195053,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 205521,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.55
     },
     "previous_mla": {
       "name": "Monditoka Jagan Mohana Rao",
@@ -9981,10 +9981,10 @@
       "eci_constituency_name": "RAMACHANDRAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203856/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0142.htm",
-      "total_electors": 193867,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 203341,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.25
     },
     "previous_mla": {
       "name": "Chelluboyina Srinivasa Venugopalakrishna",
@@ -10056,10 +10056,10 @@
       "eci_constituency_name": "PEDAKURAPADU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203825/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0185.htm",
-      "total_electors": 222800,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 232338,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 90.08
     },
     "previous_mla": {
       "name": "Sankara Rao Namburu",
@@ -10226,10 +10226,10 @@
       "eci_constituency_name": "TANUKU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203916/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0161.htm",
-      "total_electors": 232219,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 234677,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.99
     },
     "previous_mla": {
       "name": "Karumuri Venkata Nageswara Rao",
@@ -10321,10 +10321,10 @@
       "eci_constituency_name": "ELURU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203810/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0165.htm",
-      "total_electors": 238903,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 235464,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 70.62
     },
     "previous_mla": {
       "name": "Alla Kali Krishna Srinivas",
@@ -10396,10 +10396,10 @@
       "eci_constituency_name": "GURAJALA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203348/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01100.htm",
-      "total_electors": 268598,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 274124,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.01
     },
     "previous_mla": {
       "name": "Kasu Mahesh Reddy",
@@ -10466,10 +10466,10 @@
       "eci_constituency_name": "GANNAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203847/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0171.htm",
-      "total_electors": 258084,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 279054,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.83
     },
     "previous_mla": {
       "name": "Vamsi Vallabhaneni",
@@ -10540,10 +10540,10 @@
       "eci_constituency_name": "GANNAVARAM(SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204125/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0146.htm",
-      "total_electors": 189385,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 198602,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.69
     },
     "previous_mla": {
       "name": "Kondeti Chitti Babu",
@@ -10625,10 +10625,10 @@
       "eci_constituency_name": "KAIKALUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204040/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0173.htm",
-      "total_electors": 195844,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 205894,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 87.9
     },
     "previous_mla": {
       "name": "Dulam Nageswara Rao",
@@ -10733,10 +10733,10 @@
       "eci_constituency_name": "ACHANTA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203741/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0156.htm",
-      "total_electors": 174308,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 180110,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.58
     },
     "previous_mla": {
       "name": "Cherukuvada Sriranganadha Raju",
@@ -10990,11 +10990,11 @@
       {
         "fir_no": "153-A, 295-A, 298, 505(2) of IPC & Sec 67 of the Information Technology Act",
         "court": "No summons issued by court till date.",
-        "description": "Alleged \u2014 promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
+        "description": "Alleged — promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
         "sections": "",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 153-A, 295-A, 298, 505(2) of IPC & Sec 67 of the Information Technology Act | Desc: Alleged \u2014 promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
+        "raw_text": "FIR: 153-A, 295-A, 298, 505(2) of IPC & Sec 67 of the Information Technology Act | Desc: Alleged — promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
         "category": "Minor/Other"
       },
       {
@@ -11011,7 +11011,7 @@
         "fir_no": "151/2020",
         "court": "CBI, BSFB, New Delhi",
         "description": "dated 29-04-2019 case mentioned below is _ private Poduru P.S, Andhra Pradesh (based on the complaint of Power Finance Corporation Limited, CBI registered FIR against Ind Barath Power (Madras) Limited in which K Raghu Rama Krishna Raju was one of the accused)",
-        "sections": "Not applicable - Not applicable - Mr. Cherukuvada Ranganatha Raju | (Charge sheet filed according to weame 08-2020 before the Newspaper a N\u00b0 Summons issue erefore Addl. Judicial First Mavixirat by court till date. case No. and court name",
+        "sections": "Not applicable - Not applicable - Mr. Cherukuvada Ranganatha Raju | (Charge sheet filed according to weame 08-2020 before the Newspaper a N° Summons issue erefore Addl. Judicial First Mavixirat by court till date. case No. and court name",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 151/2020 | Desc: dated 29-04-2019 case mentioned below is _ private Poduru P.S, Andhra Pradesh (based on the complaint of Power Finance Corporation Limited, CBI registered FIR against Ind Barath Power (Madras) Limited in which K Raghu Rama Krishna Raju was one of the accused)",
@@ -11071,10 +11071,10 @@
       "eci_constituency_name": "UNDI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203735/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0160.htm",
-      "total_electors": 219572,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 224831,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.94
     },
     "previous_mla": {
       "name": "Mantena Ramaraju",
@@ -11351,10 +11351,10 @@
       "eci_constituency_name": "BHIMAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204132/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0159.htm",
-      "total_electors": 246424,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 253201,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.56
     },
     "previous_mla": {
       "name": "Grandhi Srinivas",
@@ -11477,10 +11477,10 @@
       "eci_constituency_name": "AMALAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203552/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0144.htm",
-      "total_electors": 203768,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 213508,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.2
     },
     "previous_mla": {
       "name": "Viswarupu Pinipe",
@@ -11574,11 +11574,11 @@
       {
         "fir_no": "79/2023",
         "court": "Not Applicable",
-        "description": "formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID \u2014 19 rules.",
+        "description": "formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID — 19 rules.",
         "sections": "Sec 143, 341, 353, 188, 269, 283 R/W 149, of the Sections, e.g Section,...of IPC, etc.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID \u2014 19 rules.",
+        "raw_text": "FIR: 79/2023 | Desc: formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID — 19 rules.",
         "category": "Political/Protest"
       },
       {
@@ -11752,23 +11752,23 @@
         "category": "Political/Protest"
       },
       {
-        "fir_no": "78\u00b0G SO4DY",
+        "fir_no": "78°G SO4DY",
         "court": "68'2'9-692| SOV | S/ElZ_ |",
         "description": "Jeuol G09\"E SeIDY BIOL (Saude UL JUBWeINseaw",
         "sections": "",
         "page": 15,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 78\u00b0G SO4DY | Desc: Jeuol G09\"E SeIDY BIOL (Saude UL JUBWeINseaw",
+        "raw_text": "FIR: 78°G SO4DY | Desc: Jeuol G09\"E SeIDY BIOL (Saude UL JUBWeINseaw",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "240Z/99\u00a5",
+        "fir_no": "240Z/99¥",
         "court": "F19VIMddV LON J1av2Mddv LON",
         "description": "FWgW | FWsVIMddV LON",
         "sections": "",
         "page": 16,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 240Z/99\u00a5 | Desc: FWgW | FWsVIMddV LON",
+        "raw_text": "FIR: 240Z/99¥ | Desc: FWgW | FWsVIMddV LON",
         "category": "Minor/Other"
       },
       {
@@ -11783,7 +11783,7 @@
       },
       {
         "fir_no": "d19gVv9",
-        "court": "sav 2IMddv JWVINdd\u00a5 | F1WVIMddV dd 270 \u20182V",
+        "court": "sav 2IMddv JWVINdd¥ | F1WVIMddV dd 270 ‘2V",
         "description": "J1GVINddV LON LON LON",
         "sections": "",
         "page": 16,
@@ -11854,11 +11854,11 @@
       {
         "fir_no": "319VINddv 719v",
         "court": "LON TIVINddV | FISVINdAV | aay | aygv>MddV LON",
-        "description": "y'bs 7z\u00a2\u00b09 (spaeA*bs goZ) | sen | ybs 7Z\u00a2\u00b09 ye}0L",
+        "description": "y'bs 7z¢°9 (spaeA*bs goZ) | sen | ybs 7Z¢°9 ye}0L",
         "sections": "",
         "page": 18,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 319VINddv 719v | Desc: y'bs 7z\u00a2\u00b09 (spaeA*bs goZ) | sen | ybs 7Z\u00a2\u00b09 ye}0L",
+        "raw_text": "FIR: 319VINddv 719v | Desc: y'bs 7z¢°9 (spaeA*bs goZ) | sen | ybs 7Z¢°9 ye}0L",
         "category": "Minor/Other"
       },
       {
@@ -11915,10 +11915,10 @@
       "eci_constituency_name": "TADIKONDA (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203344/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0186.htm",
-      "total_electors": 200269,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 207832,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.58
     },
     "previous_mla": {
       "name": "Vundavalli Sridevi",
@@ -12050,11 +12050,11 @@
       {
         "fir_no": "Not Applicable",
         "court": "Under Investigation Under Investigation Under Investigation",
-        "description": "If any person don\u2019t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
+        "description": "If any person don’t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
         "sections": "N/A",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Not Applicable | Desc: If any person don\u2019t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
+        "raw_text": "FIR: Not Applicable | Desc: If any person don’t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
         "category": "Minor/Other"
       },
       {
@@ -12258,10 +12258,10 @@
       "eci_constituency_name": "PALACOLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203652/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0157.htm",
-      "total_electors": 190192,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 195146,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.64
     },
     "previous_mla": {
       "name": "DR. Nimmala Ramanaidu",
@@ -12414,21 +12414,21 @@
       {
         "fir_no": "140/2019",
         "court": "CIVIL JUDGE- METROPOLITAN CIVIL JUDGE CUM MAGISTRATE COURT, MACHERLA VIJAYAWADA COURT",
-        "description": "CRIMINAL INTIMIDATION \u2014 DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
+        "description": "CRIMINAL INTIMIDATION — DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
         "sections": "SECTION 32 OF POLICE ACT",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 140/2019 | Desc: CRIMINAL INTIMIDATION \u2014 DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
+        "raw_text": "FIR: 140/2019 | Desc: CRIMINAL INTIMIDATION — DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
         "category": "Minor/Other"
       },
       {
         "fir_no": "135/2019",
         "court": "PRINCIPAL JUNIOR CIVIL JUDGE CUM METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION \u2014 CASE COMPROMISED",
+        "description": "WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION — CASE COMPROMISED",
         "sections": "SECTION 341,506",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 135/2019 | Desc: WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION \u2014 CASE COMPROMISED",
+        "raw_text": "FIR: 135/2019 | Desc: WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION — CASE COMPROMISED",
         "category": "Serious/Violent"
       },
       {
@@ -12494,31 +12494,31 @@
       {
         "fir_no": "806/2013",
         "court": "ADDITIONAL CHIEF METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY \u2014 CASE REFERRED AS FALSE",
+        "description": "ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY — CASE REFERRED AS FALSE",
         "sections": "SECTION 354 OF IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 806/2013 | Desc: ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY \u2014 CASE REFERRED AS FALSE",
+        "raw_text": "FIR: 806/2013 | Desc: ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY — CASE REFERRED AS FALSE",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "316/2013",
         "court": "ADDITIONAL CHIEF METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT \u2014 CASE REFERRED AS MISTAKE OF FACT",
+        "description": "UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT — CASE REFERRED AS MISTAKE OF FACT",
         "sections": "SECTION 143, 341, 188 OF IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 316/2013 | Desc: UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT \u2014 CASE REFERRED AS MISTAKE OF FACT",
+        "raw_text": "FIR: 316/2013 | Desc: UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT — CASE REFERRED AS MISTAKE OF FACT",
         "category": "Political/Protest"
       },
       {
         "fir_no": "552/2011",
         "court": "ILL ADDITIONAL CHIEF METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "CHEATING AND WRONGFUL RESTAINT\u2014 CASE COMPROMISED",
+        "description": "CHEATING AND WRONGFUL RESTAINT— CASE COMPROMISED",
         "sections": "SECTION 420, 506 OF IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 552/2011 | Desc: CHEATING AND WRONGFUL RESTAINT\u2014 CASE COMPROMISED",
+        "raw_text": "FIR: 552/2011 | Desc: CHEATING AND WRONGFUL RESTAINT— CASE COMPROMISED",
         "category": "Serious/Violent"
       },
       {
@@ -12585,10 +12585,10 @@
       "eci_constituency_name": "VIJAYAWADA CENTRAL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203951/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0180.htm",
-      "total_electors": 269912,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 277724,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 73.71
     },
     "previous_mla": {
       "name": "Vishnu Vardhan Malladi",
@@ -12680,10 +12680,10 @@
       "eci_constituency_name": "GUDIVADA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203441/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0172.htm",
-      "total_electors": 208393,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 204271,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.01
     },
     "previous_mla": {
       "name": "Kodali Sri Venkateswara Rao",
@@ -12795,16 +12795,16 @@
       {
         "fir_no": "SPLCC/13/2023",
         "court": "In the Court of Addl. Special Judge (IX Addl. Judge) Chennai",
-        "description": "Offence under Prevention of Money Laundering Act \u2014 Alleged in totally unconnected issue.",
+        "description": "Offence under Prevention of Money Laundering Act — Alleged in totally unconnected issue.",
         "sections": "",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: SPLCC/13/2023 | Desc: Offence under Prevention of Money Laundering Act \u2014 Alleged in totally unconnected issue.",
+        "raw_text": "FIR: SPLCC/13/2023 | Desc: Offence under Prevention of Money Laundering Act — Alleged in totally unconnected issue.",
         "category": "Minor/Other"
       },
       {
         "fir_no": "",
-        "court": "WP No. 30993/2021 was filed seeking quashing of the case and the same is pending before Hon\u2019ble Telangana High Court",
+        "court": "WP No. 30993/2021 was filed seeking quashing of the case and the same is pending before Hon’ble Telangana High Court",
         "description": "WP No. 30993/2021",
         "sections": "",
         "page": 4,
@@ -12836,10 +12836,10 @@
       "eci_constituency_name": "VIJAYAWADA WEST",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204101/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0179.htm",
-      "total_electors": 232604,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 256021,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 67.12
     },
     "previous_mla": {
       "name": "Velam Palli Srinivasa Rao",
@@ -12921,10 +12921,10 @@
       "eci_constituency_name": "RAZOLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204206/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0145.htm",
-      "total_electors": 186903,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 197920,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.25
     },
     "previous_mla": {
       "name": "Rapaka Vara Prasada Rao",
@@ -13278,10 +13278,10 @@
       "eci_constituency_name": "PAMARRU (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203649/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0177.htm",
-      "total_electors": 180913,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 184716,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 89.26
     },
     "previous_mla": {
       "name": "Anil Kumar Kaile",
@@ -13422,11 +13422,11 @@
       {
         "fir_no": "",
         "court": "Spl Court for trail of offences under SCSTPOA Act.",
-        "description": "Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)\u00ae, 3(1)(s), 32(Va)SCSTPOA Act.",
+        "description": "Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)®, 3(1)(s), 32(Va)SCSTPOA Act.",
         "sections": "",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)\u00ae, 3(1)(s), 32(Va)SCSTPOA Act.",
+        "raw_text": "FIR:  | Desc: Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)®, 3(1)(s), 32(Va)SCSTPOA Act.",
         "category": "Serious/Violent"
       },
       {
@@ -13513,10 +13513,10 @@
       "eci_constituency_name": "PENAMALURU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203412/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0178.htm",
-      "total_electors": 267803,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 294928,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.2
     },
     "previous_mla": {
       "name": "Kolusu Partha Sarathy",
@@ -13641,7 +13641,7 @@
         "fir_no": "272/2023",
         "court": "Kanchikcherla PS, Police Station Krishna Dt",
         "description": "some persons gathered and interrupting to vehicular and shouting",
-        "sections": "U/s \u2014 151 -CRPC",
+        "sections": "U/s — 151 -CRPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 272/2023 | Desc: some persons gathered and interrupting to vehicular and shouting",
@@ -13671,10 +13671,10 @@
       "eci_constituency_name": "VIJAYAWADA EAST",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203756/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0181.htm",
-      "total_electors": 275724,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 270596,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 72.4
     },
     "previous_mla": {
       "name": "Gadde Rama Mohan",
@@ -14141,10 +14141,10 @@
       "eci_constituency_name": "SATTENAPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203426/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0198.htm",
-      "total_electors": 231039,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 242047,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.82
     },
     "previous_mla": {
       "name": "Ambati Rambabu",
@@ -14285,10 +14285,10 @@
       "eci_constituency_name": "NARASAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204151/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0158.htm",
-      "total_electors": 168187,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 170521,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.28
     },
     "previous_mla": {
       "name": "Mudunuri Prasada Raju",
@@ -14424,10 +14424,10 @@
       "eci_constituency_name": "PEDANA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204009/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0174.htm",
-      "total_electors": 166223,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 167622,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 89.46
     },
     "previous_mla": {
       "name": "Jogi Ramesh",
@@ -14788,10 +14788,10 @@
       "eci_constituency_name": "GUNTUR EAST",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203556/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0195.htm",
-      "total_electors": 229909,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 250790,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 71.57
     },
     "previous_mla": {
       "name": "Mohammed Mustafa Shaik",
@@ -15133,10 +15133,10 @@
       "eci_constituency_name": "TENALI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204108/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0191.htm",
-      "total_electors": 263286,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 267914,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 76.89
     },
     "previous_mla": {
       "name": "Annabathuni Siva Kumar",
@@ -15332,11 +15332,11 @@
       },
       {
         "fir_no": "158/2023",
-        "description": "Assault or criminal Acts done by serval persons in \u2018furtherance of common intention.\u201d",
+        "description": "Assault or criminal Acts done by serval persons in ‘furtherance of common intention.”",
         "sections": "U/s. 151",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 158/2023 | Desc: Assault or criminal Acts done by serval persons in \u2018furtherance of common intention.\u201d",
+        "raw_text": "FIR: 158/2023 | Desc: Assault or criminal Acts done by serval persons in ‘furtherance of common intention.”",
         "category": "Political/Protest"
       },
       {
@@ -15479,10 +15479,10 @@
       "eci_constituency_name": "NARASARAOPET",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203632/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0197.htm",
-      "total_electors": 221728,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 232778,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.1
     },
     "previous_mla": {
       "name": "Gopireddy Srinivasareddy",
@@ -15563,10 +15563,10 @@
       "eci_constituency_name": "YERRAGONDAPALEM (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204033/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01102.htm",
-      "total_electors": 200581,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 207435,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 89.53
     },
     "previous_mla": {
       "name": "Audimulapu Suresh",
@@ -15675,10 +15675,10 @@
       "eci_constituency_name": "PRATHIPADU (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203437/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0193.htm",
-      "total_electors": 250605,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 267888,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.68
     },
     "previous_mla": {
       "name": "Mekathoti Sucharitha",
@@ -15877,10 +15877,10 @@
       "eci_constituency_name": "CHILAKALURIPET",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203730/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0196.htm",
-      "total_electors": 223976,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 226646,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.21
     },
     "previous_mla": {
       "name": "Rajini Vidadala",
@@ -16233,10 +16233,10 @@
       "eci_constituency_name": "MACHILIPATNAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203845/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0175.htm",
-      "total_electors": 184578,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 196765,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.77
     },
     "previous_mla": {
       "name": "Perni Venkataramaiah (nani)",
@@ -16398,10 +16398,10 @@
       "eci_constituency_name": "VEMURU (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203840/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0189.htm",
-      "total_electors": 195274,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 198015,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 87.29
     },
     "previous_mla": {
       "name": "Merugu Nagarjuna",
@@ -16472,10 +16472,10 @@
       "eci_constituency_name": "AVANIGADDA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204112/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0176.htm",
-      "total_electors": 207353,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 212455,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.76
     },
     "previous_mla": {
       "name": "Ramesh Babu Simhadri",
@@ -16588,10 +16588,10 @@
       "eci_constituency_name": "SRISAILAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203906/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01135.htm",
-      "total_electors": 185218,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 196596,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.71
     },
     "previous_mla": {
       "name": "Silpa Chakrapani Reddy",
@@ -16673,23 +16673,23 @@
       },
       {
         "fir_no": "243",
-        "description": "Aq siy O\u20ac'6T Je Aep awes",
+        "description": "Aq siy O€'6T Je Aep awes",
         "sections": "24} UO payodai pue yWedape)",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 243 | Desc: Aq siy O\u20ac'6T Je Aep awes",
+        "raw_text": "FIR: 243 | Desc: Aq siy O€'6T Je Aep awes",
         "category": "Minor/Other",
-        "description_brief": "Aq siy O\u20ac'6T Je Aep awes"
+        "description_brief": "Aq siy O€'6T Je Aep awes"
       },
       {
         "fir_no": "d5d",
-        "description": "3\u20ac Ssy OO'ST 3& TZ0Z'60\u00b0LT",
-        "sections": "UO passNIDO \u201cSq WJedapey jo Dg)",
+        "description": "3€ Ssy OO'ST 3& TZ0Z'60°LT",
+        "sections": "UO passNIDO “Sq WJedapey jo Dg)",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: d5d | Desc: 3\u20ac Ssy OO'ST 3& TZ0Z'60\u00b0LT",
+        "raw_text": "FIR: d5d | Desc: 3€ Ssy OO'ST 3& TZ0Z'60°LT",
         "category": "Minor/Other",
-        "description_brief": "3\u20ac Ssy OO'ST 3& TZ0Z'60\u00b0LT"
+        "description_brief": "3€ Ssy OO'ST 3& TZ0Z'60°LT"
       }
     ],
     "criminal_details_convictions": [],
@@ -16722,10 +16722,10 @@
       "eci_constituency_name": "ADDANKI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203418/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01105.htm",
-      "total_electors": 231977,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 244190,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.26
     },
     "previous_mla": {
       "name": "Gottipati Ravikumar",
@@ -16798,10 +16798,10 @@
       "eci_constituency_name": "NANDIKOTKUR (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204004/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01136.htm",
-      "total_electors": 197720,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 218047,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.69
     },
     "previous_mla": {
       "name": "Thoguru Arthur",
@@ -16922,10 +16922,10 @@
       "eci_constituency_name": "REPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203715/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0190.htm",
-      "total_electors": 223738,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 229005,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.46
     },
     "previous_mla": {
       "name": "Anagani Satya Prasad",
@@ -17066,10 +17066,10 @@
       "eci_constituency_name": "PARCHUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203358/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01104.htm",
-      "total_electors": 230219,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 229562,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 88.11
     },
     "previous_mla": {
       "name": "Yeluri Samba Sivarao",
@@ -17302,10 +17302,10 @@
       "eci_constituency_name": "BAPATLA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203323/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS0192.htm",
-      "total_electors": 185076,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 192192,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.89
     },
     "previous_mla": {
       "name": "Kona Raghupathi",
@@ -17387,10 +17387,10 @@
       "eci_constituency_name": "MANTRALAYAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204020/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01145.htm",
-      "total_electors": 187057,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 208407,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.61
     },
     "previous_mla": {
       "name": "Y. Balanagi Reddy",
@@ -17462,10 +17462,10 @@
       "eci_constituency_name": "DARSI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204013/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01103.htm",
-      "total_electors": 214440,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 226590,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 91.4
     },
     "previous_mla": {
       "name": "Maddisetty Venugopal",
@@ -17573,10 +17573,10 @@
       "eci_constituency_name": "YEMMIGANUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203908/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01144.htm",
-      "total_electors": 227395,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 247752,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 81.97
     },
     "previous_mla": {
       "name": "K Chennakesava Reddy",
@@ -17722,10 +17722,10 @@
       "eci_constituency_name": "CHIRALA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203318/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01106.htm",
-      "total_electors": 190830,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 203136,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.85
     },
     "previous_mla": {
       "name": "Karanam Balarama Krishna Murthy",
@@ -17796,10 +17796,10 @@
       "eci_constituency_name": "KODUMUR (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203912/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01143.htm",
-      "total_electors": 216212,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 246800,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.04
     },
     "previous_mla": {
       "name": "Jaradoddi Sudhakar",
@@ -17875,10 +17875,10 @@
       "eci_constituency_name": "KURNOOL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203609/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01137.htm",
-      "total_electors": 258876,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 274557,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 65.05
     },
     "previous_mla": {
       "name": "Abdul Hafeez Khan",
@@ -17951,10 +17951,10 @@
       "eci_constituency_name": "PANYAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203645/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01138.htm",
-      "total_electors": 288300,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 332012,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 75.38
     },
     "previous_mla": {
       "name": "Katasani Rambhupal Reddy",
@@ -18143,10 +18143,10 @@
       "eci_constituency_name": "MARKAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203748/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01111.htm",
-      "total_electors": 210105,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 214657,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 88.95
     },
     "previous_mla": {
       "name": "Kunduru Nagarjuna Reddy",
@@ -18245,10 +18245,10 @@
       "eci_constituency_name": "ADONI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204105/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01146.htm",
-      "total_electors": 240234,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 263169,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 66.93
     },
     "previous_mla": {
       "name": "Y. Sai Prasad Reddy",
@@ -18356,10 +18356,10 @@
       "eci_constituency_name": "GIDDALUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203934/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01112.htm",
-      "total_electors": 238144,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 245114,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.4
     },
     "previous_mla": {
       "name": "Anna Rambabu",
@@ -18432,10 +18432,10 @@
       "eci_constituency_name": "SANTHANUTHALAPADU (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203710/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01107.htm",
-      "total_electors": 211557,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 214795,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.42
     },
     "previous_mla": {
       "name": "T.j.r. Sudhakar Babu",
@@ -18519,10 +18519,10 @@
       "eci_constituency_name": "ALUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204014/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01147.htm",
-      "total_electors": 236320,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 258997,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 81.25
     },
     "previous_mla": {
       "name": "P Jayaram",
@@ -18593,10 +18593,10 @@
       "eci_constituency_name": "PATTIKONDA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203601/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01142.htm",
-      "total_electors": 206915,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 223603,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.7
     },
     "previous_mla": {
       "name": "Kangati Sreedevi",
@@ -18679,10 +18679,10 @@
       "eci_constituency_name": "DHONE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203432/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01141.htm",
-      "total_electors": 220035,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 227351,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.62
     },
     "previous_mla": {
       "name": "Buggana Raja Reddy",
@@ -18903,10 +18903,10 @@
       "eci_constituency_name": "KONDAPI (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203638/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01110.htm",
-      "total_electors": 231653,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 239702,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 89.25
     },
     "previous_mla": {
       "name": "Doctor Dola Sree Bala Veeranjaneya Swamy",
@@ -19132,10 +19132,10 @@
       "eci_constituency_name": "ONGOLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203522/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01108.htm",
-      "total_electors": 229462,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 240242,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.12
     },
     "previous_mla": {
       "name": "Balineni Srinivasa Reddy (vasu)",
@@ -19254,10 +19254,10 @@
       "eci_constituency_name": "NANDYAL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203901/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01139.htm",
-      "total_electors": 257029,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 274446,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 76.0
     },
     "previous_mla": {
       "name": "Shilpa Ravi Chandra Kishore Reddy",
@@ -19373,10 +19373,10 @@
       "eci_constituency_name": "KANIGIRI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203909/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01113.htm",
-      "total_electors": 232084,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 240079,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.87
     },
     "previous_mla": {
       "name": "Burra Madhu Sudhan Yadav",
@@ -19573,10 +19573,10 @@
       "eci_constituency_name": "BANAGANAPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203923/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01140.htm",
-      "total_electors": 233754,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 242322,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 84.9
     },
     "previous_mla": {
       "name": "Katasani Rami Reddy",
@@ -19757,10 +19757,10 @@
       "eci_constituency_name": "ALLAGADDA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203617/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01134.htm",
-      "total_electors": 221164,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 233237,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.91
     },
     "previous_mla": {
       "name": "Gangula Brijendra Reddy (Nani)",
@@ -19905,10 +19905,10 @@
       "eci_constituency_name": "KANDUKUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203512/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01109.htm",
-      "total_electors": 218961,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 228698,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 90.41
     },
     "previous_mla": {
       "name": "Maheedhar Reddy Manugunta",
@@ -19993,10 +19993,10 @@
       "eci_constituency_name": "GUNTAKAL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203532/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01150.htm",
-      "total_electors": 252719,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 271057,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 76.27
     },
     "previous_mla": {
       "name": "Y. Venkatarama Reddy",
@@ -20067,10 +20067,10 @@
       "eci_constituency_name": "BADVEL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204023/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01124.htm",
-      "total_electors": 205338,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 220220,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 79.41
     },
     "previous_mla": {
       "name": "Dr. G. Venkata Subbaiah",
@@ -20201,10 +20201,10 @@
       "eci_constituency_name": "URAVAKONDA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203613/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01149.htm",
-      "total_electors": 215940,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 224339,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.71
     },
     "previous_mla": {
       "name": "Payyavula Keshav",
@@ -20521,10 +20521,10 @@
       "eci_constituency_name": "TADPATRI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203605/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01151.htm",
-      "total_electors": 234924,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 248880,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.45
     },
     "previous_mla": {
       "name": "K. Pedda Reddy",
@@ -20794,10 +20794,10 @@
       "eci_constituency_name": "RAYADURG",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203306/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01148.htm",
-      "total_electors": 249605,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 264186,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 86.4
     },
     "previous_mla": {
       "name": "Kapu Ramachandra Reddy",
@@ -20883,10 +20883,10 @@
       "eci_constituency_name": "UDAYAGIRI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203928/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01123.htm",
-      "total_electors": 231202,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 241516,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 83.18
     },
     "previous_mla": {
       "name": "Mekapati Chandra Sekhar Reddy",
@@ -20997,10 +20997,10 @@
       "eci_constituency_name": "JAMMALAMADUGU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204054/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01131.htm",
-      "total_electors": 237817,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 242749,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 87.81
     },
     "previous_mla": {
       "name": "Mule Sudheer Reddy",
@@ -21112,10 +21112,10 @@
       "eci_constituency_name": "MYDUKUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203340/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01133.htm",
-      "total_electors": 208194,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 211855,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 85.31
     },
     "previous_mla": {
       "name": "Raghurami Reddy Settipally",
@@ -21187,10 +21187,10 @@
       "eci_constituency_name": "KAVALI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203827/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01114.htm",
-      "total_electors": 255469,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 238645,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.8
     },
     "previous_mla": {
       "name": "Ramireddy Pratap Kumar Reddy",
@@ -21259,11 +21259,11 @@
       },
       {
         "fir_no": "Cr.No.110/2024",
-        "description": "1. Sec.143 Being member of an unlawful assembly \u2014 [promulgated by a public servant",
+        "description": "1. Sec.143 Being member of an unlawful assembly — [promulgated by a public servant",
         "sections": "1. Sec.143",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.110/2024 | Desc: 1. Sec.143 Being member of an unlawful assembly \u2014 [promulgated by a public servant",
+        "raw_text": "FIR: Cr.No.110/2024 | Desc: 1. Sec.143 Being member of an unlawful assembly — [promulgated by a public servant",
         "category": "Political/Protest"
       },
       {
@@ -21335,10 +21335,10 @@
       "eci_constituency_name": "PRODDATUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203758/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01132.htm",
-      "total_electors": 236849,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 248324,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 81.06
     },
     "previous_mla": {
       "name": "Rachamallu Siva Prasad Reddy",
@@ -21421,10 +21421,10 @@
       "eci_constituency_name": "SINGANAMALA (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203548/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01152.htm",
-      "total_electors": 235435,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 247803,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.03
     },
     "previous_mla": {
       "name": "Padmavathy Jonnalagadda",
@@ -21516,10 +21516,10 @@
       "eci_constituency_name": "ATMAKUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203823/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01115.htm",
-      "total_electors": 209051,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 215460,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.88
     },
     "previous_mla": {
       "name": "Mekapati Goutham Reddy",
@@ -21609,10 +21609,10 @@
       "eci_constituency_name": "ANANTAPUR URBAN",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203540/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01153.htm",
-      "total_electors": 255852,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 281403,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 67.37
     },
     "previous_mla": {
       "name": "Anantha Venkatarami Reddy",
@@ -21777,10 +21777,10 @@
       "eci_constituency_name": "RAPTADU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203352/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01155.htm",
-      "total_electors": 245738,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 250571,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 86.66
     },
     "previous_mla": {
       "name": "Thopudurthi Prakash Reddy",
@@ -21995,12 +21995,12 @@
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "19 (A) of 2011 \u2014 CBI/HYD",
+        "fir_no": "19 (A) of 2011 — CBI/HYD",
         "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
         "sections": "Section 120-B r/w 420 of IPC AND Section 9 of Prevention of Corruption Act",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 19 (A) of 2011 \u2014 CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
+        "raw_text": "FIR: 19 (A) of 2011 — CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property",
         "category": "Corruption & Fraud"
       },
       {
@@ -22013,12 +22013,12 @@
         "category": "Minor/Other"
       },
       {
-        "fir_no": "19 (A) of 2011 \u2014 CBI/HYD",
+        "fir_no": "19 (A) of 2011 — CBI/HYD",
         "description": "Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
         "sections": "Section 120-B, Section 420, Section 409, Section 9 & 12 of Prevention of Corruption Act",
         "page": 15,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 19 (A) of 2011 \u2014 CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
+        "raw_text": "FIR: 19 (A) of 2011 — CBI/HYD | Desc: Criminal Conspiracy, Cheating and dishonestly inducing delivery of property, Criminal breach of trust by public servant",
         "category": "Corruption & Fraud"
       },
       {
@@ -22072,10 +22072,10 @@
       "eci_constituency_name": "PULIVENDLA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204039/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01129.htm",
-      "total_electors": 223770,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 230235,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 82.3
     },
     "previous_mla": {
       "name": "Yeduguri Sandinti Jagan Mohan Reddy",
@@ -22145,12 +22145,12 @@
         "category": "Minor/Other"
       },
       {
-        "fir_no": "U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST\u2019s (POA) Act",
-        "description": "PRIVATE COMPLAINT FOR SC/ST\u2019s ATROCITY.",
+        "fir_no": "U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST’s (POA) Act",
+        "description": "PRIVATE COMPLAINT FOR SC/ST’s ATROCITY.",
         "sections": "",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST\u2019s (POA) Act | Desc: PRIVATE COMPLAINT FOR SC/ST\u2019s ATROCITY.",
+        "raw_text": "FIR: U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST’s (POA) Act | Desc: PRIVATE COMPLAINT FOR SC/ST’s ATROCITY.",
         "category": "Serious/Violent"
       },
       {
@@ -22186,10 +22186,10 @@
       "eci_constituency_name": "KALYANDURG",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203501/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01154.htm",
-      "total_electors": 219685,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 230785,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 89.19
     },
     "previous_mla": {
       "name": "K.V. Usha Sricharan",
@@ -22272,10 +22272,10 @@
       "eci_constituency_name": "DHARMAVARAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204059/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01160.htm",
-      "total_electors": 240543,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 246016,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 89.36
     },
     "previous_mla": {
       "name": "Kethireddy Venkatarami Reddy",
@@ -22392,10 +22392,10 @@
       "eci_constituency_name": "KAMALAPURAM",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203716/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01130.htm",
-      "total_electors": 193151,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 204169,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.34
     },
     "previous_mla": {
       "name": "Pochimareddy Ravindranath Reddy",
@@ -22467,10 +22467,10 @@
       "eci_constituency_name": "KOVUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203719/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01116.htm",
-      "total_electors": 264685,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 267345,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.52
     },
     "previous_mla": {
       "name": "Nallapareddy Prasanna Kumar Reddy",
@@ -22537,10 +22537,10 @@
       "eci_constituency_name": "SARVEPALLI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203724/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01119.htm",
-      "total_electors": 230446,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 232034,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.35
     },
     "previous_mla": {
       "name": "Kakani Govardhan Reddy",
@@ -22604,10 +22604,10 @@
       "eci_constituency_name": "VENKATAGIRI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203806/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01122.htm",
-      "total_electors": 240304,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 243582,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 81.93
     },
     "previous_mla": {
       "name": "Anam Ramanarayana Reddy",
@@ -22718,10 +22718,10 @@
       "eci_constituency_name": "KADAPA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203516/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01126.htm",
-      "total_electors": 265211,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 284548,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 66.96
     },
     "previous_mla": {
       "name": "Amzath Basha Shaik Bepari",
@@ -22803,10 +22803,10 @@
       "eci_constituency_name": "NELLORE CITY",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203852/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01117.htm",
-      "total_electors": 238836,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 239544,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 72.95
     },
     "previous_mla": {
       "name": "Anil Kumar Poluboina",
@@ -22877,10 +22877,10 @@
       "eci_constituency_name": "RAJAMPET",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204028/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01125.htm",
-      "total_electors": 222409,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 242064,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 76.24
     },
     "previous_mla": {
       "name": "Meda Venkata Mallikarjuna Reddy",
@@ -22979,10 +22979,10 @@
       "eci_constituency_name": "NELLORE RURAL",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203311/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01118.htm",
-      "total_electors": 254641,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 280948,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 69.24
     },
     "previous_mla": {
       "name": "Kotamreddy Sridhar Reddy",
@@ -23083,10 +23083,10 @@
       "eci_constituency_name": "PUTTAPARTHI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203937/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01159.htm",
-      "total_electors": 200075,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 212137,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 86.72
     },
     "previous_mla": {
       "name": "Duddukunta Sreedhar Reddy",
@@ -23169,10 +23169,10 @@
       "eci_constituency_name": "KODUR (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204210/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01127.htm",
-      "total_electors": 182772,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 204466,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 75.22
     },
     "previous_mla": {
       "name": "Koramutla Sreenivasulu",
@@ -23488,10 +23488,10 @@
       "eci_constituency_name": "KADIRI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203352/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01161.htm",
-      "total_electors": 240086,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 253682,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.45
     },
     "previous_mla": {
       "name": "P.V. Sidda Reddy",
@@ -23635,10 +23635,10 @@
       "eci_constituency_name": "RAYACHOTI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203657/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01128.htm",
-      "total_electors": 231856,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 256105,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 78.05
     },
     "previous_mla": {
       "name": "Gadikota. Srikanth Reddy.",
@@ -23755,7 +23755,7 @@
         "raw_text": "FIR: 179/2023 | Desc: Prevention of committing any cognizable offence",
         "category": "Election Offenses",
         "description_brief": "Prevention of committing any cognizable offence",
-        "court": "2 \u2018Prevention of committing any cognizable offence.",
+        "court": "2 ‘Prevention of committing any cognizable offence.",
         "court_source": "OCR+LLM:gemma3:4b/ocr_text_v4"
       },
       {
@@ -23842,13 +23842,13 @@
       },
       {
         "fir_no": "64/2019",
-        "description": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P",
+        "description": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P",
         "sections": "109, 379, 411 r/w 34",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 64/2019 | Desc: Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P",
+        "raw_text": "FIR: 64/2019 | Desc: Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P",
         "category": "Serious/Violent",
-        "description_brief": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P"
+        "description_brief": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P"
       },
       {
         "fir_no": "46/2017",
@@ -23917,10 +23917,10 @@
       "eci_constituency_name": "PENUKONDA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203439/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01158.htm",
-      "total_electors": 220555,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 236189,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.9
     },
     "previous_mla": {
       "name": "Malagundla Sankaranarayana",
@@ -24209,10 +24209,10 @@
       "eci_constituency_name": "MADAKASIRA (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203405/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01156.htm",
-      "total_electors": 201881,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 210804,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.3
     },
     "previous_mla": {
       "name": "M Thippeswamy",
@@ -24438,10 +24438,10 @@
       "eci_constituency_name": "GUDUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203402/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01120.htm",
-      "total_electors": 236529,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 244859,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 79.46
     },
     "previous_mla": {
       "name": "Velagapalli Varaprasad Rao",
@@ -24512,10 +24512,10 @@
       "eci_constituency_name": "SULLURPETA",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203746/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01121.htm",
-      "total_electors": 231724,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 242704,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 83.7
     },
     "previous_mla": {
       "name": "Kiliveti Sanjeevaiah",
@@ -24610,10 +24610,10 @@
       "eci_constituency_name": "THAMBALLAPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204018/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01162.htm",
-      "total_electors": 209992,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 225414,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 83.34
     },
     "previous_mla": {
       "name": "Peddireddy Dwarakanatha Reddy",
@@ -24685,10 +24685,10 @@
       "eci_constituency_name": "HINDUPUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203302/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01157.htm",
-      "total_electors": 229340,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 249174,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 78.64
     },
     "previous_mla": {
       "name": "Nandamuri Balakrishna",
@@ -24889,10 +24889,10 @@
       "eci_constituency_name": "PILERU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203342/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01163.htm",
-      "total_electors": 223982,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 234008,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.79
     },
     "previous_mla": {
       "name": "Chinthala Ramachandra Reddy",
@@ -25082,10 +25082,10 @@
       "eci_constituency_name": "SRIKALAHASTI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203430/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01168.htm",
-      "total_electors": 237760,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 248536,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 84.22
     },
     "previous_mla": {
       "name": "Madhusudhan Reddy Biyyapu",
@@ -25438,10 +25438,10 @@
       "eci_constituency_name": "CHANDRAGIRI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203629/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01166.htm",
-      "total_electors": 292162,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 315558,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 80.89
     },
     "previous_mla": {
       "name": "Dr.CHEVIREDDY Bhaskar Reddy",
@@ -25513,10 +25513,10 @@
       "eci_constituency_name": "SATYAVEDU",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203328/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01169.htm",
-      "total_electors": 202843,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 214931,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 85.85
     },
     "previous_mla": {
       "name": "Adimulam Koneti",
@@ -25588,10 +25588,10 @@
       "eci_constituency_name": "TIRUPATI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204141/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01167.htm",
-      "total_electors": 270847,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 302503,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 64.05
     },
     "previous_mla": {
       "name": "Bhumana Karunakar Reddy",
@@ -25672,10 +25672,10 @@
       "eci_constituency_name": "PUNGANUR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106204009/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01165.htm",
-      "total_electors": 229643,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 239256,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 87.64
     },
     "previous_mla": {
       "name": "Peddireddi Ramachandra Reddy",
@@ -25819,10 +25819,10 @@
       "eci_constituency_name": "MADANAPALLE",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203408/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01164.htm",
-      "total_electors": 246284,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 267829,
+      "total_electors_year": 2024,
+      "total_electors_source": "ssr_2025",
+      "turnout_percent": 75.75
     },
     "previous_mla": {
       "name": "Mohammed Nawaz Basha",
@@ -25945,11 +25945,11 @@
       },
       {
         "fir_no": "Crime No.166/2023",
-        "description": "Causing \u2013 hurt by act endangering life or personal safety of others",
+        "description": "Causing – hurt by act endangering life or personal safety of others",
         "sections": "IPC",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Crime No.166/2023 | Desc: Causing \u2013 hurt by act endangering life or personal safety of others",
+        "raw_text": "FIR: Crime No.166/2023 | Desc: Causing – hurt by act endangering life or personal safety of others",
         "category": "Minor/Other"
       },
       {
@@ -26066,10 +26066,10 @@
       "eci_constituency_name": "NAGARI",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203849/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01170.htm",
-      "total_electors": 194900,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 202713,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.07
     },
     "previous_mla": {
       "name": "R.K. Roja",
@@ -26177,10 +26177,10 @@
       "eci_constituency_name": "PUTHALAPATTU (SC)",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203331/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01173.htm",
-      "total_electors": 216240,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 220999,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.24
     },
     "previous_mla": {
       "name": "M. Babu",
@@ -26570,10 +26570,10 @@
       "eci_constituency_name": "PALAMANER",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203455/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01174.htm",
-      "total_electors": 256090,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 268135,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 88.22
     },
     "previous_mla": {
       "name": "N Venkate Gowda",
@@ -26654,10 +26654,10 @@
       "eci_constituency_name": "CHITTOOR",
       "source": "ECI (June 2024 results portal, via Wayback snapshot 2025-11-06)",
       "source_url": "https://web.archive.org/web/20251106203540/https://results.eci.gov.in/AcResultGenJune2024/ConstituencywiseS01172.htm",
-      "total_electors": 193904,
-      "total_electors_year": 2019,
-      "total_electors_source": "tcpd_2019",
-      "turnout_percent": null
+      "total_electors": 202850,
+      "total_electors_year": 2024,
+      "total_electors_source": "ceoap_2024",
+      "turnout_percent": 82.72
     },
     "previous_mla": {
       "name": "Aranii Srenevasulu (Jangalapalli)",
@@ -26723,13 +26723,13 @@
       {
         "fir_no": "18/2023",
         "police_station": "CID Police Station, A.P., Amaravathi, Mangalagiri",
-        "description": "Irregularities in decisions taken between 2014\u201319, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
+        "description": "Irregularities in decisions taken between 2014–19, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
         "sections": "166, 167, 409, 120B r/w 34 IPC; 13(1)(d) r/w 13(2) Prevention of Corruption Act 1988",
         "charges_framed": "No",
         "category": "Corruption & Fraud",
         "page": 17,
         "method": "OCR:tesseract/manual-audit",
-        "description_brief": "Irregularities in decisions taken between 2014\u201319, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
+        "description_brief": "Irregularities in decisions taken between 2014–19, fixing privilege fee and granting permissions to distilleries and brands, causing loss to the state exchequer",
         "court": "CID Police Station, A.P., Amaravathi, Mangalagiri",
         "court_source": "OCR+LLM:gemma3:4b/ocr_text_v4"
       },
@@ -26834,13 +26834,13 @@
       {
         "fir_no": "230/2021",
         "police_station": "Avandalpet Police Station, Guntur District",
-        "description": "Spoke about the 2nd wave of Covid and about the N440K variant being 10\u201315 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh",
+        "description": "Spoke about the 2nd wave of Covid and about the N440K variant being 10–15 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh",
         "sections": "188, 505(1)(b), 505(2) IPC; 54 Disaster Management Act 2005",
         "charges_framed": "No",
         "category": "Political/Protest",
         "page": 20,
         "method": "OCR:tesseract/manual-audit",
-        "description_brief": "Spoke about the 2nd wave of Covid and about the N440K variant being 10\u201315 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh"
+        "description_brief": "Spoke about the 2nd wave of Covid and about the N440K variant being 10–15 times more dangerous, causing fear, alarm, and mental stress among the people of Andhra Pradesh"
       },
       {
         "fir_no": "88/2021",
@@ -26900,13 +26900,13 @@
       {
         "fir_no": "1/2021",
         "police_station": "Nellimarla Police Station, Vizianagaram District",
-        "description": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3\u2013A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]",
+        "description": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3–A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]",
         "sections": "307, 326, 427, 503, 506, 323, 120B r/w 34 IPC; 3 Prevention of Damage to Public Property Act 1984",
         "charges_framed": "No",
         "category": "Serious/Violent",
         "page": 22,
         "method": "OCR:tesseract/manual-audit",
-        "description_brief": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3\u2013A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]"
+        "description_brief": "TDP activists pelted stones, water bottles and footwear on the proceedings of V. Vijaya Sai Reddy, resulting in damage to his car [Note in affidavit: charge sheet filed against A3–A8; no evidence collected against A1 i.e. Nara Chandrababu Naidu]"
       },
       {
         "fir_no": "511/2020",
