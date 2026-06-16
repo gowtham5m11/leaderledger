@@ -22,6 +22,7 @@ const NewsPage = React.lazy(() => import('./pages/NewsPage'));
 const AchievementsPage = React.lazy(() => import('./pages/AchievementsPage'));
 const AchievementDetailPage = React.lazy(() => import('./pages/AchievementDetailPage'));
 const CriminalDisclosurePage = React.lazy(() => import('./pages/CriminalDisclosurePage'));
+const ManifestoPage = React.lazy(() => import('./pages/ManifestoPage'));
 
 // Landing route. Mobile users start on the candidates list (the map is hard
 // to use on a small screen — see DesktopHint); desktop users start on the
@@ -109,6 +110,11 @@ function App() {
                     <CandidateProfile />
                   </Suspense>
                 } />
+                <Route path="/manifesto" element={
+                  <Suspense fallback={<GenericPageSkeleton />}>
+                    <ManifestoPage />
+                  </Suspense>
+                } />
                 <Route path="/criminal/:id" element={
                   <Suspense fallback={<GenericPageSkeleton />}>
                     <CriminalDisclosurePage />
@@ -156,6 +162,7 @@ const FloatingNav = () => {
   const viewMode = pathname.includes('/district') ? 'district' :
                    pathname.includes('/list') ? 'list' :
                    pathname.includes('/news') ? 'news' :
+                   pathname.includes('/manifesto') ? 'manifesto' :
                    pathname.includes('/achievements') ? 'achievements' : '';
 
   return (
@@ -165,6 +172,7 @@ const FloatingNav = () => {
         { label: 'List', icon: 'format_list_bulleted', path: '/list', view: 'list' },
         { label: 'News', icon: 'newspaper', path: '/news', view: 'news' },
         { label: 'Wins', icon: 'emoji_events', path: '/achievements', view: 'achievements' },
+        { label: 'Promises', icon: 'fact_check', path: '/manifesto', view: 'manifesto' },
       ].map(({ label, icon, path, view }) => {
         const isActive = viewMode === view;
         return (
