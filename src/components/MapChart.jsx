@@ -4,15 +4,28 @@ import { getDistrictData, partyColor } from '../data/mockData';
 import mapPaths from '../data/mapPaths.json';
 
 const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistrictBorders, highlightedDistrict, constituencyDistrict }) => {
-  const [position, setPosition] = useState({ x: 0, y: 0, zoom: 1 });
+  const [position, setPosition] = useState(() => {
+    try {
+      const s = JSON.parse(localStorage.getItem('ll_map1'));
+      if (s?.zoom) return { x: s.x ?? 0, y: s.y ?? 0, zoom: s.zoom };
+    } catch {}
+    return { x: 0, y: 0, zoom: 1 };
+  });
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
   const [isMobile, setIsMobile] = useState(false);
   const [bboxes, setBboxes] = useState({});
-  const [rotation, setRotation] = useState(0);
+  const [rotation, setRotation] = useState(() => {
+    try {
+      const s = JSON.parse(localStorage.getItem('ll_map1'));
+      return typeof s?.rotation === 'number' ? s.rotation : 0;
+    } catch {}
+    return 0;
+  });
   const rotationGestureRef = useRef(null);
   const containerRef = useRef(null);
   const svgRef = useRef(null);
+  const saveTimerRef = useRef(null);
 
   const ROTATION_LIMIT = 60;
 
@@ -23,6 +36,15 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
     mq.addEventListener('change', handler);
     return () => mq.removeEventListener('change', handler);
   }, []);
+
+  useEffect(() => {
+    clearTimeout(saveTimerRef.current);
+    saveTimerRef.current = setTimeout(() => {
+      try {
+        localStorage.setItem('ll_map1', JSON.stringify({ ...position, rotation }));
+      } catch {}
+    }, 400);
+  }, [position, rotation]);
 
   useEffect(() => {
     if (!svgRef.current) return;
@@ -297,8 +319,9 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
                 d={path}
                 data-name={name}
                 className="constituency-path transition-all duration-300 cursor-pointer"
-                stroke="var(--surface)"
-                strokeWidth={0.3}
+                stroke="#000000"
+                strokeWidth={0.4}
+                strokeOpacity={0.35}
                 onClick={() => onDistrictClick(data)}
                 onMouseEnter={() => {
                   setTooltipContent({ name, ...data });
@@ -336,7 +359,7 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
 
             // Strip disambiguation suffix in parens (e.g. "PRATHIPADU (VARUPULA SATYA PRABHA)" -> "PRATHIPADU"),
             // then title-case each word: "VIJAYAWADA CENTRAL" -> "Vijayawada Central".
-            const display = name.replace(/\s*\([^)]*\)\s*/g, '').trim();
+            const display = name.replace(/\s*\([^)]*\)\s*/g, '').replace(/\d+$/, '').trim();
             const lines = display.split(/\s+/);
             const longestWord = lines.reduce((m, w) => Math.max(m, w.length), 1);
 

@@ -1,12 +1,17 @@
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { X, Map as MapIcon, Users, Calendar, Award, Layers } from 'lucide-react';
 import MapChart from './MapChart';
-import { getDistrictData, partyColor, partyOnColor } from '../data/mockData';
+import { getDistrictData, partyColor, partyOnColor, displayConstituency } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
 import { safeHref } from '../utils/safeHref';
 import districtPathsData from '../data/districtPaths.json';
+import districtPathsNewData from '../data/districtPathsNew.json';
 import constituencyDistrict from '../data/constituencyDistrict.json';
+import constituencyNewDistrict from '../data/constituencyNewDistrict.json';
 import candidatesRaw from '../data/candidates.json';
+
+const ABBR = new Set(['NTR', 'YSR']);
+const toTitleCase = (s) => s.split(' ').map(w => ABBR.has(w) ? w : w.charAt(0) + w.slice(1).toLowerCase()).join(' ');
 
 // Mobile bottom-sheet sizing. Sheet is freely draggable like the desktop
 // side panel — no snap points. Height is stored in vh units and clamped
@@ -39,30 +44,17 @@ const MapTooltip = ({ data }) => {
         pointerEvents: 'none'
       }}
     >
-      <div className="relative">
-        <img 
-          src={getAssetPath(data.image)} 
-          alt={data.currentMla} 
-          style={{ width: '3.5rem', height: '3.5rem', borderRadius: '0.5rem', objectFit: 'cover' }} 
-          onError={(e) => {
-            e.target.onerror = null;
-            e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(data.currentMla)}&background=random&color=fff`;
-          }}
-        />
-        <div
-          className="absolute -bottom-1 -right-1 flex items-center justify-center"
-          style={{ 
-            width: '1.25rem', 
-            height: '1.25rem', 
-            borderRadius: '50%', 
-            border: '2px solid var(--surface-container-lowest)', 
-            backgroundColor: partyColor(data.party) 
-          }}
-        >
-        </div>
-      </div>
+      <img
+        src={getAssetPath(data.image)}
+        alt={data.currentMla}
+        style={{ width: '3.5rem', height: '3.5rem', borderRadius: '0.5rem', objectFit: 'cover' }}
+        onError={(e) => {
+          e.target.onerror = null;
+          e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(data.currentMla)}&background=random&color=fff`;
+        }}
+      />
       <div>
-        <h4 className="title-md text-on-surface mb-0.5">{data.name}</h4>
+        <h4 className="title-md text-on-surface mb-0.5">{displayConstituency(data.name)}</h4>
         <p className="label-sm text-primary font-bold">{data.party} • {data.majorityVotes.toLocaleString()} Majority</p>
       </div>
     </div>
@@ -72,32 +64,51 @@ const MapTooltip = ({ data }) => {
 const DistrictView = () => {
   const [tooltipData, setTooltipData] = useState(null);
 
-  const defaultDistrict = useMemo(() => {
-    return getDistrictData('Kuppam');
+  const _saved = useMemo(() => {
+    try { return JSON.parse(localStorage.getItem('ll_dv1')) || {}; } catch { return {}; }
   }, []);
 
-  const [selectedDistrict, setSelectedDistrict] = useState(defaultDistrict);
+  const [selectedDistrict, setSelectedDistrict] = useState(() => {
+    const saved = getDistrictData(_saved.selectedConstituency || 'Kuppam');
+    return saved?.id ? saved : getDistrictData('Kuppam');
+  });
   const [isPanelVisible, setIsPanelVisible] = useState(true);
-  const [selectedDistrictName, setSelectedDistrictName] = useState(null);
-  const [showDistrictBorders, setShowDistrictBorders] = useState(false);
+  const [selectedDistrictName, setSelectedDistrictName] = useState(_saved.selectedDistrictName ?? null);
+  const [showDistrictBorders, setShowDistrictBorders] = useState(_saved.showDistrictBorders ?? false);
   const [districtPickerOpen, setDistrictPickerOpen] = useState(false);
 
   const candidates = Array.isArray(candidatesRaw) ? candidatesRaw : [];
 
+  const [districtMode, setDistrictMode] = useState(_saved.districtMode || 'old');
+
+  const activeDistrictMap = districtMode === 'new' ? constituencyNewDistrict : constituencyDistrict;
+
   const districtNames = useMemo(
-    () => [...new Set(Object.values(constituencyDistrict))].sort(),
-    []
+    () => [...new Set(Object.values(activeDistrictMap))].sort(),
+    [activeDistrictMap]
   );
 
   const districtCandidates = useMemo(() => {
     if (!selectedDistrictName) return [];
     return candidates
-      .filter(c => constituencyDistrict[(c.constituency || '').toUpperCase()] === selectedDistrictName)
+      .filter(c => activeDistrictMap[(c.constituency || '').toUpperCase()] === selectedDistrictName)
       .sort((a, b) => a.name.localeCompare(b.name));
-  }, [selectedDistrictName, candidates]);
+  }, [selectedDistrictName, candidates, activeDistrictMap]);
 
-  const [panelWidth, setPanelWidth] = useState(440);
+  const [panelWidth, setPanelWidth] = useState(_saved.panelWidth || 440);
   const [isResizing, setIsResizing] = useState(false);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('ll_dv1', JSON.stringify({
+        districtMode,
+        showDistrictBorders,
+        selectedDistrictName,
+        selectedConstituency: selectedDistrict?.name || 'Kuppam',
+        panelWidth,
+      }));
+    } catch {}
+  }, [districtMode, showDistrictBorders, selectedDistrictName, selectedDistrict, panelWidth]);
 
   // Mobile bottom-sheet free-drag state. `sheetVh` persists wherever the
   // user releases the drag; during the drag we mutate the DOM directly
@@ -197,6 +208,12 @@ const DistrictView = () => {
     setSheetVh(SHEET_DEFAULT_VH);
   };
 
+  const handleDistrictModeToggle = (mode) => {
+    setDistrictMode(mode);
+    setSelectedDistrictName(null);
+    setDistrictPickerOpen(false);
+  };
+
   if (!selectedDistrict) return <div className="p-8">Loading district data...</div>;
 
   return (
@@ -206,10 +223,10 @@ const DistrictView = () => {
         <MapChart
           setTooltipContent={setTooltipData}
           onDistrictClick={handleDistrictClick}
-          districtPaths={districtPathsData}
+          districtPaths={districtMode === 'new' ? districtPathsNewData : districtPathsData}
           showDistrictBorders={showDistrictBorders}
           highlightedDistrict={selectedDistrictName}
-          constituencyDistrict={constituencyDistrict}
+          constituencyDistrict={activeDistrictMap}
         />
         <MapTooltip data={tooltipData} />
 
@@ -229,14 +246,14 @@ const DistrictView = () => {
                   className={`district-btn${selectedDistrictName === name ? ' active' : ''}`}
                   onClick={() => handleDistrictNameClick(name)}
                 >
-                  {name.charAt(0) + name.slice(1).toLowerCase()}
+                  {toTitleCase(name)}
                 </button>
               ))}
             </div>
           )}
 
-          {/* Two action buttons side by side */}
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
+          {/* Action buttons row */}
+          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             <button
               onClick={() => setShowDistrictBorders(v => !v)}
               className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${showDistrictBorders ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
@@ -245,6 +262,27 @@ const DistrictView = () => {
               <Layers size={18} />
               <span className="label-sm font-semibold">Borders</span>
             </button>
+
+            {/* Old / New district mode toggle */}
+            <div style={{ display: 'flex', borderRadius: '1rem', overflow: 'hidden', border: '1px solid var(--outline-variant)', boxShadow: 'var(--shadow-2)' }}>
+              <button
+                onClick={() => handleDistrictModeToggle('old')}
+                style={{ padding: '0.75rem 0.85rem', cursor: 'pointer', transition: 'all 0.2s', background: districtMode === 'old' ? 'var(--primary)' : 'var(--surface-container-low)', color: districtMode === 'old' ? 'var(--on-primary)' : 'var(--primary)', border: 'none', borderRight: '1px solid var(--outline-variant)' }}
+                className="label-sm font-semibold"
+                title="Group by 13 old districts (pre-2022)"
+              >
+                13 Dist
+              </button>
+              <button
+                onClick={() => handleDistrictModeToggle('new')}
+                style={{ padding: '0.75rem 0.85rem', cursor: 'pointer', transition: 'all 0.2s', background: districtMode === 'new' ? 'var(--primary)' : 'var(--surface-container-low)', color: districtMode === 'new' ? 'var(--on-primary)' : 'var(--primary)', border: 'none' }}
+                className="label-sm font-semibold"
+                title="Group by 26 new districts (2022)"
+              >
+                26 Dist
+              </button>
+            </div>
+
             <button
               onClick={() => setDistrictPickerOpen(v => !v)}
               className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${districtPickerOpen || selectedDistrictName ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
@@ -252,9 +290,7 @@ const DistrictView = () => {
             >
               <MapIcon size={18} />
               <span className="label-sm font-semibold">
-                {selectedDistrictName
-                  ? selectedDistrictName.charAt(0) + selectedDistrictName.slice(1).toLowerCase()
-                  : 'Select District'}
+                {selectedDistrictName ? toTitleCase(selectedDistrictName) : 'Select District'}
               </span>
             </button>
           </div>
@@ -340,7 +376,7 @@ const DistrictView = () => {
               {selectedDistrictName ? (
                 <>
                   <h2 className="headline-md text-primary mb-2">
-                    {selectedDistrictName.charAt(0) + selectedDistrictName.slice(1).toLowerCase()} District
+                    {toTitleCase(selectedDistrictName)} District
                   </h2>
                   <p className="body-md text-on-surface-variant opacity-80">
                     {districtCandidates.length} constituencies — alphabetical
@@ -392,7 +428,7 @@ const DistrictView = () => {
                       />
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <p className="body-md font-semibold text-on-surface" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.name}</p>
-                        <p className="label-sm text-on-surface-variant" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.constituency}</p>
+                        <p className="label-sm text-on-surface-variant" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{displayConstituency(c.constituency)}</p>
                       </div>
                       <span
                         className="party-badge"
@@ -423,7 +459,7 @@ const DistrictView = () => {
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '0.75rem' }}>
                     <span className="constituency-badge">
-                      {selectedDistrict.name}
+                      {displayConstituency(selectedDistrict.name)}
                     </span>
                     {(!selectedDistrict.dob || selectedDistrict.dob.startsWith('Age:')) && !selectedDistrict.data_complete && (
                       <span style={{
@@ -489,6 +525,25 @@ const DistrictView = () => {
                     <span className="label-sm text-on-surface-variant opacity-70">Former MLA</span>
                     <span className="body-md font-semibold text-on-surface">{selectedDistrict.pastMla}</span>
                   </div>
+                  {(() => {
+                    const key = (selectedDistrict.name || '').toUpperCase();
+                    const oldDist = constituencyDistrict[key];
+                    const newDist = constituencyNewDistrict[key];
+                    if (!oldDist) return null;
+                    return (
+                      <div className="flex justify-between items-start py-2 border-b border-outline-variant/20">
+                        <span className="label-sm text-on-surface-variant opacity-70">District</span>
+                        <span className="body-md font-semibold text-on-surface" style={{ textAlign: 'right' }}>
+                          {toTitleCase(oldDist)}
+                          {newDist && newDist !== oldDist && (
+                            <span className="label-sm text-on-surface-variant" style={{ display: 'block', marginTop: '0.15rem' }}>
+                              → {toTitleCase(newDist)}
+                            </span>
+                          )}
+                        </span>
+                      </div>
+                    );
+                  })()}
                   <div className="flex justify-between items-center py-2 border-b border-outline-variant/20">
                     <span className="label-sm text-on-surface-variant opacity-70">Constituency Status</span>
                     <span className="status-badge">

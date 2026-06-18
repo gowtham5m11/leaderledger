@@ -13,7 +13,7 @@ const allFeatures = topojson.feature(topology, obj);
 const projection = d3.geoMercator().fitExtent([[0, 0], [642.8, 420]], allFeatures);
 const pathGen = d3.geoPath().projection(projection);
 
-// constituency → district lookup (keys uppercased to match mapPaths.json)
+// constituency → old district lookup (keys uppercased to match mapPaths.json)
 const constToDistrict = {};
 obj.geometries.forEach(g => {
   const ac = (g.properties.ac_name || '').toUpperCase();
@@ -26,7 +26,7 @@ writeFileSync(
 );
 console.log(`constituencyDistrict.json written (${Object.keys(constToDistrict).length} constituencies)`);
 
-// district boundary SVG paths (merged from constituent geometries)
+// old district boundary SVG paths (merged from constituent geometries)
 const districtGeomMap = {};
 obj.geometries.forEach(g => {
   const dist = (g.properties.district_name || '').toUpperCase();
@@ -45,3 +45,28 @@ writeFileSync(
   JSON.stringify(districtPaths, null, 2)
 );
 console.log(`districtPaths.json written. Districts: ${Object.keys(districtPaths).sort().join(', ')}`);
+
+// new district boundary SVG paths (grouped via constituencyNewDistrict.json)
+const constToNewDistrict = JSON.parse(
+  readFileSync(join(__dirname, '../src/data/constituencyNewDistrict.json'), 'utf8')
+);
+
+const newDistrictGeomMap = {};
+obj.geometries.forEach(g => {
+  const ac = (g.properties.ac_name || '').toUpperCase();
+  const dist = constToNewDistrict[ac];
+  if (!dist) return;
+  if (!newDistrictGeomMap[dist]) newDistrictGeomMap[dist] = [];
+  newDistrictGeomMap[dist].push(g);
+});
+
+const newDistrictPaths = {};
+for (const [district, geoms] of Object.entries(newDistrictGeomMap)) {
+  const merged = topojson.merge(topology, geoms);
+  newDistrictPaths[district] = pathGen(merged);
+}
+writeFileSync(
+  join(__dirname, '../src/data/districtPathsNew.json'),
+  JSON.stringify(newDistrictPaths, null, 2)
+);
+console.log(`districtPathsNew.json written. Districts: ${Object.keys(newDistrictPaths).sort().join(', ')}`);

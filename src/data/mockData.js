@@ -23,6 +23,10 @@ export const partyColors = {
 export const partyColor = (party) =>
   party === "YSRCP" ? "var(--ysrcp)" : (partyColors[party] || "var(--outline)");
 
+// Strip trailing digits used to disambiguate duplicate constituency names
+// (e.g. PRATHIPADU1 / PRATHIPADU2 → PRATHIPADU) for user-facing display.
+export const displayConstituency = (name) => (name || '').replace(/\d+$/, '');
+
 // Text color to pair with `partyColor(party)` when the party hex is used as a
 // fill background (nametag-style chips). TDP's #fce903 is too bright for white
 // text — needs dark text. The rest are dark enough that white reads cleanly.

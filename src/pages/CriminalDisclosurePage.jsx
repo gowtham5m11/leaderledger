@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import candidates from '../data/candidates.json';
-import { partyColor as partyColorVar } from '../data/mockData';
+import { partyColor as partyColorVar, displayConstituency } from '../data/mockData';
 
 /* ── shared helpers (duplicated from CriminalRecordsSection to keep page self-contained) ── */
 const INVALID_VALS = new Set(['NA', 'N/A', 'NIL', 'NONE', 'NOT APPLICABLE', '-', '']);
@@ -123,7 +123,7 @@ export default function CriminalDisclosurePage() {
           )}
           {' '}declared in election affidavit
           {candidate.constituency && (
-            <> · <span style={{ color: partyColor }}>{candidate.constituency}</span></>
+            <> · <span style={{ color: partyColor }}>{displayConstituency(candidate.constituency)}</span></>
           )}
         </p>
       </div>

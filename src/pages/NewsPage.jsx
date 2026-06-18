@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import { useBookmarks } from '../hooks/useBookmarks';
 import candidates from '../data/candidates.json';
-import { partyColor, partyOnColor } from '../data/mockData';
+import { partyColor, partyOnColor, displayConstituency } from '../data/mockData';
 import { safeHref } from '../utils/safeHref';
 import { loadNews } from '../data/newsClient';
 import { newsReactionId } from '../reactions/newsReactionId';
@@ -92,7 +92,7 @@ function relationFor(item, cand) {
 
   // 2. Constituency mention — strip the disambiguating winner-name suffix
   // (PRATHIPADU (VARUPULA …) → PRATHIPADU) before matching.
-  const constStem = String(cand.constituency || '')
+  const constStem = displayConstituency(String(cand.constituency || ''))
     .replace(/\s*\([^)]*\)\s*$/, '')
     .trim();
   if (constStem) {
@@ -153,7 +153,7 @@ const NewsCard = ({ item, dimmed = false, reactionId, reactionCounts }) => {
         >
           {cand.name}
           <span className="news-candidate-chip-sep" aria-hidden="true">·</span>
-          <span className="news-candidate-chip-const">{cand.constituency}</span>
+          <span className="news-candidate-chip-const">{displayConstituency(cand.constituency)}</span>
         </Link>
       )}
 

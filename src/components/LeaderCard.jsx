@@ -1,5 +1,5 @@
 import React from 'react';
-import { sectorColor } from '../data/mockData';
+import { sectorColor, displayConstituency } from '../data/mockData';
 import { getAssetPath } from '../utils/assetHelper';
 import BookmarkButton from './BookmarkButton';
 import ReactionSummary from './ReactionSummary';
@@ -44,7 +44,7 @@ const LeaderCard = ({ leader, onClick }) => {
         />
         <div style={{ flex: 1, minWidth: 0 }}>
           <span className="label-sm text-primary" style={{ fontSize: '0.65rem', letterSpacing: '0.1em' }}>
-            {constituency}
+            {displayConstituency(constituency)}
           </span>
           <h3 className="title-md" style={{ fontSize: '1.15rem', marginTop: '0.15rem', color: 'var(--on-surface)', lineHeight: '1.2' }}>
             {name}
