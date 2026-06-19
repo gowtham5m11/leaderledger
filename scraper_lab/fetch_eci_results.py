@@ -177,6 +177,18 @@ def parse_page(html: str, n: int) -> dict:
         "total_votes_polled": total_polled,
         "nota_votes": nota_votes,
         "candidate_count": len(candidate_rows),
+        "all_candidates": [
+            {
+                "position": i + 1,
+                "name": c["name"],
+                "party": c["party"],
+                "evm_votes": c["evm_votes"],
+                "postal_votes": c["postal_votes"],
+                "total_votes": c["total_votes"],
+                "vote_share": c["percent"],
+            }
+            for i, c in enumerate(candidate_rows)
+        ],
     }
 
 

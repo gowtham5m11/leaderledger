@@ -745,11 +745,20 @@ def parse_args():
                    help="Scan at most N PDFs (after filtering).")
     p.add_argument("--workers", type=int, default=4,
                    help="Parallel worker processes (default 4). Use 1 to debug.")
+    p.add_argument("--pdf-dir", type=str, default=None,
+                   help="Directory containing PDF files (defaults to scraper_lab/affidavits).")
+    p.add_argument("--output-json", type=str, default=None,
+                   help="Output JSON index path (defaults to src/data/criminal_pages_index.json).")
     return p.parse_args()
 
 
 def main():
     args = parse_args()
+    global AFFIDAVITS_DIR, OUTPUT_JSON
+    if args.pdf_dir:
+        AFFIDAVITS_DIR = Path(args.pdf_dir)
+    if args.output_json:
+        OUTPUT_JSON = Path(args.output_json)
 
     if not AFFIDAVITS_DIR.exists():
         print(f"❌ Affidavits dir not found: {AFFIDAVITS_DIR}", file=sys.stderr)

@@ -70,6 +70,7 @@ overnight_report.md
 
 # ── Affidavit PDFs (large binaries, re-downloadable) ─────────────────────────
 scraper_lab/affidavits/
+scraper_lab/affidavits_historical/
 scraper_lab/affidavit_*.pdf
 scraper_lab/affidavit_guidlines.pdf
 scraper_lab/affidavit_cases_styles.pdf

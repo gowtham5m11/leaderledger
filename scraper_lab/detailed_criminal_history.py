@@ -84,17 +84,45 @@ def call_ai_text(prompt):
 
 
 PROJECT_ROOT = Path(__file__).parent.parent
-PDF_DIR      = PROJECT_ROOT / "scraper_lab" / "affidavits"
-CANDIDATES_JSON          = PROJECT_ROOT / "src" / "data" / "candidates.json"
-PATCHES_JSON             = PROJECT_ROOT / "src" / "data" / "criminal_patches.json"
-CRIMINAL_PAGES_INDEX     = PROJECT_ROOT / "src" / "data" / "criminal_pages_index.json"
-FAILED_JSONL             = PROJECT_ROOT / "src" / "data" / "failed_extractions.jsonl"
-FAILED_JSON              = PROJECT_ROOT / "src" / "data" / "failed_extractions.json"
-NEEDS_REVIEW_JSON        = PROJECT_ROOT / "src" / "data" / "needs_review_cases.json"
+
+# Set default values
+is_historical = False
+_YEAR = os.environ.get("CRIMINAL_YEAR")
+if _YEAR:
+    is_historical = True
+    year = int(_YEAR)
+    PDF_DIR = PROJECT_ROOT / "scraper_lab" / "affidavits_historical" / str(year)
+    CANDIDATES_JSON = PROJECT_ROOT / "public" / "data" / f"eci_results_{year}.json"
+    CRIMINAL_PAGES_INDEX = PROJECT_ROOT / "src" / "data" / f"criminal_pages_index_{year}.json"
+    PATCHES_JSON = PROJECT_ROOT / "src" / "data" / f"criminal_patches_{year}.json"
+    FAILED_JSONL = PROJECT_ROOT / "src" / "data" / f"failed_extractions_{year}.jsonl"
+    FAILED_JSON = PROJECT_ROOT / "src" / "data" / f"failed_extractions_{year}.json"
+    NEEDS_REVIEW_JSON = PROJECT_ROOT / "src" / "data" / f"needs_review_cases_{year}.json"
+else:
+    PDF_DIR      = PROJECT_ROOT / "scraper_lab" / "affidavits"
+    CANDIDATES_JSON          = PROJECT_ROOT / "src" / "data" / "candidates.json"
+    PATCHES_JSON             = PROJECT_ROOT / "src" / "data" / "criminal_patches.json"
+    CRIMINAL_PAGES_INDEX     = PROJECT_ROOT / "src" / "data" / "criminal_pages_index.json"
+    FAILED_JSONL             = PROJECT_ROOT / "src" / "data" / "failed_extractions.jsonl"
+    FAILED_JSON              = PROJECT_ROOT / "src" / "data" / "failed_extractions.json"
+    NEEDS_REVIEW_JSON        = PROJECT_ROOT / "src" / "data" / "needs_review_cases.json"
+
+# Override individual paths if explicitly passed in env
+if os.environ.get("CRIMINAL_PDF_DIR"):
+    PDF_DIR = Path(os.environ["CRIMINAL_PDF_DIR"])
+if os.environ.get("CRIMINAL_CANDIDATES_JSON"):
+    CANDIDATES_JSON = Path(os.environ["CRIMINAL_CANDIDATES_JSON"])
+if os.environ.get("CRIMINAL_INDEX_JSON"):
+    CRIMINAL_PAGES_INDEX = Path(os.environ["CRIMINAL_INDEX_JSON"])
 
 
 def _safe_name(name):
     return "".join(c if c.isalnum() else "_" for c in name).lower()
+
+
+def slugify(s: str) -> str:
+    s = re.sub(r"[^\w\s]", "", s.lower())
+    return re.sub(r"\s+", "_", s).strip("_")
 
 
 def _source_stamp(model=None):
@@ -293,7 +321,16 @@ def process_single_candidate(cand):
                 "convictions": [],
             }, "Success"
 
-        pdf_path = PDF_DIR / f"{safe_name}.pdf"
+        if "pdf_filename" in cand:
+            pdf_path = PDF_DIR / cand["pdf_filename"]
+            if not pdf_path.exists():
+                cno_str = f"{cand['constituency_no']:03d}_"
+                matching_pdfs = list(PDF_DIR.glob(f"{cno_str}*.pdf"))
+                if matching_pdfs:
+                    pdf_path = matching_pdfs[0]
+        else:
+            pdf_path = PDF_DIR / f"{safe_name}.pdf"
+
         if not pdf_path.exists():
             return cand["id"], None, "Missing PDF"
 
@@ -327,34 +364,62 @@ def _atomic_write_json(path, data):
 
 def _rebuild_needs_review(candidates):
     needs_review_cases = []
-    for cand in candidates:
-        for case in cand.get("criminal_details_pending", []) or []:
-            if case.get("needs_review"):
-                needs_review_cases.append({
-                    "candidate_id": cand["id"], "candidate_name": cand["name"],
-                    "type": "pending", "case": case,
-                })
-        for case in cand.get("criminal_details_convictions", []) or []:
-            if case.get("needs_review"):
-                needs_review_cases.append({
-                    "candidate_id": cand["id"], "candidate_name": cand["name"],
-                    "type": "conviction", "case": case,
-                })
+    if is_historical:
+        for c in candidates:
+            winner = c.get("winner", {})
+            for case in winner.get("criminal_details_pending", []) or []:
+                if case.get("needs_review"):
+                    needs_review_cases.append({
+                        "candidate_id": str(c["constituency_no"]), "candidate_name": winner.get("name"),
+                        "type": "pending", "case": case,
+                    })
+            for case in winner.get("criminal_details_convictions", []) or []:
+                if case.get("needs_review"):
+                    needs_review_cases.append({
+                        "candidate_id": str(c["constituency_no"]), "candidate_name": winner.get("name"),
+                        "type": "conviction", "case": case,
+                    })
+    else:
+        for cand in candidates:
+            for case in cand.get("criminal_details_pending", []) or []:
+                if case.get("needs_review"):
+                    needs_review_cases.append({
+                        "candidate_id": cand["id"], "candidate_name": cand["name"],
+                        "type": "pending", "case": case,
+                    })
+            for case in cand.get("criminal_details_convictions", []) or []:
+                if case.get("needs_review"):
+                    needs_review_cases.append({
+                        "candidate_id": cand["id"], "candidate_name": cand["name"],
+                        "type": "conviction", "case": case,
+                    })
     if needs_review_cases:
         _atomic_write_json(NEEDS_REVIEW_JSON, needs_review_cases)
     elif NEEDS_REVIEW_JSON.exists():
-        os.remove(NEEDS_REVIEW_JSON)
+        try:
+            NEEDS_REVIEW_JSON.unlink()
+        except OSError:
+            pass
 
 
 def commit_candidate(candidates, cand_id, result):
     """Apply one candidate's result to the candidates list and atomic-save the whole file."""
     cid = str(cand_id)
-    for cand in candidates:
-        if str(cand["id"]) == cid:
-            cand["criminal_summary"]             = result.get("summary")
-            cand["criminal_details_pending"]     = result.get("pending", [])
-            cand["criminal_details_convictions"] = result.get("convictions", [])
-            break
+    if is_historical:
+        for c in candidates:
+            if str(c["constituency_no"]) == cid:
+                winner = c["winner"]
+                winner["criminal_summary"]             = result.get("summary")
+                winner["criminal_details_pending"]     = result.get("pending", [])
+                winner["criminal_details_convictions"] = result.get("convictions", [])
+                break
+    else:
+        for cand in candidates:
+            if str(cand["id"]) == cid:
+                cand["criminal_summary"]             = result.get("summary")
+                cand["criminal_details_pending"]     = result.get("pending", [])
+                cand["criminal_details_convictions"] = result.get("convictions", [])
+                break
     _atomic_write_json(CANDIDATES_JSON, candidates)
     _rebuild_needs_review(candidates)
 
@@ -388,6 +453,9 @@ def consolidate_failures():
 def _parse_args():
     import argparse
     p = argparse.ArgumentParser(description="Extract criminal-case details from affidavit PDFs.")
+    p.add_argument("--year", type=int, default=None,
+                   choices=[2019, 2014, 2009, 2004],
+                   help="Process a historical year.")
     p.add_argument("--only", type=str, default=None,
                    help="Process only the candidate whose safe_name matches.")
     p.add_argument("--limit", type=int, default=None,
@@ -409,6 +477,20 @@ def main():
     global OLLAMA_MODEL
     OLLAMA_MODEL = args.model
 
+    if args.year:
+        os.environ["CRIMINAL_YEAR"] = str(args.year)
+        # Re-initialize path globals in the parent process
+        global is_historical, PDF_DIR, CANDIDATES_JSON, CRIMINAL_PAGES_INDEX, PATCHES_JSON, FAILED_JSONL, FAILED_JSON, NEEDS_REVIEW_JSON
+        is_historical = True
+        year = args.year
+        PDF_DIR = PROJECT_ROOT / "scraper_lab" / "affidavits_historical" / str(year)
+        CANDIDATES_JSON = PROJECT_ROOT / "public" / "data" / f"eci_results_{year}.json"
+        CRIMINAL_PAGES_INDEX = PROJECT_ROOT / "src" / "data" / f"criminal_pages_index_{year}.json"
+        PATCHES_JSON = PROJECT_ROOT / "src" / "data" / f"criminal_patches_{year}.json"
+        FAILED_JSONL = PROJECT_ROOT / "src" / "data" / f"failed_extractions_{year}.jsonl"
+        FAILED_JSON = PROJECT_ROOT / "src" / "data" / f"failed_extractions_{year}.json"
+        NEEDS_REVIEW_JSON = PROJECT_ROOT / "src" / "data" / f"needs_review_cases_{year}.json"
+
     if args.workers > 1:
         print("⚠️  --workers > 1 with a single Ollama runner usually does NOT speed things up "
               "and has caused worker crashes in the past. Default of 1 recommended.", flush=True)
@@ -424,6 +506,28 @@ def main():
         return
 
     to_process = candidates
+    if is_historical:
+        proxy_candidates = []
+        for c in candidates:
+            winner = c["winner"]
+            proxy_cand = {
+                "id": str(c["constituency_no"]),
+                "name": winner["name"],
+                "constituency": c["constituency_name"],
+                "party": winner["party"],
+                "constituency_no": c["constituency_no"],
+                "pdf_filename": f"{c['constituency_no']:03d}_{slugify(c['constituency_name'])}_{slugify(winner['name'])}.pdf"
+            }
+            # Copy existing fields if they exist
+            if "criminal_summary" in winner:
+                proxy_cand["criminal_summary"] = winner["criminal_summary"]
+            if "criminal_details_pending" in winner:
+                proxy_cand["criminal_details_pending"] = winner["criminal_details_pending"]
+            if "criminal_details_convictions" in winner:
+                proxy_cand["criminal_details_convictions"] = winner["criminal_details_convictions"]
+            proxy_candidates.append(proxy_cand)
+        to_process = proxy_candidates
+
     if args.only:
         to_process = [c for c in to_process if _safe_name(c["name"]) == args.only]
         if not to_process:
@@ -455,7 +559,7 @@ def main():
     completed = 0
     success_count = 0
     failure_count = 0
-    name_by_id = {str(c["id"]): c["name"] for c in candidates}
+    name_by_id = {str(c["id"]): c["name"] for c in to_process}
 
     def _handle_result(cand_id, results, status):
         nonlocal completed, success_count, failure_count

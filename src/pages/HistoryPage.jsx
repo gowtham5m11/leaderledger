@@ -23,6 +23,8 @@ const PARTY_HEX = {
   'Telugu Desam':  '#f9a825',
   'Indian National Congress': '#0277bd',
   'Bharatiya Janata Party':   '#e65100',
+  OTH: '#78909c',
+  NOTA: '#9e9e9e',
 };
 
 const PARTY_LABEL = {
@@ -41,6 +43,8 @@ const PARTY_LABEL = {
   'Telugu Desam':            'TDP',
   'Indian National Congress':'INC',
   'Bharatiya Janata Party':  'BJP',
+  OTH: 'Others',
+  NOTA: 'NOTA',
 };
 
 // ── Election summary data ──────────────────────────────────────────────────
@@ -149,6 +153,10 @@ function derive2024() {
   return candidates.map(c => ({
     constituency_no:   c.election_result.eci_constituency_no,
     constituency_name: c.election_result.eci_constituency_name,
+    electors:          c.election_result.total_electors,
+    valid_votes:       c.election_result.total_votes_polled,
+    turnout_percent:   c.election_result.turnout_percent,
+    nota_votes:        c.election_result.nota_votes,
     winner: {
       name:       c.name,
       party:      c.party,
@@ -160,31 +168,11 @@ function derive2024() {
       name:  c.election_result.runner_up.name,
       party: c.election_result.runner_up.party,
       votes: c.election_result.runner_up.votes,
+      vote_share: c.election_result.runner_up.percent,
     } : null,
     margin:         c.election_result.margin,
     margin_percent: c.election_result.margin_percent,
   })).sort((a, b) => a.constituency_no - b.constituency_no);
-}
-
-// ── Derive 2019 MLA list from candidates.json previous_mla ───────────────
-function derive2019() {
-  return candidates
-    .filter(c => c.previous_mla)
-    .map(c => ({
-      constituency_no:   c.election_result.eci_constituency_no,
-      constituency_name: c.election_result.eci_constituency_name,
-      winner: {
-        name:  c.previous_mla.name,
-        party: c.previous_mla.party,
-        votes: c.previous_mla.votes,
-      },
-      runner_up: c.previous_mla.runner_up ? {
-        name:  c.previous_mla.runner_up.name,
-        party: c.previous_mla.runner_up.party,
-        votes: c.previous_mla.runner_up.votes,
-      } : null,
-      margin: c.previous_mla.margin,
-    })).sort((a, b) => a.constituency_no - b.constituency_no);
 }
 
 // ── Shared sub-components ─────────────────────────────────────────────────
@@ -263,10 +251,330 @@ const SeatBar = ({ seats, total, hex }) => {
 
 // ── MLA list panel ────────────────────────────────────────────────────────
 
+const ConstituencyRow = ({ m, year, i, navigate }) => {
+  const [expanded, setExpanded] = useState(false);
+  const isMobile = useIsMobile();
+  const hex = PARTY_HEX[m.winner.party] || '#888';
+  const isClickable = year === 2024 && m.winner.id;
+
+  // Construct candidatesList for vote shares
+  const candidatesList = useMemo(() => {
+    if (m.all_candidates && m.all_candidates.length > 0) {
+      return [...m.all_candidates].sort((a, b) => b.votes - a.votes);
+    }
+    
+    // Fallback for 2024 or other years missing all_candidates
+    const total = m.valid_votes || 0;
+    const wVotes = m.winner.votes || 0;
+    const wShare = m.winner.vote_share || (total ? (wVotes / total) * 100 : 0);
+    
+    const list = [
+      {
+        position: 1,
+        name: m.winner.name,
+        party: m.winner.party,
+        votes: wVotes,
+        vote_share: parseFloat(Number(wShare).toFixed(2)),
+      }
+    ];
+    
+    if (m.runner_up) {
+      const rVotes = m.runner_up.votes || 0;
+      const rShare = m.runner_up.vote_share || (total ? (rVotes / total) * 100 : 0);
+      list.push({
+        position: 2,
+        name: m.runner_up.name,
+        party: m.runner_up.party,
+        votes: rVotes,
+        vote_share: parseFloat(Number(rShare).toFixed(2)),
+      });
+    }
+    
+    const notaVotes = m.nota_votes || 0;
+    const notaShare = total ? (notaVotes / total) * 100 : 0;
+    const othersVotes = Math.max(0, total - wVotes - (m.runner_up ? m.runner_up.votes : 0) - notaVotes);
+    const othersShare = total ? (othersVotes / total) * 100 : 0;
+    
+    if (othersVotes > 0) {
+      list.push({
+        position: 3,
+        name: 'Other Candidates',
+        party: 'OTH',
+        votes: othersVotes,
+        vote_share: parseFloat(Number(othersShare).toFixed(2)),
+      });
+    }
+    
+    if (notaVotes > 0) {
+      list.push({
+        position: othersVotes > 0 ? 4 : 3,
+        name: 'NOTA',
+        party: 'NOTA',
+        votes: notaVotes,
+        vote_share: parseFloat(Number(notaShare).toFixed(2)),
+      });
+    }
+    
+    return list.sort((a, b) => b.votes - a.votes);
+  }, [m, year]);
+
+  const handleRowClick = (e) => {
+    if (e.target.closest('.winner-link') || e.target.closest('.no-toggle')) {
+      return;
+    }
+    setExpanded(prev => !prev);
+  };
+
+  return (
+    <div style={{
+      borderTop: i === 0 ? 'none' : '1px solid var(--outline-variant)',
+      background: expanded ? 'var(--surface-container-lowest)' : 'transparent',
+      transition: 'background 0.2s ease',
+    }}>
+      {/* Main row grid */}
+      <div
+        onClick={handleRowClick}
+        style={{
+          display: 'grid',
+          gridTemplateColumns: isMobile ? '1.8rem 1fr 1fr 4.5rem 2rem' : '2.2rem 1fr 1fr 5.5rem 2.5rem',
+          gap: '0 0.5rem',
+          padding: '0.65rem 0.75rem',
+          alignItems: 'center',
+          cursor: 'pointer',
+        }}
+        onMouseEnter={e => e.currentTarget.style.background = 'var(--surface-container-low)'}
+        onMouseLeave={e => e.currentTarget.style.background = ''}
+      >
+        <span style={{ color: 'var(--on-surface-variant)', fontSize: '0.7rem', fontWeight: 600 }}>
+          {m.constituency_no}
+        </span>
+        
+        <div>
+          <div style={{ fontWeight: 600, color: 'var(--on-surface)', lineHeight: 1.2, fontSize: isMobile ? '0.78rem' : '0.82rem' }}>
+            {m.constituency_name.replace(/_/g, ' ')}
+          </div>
+          {m.runner_up && (
+            <div style={{ marginTop: '0.15rem' }}>
+              <MiniPartyDot party={m.runner_up.party} />
+              {!isMobile && (
+                <span style={{ fontSize: '0.68rem', color: 'var(--on-surface-variant)', marginLeft: '0.25rem' }}>
+                  runner-up
+                </span>
+              )}
+            </div>
+          )}
+        </div>
+        
+        <div>
+          <div 
+            className={isClickable ? "winner-link" : ""}
+            onClick={isClickable ? (e) => { e.stopPropagation(); navigate(`/profile/${m.winner.id}`); } : undefined}
+            style={{
+              fontWeight: 700, color: hex, lineHeight: 1.2,
+              display: 'flex', alignItems: 'center', gap: '0.3rem',
+              cursor: isClickable ? 'pointer' : 'default',
+              textDecoration: isClickable ? 'underline decoration-dotted' : 'none',
+              fontSize: isMobile ? '0.78rem' : '0.82rem',
+            }}
+          >
+            {m.winner.name}
+            {isClickable && (
+              <span className="material-symbols-outlined" style={{ fontSize: '0.75rem', opacity: 0.7 }}>open_in_new</span>
+            )}
+          </div>
+          <MiniPartyDot party={m.winner.party} />
+        </div>
+        
+        <div style={{ textAlign: 'right' }}>
+          <div style={{ fontWeight: 700, color: 'var(--on-surface)', fontSize: '0.78rem' }}>
+            {m.margin != null ? m.margin.toLocaleString('en-IN') : '—'}
+          </div>
+          {m.margin_percent != null && (
+            <div style={{ fontSize: '0.67rem', color: 'var(--on-surface-variant)' }}>
+              {m.margin_percent}%
+            </div>
+          )}
+        </div>
+        
+        <div style={{ display: 'flex', justifyContent: 'center' }} className="no-toggle">
+          <button
+            type="button"
+            onClick={(e) => { e.stopPropagation(); setExpanded(prev => !prev); }}
+            style={{
+              background: 'none', border: 'none', padding: 4, cursor: 'pointer',
+              color: 'var(--on-surface-variant)', display: 'inline-flex', alignItems: 'center',
+              borderRadius: '50%',
+              transition: 'background 0.2s',
+            }}
+            onMouseEnter={e => e.currentTarget.style.background = 'var(--surface-container)'}
+            onMouseLeave={e => e.currentTarget.style.background = 'none'}
+          >
+            <span className="material-symbols-outlined" style={{
+              fontSize: '1.2rem',
+              transform: expanded ? 'rotate(180deg)' : 'none',
+              transition: 'transform 0.2s ease',
+            }}>
+              expand_more
+            </span>
+          </button>
+        </div>
+      </div>
+
+      {/* Expanded panel details */}
+      {expanded && (
+        <div style={{
+          padding: '0.75rem 1.25rem 1.25rem 1.25rem',
+          background: 'var(--surface-container-lowest)',
+          borderTop: '1px solid var(--outline-variant)',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '1rem',
+          animation: 'fadeIn 0.2s ease',
+        }}>
+          {/* Stats grid */}
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: isMobile ? '1fr 1fr' : '1fr 1fr 1fr 1fr',
+            gap: '0.75rem',
+          }}>
+            <div style={{
+              background: 'var(--surface-container-low)',
+              padding: '0.6rem 0.8rem',
+              borderRadius: '0.6rem',
+              border: '1px solid var(--outline-variant)',
+            }}>
+              <div style={{ fontSize: '0.68rem', color: 'var(--on-surface-variant)', fontWeight: 600 }}>ELECTORS</div>
+              <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--on-surface)', marginTop: '0.15rem' }}>
+                {m.electors ? m.electors.toLocaleString('en-IN') : '—'}
+              </div>
+            </div>
+            
+            <div style={{
+              background: 'var(--surface-container-low)',
+              padding: '0.6rem 0.8rem',
+              borderRadius: '0.6rem',
+              border: '1px solid var(--outline-variant)',
+            }}>
+              <div style={{ fontSize: '0.68rem', color: 'var(--on-surface-variant)', fontWeight: 600 }}>VOTES POLLED</div>
+              <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--on-surface)', marginTop: '0.15rem' }}>
+                {m.valid_votes ? m.valid_votes.toLocaleString('en-IN') : '—'}
+              </div>
+            </div>
+            
+            <div style={{
+              background: 'var(--surface-container-low)',
+              padding: '0.6rem 0.8rem',
+              borderRadius: '0.6rem',
+              border: '1px solid var(--outline-variant)',
+            }}>
+              <div style={{ fontSize: '0.68rem', color: 'var(--on-surface-variant)', fontWeight: 600 }}>TURNOUT</div>
+              <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--on-surface)', marginTop: '0.15rem' }}>
+                {m.turnout_percent ? `${m.turnout_percent}%` : '—'}
+              </div>
+            </div>
+
+            <div style={{
+              background: 'var(--surface-container-low)',
+              padding: '0.6rem 0.8rem',
+              borderRadius: '0.6rem',
+              border: '1px solid var(--outline-variant)',
+            }}>
+              <div style={{ fontSize: '0.68rem', color: 'var(--on-surface-variant)', fontWeight: 600 }}>NOTA VOTES</div>
+              <div style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--on-surface)', marginTop: '0.15rem' }}>
+                {m.nota_votes ? m.nota_votes.toLocaleString('en-IN') : '—'}
+              </div>
+            </div>
+          </div>
+
+          {/* Candidate list with share bars */}
+          <div>
+            <div style={{
+              fontSize: '0.72rem',
+              fontWeight: 700,
+              textTransform: 'uppercase',
+              letterSpacing: '0.07em',
+              color: 'var(--on-surface-variant)',
+              marginBottom: '0.6rem',
+            }}>
+              Candidates & Vote Share
+            </div>
+            
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {candidatesList.map((cand) => {
+                const candPartyHex = PARTY_HEX[cand.party] || '#78909c';
+                return (
+                  <div key={cand.name} style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+                        <span style={{
+                          fontWeight: 700,
+                          color: cand.position === 1 ? hex : 'var(--on-surface)',
+                          fontSize: '0.78rem',
+                        }}>
+                          {cand.name}
+                        </span>
+                        <PartyChip party={cand.party} small />
+                        {cand.incumbent && (
+                          <span style={{
+                            fontSize: '0.65rem',
+                            fontWeight: 700,
+                            color: 'var(--primary)',
+                            background: 'color-mix(in srgb, var(--primary) 12%, transparent)',
+                            padding: '0.1rem 0.35rem',
+                            borderRadius: '4px',
+                          }}>
+                            INCUMBENT
+                          </span>
+                        )}
+                        {cand.age && (
+                          <span style={{ fontSize: '0.7rem', color: 'var(--on-surface-variant)' }}>
+                            Age: {cand.age}
+                          </span>
+                        )}
+                      </div>
+                      
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.78rem' }}>
+                        <span style={{ color: 'var(--on-surface-variant)', fontWeight: 500 }}>
+                          {cand.votes ? cand.votes.toLocaleString('en-IN') : '0'} votes
+                        </span>
+                        <span style={{ fontWeight: 800, color: 'var(--on-surface)' }}>
+                          {cand.vote_share ? `${cand.vote_share}%` : '0%'}
+                        </span>
+                      </div>
+                    </div>
+                    
+                    {/* Share Bar */}
+                    <div style={{
+                      height: '6px',
+                      borderRadius: '9999px',
+                      background: 'var(--surface-container-high)',
+                      overflow: 'hidden',
+                      width: '100%',
+                    }}>
+                      <div style={{
+                        height: '100%',
+                        width: `${cand.vote_share || 0}%`,
+                        borderRadius: '9999px',
+                        background: candPartyHex,
+                        transition: 'width 0.4s ease-out',
+                      }} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
 const MlaList = ({ year, mlas, loading, error }) => {
   const navigate = useNavigate();
   const [search, setSearch] = useState('');
   const [partyFilter, setPartyFilter] = useState(null);
+  const isMobile = useIsMobile();
 
   const partyOptions = useMemo(() => {
     if (!mlas) return [];
@@ -391,7 +699,7 @@ const MlaList = ({ year, mlas, loading, error }) => {
         {/* Header */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: '2.2rem 1fr 1fr auto',
+          gridTemplateColumns: isMobile ? '1.8rem 1fr 1fr 4.5rem 2rem' : '2.2rem 1fr 1fr 5.5rem 2.5rem',
           gap: '0 0.5rem',
           padding: '0.45rem 0.75rem',
           background: 'var(--surface-container)',
@@ -403,6 +711,7 @@ const MlaList = ({ year, mlas, loading, error }) => {
           <span>Constituency</span>
           <span>Winner</span>
           <span style={{ textAlign: 'right' }}>Margin</span>
+          <span></span>
         </div>
 
         {/* Rows */}
@@ -411,68 +720,15 @@ const MlaList = ({ year, mlas, loading, error }) => {
             No results match your filters.
           </div>
         ) : (
-          filtered.map((m, i) => {
-            const hex = PARTY_HEX[m.winner.party] || '#888';
-            const isClickable = year === 2024 && m.winner.id;
-            return (
-              <div
-                key={m.constituency_no}
-                onClick={isClickable ? () => navigate(`/profile/${m.winner.id}`) : undefined}
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: '2.2rem 1fr 1fr auto',
-                  gap: '0 0.5rem',
-                  padding: '0.55rem 0.75rem',
-                  alignItems: 'center',
-                  borderTop: i === 0 ? 'none' : '1px solid var(--outline-variant)',
-                  background: isClickable ? undefined : undefined,
-                  cursor: isClickable ? 'pointer' : 'default',
-                  transition: isClickable ? 'background 0.12s' : undefined,
-                }}
-                onMouseEnter={isClickable ? e => e.currentTarget.style.background = 'var(--surface-container-low)' : undefined}
-                onMouseLeave={isClickable ? e => e.currentTarget.style.background = '' : undefined}
-              >
-                <span style={{ color: 'var(--on-surface-variant)', fontSize: '0.7rem', fontWeight: 600 }}>
-                  {m.constituency_no}
-                </span>
-                <div>
-                  <div style={{ fontWeight: 600, color: 'var(--on-surface)', lineHeight: 1.2 }}>
-                    {m.constituency_name.replace(/_/g, ' ')}
-                  </div>
-                  {m.runner_up && (
-                    <div style={{ marginTop: '0.15rem' }}>
-                      <MiniPartyDot party={m.runner_up.party} />
-                      <span style={{ fontSize: '0.68rem', color: 'var(--on-surface-variant)', marginLeft: '0.25rem' }}>
-                        runner-up
-                      </span>
-                    </div>
-                  )}
-                </div>
-                <div>
-                  <div style={{
-                    fontWeight: 700, color: hex, lineHeight: 1.2,
-                    display: 'flex', alignItems: 'center', gap: '0.3rem',
-                  }}>
-                    {m.winner.name}
-                    {isClickable && (
-                      <span className="material-symbols-outlined" style={{ fontSize: '0.8rem', opacity: 0.5 }}>open_in_new</span>
-                    )}
-                  </div>
-                  <MiniPartyDot party={m.winner.party} />
-                </div>
-                <div style={{ textAlign: 'right' }}>
-                  <div style={{ fontWeight: 700, color: 'var(--on-surface)', fontSize: '0.78rem' }}>
-                    {m.margin != null ? m.margin.toLocaleString('en-IN') : '—'}
-                  </div>
-                  {m.margin_percent != null && (
-                    <div style={{ fontSize: '0.67rem', color: 'var(--on-surface-variant)' }}>
-                      {m.margin_percent}%
-                    </div>
-                  )}
-                </div>
-              </div>
-            );
-          })
+          filtered.map((m, i) => (
+            <ConstituencyRow
+              key={m.constituency_no}
+              m={m}
+              year={year}
+              i={i}
+              navigate={navigate}
+            />
+          ))
         )}
       </div>
     </div>
@@ -497,8 +753,6 @@ const ElectionCard = ({ election }) => {
     try {
       if (election.year === 2024) {
         setMlas(derive2024());
-      } else if (election.year === 2019) {
-        setMlas(derive2019());
       } else {
         const res = await fetch(`/data/eci_results_${election.year}.json`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -667,6 +921,12 @@ const HistoryPage = () => {
 
   return (
     <div className="bg-surface text-on-surface" style={{ fontFamily: "'Outfit', sans-serif" }}>
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(-4px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
       <main className="page-main">
         <div style={{ marginBottom: '1.5rem' }}>
           <h1 className="display-lg text-on-surface" style={{ marginBottom: '0.5rem' }}>
