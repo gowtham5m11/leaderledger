@@ -1,0 +1,2977 @@
+[
+  {
+    "constituency_no": 1,
+    "constituency_name": "ICHCHAPURAM",
+    "winner": {
+      "name": "Ashok Bendalam",
+      "party": "TDP",
+      "votes": 86815,
+      "vote_share": 53.95
+    },
+    "runner_up": {
+      "name": "Nartu Rama Rao",
+      "party": "YSRCP",
+      "votes": 61537
+    },
+    "margin": 25278,
+    "margin_percent": 15.71
+  },
+  {
+    "constituency_no": 2,
+    "constituency_name": "PALASA",
+    "winner": {
+      "name": "Gouthu Syam Sunder Sivaji",
+      "party": "TDP",
+      "votes": 69658,
+      "vote_share": 50.74
+    },
+    "runner_up": {
+      "name": "Babu Rao Vajja",
+      "party": "YSRCP",
+      "votes": 52133
+    },
+    "margin": 17525,
+    "margin_percent": 12.76
+  },
+  {
+    "constituency_no": 3,
+    "constituency_name": "TEKKALI",
+    "winner": {
+      "name": "Atchannaidu Kinjarapu",
+      "party": "TDP",
+      "votes": 81167,
+      "vote_share": 50.6
+    },
+    "runner_up": {
+      "name": "Duvvada Srinivas",
+      "party": "YSRCP",
+      "votes": 72780
+    },
+    "margin": 8387,
+    "margin_percent": 5.23
+  },
+  {
+    "constituency_no": 4,
+    "constituency_name": "PATHAPATNAM",
+    "winner": {
+      "name": "Kalamata Venkata Ramana Murthy",
+      "party": "YSRCP",
+      "votes": 69320,
+      "vote_share": 49.15
+    },
+    "runner_up": {
+      "name": "Satrucharla Vijaya Rama Raju",
+      "party": "TDP",
+      "votes": 65455
+    },
+    "margin": 3865,
+    "margin_percent": 2.74
+  },
+  {
+    "constituency_no": 5,
+    "constituency_name": "SRIKAKULAM",
+    "winner": {
+      "name": "Gunda Lakshmi Devi",
+      "party": "TDP",
+      "votes": 88814,
+      "vote_share": 53.98
+    },
+    "runner_up": {
+      "name": "Dharmana Prasada Rao",
+      "party": "YSRCP",
+      "votes": 64683
+    },
+    "margin": 24131,
+    "margin_percent": 14.67
+  },
+  {
+    "constituency_no": 6,
+    "constituency_name": "AMADALAVALASA",
+    "winner": {
+      "name": "Koona Ravikumar",
+      "party": "TDP",
+      "votes": 65233,
+      "vote_share": 48.64
+    },
+    "runner_up": {
+      "name": "Thammineni Seetharam",
+      "party": "YSRCP",
+      "votes": 59784
+    },
+    "margin": 5449,
+    "margin_percent": 4.06
+  },
+  {
+    "constituency_no": 7,
+    "constituency_name": "ETCHERLA",
+    "winner": {
+      "name": "Kalavenkatarao Kimidi",
+      "party": "TDP",
+      "votes": 85769,
+      "vote_share": 49.29
+    },
+    "runner_up": {
+      "name": "Gorle Kirankumar",
+      "party": "YSRCP",
+      "votes": 81028
+    },
+    "margin": 4741,
+    "margin_percent": 2.72
+  },
+  {
+    "constituency_no": 8,
+    "constituency_name": "NARASANNAPETA",
+    "winner": {
+      "name": "Ramanamurty Baggu",
+      "party": "TDP",
+      "votes": 76559,
+      "vote_share": 49.34
+    },
+    "runner_up": {
+      "name": "Dharmana Krishna Das",
+      "party": "YSRCP",
+      "votes": 71759
+    },
+    "margin": 4800,
+    "margin_percent": 3.09
+  },
+  {
+    "constituency_no": 9,
+    "constituency_name": "RAJAM",
+    "winner": {
+      "name": "Kambala Jogulu",
+      "party": "YSRCP",
+      "votes": 69192,
+      "vote_share": 46.79
+    },
+    "runner_up": {
+      "name": "Kavali Prathibha Bharathi",
+      "party": "TDP",
+      "votes": 68680
+    },
+    "margin": 512,
+    "margin_percent": 0.35
+  },
+  {
+    "constituency_no": 10,
+    "constituency_name": "PALAKONDA",
+    "winner": {
+      "name": "Viswasarayi Kalavathi",
+      "party": "YSRCP",
+      "votes": 55337,
+      "vote_share": 45.57
+    },
+    "runner_up": {
+      "name": "Jaya Krishna Nimmaka",
+      "party": "TDP",
+      "votes": 53717
+    },
+    "margin": 1620,
+    "margin_percent": 1.33
+  },
+  {
+    "constituency_no": 11,
+    "constituency_name": "KURUPAM",
+    "winner": {
+      "name": "Pamula Pushpa Sreevani",
+      "party": "YSRCP",
+      "votes": 55435,
+      "vote_share": 41.6
+    },
+    "runner_up": {
+      "name": "Janardhan Thatraj Veera Vara Todramala",
+      "party": "TDP",
+      "votes": 36352
+    },
+    "margin": 19083,
+    "margin_percent": 14.32
+  },
+  {
+    "constituency_no": 12,
+    "constituency_name": "PARVATHIPURAM",
+    "winner": {
+      "name": "Bobbili Chiranjeevulu",
+      "party": "TDP",
+      "votes": 62458,
+      "vote_share": 47.94
+    },
+    "runner_up": {
+      "name": "Jammana Prasanna Kumar",
+      "party": "YSRCP",
+      "votes": 56329
+    },
+    "margin": 6129,
+    "margin_percent": 4.7
+  },
+  {
+    "constituency_no": 13,
+    "constituency_name": "SALUR",
+    "winner": {
+      "name": "Rajanna Dora Peedika",
+      "party": "YSRCP",
+      "votes": 63755,
+      "vote_share": 47.28
+    },
+    "runner_up": {
+      "name": "Rajendra Pratap Bhanj Deo",
+      "party": "TDP",
+      "votes": 58758
+    },
+    "margin": 4997,
+    "margin_percent": 3.71
+  },
+  {
+    "constituency_no": 14,
+    "constituency_name": "BOBBILI",
+    "winner": {
+      "name": "Venkata Sujay Krishna Ranga Rao Ravu",
+      "party": "YSRCP",
+      "votes": 83587,
+      "vote_share": 49.67
+    },
+    "runner_up": {
+      "name": "Thentu Lakshmu Naidu",
+      "party": "TDP",
+      "votes": 76629
+    },
+    "margin": 6958,
+    "margin_percent": 4.13
+  },
+  {
+    "constituency_no": 15,
+    "constituency_name": "ALLAGADDA",
+    "winner": {
+      "name": "Bhuma Akhila Priya",
+      "party": "YSRCP",
+      "votes": 0,
+      "vote_share": NaN
+    },
+    "runner_up": {
+      "name": "Botcha Satyanarayana",
+      "party": "INC",
+      "votes": 42945
+    },
+    "margin": 0,
+    "margin_percent": null
+  },
+  {
+    "constituency_no": 16,
+    "constituency_name": "GAJAPATHINAGARAM",
+    "winner": {
+      "name": "Appalanaidu Kondapalli",
+      "party": "TDP",
+      "votes": 65117,
+      "vote_share": 40.77
+    },
+    "runner_up": {
+      "name": "Kadubandi Srinivasa Rao",
+      "party": "YSRCP",
+      "votes": 45694
+    },
+    "margin": 19423,
+    "margin_percent": 12.16
+  },
+  {
+    "constituency_no": 17,
+    "constituency_name": "NELLIMARLA",
+    "winner": {
+      "name": "Narayana Swamy Naidu Pathivada",
+      "party": "TDP",
+      "votes": 71267,
+      "vote_share": 42.88
+    },
+    "runner_up": {
+      "name": "P.V.V.Suryanarayana Raju(Suresh Babu)",
+      "party": "YSRCP",
+      "votes": 64294
+    },
+    "margin": 6973,
+    "margin_percent": 4.2
+  },
+  {
+    "constituency_no": 18,
+    "constituency_name": "VIZIANAGARAM",
+    "winner": {
+      "name": "Geetha Meesala",
+      "party": "TDP",
+      "votes": 77320,
+      "vote_share": 49.82
+    },
+    "runner_up": {
+      "name": "Kolagatla.Veerabhadh Raswamy",
+      "party": "YSRCP",
+      "votes": 61916
+    },
+    "margin": 15404,
+    "margin_percent": 9.92
+  },
+  {
+    "constituency_no": 19,
+    "constituency_name": "SRUNGAVARAPUKOTA",
+    "winner": {
+      "name": "Kolla Lalitha Kumari",
+      "party": "TDP",
+      "votes": 82177,
+      "vote_share": 47.74
+    },
+    "runner_up": {
+      "name": "Rongali Jagannadham",
+      "party": "YSRCP",
+      "votes": 53605
+    },
+    "margin": 28572,
+    "margin_percent": 16.6
+  },
+  {
+    "constituency_no": 20,
+    "constituency_name": "BHIMLI",
+    "winner": {
+      "name": "Ganta Srinivasa Rao",
+      "party": "TDP",
+      "votes": 118020,
+      "vote_share": 55.7
+    },
+    "runner_up": {
+      "name": "Karri Sita Ramu",
+      "party": "YSRCP",
+      "votes": 80794
+    },
+    "margin": 37226,
+    "margin_percent": 17.57
+  },
+  {
+    "constituency_no": 21,
+    "constituency_name": "VISAKHAPATNAM EAST",
+    "winner": {
+      "name": "Ramakrishna Babu Velagapudi",
+      "party": "TDP",
+      "votes": 100624,
+      "vote_share": 60.45
+    },
+    "runner_up": {
+      "name": "Vamsi Krishna Srinivas",
+      "party": "YSRCP",
+      "votes": 52741
+    },
+    "margin": 47883,
+    "margin_percent": 28.77
+  },
+  {
+    "constituency_no": 22,
+    "constituency_name": "VISAKHAPATNAM SOUTH",
+    "winner": {
+      "name": "Vasupalli Ganesh Kumar",
+      "party": "TDP",
+      "votes": 66686,
+      "vote_share": 51.45
+    },
+    "runner_up": {
+      "name": "Kola Guruvulu",
+      "party": "YSRCP",
+      "votes": 48370
+    },
+    "margin": 18316,
+    "margin_percent": 14.13
+  },
+  {
+    "constituency_no": 23,
+    "constituency_name": "VISAKHAPATNAM NORTH",
+    "winner": {
+      "name": "Penmetsa Vishnu Kumar Raju",
+      "party": "BJP",
+      "votes": 82079,
+      "vote_share": 51.34
+    },
+    "runner_up": {
+      "name": "Chokkakula Venkata Rao",
+      "party": "YSRCP",
+      "votes": 63839
+    },
+    "margin": 18240,
+    "margin_percent": 11.41
+  },
+  {
+    "constituency_no": 24,
+    "constituency_name": "VISAKHAPATNAM WEST",
+    "winner": {
+      "name": "P.G.V.R. Naidu (Gana Babu)",
+      "party": "TDP",
+      "votes": 76791,
+      "vote_share": 56.66
+    },
+    "runner_up": {
+      "name": "Dadi Ratnakar",
+      "party": "YSRCP",
+      "votes": 45934
+    },
+    "margin": 30857,
+    "margin_percent": 22.77
+  },
+  {
+    "constituency_no": 25,
+    "constituency_name": "GAJUWAKA",
+    "winner": {
+      "name": "Palla Srinivas Rao",
+      "party": "TDP",
+      "votes": 97109,
+      "vote_share": 51.54
+    },
+    "runner_up": {
+      "name": "Nagireddy Tippala",
+      "party": "YSRCP",
+      "votes": 75397
+    },
+    "margin": 21712,
+    "margin_percent": 11.52
+  },
+  {
+    "constituency_no": 26,
+    "constituency_name": "CHODAVARAM",
+    "winner": {
+      "name": "Kalidindi Surya Naga Sanyasi Raju (Babu)",
+      "party": "TDP",
+      "votes": 80560,
+      "vote_share": 48.36
+    },
+    "runner_up": {
+      "name": "Karanam Dharmasri",
+      "party": "YSRCP",
+      "votes": 79651
+    },
+    "margin": 909,
+    "margin_percent": 0.55
+  },
+  {
+    "constituency_no": 27,
+    "constituency_name": "V.MADUGULA",
+    "winner": {
+      "name": "Budi. Mutyala Naidu",
+      "party": "YSRCP",
+      "votes": 72299,
+      "vote_share": 49.13
+    },
+    "runner_up": {
+      "name": "Gavireddi Ramanaidu",
+      "party": "TDP",
+      "votes": 67538
+    },
+    "margin": 4761,
+    "margin_percent": 3.24
+  },
+  {
+    "constituency_no": 28,
+    "constituency_name": "ARAKU VALLEY",
+    "winner": {
+      "name": "Kidari Sarveswara Rao",
+      "party": "YSRCP",
+      "votes": 63700,
+      "vote_share": 42.44
+    },
+    "runner_up": {
+      "name": "Siveri Soma",
+      "party": "TDP",
+      "votes": 29647
+    },
+    "margin": 34053,
+    "margin_percent": 22.69
+  },
+  {
+    "constituency_no": 29,
+    "constituency_name": "PADERU",
+    "winner": {
+      "name": "Eswari Giddi",
+      "party": "YSRCP",
+      "votes": 52384,
+      "vote_share": 40.97
+    },
+    "runner_up": {
+      "name": "Goddeti Demudu",
+      "party": "CPI",
+      "votes": 26243
+    },
+    "margin": 26141,
+    "margin_percent": 20.45
+  },
+  {
+    "constituency_no": 30,
+    "constituency_name": "ANAKAPALLI",
+    "winner": {
+      "name": "Peela Govinda Satyanarayana",
+      "party": "TDP",
+      "votes": 79911,
+      "vote_share": 53.33
+    },
+    "runner_up": {
+      "name": "Konathala Raghunath",
+      "party": "YSRCP",
+      "votes": 57570
+    },
+    "margin": 22341,
+    "margin_percent": 14.91
+  },
+  {
+    "constituency_no": 31,
+    "constituency_name": "PENDURTHI",
+    "winner": {
+      "name": "Bandaru Satyanarayana Murthy",
+      "party": "TDP",
+      "votes": 94531,
+      "vote_share": 51.87
+    },
+    "runner_up": {
+      "name": "Gandi.Babji",
+      "party": "YSRCP",
+      "votes": 75883
+    },
+    "margin": 18648,
+    "margin_percent": 10.23
+  },
+  {
+    "constituency_no": 32,
+    "constituency_name": "ELAMANCHILI",
+    "winner": {
+      "name": "Panchakarla Ramesh Babu",
+      "party": "TDP",
+      "votes": 80563,
+      "vote_share": 50.6
+    },
+    "runner_up": {
+      "name": "Pragada Nageswara Rao",
+      "party": "YSRCP",
+      "votes": 72188
+    },
+    "margin": 8375,
+    "margin_percent": 5.26
+  },
+  {
+    "constituency_no": 33,
+    "constituency_name": "PAYAKARAOPETA",
+    "winner": {
+      "name": "Anitha Vangalapudi",
+      "party": "TDP",
+      "votes": 86355,
+      "vote_share": 48.02
+    },
+    "runner_up": {
+      "name": "Changala Venkata Rao",
+      "party": "YSRCP",
+      "votes": 83527
+    },
+    "margin": 2828,
+    "margin_percent": 1.57
+  },
+  {
+    "constituency_no": 34,
+    "constituency_name": "NARSIPATNAM",
+    "winner": {
+      "name": "Ayyannapatrudu Chinthakayala",
+      "party": "TDP",
+      "votes": 79726,
+      "vote_share": 48.86
+    },
+    "runner_up": {
+      "name": "Uma Sankar Ganesh Petla",
+      "party": "YSRCP",
+      "votes": 77388
+    },
+    "margin": 2338,
+    "margin_percent": 1.43
+  },
+  {
+    "constituency_no": 35,
+    "constituency_name": "TUNI",
+    "winner": {
+      "name": "Dadisetti Raja",
+      "party": "YSRCP",
+      "votes": 84755,
+      "vote_share": 52.98
+    },
+    "runner_up": {
+      "name": "Yanamala Krishnudu",
+      "party": "TDP",
+      "votes": 66182
+    },
+    "margin": 18573,
+    "margin_percent": 11.61
+  },
+  {
+    "constituency_no": 36,
+    "constituency_name": "PRATHIPADU",
+    "winner": {
+      "name": "Varupula Subbarao",
+      "party": "YSRCP",
+      "votes": 63693,
+      "vote_share": 43.01
+    },
+    "runner_up": {
+      "name": "Parvatha Sri Satyanarayanamurthy",
+      "party": "TDP",
+      "votes": 60280
+    },
+    "margin": 3413,
+    "margin_percent": 2.3
+  },
+  {
+    "constituency_no": 37,
+    "constituency_name": "PITHAPURAM",
+    "winner": {
+      "name": "S.V.S.N. Varma",
+      "party": "IND",
+      "votes": 97511,
+      "vote_share": 57.59
+    },
+    "runner_up": {
+      "name": "Dora Babu Pendem",
+      "party": "YSRCP",
+      "votes": 50431
+    },
+    "margin": 47080,
+    "margin_percent": 27.8
+  },
+  {
+    "constituency_no": 38,
+    "constituency_name": "KAKINADA RURAL",
+    "winner": {
+      "name": "Anantha Lakshmi Pilli",
+      "party": "TDP",
+      "votes": 61144,
+      "vote_share": 36.98
+    },
+    "runner_up": {
+      "name": "Srinivasa Venu Gopala Krishna Chelluboyina",
+      "party": "YSRCP",
+      "votes": 52096
+    },
+    "margin": 9048,
+    "margin_percent": 5.47
+  },
+  {
+    "constituency_no": 39,
+    "constituency_name": "PEDDAPURAM",
+    "winner": {
+      "name": "Nimmakayala China Rajappa",
+      "party": "TDP",
+      "votes": 75914,
+      "vote_share": 50.49
+    },
+    "runner_up": {
+      "name": "Thota Subbarao Naidu",
+      "party": "YSRCP",
+      "votes": 65251
+    },
+    "margin": 10663,
+    "margin_percent": 7.09
+  },
+  {
+    "constituency_no": 40,
+    "constituency_name": "ANAPARTHY",
+    "winner": {
+      "name": "Nallamilli Ramakrishna Reddy",
+      "party": "TDP",
+      "votes": 83398,
+      "vote_share": 47.85
+    },
+    "runner_up": {
+      "name": "Suryanaraayana Reddy Sathi",
+      "party": "YSRCP",
+      "votes": 82025
+    },
+    "margin": 1373,
+    "margin_percent": 0.79
+  },
+  {
+    "constituency_no": 41,
+    "constituency_name": "KAKINADA CITY",
+    "winner": {
+      "name": "Vanamadi Venkateswararao (Kondababu)",
+      "party": "TDP",
+      "votes": 76467,
+      "vote_share": 54.42
+    },
+    "runner_up": {
+      "name": "Dwarampudi Chandrasekhara Reddy",
+      "party": "YSRCP",
+      "votes": 52467
+    },
+    "margin": 24000,
+    "margin_percent": 17.08
+  },
+  {
+    "constituency_no": 42,
+    "constituency_name": "RAMACHANDRAPURAM",
+    "winner": {
+      "name": "Thota Trimurthulu",
+      "party": "TDP",
+      "votes": 85254,
+      "vote_share": 53.24
+    },
+    "runner_up": {
+      "name": "Pilli Bose",
+      "party": "YSRCP",
+      "votes": 68332
+    },
+    "margin": 16922,
+    "margin_percent": 10.57
+  },
+  {
+    "constituency_no": 43,
+    "constituency_name": "MUMMIDIVARAM",
+    "winner": {
+      "name": "Datla Subba Raju (Buchi Babu)",
+      "party": "TDP",
+      "votes": 98274,
+      "vote_share": 56.68
+    },
+    "runner_up": {
+      "name": "Guthula Venkata Sai Srinivasa Rao",
+      "party": "YSRCP",
+      "votes": 68736
+    },
+    "margin": 29538,
+    "margin_percent": 17.04
+  },
+  {
+    "constituency_no": 44,
+    "constituency_name": "AMALAPURAM",
+    "winner": {
+      "name": "Aithabathula Anandarao",
+      "party": "TDP",
+      "votes": 76444,
+      "vote_share": 50.99
+    },
+    "runner_up": {
+      "name": "Babu Rao Golla",
+      "party": "YSRCP",
+      "votes": 64031
+    },
+    "margin": 12413,
+    "margin_percent": 8.28
+  },
+  {
+    "constituency_no": 45,
+    "constituency_name": "RAZOLE",
+    "winner": {
+      "name": "Gollapalli Surya Rao",
+      "party": "TDP",
+      "votes": 66960,
+      "vote_share": 49.52
+    },
+    "runner_up": {
+      "name": "Bonthu Rajeswara Rao",
+      "party": "YSRCP",
+      "votes": 62277
+    },
+    "margin": 4683,
+    "margin_percent": 3.46
+  },
+  {
+    "constituency_no": 46,
+    "constituency_name": "GANNAVARAM",
+    "winner": {
+      "name": "Pulaparty Narayana Murty",
+      "party": "TDP",
+      "votes": 74967,
+      "vote_share": 52.49
+    },
+    "runner_up": {
+      "name": "Chitti Babu Kondeti",
+      "party": "YSRCP",
+      "votes": 61462
+    },
+    "margin": 13505,
+    "margin_percent": 9.46
+  },
+  {
+    "constituency_no": 47,
+    "constituency_name": "KOTHAPETA",
+    "winner": {
+      "name": "Chirla. Jaggireddy",
+      "party": "YSRCP",
+      "votes": 88357,
+      "vote_share": 46.99
+    },
+    "runner_up": {
+      "name": "Bandaru Satyananda Rao",
+      "party": "TDP",
+      "votes": 87644
+    },
+    "margin": 713,
+    "margin_percent": 0.38
+  },
+  {
+    "constituency_no": 48,
+    "constituency_name": "MANDAPETA",
+    "winner": {
+      "name": "Jogeswara Rao. V",
+      "party": "TDP",
+      "votes": 100113,
+      "vote_share": 58.34
+    },
+    "runner_up": {
+      "name": "Girajala Venkata Swamy Naidu",
+      "party": "YSRCP",
+      "votes": 64099
+    },
+    "margin": 36014,
+    "margin_percent": 20.99
+  },
+  {
+    "constituency_no": 49,
+    "constituency_name": "RAJANAGARAM",
+    "winner": {
+      "name": "Pendurthi Venkatesh",
+      "party": "TDP",
+      "votes": 81476,
+      "vote_share": 50.68
+    },
+    "runner_up": {
+      "name": "Jakkampudi Vijaya Lakshmi",
+      "party": "YSRCP",
+      "votes": 72589
+    },
+    "margin": 8887,
+    "margin_percent": 5.53
+  },
+  {
+    "constituency_no": 50,
+    "constituency_name": "RAJAHMUNDRY CITY",
+    "winner": {
+      "name": "Akula Satyanarayana",
+      "party": "BJP",
+      "votes": 79531,
+      "vote_share": 50.24
+    },
+    "runner_up": {
+      "name": "Bommana Raj Kumar",
+      "party": "YSRCP",
+      "votes": 53154
+    },
+    "margin": 26377,
+    "margin_percent": 16.66
+  },
+  {
+    "constituency_no": 51,
+    "constituency_name": "RAJAMUNDRY RURAL",
+    "winner": {
+      "name": "Gorantla Butchaiah Chowdary",
+      "party": "TDP",
+      "votes": 87540,
+      "vote_share": 52.22
+    },
+    "runner_up": {
+      "name": "Akula Veerraju",
+      "party": "YSRCP",
+      "votes": 69482
+    },
+    "margin": 18058,
+    "margin_percent": 10.77
+  },
+  {
+    "constituency_no": 52,
+    "constituency_name": "JAGGAMPETA",
+    "winner": {
+      "name": "Jyothula Nehru",
+      "party": "YSRCP",
+      "votes": 88146,
+      "vote_share": 53.03
+    },
+    "runner_up": {
+      "name": "Jyothula Chanti Babu @ Naga Veera Venkata Vishnu Satya Marthandarao",
+      "party": "TDP",
+      "votes": 72214
+    },
+    "margin": 15932,
+    "margin_percent": 9.59
+  },
+  {
+    "constituency_no": 53,
+    "constituency_name": "RAMPACHODAVARAM",
+    "winner": {
+      "name": "Vantala Rajeswari",
+      "party": "YSRCP",
+      "votes": 52156,
+      "vote_share": 45.36
+    },
+    "runner_up": {
+      "name": "Seethamsetti Venkateswara Rao",
+      "party": "TDP",
+      "votes": 43934
+    },
+    "margin": 8222,
+    "margin_percent": 7.15
+  },
+  {
+    "constituency_no": 54,
+    "constituency_name": "KOVVUR",
+    "winner": {
+      "name": "K. S. Jawahar",
+      "party": "TDP",
+      "votes": 74661,
+      "vote_share": 51.88
+    },
+    "runner_up": {
+      "name": "Vanita Taneti",
+      "party": "YSRCP",
+      "votes": 61916
+    },
+    "margin": 12745,
+    "margin_percent": 8.86
+  },
+  {
+    "constituency_no": 55,
+    "constituency_name": "NIDADAVOLE",
+    "winner": {
+      "name": "Burugupalli Sesha Rao",
+      "party": "TDP",
+      "votes": 81591,
+      "vote_share": 49.93
+    },
+    "runner_up": {
+      "name": "S.Rajiv Krishna",
+      "party": "YSRCP",
+      "votes": 75232
+    },
+    "margin": 6359,
+    "margin_percent": 3.89
+  },
+  {
+    "constituency_no": 56,
+    "constituency_name": "ACHANTA",
+    "winner": {
+      "name": "Satyanarayana Pithani",
+      "party": "TDP",
+      "votes": 63549,
+      "vote_share": 48.66
+    },
+    "runner_up": {
+      "name": "Mudunuri Prasada Raju",
+      "party": "YSRCP",
+      "votes": 59629
+    },
+    "margin": 3920,
+    "margin_percent": 3.0
+  },
+  {
+    "constituency_no": 57,
+    "constituency_name": "PALACOLE",
+    "winner": {
+      "name": "Dr. Nimmala Ramanaidu",
+      "party": "TDP",
+      "votes": 51523,
+      "vote_share": 36.28
+    },
+    "runner_up": {
+      "name": "Meka Seshu Babu",
+      "party": "YSRCP",
+      "votes": 45140
+    },
+    "margin": 6383,
+    "margin_percent": 4.49
+  },
+  {
+    "constituency_no": 58,
+    "constituency_name": "NARASAPURAM",
+    "winner": {
+      "name": "Bandaru Madhava Naidu",
+      "party": "TDP",
+      "votes": 72747,
+      "vote_share": 56.0
+    },
+    "runner_up": {
+      "name": "Kothapalli Subbarayudu (Pedababu)",
+      "party": "YSRCP",
+      "votes": 51035
+    },
+    "margin": 21712,
+    "margin_percent": 16.71
+  },
+  {
+    "constituency_no": 59,
+    "constituency_name": "BHIMAVARAM",
+    "winner": {
+      "name": "Ramanjaneyulu Pulaparthi (Anji Babu)",
+      "party": "TDP",
+      "votes": 90772,
+      "vote_share": 51.61
+    },
+    "runner_up": {
+      "name": "Grandhi Srinivas",
+      "party": "YSRCP",
+      "votes": 77046
+    },
+    "margin": 13726,
+    "margin_percent": 7.8
+  },
+  {
+    "constituency_no": 60,
+    "constituency_name": "UNDI",
+    "winner": {
+      "name": "V V Siva Rama Raju (Kalavapudi Siva)",
+      "party": "TDP",
+      "votes": 101530,
+      "vote_share": 58.21
+    },
+    "runner_up": {
+      "name": "Pathapati Sarraju",
+      "party": "YSRCP",
+      "votes": 65299
+    },
+    "margin": 36231,
+    "margin_percent": 20.77
+  },
+  {
+    "constituency_no": 61,
+    "constituency_name": "TANUKU",
+    "winner": {
+      "name": "Arimilli Radha Krishna",
+      "party": "TDP",
+      "votes": 101015,
+      "vote_share": 56.31
+    },
+    "runner_up": {
+      "name": "Cheerla Radha Krishna",
+      "party": "YSRCP",
+      "votes": 70067
+    },
+    "margin": 30948,
+    "margin_percent": 17.25
+  },
+  {
+    "constituency_no": 62,
+    "constituency_name": "TADEPALLIGUDEM",
+    "winner": {
+      "name": "Pydikondala Manikyalarao",
+      "party": "BJP",
+      "votes": 73339,
+      "vote_share": 46.74
+    },
+    "runner_up": {
+      "name": "Thota Poorna Gopala Satyanarayana",
+      "party": "YSRCP",
+      "votes": 59266
+    },
+    "margin": 14073,
+    "margin_percent": 8.97
+  },
+  {
+    "constituency_no": 63,
+    "constituency_name": "UNGUTURU",
+    "winner": {
+      "name": "Ganni Veeranjaneyulu",
+      "party": "TDP",
+      "votes": 82118,
+      "vote_share": 50.5
+    },
+    "runner_up": {
+      "name": "Puppala Srinivasa Rao (Vasubabu)",
+      "party": "YSRCP",
+      "votes": 73188
+    },
+    "margin": 8930,
+    "margin_percent": 5.49
+  },
+  {
+    "constituency_no": 64,
+    "constituency_name": "DENDULURU",
+    "winner": {
+      "name": "Chinthamaneni Prabhakar",
+      "party": "TDP",
+      "votes": 92209,
+      "vote_share": 53.67
+    },
+    "runner_up": {
+      "name": "Karumuri Venkata Nageswararao",
+      "party": "YSRCP",
+      "votes": 74463
+    },
+    "margin": 17746,
+    "margin_percent": 10.33
+  },
+  {
+    "constituency_no": 65,
+    "constituency_name": "ELURU",
+    "winner": {
+      "name": "Badeti Kota Ramarao (Bujji)",
+      "party": "TDP",
+      "votes": 82483,
+      "vote_share": 55.68
+    },
+    "runner_up": {
+      "name": "Alla Kali Krishna Srinivas (Alla Nani)",
+      "party": "YSRCP",
+      "votes": 57880
+    },
+    "margin": 24603,
+    "margin_percent": 16.61
+  },
+  {
+    "constituency_no": 66,
+    "constituency_name": "GOPALAPURAM",
+    "winner": {
+      "name": "Muppidi Venkateswararao",
+      "party": "TDP",
+      "votes": 95299,
+      "vote_share": 51.14
+    },
+    "runner_up": {
+      "name": "Talari Venkatrao",
+      "party": "YSRCP",
+      "votes": 83759
+    },
+    "margin": 11540,
+    "margin_percent": 6.19
+  },
+  {
+    "constituency_no": 67,
+    "constituency_name": "POLAVARAM",
+    "winner": {
+      "name": "Modiyam Srinivasa Rao",
+      "party": "TDP",
+      "votes": 83767,
+      "vote_share": 51.05
+    },
+    "runner_up": {
+      "name": "Tellam Balaraju",
+      "party": "YSRCP",
+      "votes": 68047
+    },
+    "margin": 15720,
+    "margin_percent": 9.58
+  },
+  {
+    "constituency_no": 68,
+    "constituency_name": "CHINTALAPUDI",
+    "winner": {
+      "name": "Peethala Sujatha",
+      "party": "TDP",
+      "votes": 105417,
+      "vote_share": 52.04
+    },
+    "runner_up": {
+      "name": "Burla Devi Priya",
+      "party": "YSRCP",
+      "votes": 90253
+    },
+    "margin": 15164,
+    "margin_percent": 7.49
+  },
+  {
+    "constituency_no": 69,
+    "constituency_name": "TIRUVURU",
+    "winner": {
+      "name": "Kokkiligadda Rakshana Nidhi",
+      "party": "YSRCP",
+      "votes": 78144,
+      "vote_share": 47.9
+    },
+    "runner_up": {
+      "name": "Nallagatla Swamy Das",
+      "party": "TDP",
+      "votes": 76468
+    },
+    "margin": 1676,
+    "margin_percent": 1.03
+  },
+  {
+    "constituency_no": 70,
+    "constituency_name": "NUZVID",
+    "winner": {
+      "name": "Meka Venkata Pratap Apparao",
+      "party": "YSRCP",
+      "votes": 95565,
+      "vote_share": 50.67
+    },
+    "runner_up": {
+      "name": "Muddaraboina Venkateswara Rao",
+      "party": "TDP",
+      "votes": 85168
+    },
+    "margin": 10397,
+    "margin_percent": 5.51
+  },
+  {
+    "constituency_no": 71,
+    "constituency_name": "GANNAVARAM",
+    "winner": {
+      "name": "Vallabhaneni Vamsi Mohan",
+      "party": "TDP",
+      "votes": 99163,
+      "vote_share": 49.74
+    },
+    "runner_up": {
+      "name": "Dutta Ramachandrarao",
+      "party": "YSRCP",
+      "votes": 89615
+    },
+    "margin": 9548,
+    "margin_percent": 4.79
+  },
+  {
+    "constituency_no": 72,
+    "constituency_name": "GUDIVADA",
+    "winner": {
+      "name": "Kodali Sri Venkateswara Rao (Nani)",
+      "party": "YSRCP",
+      "votes": 81298,
+      "vote_share": 51.32
+    },
+    "runner_up": {
+      "name": "Raavi Venkateswara Rao",
+      "party": "TDP",
+      "votes": 69761
+    },
+    "margin": 11537,
+    "margin_percent": 7.28
+  },
+  {
+    "constituency_no": 73,
+    "constituency_name": "KAIKALUR",
+    "winner": {
+      "name": "Kamineni Srinivas",
+      "party": "BJP",
+      "votes": 88092,
+      "vote_share": 53.8
+    },
+    "runner_up": {
+      "name": "Uppala Ram Prasad",
+      "party": "YSRPP",
+      "votes": 66521
+    },
+    "margin": 21571,
+    "margin_percent": 13.17
+  },
+  {
+    "constituency_no": 74,
+    "constituency_name": "PEDANA",
+    "winner": {
+      "name": "Kagitha Venkata Rao",
+      "party": "TDP",
+      "votes": 71779,
+      "vote_share": 53.0
+    },
+    "runner_up": {
+      "name": "Buragadda Vedavyas",
+      "party": "YSRCP",
+      "votes": 58085
+    },
+    "margin": 13694,
+    "margin_percent": 10.11
+  },
+  {
+    "constituency_no": 75,
+    "constituency_name": "MACHILIPATNAM",
+    "winner": {
+      "name": "Kollu Ravindra",
+      "party": "TDP",
+      "votes": 75209,
+      "vote_share": 53.43
+    },
+    "runner_up": {
+      "name": "Perni Venkatramaiah (Nani)",
+      "party": "YSRCP",
+      "votes": 59403
+    },
+    "margin": 15806,
+    "margin_percent": 11.23
+  },
+  {
+    "constituency_no": 76,
+    "constituency_name": "AVANIGADDA",
+    "winner": {
+      "name": "Buddha Prasad Mandali",
+      "party": "TDP",
+      "votes": 80995,
+      "vote_share": 48.14
+    },
+    "runner_up": {
+      "name": "Ramesh Babu Simhadri",
+      "party": "YSRCP",
+      "votes": 75037
+    },
+    "margin": 5958,
+    "margin_percent": 3.54
+  },
+  {
+    "constituency_no": 77,
+    "constituency_name": "PAMARRU",
+    "winner": {
+      "name": "Uppuleti Kalpana",
+      "party": "YSRCP",
+      "votes": 69546,
+      "vote_share": 45.83
+    },
+    "runner_up": {
+      "name": "Varla Ramaiah",
+      "party": "TDP",
+      "votes": 68477
+    },
+    "margin": 1069,
+    "margin_percent": 0.7
+  },
+  {
+    "constituency_no": 78,
+    "constituency_name": "PENAMALURU",
+    "winner": {
+      "name": "Bode Prasad",
+      "party": "TDP",
+      "votes": 102330,
+      "vote_share": 54.98
+    },
+    "runner_up": {
+      "name": "Kukkala Vidyasagar",
+      "party": "YSRCP",
+      "votes": 70882
+    },
+    "margin": 31448,
+    "margin_percent": 16.9
+  },
+  {
+    "constituency_no": 79,
+    "constituency_name": "VIJAYWADA WEST",
+    "winner": {
+      "name": "Jaleel Khan",
+      "party": "YSRCP",
+      "votes": 63180,
+      "vote_share": 40.89
+    },
+    "runner_up": {
+      "name": "Velampalli Srinivasa Rao",
+      "party": "BJP",
+      "votes": 60072
+    },
+    "margin": 3108,
+    "margin_percent": 2.01
+  },
+  {
+    "constituency_no": 80,
+    "constituency_name": "VIJAYAWADA CENTRAL",
+    "winner": {
+      "name": "Bonda Umamaheswara Rao",
+      "party": "TDP",
+      "votes": 82669,
+      "vote_share": 48.5
+    },
+    "runner_up": {
+      "name": "Gowtham Reddy Punuru",
+      "party": "YSRCP",
+      "votes": 55508
+    },
+    "margin": 27161,
+    "margin_percent": 15.93
+  },
+  {
+    "constituency_no": 81,
+    "constituency_name": "VIJAYAWADA EAST",
+    "winner": {
+      "name": "Gadde Rama Mohan",
+      "party": "TDP",
+      "votes": 88784,
+      "vote_share": 47.95
+    },
+    "runner_up": {
+      "name": "Vangaveeti Radhakrishnan",
+      "party": "YSRCP",
+      "votes": 73281
+    },
+    "margin": 15503,
+    "margin_percent": 8.37
+  },
+  {
+    "constituency_no": 82,
+    "constituency_name": "MYLAVARAM",
+    "winner": {
+      "name": "Uma Maheswara Rao Devineni",
+      "party": "TDP",
+      "votes": 94539,
+      "vote_share": 47.0
+    },
+    "runner_up": {
+      "name": "Jogi Ramesh",
+      "party": "YSRCP",
+      "votes": 86970
+    },
+    "margin": 7569,
+    "margin_percent": 3.76
+  },
+  {
+    "constituency_no": 83,
+    "constituency_name": "NANDIGAMA (SC)",
+    "winner": {
+      "name": "Tangirala Sowmya",
+      "party": "TDP",
+      "votes": 99748,
+      "vote_share": 79.0
+    },
+    "runner_up": {
+      "name": "Bodapati Babu Rao",
+      "party": "INC",
+      "votes": 24921
+    },
+    "margin": 74827,
+    "margin_percent": 59.27
+  },
+  {
+    "constituency_no": 84,
+    "constituency_name": "JAGGAYYAPETA",
+    "winner": {
+      "name": "Raja Gopal Sreeram (Tathaiah)",
+      "party": "TDP",
+      "votes": 80939,
+      "vote_share": 48.84
+    },
+    "runner_up": {
+      "name": "Udaya Bhanu Samineni",
+      "party": "YSRCP",
+      "votes": 79093
+    },
+    "margin": 1846,
+    "margin_percent": 1.11
+  },
+  {
+    "constituency_no": 85,
+    "constituency_name": "PEDAKURAPADU",
+    "winner": {
+      "name": "Kommalapati Sridhar",
+      "party": "TDP",
+      "votes": 90310,
+      "vote_share": 50.33
+    },
+    "runner_up": {
+      "name": "Bolla Brahmanaidu",
+      "party": "YSRCP",
+      "votes": 81114
+    },
+    "margin": 9196,
+    "margin_percent": 5.13
+  },
+  {
+    "constituency_no": 86,
+    "constituency_name": "TADIKONDA",
+    "winner": {
+      "name": "Tenali Sravana Kumar",
+      "party": "TDP",
+      "votes": 80847,
+      "vote_share": 50.7
+    },
+    "runner_up": {
+      "name": "Heni Christina Kathera",
+      "party": "YSRCP",
+      "votes": 73305
+    },
+    "margin": 7542,
+    "margin_percent": 4.73
+  },
+  {
+    "constituency_no": 87,
+    "constituency_name": "MANGALAGIRI",
+    "winner": {
+      "name": "Alla Rama Krishna Reddy (Rk)",
+      "party": "YSRCP",
+      "votes": 88977,
+      "vote_share": 44.73
+    },
+    "runner_up": {
+      "name": "Ganji Chiranjeevi",
+      "party": "TDP",
+      "votes": 88965
+    },
+    "margin": 12,
+    "margin_percent": 0.01
+  },
+  {
+    "constituency_no": 88,
+    "constituency_name": "PONNUR",
+    "winner": {
+      "name": "Dhulipalla Narendra Kumar",
+      "party": "TDP",
+      "votes": 88386,
+      "vote_share": 50.15
+    },
+    "runner_up": {
+      "name": "Ravi Venkata Ramana",
+      "party": "YSRCP",
+      "votes": 80625
+    },
+    "margin": 7761,
+    "margin_percent": 4.4
+  },
+  {
+    "constituency_no": 89,
+    "constituency_name": "VEMURU",
+    "winner": {
+      "name": "Ananda Babu Nakka",
+      "party": "TDP",
+      "votes": 77222,
+      "vote_share": 48.66
+    },
+    "runner_up": {
+      "name": "Merugu. Nagarjuna",
+      "party": "YSRCP",
+      "votes": 75095
+    },
+    "margin": 2127,
+    "margin_percent": 1.34
+  },
+  {
+    "constituency_no": 90,
+    "constituency_name": "REPALLE",
+    "winner": {
+      "name": "Anagani Satya Prasad",
+      "party": "TDP",
+      "votes": 85076,
+      "vote_share": 48.69
+    },
+    "runner_up": {
+      "name": "Mopidevi Venkata Ramana Rao",
+      "party": "YSRCP",
+      "votes": 71721
+    },
+    "margin": 13355,
+    "margin_percent": 7.64
+  },
+  {
+    "constituency_no": 91,
+    "constituency_name": "TENALI",
+    "winner": {
+      "name": "Alapati Rajendra Prasad",
+      "party": "TDP",
+      "votes": 93524,
+      "vote_share": 48.91
+    },
+    "runner_up": {
+      "name": "Annabattuni Siva Kumar",
+      "party": "YSRCP",
+      "votes": 74459
+    },
+    "margin": 19065,
+    "margin_percent": 9.97
+  },
+  {
+    "constituency_no": 92,
+    "constituency_name": "BAPATLA",
+    "winner": {
+      "name": "Kona Raghupathi",
+      "party": "YSRCP",
+      "votes": 71076,
+      "vote_share": 50.12
+    },
+    "runner_up": {
+      "name": "Annam Satish Prabhakar",
+      "party": "TDP",
+      "votes": 65263
+    },
+    "margin": 5813,
+    "margin_percent": 4.1
+  },
+  {
+    "constituency_no": 93,
+    "constituency_name": "PRATHIPADU",
+    "winner": {
+      "name": "Ravela Kishore Babu",
+      "party": "TDP",
+      "votes": 96274,
+      "vote_share": 49.86
+    },
+    "runner_up": {
+      "name": "Mekathoti.Sucharitha",
+      "party": "YSRCP",
+      "votes": 88869
+    },
+    "margin": 7405,
+    "margin_percent": 3.83
+  },
+  {
+    "constituency_no": 94,
+    "constituency_name": "GUNTUR WEST",
+    "winner": {
+      "name": "Modugula Venu Gopala Reddy",
+      "party": "TDP",
+      "votes": 78837,
+      "vote_share": 46.0
+    },
+    "runner_up": {
+      "name": "Appi Reddy Lella",
+      "party": "YSRCP",
+      "votes": 60924
+    },
+    "margin": 17913,
+    "margin_percent": 10.45
+  },
+  {
+    "constituency_no": 95,
+    "constituency_name": "GUNTUR EAST",
+    "winner": {
+      "name": "Mohammad Musthafa Shaik",
+      "party": "YSRCP",
+      "votes": 74131,
+      "vote_share": 47.66
+    },
+    "runner_up": {
+      "name": "Maddali Giridhara Rao",
+      "party": "TDP",
+      "votes": 70980
+    },
+    "margin": 3151,
+    "margin_percent": 2.03
+  },
+  {
+    "constituency_no": 96,
+    "constituency_name": "CHILAKALURIPET",
+    "winner": {
+      "name": "Prathipati Pulla Rao",
+      "party": "TDP",
+      "votes": 89591,
+      "vote_share": 51.57
+    },
+    "runner_up": {
+      "name": "Marri Rajasekhar",
+      "party": "YSRCP",
+      "votes": 78907
+    },
+    "margin": 10684,
+    "margin_percent": 6.15
+  },
+  {
+    "constituency_no": 97,
+    "constituency_name": "NARASARAOPET",
+    "winner": {
+      "name": "Dr.Gopireddy Srinivasa Reddy",
+      "party": "YSRCP",
+      "votes": 87761,
+      "vote_share": 53.13
+    },
+    "runner_up": {
+      "name": "Nalabothu Venkata Rao",
+      "party": "BJP",
+      "votes": 71995
+    },
+    "margin": 15766,
+    "margin_percent": 9.54
+  },
+  {
+    "constituency_no": 98,
+    "constituency_name": "SATTENAPALLI",
+    "winner": {
+      "name": "Kodela Siva Prasada Rao",
+      "party": "TDP",
+      "votes": 85247,
+      "vote_share": 47.96
+    },
+    "runner_up": {
+      "name": "Ambati Rambabu",
+      "party": "YSRCP",
+      "votes": 84323
+    },
+    "margin": 924,
+    "margin_percent": 0.52
+  },
+  {
+    "constituency_no": 99,
+    "constituency_name": "VINUKONDA",
+    "winner": {
+      "name": "G. V.Aanzaneyulu",
+      "party": "TDP",
+      "votes": 104321,
+      "vote_share": 52.77
+    },
+    "runner_up": {
+      "name": "Dr.Nannapaneni Sudha",
+      "party": "YSRCP",
+      "votes": 82914
+    },
+    "margin": 21407,
+    "margin_percent": 10.83
+  },
+  {
+    "constituency_no": 100,
+    "constituency_name": "GURAZALA",
+    "winner": {
+      "name": "Yarapathineni Srinivasa Rao",
+      "party": "TDP",
+      "votes": 94827,
+      "vote_share": 48.85
+    },
+    "runner_up": {
+      "name": "Janga Krishna Murthy",
+      "party": "YSRCP",
+      "votes": 87640
+    },
+    "margin": 7187,
+    "margin_percent": 3.7
+  },
+  {
+    "constituency_no": 101,
+    "constituency_name": "MACHERLA",
+    "winner": {
+      "name": "Rama Krishna Reddy Pinnelli",
+      "party": "YSRCP",
+      "votes": 94249,
+      "vote_share": 48.73
+    },
+    "runner_up": {
+      "name": "Chalamareddy Kommareddy",
+      "party": "TDP",
+      "votes": 90714
+    },
+    "margin": 3535,
+    "margin_percent": 1.83
+  },
+  {
+    "constituency_no": 102,
+    "constituency_name": "YERRAGONDAPALEM",
+    "winner": {
+      "name": "David Raju Palaparthi",
+      "party": "YSRCP",
+      "votes": 85774,
+      "vote_share": 54.33
+    },
+    "runner_up": {
+      "name": "Ajitha Rao Budala",
+      "party": "TDP",
+      "votes": 66703
+    },
+    "margin": 19071,
+    "margin_percent": 12.08
+  },
+  {
+    "constituency_no": 103,
+    "constituency_name": "DARSI",
+    "winner": {
+      "name": "Raghava Rao Sidda",
+      "party": "TDP",
+      "votes": 88821,
+      "vote_share": 48.8
+    },
+    "runner_up": {
+      "name": "Buchepalli Shiva Prasad Reddy",
+      "party": "YSRCP",
+      "votes": 87447
+    },
+    "margin": 1374,
+    "margin_percent": 0.75
+  },
+  {
+    "constituency_no": 104,
+    "constituency_name": "PARCHUR",
+    "winner": {
+      "name": "Yeluri Sambasiva Rao",
+      "party": "TDP",
+      "votes": 97248,
+      "vote_share": 51.52
+    },
+    "runner_up": {
+      "name": "Gottipati Bharath Kumar",
+      "party": "YSRCP",
+      "votes": 86473
+    },
+    "margin": 10775,
+    "margin_percent": 5.71
+  },
+  {
+    "constituency_no": 105,
+    "constituency_name": "ADDANKI",
+    "winner": {
+      "name": "Gottipati Ravikumar (Bujji)",
+      "party": "YSRCP",
+      "votes": 99537,
+      "vote_share": 50.03
+    },
+    "runner_up": {
+      "name": "Venkatesh Karanam",
+      "party": "TDP",
+      "votes": 95302
+    },
+    "margin": 4235,
+    "margin_percent": 2.13
+  },
+  {
+    "constituency_no": 106,
+    "constituency_name": "CHIRALA",
+    "winner": {
+      "name": "Amanchi Krishna Mohan",
+      "party": "NPT",
+      "votes": 57544,
+      "vote_share": 37.2
+    },
+    "runner_up": {
+      "name": "Pothula Suneetha",
+      "party": "TDP",
+      "votes": 47209
+    },
+    "margin": 10335,
+    "margin_percent": 6.68
+  },
+  {
+    "constituency_no": 107,
+    "constituency_name": "SANTHANUTHALAPADU",
+    "winner": {
+      "name": "Audimulapu Suresh",
+      "party": "YSRCP",
+      "votes": 80954,
+      "vote_share": 48.22
+    },
+    "runner_up": {
+      "name": "Vijay Kumar B.N",
+      "party": "TDP",
+      "votes": 79678
+    },
+    "margin": 1276,
+    "margin_percent": 0.76
+  },
+  {
+    "constituency_no": 108,
+    "constituency_name": "ONGOLE",
+    "winner": {
+      "name": "Damacharla Janardhana Rao",
+      "party": "TDP",
+      "votes": 93025,
+      "vote_share": 51.29
+    },
+    "runner_up": {
+      "name": "Balineni Srinivasareddy (Vasu)",
+      "party": "YSRCP",
+      "votes": 80597
+    },
+    "margin": 12428,
+    "margin_percent": 6.85
+  },
+  {
+    "constituency_no": 109,
+    "constituency_name": "KANDUKUR",
+    "winner": {
+      "name": "Pothula Ramarao",
+      "party": "YSRCP",
+      "votes": 84538,
+      "vote_share": 48.83
+    },
+    "runner_up": {
+      "name": "Divi Sivaram",
+      "party": "TDP",
+      "votes": 80732
+    },
+    "margin": 3806,
+    "margin_percent": 2.2
+  },
+  {
+    "constituency_no": 110,
+    "constituency_name": "KONDAPI",
+    "winner": {
+      "name": "Doctor.Dola Sree Bala Veeranjaneya Swamy",
+      "party": "TDP",
+      "votes": 92234,
+      "vote_share": 50.33
+    },
+    "runner_up": {
+      "name": "Jupudi Prabhakara Rao",
+      "party": "YSRCP",
+      "votes": 86794
+    },
+    "margin": 5440,
+    "margin_percent": 2.97
+  },
+  {
+    "constituency_no": 111,
+    "constituency_name": "MARKAPURAM",
+    "winner": {
+      "name": "Janke Venkata Reddy",
+      "party": "YSRCP",
+      "votes": 82411,
+      "vote_share": 50.77
+    },
+    "runner_up": {
+      "name": "Kandula Narayana Reddy",
+      "party": "TDP",
+      "votes": 72609
+    },
+    "margin": 9802,
+    "margin_percent": 6.04
+  },
+  {
+    "constituency_no": 112,
+    "constituency_name": "GIDDALUR",
+    "winner": {
+      "name": "Ashok Reddy Muthumula",
+      "party": "YSRCP",
+      "votes": 94413,
+      "vote_share": 51.85
+    },
+    "runner_up": {
+      "name": "Anna Rambabu",
+      "party": "TDP",
+      "votes": 81520
+    },
+    "margin": 12893,
+    "margin_percent": 7.08
+  },
+  {
+    "constituency_no": 113,
+    "constituency_name": "KANIGIRI",
+    "winner": {
+      "name": "Kadiri Babu Rao",
+      "party": "TDP",
+      "votes": 79492,
+      "vote_share": 50.0
+    },
+    "runner_up": {
+      "name": "Burra Madhusudana Rao",
+      "party": "YSRCP",
+      "votes": 72285
+    },
+    "margin": 7207,
+    "margin_percent": 4.53
+  },
+  {
+    "constituency_no": 114,
+    "constituency_name": "KAVALI",
+    "winner": {
+      "name": "Ramireddy Pratap Kumar Reddy",
+      "party": "YSRCP",
+      "votes": 89589,
+      "vote_share": 48.97
+    },
+    "runner_up": {
+      "name": "Beeda Masthan Rao",
+      "party": "TDP",
+      "votes": 84620
+    },
+    "margin": 4969,
+    "margin_percent": 2.72
+  },
+  {
+    "constituency_no": 115,
+    "constituency_name": "ATMAKUR",
+    "winner": {
+      "name": "Mekapati Goutham Reddy",
+      "party": "YSRCP",
+      "votes": 91686,
+      "vote_share": 55.98
+    },
+    "runner_up": {
+      "name": "Guturu Murali Kanna Babu",
+      "party": "TDP",
+      "votes": 60274
+    },
+    "margin": 31412,
+    "margin_percent": 19.18
+  },
+  {
+    "constituency_no": 116,
+    "constituency_name": "KOVUR",
+    "winner": {
+      "name": "Polamreddy Srinivasulu Reddy",
+      "party": "TDP",
+      "votes": 94108,
+      "vote_share": 48.52
+    },
+    "runner_up": {
+      "name": "Nallapareddy Prasanna Kumar Reddy",
+      "party": "YSRCP",
+      "votes": 86171
+    },
+    "margin": 7937,
+    "margin_percent": 4.09
+  },
+  {
+    "constituency_no": 117,
+    "constituency_name": "NELLORE CITY",
+    "winner": {
+      "name": "Anil Kumar Poluboina",
+      "party": "YSRCP",
+      "votes": 74372,
+      "vote_share": 53.01
+    },
+    "runner_up": {
+      "name": "M.Sridhara Krishna Reddy",
+      "party": "TDP",
+      "votes": 55285
+    },
+    "margin": 19087,
+    "margin_percent": 13.6
+  },
+  {
+    "constituency_no": 118,
+    "constituency_name": "NELLORE RURAL",
+    "winner": {
+      "name": "Kotamreddy Sridhar Reddy",
+      "party": "YSRCP",
+      "votes": 79103,
+      "vote_share": 49.94
+    },
+    "runner_up": {
+      "name": "Sannapureddy.Suresh Reddy",
+      "party": "BJP",
+      "votes": 53450
+    },
+    "margin": 25653,
+    "margin_percent": 16.19
+  },
+  {
+    "constituency_no": 119,
+    "constituency_name": "SARVEPALLI",
+    "winner": {
+      "name": "Kakani Govardhan Reddy",
+      "party": "YSRCP",
+      "votes": 85744,
+      "vote_share": 49.43
+    },
+    "runner_up": {
+      "name": "Chandramohan Reddy Somireddy",
+      "party": "TDP",
+      "votes": 80298
+    },
+    "margin": 5446,
+    "margin_percent": 3.14
+  },
+  {
+    "constituency_no": 120,
+    "constituency_name": "GUDUR",
+    "winner": {
+      "name": "Pasim Sunil Kumar",
+      "party": "YSRCP",
+      "votes": 80698,
+      "vote_share": 48.01
+    },
+    "runner_up": {
+      "name": "Dr.Bathala Radha Jyothsna Latha",
+      "party": "TDP",
+      "votes": 71650
+    },
+    "margin": 9048,
+    "margin_percent": 5.38
+  },
+  {
+    "constituency_no": 121,
+    "constituency_name": "SULLURPETA",
+    "winner": {
+      "name": "Sanjeevaiah Kiliveti",
+      "party": "YSRCP",
+      "votes": 85343,
+      "vote_share": 48.1
+    },
+    "runner_up": {
+      "name": "Parasa Venkata Rathnaiah",
+      "party": "TDP",
+      "votes": 81617
+    },
+    "margin": 3726,
+    "margin_percent": 2.1
+  },
+  {
+    "constituency_no": 122,
+    "constituency_name": "VENKATAGIRI",
+    "winner": {
+      "name": "Kurugondla Ramakrishna",
+      "party": "TDP",
+      "votes": 83669,
+      "vote_share": 47.43
+    },
+    "runner_up": {
+      "name": "Kommi Lakshmaiah Naidu",
+      "party": "YSRCP",
+      "votes": 78034
+    },
+    "margin": 5635,
+    "margin_percent": 3.19
+  },
+  {
+    "constituency_no": 123,
+    "constituency_name": "UDAYAGIRI",
+    "winner": {
+      "name": "Bollineni Venkata Ramarao",
+      "party": "TDP",
+      "votes": 85873,
+      "vote_share": 48.93
+    },
+    "runner_up": {
+      "name": "Chandrasekhar Reddy Mekapati",
+      "party": "YSRCP",
+      "votes": 82251
+    },
+    "margin": 3622,
+    "margin_percent": 2.06
+  },
+  {
+    "constituency_no": 124,
+    "constituency_name": "BADVEL",
+    "winner": {
+      "name": "Thiriveedi. Jayaramulu .",
+      "party": "YSRCP",
+      "votes": 78879,
+      "vote_share": 50.66
+    },
+    "runner_up": {
+      "name": "N. D. Vijaya Jyothi",
+      "party": "TDP",
+      "votes": 68800
+    },
+    "margin": 10079,
+    "margin_percent": 6.47
+  },
+  {
+    "constituency_no": 125,
+    "constituency_name": "RAJAMPET",
+    "winner": {
+      "name": "Meda Venkata Mallikarjuna Reddy",
+      "party": "TDP",
+      "votes": 83884,
+      "vote_share": 50.74
+    },
+    "runner_up": {
+      "name": "Amarnath Reddy Akepati",
+      "party": "YSRCP",
+      "votes": 72267
+    },
+    "margin": 11617,
+    "margin_percent": 7.03
+  },
+  {
+    "constituency_no": 126,
+    "constituency_name": "KADAPA",
+    "winner": {
+      "name": "Amzath Basha S. B",
+      "party": "YSRCP",
+      "votes": 95077,
+      "vote_share": 58.59
+    },
+    "runner_up": {
+      "name": "Durgaprasad Rao Sudha",
+      "party": "TDP",
+      "votes": 49872
+    },
+    "margin": 45205,
+    "margin_percent": 27.86
+  },
+  {
+    "constituency_no": 127,
+    "constituency_name": "KODUR",
+    "winner": {
+      "name": "Koramutla Sreenivasulu",
+      "party": "YSRCP",
+      "votes": 66820,
+      "vote_share": 48.72
+    },
+    "runner_up": {
+      "name": "Obili Subbaramaiah",
+      "party": "TDP",
+      "votes": 64848
+    },
+    "margin": 1972,
+    "margin_percent": 1.44
+  },
+  {
+    "constituency_no": 128,
+    "constituency_name": "RAYACHOTI",
+    "winner": {
+      "name": "Gadikota Srikanth Reddy",
+      "party": "YSRCP",
+      "votes": 96891,
+      "vote_share": 56.39
+    },
+    "runner_up": {
+      "name": "Ramesh Kumar Reddy Reddeppagari",
+      "party": "TDP",
+      "votes": 62109
+    },
+    "margin": 34782,
+    "margin_percent": 20.24
+  },
+  {
+    "constituency_no": 129,
+    "constituency_name": "PULIVENDLA",
+    "winner": {
+      "name": "Y.S.Jagan Mohan Reddy",
+      "party": "YSRCP",
+      "votes": 124576,
+      "vote_share": 68.67
+    },
+    "runner_up": {
+      "name": "Venkata Satish Kumar Reddy Singareddy",
+      "party": "TDP",
+      "votes": 49333
+    },
+    "margin": 75243,
+    "margin_percent": 41.48
+  },
+  {
+    "constituency_no": 130,
+    "constituency_name": "KAMALAPURAM",
+    "winner": {
+      "name": "Pochimareddy Ravindranath Reddy",
+      "party": "YSRCP",
+      "votes": 78547,
+      "vote_share": 49.78
+    },
+    "runner_up": {
+      "name": "Putha Narasimha Reddy",
+      "party": "TDP",
+      "votes": 73202
+    },
+    "margin": 5345,
+    "margin_percent": 3.39
+  },
+  {
+    "constituency_no": 131,
+    "constituency_name": "JAMMALAMADUGU",
+    "winner": {
+      "name": "Adinarayana Reddy. Chadipirala",
+      "party": "YSRCP",
+      "votes": 100794,
+      "vote_share": 51.32
+    },
+    "runner_up": {
+      "name": "Ramasubbareddy Ponnapureddy.",
+      "party": "TDP",
+      "votes": 88627
+    },
+    "margin": 12167,
+    "margin_percent": 6.19
+  },
+  {
+    "constituency_no": 132,
+    "constituency_name": "PRODDATUR",
+    "winner": {
+      "name": "Rachamallu Siva Prasad Reddy",
+      "party": "YSRCP",
+      "votes": 93866,
+      "vote_share": 51.4
+    },
+    "runner_up": {
+      "name": "Nandyala Varada Rajulu Reddy",
+      "party": "TDP",
+      "votes": 80921
+    },
+    "margin": 12945,
+    "margin_percent": 7.09
+  },
+  {
+    "constituency_no": 133,
+    "constituency_name": "MYDUKUR",
+    "winner": {
+      "name": "Raghuramireddy Settipalli",
+      "party": "YSRCP",
+      "votes": 85539,
+      "vote_share": 51.97
+    },
+    "runner_up": {
+      "name": "Putta Sudhakar Yadav",
+      "party": "TDP",
+      "votes": 74017
+    },
+    "margin": 11522,
+    "margin_percent": 7.0
+  },
+  {
+    "constituency_no": 134,
+    "constituency_name": "ALLAGADDA",
+    "winner": {
+      "name": "Bhuma Shobha Nagi Reddy",
+      "party": "YSRCP",
+      "votes": 92108,
+      "vote_share": 53.16
+    },
+    "runner_up": {
+      "name": "Gangula Prabhakara Reddy",
+      "party": "TDP",
+      "votes": 74180
+    },
+    "margin": 17928,
+    "margin_percent": 10.35
+  },
+  {
+    "constituency_no": 135,
+    "constituency_name": "SRISAILAM",
+    "winner": {
+      "name": "Budda Raja Sekhara Reddy",
+      "party": "YSRCP",
+      "votes": 74249,
+      "vote_share": 50.09
+    },
+    "runner_up": {
+      "name": "Silpa Chakrapani Reddy",
+      "party": "TDP",
+      "votes": 69388
+    },
+    "margin": 4861,
+    "margin_percent": 3.28
+  },
+  {
+    "constituency_no": 136,
+    "constituency_name": "NANDIKOTKUR",
+    "winner": {
+      "name": "Isaiah. Yakkaladevi",
+      "party": "YSRCP",
+      "votes": 87496,
+      "vote_share": 54.68
+    },
+    "runner_up": {
+      "name": "Labbi Venkata Swamy",
+      "party": "TDP",
+      "votes": 65682
+    },
+    "margin": 21814,
+    "margin_percent": 13.63
+  },
+  {
+    "constituency_no": 137,
+    "constituency_name": "KURNOOL",
+    "winner": {
+      "name": "S.V.Mohan Reddy",
+      "party": "YSRCP",
+      "votes": 57962,
+      "vote_share": 40.18
+    },
+    "runner_up": {
+      "name": "T.G.Venkatesh",
+      "party": "TDP",
+      "votes": 54483
+    },
+    "margin": 3479,
+    "margin_percent": 2.41
+  },
+  {
+    "constituency_no": 138,
+    "constituency_name": "PANYAM",
+    "winner": {
+      "name": "Gowru Charitha Reddy",
+      "party": "YSRCP",
+      "votes": 72245,
+      "vote_share": 35.76
+    },
+    "runner_up": {
+      "name": "Katasani Rama Bhupal Reddy",
+      "party": "SDLPI",
+      "votes": 60598
+    },
+    "margin": 11647,
+    "margin_percent": 5.76
+  },
+  {
+    "constituency_no": 139,
+    "constituency_name": "NANDYAL",
+    "winner": {
+      "name": "Bhuma Nagi Reddy",
+      "party": "YSRCP",
+      "votes": 82194,
+      "vote_share": 46.97
+    },
+    "runner_up": {
+      "name": "Silpa Mohan Reddy",
+      "party": "TDP",
+      "votes": 78590
+    },
+    "margin": 3604,
+    "margin_percent": 2.06
+  },
+  {
+    "constituency_no": 140,
+    "constituency_name": "BANAGANAPALLE",
+    "winner": {
+      "name": "Janardhana Reddy B.C.",
+      "party": "TDP",
+      "votes": 95727,
+      "vote_share": 53.31
+    },
+    "runner_up": {
+      "name": "Rami Reddy Katasani",
+      "party": "YSRCP",
+      "votes": 78386
+    },
+    "margin": 17341,
+    "margin_percent": 9.66
+  },
+  {
+    "constituency_no": 141,
+    "constituency_name": "DHONE",
+    "winner": {
+      "name": "Buggana Rajendranath",
+      "party": "YSRCP",
+      "votes": 83683,
+      "vote_share": 49.86
+    },
+    "runner_up": {
+      "name": "Kambalapadu Ediga Prathap",
+      "party": "TDP",
+      "votes": 72531
+    },
+    "margin": 11152,
+    "margin_percent": 6.64
+  },
+  {
+    "constituency_no": 142,
+    "constituency_name": "PATTIKONDA",
+    "winner": {
+      "name": "Kambalapadu Ediga Krishna Murthy",
+      "party": "TDP",
+      "votes": 62706,
+      "vote_share": 39.83
+    },
+    "runner_up": {
+      "name": "Kotla Hari Chakrapani Reddy",
+      "party": "YSRCP",
+      "votes": 54807
+    },
+    "margin": 7899,
+    "margin_percent": 5.02
+  },
+  {
+    "constituency_no": 143,
+    "constituency_name": "KODUMUR",
+    "winner": {
+      "name": "M. Mani Gandhi",
+      "party": "YSRCP",
+      "votes": 84206,
+      "vote_share": 55.3
+    },
+    "runner_up": {
+      "name": "Madharapu Renukamma",
+      "party": "BJP",
+      "votes": 31822
+    },
+    "margin": 52384,
+    "margin_percent": 34.4
+  },
+  {
+    "constituency_no": 144,
+    "constituency_name": "YEMMIGANUR",
+    "winner": {
+      "name": "B.Jayanageswara Reddy",
+      "party": "TDP",
+      "votes": 84483,
+      "vote_share": 50.67
+    },
+    "runner_up": {
+      "name": "K.Jagan Mohan Reddy",
+      "party": "YSRCP",
+      "votes": 70122
+    },
+    "margin": 14361,
+    "margin_percent": 8.61
+  },
+  {
+    "constituency_no": 145,
+    "constituency_name": "MANTRALAYAM",
+    "winner": {
+      "name": "Y Balanagireddy",
+      "party": "YSRCP",
+      "votes": 69858,
+      "vote_share": 49.73
+    },
+    "runner_up": {
+      "name": "Palakurthi Thikkareddy",
+      "party": "TDP",
+      "votes": 62396
+    },
+    "margin": 7462,
+    "margin_percent": 5.31
+  },
+  {
+    "constituency_no": 146,
+    "constituency_name": "ADONI",
+    "winner": {
+      "name": "Y.Saiprasad Reddy",
+      "party": "YSRCP",
+      "votes": 72121,
+      "vote_share": 51.97
+    },
+    "runner_up": {
+      "name": "K.Meenakshi Naidu",
+      "party": "TDP",
+      "votes": 55290
+    },
+    "margin": 16831,
+    "margin_percent": 12.13
+  },
+  {
+    "constituency_no": 147,
+    "constituency_name": "ALUR",
+    "winner": {
+      "name": "Gummanur Jaya Ram",
+      "party": "YSRCP",
+      "votes": 69466,
+      "vote_share": 41.66
+    },
+    "runner_up": {
+      "name": "B.Veerabhadra Gowd",
+      "party": "TDP",
+      "votes": 67547
+    },
+    "margin": 1919,
+    "margin_percent": 1.15
+  },
+  {
+    "constituency_no": 148,
+    "constituency_name": "RAYADURG",
+    "winner": {
+      "name": "Kalava Srinivasulu",
+      "party": "TDP",
+      "votes": 92344,
+      "vote_share": 47.91
+    },
+    "runner_up": {
+      "name": "Kapu Ramachandra Reddy",
+      "party": "YSRCP",
+      "votes": 90517
+    },
+    "margin": 1827,
+    "margin_percent": 0.95
+  },
+  {
+    "constituency_no": 149,
+    "constituency_name": "URAVAKONDA",
+    "winner": {
+      "name": "Y. Visweswara Reddy",
+      "party": "YSRCP",
+      "votes": 81042,
+      "vote_share": 48.8
+    },
+    "runner_up": {
+      "name": "Payyavula Keshav",
+      "party": "TDP",
+      "votes": 78767
+    },
+    "margin": 2275,
+    "margin_percent": 1.37
+  },
+  {
+    "constituency_no": 150,
+    "constituency_name": "GUNTAKAL",
+    "winner": {
+      "name": "R. Jithendra Goud",
+      "party": "TDP",
+      "votes": 81655,
+      "vote_share": 47.24
+    },
+    "runner_up": {
+      "name": "Y. Venkata Rami Reddy",
+      "party": "YSRCP",
+      "votes": 76561
+    },
+    "margin": 5094,
+    "margin_percent": 2.95
+  },
+  {
+    "constituency_no": 151,
+    "constituency_name": "TADIPATRI",
+    "winner": {
+      "name": "Prabhakar Reddy. J.C",
+      "party": "TDP",
+      "votes": 96740,
+      "vote_share": 53.76
+    },
+    "runner_up": {
+      "name": "V.R.Rami Reddy",
+      "party": "YSRCP",
+      "votes": 74568
+    },
+    "margin": 22172,
+    "margin_percent": 12.32
+  },
+  {
+    "constituency_no": 152,
+    "constituency_name": "SINGANAMALA",
+    "winner": {
+      "name": "B. Yamini Bala",
+      "party": "TDP",
+      "votes": 86679,
+      "vote_share": 48.94
+    },
+    "runner_up": {
+      "name": "Jonnalagadda Padmavathy",
+      "party": "YSRCP",
+      "votes": 82095
+    },
+    "margin": 4584,
+    "margin_percent": 2.59
+  },
+  {
+    "constituency_no": 153,
+    "constituency_name": "ANANTAPUR URBAN",
+    "winner": {
+      "name": "Prabhakar Chowdary. V",
+      "party": "TDP",
+      "votes": 74704,
+      "vote_share": 48.07
+    },
+    "runner_up": {
+      "name": "B.Gurunatha Reddy",
+      "party": "YSRCP",
+      "votes": 65370
+    },
+    "margin": 9334,
+    "margin_percent": 6.01
+  },
+  {
+    "constituency_no": 154,
+    "constituency_name": "KALYANDURG",
+    "winner": {
+      "name": "Vunnam Hanumantharaya Chowdary",
+      "party": "TDP",
+      "votes": 91981,
+      "vote_share": 54.73
+    },
+    "runner_up": {
+      "name": "Boya Thippe Swamy",
+      "party": "YSRCP",
+      "votes": 69662
+    },
+    "margin": 22319,
+    "margin_percent": 13.28
+  },
+  {
+    "constituency_no": 155,
+    "constituency_name": "RAPTADU",
+    "winner": {
+      "name": "Paritala Sunithamma",
+      "party": "TDP",
+      "votes": 91394,
+      "vote_share": 50.79
+    },
+    "runner_up": {
+      "name": "Thopudurthy Prakash Reddy",
+      "party": "YSRCP",
+      "votes": 83620
+    },
+    "margin": 7774,
+    "margin_percent": 4.32
+  },
+  {
+    "constituency_no": 156,
+    "constituency_name": "MADAKASIRA",
+    "winner": {
+      "name": "K. Eeranna",
+      "party": "TDP",
+      "votes": 76741,
+      "vote_share": 48.53
+    },
+    "runner_up": {
+      "name": "Mopuragundu Thippe Swamy",
+      "party": "YSRCP",
+      "votes": 62029
+    },
+    "margin": 14712,
+    "margin_percent": 9.3
+  },
+  {
+    "constituency_no": 157,
+    "constituency_name": "HINDUPUR",
+    "winner": {
+      "name": "Balakrishna Nandamuri",
+      "party": "TDP",
+      "votes": 81543,
+      "vote_share": 51.12
+    },
+    "runner_up": {
+      "name": "B.Naveen Nischal",
+      "party": "YSRCP",
+      "votes": 65347
+    },
+    "margin": 16196,
+    "margin_percent": 10.15
+  },
+  {
+    "constituency_no": 158,
+    "constituency_name": "PENUKONDA",
+    "winner": {
+      "name": "B.K.Parthasarathi",
+      "party": "TDP",
+      "votes": 79793,
+      "vote_share": 47.46
+    },
+    "runner_up": {
+      "name": "Malagundla Sankaranarayana",
+      "party": "YSRCP",
+      "votes": 62378
+    },
+    "margin": 17415,
+    "margin_percent": 10.36
+  },
+  {
+    "constituency_no": 159,
+    "constituency_name": "PUTTAPARTHI",
+    "winner": {
+      "name": "Palle Raghunatha Reddy",
+      "party": "TDP",
+      "votes": 76910,
+      "vote_share": 50.3
+    },
+    "runner_up": {
+      "name": "Chinthapanti Somasekhara Reddy",
+      "party": "YSRCP",
+      "votes": 69946
+    },
+    "margin": 6964,
+    "margin_percent": 4.55
+  },
+  {
+    "constituency_no": 160,
+    "constituency_name": "DHARMAVARAM",
+    "winner": {
+      "name": "Gonugguntla Suryanarayana",
+      "party": "TDP",
+      "votes": 99246,
+      "vote_share": 52.14
+    },
+    "runner_up": {
+      "name": "Kethireddy Venkata Rami Reddy",
+      "party": "YSRCP",
+      "votes": 85035
+    },
+    "margin": 14211,
+    "margin_percent": 7.47
+  },
+  {
+    "constituency_no": 161,
+    "constituency_name": "KADIRI",
+    "winner": {
+      "name": "Attar. Chand Basha",
+      "party": "YSRCP",
+      "votes": 81639,
+      "vote_share": 48.29
+    },
+    "runner_up": {
+      "name": "Kandikunta Venkata Prasad",
+      "party": "TDP",
+      "votes": 80671
+    },
+    "margin": 968,
+    "margin_percent": 0.57
+  },
+  {
+    "constituency_no": 162,
+    "constituency_name": "THAMBALLAPALLE",
+    "winner": {
+      "name": "G.Shankar",
+      "party": "TDP",
+      "votes": 82090,
+      "vote_share": 50.4
+    },
+    "runner_up": {
+      "name": "Anipireddy Venkata Praveen Kumar Reddy",
+      "party": "YSRCP",
+      "votes": 72900
+    },
+    "margin": 9190,
+    "margin_percent": 5.64
+  },
+  {
+    "constituency_no": 163,
+    "constituency_name": "PILERU",
+    "winner": {
+      "name": "Chinthala Ramachandra Reddy",
+      "party": "YSRCP",
+      "votes": 71949,
+      "vote_share": 42.46
+    },
+    "runner_up": {
+      "name": "Nallari Kishan Kumar Reddy",
+      "party": "JASPA",
+      "votes": 56636
+    },
+    "margin": 15313,
+    "margin_percent": 9.04
+  },
+  {
+    "constituency_no": 164,
+    "constituency_name": "MADANAPALLE",
+    "winner": {
+      "name": "Dr. Desai Thippa Reddy. M.S.",
+      "party": "YSRCP",
+      "votes": 81252,
+      "vote_share": 48.08
+    },
+    "runner_up": {
+      "name": "Challapalle Narasimha Reddy",
+      "party": "BJP",
+      "votes": 64663
+    },
+    "margin": 16589,
+    "margin_percent": 9.82
+  },
+  {
+    "constituency_no": 165,
+    "constituency_name": "PUNGANUR",
+    "winner": {
+      "name": "Peddireddigari Ramachandra Reddy",
+      "party": "YSRCP",
+      "votes": 104587,
+      "vote_share": 56.47
+    },
+    "runner_up": {
+      "name": "M. Venkataramana Raju",
+      "party": "TDP",
+      "votes": 72856
+    },
+    "margin": 31731,
+    "margin_percent": 17.13
+  },
+  {
+    "constituency_no": 166,
+    "constituency_name": "CHANDRAGIRI",
+    "winner": {
+      "name": "Chevireddy Bhaskar Reddy",
+      "party": "YSRCP",
+      "votes": 100924,
+      "vote_share": 48.88
+    },
+    "runner_up": {
+      "name": "Arunakumari Galla",
+      "party": "TDP",
+      "votes": 96406
+    },
+    "margin": 4518,
+    "margin_percent": 2.19
+  },
+  {
+    "constituency_no": 167,
+    "constituency_name": "TIRUPATI",
+    "winner": {
+      "name": "M. Venkataramana",
+      "party": "TDP",
+      "votes": 99313,
+      "vote_share": 57.56
+    },
+    "runner_up": {
+      "name": "Bhumana. Karunakar Reddy",
+      "party": "YSRCP",
+      "votes": 57774
+    },
+    "margin": 41539,
+    "margin_percent": 24.08
+  },
+  {
+    "constituency_no": 168,
+    "constituency_name": "SRIKALAHASTI",
+    "winner": {
+      "name": "Gopala Krishna Reddy Bojjala",
+      "party": "TDP",
+      "votes": 89953,
+      "vote_share": 48.82
+    },
+    "runner_up": {
+      "name": "Biyyapu Madhusudhan Reddy",
+      "party": "YSRCP",
+      "votes": 82370
+    },
+    "margin": 7583,
+    "margin_percent": 4.12
+  },
+  {
+    "constituency_no": 169,
+    "constituency_name": "SATYAVEDU",
+    "winner": {
+      "name": "Talari Aditya",
+      "party": "TDP",
+      "votes": 77655,
+      "vote_share": 48.22
+    },
+    "runner_up": {
+      "name": "K.Adimulam",
+      "party": "YSRCP",
+      "votes": 73428
+    },
+    "margin": 4227,
+    "margin_percent": 2.62
+  },
+  {
+    "constituency_no": 170,
+    "constituency_name": "NAGARI",
+    "winner": {
+      "name": "R.. K Roja",
+      "party": "YSRCP",
+      "votes": 74724,
+      "vote_share": 47.23
+    },
+    "runner_up": {
+      "name": "Gali Muddu Krishnama Naidu",
+      "party": "TDP",
+      "votes": 73866
+    },
+    "margin": 858,
+    "margin_percent": 0.54
+  },
+  {
+    "constituency_no": 171,
+    "constituency_name": "GANGADHARA NELLORE",
+    "winner": {
+      "name": "Narayanaswamy",
+      "party": "YSRCP",
+      "votes": 84538,
+      "vote_share": 54.32
+    },
+    "runner_up": {
+      "name": "Kuthuhalam Gummadi",
+      "party": "TDP",
+      "votes": 63973
+    },
+    "margin": 20565,
+    "margin_percent": 13.21
+  },
+  {
+    "constituency_no": 172,
+    "constituency_name": "CHITTOOR",
+    "winner": {
+      "name": "D. A. Sathya Prabha",
+      "party": "TDP",
+      "votes": 73430,
+      "vote_share": 50.5
+    },
+    "runner_up": {
+      "name": "Jangalapalli Srinivasulu (Jmc)",
+      "party": "YSRCP",
+      "votes": 66631
+    },
+    "margin": 6799,
+    "margin_percent": 4.68
+  },
+  {
+    "constituency_no": 173,
+    "constituency_name": "PUTHALAPATTU",
+    "winner": {
+      "name": "M. Sunil Kumar",
+      "party": "YSRCP",
+      "votes": 83200,
+      "vote_share": 48.75
+    },
+    "runner_up": {
+      "name": "L. Lalitha Kumari",
+      "party": "TDP",
+      "votes": 82298
+    },
+    "margin": 902,
+    "margin_percent": 0.53
+  },
+  {
+    "constituency_no": 174,
+    "constituency_name": "PALAMANER",
+    "winner": {
+      "name": "N.Amaranath Reddy",
+      "party": "YSRCP",
+      "votes": 96541,
+      "vote_share": 48.86
+    },
+    "runner_up": {
+      "name": "R.V.Subash Chandra Bose",
+      "party": "TDP",
+      "votes": 93651
+    },
+    "margin": 2890,
+    "margin_percent": 1.46
+  },
+  {
+    "constituency_no": 175,
+    "constituency_name": "KUPPAM",
+    "winner": {
+      "name": "Nara Chandra Babu Naidu",
+      "party": "TDP",
+      "votes": 102952,
+      "vote_share": 62.59
+    },
+    "runner_up": {
+      "name": "K.Chandramouli",
+      "party": "YSRCP",
+      "votes": 55831
+    },
+    "margin": 47121,
+    "margin_percent": 28.65
+  }
+]
