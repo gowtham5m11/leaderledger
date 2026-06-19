@@ -500,7 +500,7 @@
     "criminal_details_pending": [
       {
         "fir_no": "1678/2023",
-        "court": "Court of the 1\u00b0 Additional Judicial Magistrate of first class Srikakulam",
+        "court": "Court of the 1° Additional Judicial Magistrate of first class Srikakulam",
         "description": "Making allegation of dishonor of cheque.",
         "sections": "u/s 138, 142 of NI Act.",
         "page": 3,
@@ -607,7 +607,7 @@
       },
       {
         "fir_no": "62/2024",
-        "court": "Parvatipuram Police station, Parvatipuram Sub \u2014 Division , Parvatipuram manyam -Dist",
+        "court": "Parvatipuram Police station, Parvatipuram Sub — Division , Parvatipuram manyam -Dist",
         "description": "dis- obedience of, cause riot or affray and Violation o women etc Elections code",
         "sections": "1951 R/w 188 IPC",
         "page": 4,
@@ -1232,7 +1232,7 @@
         "fir_no": "101/2024",
         "court": "First-Class Magistrate, Bobbili",
         "description": "Section 188 Of IPC",
-        "sections": "Conducted a rally on 20-03-2024 to promote a candidate\u2019s election without any authorization in disobedience to the order promulgated by a public servant which violates election code of conduct.",
+        "sections": "Conducted a rally on 20-03-2024 to promote a candidate’s election without any authorization in disobedience to the order promulgated by a public servant which violates election code of conduct.",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 101/2024 | Desc: Section 188 Of IPC",
@@ -2508,13 +2508,13 @@
     },
     "criminal_details_pending": [
       {
-        "fir_no": "Edeo! P \u2014 sine shin Lick tite al weite",
+        "fir_no": "Edeo! P — sine shin Lick tite al weite",
         "court": "Cr.No.151 Cr. PC",
         "description": "Preventive arrest.",
         "sections": "285, 283, 341, 353 R/W. 34 IPC",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Edeo! P \u2014 sine shin Lick tite al weite | Desc: Preventive arrest.",
+        "raw_text": "FIR: Edeo! P — sine shin Lick tite al weite | Desc: Preventive arrest.",
         "category": "Political/Protest"
       }
     ],
@@ -3166,7 +3166,7 @@
       },
       {
         "fir_no": "SA 194/2023",
-        "court": "Hon\u2019ble Debts Recovery Tribunal, Visakhapatnam",
+        "court": "Hon’ble Debts Recovery Tribunal, Visakhapatnam",
         "description": "(disposed)",
         "sections": "",
         "page": 12,
@@ -3639,21 +3639,21 @@
       {
         "fir_no": "542/2019",
         "court": "C.C 1694/2022, Dt: 21.6.2022, Addl Junior Civil Judge Court cum JFCM Court at Narsipatnam",
-        "description": "Alleged that the disputes arose between the family member\u2019s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "description": "Alleged that the disputes arose between the family member’s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "sections": "U/s 179, 186, 189, 353,500 and U/s 153(a), 500, 506 IPC",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 542/2019 | Desc: Alleged that the disputes arose between the family member\u2019s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "raw_text": "FIR: 542/2019 | Desc: Alleged that the disputes arose between the family member’s police rushed and accused TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "361/2019",
         "court": "C.C 1694/2022, Dt: 21.6.2022, Addl Junior Civil Judge Court cum JFCM Court at Narsipatnam",
-        "description": "Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "description": "Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "sections": "U/s 179, 186, 189, 353,500 and U/s 153(a), 500, 506 IPC",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 361/2019 | Desc: Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy\u2019s are ruling the state with a view to aimed at disrupting public peace.",
+        "raw_text": "FIR: 361/2019 | Desc: Alleged that the accused conducted the press meet at TDP office visakhapatnam, made comments against shri Jagan Mohan Reddy chief minister by touching his caste reddy’s are ruling the state with a view to aimed at disrupting public peace.",
         "category": "Serious/Violent"
       }
     ],
@@ -6048,7 +6048,7 @@
       },
       {
         "fir_no": "353/2020",
-        "court": "Machavaram PS, U/s \u2014 143, 188, 26 IPC",
+        "court": "Machavaram PS, U/s — 143, 188, 26 IPC",
         "description": "unlawful assembly, disobedience to an order duly promulgated by public servant, violence",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
@@ -6067,21 +6067,21 @@
       {
         "fir_no": "20/2020",
         "court": "Machavaram PS",
-        "description": "U/s \u2014 353, 506, 188, 34 IPC & Section 32 of Police Act",
+        "description": "U/s — 353, 506, 188, 34 IPC & Section 32 of Police Act",
         "sections": "Sec 353 IPC, Sec 506 IPC, Sec 188 IPC, Sec 34 IPC, Section 32 Police Act",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 20/2020 | Desc: U/s \u2014 353, 506, 188, 34 IPC & Section 32 of Police Act",
+        "raw_text": "FIR: 20/2020 | Desc: U/s — 353, 506, 188, 34 IPC & Section 32 of Police Act",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "135/2019",
         "court": "AS Nagar PS, Vijayawada",
-        "description": "U/s \u2014 341, 506 IPC",
+        "description": "U/s — 341, 506 IPC",
         "sections": "Sec 341 IPC, Sec 506 IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 135/2019 | Desc: U/s \u2014 341, 506 IPC",
+        "raw_text": "FIR: 135/2019 | Desc: U/s — 341, 506 IPC",
         "category": "Serious/Violent"
       },
       {
@@ -6137,28 +6137,28 @@
       {
         "fir_no": "",
         "court": "Crime NO. 316/2013 at Nunna PS, Vijayawada",
-        "description": "U/s \u2014 143, 341, 188 IPC",
+        "description": "U/s — 143, 341, 188 IPC",
         "sections": "Sec 143 IPC: punishment for being member of unlawful assembly; Sec 341 IPC: punishment for wrongful, restraining any person wrongfully; Sec 188 IPC: Disobedience to an order duly promulgated by public servant who is directed to obstain from order.",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: U/s \u2014 143, 341, 188 IPC",
+        "raw_text": "FIR:  | Desc: U/s — 143, 341, 188 IPC",
         "category": "Political/Protest"
       },
       {
         "fir_no": "",
         "court": "Crime NO. 552/2011 at SN Puram PS, Vijayawada",
-        "description": "U/s \u2014 420, 506 IPC",
+        "description": "U/s — 420, 506 IPC",
         "sections": "Sec 420 IPC: for commission of cheating and dishonesty inducing delivery of property fraudulently with an inducement; Sec 506 IPC: punishment for criminal intimidation for treating to cause either death or grievous",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: U/s \u2014 420, 506 IPC",
+        "raw_text": "FIR:  | Desc: U/s — 420, 506 IPC",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "69/2005",
         "court": "Machavaram PS",
         "description": "security for keeping the peace",
-        "sections": "U/s \u2014 107 CRPC",
+        "sections": "U/s — 107 CRPC",
         "page": 13,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 69/2005 | Desc: security for keeping the peace",
@@ -6360,7 +6360,7 @@
       },
       {
         "fir_no": "Not Applicable",
-        "court": "Adireddy Srinivas and others burnt the government G.O\u2019s and indulge in the acts of violence and caused breach of peace, and caused mischief by forming into unlawful assembly.",
+        "court": "Adireddy Srinivas and others burnt the government G.O’s and indulge in the acts of violence and caused breach of peace, and caused mischief by forming into unlawful assembly.",
         "description": "burning government GO's and causing violence",
         "sections": "Sec.143, 426 r/w.149 IPC",
         "page": 4,
@@ -6392,7 +6392,7 @@
         "fir_no": "Cr.No.221/2020",
         "court": "Korukonda PS",
         "description": "On 16-05-2020 at 10:0 AM at Burugupudi , Adireddy Srinivas along with others without taking precautions to avoid covid-19 and without maintaining social distance and by violating prohibitory orders U/S 144 Cr.P.C formed themselves into unlawful assembly while the ASI D.Satya narayana and others discharging their duties and interrupted them in discharging their duties and there by the present case is registered.",
-        "sections": "Sec.143, 353, 188, 26\u00a2 270 r/w.34 IPC and Sec.2, 3 & 4 of ED Act.",
+        "sections": "Sec.143, 353, 188, 26¢ 270 r/w.34 IPC and Sec.2, 3 & 4 of ED Act.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: Cr.No.221/2020 | Desc: On 16-05-2020 at 10:0 AM at Burugupudi , Adireddy Srinivas along with others without taking precautions to avoid covid-19 and without maintaining social distance and by violating prohibitory orders U/S 144 Cr.P.C formed themselves into unlawful assembly while the ASI D.Satya narayana and others discharging their duties and interrupted them in discharging their duties and there by the present case is registered.",
@@ -7319,7 +7319,7 @@
     "criminal_details_pending": [
       {
         "fir_no": "193/2019",
-        "court": "Cr. No. 193/2019 \u2014 Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
+        "court": "Cr. No. 193/2019 — Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
         "description": "Basing on the complaint of B.V watnantra subba lakshmi",
         "sections": "Sec. 70(2) & 4 Section 143, 188,324 &, 149 of IPC.",
         "page": 3,
@@ -7329,7 +7329,7 @@
       },
       {
         "fir_no": "113/2019",
-        "court": "Cr. No. 113/2019 \u2014 Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
+        "court": "Cr. No. 113/2019 — Ibrhimpatnam Police Station, NTR District, Andhra Pradesh.",
         "description": "Basing on the complaint of B.V watnantra subba lakshmi",
         "sections": "Section 143, 188,324 &, 149 of IPC.",
         "page": 3,
@@ -8332,11 +8332,11 @@
       {
         "fir_no": "NIL",
         "court": "",
-        "description": "criminal intimidation \u2014 done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
+        "description": "criminal intimidation — done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
         "sections": "riw 34 [PC Driving at excessive speed (183 MV Act), Driving dangerously (14)",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: criminal intimidation \u2014 done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
+        "raw_text": "FIR: NIL | Desc: criminal intimidation — done by several members of unlawful assembly guilty of offence committed in prosecution of common object (149)",
         "category": "Minor/Other"
       },
       {
@@ -8703,7 +8703,7 @@
         "fir_no": "2845/2019",
         "court": "Elaura",
         "description": "Punishment for wrongful restrain (241), punishment for criminal intimidation (506), threatening any person to give false evidence (192-A), punishment of abatement if the act abetted is committed in consequence and where no express provision is made for tis punishment (10%), Acts done by several persons in furtherance of common intention (r/w 34 IPC)",
-        "sections": "344, \u00a306, 195-A, 104 c/w 34 IPC and 3/2) via) SC ST Act",
+        "sections": "344, £06, 195-A, 104 c/w 34 IPC and 3/2) via) SC ST Act",
         "page": 18,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 2845/2019 | Desc: Punishment for wrongful restrain (241), punishment for criminal intimidation (506), threatening any person to give false evidence (192-A), punishment of abatement if the act abetted is committed in consequence and where no express provision is made for tis punishment (10%), Acts done by several persons in furtherance of common intention (r/w 34 IPC)",
@@ -8813,7 +8813,7 @@
         "fir_no": "92020",
         "court": "Additional District SC, ST Judge cum SC, ST",
         "description": "kidnapping abducting in order to murder",
-        "sections": "Us. 342, Sed, 324, rife 34 TPC and 3(1) (ros), 3(2) via) SC \u00a7T Act",
+        "sections": "Us. 342, Sed, 324, rife 34 TPC and 3(1) (ros), 3(2) via) SC §T Act",
         "page": 21,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 92020 | Desc: kidnapping abducting in order to murder",
@@ -8871,7 +8871,7 @@
       },
       {
         "fir_no": "COC No, 24/2018",
-        "court": "Judicial Magistrate of 1\u00b0 Class (Excise), Elru",
+        "court": "Judicial Magistrate of 1° Class (Excise), Elru",
         "description": "Lil charge sheet not filed",
         "sections": "",
         "page": 22,
@@ -8912,11 +8912,11 @@
       {
         "fir_no": "325, 324",
         "court": "",
-        "description": "Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (\u00a5a)]",
+        "description": "Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (¥a)]",
         "sections": "",
         "page": 22,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 325, 324 | Desc: Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (\u00a5a)]",
+        "raw_text": "FIR: 325, 324 | Desc: Means (324) Mischief causing damage to public property (3 of POPP Act) amd 3(2) (¥a)]",
         "category": "Serious/Violent"
       },
       {
@@ -9604,11 +9604,11 @@
       {
         "fir_no": "272/2023",
         "court": "C.C 63/2024",
-        "description": "Gathered and interrupting to the vehicular and shouting as \u2018Isukasura \u2014 Jaganasura\u2019",
+        "description": "Gathered and interrupting to the vehicular and shouting as ‘Isukasura — Jaganasura’",
         "sections": "",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 272/2023 | Desc: Gathered and interrupting to the vehicular and shouting as \u2018Isukasura \u2014 Jaganasura\u2019",
+        "raw_text": "FIR: 272/2023 | Desc: Gathered and interrupting to the vehicular and shouting as ‘Isukasura — Jaganasura’",
         "category": "Minor/Other"
       },
       {
@@ -10421,7 +10421,7 @@
   {
     "id": 68,
     "name": "Yarlagadda Venkata Rao",
-    "constituency": "GANNAVARAM (YARLAGADDA VENKATA RAO)",
+    "constituency": "GANNAVARAM1",
     "party": "TDP",
     "criminal_cases": "9",
     "education": "completed B.Sc. from AG & SG College, Vuyyuru, Nagarjuna University in 1998",
@@ -10491,7 +10491,7 @@
   {
     "id": 69,
     "name": "Giddi. Satyanarayana",
-    "constituency": "GANNAVARAM (GIDDI. SATYANARAYANA)",
+    "constituency": "GANNAVARAM2",
     "party": "Janasena Party",
     "criminal_cases": "0",
     "education": "completed B.A. from DNR College, Bhimavaram, Andhra University in 1987",
@@ -10990,11 +10990,11 @@
       {
         "fir_no": "153-A, 295-A, 298, 505(2) of IPC & Sec 67 of the Information Technology Act",
         "court": "No summons issued by court till date.",
-        "description": "Alleged \u2014 promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
+        "description": "Alleged — promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
         "sections": "",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 153-A, 295-A, 298, 505(2) of IPC & Sec 67 of the Information Technology Act | Desc: Alleged \u2014 promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
+        "raw_text": "FIR: 153-A, 295-A, 298, 505(2) of IPC & Sec 67 of the Information Technology Act | Desc: Alleged — promoting enmity between groups on grounds of religion and acts to outrage religious feelings",
         "category": "Minor/Other"
       },
       {
@@ -11011,7 +11011,7 @@
         "fir_no": "151/2020",
         "court": "CBI, BSFB, New Delhi",
         "description": "dated 29-04-2019 case mentioned below is _ private Poduru P.S, Andhra Pradesh (based on the complaint of Power Finance Corporation Limited, CBI registered FIR against Ind Barath Power (Madras) Limited in which K Raghu Rama Krishna Raju was one of the accused)",
-        "sections": "Not applicable - Not applicable - Mr. Cherukuvada Ranganatha Raju | (Charge sheet filed according to weame 08-2020 before the Newspaper a N\u00b0 Summons issue erefore Addl. Judicial First Mavixirat by court till date. case No. and court name",
+        "sections": "Not applicable - Not applicable - Mr. Cherukuvada Ranganatha Raju | (Charge sheet filed according to weame 08-2020 before the Newspaper a N° Summons issue erefore Addl. Judicial First Mavixirat by court till date. case No. and court name",
         "page": 11,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 151/2020 | Desc: dated 29-04-2019 case mentioned below is _ private Poduru P.S, Andhra Pradesh (based on the complaint of Power Finance Corporation Limited, CBI registered FIR against Ind Barath Power (Madras) Limited in which K Raghu Rama Krishna Raju was one of the accused)",
@@ -11574,11 +11574,11 @@
       {
         "fir_no": "79/2023",
         "court": "Not Applicable",
-        "description": "formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID \u2014 19 rules.",
+        "description": "formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID — 19 rules.",
         "sections": "Sec 143, 341, 353, 188, 269, 283 R/W 149, of the Sections, e.g Section,...of IPC, etc.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID \u2014 19 rules.",
+        "raw_text": "FIR: 79/2023 | Desc: formed unlawful assembly and standing on the road to obstructed the traffic. Deterring government employees from the discharge of their duties and violated COVID — 19 rules.",
         "category": "Political/Protest"
       },
       {
@@ -11752,23 +11752,23 @@
         "category": "Political/Protest"
       },
       {
-        "fir_no": "78\u00b0G SO4DY",
+        "fir_no": "78°G SO4DY",
         "court": "68'2'9-692| SOV | S/ElZ_ |",
         "description": "Jeuol G09\"E SeIDY BIOL (Saude UL JUBWeINseaw",
         "sections": "",
         "page": 15,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 78\u00b0G SO4DY | Desc: Jeuol G09\"E SeIDY BIOL (Saude UL JUBWeINseaw",
+        "raw_text": "FIR: 78°G SO4DY | Desc: Jeuol G09\"E SeIDY BIOL (Saude UL JUBWeINseaw",
         "category": "Minor/Other"
       },
       {
-        "fir_no": "240Z/99\u00a5",
+        "fir_no": "240Z/99¥",
         "court": "F19VIMddV LON J1av2Mddv LON",
         "description": "FWgW | FWsVIMddV LON",
         "sections": "",
         "page": 16,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 240Z/99\u00a5 | Desc: FWgW | FWsVIMddV LON",
+        "raw_text": "FIR: 240Z/99¥ | Desc: FWgW | FWsVIMddV LON",
         "category": "Minor/Other"
       },
       {
@@ -11783,7 +11783,7 @@
       },
       {
         "fir_no": "d19gVv9",
-        "court": "sav 2IMddv JWVINdd\u00a5 | F1WVIMddV dd 270 \u20182V",
+        "court": "sav 2IMddv JWVINdd¥ | F1WVIMddV dd 270 ‘2V",
         "description": "J1GVINddV LON LON LON",
         "sections": "",
         "page": 16,
@@ -11854,11 +11854,11 @@
       {
         "fir_no": "319VINddv 719v",
         "court": "LON TIVINddV | FISVINdAV | aay | aygv>MddV LON",
-        "description": "y'bs 7z\u00a2\u00b09 (spaeA*bs goZ) | sen | ybs 7Z\u00a2\u00b09 ye}0L",
+        "description": "y'bs 7z¢°9 (spaeA*bs goZ) | sen | ybs 7Z¢°9 ye}0L",
         "sections": "",
         "page": 18,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 319VINddv 719v | Desc: y'bs 7z\u00a2\u00b09 (spaeA*bs goZ) | sen | ybs 7Z\u00a2\u00b09 ye}0L",
+        "raw_text": "FIR: 319VINddv 719v | Desc: y'bs 7z¢°9 (spaeA*bs goZ) | sen | ybs 7Z¢°9 ye}0L",
         "category": "Minor/Other"
       },
       {
@@ -12050,11 +12050,11 @@
       {
         "fir_no": "Not Applicable",
         "court": "Under Investigation Under Investigation Under Investigation",
-        "description": "If any person don\u2019t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
+        "description": "If any person don’t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
         "sections": "N/A",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: Not Applicable | Desc: If any person don\u2019t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
+        "raw_text": "FIR: Not Applicable | Desc: If any person don’t follow the terms of the permit given by the police for using music or organizing gathering or marches (32 Police Act",
         "category": "Minor/Other"
       },
       {
@@ -12414,21 +12414,21 @@
       {
         "fir_no": "140/2019",
         "court": "CIVIL JUDGE- METROPOLITAN CIVIL JUDGE CUM MAGISTRATE COURT, MACHERLA VIJAYAWADA COURT",
-        "description": "CRIMINAL INTIMIDATION \u2014 DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
+        "description": "CRIMINAL INTIMIDATION — DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
         "sections": "SECTION 32 OF POLICE ACT",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 140/2019 | Desc: CRIMINAL INTIMIDATION \u2014 DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
+        "raw_text": "FIR: 140/2019 | Desc: CRIMINAL INTIMIDATION — DISOBEDIENCE TO ORDER DULY PROMULGATED BY PUBLIC SERVENT, ACTS OF COMMON INTENTION, NOT FOLLOWING RULES.",
         "category": "Minor/Other"
       },
       {
         "fir_no": "135/2019",
         "court": "PRINCIPAL JUNIOR CIVIL JUDGE CUM METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION \u2014 CASE COMPROMISED",
+        "description": "WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION — CASE COMPROMISED",
         "sections": "SECTION 341,506",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 135/2019 | Desc: WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION \u2014 CASE COMPROMISED",
+        "raw_text": "FIR: 135/2019 | Desc: WRONGFUL RESTRAINT AND CRIMINAL INTIMIDATION — CASE COMPROMISED",
         "category": "Serious/Violent"
       },
       {
@@ -12494,31 +12494,31 @@
       {
         "fir_no": "806/2013",
         "court": "ADDITIONAL CHIEF METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY \u2014 CASE REFERRED AS FALSE",
+        "description": "ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY — CASE REFERRED AS FALSE",
         "sections": "SECTION 354 OF IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 806/2013 | Desc: ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY \u2014 CASE REFERRED AS FALSE",
+        "raw_text": "FIR: 806/2013 | Desc: ASSAULTS OR USES OF CRIMINAL FORCE TO OUTRAGE OF WOMANS MODESTY — CASE REFERRED AS FALSE",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "316/2013",
         "court": "ADDITIONAL CHIEF METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT \u2014 CASE REFERRED AS MISTAKE OF FACT",
+        "description": "UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT — CASE REFERRED AS MISTAKE OF FACT",
         "sections": "SECTION 143, 341, 188 OF IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 316/2013 | Desc: UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT \u2014 CASE REFERRED AS MISTAKE OF FACT",
+        "raw_text": "FIR: 316/2013 | Desc: UNLAWFUL ASSEMBLY, WRONGFUL RESTRAINT, DISOBEDIENCE TO ORDER DULY PROMULGLATED BY A PUBLIC SERVANT — CASE REFERRED AS MISTAKE OF FACT",
         "category": "Political/Protest"
       },
       {
         "fir_no": "552/2011",
         "court": "ILL ADDITIONAL CHIEF METROPOLITAN MAGISTRATE COURT, VIJAYAWADA",
-        "description": "CHEATING AND WRONGFUL RESTAINT\u2014 CASE COMPROMISED",
+        "description": "CHEATING AND WRONGFUL RESTAINT— CASE COMPROMISED",
         "sections": "SECTION 420, 506 OF IPC",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 552/2011 | Desc: CHEATING AND WRONGFUL RESTAINT\u2014 CASE COMPROMISED",
+        "raw_text": "FIR: 552/2011 | Desc: CHEATING AND WRONGFUL RESTAINT— CASE COMPROMISED",
         "category": "Serious/Violent"
       },
       {
@@ -12795,16 +12795,16 @@
       {
         "fir_no": "SPLCC/13/2023",
         "court": "In the Court of Addl. Special Judge (IX Addl. Judge) Chennai",
-        "description": "Offence under Prevention of Money Laundering Act \u2014 Alleged in totally unconnected issue.",
+        "description": "Offence under Prevention of Money Laundering Act — Alleged in totally unconnected issue.",
         "sections": "",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: SPLCC/13/2023 | Desc: Offence under Prevention of Money Laundering Act \u2014 Alleged in totally unconnected issue.",
+        "raw_text": "FIR: SPLCC/13/2023 | Desc: Offence under Prevention of Money Laundering Act — Alleged in totally unconnected issue.",
         "category": "Minor/Other"
       },
       {
         "fir_no": "",
-        "court": "WP No. 30993/2021 was filed seeking quashing of the case and the same is pending before Hon\u2019ble Telangana High Court",
+        "court": "WP No. 30993/2021 was filed seeking quashing of the case and the same is pending before Hon’ble Telangana High Court",
         "description": "WP No. 30993/2021",
         "sections": "",
         "page": 4,
@@ -13422,11 +13422,11 @@
       {
         "fir_no": "",
         "court": "Spl Court for trail of offences under SCSTPOA Act.",
-        "description": "Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)\u00ae, 3(1)(s), 32(Va)SCSTPOA Act.",
+        "description": "Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)®, 3(1)(s), 32(Va)SCSTPOA Act.",
         "sections": "",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR:  | Desc: Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)\u00ae, 3(1)(s), 32(Va)SCSTPOA Act.",
+        "raw_text": "FIR:  | Desc: Offence U/S 144, 148, 427, 341, 294-B, 506, 352, 188, 269, 270, R/W 149 IPC, 3(1)®, 3(1)(s), 32(Va)SCSTPOA Act.",
         "category": "Serious/Violent"
       },
       {
@@ -13641,7 +13641,7 @@
         "fir_no": "272/2023",
         "court": "Kanchikcherla PS, Police Station Krishna Dt",
         "description": "some persons gathered and interrupting to vehicular and shouting",
-        "sections": "U/s \u2014 151 -CRPC",
+        "sections": "U/s — 151 -CRPC",
         "page": 7,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 272/2023 | Desc: some persons gathered and interrupting to vehicular and shouting",
@@ -13836,7 +13836,7 @@
       },
       {
         "fir_no": "10,000",
-        "court": "SBI Mutual Funds \u2014Rs. 10,000/-",
+        "court": "SBI Mutual Funds —Rs. 10,000/-",
         "description": "Mutual Funds",
         "sections": "",
         "page": 7,
@@ -13846,7 +13846,7 @@
       },
       {
         "fir_no": "64,13,153",
-        "court": "Vanguard 500 S&P ETF \u2014Units \u2014(Rs.64,13,153/- Current Value as on 31.03.24)",
+        "court": "Vanguard 500 S&P ETF —Units —(Rs.64,13,153/- Current Value as on 31.03.24)",
         "description": "Mutual Funds",
         "sections": "",
         "page": 7,
@@ -13856,7 +13856,7 @@
       },
       {
         "fir_no": "20,10,000",
-        "court": "Megabid Finance & Investment Private Limited \u2014No. of Shares \u201420,10,000 (Rs. 2,01,00,000/-)",
+        "court": "Megabid Finance & Investment Private Limited —No. of Shares —20,10,000 (Rs. 2,01,00,000/-)",
         "description": "Shares",
         "sections": "",
         "page": 7,
@@ -13866,7 +13866,7 @@
       },
       {
         "fir_no": "16,22,000",
-        "court": "Nirvana Holdings Private Limited o. of Shares \u2014 16,22,000 \u2014 (Rs. 1,62,20,000/-)",
+        "court": "Nirvana Holdings Private Limited o. of Shares — 16,22,000 — (Rs. 1,62,20,000/-)",
         "description": "Shares",
         "sections": "",
         "page": 7,
@@ -13876,7 +13876,7 @@
       },
       {
         "fir_no": "100",
-        "court": "Heritage Finlease Limited \u2014 No. of Shares \u2014 100 Shares- (Rs.3,600/-)",
+        "court": "Heritage Finlease Limited — No. of Shares — 100 Shares- (Rs.3,600/-)",
         "description": "Shares",
         "sections": "",
         "page": 7,
@@ -13886,7 +13886,7 @@
       },
       {
         "fir_no": "33",
-        "court": "Heritage Finlease Limited \u2014 No. of Debentures: 33 - Rs. 3,30,00,000/-",
+        "court": "Heritage Finlease Limited — No. of Debentures: 33 - Rs. 3,30,00,000/-",
         "description": "Debentures",
         "sections": "",
         "page": 7,
@@ -14106,7 +14106,7 @@
       },
       {
         "fir_no": "C.No.39/3/SCRB/CID/2024",
-        "court": "Hon\u2019ble Court of the Special Judge for SPE & ACB Cases -cum- Additional Metropolitan Sessions Judge, Vijayawada.",
+        "court": "Hon’ble Court of the Special Judge for SPE & ACB Cases -cum- Additional Metropolitan Sessions Judge, Vijayawada.",
         "description": "Sections 341, 188 r/w Section 34 of Indian Penal Code, 1860",
         "sections": "Sections 341, 188 r/w Section 34 of Indian Penal Code, 1860",
         "page": 23,
@@ -14540,7 +14540,7 @@
       },
       {
         "fir_no": "29/2022",
-        "court": "Cr.No.29/2022 of The State SHO, Gudivada \u2014I town PS.",
+        "court": "Cr.No.29/2022 of The State SHO, Gudivada —I town PS.",
         "description": "Preventive arrest wrongful restrain",
         "sections": "Sec.151Cr.P.C.",
         "page": 6,
@@ -14646,11 +14646,11 @@
       {
         "fir_no": "130/2023",
         "court": "CJC Vinukonda JCJC Vinukonda",
-        "description": "Disobedience to Unlawful Order duly promulgated by \u2014 Criminal Public Servant",
+        "description": "Disobedience to Unlawful Order duly promulgated by — Criminal Public Servant",
         "sections": "",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 130/2023 | Desc: Disobedience to Unlawful Order duly promulgated by \u2014 Criminal Public Servant",
+        "raw_text": "FIR: 130/2023 | Desc: Disobedience to Unlawful Order duly promulgated by — Criminal Public Servant",
         "category": "Minor/Other"
       },
       {
@@ -14882,7 +14882,7 @@
         "fir_no": "448/2021",
         "court": "Old Guntur PS, Guntur",
         "description": "Sec.341,353,147 R/W 149 IPC,120(b) IPC.",
-        "sections": "Sec.341Wrongfully restraining any person.\nSec.353.Assault or use of criminal force to deter a public servant from discharging of his duty.\nSec.147 Rioting.\nSec.149 If an offence be committed by any member of unlawful assembly, every other member of \u2014 such assembly shall be guilty of the offence.\nSec.120 (B). criminal conspiracy to commit an Offence punishable with death imprisonment for life or rigorous imprisonment for a term of two years or upwards.",
+        "sections": "Sec.341Wrongfully restraining any person.\nSec.353.Assault or use of criminal force to deter a public servant from discharging of his duty.\nSec.147 Rioting.\nSec.149 If an offence be committed by any member of unlawful assembly, every other member of — such assembly shall be guilty of the offence.\nSec.120 (B). criminal conspiracy to commit an Offence punishable with death imprisonment for life or rigorous imprisonment for a term of two years or upwards.",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 448/2021 | Desc: Sec.341,353,147 R/W 149 IPC,120(b) IPC.",
@@ -15135,7 +15135,7 @@
       },
       {
         "fir_no": "Not Applicable",
-        "court": "IV Addl. Metropolitan Magistrate\u2019s Court, Vijayawada",
+        "court": "IV Addl. Metropolitan Magistrate’s Court, Vijayawada",
         "description": "Disobedience to order duly promulgated by public servant, Making or selling false weight or measure, Negligent act likely to spread infection of disease dangerous to eo",
         "sections": "188, 267, 269 r/w 34 IPC & Sec. 3 of EDA Act",
         "page": 9,
@@ -15627,7 +15627,7 @@
       },
       {
         "fir_no": "475/2020",
-        "court": "1\u00b0 AJCJ arasaraopet",
+        "court": "1° AJCJ arasaraopet",
         "description": "hurt, Criminal offence committed",
         "sections": "",
         "page": 7,
@@ -15752,11 +15752,11 @@
       {
         "fir_no": "Cr.No.70/2024",
         "court": "AJFCM Court",
-        "description": "violation of Model code of conduct ir affixing th\u20ac F.S.T Team lB unla$,tu1 tupplying of food for wall stitches at walls.",
+        "description": "violation of Model code of conduct ir affixing th€ F.S.T Team lB unla$,tu1 tupplying of food for wall stitches at walls.",
         "sections": "",
         "page": 5,
         "method": "pdfplumber+LLM:gemma3:4b",
-        "raw_text": "FIR: Cr.No.70/2024 | Desc: violation of Model code of conduct ir affixing th\u20ac F.S.T Team lB unla$,tu1 tupplying of food for wall stitches at walls.",
+        "raw_text": "FIR: Cr.No.70/2024 | Desc: violation of Model code of conduct ir affixing th€ F.S.T Team lB unla$,tu1 tupplying of food for wall stitches at walls.",
         "category": "Minor/Other"
       },
       {
@@ -15870,7 +15870,7 @@
       },
       {
         "fir_no": "153/2019",
-        "court": "C.C.No. 2937 of 2023 on the file of the Hon\u2019ble Judicial Magistrate of First Class cum Special Mobile Court, Kurnool",
+        "court": "C.C.No. 2937 of 2023 on the file of the Hon’ble Judicial Magistrate of First Class cum Special Mobile Court, Kurnool",
         "description": "Criminal conspiracy, Illegal payments in connection with an election, Disobedience to order duly promulgated by public servant, Acts done by several persons in furtherance of common intention, Restrictions on the printing of pamphlets, posters, etc.,",
         "sections": "120(b), 171-H, 188 R/w. 34 of Indian Penal Code (IPC) and Section 127(A)(1) of Representation of People Act 1951 (RP Act)",
         "page": 4,
@@ -15880,7 +15880,7 @@
       },
       {
         "fir_no": "152/2019",
-        "court": "Cr.No. 3338 of 2023 on the file of the Hon\u2019ble Judicial Magistrate of First Class cum Special Mobile Court, Kurnool",
+        "court": "Cr.No. 3338 of 2023 on the file of the Hon’ble Judicial Magistrate of First Class cum Special Mobile Court, Kurnool",
         "description": "Criminal conspiracy, Bribery, Illegal payments in connection with an election, Disobedience to order duly promulgated by public servant, Acts done by several persons in furtherance of common intention, Restrictions on the printing of pamphlets, posters, etc.,.",
         "sections": "Section 120(b), 171-E, 171-H, 188 R/w. 34 of Indian Penal Code (IPC) and Section 127(A)(1) of Representation of People Act 1951 (RP Act)",
         "page": 5,
@@ -16620,11 +16620,11 @@
       {
         "fir_no": "67/2010",
         "court": "Crime No.67/2010 of Dharmabad Police Station, Nanded District, Maharastra State",
-        "description": "Assaulting done by the accused persons\u2019 in Magisterial custody",
+        "description": "Assaulting done by the accused persons’ in Magisterial custody",
         "sections": "Sections 353, 324, 332,336, 337, 323, 504, 506, 109, 34 of IPC",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 67/2010 | Desc: Assaulting done by the accused persons\u2019 in Magisterial custody",
+        "raw_text": "FIR: 67/2010 | Desc: Assaulting done by the accused persons’ in Magisterial custody",
         "category": "Serious/Violent"
       }
     ],
@@ -16973,13 +16973,13 @@
         "category": "Minor/Other"
       },
       {
-        "fir_no": "820U Dq\u00a5D",
+        "fir_no": "820U Dq¥D",
         "court": "HZ0Z-T0-ET UO",
         "description": "case",
         "sections": "",
         "page": 10,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 820U Dq\u00a5D | Desc: case",
+        "raw_text": "FIR: 820U Dq¥D | Desc: case",
         "category": "Minor/Other"
       },
       {
@@ -18791,11 +18791,11 @@
       {
         "fir_no": "152/2014",
         "court": "Spl. Judge for trial of Criminal cases relating to elected MPs and MLAs, Vijayawada, Krishna District.",
-        "description": "S.C 5/2019, pending before the Hon\u2019ble Court of the Spl. Judge for trial of Criminal cases relating to elected MPs and MLAs",
+        "description": "S.C 5/2019, pending before the Hon’ble Court of the Spl. Judge for trial of Criminal cases relating to elected MPs and MLAs",
         "sections": "",
         "page": 3,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 152/2014 | Desc: S.C 5/2019, pending before the Hon\u2019ble Court of the Spl. Judge for trial of Criminal cases relating to elected MPs and MLAs",
+        "raw_text": "FIR: 152/2014 | Desc: S.C 5/2019, pending before the Hon’ble Court of the Spl. Judge for trial of Criminal cases relating to elected MPs and MLAs",
         "category": "Minor/Other"
       },
       {
@@ -19783,7 +19783,7 @@
       },
       {
         "fir_no": "C.C.146/2015",
-        "court": "Name of Judicial First Class Magistrate for Railways \u2014 Guntur",
+        "court": "Name of Judicial First Class Magistrate for Railways — Guntur",
         "description": "On Rail-Roko call given by political party",
         "sections": "Sec. 174 (a) Railway, Sec. 174(a) r/w 146, Section of IPC",
         "page": 5,
@@ -19793,7 +19793,7 @@
       },
       {
         "fir_no": "C.C.149/2015",
-        "court": "Name of Judicial First Class Magistrate for Railways \u2014 Guntur",
+        "court": "Name of Judicial First Class Magistrate for Railways — Guntur",
         "description": "On Rail-Roko call given by political party",
         "sections": "Sec. 174 (a) Railway, Sec. 174(a) r/w 146 & Section of IPC",
         "page": 5,
@@ -19803,7 +19803,7 @@
       },
       {
         "fir_no": "C.C.151/2015",
-        "court": "Name of Judicial First Class Magistrate for Railways \u2014 Guntur",
+        "court": "Name of Judicial First Class Magistrate for Railways — Guntur",
         "description": "On Rail-Roko call given by political party",
         "sections": "Sec. 174 (a) Railway, Sec. 174(a) r/w 146 & Section of IPC",
         "page": 5,
@@ -20352,11 +20352,11 @@
       {
         "fir_no": "U/s 153 (a), 188, 505 (2),506,295",
         "court": "JFCM Designated court, Kurnool",
-        "description": "Violation \u2018 ; bt iik , of orders of Public servant, threatening with intention.",
+        "description": "Violation ‘ ; bt iik , of orders of Public servant, threatening with intention.",
         "sections": "Sections 143, 188, 25 269, 341, r/w 149 of IPC.",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: U/s 153 (a), 188, 505 (2),506,295 | Desc: Violation \u2018 ; bt iik , of orders of Public servant, threatening with intention.",
+        "raw_text": "FIR: U/s 153 (a), 188, 505 (2),506,295 | Desc: Violation ‘ ; bt iik , of orders of Public servant, threatening with intention.",
         "category": "Political/Protest"
       },
       {
@@ -21196,7 +21196,7 @@
       },
       {
         "fir_no": "79/2023",
-        "court": "Cr.No.28/2020\u2014Anantapuram Town PS",
+        "court": "Cr.No.28/2020—Anantapuram Town PS",
         "description": "420: Cheating and dishonestly inducting delivery of property",
         "sections": "U's 420,467,468,471,472 IPC",
         "page": 16,
@@ -21397,11 +21397,11 @@
       {
         "fir_no": "330/2022",
         "court": "Urban Police Station, Rayadurgam",
-        "description": "tried to go to C.K.Palli and made dharna in front of Govt. Jr. College on Rayadurgam-Kanekal Road illegally gathered and obstructed\u2019 the traffic and caused damage to the public peace and tranquili",
+        "description": "tried to go to C.K.Palli and made dharna in front of Govt. Jr. College on Rayadurgam-Kanekal Road illegally gathered and obstructed’ the traffic and caused damage to the public peace and tranquili",
         "sections": "188; 341; R/w.34 I.P.C.",
         "page": 6,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 330/2022 | Desc: tried to go to C.K.Palli and made dharna in front of Govt. Jr. College on Rayadurgam-Kanekal Road illegally gathered and obstructed\u2019 the traffic and caused damage to the public peace and tranquili",
+        "raw_text": "FIR: 330/2022 | Desc: tried to go to C.K.Palli and made dharna in front of Govt. Jr. College on Rayadurgam-Kanekal Road illegally gathered and obstructed’ the traffic and caused damage to the public peace and tranquili",
         "category": "Political/Protest"
       },
       {
@@ -21436,7 +21436,7 @@
       },
       {
         "fir_no": "201/2021 of Bommanahal Police Station, Anantapuramu Station",
-        "court": "C.C.No.1166/2021 on the file of Hon\u2019ble Judicial First Case No. with Class Magistrate, Anantapuramu",
+        "court": "C.C.No.1166/2021 on the file of Hon’ble Judicial First Case No. with Class Magistrate, Anantapuramu",
         "description": "151 Cr.P.C.",
         "sections": "",
         "page": 8,
@@ -21557,11 +21557,11 @@
       {
         "fir_no": "NIL",
         "court": "",
-        "description": "On 19-07-2010 about 12-00 noon more than 100 agitators came to Tadipatri Railway Station and squatting on the Railway Track and detained\u2019 the TR.No.2163 Express Dadar \u2014 Chennai for a period of 20 minutes and violated the Rules",
+        "description": "On 19-07-2010 about 12-00 noon more than 100 agitators came to Tadipatri Railway Station and squatting on the Railway Track and detained’ the TR.No.2163 Express Dadar — Chennai for a period of 20 minutes and violated the Rules",
         "sections": "",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: NIL | Desc: On 19-07-2010 about 12-00 noon more than 100 agitators came to Tadipatri Railway Station and squatting on the Railway Track and detained\u2019 the TR.No.2163 Express Dadar \u2014 Chennai for a period of 20 minutes and violated the Rules",
+        "raw_text": "FIR: NIL | Desc: On 19-07-2010 about 12-00 noon more than 100 agitators came to Tadipatri Railway Station and squatting on the Railway Track and detained’ the TR.No.2163 Express Dadar — Chennai for a period of 20 minutes and violated the Rules",
         "category": "Minor/Other"
       },
       {
@@ -22813,7 +22813,7 @@
       },
       {
         "fir_no": "R.C. No. 19 (A) of 2011 -CBI/HYD",
-        "court": "C.C NO. 26 of 2014, IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "court": "C.C NO. 26 of 2014, IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B, 420, 409 OF IPC AND U/SEC 11, 13(2) R/W 13 (1)",
         "sections": "Section 120-B: Punishment of Criminal Conspiracy. Section 420: Cheating and dishonestly inducing delivery of property. Section 409: Criminal breach of trust by public servant, or by banker, merchant or agent. Section 11, 13 (2) r/w 13 (1) (c) & (d) of Prevention of Corruption Act:",
         "page": 11,
@@ -22823,7 +22823,7 @@
       },
       {
         "fir_no": "R.C. No. 19 (A) of 2011 -CBV/HYD",
-        "court": "C.C NO, 28 of 2013 IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "court": "C.C NO, 28 of 2013 IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B r/w 420 of IPC: Punishment of Criminal Conspiracy. Cheating and dishonestly inducing delivery of property.",
         "sections": "SECTION 120-B R/W 420 IPC & SEC.9 OF PREVENTION OF CORRUPTION ACT, 1988.",
         "page": 12,
@@ -22833,7 +22833,7 @@
       },
       {
         "fir_no": "R.C. No. 19 (A) of 2011 -CBV/HYD",
-        "court": "C.C NO. 27 of 2013 IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "court": "C.C NO. 27 of 2013 IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B, 420 IPC & SEC.9 OF PREVENTION OF CORRUPTION ACT, 1988: Punishment of Criminal Conspiracy. Cheating and dishonestly inducing delivery of property. Taking gratification, for exercise of personal influence with public servant.",
         "sections": "SECTION 120-B, 420 IPC & SEC.9 OF PREVENTION OF CORRUPTION ACT, 1988.",
         "page": 12,
@@ -22853,7 +22853,7 @@
       },
       {
         "fir_no": "R.C. No. 19 (A) of 2011 - CBI/HYD",
-        "court": "C.C NO. 26 of 2013 IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "court": "C.C NO. 26 of 2013 IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B r/w 420 of IPC: Prevention of Corruption Act, 1988",
         "sections": "Prevention of Corruption Act, 1988. Section 120-B: Punishment of Criminal Conspiracy. Section 420: Cheating and dishonestly inducing delivery of property. Section 9 of Prevention of Corruption Act: Taking gratification, for exercise of personal influence with public servant.",
         "page": 13,
@@ -22872,13 +22872,13 @@
         "category": "Corruption & Fraud"
       },
       {
-        "fir_no": "19 (A) of 2011 \u2014 CBI/HYD",
-        "court": "C.C NO. 24 of 2013, IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "fir_no": "19 (A) of 2011 — CBI/HYD",
+        "court": "C.C NO. 24 of 2013, IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B r/w 420 of IPC: Punishment of Criminal Conspiracy. Cheating and dishonestly inducing delivery of property.",
         "sections": "SECTION 120-B R/W 420, 420 IPC AND SEC.9 & 12 OF PREVENTION OF CORRUPTION ACT, 1988.",
         "page": 14,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 19 (A) of 2011 \u2014 CBI/HYD | Desc: Section 120-B r/w 420 of IPC: Punishment of Criminal Conspiracy. Cheating and dishonestly inducing delivery of property.",
+        "raw_text": "FIR: 19 (A) of 2011 — CBI/HYD | Desc: Section 120-B r/w 420 of IPC: Punishment of Criminal Conspiracy. Cheating and dishonestly inducing delivery of property.",
         "category": "Corruption & Fraud"
       },
       {
@@ -22892,18 +22892,18 @@
         "category": "Minor/Other"
       },
       {
-        "fir_no": "19 (A) of 2011 \u2014 CBI/HYD",
-        "court": "C.C NO. 14 of 2012 IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "fir_no": "19 (A) of 2011 — CBI/HYD",
+        "court": "C.C NO. 14 of 2012 IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B, 420, 409 IPC AND SECTION 9 AND 12 OF PREVENTION OF CORRUPTION ACT.",
         "sections": "Section 120-B, Section 420, Section 409, Section 9 & 12 of Prevention of Corruption Act",
         "page": 15,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 19 (A) of 2011 \u2014 CBI/HYD | Desc: Section 120-B, 420, 409 IPC AND SECTION 9 AND 12 OF PREVENTION OF CORRUPTION ACT.",
+        "raw_text": "FIR: 19 (A) of 2011 — CBI/HYD | Desc: Section 120-B, 420, 409 IPC AND SECTION 9 AND 12 OF PREVENTION OF CORRUPTION ACT.",
         "category": "Corruption & Fraud"
       },
       {
         "fir_no": "19 (A) of 2011",
-        "court": "C.C NO. 10 of 2012, IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "court": "C.C NO. 10 of 2012, IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "Section 120-B: Punishment of Criminal Conspiracy.",
         "sections": "SECTION 120-B, 420 & 471 IPC AND SECTION 9 & 12 OF PREVENTION OF CORRUPTION ACT.",
         "page": 16,
@@ -22913,7 +22913,7 @@
       },
       {
         "fir_no": "9 of 2012",
-        "court": "C.C NO. 9 of 2012, IN THE COURT OF HON\u2019BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
+        "court": "C.C NO. 9 of 2012, IN THE COURT OF HON’BLE PRINCIPAL SPECIAL JUDGE FOR CBI CASES, HYDERABAD",
         "description": "SECTION 120-B r/w 420 of IPC: a) Section 120-B: Punishment of Criminal Conspiracy. b) Section 420: Cheating and dishonestly inducing delivery of property.",
         "sections": "SECTION 120-B r/w 420 of IPC",
         "page": 16,
@@ -23022,21 +23022,21 @@
       {
         "fir_no": "125/2019",
         "court": "ATMAKUR PS, ANANTAPURAMU",
-        "description": "U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST\u2019s (POA) Act",
+        "description": "U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST’s (POA) Act",
         "sections": null,
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 125/2019 | Desc: U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST\u2019s (POA) Act",
+        "raw_text": "FIR: 125/2019 | Desc: U/S 506 R/W 34 IPC AND 3(1)(r), 3(1)(r)(s) of SC/ST’s (POA) Act",
         "category": "Serious/Violent"
       },
       {
         "fir_no": "123/2019",
         "court": "ATMAKUR PS, ANANTAPURAMU",
-        "description": "PRIVATE COMPLAINT FOR SC/ST\u2019s ATROCITY.",
+        "description": "PRIVATE COMPLAINT FOR SC/ST’s ATROCITY.",
         "sections": null,
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 123/2019 | Desc: PRIVATE COMPLAINT FOR SC/ST\u2019s ATROCITY.",
+        "raw_text": "FIR: 123/2019 | Desc: PRIVATE COMPLAINT FOR SC/ST’s ATROCITY.",
         "category": "Minor/Other"
       },
       {
@@ -23326,7 +23326,7 @@
         "fir_no": "42/2024",
         "court": "Kamalapuram P.S.",
         "description": "U/s 307, 341 r/w 34 IPC",
-        "sections": "AA. 4. PUSHPA RaJU | | B.A., B.L., \u2019 ADVOCATE &.NOTARY Kamalapuram.",
+        "sections": "AA. 4. PUSHPA RaJU | | B.A., B.L., ’ ADVOCATE &.NOTARY Kamalapuram.",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 42/2024 | Desc: U/s 307, 341 r/w 34 IPC",
@@ -23375,11 +23375,11 @@
       {
         "fir_no": "79/2023",
         "court": "Cr.No.130/2020, Kamalapuram Court",
-        "description": "attempt \u00b0 to murder and wrongfully restrain",
+        "description": "attempt ° to murder and wrongfully restrain",
         "sections": "",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 79/2023 | Desc: attempt \u00b0 to murder and wrongfully restrain",
+        "raw_text": "FIR: 79/2023 | Desc: attempt ° to murder and wrongfully restrain",
         "category": "Serious/Violent"
       },
       {
@@ -24843,7 +24843,7 @@
       },
       {
         "fir_no": "179/2023",
-        "court": "2 \u2018Prevention of committing any cognizable offence.",
+        "court": "2 ‘Prevention of committing any cognizable offence.",
         "description": "The said case is closed as per RTI Information obtained from SP, Sri Satya Sai District.",
         "sections": "151 CrP.",
         "page": 5,
@@ -24934,11 +24934,11 @@
       {
         "fir_no": "64/2019",
         "court": "Penukonda Court",
-        "description": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P",
+        "description": "Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P",
         "sections": "109, 379, 411 r/w 34",
         "page": 8,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 64/2019 | Desc: Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon\u2019ble Chief Minister of A. P",
+        "raw_text": "FIR: 64/2019 | Desc: Alleged-Unlawful gathering violating the Orders of AP 30 Police Act and burning the effigy of Hon’ble Chief Minister of A. P",
         "category": "Serious/Violent"
       },
       {
@@ -25119,7 +25119,7 @@
     "criminal_details_pending": [
       {
         "fir_no": "248/2023",
-        "court": "4\u2122 TOWN POLICE) VINJAMUR",
+        "court": "4™ TOWN POLICE) VINJAMUR",
         "description": "Not Applicable",
         "sections": "Not Applicable",
         "page": 3,
@@ -25129,7 +25129,7 @@
       },
       {
         "fir_no": "2/2023",
-        "court": "4\u2122 TOWN POLICE) VINJAMUR",
+        "court": "4™ TOWN POLICE) VINJAMUR",
         "description": "Not Applicable",
         "sections": "Not Applicable",
         "page": 3,
@@ -25139,7 +25139,7 @@
       },
       {
         "fir_no": "287/2022",
-        "court": "4\u2122 TOWN POLICE) VINJAMUR",
+        "court": "4™ TOWN POLICE) VINJAMUR",
         "description": "Not Applicable",
         "sections": "Not Applicable",
         "page": 3,
@@ -27458,7 +27458,7 @@
       },
       {
         "fir_no": "S.T.C.No.28/2022",
-        "court": "on the file the Hon\u2018ble Second Class Magistrate Court, Nagari",
+        "court": "on the file the Hon‘ble Second Class Magistrate Court, Nagari",
         "description": "",
         "sections": "",
         "page": 7,
@@ -27478,7 +27478,7 @@
       },
       {
         "fir_no": "C.C.No.123/2019",
-        "court": "on the file the Hon\u2019ble Civil Judge (Junior Division)-cum- Judicial First-Class Magistrate, Nagari",
+        "court": "on the file the Hon’ble Civil Judge (Junior Division)-cum- Judicial First-Class Magistrate, Nagari",
         "description": "",
         "sections": "",
         "page": 7,
@@ -27498,7 +27498,7 @@
       },
       {
         "fir_no": "S.T.C.No.1240/2022",
-        "court": "on the file the Hon\u2019ble Second Class Magistrate Court, Puttur",
+        "court": "on the file the Hon’ble Second Class Magistrate Court, Puttur",
         "description": "",
         "sections": "",
         "page": 7,
@@ -27538,27 +27538,27 @@
       },
       {
         "fir_no": "10/2019",
-        "court": "Crime No.10/2019, Hon\u2019ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
-        "description": "Under \u2018Section 171-Hand 188 of IPC",
+        "court": "Crime No.10/2019, Hon’ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
+        "description": "Under ‘Section 171-Hand 188 of IPC",
         "sections": "Acts/Codes involved (give no. of the Section, e.g. Section of IPC, etc.)",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 10/2019 | Desc: Under \u2018Section 171-Hand 188 of IPC",
+        "raw_text": "FIR: 10/2019 | Desc: Under ‘Section 171-Hand 188 of IPC",
         "category": "Minor/Other"
       },
       {
         "fir_no": "18/2019",
-        "court": "Crime No.18/2019, Hon\u2019ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
-        "description": "Under Section \u2018171-Hand 188 of IPC",
+        "court": "Crime No.18/2019, Hon’ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
+        "description": "Under Section ‘171-Hand 188 of IPC",
         "sections": "Acts/Codes involved (give no. of the Section, e.g. Section of IPC, etc.)",
         "page": 9,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 18/2019 | Desc: Under Section \u2018171-Hand 188 of IPC",
+        "raw_text": "FIR: 18/2019 | Desc: Under Section ‘171-Hand 188 of IPC",
         "category": "Minor/Other"
       },
       {
         "fir_no": "17/2019",
-        "court": "Crime No.17/2019, Hon\u2019ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
+        "court": "Crime No.17/2019, Hon’ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
         "description": "Under Section 171-F and 188 of IPC",
         "sections": "Acts/Codes involved (give no. of the Section, e.g. Section of IPC, etc.)",
         "page": 9,
@@ -27568,7 +27568,7 @@
       },
       {
         "fir_no": "131/2019",
-        "court": "C.C.No.131/2019, Hon\u2019ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
+        "court": "C.C.No.131/2019, Hon’ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
         "description": "Section 171H of IPC: Illegal payments in connection with an election",
         "sections": "Acts/Codes involved (give no. of the Section, e.g. Section of IPC, etc.)",
         "page": 9,
@@ -27578,7 +27578,7 @@
       },
       {
         "fir_no": "188 of IPC",
-        "court": "C.C.No.132/2019, Hon\u2019ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
+        "court": "C.C.No.132/2019, Hon’ble Civil Judge (Junior Division)-cum-Judicial First-Class Magistrate, Nagari",
         "description": "Section 188 of IPC: Disobedience to order duty promulgated by public servant",
         "sections": "Acts/Codes involved (give no. of the Section, e.g. Section of IPC, etc.)",
         "page": 9,
@@ -27658,7 +27658,7 @@
       },
       {
         "fir_no": "Special C.C.No.124/2014",
-        "court": "Hon\u2019ble CCH-82 Additional City Civil and Session Judge & Special Judge for MLA and MP cases",
+        "court": "Hon’ble CCH-82 Additional City Civil and Session Judge & Special Judge for MLA and MP cases",
         "description": "Section 3 & 4 of Prevention of Money Laundering Act, 2002",
         "sections": "",
         "page": 12,
@@ -27754,21 +27754,21 @@
       {
         "fir_no": "140",
         "court": "F.LR.NO:-118",
-        "description": "SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN\u201d, \u201cPSYCHO POVALI ee.",
+        "description": "SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN”, “PSYCHO POVALI ee.",
         "sections": "SECTION 143, 186 IPC",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 140 | Desc: SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN\u201d, \u201cPSYCHO POVALI ee.",
+        "raw_text": "FIR: 140 | Desc: SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN”, “PSYCHO POVALI ee.",
         "category": "Political/Protest"
       },
       {
         "fir_no": "198",
         "court": "",
-        "description": "SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN\u201d, \u201cPSYCHO POVALI ee.",
+        "description": "SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN”, “PSYCHO POVALI ee.",
         "sections": "SECTION 143, 186 IPC",
         "page": 5,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 198 | Desc: SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN\u201d, \u201cPSYCHO POVALI ee.",
+        "raw_text": "FIR: 198 | Desc: SAT ON THE IDHARNA NEAR MIDDLE OF THE PEDESTRIAN DOWN DOWN”, “PSYCHO POVALI ee.",
         "category": "Political/Protest"
       },
       {
@@ -28055,7 +28055,7 @@
         "fir_no": "56/2023",
         "court": "Mudivedu P.S.",
         "description": "Criminal Conspiracy, rioting by formed themselves into unlawful assembly by armed with deadly weapons",
-        "sections": "Under section -120b, Under section \u2014 147,148,153,307,115,109,323,324, 143,341,153,153-A, a Section, e.g. 506, R/W 149 IPC",
+        "sections": "Under section -120b, Under section — 147,148,153,307,115,109,323,324, 143,341,153,153-A, a Section, e.g. 506, R/W 149 IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 56/2023 | Desc: Criminal Conspiracy, rioting by formed themselves into unlawful assembly by armed with deadly weapons",
@@ -28065,7 +28065,7 @@
         "fir_no": "79/2023",
         "court": "Molakalacheruvu P.S.",
         "description": "Criminal Conspiracy, rioting by formed themselves into unlawful assembly by armed with deadly weapons",
-        "sections": "Under section -120b, Under section \u2014 147,148,153,307,115,109,323,324, 143,341,153,153-A, a Section, e.g. 506, R/W 149 IPC",
+        "sections": "Under section -120b, Under section — 147,148,153,307,115,109,323,324, 143,341,153,153-A, a Section, e.g. 506, R/W 149 IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 79/2023 | Desc: Criminal Conspiracy, rioting by formed themselves into unlawful assembly by armed with deadly weapons",
@@ -28075,7 +28075,7 @@
         "fir_no": "74/2023",
         "court": "Mudivedu P.S.",
         "description": "Criminal Conspiracy, rioting by formed themselves into unlawful assembly by armed with deadly weapons",
-        "sections": "Under section -120b, Under section \u2014 147,148,153,307,115,109,323,324, 143,341,153,153-A, a Section, e.g. 506, R/W 149 IPC",
+        "sections": "Under section -120b, Under section — 147,148,153,307,115,109,323,324, 143,341,153,153-A, a Section, e.g. 506, R/W 149 IPC",
         "page": 4,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 74/2023 | Desc: Criminal Conspiracy, rioting by formed themselves into unlawful assembly by armed with deadly weapons",
@@ -28153,7 +28153,7 @@
       },
       {
         "fir_no": "FIR.No.22/2022",
-        "court": "Hon\u2019 ble Judicial Magistrate of 1* Class, Palamaner, Chittoor (Dt)",
+        "court": "Hon’ ble Judicial Magistrate of 1* Class, Palamaner, Chittoor (Dt)",
         "description": "",
         "sections": "",
         "page": 10,
@@ -28173,9 +28173,9 @@
       },
       {
         "fir_no": "924/2021",
-        "court": "FIR.No.296/2021, Hon\u2019 ble Judicial Magistrate of Class 1*, Palamaner, Chittoor (Dt)",
+        "court": "FIR.No.296/2021, Hon’ ble Judicial Magistrate of Class 1*, Palamaner, Chittoor (Dt)",
         "description": "An unlawful assembly, Conducting Criminally trespassed into Dharna on main D.G.P. Office without any permission",
-        "sections": "Under section \u2014 143, 147, 353, 427, R/W 149 IPC",
+        "sections": "Under section — 143, 147, 353, 427, R/W 149 IPC",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 924/2021 | Desc: An unlawful assembly, Conducting Criminally trespassed into Dharna on main D.G.P. Office without any permission",
@@ -28183,9 +28183,9 @@
       },
       {
         "fir_no": "296/2021",
-        "court": "FIR.No.324/2021, CC.No.1298/2021, Hon\u2019 ble Judicial Magistrate of Class 1*, Chittoor (Dt)",
+        "court": "FIR.No.324/2021, CC.No.1298/2021, Hon’ ble Judicial Magistrate of Class 1*, Chittoor (Dt)",
         "description": "Trying to enter into the commissioner chamber, Restrained the vehicular passage and caused in inconvenience to the general public by raising slogans",
-        "sections": "Under section \u2014 143, 341, 188, 269, 270",
+        "sections": "Under section — 143, 341, 188, 269, 270",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 296/2021 | Desc: Trying to enter into the commissioner chamber, Restrained the vehicular passage and caused in inconvenience to the general public by raising slogans",
@@ -28194,11 +28194,11 @@
       {
         "fir_no": "324/2021",
         "court": "FIR No. with name and Dt: 08-11-2021 Dt: 20-10-2021, address of Kuppam Urban P.S., Palamaner Urban | Thadepalli P.S., Police Station Chittoor (DT) P.S., Chittoor (DT)",
-        "description": "damaged the mirror in the door of commissioner\u2019s chamber",
+        "description": "damaged the mirror in the door of commissioner’s chamber",
         "sections": "Section, e.g. 3 PDPPA R/W 34 IPC R/W 149 IPC",
         "page": 12,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 324/2021 | Desc: damaged the mirror in the door of commissioner\u2019s chamber",
+        "raw_text": "FIR: 324/2021 | Desc: damaged the mirror in the door of commissioner’s chamber",
         "category": "Political/Protest"
       },
       {
@@ -28369,7 +28369,7 @@
         "fir_no": "50/2020",
         "court": "V.Kota Urban P.S., Palamaner",
         "description": "C.C.No.569/2020, Hon'ble Judicial Magistrate of 1 class, Palamaner",
-        "sections": "Under section \u2014 143,188,447, 186, 506 IPC, R/W 149 IPC",
+        "sections": "Under section — 143,188,447, 186, 506 IPC, R/W 149 IPC",
         "page": 17,
         "method": "OCR+LLM:gemma3:4b",
         "raw_text": "FIR: 50/2020 | Desc: C.C.No.569/2020, Hon'ble Judicial Magistrate of 1 class, Palamaner",
@@ -28378,21 +28378,21 @@
       {
         "fir_no": "137/2015",
         "court": "Palamaner",
-        "description": "Under section \u2014 341, 171-F, 188 R/AW34 IPC, 32 PA-1861",
+        "description": "Under section — 341, 171-F, 188 R/AW34 IPC, 32 PA-1861",
         "sections": "",
         "page": 17,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 137/2015 | Desc: Under section \u2014 341, 171-F, 188 R/AW34 IPC, 32 PA-1861",
+        "raw_text": "FIR: 137/2015 | Desc: Under section — 341, 171-F, 188 R/AW34 IPC, 32 PA-1861",
         "category": "Election Offenses"
       },
       {
         "fir_no": "34/2007",
         "court": "D.Hirehal P.S., Ananthapur (DT)",
-        "description": "Under section \u2014 151 Cr.P.C",
+        "description": "Under section — 151 Cr.P.C",
         "sections": "",
         "page": 17,
         "method": "OCR+LLM:gemma3:4b",
-        "raw_text": "FIR: 34/2007 | Desc: Under section \u2014 151 Cr.P.C",
+        "raw_text": "FIR: 34/2007 | Desc: Under section — 151 Cr.P.C",
         "category": "Political/Protest"
       },
       {

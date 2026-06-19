@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef, useEffect } from 'react';
+import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { X, Map as MapIcon, Users, Calendar, Award, Layers } from 'lucide-react';
 import MapChart from './MapChart';
 import { getDistrictData, partyColor, partyOnColor, displayConstituency } from '../data/mockData';
@@ -6,8 +6,10 @@ import { getAssetPath } from '../utils/assetHelper';
 import { safeHref } from '../utils/safeHref';
 import districtPathsData from '../data/districtPaths.json';
 import districtPathsNewData from '../data/districtPathsNew.json';
+import districtPaths28Data from '../data/districtPaths28.json';
 import constituencyDistrict from '../data/constituencyDistrict.json';
 import constituencyNewDistrict from '../data/constituencyNewDistrict.json';
+import constituencyDistrict28 from '../data/constituencyDistrict28.json';
 import candidatesRaw from '../data/candidates.json';
 
 const ABBR = new Set(['NTR', 'YSR']);
@@ -81,7 +83,7 @@ const DistrictView = () => {
 
   const [districtMode, setDistrictMode] = useState(_saved.districtMode || 'old');
 
-  const activeDistrictMap = districtMode === 'new' ? constituencyNewDistrict : constituencyDistrict;
+  const activeDistrictMap = districtMode === 'new28' ? constituencyDistrict28 : districtMode === 'new' ? constituencyNewDistrict : constituencyDistrict;
 
   const districtNames = useMemo(
     () => [...new Set(Object.values(activeDistrictMap))].sort(),
@@ -97,6 +99,7 @@ const DistrictView = () => {
 
   const [panelWidth, setPanelWidth] = useState(_saved.panelWidth || 440);
   const [isResizing, setIsResizing] = useState(false);
+  const mapRef = useRef(null);
 
   useEffect(() => {
     try {
@@ -198,6 +201,8 @@ const DistrictView = () => {
     setSheetVh(SHEET_DEFAULT_VH);
   };
 
+  // Single tap: select/deselect and show panel. Picker stays open so the
+  // element isn't unmounted before the second tap of a double-tap fires.
   const handleDistrictNameClick = (districtName) => {
     if (selectedDistrictName === districtName) {
       setSelectedDistrictName(null);
@@ -206,6 +211,15 @@ const DistrictView = () => {
     setSelectedDistrictName(districtName);
     setIsPanelVisible(true);
     setSheetVh(SHEET_DEFAULT_VH);
+  };
+
+  // Double tap: zoom to the district and close the picker.
+  const handleDistrictNameDblClick = (districtName) => {
+    setSelectedDistrictName(districtName);
+    setDistrictPickerOpen(false);
+    setIsPanelVisible(true);
+    setSheetVh(SHEET_DEFAULT_VH);
+    mapRef.current?.zoomToDistrict(districtName, activeDistrictMap);
   };
 
   const handleDistrictModeToggle = (mode) => {
@@ -221,9 +235,10 @@ const DistrictView = () => {
       {/* Map Content - Fills Background */}
       <div className="map-wrapper">
         <MapChart
+          ref={mapRef}
           setTooltipContent={setTooltipData}
           onDistrictClick={handleDistrictClick}
-          districtPaths={districtMode === 'new' ? districtPathsNewData : districtPathsData}
+          districtPaths={districtMode === 'new28' ? districtPaths28Data : districtMode === 'new' ? districtPathsNewData : districtPathsData}
           showDistrictBorders={showDistrictBorders}
           highlightedDistrict={selectedDistrictName}
           constituencyDistrict={activeDistrictMap}
@@ -245,6 +260,7 @@ const DistrictView = () => {
                   key={name}
                   className={`district-btn${selectedDistrictName === name ? ' active' : ''}`}
                   onClick={() => handleDistrictNameClick(name)}
+                  onDoubleClick={() => handleDistrictNameDblClick(name)}
                 >
                   {toTitleCase(name)}
                 </button>
@@ -255,12 +271,14 @@ const DistrictView = () => {
           {/* Action buttons row */}
           <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             <button
-              onClick={() => setShowDistrictBorders(v => !v)}
-              className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${showDistrictBorders ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
-              title="Toggle district borders"
+              onClick={() => setDistrictPickerOpen(v => !v)}
+              className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${districtPickerOpen || selectedDistrictName ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
+              title="Select district"
             >
-              <Layers size={18} />
-              <span className="label-sm font-semibold">Borders</span>
+              <MapIcon size={18} />
+              <span className="label-sm font-semibold">
+                {selectedDistrictName ? toTitleCase(selectedDistrictName) : 'Select District'}
+              </span>
             </button>
 
             {/* Old / New district mode toggle */}
@@ -275,23 +293,29 @@ const DistrictView = () => {
               </button>
               <button
                 onClick={() => handleDistrictModeToggle('new')}
-                style={{ padding: '0.75rem 0.85rem', cursor: 'pointer', transition: 'all 0.2s', background: districtMode === 'new' ? 'var(--primary)' : 'var(--surface-container-low)', color: districtMode === 'new' ? 'var(--on-primary)' : 'var(--primary)', border: 'none' }}
+                style={{ padding: '0.75rem 0.85rem', cursor: 'pointer', transition: 'all 0.2s', background: districtMode === 'new' ? 'var(--primary)' : 'var(--surface-container-low)', color: districtMode === 'new' ? 'var(--on-primary)' : 'var(--primary)', border: 'none', borderRight: '1px solid var(--outline-variant)' }}
                 className="label-sm font-semibold"
                 title="Group by 26 new districts (2022)"
               >
                 26 Dist
               </button>
+              <button
+                onClick={() => handleDistrictModeToggle('new28')}
+                style={{ padding: '0.75rem 0.85rem', cursor: 'pointer', transition: 'all 0.2s', background: districtMode === 'new28' ? 'var(--primary)' : 'var(--surface-container-low)', color: districtMode === 'new28' ? 'var(--on-primary)' : 'var(--primary)', border: 'none' }}
+                className="label-sm font-semibold"
+                title="Group by 28 districts (2022+, includes Polavaram &amp; Markapuram)"
+              >
+                28 Dist
+              </button>
             </div>
 
             <button
-              onClick={() => setDistrictPickerOpen(v => !v)}
-              className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${districtPickerOpen || selectedDistrictName ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
-              title="Select district"
+              onClick={() => setShowDistrictBorders(v => !v)}
+              className={`flex items-center gap-2 px-4 py-3 rounded-2xl border border-outline-variant shadow-xl transition-all active:scale-90 cursor-pointer pointer-events-auto ${showDistrictBorders ? 'bg-primary text-on-primary' : 'glass-panel text-primary'}`}
+              title="Toggle district borders"
             >
-              <MapIcon size={18} />
-              <span className="label-sm font-semibold">
-                {selectedDistrictName ? toTitleCase(selectedDistrictName) : 'Select District'}
-              </span>
+              <Layers size={18} />
+              <span className="label-sm font-semibold">Borders</span>
             </button>
           </div>
 

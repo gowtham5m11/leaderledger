@@ -14,17 +14,8 @@ const projection = d3.geoMercator().fitExtent([[0, 0], [642.8, 420]], allFeature
 const pathGen = d3.geoPath().projection(projection);
 
 // constituency → old district lookup (keys uppercased to match mapPaths.json)
-const constToDistrict = {};
-obj.geometries.forEach(g => {
-  const ac = (g.properties.ac_name || '').toUpperCase();
-  const dist = (g.properties.district_name || '').toUpperCase();
-  if (ac && dist) constToDistrict[ac] = dist;
-});
-writeFileSync(
-  join(__dirname, '../src/data/constituencyDistrict.json'),
-  JSON.stringify(constToDistrict, null, 2)
-);
-console.log(`constituencyDistrict.json written (${Object.keys(constToDistrict).length} constituencies)`);
+// constituencyDistrict.json is maintained manually to support renamed keys
+// (e.g. GANNAVARAM1/GANNAVARAM2, PRATHIPADU1/PRATHIPADU2) — do not overwrite here.
 
 // old district boundary SVG paths (merged from constituent geometries)
 const districtGeomMap = {};
@@ -51,10 +42,14 @@ const constToNewDistrict = JSON.parse(
   readFileSync(join(__dirname, '../src/data/constituencyNewDistrict.json'), 'utf8')
 );
 
+// For disambiguation (e.g. two "Gannavaram" or "Prathipadu" constituencies in
+// different old districts), constituencyNewDistrict.json can carry a composite
+// key "AC|OLD_DISTRICT" that takes precedence over the plain "AC" key.
 const newDistrictGeomMap = {};
 obj.geometries.forEach(g => {
   const ac = (g.properties.ac_name || '').toUpperCase();
-  const dist = constToNewDistrict[ac];
+  const rawDist = (g.properties.district_name || '').toUpperCase();
+  const dist = constToNewDistrict[`${ac}|${rawDist}`] || constToNewDistrict[ac];
   if (!dist) return;
   if (!newDistrictGeomMap[dist]) newDistrictGeomMap[dist] = [];
   newDistrictGeomMap[dist].push(g);
@@ -70,3 +65,29 @@ writeFileSync(
   JSON.stringify(newDistrictPaths, null, 2)
 );
 console.log(`districtPathsNew.json written. Districts: ${Object.keys(newDistrictPaths).sort().join(', ')}`);
+
+// 28-district boundary SVG paths (grouped via constituencyDistrict28.json)
+const constTo28District = JSON.parse(
+  readFileSync(join(__dirname, '../src/data/constituencyDistrict28.json'), 'utf8')
+);
+
+const dist28GeomMap = {};
+obj.geometries.forEach(g => {
+  const ac = (g.properties.ac_name || '').toUpperCase();
+  const rawDist = (g.properties.district_name || '').toUpperCase();
+  const dist = constTo28District[`${ac}|${rawDist}`] || constTo28District[ac];
+  if (!dist) return;
+  if (!dist28GeomMap[dist]) dist28GeomMap[dist] = [];
+  dist28GeomMap[dist].push(g);
+});
+
+const districtPaths28 = {};
+for (const [district, geoms] of Object.entries(dist28GeomMap)) {
+  const merged = topojson.merge(topology, geoms);
+  districtPaths28[district] = pathGen(merged);
+}
+writeFileSync(
+  join(__dirname, '../src/data/districtPaths28.json'),
+  JSON.stringify(districtPaths28, null, 2)
+);
+console.log(`districtPaths28.json written. Districts: ${Object.keys(districtPaths28).sort().join(', ')}`);

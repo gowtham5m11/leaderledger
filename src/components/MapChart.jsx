@@ -1,9 +1,9 @@
-import React, { useMemo, useState, useCallback, useEffect, useRef } from 'react';
+import React, { useMemo, useState, useCallback, useEffect, useRef, useImperativeHandle } from 'react';
 import { Plus, Minus } from 'lucide-react';
 import { getDistrictData, partyColor } from '../data/mockData';
 import mapPaths from '../data/mapPaths.json';
 
-const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistrictBorders, highlightedDistrict, constituencyDistrict }) => {
+const MapChartInner = React.forwardRef(function MapChart({ setTooltipContent, onDistrictClick, districtPaths, showDistrictBorders, highlightedDistrict, constituencyDistrict }, ref) {
   const [position, setPosition] = useState(() => {
     try {
       const s = JSON.parse(localStorage.getItem('ll_map1'));
@@ -26,6 +26,8 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
   const containerRef = useRef(null);
   const svgRef = useRef(null);
   const saveTimerRef = useRef(null);
+  const positionRef = useRef(position);
+  const [zoomAnimating, setZoomAnimating] = useState(false);
 
   const ROTATION_LIMIT = 60;
 
@@ -36,6 +38,10 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
     mq.addEventListener('change', handler);
     return () => mq.removeEventListener('change', handler);
   }, []);
+
+  useEffect(() => {
+    positionRef.current = position;
+  }, [position]);
 
   useEffect(() => {
     clearTimeout(saveTimerRef.current);
@@ -90,6 +96,8 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
         else if (deg < -60) deg = -60;
         next[el.dataset.name] = {
           cx, cy,
+          bbx: bb.x,
+          bby: bb.y,
           bbw: bb.width,
           bbh: bb.height,
           lenU: maxU - minU,
@@ -131,6 +139,57 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
 
   const handleZoomIn = useCallback(() => handleZoom(1.2), [handleZoom]);
   const handleZoomOut = useCallback(() => handleZoom(1 / 1.2), [handleZoom]);
+
+  useImperativeHandle(ref, () => ({
+    handleWheelZoom: (deltaY) => {
+      handleZoom(deltaY > 0 ? 0.9 : 1.1);
+    },
+    zoomToDistrict: (districtName, constituencyDistrictMap) => {
+      const inDistrict = Object.entries(constituencyDistrictMap || {})
+        .filter(([k, d]) => !k.includes('|') && d === districtName)
+        .map(([name]) => name);
+      if (inDistrict.length === 0) return;
+
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      let found = false;
+      for (const name of inDistrict) {
+        const bb = bboxes[name];
+        if (!bb) continue;
+        found = true;
+        minX = Math.min(minX, bb.bbx ?? bb.cx - bb.bbw / 2);
+        maxX = Math.max(maxX, (bb.bbx ?? bb.cx - bb.bbw / 2) + bb.bbw);
+        minY = Math.min(minY, bb.bby ?? bb.cy - bb.bbh / 2);
+        maxY = Math.max(maxY, (bb.bby ?? bb.cy - bb.bbh / 2) + bb.bbh);
+      }
+      if (!found) return;
+
+      const pos = positionRef.current;
+      const container = containerRef.current;
+      const svg = svgRef.current;
+      if (!container || !svg) return;
+
+      const containerRect = container.getBoundingClientRect();
+      const svgRect = svg.getBoundingClientRect();
+      const svgNaturalW = svgRect.width / pos.zoom;
+      const svgNaturalH = svgRect.height / pos.zoom;
+      const scaleX = svgNaturalW / 642.8;
+      const scaleY = svgNaturalH / 420;
+      const svgOriginX = (svgRect.left - containerRect.left - pos.x) / pos.zoom;
+      const svgOriginY = (svgRect.top - containerRect.top - pos.y) / pos.zoom;
+
+      const distW = (maxX - minX) * scaleX;
+      const distH = (maxY - minY) * scaleY;
+      const cw = containerRect.width;
+      const ch = containerRect.height;
+      const targetZoom = Math.max(0.5, Math.min(20, Math.min(cw * 0.80 / distW, ch * 0.80 / distH)));
+      const distCX = svgOriginX + ((minX + maxX) / 2) * scaleX;
+      const distCY = svgOriginY + ((minY + maxY) / 2) * scaleY;
+
+      setZoomAnimating(true);
+      setPosition({ x: cw / 2 - distCX * targetZoom, y: ch / 2 - distCY * targetZoom, zoom: targetZoom });
+      setTimeout(() => setZoomAnimating(false), 500);
+    },
+  }), [bboxes, handleZoom]);
 
   const handleWheel = useCallback((e) => {
     e.preventDefault();
@@ -277,7 +336,8 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
         onDoubleClick={(e) => handleZoom(1.5, e.clientX, e.clientY)}
         style={{
           transform: `translate(${position.x}px, ${position.y}px) scale(${position.zoom})`,
-          transformOrigin: '0 0'
+          transformOrigin: '0 0',
+          transition: zoomAnimating && !isDragging && !rotationGestureRef.current ? 'transform 0.45s cubic-bezier(0.16, 1, 0.3, 1)' : 'none',
         }}
       >
         <div
@@ -454,7 +514,7 @@ const MapChart = ({ setTooltipContent, onDistrictClick, districtPaths, showDistr
       </div>
     </div>
   );
-};
+});
 
-export default React.memo(MapChart);
+export default React.memo(MapChartInner);
 
