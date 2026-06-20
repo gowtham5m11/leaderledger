@@ -383,8 +383,23 @@ const ConstituencyRow = ({ m, year, i, navigate }) => {
             )}
           </div>
           <MiniPartyDot party={m.winner.party} />
+          {m.criminal_cases > 0 && (
+            <span style={{
+              display: 'inline-flex', alignItems: 'center', gap: '0.2rem',
+              marginTop: '0.18rem',
+              fontSize: '0.67rem', fontWeight: 700,
+              color: '#c62828',
+              background: 'color-mix(in srgb, #c62828 10%, transparent)',
+              border: '1px solid color-mix(in srgb, #c62828 28%, transparent)',
+              borderRadius: '9999px',
+              padding: '0.1rem 0.45rem',
+            }}>
+              <span className="material-symbols-outlined" style={{ fontSize: '0.7rem' }}>gavel</span>
+              {m.criminal_cases} case{m.criminal_cases !== 1 ? 's' : ''}
+            </span>
+          )}
         </div>
-        
+
         <div style={{ textAlign: 'right' }}>
           <div style={{ fontWeight: 700, color: 'var(--on-surface)', fontSize: '0.78rem' }}>
             {m.margin != null ? m.margin.toLocaleString('en-IN') : '—'}
@@ -751,13 +766,30 @@ const ElectionCard = ({ election }) => {
     if (mlas || loading) return;
     setLoading(true);
     try {
+      let rows;
       if (election.year === 2024) {
-        setMlas(derive2024());
+        rows = derive2024();
       } else {
         const res = await fetch(`/data/eci_results_${election.year}.json`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        setMlas(await res.json());
+        rows = await res.json();
       }
+
+      // Merge criminal-case counts for years that have MyNeta data
+      if ([2019, 2014, 2009].includes(election.year)) {
+        try {
+          const cr = await fetch(`/data/myneta_criminal_${election.year}.json`);
+          if (cr.ok) {
+            const crimMap = await cr.json();
+            rows = rows.map(m => ({
+              ...m,
+              criminal_cases: crimMap[String(m.constituency_no)]?.criminal_cases ?? null,
+            }));
+          }
+        } catch (_) { /* criminal data is optional */ }
+      }
+
+      setMlas(rows);
     } catch (e) {
       setFetchErr(e.message);
     } finally {

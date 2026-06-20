@@ -1,0 +1,1442 @@
+{
+  "1": {
+    "constituency_name": "ICHCHAPURAM",
+    "winner_name": "Ashok Bendalam",
+    "myneta_name": "Ashok Bendalam",
+    "myneta_candidate_id": 4100,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "3": {
+    "constituency_name": "TEKKALI",
+    "winner_name": "Atchannaidu Kinjarapu",
+    "myneta_name": "Atchannaidu Kinjarapu",
+    "myneta_candidate_id": 4082,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "4": {
+    "constituency_name": "PATHAPATNAM",
+    "winner_name": "Kalamata Venkata Ramana Murthy",
+    "myneta_name": "Kalamata Venkataramana Murty",
+    "myneta_candidate_id": 4076,
+    "match_score": 0.7,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "5": {
+    "constituency_name": "SRIKAKULAM",
+    "winner_name": "Gunda Lakshmi Devi",
+    "myneta_name": "Gunda Lakshmi Devi",
+    "myneta_candidate_id": 4064,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "6": {
+    "constituency_name": "AMADALAVALASA",
+    "winner_name": "Koona Ravikumar",
+    "myneta_name": "Koona Ravikumar S/o Late Krishnarao",
+    "myneta_candidate_id": 4056,
+    "match_score": 0.733,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "7": {
+    "constituency_name": "ETCHERLA",
+    "winner_name": "Kalavenkatarao Kimidi",
+    "myneta_name": "Kalavenkatarao Kimidi",
+    "myneta_candidate_id": 4047,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "8": {
+    "constituency_name": "NARASANNAPETA",
+    "winner_name": "Ramanamurty Baggu",
+    "myneta_name": "Ramanamurty Baggu",
+    "myneta_candidate_id": 4042,
+    "match_score": 0.4,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "9": {
+    "constituency_name": "RAJAM",
+    "winner_name": "Kambala Jogulu",
+    "myneta_name": "Kambala Jogulu",
+    "myneta_candidate_id": 4034,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "10": {
+    "constituency_name": "PALAKONDA",
+    "winner_name": "Viswasarayi Kalavathi",
+    "myneta_name": "Viswasarayi Kalavathi",
+    "myneta_candidate_id": 4029,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "11": {
+    "constituency_name": "KURUPAM",
+    "winner_name": "Pamula Pushpa Sreevani",
+    "myneta_name": "Pamula Pushpa Sreevani",
+    "myneta_candidate_id": 3785,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "14": {
+    "constituency_name": "BOBBILI",
+    "winner_name": "Venkata Sujay Krishna Ranga Rao Ravu",
+    "myneta_name": "Venkata Sujay Krishna Rangarao Ravu",
+    "myneta_candidate_id": 3959,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "15": {
+    "constituency_name": "CHEEPURUPALLE",
+    "winner_name": "Kimidi Mrunalini",
+    "myneta_name": "Kimidi Mrunalini",
+    "myneta_candidate_id": 3751,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "16": {
+    "constituency_name": "GAJAPATHINAGARAM",
+    "winner_name": "Appalanaidu Kondapalli",
+    "myneta_name": "Appalanaidu Kondapalli",
+    "myneta_candidate_id": 3750,
+    "match_score": 1.0,
+    "criminal_cases": 6,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "17": {
+    "constituency_name": "NELLIMARLA",
+    "winner_name": "Narayana Swamy Naidu Pathivada",
+    "myneta_name": "Narayana Swamy Naidu Pathivada",
+    "myneta_candidate_id": 3734,
+    "match_score": 0.4,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "18": {
+    "constituency_name": "VIZIANAGARAM",
+    "winner_name": "Geetha Meesala",
+    "myneta_name": "Geetha Meesala",
+    "myneta_candidate_id": 3723,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "19": {
+    "constituency_name": "SRUNGAVARAPUKOTA",
+    "winner_name": "Kolla Lalitha Kumari",
+    "myneta_name": "Kolla Lalitha Kumari",
+    "myneta_candidate_id": 4378,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "21": {
+    "constituency_name": "VISAKHAPATNAM EAST",
+    "winner_name": "Ramakrishna Babu Velagapudi",
+    "myneta_name": "Ramakrishna Babu Velagapudi",
+    "myneta_candidate_id": 3857,
+    "match_score": 1.0,
+    "criminal_cases": 7,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "22": {
+    "constituency_name": "VISAKHAPATNAM SOUTH",
+    "winner_name": "Vasupalli Ganesh Kumar",
+    "myneta_name": "Ganesh Kumar Vasupalli",
+    "myneta_candidate_id": 4003,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "23": {
+    "constituency_name": "VISAKHAPATNAM NORTH",
+    "winner_name": "Penmetsa Vishnu Kumar Raju",
+    "myneta_name": "Penmetsa Vishnu Kumar Raju",
+    "myneta_candidate_id": 3988,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "24": {
+    "constituency_name": "VISAKHAPATNAM WEST",
+    "winner_name": "P.G.V.R. Naidu (Gana Babu)",
+    "myneta_name": "Gana Venkata Reddy Naidu Pethakamsetti",
+    "myneta_candidate_id": 3977,
+    "match_score": 0.714,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "25": {
+    "constituency_name": "GAJUWAKA",
+    "winner_name": "Palla Srinivas Rao",
+    "myneta_name": "Palla Srinivasa Rao",
+    "myneta_candidate_id": 4416,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "26": {
+    "constituency_name": "CHODAVARAM",
+    "winner_name": "Kalidindi Surya Naga Sanyasi Raju (Babu)",
+    "myneta_name": "Kalidindi Surya Naga Sanyasi Raju (babu)",
+    "myneta_candidate_id": 3969,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "28": {
+    "constituency_name": "ARAKU VALLEY",
+    "winner_name": "Kidari Sarveswara Rao",
+    "myneta_name": "Kidari Sarveswara Rao",
+    "myneta_candidate_id": 3948,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "29": {
+    "constituency_name": "PADERU",
+    "winner_name": "Eswari Giddi",
+    "myneta_name": "Eswaramma Giddi",
+    "myneta_candidate_id": 3888,
+    "match_score": 0.8,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "30": {
+    "constituency_name": "ANAKAPALLI",
+    "winner_name": "Peela Govinda Satyanarayana",
+    "myneta_name": "Peela Govinda Satyanarayana",
+    "myneta_candidate_id": 3869,
+    "match_score": 0.4,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "31": {
+    "constituency_name": "PENDURTHI",
+    "winner_name": "Bandaru Satyanarayana Murthy",
+    "myneta_name": "Bandaru Satyanarayana Murthy",
+    "myneta_candidate_id": 3835,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "32": {
+    "constituency_name": "ELAMANCHILI",
+    "winner_name": "Panchakarla Ramesh Babu",
+    "myneta_name": "Panchakarla Ramesh Babu",
+    "myneta_candidate_id": 3824,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "33": {
+    "constituency_name": "PAYAKARAOPETA",
+    "winner_name": "Anitha Vangalapudi",
+    "myneta_name": "Vangalapudi Anitha",
+    "myneta_candidate_id": 3813,
+    "match_score": 0.4,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "36": {
+    "constituency_name": "PRATHIPADU",
+    "winner_name": "Varupula Subbarao",
+    "myneta_name": "Varupula Subbarao",
+    "myneta_candidate_id": 4187,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "39": {
+    "constituency_name": "PEDDAPURAM",
+    "winner_name": "Nimmakayala China Rajappa",
+    "myneta_name": "Nimmakayala China Rajappa",
+    "myneta_candidate_id": 4154,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "40": {
+    "constituency_name": "ANAPARTHY",
+    "winner_name": "Nallamilli Ramakrishna Reddy",
+    "myneta_name": "Nallamilli Ramakrishan Reddy",
+    "myneta_candidate_id": 4131,
+    "match_score": 0.867,
+    "criminal_cases": 8,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "41": {
+    "constituency_name": "KAKINADA CITY",
+    "winner_name": "Vanamadi Venkateswararao (Kondababu)",
+    "myneta_name": "Vanamadi Venkateswararao (kondababu)",
+    "myneta_candidate_id": 3137,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "42": {
+    "constituency_name": "RAMACHANDRAPURAM",
+    "winner_name": "Thota Trimurthulu",
+    "myneta_name": "Thota Trimurthulu",
+    "myneta_candidate_id": 3237,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "43": {
+    "constituency_name": "MUMMIDIVARAM",
+    "winner_name": "Datla Subba Raju (Buchi Babu)",
+    "myneta_name": "Datla Subbaraju",
+    "myneta_candidate_id": 3182,
+    "match_score": 0.68,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "44": {
+    "constituency_name": "AMALAPURAM",
+    "winner_name": "Aithabathula Anandarao",
+    "myneta_name": "Aithabathula Ananda Rao",
+    "myneta_candidate_id": 3101,
+    "match_score": 0.733,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "46": {
+    "constituency_name": "GANNAVARAM",
+    "winner_name": "Pulaparty Narayana Murty",
+    "myneta_name": "Pulaparty Narayana Murty",
+    "myneta_candidate_id": 3114,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "47": {
+    "constituency_name": "KOTHAPETA",
+    "winner_name": "Chirla. Jaggireddy",
+    "myneta_name": "Chirla. Jaggireddy",
+    "myneta_candidate_id": 4145,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "48": {
+    "constituency_name": "MANDAPETA",
+    "winner_name": "Jogeswara Rao. V",
+    "myneta_name": "Jogeswara Rao. V",
+    "myneta_candidate_id": 3169,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "49": {
+    "constituency_name": "RAJANAGARAM",
+    "winner_name": "Pendurthi Venkatesh",
+    "myneta_name": "Pendurthi Venkateswara Rao",
+    "myneta_candidate_id": 3228,
+    "match_score": 0.733,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "52": {
+    "constituency_name": "JAGGAMPETA",
+    "winner_name": "Jyothula Nehru",
+    "myneta_name": "Venkata Apparao @ Nehru Jyothula",
+    "myneta_candidate_id": 3124,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "53": {
+    "constituency_name": "RAMPACHODAVARAM",
+    "winner_name": "Vantala Rajeswari",
+    "myneta_name": "Vantala Rajeswari",
+    "myneta_candidate_id": 3258,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "54": {
+    "constituency_name": "KOVVUR",
+    "winner_name": "K. S. Jawahar",
+    "myneta_name": "Kothapalli Samuel Jawahar",
+    "myneta_candidate_id": 3710,
+    "match_score": 0.733,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "56": {
+    "constituency_name": "ACHANTA",
+    "winner_name": "Satyanarayana Pithani",
+    "myneta_name": "Satyanarayana Pithani",
+    "myneta_candidate_id": 3571,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "57": {
+    "constituency_name": "PALACOLE",
+    "winner_name": "Dr. Nimmala Ramanaidu",
+    "myneta_name": "Nimmala Rama Naidu",
+    "myneta_candidate_id": 3677,
+    "match_score": 0.733,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "58": {
+    "constituency_name": "NARASAPURAM",
+    "winner_name": "Bandaru Madhava Naidu",
+    "myneta_name": "Bandaru Madhava Naidu",
+    "myneta_candidate_id": 3841,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "59": {
+    "constituency_name": "BHIMAVARAM",
+    "winner_name": "Ramanjaneyulu Pulaparthi (Anji Babu)",
+    "myneta_name": "Ramanjaneyulu Pulaparthi",
+    "myneta_candidate_id": 3661,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "60": {
+    "constituency_name": "UNDI",
+    "winner_name": "V V Siva Rama Raju (Kalavapudi Siva)",
+    "myneta_name": "Venkata Sivarama Raju Vetukuri",
+    "myneta_candidate_id": 3670,
+    "match_score": 0.68,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "61": {
+    "constituency_name": "TANUKU",
+    "winner_name": "Arimilli Radha Krishna",
+    "myneta_name": "Arimilli Radha Krishna",
+    "myneta_candidate_id": 3646,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "62": {
+    "constituency_name": "TADEPALLIGUDEM",
+    "winner_name": "Pydikondala Manikyalarao",
+    "myneta_name": "Pydikondala Manikyalarao",
+    "myneta_candidate_id": 3636,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "64": {
+    "constituency_name": "DENDULURU",
+    "winner_name": "Chinthamaneni Prabhakar",
+    "myneta_name": "Chinthamaneni Prabhakar",
+    "myneta_candidate_id": 3618,
+    "match_score": 1.0,
+    "criminal_cases": 23,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "65": {
+    "constituency_name": "ELURU",
+    "winner_name": "Badeti Kota Ramarao (Bujji)",
+    "myneta_name": "Badeti Kota Ramarao",
+    "myneta_candidate_id": 3603,
+    "match_score": 0.9,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "66": {
+    "constituency_name": "GOPALAPURAM",
+    "winner_name": "Muppidi Venkateswararao",
+    "myneta_name": "Muppidi Venkateswararao",
+    "myneta_candidate_id": 3581,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "67": {
+    "constituency_name": "POLAVARAM",
+    "winner_name": "Modiyam Srinivasa Rao",
+    "myneta_name": "Modiyam Srinivasa Rao",
+    "myneta_candidate_id": 3422,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "68": {
+    "constituency_name": "CHINTALAPUDI",
+    "winner_name": "Peethala Sujatha",
+    "myneta_name": "Peetala Sujatha",
+    "myneta_candidate_id": 3408,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "69": {
+    "constituency_name": "TIRUVURU",
+    "winner_name": "Kokkiligadda Rakshana Nidhi",
+    "myneta_name": "Kokkiligadda Rakshana Nidhi",
+    "myneta_candidate_id": 3047,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "70": {
+    "constituency_name": "NUZVID",
+    "winner_name": "Meka Venkata Pratap Apparao",
+    "myneta_name": "Meka Venkata Pratap Apparao",
+    "myneta_candidate_id": 2992,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "72": {
+    "constituency_name": "GUDIVADA",
+    "winner_name": "Kodali Sri Venkateswara Rao (Nani)",
+    "myneta_name": "Kodali Sri Venkateswara Rao",
+    "myneta_candidate_id": 2900,
+    "match_score": 0.92,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "73": {
+    "constituency_name": "KAIKALUR",
+    "winner_name": "Kamineni Srinivas",
+    "myneta_name": "Kamineni Srinivas",
+    "myneta_candidate_id": 2922,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "74": {
+    "constituency_name": "PEDANA",
+    "winner_name": "Kagitha Venkata Rao",
+    "myneta_name": "Kagitha Venkata Rao",
+    "myneta_candidate_id": 3020,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "75": {
+    "constituency_name": "MACHILIPATNAM",
+    "winner_name": "Kollu Ravindra",
+    "myneta_name": "Kollu Ravindra",
+    "myneta_candidate_id": 2948,
+    "match_score": 1.0,
+    "criminal_cases": 5,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "76": {
+    "constituency_name": "AVANIGADDA",
+    "winner_name": "Buddha Prasad Mandali",
+    "myneta_name": "Buddha Prasad Mandali",
+    "myneta_candidate_id": 2843,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "77": {
+    "constituency_name": "PAMARRU",
+    "winner_name": "Uppuleti Kalpana",
+    "myneta_name": "Uppuleti Kalpana",
+    "myneta_candidate_id": 3010,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "78": {
+    "constituency_name": "PENAMALURU",
+    "winner_name": "Bode Prasad",
+    "myneta_name": "Bode Prasad",
+    "myneta_candidate_id": 3039,
+    "match_score": 1.0,
+    "criminal_cases": 8,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "79": {
+    "constituency_name": "VIJAYWADA WEST",
+    "winner_name": "Jaleel Khan",
+    "myneta_name": "Jaleel Khan",
+    "myneta_candidate_id": 3929,
+    "match_score": 0.7,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "80": {
+    "constituency_name": "VIJAYAWADA CENTRAL",
+    "winner_name": "Bonda Umamaheswara Rao",
+    "myneta_name": "Bonda Umamaheswara Rao",
+    "myneta_candidate_id": 3077,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "82": {
+    "constituency_name": "MYLAVARAM",
+    "winner_name": "Uma Maheswara Rao Devineni",
+    "myneta_name": "Uma Maheswara Rao Devineni",
+    "myneta_candidate_id": 2965,
+    "match_score": 1.0,
+    "criminal_cases": 16,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "84": {
+    "constituency_name": "JAGGAYYAPETA",
+    "winner_name": "Raja Gopal Sreeram (Tathaiah)",
+    "myneta_name": "Raja Gopal Sreeram (tathaiah)",
+    "myneta_candidate_id": 2918,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "86": {
+    "constituency_name": "TADIKONDA",
+    "winner_name": "Tenali Sravana Kumar",
+    "myneta_name": "Sravana Kumar Tenali",
+    "myneta_candidate_id": 4498,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "87": {
+    "constituency_name": "MANGALAGIRI",
+    "winner_name": "Alla Rama Krishna Reddy (Rk)",
+    "myneta_name": "Alla Rama Krishna Reddy",
+    "myneta_candidate_id": 2675,
+    "match_score": 0.92,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "89": {
+    "constituency_name": "VEMURU",
+    "winner_name": "Ananda Babu Nakka",
+    "myneta_name": "Nakka Ananda Babu",
+    "myneta_candidate_id": 2818,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "90": {
+    "constituency_name": "REPALLE",
+    "winner_name": "Anagani Satya Prasad",
+    "myneta_name": "Anagani Satya Prasad",
+    "myneta_candidate_id": 2753,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "91": {
+    "constituency_name": "TENALI",
+    "winner_name": "Alapati Rajendra Prasad",
+    "myneta_name": "Alapati Rajendra Prasad",
+    "myneta_candidate_id": 2809,
+    "match_score": 1.0,
+    "criminal_cases": 8,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "92": {
+    "constituency_name": "BAPATLA",
+    "winner_name": "Kona Raghupathi",
+    "myneta_name": "Kona Raghupathi",
+    "myneta_candidate_id": 2525,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "93": {
+    "constituency_name": "PRATHIPADU",
+    "winner_name": "Ravela Kishore Babu",
+    "myneta_name": "Ravela Kishore Babu",
+    "myneta_candidate_id": 4489,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "94": {
+    "constituency_name": "GUNTUR WEST",
+    "winner_name": "Modugula Venu Gopala Reddy",
+    "myneta_name": "Modugula Venu Gopala Reddy",
+    "myneta_candidate_id": 2617,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "95": {
+    "constituency_name": "GUNTUR EAST",
+    "winner_name": "Mohammad Musthafa Shaik",
+    "myneta_name": "Mohammad Musthafa Shaik",
+    "myneta_candidate_id": 2601,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "96": {
+    "constituency_name": "CHILAKALURIPET",
+    "winner_name": "Prathipati Pulla Rao",
+    "myneta_name": "Prathipati Pulla Rao",
+    "myneta_candidate_id": 2566,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "97": {
+    "constituency_name": "NARASARAOPET",
+    "winner_name": "Dr.Gopireddy Srinivasa Reddy",
+    "myneta_name": "Gopireddy Srinivasa Reddy",
+    "myneta_candidate_id": 2707,
+    "match_score": 0.9,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "98": {
+    "constituency_name": "SATTENAPALLI",
+    "winner_name": "Kodela Siva Prasada Rao",
+    "myneta_name": "Kodela Siva Prasada Rao",
+    "myneta_candidate_id": 2784,
+    "match_score": 0.4,
+    "criminal_cases": 10,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "99": {
+    "constituency_name": "VINUKONDA",
+    "winner_name": "G. V.Aanzaneyulu",
+    "myneta_name": "G. V.aanzaneyulu",
+    "myneta_candidate_id": 2836,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "100": {
+    "constituency_name": "GURAZALA",
+    "winner_name": "Yarapathineni Srinivasa Rao",
+    "myneta_name": "Yarapathineni Srinivasa Rao",
+    "myneta_candidate_id": 2650,
+    "match_score": 0.4,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "101": {
+    "constituency_name": "MACHERLA",
+    "winner_name": "Rama Krishna Reddy Pinnelli",
+    "myneta_name": "Rama Krishna Reddy Pinnelli",
+    "myneta_candidate_id": 2667,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "103": {
+    "constituency_name": "DARSI",
+    "winner_name": "Raghava Rao Sidda",
+    "myneta_name": "Raghava Rao Sidda",
+    "myneta_candidate_id": 4387,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "104": {
+    "constituency_name": "PARCHUR",
+    "winner_name": "Yeluri Sambasiva Rao",
+    "myneta_name": "Yeluri Sambasiva Rao",
+    "myneta_candidate_id": 4316,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "105": {
+    "constituency_name": "ADDANKI",
+    "winner_name": "Gottipati Ravikumar (Bujji)",
+    "myneta_name": "Ravi Kumar Gottipati",
+    "myneta_candidate_id": 4334,
+    "match_score": 0.733,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "106": {
+    "constituency_name": "CHIRALA",
+    "winner_name": "Amanchi Krishna Mohan",
+    "myneta_name": "Amanchi Krishna Mohan",
+    "myneta_candidate_id": 4297,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "107": {
+    "constituency_name": "SANTHANUTHALAPADU",
+    "winner_name": "Audimulapu Suresh",
+    "myneta_name": "Suresh Audimulapu",
+    "myneta_candidate_id": 4282,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "108": {
+    "constituency_name": "ONGOLE",
+    "winner_name": "Damacharla Janardhana Rao",
+    "myneta_name": "Damacharla Janardhana Rao",
+    "myneta_candidate_id": 4265,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "109": {
+    "constituency_name": "KANDUKUR",
+    "winner_name": "Pothula Ramarao",
+    "myneta_name": "Pothula Ramarao",
+    "myneta_candidate_id": 4254,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "110": {
+    "constituency_name": "KONDAPI",
+    "winner_name": "Doctor.Dola Sree Bala Veeranjaneya Swamy",
+    "myneta_name": "Doctor Dola Bala Veeranjaneya Swamy",
+    "myneta_candidate_id": 4234,
+    "match_score": 0.933,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "111": {
+    "constituency_name": "MARKAPURAM",
+    "winner_name": "Janke Venkata Reddy",
+    "myneta_name": "Janke Venkata Reddy",
+    "myneta_candidate_id": 4220,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "112": {
+    "constituency_name": "GIDDALUR",
+    "winner_name": "Ashok Reddy Muthumula",
+    "myneta_name": "Ashok Reddy Muthumula",
+    "myneta_candidate_id": 4203,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "113": {
+    "constituency_name": "KANIGIRI",
+    "winner_name": "Kadiri Babu Rao",
+    "myneta_name": "Kadiri Babu Rao",
+    "myneta_candidate_id": 4110,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "115": {
+    "constituency_name": "ATMAKUR",
+    "winner_name": "Mekapati Goutham Reddy",
+    "myneta_name": "Mekapati Goutham Reddy",
+    "myneta_candidate_id": 3433,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "117": {
+    "constituency_name": "NELLORE CITY",
+    "winner_name": "Anil Kumar Poluboina",
+    "myneta_name": "Anil Kumar Poluboina",
+    "myneta_candidate_id": 3482,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "118": {
+    "constituency_name": "NELLORE RURAL",
+    "winner_name": "Kotamreddy Sridhar Reddy",
+    "myneta_name": "Kotamreddy Sridhar Reddy",
+    "myneta_candidate_id": 3503,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "119": {
+    "constituency_name": "SARVEPALLI",
+    "winner_name": "Kakani Govardhan Reddy",
+    "myneta_name": "Kakani Govardhan Reddy",
+    "myneta_candidate_id": 3519,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "120": {
+    "constituency_name": "GUDUR",
+    "winner_name": "Pasim Sunil Kumar",
+    "myneta_name": "Pasim Sunil Kumar",
+    "myneta_candidate_id": 3446,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "121": {
+    "constituency_name": "SULLURPETA",
+    "winner_name": "Sanjeevaiah Kiliveti",
+    "myneta_name": "Sanjeevaiah Kiliveti",
+    "myneta_candidate_id": 3533,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "122": {
+    "constituency_name": "VENKATAGIRI",
+    "winner_name": "Kurugondla Ramakrishna",
+    "myneta_name": "Kurugondla Ramakrishna",
+    "myneta_candidate_id": 3553,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "123": {
+    "constituency_name": "UDAYAGIRI",
+    "winner_name": "Bollineni Venkata Ramarao",
+    "myneta_name": "Bollineni Venkata Ramarao",
+    "myneta_candidate_id": 3539,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "124": {
+    "constituency_name": "BADVEL",
+    "winner_name": "Thiriveedi. Jayaramulu .",
+    "myneta_name": "Jayaramulu Thiriveedi",
+    "myneta_candidate_id": 2367,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "125": {
+    "constituency_name": "RAJAMPET",
+    "winner_name": "Meda Venkata Mallikarjuna Reddy",
+    "myneta_name": "Meda Venkata Mallikarjuna Reddy",
+    "myneta_candidate_id": 2511,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "126": {
+    "constituency_name": "KADAPA",
+    "winner_name": "Amzath Basha S. B",
+    "myneta_name": "Amzath Basha Shaik Bepari",
+    "myneta_candidate_id": 2430,
+    "match_score": 0.8,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "127": {
+    "constituency_name": "KODUR",
+    "winner_name": "Koramutla Sreenivasulu",
+    "myneta_name": "Koramutla Srinivasulu",
+    "myneta_candidate_id": 2456,
+    "match_score": 0.8,
+    "criminal_cases": 4,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "128": {
+    "constituency_name": "RAYACHOTI",
+    "winner_name": "Gadikota Srikanth Reddy",
+    "myneta_name": "Gadikota Sreekanth Reddy",
+    "myneta_candidate_id": 2522,
+    "match_score": 0.867,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "129": {
+    "constituency_name": "PULIVENDLA",
+    "winner_name": "Y.S.Jagan Mohan Reddy",
+    "myneta_name": "Jagan Mohan Reddy. Yaduguri Sandinti",
+    "myneta_candidate_id": 2497,
+    "match_score": 0.84,
+    "criminal_cases": 15,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "130": {
+    "constituency_name": "KAMALAPURAM",
+    "winner_name": "Pochimareddy Ravindranath Reddy",
+    "myneta_name": "P Ravindranath Reddy",
+    "myneta_candidate_id": 3398,
+    "match_score": 0.867,
+    "criminal_cases": 4,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "131": {
+    "constituency_name": "JAMMALAMADUGU",
+    "winner_name": "Adinarayana Reddy. Chadipirala",
+    "myneta_name": "Adinarayana Reddy Chadipiralla",
+    "myneta_candidate_id": 2393,
+    "match_score": 0.867,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "132": {
+    "constituency_name": "PRODDATUR",
+    "winner_name": "Rachamallu Siva Prasad Reddy",
+    "myneta_name": "Rachamallu Siva Prasad Reddy",
+    "myneta_candidate_id": 2478,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "133": {
+    "constituency_name": "MYDUKUR",
+    "winner_name": "Raghuramireddy Settipalli",
+    "myneta_name": "Raghuramireddy Settipalli",
+    "myneta_candidate_id": 2457,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "134": {
+    "constituency_name": "ALLAGADDA",
+    "winner_name": "Bhuma Shobha Nagi Reddy",
+    "myneta_name": "Bhuma Shobha Nagi Reddy",
+    "myneta_candidate_id": 3287,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "136": {
+    "constituency_name": "NANDIKOTKUR",
+    "winner_name": "Isaiah. Yakkaladevi",
+    "myneta_name": "Y.isaiah",
+    "myneta_candidate_id": 3332,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "137": {
+    "constituency_name": "KURNOOL",
+    "winner_name": "S.V.Mohan Reddy",
+    "myneta_name": "S.v.mohan Reddy",
+    "myneta_candidate_id": 4350,
+    "match_score": 1.0,
+    "criminal_cases": 5,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "139": {
+    "constituency_name": "NANDYAL",
+    "winner_name": "Bhuma Nagi Reddy",
+    "myneta_name": "Bhuma Nagi Reddy",
+    "myneta_candidate_id": 4462,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "140": {
+    "constituency_name": "BANAGANAPALLE",
+    "winner_name": "Janardhana Reddy B.C.",
+    "myneta_name": "Janardhana Reddy B.c.",
+    "myneta_candidate_id": 4449,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "141": {
+    "constituency_name": "DHONE",
+    "winner_name": "Buggana Rajendranath",
+    "myneta_name": "Buggana Rajendranath",
+    "myneta_candidate_id": 3302,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "143": {
+    "constituency_name": "KODUMUR",
+    "winner_name": "M. Mani Gandhi",
+    "myneta_name": "M Manigandhi",
+    "myneta_candidate_id": 3311,
+    "match_score": 0.733,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "144": {
+    "constituency_name": "YEMMIGANUR",
+    "winner_name": "B.Jayanageswara Reddy",
+    "myneta_name": "B.jayanageswara Reddy",
+    "myneta_candidate_id": 4474,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "145": {
+    "constituency_name": "MANTRALAYAM",
+    "winner_name": "Y Balanagireddy",
+    "myneta_name": "Y Balanagi Reddy",
+    "myneta_candidate_id": 3327,
+    "match_score": 0.733,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "146": {
+    "constituency_name": "ADONI",
+    "winner_name": "Y.Saiprasad Reddy",
+    "myneta_name": "Y Saiprasad Reddy",
+    "myneta_candidate_id": 3282,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "147": {
+    "constituency_name": "ALUR",
+    "winner_name": "Gummanur Jaya Ram",
+    "myneta_name": "Gummanur Jaya Ram",
+    "myneta_candidate_id": 4441,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "148": {
+    "constituency_name": "RAYADURG",
+    "winner_name": "Kalava Srinivasulu",
+    "myneta_name": "Kalava Srinivasulu",
+    "myneta_candidate_id": 2037,
+    "match_score": 1.0,
+    "criminal_cases": 6,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "149": {
+    "constituency_name": "URAVAKONDA",
+    "winner_name": "Y. Visweswara Reddy",
+    "myneta_name": "Y. Visweswara Reddy",
+    "myneta_candidate_id": 2095,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "150": {
+    "constituency_name": "GUNTAKAL",
+    "winner_name": "R. Jithendra Goud",
+    "myneta_name": "R.jithendra Goud",
+    "myneta_candidate_id": 1931,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "151": {
+    "constituency_name": "TADIPATRI",
+    "winner_name": "Prabhakar Reddy. J.C",
+    "myneta_name": "J.c.prabhakar Reddy",
+    "myneta_candidate_id": 2077,
+    "match_score": 0.4,
+    "criminal_cases": 10,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "152": {
+    "constituency_name": "SINGANAMALA",
+    "winner_name": "B. Yamini Bala",
+    "myneta_name": "B. Yamini Bala",
+    "myneta_candidate_id": 2063,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "154": {
+    "constituency_name": "KALYANDURG",
+    "winner_name": "Vunnam Hanumantharaya Chowdary",
+    "myneta_name": "Vunnam Hanumantharaya Chowdary",
+    "myneta_candidate_id": 1978,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "155": {
+    "constituency_name": "RAPTADU",
+    "winner_name": "Paritala Sunithamma",
+    "myneta_name": "Paritala Sunithamma",
+    "myneta_candidate_id": 2012,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "156": {
+    "constituency_name": "MADAKASIRA",
+    "winner_name": "K. Eeranna",
+    "myneta_name": "K. Eeranna",
+    "myneta_candidate_id": 3590,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "158": {
+    "constituency_name": "PENUKONDA",
+    "winner_name": "B.K.Parthasarathi",
+    "myneta_name": "B K Parthasarathi",
+    "myneta_candidate_id": 1981,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "159": {
+    "constituency_name": "PUTTAPARTHI",
+    "winner_name": "Palle Raghunatha Reddy",
+    "myneta_name": "Palle Raghunatha Reddy",
+    "myneta_candidate_id": 2002,
+    "match_score": 1.0,
+    "criminal_cases": 5,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "161": {
+    "constituency_name": "KADIRI",
+    "winner_name": "Attar. Chand Basha",
+    "myneta_name": "Attar Chand Basha",
+    "myneta_candidate_id": 1954,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "163": {
+    "constituency_name": "PILERU",
+    "winner_name": "Chinthala Ramachandra Reddy",
+    "myneta_name": "Chinthala Ramachandra Reddy",
+    "myneta_candidate_id": 2218,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "164": {
+    "constituency_name": "MADANAPALLE",
+    "winner_name": "Dr. Desai Thippa Reddy. M.S.",
+    "myneta_name": "Desai Thippa Reddy",
+    "myneta_candidate_id": 2161,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "165": {
+    "constituency_name": "PUNGANUR",
+    "winner_name": "Peddireddigari Ramachandra Reddy",
+    "myneta_name": "P Ramachandra Reddy",
+    "myneta_candidate_id": 2236,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "167": {
+    "constituency_name": "TIRUPATI",
+    "winner_name": "M. Venkataramana",
+    "myneta_name": "M. Venkataramana",
+    "myneta_candidate_id": 2325,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "168": {
+    "constituency_name": "SRIKALAHASTI",
+    "winner_name": "Gopala Krishna Reddy Bojjala",
+    "myneta_name": "Gopala Krishna Reddy Bojjala",
+    "myneta_candidate_id": 2282,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "169": {
+    "constituency_name": "SATYAVEDU",
+    "winner_name": "Talari Aditya",
+    "myneta_name": "Talari Aditya Tarachandrakanth",
+    "myneta_candidate_id": 2268,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "170": {
+    "constituency_name": "NAGARI",
+    "winner_name": "R.. K Roja",
+    "myneta_name": "R.k.roja",
+    "myneta_candidate_id": 2196,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "171": {
+    "constituency_name": "GANGADHARA NELLORE",
+    "winner_name": "Narayanaswamy",
+    "myneta_name": "Kalattur Narayana Swamy",
+    "myneta_candidate_id": 2138,
+    "match_score": 0.6,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "173": {
+    "constituency_name": "PUTHALAPATTU",
+    "winner_name": "M. Sunil Kumar",
+    "myneta_name": "M Suneel Kumar",
+    "myneta_candidate_id": 2247,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "174": {
+    "constituency_name": "PALAMANER",
+    "winner_name": "N.Amaranath Reddy",
+    "myneta_name": "N.amaranath Reddy",
+    "myneta_candidate_id": 2207,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "175": {
+    "constituency_name": "KUPPAM",
+    "winner_name": "Nara Chandra Babu Naidu",
+    "myneta_name": "Nara Chandra Babu Naidu",
+    "myneta_candidate_id": 2150,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  }
+}

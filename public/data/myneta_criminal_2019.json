@@ -1,0 +1,6247 @@
+{
+  "1": {
+    "constituency_name": "ICHCHAPURAM",
+    "winner_name": "Ashok Bendalam",
+    "myneta_name": "Ashok Bendalam",
+    "myneta_candidate_id": 5126,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "2": {
+    "constituency_name": "PALASA",
+    "winner_name": "Appalaraju Seediri",
+    "myneta_name": "Appalaraju Seediri",
+    "myneta_candidate_id": 5114,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "33/2018, Ksibagsa P.S.",
+        "sections": [
+          "143",
+          "283",
+          "341",
+          "141"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "72/2018, Kasibugga P.S.",
+        "sections": [],
+        "other_acts": [
+          "151 CRPC"
+        ],
+        "court": "",
+        "description": "151 CRPC",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.NO.104/2018",
+        "sections": [
+          "353",
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "148/2018, Ksibagsa P.S.",
+        "sections": [],
+        "other_acts": [
+          "151 CRPC"
+        ],
+        "court": "",
+        "description": "151 CRPC",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "3": {
+    "constituency_name": "TEKKALI",
+    "winner_name": "Atchannaidu Kinjarapu",
+    "myneta_name": "Atchannaidu Kinjarapu",
+    "myneta_candidate_id": 4599,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "55/2019 Dated 12.03.2019, Police Station Tekkali, District Srikakulam, Andhra Pradesh",
+        "sections": [
+          "143",
+          "188",
+          "34"
+        ],
+        "other_acts": [
+          "Section 32 of AP Police Act"
+        ],
+        "court": "",
+        "description": "Section 32 of AP Police Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "4": {
+    "constituency_name": "PATHAPATNAM",
+    "winner_name": "Reddy Shanthi",
+    "myneta_name": "Shanthi Reddy",
+    "myneta_candidate_id": 5107,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "5": {
+    "constituency_name": "SRIKAKULAM",
+    "winner_name": "Dharmana Prasada Rao",
+    "myneta_name": "Dharmana Prasada Rao",
+    "myneta_candidate_id": 7249,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "RC No. 19(A)/2011 of CBI, ACB Hyderabad (Branch) Dt. 17.08.2011",
+        "sections": [
+          "120B",
+          "409",
+          "420",
+          "468",
+          "471",
+          "477A"
+        ],
+        "other_acts": [
+          "Section 9",
+          "11",
+          "12",
+          "13(2) R/W 13(1)(c) and (d) of Prevention of Corruption Act 1988"
+        ],
+        "court": "CC No. 28/2013, Principal Special Judge for CBI Cases, Red Hills, Nampally Hyderabad",
+        "description": "Section 9, 11, 12, 13(2) R/W 13(1)(c) and (d) of Prevention of Corruption Act 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "RC No. 19(A)/2011 of CBI, ACB Hyderabad (Branch) Dt. 17.08.2011",
+        "sections": [
+          "120B",
+          "409",
+          "419",
+          "420",
+          "468",
+          "471",
+          "477A"
+        ],
+        "other_acts": [
+          "Section 9",
+          "11",
+          "12",
+          "13(2) R/W 13(1)(c) and (d) of Prevention of Corruption Act 1988"
+        ],
+        "court": "CC No. 14/2012, Principal Special Judge for CBI Cases, Red Hills, Nampally Hyderabad",
+        "description": "Section 9, 11, 12, 13(2) R/W 13(1)(c) and (d) of Prevention of Corruption Act 1988",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "6": {
+    "constituency_name": "AMADALAVALASA",
+    "winner_name": "Thammineni Seetharam",
+    "myneta_name": "Thammineni Seetharam",
+    "myneta_candidate_id": 4605,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "",
+        "sections": [
+          "500",
+          "506"
+        ],
+        "other_acts": [],
+        "court": "CC.No.1278/2016, IIIrd,Addl, Chief Metropolitian  Magistrate at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "7": {
+    "constituency_name": "ETCHERLA",
+    "winner_name": "Gorle. Kiran Kumar",
+    "myneta_name": "Kiran Kumar Gorle",
+    "myneta_candidate_id": 5132,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "161/15, Ransthal P.S. JR Puram Srikakulam",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "C.C. No. 40/17, JMFC Court, Srikakulam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "170/2010, JR Puram PS Srikakulam",
+        "sections": [
+          "447",
+          "379",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "632/2011, JMFC Court, Srikakulam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "171/2010, JR Puram PS Srikakulam",
+        "sections": [
+          "427",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "637/2011, JMFC Court, Srikakulam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "172/2010, JR Puram PS Srikakulam",
+        "sections": [
+          "447",
+          "379",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "636/2011, JMFC Court, Srikakulam",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "8": {
+    "constituency_name": "NARASANNAPETA",
+    "winner_name": "Dharmana Krishna Das",
+    "myneta_name": "Dharmana Krishna Das",
+    "myneta_candidate_id": 4607,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "10": {
+    "constituency_name": "PALAKONDA  (ST)",
+    "winner_name": "Viswasarayi Kalavathi",
+    "myneta_name": "Viswasarayi Kalavathi",
+    "myneta_candidate_id": 5121,
+    "match_score": 0.7,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "11": {
+    "constituency_name": "KURUPAM",
+    "winner_name": "Pushpasreevani . Pamula",
+    "myneta_name": "Pamula Pushpa Sreevani",
+    "myneta_candidate_id": 5171,
+    "match_score": 0.733,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "241/2014 1 Town Police Station, Vizianagaram",
+        "sections": [
+          "143",
+          "145",
+          "341",
+          "149"
+        ],
+        "other_acts": [
+          "Sec 3 (X) A.P.Town Nuisance Act 1989"
+        ],
+        "court": "CC No.29/2018, Honble Judge Special Court for the Trial of Class relating to Elected M.Ps and M.L.As, Vijayawada",
+        "description": "Sec 3 (X) A.P.Town Nuisance Act 1989",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "12": {
+    "constituency_name": "PARVATHIPURAM",
+    "winner_name": "Alajangi Jogarao",
+    "myneta_name": "Alajangi Jogarao",
+    "myneta_candidate_id": 5481,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "13": {
+    "constituency_name": "SALUR",
+    "winner_name": "Peedika. Rajanna Dora",
+    "myneta_name": "Peedika Rajanna Dora",
+    "myneta_candidate_id": 4612,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "14": {
+    "constituency_name": "BOBBILI",
+    "winner_name": "Sambangi Venkatachina Appala Naidu",
+    "myneta_name": "Sambangi Venkata China Appala Naidu",
+    "myneta_candidate_id": 5164,
+    "match_score": 0.84,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "15": {
+    "constituency_name": "CHEEPURUPALLI",
+    "winner_name": "Botcha Satyanarayana",
+    "myneta_name": "Botcha Satyanarayana",
+    "myneta_candidate_id": 5612,
+    "match_score": 0.4,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "16": {
+    "constituency_name": "GAJAPATHINAGARAM",
+    "winner_name": "Appalanarasayya Botcha",
+    "myneta_name": "Botcha Appalanarasayya",
+    "myneta_candidate_id": 4616,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "18": {
+    "constituency_name": "VIZIANAGARAM",
+    "winner_name": "Veera Bhadra Swamy Kolagatla",
+    "myneta_name": "Kolagatla Veerabhadra Swamy",
+    "myneta_candidate_id": 4622,
+    "match_score": 0.8,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "352/2015 I Town Police Station, Vizianagaram",
+        "sections": [
+          "143",
+          "145",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Section 3(X) A. P. Town Nuisance Act 1989"
+        ],
+        "court": "CC No. 1157/2015, Honble Addl. Judicial 1st Class Magistrate Vizianagaram",
+        "description": "Section 3(X) A. P. Town Nuisance Act 1989",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "241/2014 I Town Police Station, Vizianagaram",
+        "sections": [
+          "143",
+          "145",
+          "341",
+          "149"
+        ],
+        "other_acts": [
+          "Section 3(X) A. P. Town Nuisance Act 1989"
+        ],
+        "court": "CC No. 29/2018, Honble Judge Special Court for the Trial of Cases relating to Elected MPs and MLAs Vijayawada",
+        "description": "Section 3(X) A. P. Town Nuisance Act 1989",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "151/2014 I Town Police Station, Vizianagaram",
+        "sections": [
+          "188",
+          "171(c)(f)"
+        ],
+        "other_acts": [
+          "Sec.123(2) RP Act.",
+          "But the charge sheet file with 188",
+          "171(c)(f)"
+        ],
+        "court": "CC No. 28/2018, Honble Judge Special Court for the Trial of Cases relating to Elected MPs and MLAs Vijayawada",
+        "description": "Sec.123(2) RP Act., But the charge sheet file with 188, 171(c)(f)",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "19": {
+    "constituency_name": "SRUNGAVARAPUKOTA",
+    "winner_name": "Kadubandi Srinivasa Rao",
+    "myneta_name": "Kadubandi Srinivasa Rao",
+    "myneta_candidate_id": 7268,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "21": {
+    "constituency_name": "VISAKHAPATNAM EAST",
+    "winner_name": "Ramakrishna Babu Velagapudi",
+    "myneta_name": "Ramakrishna Babu Velagapudi",
+    "myneta_candidate_id": 7175,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "23": {
+    "constituency_name": "VISAKHAPATNAM  NORTH",
+    "winner_name": "Ganta Srinivasa Rao",
+    "myneta_name": "Ganta Srinivasa Rao",
+    "myneta_candidate_id": 4634,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "15/2009, Anakapalle PS",
+        "sections": [
+          "147",
+          "148",
+          "332",
+          "333",
+          "307",
+          "447",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "PRC 1/18, Special Court For Trail of Cases of Elected MPs & MLAs Vijayawada",
+        "description": "The Govt. of AP had withdrawn prosecution against G. Srinivasa Rao in this case G.O.RT.No 143, Date- 04.03.2016",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "3/18, Anakapalle TP",
+        "sections": [
+          "177E",
+          "511"
+        ],
+        "other_acts": [],
+        "court": "133/2009, Special Court For Trail of Cases of Elected MPs & MLAs Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "4/18, Kasimkota, Anakapalle Rural PS",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "117/2009, Special Court For Trail of Cases of Elected MPs & MLAs Vijayawada",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "24": {
+    "constituency_name": "VISAKHAPATNAM  WEST",
+    "winner_name": "P G V R Naidu(Gana Babu)",
+    "myneta_name": "Gana Venkata Reddy Naidu Pethakamsetti (Gana Babu)",
+    "myneta_candidate_id": 4639,
+    "match_score": 0.771,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "25": {
+    "constituency_name": "GAJUWAKA",
+    "winner_name": "Nagireddy Tippala",
+    "myneta_name": "Nagi Reddy Tippala",
+    "myneta_candidate_id": 5615,
+    "match_score": 0.733,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "26": {
+    "constituency_name": "CHODAVARAM",
+    "winner_name": "Karanam Dharmasri",
+    "myneta_name": "Karanam Dharmasri",
+    "myneta_candidate_id": 5601,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "27": {
+    "constituency_name": "V.MADUGULA",
+    "winner_name": "Budi Mutyala Naidu",
+    "myneta_name": "Budi Mutyala Naidu",
+    "myneta_candidate_id": 7132,
+    "match_score": 0.7,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "57/2008, Devarapalli Police Station",
+        "sections": [
+          "307",
+          "147",
+          "148",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Old S.C. No. 58/2010,\r\nNew S.C. No. 4/2018, Special Court for Trial Cases MP & MLAs Vijayawada",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "28": {
+    "constituency_name": "ARAKU VALLEY",
+    "winner_name": "Chetti. Palguna",
+    "myneta_name": "Chetti Palguna",
+    "myneta_candidate_id": 4650,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "29": {
+    "constituency_name": "PADERU",
+    "winner_name": "Bhagya Lakshmi Kottagulli",
+    "myneta_name": "Kottagulli Bhagya Lakshmi",
+    "myneta_candidate_id": 5972,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "30": {
+    "constituency_name": "ANAKAPALLI",
+    "winner_name": "Amarnath Gudivada",
+    "myneta_name": "Amarnath Gudivada",
+    "myneta_candidate_id": 5579,
+    "match_score": 1.0,
+    "criminal_cases": 5,
+    "criminal_details_pending": [
+      {
+        "fir_number": "C.C. No 98/2016, CR. No 259/15 SHO, II Town, VSKP",
+        "sections": [
+          "447",
+          "186",
+          "290",
+          "34"
+        ],
+        "other_acts": [
+          "Under Trial Process"
+        ],
+        "court": "C.C. No 98/2016, CR. No 259/15, II A.C.M.M. Court VSKP",
+        "description": "Under Trial Process",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "C.C. 155/2017, CR. No 92/16 SHO, II Town, VSKP",
+        "sections": [
+          "309"
+        ],
+        "other_acts": [
+          "Under Trial Process"
+        ],
+        "court": "C.C. 155/2017, CR. No 92/16, II A.C.M.M. Court VSKP",
+        "description": "Under Trial Process",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR No 338/16 SHO, Airport VSKP",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [
+          "Under Trial Process"
+        ],
+        "court": "CC No-338/16, III A.C.M.M. Court VSKP",
+        "description": "Under Trial Process",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "C3C/1393/18, RPF Post/VSKP",
+        "sections": [],
+        "other_acts": [
+          "Section 147 & 174(A) Rly Act",
+          "Under Trial Process"
+        ],
+        "court": "CC/1393/18, II Metropolitan Magistrate for Railways, Visakhapatnam RPF Post/VSKP",
+        "description": "Section 147 & 174(A) Rly Act, Under Trial Process",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "C3C/1242(9)16 RPF Post, Marripalem, VSKP",
+        "sections": [],
+        "other_acts": [
+          "Section 147 & 174(A) Rly Act",
+          "Under Trial Process"
+        ],
+        "court": "C3C/1242(9)16, II Metropolitan Magistrate For Railways Visakhapatnam",
+        "description": "Section 147 & 174(A) Rly Act, Under Trial Process",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "31": {
+    "constituency_name": "PENDURTHI",
+    "winner_name": "Annamreddy Adeep Raj",
+    "myneta_name": "Annamreddy Adeep Raj",
+    "myneta_candidate_id": 6011,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "402/2017 Pendurthi Police Station, Visakhapatnam",
+        "sections": [
+          "309"
+        ],
+        "other_acts": [],
+        "court": "CC 42/18, Principal Junior Civil Judge, visakhapatnam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "C3C/1242(9)2016, The Sub inspector RPF Outpost, Kottavalasa",
+        "sections": [],
+        "other_acts": [
+          "Sec. 147 and 174A of the Railways Act"
+        ],
+        "court": "CC 1725/2017, II Metropolitan Magistrate for Railways, visakhapatnam",
+        "description": "Sec. 147 and 174A of the Railways Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "32": {
+    "constituency_name": "ELAMANCHILI",
+    "winner_name": "Uppalapati Venkata Ramanamurthy Raju",
+    "myneta_name": "Uppalapati Venkata Ramanamurthy Raju",
+    "myneta_candidate_id": 7296,
+    "match_score": 0.4,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "08/2012, Anti-Corruption Bureau, Plot No 25, Doctors Colony Seethammadhara Visakhapatnam-530013",
+        "sections": [
+          "109"
+        ],
+        "other_acts": [
+          "Section 13(1)(e) R/W 13(2) of Act PC"
+        ],
+        "court": "08/2012, Special Court For ACB Cases",
+        "description": "Section 13(1)(e) R/W 13(2) of Act PC",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "33": {
+    "constituency_name": "PAYAKARAOPETA",
+    "winner_name": "Golla Baburao",
+    "myneta_name": "Baburao Golla",
+    "myneta_candidate_id": 6598,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "34": {
+    "constituency_name": "NARSIPATNAM",
+    "winner_name": "Uma Sankara Ganesh Petla",
+    "myneta_name": "Uma Sankara Ganesh Petla",
+    "myneta_candidate_id": 5938,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "82/2019, Town Police Station Narsipatnam",
+        "sections": [
+          "341",
+          "283",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "165/2018, Town Police Station Narsipatnam",
+        "sections": [
+          "283",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "35": {
+    "constituency_name": "TUNI",
+    "winner_name": "Dadisetti Raja",
+    "myneta_name": "Dadisetti Raja",
+    "myneta_candidate_id": 4667,
+    "match_score": 1.0,
+    "criminal_cases": 15,
+    "criminal_details_pending": [
+      {
+        "fir_number": "19/2016, Tuni Rural P.S",
+        "sections": [
+          "120B"
+        ],
+        "other_acts": [
+          "Section 32 of Police Act.",
+          "7(1) Criminal Amendment Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "Section 32 of Police Act., 7(1) Criminal Amendment Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "20/2016,Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Section 32 of Police Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "Section 32 of Police Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "24/2016,Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "342",
+          "384",
+          "435",
+          "307",
+          "353",
+          "149"
+        ],
+        "other_acts": [
+          "4 PDPP Act.",
+          "7(1) Criminal Amendment Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "3,4 PDPP Act., 7(1) Criminal Amendment Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "25/2016, Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "342",
+          "384",
+          "435",
+          "307",
+          "353",
+          "120B",
+          "149"
+        ],
+        "other_acts": [
+          "4 PDPP Act.",
+          "7(1) Criminal Amendment Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "3,4 PDPP Act., 7(1) Criminal Amendment Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "26/2016,Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "342",
+          "384",
+          "435",
+          "307",
+          "353",
+          "120B",
+          "149"
+        ],
+        "other_acts": [
+          "4 PDPP Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "3,4 PDPP Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "28/2016, Tuni Rural P.S.",
+        "sections": [
+          "147",
+          "148",
+          "341",
+          "323",
+          "435",
+          "353",
+          "149"
+        ],
+        "other_acts": [
+          "4 PDPP Act.",
+          "7(1) Criminal Amendment Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "3,4 PDPP Act., 7(1) Criminal Amendment Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "32/2016, Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "342",
+          "435",
+          "120",
+          "307",
+          "353",
+          "149"
+        ],
+        "other_acts": [
+          "4 PDPP Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "3,4 PDPP Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "35/2016, Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "342",
+          "435",
+          "120B",
+          "307",
+          "353",
+          "149"
+        ],
+        "other_acts": [
+          "4 PDPP Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "3,4 PDPP Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "62/2016, Tuni Rural P.S.",
+        "sections": [
+          "147",
+          "148",
+          "440",
+          "427",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "71/2016, Tuni Rural P.S.",
+        "sections": [
+          "147",
+          "148",
+          "440",
+          "427",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "77/2016, Tuni Rural P.S.",
+        "sections": [
+          "146",
+          "147",
+          "153"
+        ],
+        "other_acts": [
+          "174(A)(C) Railway Act."
+        ],
+        "court": "Second Additional Magistrate court Co CBCID special court, Kakinada",
+        "description": "174(A)(C) Railway Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "113/2016, Tuni Rural P.S.",
+        "sections": [
+          "143",
+          "147",
+          "341",
+          "448",
+          "436",
+          "506"
+        ],
+        "other_acts": [],
+        "court": "Principal Junior Civil Court Tuni",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "115/2016, Tuni Rural P.S.",
+        "sections": [
+          "107"
+        ],
+        "other_acts": [],
+        "court": "Principal Junior Civil Court Tuni",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "140/2015,Tuni Rural P.S.",
+        "sections": [
+          "341",
+          "506",
+          "323",
+          "324",
+          "34"
+        ],
+        "other_acts": [
+          "3(1) SC/ST Act. 1989"
+        ],
+        "court": "Principal Junior Civil Court First Class Judic Tuni",
+        "description": "3(1) SC/ST Act. 1989",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "141/2015, Tuni Rural P.S.",
+        "sections": [
+          "341",
+          "506",
+          "323",
+          "324",
+          "34"
+        ],
+        "other_acts": [
+          "3(1) SC/ST Act. 1989"
+        ],
+        "court": "Principal Junior Civil Court First Class Judicial Magistrate Tuni",
+        "description": "3(1) SC/ST Act. 1989",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "36": {
+    "constituency_name": "PRATHIPADU",
+    "winner_name": "Sri Purnachandra Prasad Parvatha",
+    "myneta_name": "Sri Purnachandra Prasadu Parvatha",
+    "myneta_candidate_id": 5247,
+    "match_score": 0.9,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "37": {
+    "constituency_name": "PITHAPURAM",
+    "winner_name": "Dorababu Pendem",
+    "myneta_name": "Dorababu Pendem",
+    "myneta_candidate_id": 5251,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "20/2016, 21/2016, 24/2016, 25/2016, 28/2016, 35/2016 of Tuni Rural Police CBCID",
+        "sections": [
+          "143",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "341",
+          "353",
+          "120",
+          "167",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.No.46/2017 of Gollaprolu P.S., Munsiff Magistrate Court, Pithapuram",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "38": {
+    "constituency_name": "KAKINADA RURAL",
+    "winner_name": "Kurasala Kannababu",
+    "myneta_name": "Kurasala Kannababu",
+    "myneta_candidate_id": 5271,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.42/2009 of Karapa Police Station",
+        "sections": [],
+        "other_acts": [
+          "Sec.136(1)(G) r/w 136(2)(B) of the Representation Peoples Act",
+          "1951"
+        ],
+        "court": "CC.No.44/2010, IVth Addl. Judicial First Class Magistrate Court, Kakinada, Case was transferred to the Honorable special court for trail of criminal cases relating to elected MLAs and MPs at vijayawada",
+        "description": "Sec.136(1)(G) r/w 136(2)(B) of the Representation Peoples Act,1951",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "499"
+        ],
+        "other_acts": [],
+        "court": "CC.No.762/17, XIV Addl. Chief Metropolitan Magistrate, Hyderabad",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.69/2019 of Karapa Police Station",
+        "sections": [
+          "143"
+        ],
+        "other_acts": [
+          "Sec. 30 of Police Act"
+        ],
+        "court": "",
+        "description": "Sec. 30 of Police Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "39": {
+    "constituency_name": "PEDDAPURAM",
+    "winner_name": "Nimmakayala China Rajappa",
+    "myneta_name": "Nimmakayala China Rajappa",
+    "myneta_candidate_id": 5256,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "40": {
+    "constituency_name": "ANAPARTHY",
+    "winner_name": "Doctor. Sathi Suryanarayana Reddy",
+    "myneta_name": "Sathi Suryanarayana Reddy",
+    "myneta_candidate_id": 5283,
+    "match_score": 0.9,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "42": {
+    "constituency_name": "RAMACHANDRAPURAM",
+    "winner_name": "Chelluboyina Srinivasa Venugopalakrishna",
+    "myneta_name": "Srinivasa Venu Gopala Krishna Chelluboyina",
+    "myneta_candidate_id": 4681,
+    "match_score": 0.76,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "43": {
+    "constituency_name": "MUMMIDIVARAM",
+    "winner_name": "Ponnada Venkata Satish Kumar",
+    "myneta_name": "Ponnada Venkata Satish Kumar",
+    "myneta_candidate_id": 4684,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "44": {
+    "constituency_name": "AMALAPURAM",
+    "winner_name": "Viswarupu Pinipe",
+    "myneta_name": "Viswarupu Pinipe",
+    "myneta_candidate_id": 4687,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime no. 41/2017,\r\nAmalapuram Town PS.",
+        "sections": [
+          "143",
+          "188",
+          "341",
+          "149"
+        ],
+        "other_acts": [
+          "32PA 1861"
+        ],
+        "court": "C.C.75/2017, AJFCM court, Amalapuram",
+        "description": "32PA 1861",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "46": {
+    "constituency_name": "GANNAVARAM",
+    "winner_name": "Kondeti Chitti Babu",
+    "myneta_name": "Vallabhaneni Vamsi Mohan",
+    "myneta_candidate_id": 4765,
+    "match_score": 0.6,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "47": {
+    "constituency_name": "KOTHAPETA",
+    "winner_name": "Chirla Jaggireddy",
+    "myneta_name": "Jaggireddy Chirla",
+    "myneta_candidate_id": 5267,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No. 220/2018, P. S. Ravulapalem",
+        "sections": [
+          "143",
+          "341",
+          "290",
+          "188",
+          "109",
+          "149"
+        ],
+        "other_acts": [
+          "Section 32 of Police Act"
+        ],
+        "court": "JFCM Kothapeta",
+        "description": "Section 32 of Police Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 46/2017, P. S. Kothapeta",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Section 32 of Police Act"
+        ],
+        "court": "CC 20/2018, Special Court for Trial of Cases against MPs and MLAs Vijayawada",
+        "description": "Section 32 of Police Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 75/2015, P. S. Ravulapalem",
+        "sections": [
+          "341",
+          "427",
+          "323",
+          "147",
+          "148",
+          "149"
+        ],
+        "other_acts": [
+          "Section 3 of PDPP Act"
+        ],
+        "court": "CC 19/2018, Special Court for Trial of Cases against MPs and MLAs Vijayawada",
+        "description": "Section 3 of PDPP Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "48": {
+    "constituency_name": "MANDAPETA",
+    "winner_name": "Jogeswara Rao. V",
+    "myneta_name": "Vegulla Jogeswara Rao",
+    "myneta_candidate_id": 5262,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "49": {
+    "constituency_name": "RAJANAGARAM",
+    "winner_name": "Jakkampudi Raja",
+    "myneta_name": "Jakkampudi Raja",
+    "myneta_candidate_id": 5294,
+    "match_score": 1.0,
+    "criminal_cases": 6,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr. No. 231 of 2016, Praksh Nagar Police Station, Rajahmundry",
+        "sections": [
+          "353",
+          "506",
+          "326",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "II Additional Judicial First Class Magistrate, Rajamahendravaram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.414/2015, III Town Police Station, Rajahmundry",
+        "sections": [
+          "143",
+          "189",
+          "341",
+          "290",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Special Court for Trail of Cases of MLAs and MLCs ect., at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.220/2015, Prakash Nagar Police Station, Rajahmundry",
+        "sections": [
+          "143",
+          "353",
+          "448",
+          "332",
+          "223",
+          "224",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.No.1747/2018, VII Additional Judicial First Class Magistrate, Rajamahendravaram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.191/2017, Ramachandrapuram Police Station, Ramachandrapuram",
+        "sections": [
+          "353"
+        ],
+        "other_acts": [],
+        "court": "Judicial First Class Magistrate, Ramachandrapuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.044/2017, Bommuru Police Station",
+        "sections": [
+          "143",
+          "188"
+        ],
+        "other_acts": [],
+        "court": "VII Additional Judicial First Class Magistrate, Rajamahendravaram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [],
+        "other_acts": [
+          "Sec. 111 crpc"
+        ],
+        "court": "Cr.No.61/2019, Rajanagaram P.S.",
+        "description": "Sec. 111 crpc",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "50": {
+    "constituency_name": "RAJAHMUNDRY CITY",
+    "winner_name": "Adireddy Bhavani",
+    "myneta_name": "Adireddy Bhavani",
+    "myneta_candidate_id": 5245,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "51": {
+    "constituency_name": "RAJAMUNDRY RURAL",
+    "winner_name": "Gorantla Butchaiah Choudary",
+    "myneta_name": "Buchayya Chowdary Gorantla",
+    "myneta_candidate_id": 4705,
+    "match_score": 0.733,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "52": {
+    "constituency_name": "JAGGAMPETA",
+    "winner_name": "Jyothula Chanti Babu",
+    "myneta_name": "Jyothula Naga Veera Venkata Vishnu Satya Marthanda Rao",
+    "myneta_candidate_id": 4708,
+    "match_score": 0.65,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "53": {
+    "constituency_name": "RAMPACHODAVARAM",
+    "winner_name": "Nagulapalli Dhanalakshmi.",
+    "myneta_name": "Nagulapalli Dhanalakshmi",
+    "myneta_candidate_id": 4718,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "54": {
+    "constituency_name": "KOVVUR",
+    "winner_name": "Taneti Vanita",
+    "myneta_name": "Taneti Vanita",
+    "myneta_candidate_id": 4720,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "55": {
+    "constituency_name": "NIDADAVOLE",
+    "winner_name": "G. Srinivas Naidu",
+    "myneta_name": "Geddam Srinivas Naidu",
+    "myneta_candidate_id": 5445,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "56": {
+    "constituency_name": "ACHANTA",
+    "winner_name": "Cherukuvada Sriranganadha Raju",
+    "myneta_name": "Cherukuvada Sriranganadha Raju",
+    "myneta_candidate_id": 5410,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "57": {
+    "constituency_name": "PALACOLE",
+    "winner_name": "Dr. Nimmala Ramanaidu",
+    "myneta_name": "Dr. Nimmala Ramanaidu",
+    "myneta_candidate_id": 4730,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "58": {
+    "constituency_name": "NARASAPURAM",
+    "winner_name": "Mudunuri Prasada Raju",
+    "myneta_name": "Mudunuri Naga Raja Vara Prasada Raju",
+    "myneta_candidate_id": 4732,
+    "match_score": 0.8,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No. 73/2009, Town Police Station Narasapuram",
+        "sections": [
+          "188",
+          "34"
+        ],
+        "other_acts": [
+          "Sec 125-A Representation Of Peoples Act 1951"
+        ],
+        "court": "CC No. 801/2010, Judicial 1st Class Magistrate Court, Narasapuram",
+        "description": "Sec 125-A Representation Of Peoples Act 1951",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "59": {
+    "constituency_name": "BHIMAVARAM",
+    "winner_name": "Grandhi Srinivas",
+    "myneta_name": "Srinivas Grandhi",
+    "myneta_candidate_id": 4736,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "60": {
+    "constituency_name": "UNDI",
+    "winner_name": "Mantena Ramaraju (Kalapudi Rambabu)",
+    "myneta_name": "Ramaraju Mantena",
+    "myneta_candidate_id": 5417,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "61": {
+    "constituency_name": "TANUKU",
+    "winner_name": "Karumuri Venkata Nageswara Rao",
+    "myneta_name": "Karumuri Venkata Nageswara Rao",
+    "myneta_candidate_id": 4741,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "62": {
+    "constituency_name": "TADEPALLIGUDEM",
+    "winner_name": "Kottu Satyanarayana",
+    "myneta_name": "Kottu Satyanarayana",
+    "myneta_candidate_id": 4743,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "63": {
+    "constituency_name": "UNGUTURU",
+    "winner_name": "Puppala Srinivasarao (Vasubabu)",
+    "myneta_name": "Puppala Srinivasarao",
+    "myneta_candidate_id": 6553,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "64": {
+    "constituency_name": "DENDULURU",
+    "winner_name": "Abbaya Chowdary Kothari",
+    "myneta_name": "Abbaya Chowdary Kothari",
+    "myneta_candidate_id": 5391,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.68/2019 of Pedavegi Police Station, Pedavegi, W.G. Dt.A.P.",
+        "sections": [
+          "324",
+          "323",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.197/2018 of Pedavegi Police Station, Pedavegi, W.G. Dt.A.P.",
+        "sections": [
+          "341",
+          "323",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "65": {
+    "constituency_name": "ELURU",
+    "winner_name": "Alla Kali Krishna Srinivas (Alla Nani)",
+    "myneta_name": "Alla Kali Krishna Srinivas",
+    "myneta_candidate_id": 5386,
+    "match_score": 0.92,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "66": {
+    "constituency_name": "GOPALAPURAM",
+    "winner_name": "Venkatrao Talari",
+    "myneta_name": "Talari Venkatrao",
+    "myneta_candidate_id": 5380,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "67": {
+    "constituency_name": "POLAVARAM",
+    "winner_name": "Tellam Bala Raju",
+    "myneta_name": "Tellam Balaraju",
+    "myneta_candidate_id": 5428,
+    "match_score": 0.733,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "310/2018",
+        "sections": [
+          "143",
+          "341",
+          "290",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "123/2018",
+        "sections": [
+          "151"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "68": {
+    "constituency_name": "CHINTALAPUDI",
+    "winner_name": "Vunnamatla Rakada Eliza",
+    "myneta_name": "Vunnamatla Rakada Eliza",
+    "myneta_candidate_id": 4758,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "69": {
+    "constituency_name": "TIRUVURU",
+    "winner_name": "Kokkiligadda Rakshana Nidhi",
+    "myneta_name": "Kokkiligadda Rakshana Nidhi",
+    "myneta_candidate_id": 4761,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.191/2016, Suryarao Peta P.S., Vijayawada",
+        "sections": [
+          "143",
+          "291",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Section 32 of Indian Police Act."
+        ],
+        "court": "C.C. No. 44/2018, Court Of \r\nThe Judge Spl, Court for Trial of Cases Relating To Elected MPs\r\n& MLAs, Vijayawada",
+        "description": "Section 32 of Indian Police Act.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "70": {
+    "constituency_name": "NUZVID",
+    "winner_name": "Meka Venkata Pratap Apparao",
+    "myneta_name": "Venkata Pratap Apparao Meka",
+    "myneta_candidate_id": 4764,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime.No. 191/2015 of Suryaraopeta Police station",
+        "sections": [
+          "143",
+          "291",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 44/2018, Special Court for trail of criminal cases against the Elected MLAs and MPs Vijayawada, Dt. 20.07.2016",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr. No. 267/2018 of Nuzvid Town P.S.",
+        "sections": [
+          "341",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 1031/2018, 1st Additional Judicial First Class Magistrate at Nuzvid, Date 31.12.2018",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "72": {
+    "constituency_name": "GUDIVADA",
+    "winner_name": "Kodali Sri Venkateswara Rao (Nani)",
+    "myneta_name": "Kodali Sri Venkateswara Rao",
+    "myneta_candidate_id": 4771,
+    "match_score": 0.92,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "191/2016\r\nSuryaraopet\r\nPolice Station,\r\nVijayawada",
+        "sections": [
+          "143",
+          "291",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Charge sheet filed on 20.07.2016"
+        ],
+        "court": "CC No. 44/2018, VIII Additional Dist Court Vijayawada (Special court for elected MLAs and MPs)",
+        "description": "Charge sheet filed on 20.07.2016",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "172/2016 Governerpet\r\nPolice\r\nStation\r\nViiayawada",
+        "sections": [
+          "143",
+          "290",
+          "188",
+          "341",
+          "34"
+        ],
+        "other_acts": [
+          "Charge sheet filed on 16.01.2017"
+        ],
+        "court": "CC No. 46/2018, VIII Additional Dist Court Vijayawada (Special court for elected MLAs and MPs)",
+        "description": "Charge sheet filed on 16.01.2017",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "473/2015\r\nKrishnalanka,\r\nPolice Station,\r\nVijayawada",
+        "sections": [
+          "341",
+          "188",
+          "290"
+        ],
+        "other_acts": [
+          "Charge sheet filed on 29.09.2016"
+        ],
+        "court": "CC No. 27/2018, VIII Additional Dist Court Vijayawada (Special court for elected MLAs and MPs)",
+        "description": "Charge sheet filed on 29.09.2016",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "73": {
+    "constituency_name": "KAIKALUR",
+    "winner_name": "Dulam Nageswara Rao (Dnr)",
+    "myneta_name": "Dulam Nageswara Rao",
+    "myneta_candidate_id": 6748,
+    "match_score": 0.9,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.131/2018, Kaikalur Town Police Station",
+        "sections": [
+          "341",
+          "143",
+          "188",
+          "34"
+        ],
+        "other_acts": [
+          "Under Investigation"
+        ],
+        "court": "",
+        "description": "Under Investigation",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.63/2018, Kaikalur Rural Police Station",
+        "sections": [
+          "447",
+          "323",
+          "365",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "63/2018, JFCM Court, Kaikaluru",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.6/2016, Kalidindi Police Station",
+        "sections": [
+          "188",
+          "285"
+        ],
+        "other_acts": [
+          "Under Investigation"
+        ],
+        "court": "",
+        "description": "Under Investigation",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "74": {
+    "constituency_name": "PEDANA",
+    "winner_name": "Jogi Ramesh",
+    "myneta_name": "Jogi Ramesh",
+    "myneta_candidate_id": 6905,
+    "match_score": 1.0,
+    "criminal_cases": 16,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No.492/2018 of Arandalpet P.S., Guntur",
+        "sections": [
+          "420",
+          "471",
+          "201",
+          "120B",
+          "504",
+          "505"
+        ],
+        "other_acts": [
+          "Sec.66-C ITA Act"
+        ],
+        "court": "V Addl. Senior Civil Judge Court, Guntur",
+        "description": "Sec.66-C ITA Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.115/2018 of Ibrahimpatnam P.S.",
+        "sections": [
+          "353",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "XIV ACMM, Court, Ibrahimpatnam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.96/2018 of Ibrahimpatnam P.S.",
+        "sections": [
+          "304A",
+          "143",
+          "341",
+          "290",
+          "149"
+        ],
+        "other_acts": [
+          "Sec.30 CPA"
+        ],
+        "court": "XIV ACMM, Court, Ibrahimpatnam",
+        "description": "Sec.30 CPA",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CC.No.47/2018 of Suryaraopet P.S.",
+        "sections": [
+          "143",
+          "353",
+          "188",
+          "506",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Spl. Court for trying matters of MP & MLA cum VIII Addl. Dist. Judge, Krishna Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.180/2018 of Ibrahimpatnam P.S.",
+        "sections": [
+          "143",
+          "188",
+          "342",
+          "353",
+          "452",
+          "290",
+          "506",
+          "149"
+        ],
+        "other_acts": [
+          "Sec.7(1) CLA-1932"
+        ],
+        "court": "XIV ACMM, Court, Ibrahimpatnam",
+        "description": "Sec.7(1) CLA-1932",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.59/2017 of Ibrahimpatnam P.S.",
+        "sections": [
+          "353",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "XIV ACMM, Court, Ibrahimpatnam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.605/2017 of Ibrahimpatnam P.S.",
+        "sections": [
+          "143",
+          "147",
+          "145",
+          "341",
+          "353",
+          "290",
+          "149",
+          "148"
+        ],
+        "other_acts": [
+          "Sec.30 CPA",
+          "7 CLA-1932"
+        ],
+        "court": "XIV ACMM, Court, Ibrahimpatnam",
+        "description": "Sec.30 CPA, 7 CLA-1932",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.58/2017 of Nandigama P.S.",
+        "sections": [
+          "353",
+          "341",
+          "143(ii)",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "JFCM, Court Nandigama",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.11/2017 of Chandarlapadu P.S.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(ii)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "JFCM Court, Nandigama",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.9/2017 of Verullapadu P.S.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(ii)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "JFCM Court, Nandigama",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.8/2017 of Verullapadu P.S.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(ii)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "JFCM Court, Nandigama",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CC.No.576/2016 of Suryaraopet P.S.",
+        "sections": [
+          "143",
+          "291",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Spl. Court for trying matters of MP & MLA cum VIII Addl. Dist. Judge, Krishna Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.112/2015 of Mylavaram P.S.",
+        "sections": [
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "JFCM Court, Mylavaram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.193/2013 of G.Konduru P.S.",
+        "sections": [
+          "143",
+          "149",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "JFCM Court, Mylavaram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.563/2013 of Ibrahimpatnam P.S.",
+        "sections": [
+          "353",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "XIV ACMM Court, Ibrahimpatnam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.566/2013 of Ibrahimpatnam P.S.",
+        "sections": [
+          "353",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "XIV ACMM, Court, Ibrahimpatnam",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "75": {
+    "constituency_name": "MACHILIPATNAM",
+    "winner_name": "Perni Venkataramaiah (Nani)",
+    "myneta_name": "Perni Venkataramaiah (Nani)",
+    "myneta_candidate_id": 6777,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "201/2015, Bandar Taluk P.S.",
+        "sections": [
+          "341",
+          "353",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Special Mobile Judicial First Class Magistrate, Machilipatnam",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "265/2015, Bandar Taluk P.S.",
+        "sections": [
+          "143",
+          "427",
+          "435",
+          "353",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Special Mobile Judicial First Class Magistrate, Machilipatnam",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "76": {
+    "constituency_name": "AVANIGADDA",
+    "winner_name": "Ramesh Babu Simhadri",
+    "myneta_name": "Simhadri Ramesh Babu",
+    "myneta_candidate_id": 4786,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "133/2018 Koduru PS",
+        "sections": [
+          "153A",
+          "188",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 44/2019, PDM Court, Avanigadda",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "152/2017 Koduru PS",
+        "sections": [
+          "341",
+          "188",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 175/2018, AJFCM Court, Avanigadda",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "82/2016 Ghantasala PS",
+        "sections": [
+          "143",
+          "188",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 699/2017, AJFCM Court, Avanigadda",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "77": {
+    "constituency_name": "PAMARRU",
+    "winner_name": "Anil Kumar Kaile",
+    "myneta_name": "Anil Kumar Kaile",
+    "myneta_candidate_id": 4789,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Pamarru PS Cr.No.120/98,",
+        "sections": [
+          "188",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "J.F.C.M Gudivada Court",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Pamarru PS Cr. No. 192/18",
+        "sections": [
+          "290",
+          "188",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "J.F.C.M Gudivada Court",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "78": {
+    "constituency_name": "PENAMALURU",
+    "winner_name": "Kolusu Partha Sarathy",
+    "myneta_name": "Kolusu Partha Sarathy",
+    "myneta_candidate_id": 4795,
+    "match_score": 1.0,
+    "criminal_cases": 9,
+    "criminal_details_pending": [
+      {
+        "fir_number": "",
+        "sections": [],
+        "other_acts": [
+          "Section 199 & 200 Cr. P.C"
+        ],
+        "court": "CC No-1/2018, MPs & MLAs Court Vijayawada",
+        "description": "Section 199 & 200 Cr. P.C",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "168/2016, Surya Rao Peta Police Station",
+        "sections": [
+          "143",
+          "291",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Section 32 Indian Police Act"
+        ],
+        "court": "CC No- 45/2018, MPs & MLAs Court Vijayawada",
+        "description": "Section 32 Indian Police Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "172/2016, Governorpet Police Station",
+        "sections": [
+          "143",
+          "290",
+          "188",
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC No. 18/2017, MPs & MLAs Court At Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "473/2015, Krishnalanka Police Station",
+        "sections": [
+          "341",
+          "188",
+          "290"
+        ],
+        "other_acts": [],
+        "court": "CC No-27/2018, MPs & MLAs Court At Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "191/2016, Suryarao Peta Police Station",
+        "sections": [
+          "143",
+          "291",
+          "188",
+          "341",
+          "149"
+        ],
+        "other_acts": [
+          "Section 32 of Indian Police Act"
+        ],
+        "court": "CC No-44/2018, MPs & MLAs Court At Vijayawada",
+        "description": "Section 32 of Indian Police Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Ghantasala Police Station",
+        "sections": [
+          "147",
+          "353",
+          "427",
+          "341",
+          "149",
+          "32"
+        ],
+        "other_acts": [],
+        "court": "CC No-699/2017, Junior Civil Court\r\nAvanigadda",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Surya Rao Peta Police Station",
+        "sections": [],
+        "other_acts": [],
+        "court": "CC No-46/2018, MPs & MLAs Court At Vijayawada",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "79": {
+    "constituency_name": "VIJAYWADA WEST",
+    "winner_name": "Velam Palli Srinivasa Rao",
+    "myneta_name": "Velam Palli Srinivasa Rao",
+    "myneta_candidate_id": 7313,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "312/2018, Ajithsingh Nagar Police Station Vijayawada",
+        "sections": [
+          "417",
+          "419",
+          "420"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "174/2018, Satyanarayanapuram Police Station, Vijayawada",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.P.C."
+        ],
+        "court": "",
+        "description": "Sec.151 Cr.P.C.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "80": {
+    "constituency_name": "VIJAYAWADA CENTRAL",
+    "winner_name": "Malladi Vishnu",
+    "myneta_name": "Vishnu Vardhan Malladi",
+    "myneta_candidate_id": 4800,
+    "match_score": 0.867,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.65/2018, dt.01/03/2018, Suryaraopet P.S. Vijayawada",
+        "sections": [
+          "143",
+          "188",
+          "290",
+          "341"
+        ],
+        "other_acts": [
+          "Sec.32 of Police Act 1861"
+        ],
+        "court": "",
+        "description": "Sec.32 of Police Act 1861",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "721/2015 dt. Krsihanlanka Police Station",
+        "sections": [
+          "284",
+          "420",
+          "120B",
+          "337",
+          "304A",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.3(3) of Benami Transactions (Prohibition) Act 1988"
+        ],
+        "court": "PRC No.88/2018, Second Additional Chief Metropolitan Magistrate Court-VJA",
+        "description": "Sec.3(3) of Benami Transactions (Prohibition) Act 1988 Criminal Petition in CRLP No.12479/2018 Quash the PRC No.88/2018 has been filed and pending on the file of Honorable High Court",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "81": {
+    "constituency_name": "VIJAYAWADA EAST",
+    "winner_name": "Gadde Rama Mohan",
+    "myneta_name": "Gadde Rama Mohan",
+    "myneta_candidate_id": 4804,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "83": {
+    "constituency_name": "NANDIGAMA",
+    "winner_name": "Monditoka Jagan Mohana Rao",
+    "myneta_name": "Monditoka . Jagan Mohana Rao",
+    "myneta_candidate_id": 4818,
+    "match_score": 1.0,
+    "criminal_cases": 5,
+    "criminal_details_pending": [
+      {
+        "fir_number": "111/2016, Veerulapadu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "290",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "STC.No.705/2016, Additional Special Judicial Second Class Magistrate, Nandigama",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "8/2017, Veerulapadu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "9/2017, Veerulapadu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "17/2017, Kanchikacharla Police Station, Krishna Dist.",
+        "sections": [
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "11/2017, Chandarlapadu Police Station, Krishna Dist.",
+        "sections": [
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "84": {
+    "constituency_name": "JAGGAYYAPETA",
+    "winner_name": "Udayabhanu Samineni",
+    "myneta_name": "Udayabhanu Samineni",
+    "myneta_candidate_id": 6724,
+    "match_score": 1.0,
+    "criminal_cases": 18,
+    "criminal_details_pending": [
+      {
+        "fir_number": "97/2019, Chillakallu Police Station",
+        "sections": [
+          "341",
+          "188",
+          "171H",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "198/2018, Vatsavai Police Station",
+        "sections": [
+          "341",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "182/2018, Vatsavai Police Station, Vatsavai Post, Krishna Dist.",
+        "sections": [
+          "341",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "134/2018, Jaggayyapet Police Station, Krishna Dist.",
+        "sections": [
+          "342",
+          "384",
+          "365",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "133/2018, Jaggayyapet Police Station it was Transferred to Nandigama P.S., Krishna Dist.",
+        "sections": [
+          "342",
+          "384",
+          "365",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "605/2017, Ibrahimpatnam Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "275/2017, Chillakallu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "57/2017, Nandigama Police Station, Krishna Dist.",
+        "sections": [
+          "353",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "17/2017, Kanchikacharla Police Station, Krishna Dist.",
+        "sections": [
+          "500",
+          "504",
+          "341",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "11/2017, Chardarlapadu Police Station, Krishna Dist.",
+        "sections": [
+          "500",
+          "341",
+          "504",
+          "502(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "9/2017, Veerlapadu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "8/2017, Veerlapadu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "111/2016, Veerlapadu Police Station, Krishna Dist.",
+        "sections": [
+          "341",
+          "143",
+          "290",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "21/2015, Jaggayyapet Police Station, Krishna Dist.",
+        "sections": [
+          "143",
+          "341",
+          "353",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "342",
+          "384",
+          "365",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC.No.57/2019, Additional Judicial First Class Magistrate Court, Nandigma Krishna Dist.",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.No.495/2018, Additional Judicial First Class Magistrate Court, Jaggayyapet, Krishna Dist.",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC.No.164/2018, Additional Judicial First Class Magistrate Court, Nandigama, Krishna Dist.",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "145",
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC.No.6/2018, Additional Judicial First Class Magistrate Court, Jaggyyapet, Krishna Dist.",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "86": {
+    "constituency_name": "TADIKONDA (SC)",
+    "winner_name": "Vundavalli Sridevi",
+    "myneta_name": "Vundavall Sridevi",
+    "myneta_candidate_id": 4830,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "87": {
+    "constituency_name": "MANGALAGIRI",
+    "winner_name": "Alla Rama Krishna Reddy (Rk)",
+    "myneta_name": "Rama Krishna Reddy Alla",
+    "myneta_candidate_id": 5311,
+    "match_score": 0.92,
+    "criminal_cases": 7,
+    "criminal_details_pending": [
+      {
+        "fir_number": "26/2019, Mangalagiri Town Police Station, Mangalagiri, Guntur Urban District",
+        "sections": [
+          "341",
+          "143",
+          "188"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "256/2018, Nagarampalem Police Station, Guntur Urban District",
+        "sections": [
+          "341",
+          "188",
+          "143",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "371/2018, Pattabhipuram Police Station, Guntur Urban District",
+        "sections": [
+          "143",
+          "188",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "310/2018, Kothapet Police Station, Kothapet Guntur, Urban District",
+        "sections": [
+          "143",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "228/2018, Mangalagiri Town Police Station, Mangalagiri, Guntur Urban District",
+        "sections": [
+          "341",
+          "143",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC No. 11/2019, Additional Junior CiviL Judge, Mangalagiri",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "250/2017, Tadepalli Police Station, Guntur Urban District",
+        "sections": [
+          "341",
+          "353",
+          "506",
+          "34"
+        ],
+        "other_acts": [
+          "Section 3 of PDPP Act"
+        ],
+        "court": "CC No. 212/2018, Principal Junior Civil Judge Mangalagiri",
+        "description": "Section 3 of PDPP Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "207/2015, Mangalagiri Town Police Station, Mangalagiri, Guntur Urban District",
+        "sections": [
+          "143",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "CC No. 608/2016, Additional Junior CiviL Judge, Mangalagiri",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "90": {
+    "constituency_name": "REPALLE",
+    "winner_name": "Anagani Satya Prasad",
+    "myneta_name": "Anagani Satyaprasad",
+    "myneta_candidate_id": 4841,
+    "match_score": 0.733,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "119/2018, Cherukupalli PS, Cheupukalli",
+        "sections": [
+          "188",
+          "290",
+          "34"
+        ],
+        "other_acts": [
+          "Section 9(2) of APG Act"
+        ],
+        "court": "AJCJ Court, Repalle",
+        "description": "Section 9(2) of APG Act We came to know that the case is referred as False Procs. Given by the DSP Bapatla. Hence final report filed before AJCJ Court, Repalle. The same was pending in the Court",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "92": {
+    "constituency_name": "BAPATLA",
+    "winner_name": "Kona Raghupathi",
+    "myneta_name": "Kona Raghupathi",
+    "myneta_candidate_id": 4850,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "93": {
+    "constituency_name": "PRATHIPADU (SC)",
+    "winner_name": "Mekathoti Sucharitha",
+    "myneta_name": "Sucharitha Mekathoti",
+    "myneta_candidate_id": 5301,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "376/2014 GUNTUR URBAN POLICE STATION",
+        "sections": [
+          "188",
+          "171E"
+        ],
+        "other_acts": [
+          "Sec.123-(B) (b)",
+          "RP Act"
+        ],
+        "court": "CC No.1/19, 2ND AJCJ, GUNTUR",
+        "description": "Sec.123-(B) (b), RP Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "94": {
+    "constituency_name": "GUNTUR WEST",
+    "winner_name": "Maddali Giridhara Rao",
+    "myneta_name": "Maddali Giridhara Rao",
+    "myneta_candidate_id": 4857,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "95": {
+    "constituency_name": "GUNTUR EAST",
+    "winner_name": "Mohammed Mustafa Shaik",
+    "myneta_name": "Mohammad Musthafa Shaik",
+    "myneta_candidate_id": 5319,
+    "match_score": 0.733,
+    "criminal_cases": 8,
+    "criminal_details_pending": [
+      {
+        "fir_number": "310/2018 dated 25.10.2018, Kothapet Police Station, Guntur",
+        "sections": [
+          "143",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "18/2017 dated 18.01.2017, Old Guntur Police Station Guntur",
+        "sections": [
+          "341"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "314/2016 dated 13.10.2016, Old Guntur Police Station Guntur",
+        "sections": [
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "148/2016 dated 08.06.2016, Arundelpet Police Station, Guntur",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "125/2016 dated 24.05.2016, Old Guntur Police Station, Guntur",
+        "sections": [
+          "143",
+          "448",
+          "341",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "113/2016 dated 05.05.2016, Arundelpet Police Station, Guntur",
+        "sections": [
+          "143",
+          "188",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "55/2016 dated 28.02.2016, Pedakakani Police Station, Guntur Dist",
+        "sections": [
+          "143",
+          "427",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC No. 330/2018, VI Additional Junior Civil Judge Court, Guntur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "39/2016 dated 27.02.2016, Lalapet Police Station, Guntur",
+        "sections": [
+          "143",
+          "427",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "96": {
+    "constituency_name": "CHILAKALURIPET",
+    "winner_name": "Rajini Vidadala",
+    "myneta_name": "Rajini Vidadala",
+    "myneta_candidate_id": 4869,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "97": {
+    "constituency_name": "NARASARAOPET",
+    "winner_name": "Gopireddy Srinivasareddy",
+    "myneta_name": "Srinivasa Reddy Gopireddy",
+    "myneta_candidate_id": 4873,
+    "match_score": 0.733,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No-181/2018 NRT-II Town PS",
+        "sections": [
+          "188",
+          "341",
+          "283"
+        ],
+        "other_acts": [
+          "Sec. 32 Of Indian Police Act.",
+          "41 Cr.PC Notice Served Under Investigation Stage"
+        ],
+        "court": "",
+        "description": "Sec. 32 Of Indian Police Act.,  41 Cr.PC Notice Served Under Investigation Stage",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 74/2018, Rompicharla PS",
+        "sections": [
+          "143",
+          "147",
+          "324",
+          "506",
+          "427",
+          "149"
+        ],
+        "other_acts": [
+          "Sec. 3 of PDPP Act. 1984"
+        ],
+        "court": "CC No. 379/18, SPl. Court For Offences Against MLA & MPs 14th Additional Dist. Court Vijayawada",
+        "description": "Sec. 3 of PDPP Act. 1984",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 307/2017, Narasaraopet Rural PS",
+        "sections": [
+          "143",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 111/2015 Narasaraopet T-1 Town PS",
+        "sections": [
+          "143",
+          "188",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC 326/2015, 1st Additional Junior Civil Judge, NRT",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "98": {
+    "constituency_name": "SATTENAPALLI",
+    "winner_name": "Ambati Rambabu",
+    "myneta_name": "Rambabu Ambati",
+    "myneta_candidate_id": 4876,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "30/2019, Sattenapalli Town Police Station Guntur District",
+        "sections": [
+          "143",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "",
+        "sections": [
+          "499",
+          "500"
+        ],
+        "other_acts": [],
+        "court": "CC No. 763 of 2017, Honorable XIV Additional Chief Metropolitan Hyderabad",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "99": {
+    "constituency_name": "VINUKONDA",
+    "winner_name": "Bolla Brahma Naidu",
+    "myneta_name": "Bolla Brahma Naidu",
+    "myneta_candidate_id": 4881,
+    "match_score": 1.0,
+    "criminal_cases": 6,
+    "criminal_details_pending": [
+      {
+        "fir_number": "107/2016 of Narasaaraopeta rural P.S, Narasaraopet",
+        "sections": [
+          "342",
+          "324",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "C.C.No:576/2018, 1st Addl. Junior civil judge court: Narasaraopeta",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "174/2015 of Vinukonda P.S, Vinukonda",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "C.C.No:44/2016, Judicial Magistrate of 1st class court: Vinukonda",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "3843/2014 of Machilipatnam P.S, Machilipatnam",
+        "sections": [],
+        "other_acts": [
+          "Section 6 and Rule 4 (1) and 6",
+          "Sec 6 Rule 3(1)(a)",
+          "Sec 112",
+          "Rule 103",
+          "R/W Sec 2(1) and Sec 92 of factories Act 1948"
+        ],
+        "court": "C.C.No. 382/2015, Addl. Judicial 1st Class Magistrate Court: Tuni (East Godavari dist) (This case is transferred to this Court as per the proceedings of Honourable Districts Court, Rajamandri. Both parties are directed to appear before the Court)",
+        "description": "Section 6 and Rule 4 (1) and 6, Sec 6 Rule 3(1)(a), Sec 112, Rule 103, R/W Sec 2(1) and Sec 92 of factories Act 1948",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "124/2014 of Karimnagar P.S, Karimnagar (Telegana State)",
+        "sections": [],
+        "other_acts": [
+          "Section 6 rule 4(1)6",
+          "6 and Rule 3(1)(a)",
+          "112 and Rule 103 R/w Sec 2(1) of Factories Act 1948"
+        ],
+        "court": "STC No: 5/2015, Junior Civil Judge Court: Prathipadu (East Godavari dist)",
+        "description": "Section 6 rule 4(1)6, 6 and Rule 3(1)(a), 112 and Rule 103 R/w Sec 2(1) of Factories Act 1948",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "2915/2013 of Kakinada P.S. Kakinada",
+        "sections": [],
+        "other_acts": [
+          "Section 21(i) (iv) (b)",
+          "31",
+          "56",
+          "41 and rule 61E",
+          "and Sec 83 and rule 87 and Sec 92 of Factories Act 1948"
+        ],
+        "court": "C.C.No. 511/2014, Principal Junior Civil Judge Court:Gudivada (krishna Dist)",
+        "description": "Section 21(i) (iv) (b), 31, 56, 41 and rule 61E, and Sec 83 and rule 87 and Sec 92 of Factories Act 1948",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "1123/2013 of Kakinada P.S, Kakinada",
+        "sections": [],
+        "other_acts": [
+          "Section 3(1)",
+          "ZZ(iii) and U/S 59(i) FSS Act of 2006"
+        ],
+        "court": "CC No. 162/2014",
+        "description": "Section 3(1), ZZ(iii) and U/S 59(i) FSS Act of 2006",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "101": {
+    "constituency_name": "MACHERLA",
+    "winner_name": "Ramakrishnareddy Pinnelli.",
+    "myneta_name": "Ramakrishna Reddy Pinnelli",
+    "myneta_candidate_id": 4884,
+    "match_score": 0.733,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "331/2018 Gurazala Town Police Station",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "34/2017 Veldurthy Police Station",
+        "sections": [
+          "147",
+          "148",
+          "326",
+          "302",
+          "149",
+          "109",
+          "120B"
+        ],
+        "other_acts": [],
+        "court": "PRC No. 2/2018, Honble Junior Civil Judge Macherla",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "252/2015 of Macherla Urban Police Station",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 420/2015, Honble Junior Civil Judge Macherla",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "75/2014 of Machavaram Police Station",
+        "sections": [
+          "147",
+          "148",
+          "324",
+          "307",
+          "354",
+          "427",
+          "149"
+        ],
+        "other_acts": [
+          "Section 3(i)(x)",
+          "3(2)(V)",
+          "3(1)(xi) of SC ST POA Act 1989 and Section 3 of Explosive Substances Act"
+        ],
+        "court": "PRC No. 15/2018, Honble Junior Civil Judge Piduguralla",
+        "description": "Section 3(i)(x), 3(2)(V), 3(1)(xi) of SC ST POA Act 1989 and Section 3 of Explosive Substances Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "102": {
+    "constituency_name": "YERRAGONDAPALEM",
+    "winner_name": "Audimulapu Suresh",
+    "myneta_name": "Dr. Suresh Audimulapu",
+    "myneta_candidate_id": 4888,
+    "match_score": 0.867,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "RC MA1 2017A 0021 Dated -22.09.17,Spe : CBI :ACB Chennai.",
+        "sections": [
+          "109"
+        ],
+        "other_acts": [
+          "SEC 13(2)R/W 13(1)(e)",
+          "PCA",
+          "1988"
+        ],
+        "court": "WP NO: 8552/2018, HIGH COURT OF TELANGANA, HYDERABAD",
+        "description": "SEC 13(2)R/W 13(1)(e),PCA, 1988",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "104": {
+    "constituency_name": "PARCHUR",
+    "winner_name": "Yeluri Samba Sivarao",
+    "myneta_name": "Yeluri Samba Siva Rao",
+    "myneta_candidate_id": 6861,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "105": {
+    "constituency_name": "ADDANKI",
+    "winner_name": "Gottipati Ravikumar",
+    "myneta_name": "Gottipati Ravi Kumar",
+    "myneta_candidate_id": 5571,
+    "match_score": 0.733,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "88/2015 Medarametla Police Station Koresapadu (M), prakasam Dt.",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No.8/2016, Special court Judge for Trail of cases relating to MPs and MLAs at Vijaywad",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "106": {
+    "constituency_name": "CHIRALA",
+    "winner_name": "Karanam Balarama Krishna Murthy",
+    "myneta_name": "Balarama Krishna Murthy Karanam",
+    "myneta_candidate_id": 4895,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.no.129/06  SHO , Maddipadu P.S Prakasam",
+        "sections": [
+          "186",
+          "353",
+          "341",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC. No.11/18, 8th Addl. Dist.Judge Cum Special Judge for Trial of criminal cases relating to elected MLAs & MPs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.no 131/06 SHO, Maddipadu P.S. Prakasam",
+        "sections": [
+          "186",
+          "353",
+          "509"
+        ],
+        "other_acts": [
+          "Sec.7 Sub-Sec (1) of Law Amendment Act"
+        ],
+        "court": "CC.No.10/18, 8th Addl. Dist.Judge Cum Special Judge for Trial of criminal cases relating to elected MLAs & MPs at Vijayawada",
+        "description": "Sec.7 Sub-Sec (1) of Law Amendment Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "107": {
+    "constituency_name": "SANTHANUTHALAPADU",
+    "winner_name": "T.J.R. Sudhakar Babu",
+    "myneta_name": "Thalathoti Jaya Ratna Sudhakar Babu",
+    "myneta_candidate_id": 6891,
+    "match_score": 0.76,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "108": {
+    "constituency_name": "ONGOLE",
+    "winner_name": "Balineni Srinivasa Reddy (Vasu)",
+    "myneta_name": "Balineni Srinivasa Reddy (Vasu)",
+    "myneta_candidate_id": 5961,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime no.37/2019, Ongole II Town P.S.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "188",
+          "341",
+          "332",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "II Addl. JMFC, Ongole",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "109": {
+    "constituency_name": "KANDUKUR",
+    "winner_name": "Maheedhar Reddy Manugunta",
+    "myneta_name": "Maheedhar Reddy Manugunta",
+    "myneta_candidate_id": 4902,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "111": {
+    "constituency_name": "MARKAPURAM",
+    "winner_name": "Kunduru Nagarjuna Reddy",
+    "myneta_name": "Kunduru Nagarjuna Reddy",
+    "myneta_candidate_id": 4904,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "112": {
+    "constituency_name": "GIDDALUR",
+    "winner_name": "Anna Rambabu",
+    "myneta_name": "Anna Rambabu",
+    "myneta_candidate_id": 4907,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "113": {
+    "constituency_name": "KANIGIRI",
+    "winner_name": "Burra Madhu Sudhan Yadav",
+    "myneta_name": "Burra Madhu Sudhana Rao",
+    "myneta_candidate_id": 5718,
+    "match_score": 0.8,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.no.l70/2016 \r\nKanigiri Police\r\nStation",
+        "sections": [
+          "143",
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC.No.84/2017, JFCM\r\nCourt Kanigiri",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.no.125/2014 Kanigiri Police\r\nStation",
+        "sections": [
+          "143",
+          "452",
+          "365",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.No.33/2016, JFCM\r\nCourt Kanigiri",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "114": {
+    "constituency_name": "KAVALI",
+    "winner_name": "Ramireddy Pratap Kumar Reddy",
+    "myneta_name": "Ramireddy Pratap Kumar Reddy",
+    "myneta_candidate_id": 5748,
+    "match_score": 1.0,
+    "criminal_cases": 7,
+    "criminal_details_pending": [
+      {
+        "fir_number": "(Crime No.) P.R. No.17 of 2014-15 Kavali Prohibition and Excise Station, Kavali, SPSR Nellore Dist.",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968",
+          "Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.35 of 2014",
+          "P.S. Hyderabad",
+          "After Investigation the Inspector of Police CID",
+          "RO Tirupati Filled Charge sheet"
+        ],
+        "court": "C.C.No 36 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968, Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.35 of 2014, P.S. Hyderabad, After Investigation the Inspector of Police CID, RO Tirupati Filled Charge sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "(Crime No.) P.R. No.19 of 2014-15, 5 Kavali Prohibition and Excise Station, Kavali, SPSR Nellore Dist.",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968",
+          "Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.36 of 2014",
+          "P.S. Hyderabad",
+          "After Investigation the Inspector of Police CID",
+          "RO Tirupati Filled Charge sheet"
+        ],
+        "court": "C.C.No 37 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968, Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.36 of 2014, P.S. Hyderabad, After Investigation the Inspector of Police CID, RO Tirupati Filled Charge sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "(Crime No) P.R.No. 20 of 2014-15, Kavali Prohibition and Excise Station, Kavali, SPSR Nellore Dist.",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968",
+          "Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.38 of 2014",
+          "P.S. Hyderabad",
+          "After Investigation the Inspector of Police CID",
+          "RO Tirupati Filled Charge sheet"
+        ],
+        "court": "C.C.No 54 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968, Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.38 of 2014, P.S. Hyderabad, After Investigation the Inspector of Police CID, RO Tirupati Filled Charge sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "(Crime No) P.R.No. 21 of 2014-15, Kavali Prohibition and Excise Station, Kavali, SPSR Nellore Dist.",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968",
+          "Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.40 of 2014",
+          "P.S. Hyderabad",
+          "After Investigation the Inspector of Police CID",
+          "RO Tirupati Filled Charge sheet"
+        ],
+        "court": "C.C.No 55 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968, Sec.37(3) of the AP Excise Act.1968 This Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.40 of 2014, P.S. Hyderabad, After Investigation the Inspector of Police CID, RO Tirupati Filled Charge sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "(Crime No.) P.R. No.23 of 2014-15 Kavali Prohibition and Excise Station, Kavali, SPSR Nellore Dist.",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968",
+          "Sec.37(3) of the AP Excise Act.1968\tThis Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.41 of 2014",
+          "P.S. Hyderabad",
+          "After Investigation the Inspector of Police \tCID",
+          "RO Tirupati Filled Charge sheet"
+        ],
+        "court": "C.C.No 38 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968, Sec.37(3) of the AP Excise Act.1968\tThis Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.41 of 2014, P.S. Hyderabad, After Investigation the Inspector of Police \tCID, RO Tirupati Filled Charge sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "(Crime No.) P.R. No.24 of 2014-15 Kavali Prohibition and Excise Station, Kavali, SPSR Nellore Dist.",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968",
+          "Sec.37(3) of the AP Excise Act.1968\tThis Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.42 of 2014",
+          "P.S. Hyderabad",
+          "After Investigation the Inspector of Police CID",
+          "RO Tirupati Filled Charge sheet"
+        ],
+        "court": "C.C.No 39 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec.34(a) of The AP Excise Act 1968 Sec 37(A) of the AP Excise Act 1968, Sec.37(3) of the AP Excise Act.1968\tThis Case is entrusted to CID Department. The CID Department Re-Registered the same as Crime No.42 of 2014, P.S. Hyderabad, After Investigation the Inspector of Police CID, RO Tirupati Filled Charge sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "141 of 2014 Dagadarthi P.S. Nellore Dist.",
+        "sections": [
+          "143",
+          "341",
+          "283"
+        ],
+        "other_acts": [],
+        "court": "6-2018,, Special Court for Trial Cases of Elected MPs and MLAs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "115": {
+    "constituency_name": "ATMAKUR",
+    "winner_name": "Mekapati Goutham Reddy",
+    "myneta_name": "Mekapati Goutham Reddy",
+    "myneta_candidate_id": 4916,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "CR No 184/2012, II Town Police Station Nellore",
+        "sections": [
+          "420",
+          "452",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Old No- 95/2016, CC No New No- 49/2018, Judge Spl. Court For Trial of Case Relating To Elected MPs & MLAs Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR No 19/2011, Khajipet Police Station Kadapa District",
+        "sections": [
+          "447",
+          "379"
+        ],
+        "other_acts": [],
+        "court": "CC No(New)-491/2018 (Old) 273/2016, I Addl. Junior Civil Judge At Kadapa",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR No 500/2017, Narsingi Police Station Cyberabad, RR District",
+        "sections": [
+          "418",
+          "420",
+          "463",
+          "468",
+          "471",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Under Investigation"
+        ],
+        "court": "",
+        "description": "Under Investigation",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "116": {
+    "constituency_name": "KOVUR",
+    "winner_name": "Nallapareddy Prasanna Kumar Reddy",
+    "myneta_name": "Nallapareddy Prasanna Kumar Reddy",
+    "myneta_candidate_id": 4920,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "141/2014, Dagadarthi Police Station , Dagadarthi Mandal SPSR Nellore (D.T.), AP",
+        "sections": [
+          "143",
+          "341",
+          "283",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC No- 06/2018, Special Court From Trial of Criminal Cases Against MPs & MLAs At Vijayawda (AP)",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "117": {
+    "constituency_name": "NELLORE CITY",
+    "winner_name": "Anil Kumar Poluboina",
+    "myneta_name": "Poluboina Anil Kumar",
+    "myneta_candidate_id": 4923,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "120/15, Of III Town P.S.(Now It is called santhapet P.S.)\r\nNellore",
+        "sections": [
+          "323",
+          "506",
+          "34"
+        ],
+        "other_acts": [
+          "Sec 3(i)(x) of SC & ST (POA) Act 1989."
+        ],
+        "court": "S.C NO. 58/16, V Addl.Dist & Session Judge cum Spl.Judge.For the trail of Offences under SC & ST (POA) Act-1989, Nellore.",
+        "description": "Sec 3(i)(x) of SC & ST (POA) Act 1989.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "88/2015 Of Medarametla, P.S. Prakasam Dist.",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "C.C NO.69/18, Judge Spl.Court for trail of cases relating to elected MP & MLA Vijayawada.",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "118": {
+    "constituency_name": "NELLORE RURAL",
+    "winner_name": "Kotamreddy Sridhar Reddy",
+    "myneta_name": "Kotamreddy Sridhar Reddy",
+    "myneta_candidate_id": 4928,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "70/2019, Vedayapalem PS, Nellore",
+        "sections": [
+          "143",
+          "448",
+          "353",
+          "189",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Vth AJMFC, Nellore",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "3/2018, A.C.B., C.I.U., AP, Vijayawada",
+        "sections": [],
+        "other_acts": [
+          "Section 13(2) R/W 13(1)(d) of Prevention of Corruption Act 1988"
+        ],
+        "court": "Special Judge For Trial of SPE & ACB Cases, Vijayawada",
+        "description": "Section 13(2) R/W 13(1)(d) of Prevention of Corruption Act 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "54/2017, II Town PS, Nellore",
+        "sections": [
+          "109",
+          "173",
+          "174"
+        ],
+        "other_acts": [
+          "Section 3 & 4 of AP Gaming Act"
+        ],
+        "court": "CC No-156/2018, II AJMFC, Nellore",
+        "description": "Section 3 & 4 of AP Gaming Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "119": {
+    "constituency_name": "SARVEPALLI",
+    "winner_name": "Kakani Govardhan Reddy",
+    "myneta_name": "Kakani Govardhan Reddy",
+    "myneta_candidate_id": 4929,
+    "match_score": 1.0,
+    "criminal_cases": 7,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No. 88 of 2015, Medaramatla Police Station, Prakasam District",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 69/2018, Special Court for Trail of Cases Relating to Elected MPs and MLAs Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 521 of 2016, Nellore Rural Police Station, Nellore",
+        "sections": [
+          "120B",
+          "468",
+          "469",
+          "471",
+          "506"
+        ],
+        "other_acts": [
+          "Sec. 65 and 71 of IT Act (In this case charge sheet is filed in the Fourth Additional Judicial Magistrate of First Class Court",
+          "Nellore which is the Jurisdiction court to above case against myself and 3 others and it is learnt the court did not take the case on the file and returned the charge sheet to the police for want of evidence)"
+        ],
+        "court": "Fourth Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec. 65 and 71 of IT Act (In this case charge sheet is filed in the Fourth Additional Judicial Magistrate of First Class Court, Nellore which is the Jurisdiction court to above case against myself and 3 others and it is learnt the court did not take the case on the file and returned the charge sheet to the police for want of evidence)",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No. 442 of 2016, Nellore Rural Police Station",
+        "sections": [
+          "447",
+          "427"
+        ],
+        "other_acts": [
+          "In this case charge sheet is filed in the Fourth Additional Judicial Magistrate of First Class Court",
+          "Nellore which is the jurisdiction court to the above case. It is learnt the Honble Court did not take the case on the file and returned the charge sheet to the police on the ground it is a civil dispute and how charge sheet is maintainable"
+        ],
+        "court": "Fourth Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "In this case charge sheet is filed in the Fourth Additional Judicial Magistrate of First Class Court, Nellore which is the jurisdiction court to the above case. It is learnt the Honble Court did not take the case on the file and returned the charge sheet to the police on the ground it is a civil dispute and how charge sheet is maintainable",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "P.R.No. 40 of 2014-15",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec. 34(a) and 37(a)(3) of AP Excise Act 1968 (PR No. 40 of 2014-15 Under section 34 (a) of the A.P. Excise Act 1968 on the file of Nellore-II Prohibition and Excise Station",
+          "Nellore",
+          "SPS Nellore District",
+          "Investigation in this case is entrusted to CID Department. The CID Department re-registered the sam as Crime No. 49 of 2014 Under Section 34(a) and 37(A)(3) of the AP Excise Act 1968 and Sec. 420",
+          "487",
+          "120B",
+          "34 IPC on the file of CID Police Station Hyderabad. After investigation the Inspector of Police CID",
+          "RO tirupati filed charge sheet)"
+        ],
+        "court": "CC No. 59 of 2017, Second Additional Judicial Magistrate of First Class, Nellore",
+        "description": "Sec. 34(a) and 37(a)(3) of AP Excise Act 1968 (PR No. 40 of 2014-15 Under section 34 (a) of the A.P. Excise Act 1968 on the file of Nellore-II Prohibition and Excise Station, Nellore, SPS Nellore District, Investigation in this case is entrusted to CID Department. The CID Department re-registered the sam as Crime No. 49 of 2014 Under Section 34(a) and 37(A)(3) of the AP Excise Act 1968 and Sec. 420, 487, 120B, 34 IPC on the file of CID Police Station Hyderabad. After investigation the Inspector of Police CID, RO tirupati filed charge sheet)",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "P.R.No. 39 of 2014-15",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec. 34(a) and 37(a)(3) of the AP Excise Act 1968 (PR No. 39 of 2014-15",
+          "Under Section 34(a) of the A.P. Excise Act 1968 on the file of Nellore-II Prohibition and Excise Station",
+          "Nellore",
+          "SPS Nellore District. Investigation in this case is entrusted to CID Department. The CID Department re-registered the same as Crime No. 48 of 2014 Under Section 34(a) and 37(a)(3) of the AP Excise Act 1968 and Sec. 420",
+          "487",
+          "120B",
+          "34 IPC on the file of CID Police Station",
+          "Hyderabad. After Investigation the Inspector of Police CID",
+          "RO Tirupati filed charge sheet)"
+        ],
+        "court": "CC No. 58 of 2017, Second Additional Judicial Magistrate of First Class Court Nellore",
+        "description": "Sec. 34(a) and 37(a)(3) of the AP Excise Act 1968 (PR No. 39 of 2014-15, Under Section 34(a) of the A.P. Excise Act 1968 on the file of Nellore-II Prohibition and Excise Station, Nellore, SPS Nellore District. Investigation in this case is entrusted to CID Department. The CID Department re-registered the same as Crime No. 48 of 2014 Under Section 34(a) and 37(a)(3) of the AP Excise Act 1968 and Sec. 420, 487, 120B, 34 IPC on the file of CID Police Station, Hyderabad. After Investigation the Inspector of Police CID, RO Tirupati filed charge sheet)",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "P.R No. 36 of 2014-15",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec. 34(a) and 37(a)(3) of the AP Excise Act 1968 (PR No. 36 of 2014-15",
+          "Under Sections 34(a) of the A.P. Excise Act 1968 on the file of Nellore-II Prohibition and Excise Station",
+          "Nellore",
+          "SPS Nellore District. Investigation in this case is entrusted to CID Department. The CID Department re-registered the same as Crime No. 47 of 2014 Under Section 34(a) and (37(a)(3) of the AP Excise Act 1968 and Sec. 420",
+          "487",
+          "120B",
+          "34 IPC on the file of CID Police Station",
+          "Hyderabad",
+          "After Investigation the Inspector of Police CID",
+          "RO tirupati filed Charge Sheet"
+        ],
+        "court": "CC No. 57 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec. 34(a) and 37(a)(3) of the AP Excise Act 1968 (PR No. 36 of 2014-15, Under Sections 34(a) of the A.P. Excise Act 1968 on the file of Nellore-II Prohibition and Excise Station, Nellore, SPS Nellore District. Investigation in this case is entrusted to CID Department. The CID Department re-registered the same as Crime No. 47 of 2014 Under Section 34(a) and (37(a)(3) of the AP Excise Act 1968 and Sec. 420, 487, 120B, 34 IPC on the file of CID Police Station, Hyderabad, After Investigation the Inspector of Police CID, RO tirupati filed Charge Sheet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "P.R. No. 27 of 2014-15",
+        "sections": [
+          "420",
+          "487",
+          "120B",
+          "34"
+        ],
+        "other_acts": [
+          "Sec. 34(a) and 37(a)(3) of the AP Excise Act 1968 (PR No. 27 of 2014-15",
+          "Under Section 34(a) of the A.P. Excise Act 1968 on the file of Rapur Prohibition and Excise Station",
+          "Rapur",
+          "SPS Nellore District Investigation in this case is entrusted to CID Department",
+          "The CID Department re-registered the same as Crime No. 46 of 2014 Under Section 34(a) and 37(A)(3) of the AP Excise Act 1968 and Sec. 420",
+          "487",
+          "120B",
+          "r/w 34 IPC on the file of CID Police Station",
+          "Hyderabad. After investigation the Inspector of Police CID",
+          "RO Tirupati Filed Charge Sheet"
+        ],
+        "court": "CC No. 56 of 2017, Second Additional Judicial Magistrate of First Class Court, Nellore",
+        "description": "Sec. 34(a) and 37(a)(3) of the AP Excise Act 1968 (PR No. 27 of 2014-15, Under Section 34(a) of the A.P. Excise Act 1968 on the file of Rapur Prohibition and Excise Station, Rapur, SPS Nellore District Investigation in this case is entrusted to CID Department, The CID Department re-registered the same as Crime No. 46 of 2014 Under Section 34(a) and 37(A)(3) of the AP Excise Act 1968 and Sec. 420, 487, 120B, r/w 34 IPC on the file of CID Police Station, Hyderabad. After investigation the Inspector of Police CID, RO Tirupati Filed Charge Sheet",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "120": {
+    "constituency_name": "GUDUR",
+    "winner_name": "Velagapalli Varaprasad Rao",
+    "myneta_name": "Varaprasad Rao Velagapalli",
+    "myneta_candidate_id": 5529,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "121": {
+    "constituency_name": "SULLURPETA",
+    "winner_name": "Kiliveti Sanjeevaiah",
+    "myneta_name": "Kiliveti Sanjeevaiah",
+    "myneta_candidate_id": 4931,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "122": {
+    "constituency_name": "VENKATAGIRI",
+    "winner_name": "Anam Ramanarayana Reddy",
+    "myneta_name": "Anam Ramanarayana Reddy",
+    "myneta_candidate_id": 7074,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "189/2005, Police Station-No. III Town Police Station, Railway Feeders Road, Nellore, SPSR Nellore District, State of A.P.",
+        "sections": [
+          "147",
+          "323",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "1177/2007, 2nd Additional Judicial First Class Magistrate Court, Nellore",
+        "description": "The Assistant Public Prosecutor filed an application under sec.321 Cr.P.C. praying the court to withdraw the case in C.C. No.1177/2007, The Honorable court after considering the material on record withdrawn the case against Anam Ramnarayana Reddy and others and acquitted Anam Ramanarayana Reddy and others. As Against this Judgment the defecto-Complaint Anam Venkata Ramana Reddy filed CRLRC No.192/2012 in the Honourable High Court of A.P. at Hyderabad. The same is pending disposable",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "123": {
+    "constituency_name": "UDAYAGIRI",
+    "winner_name": "Mekapati Chandra Sekhar Reddy",
+    "myneta_name": "Mekapati Chandra Sekhar Reddy",
+    "myneta_candidate_id": 4934,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "124": {
+    "constituency_name": "BADVEL",
+    "winner_name": "Dr. G. Venkata Subbaiah",
+    "myneta_name": "Gunthoti Venkata Subbaiah",
+    "myneta_candidate_id": 4936,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "125": {
+    "constituency_name": "RAJAMPET",
+    "winner_name": "Meda Venkata Mallikarjuna Reddy",
+    "myneta_name": "Meda Venkata Mallikarjuna Reddy",
+    "myneta_candidate_id": 4938,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "126": {
+    "constituency_name": "KADAPA",
+    "winner_name": "Amzath Basha Shaik Bepari",
+    "myneta_name": "Amzath Basha Shaik Bepari",
+    "myneta_candidate_id": 4945,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "04/2018, P. S. Kadapa- 1 town U/G",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [
+          "Not yet numbered as investigation pending by the 1 Town Police Station"
+        ],
+        "court": "",
+        "description": "Not yet numbered as investigation pending by the 1 Town Police Station",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "201/18 Railway Protection Forces, P.S. Kadapa",
+        "sections": [],
+        "other_acts": [
+          "Sec.146",
+          "147",
+          "174(a) Railways Act",
+          "2003"
+        ],
+        "court": "STC No.746/2018, Spl. Judicial Magistrate of 1st Class For Railways Offence, Guntakal",
+        "description": "Sec.146,147,174(a) Railways Act, 2003",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "127": {
+    "constituency_name": "KODUR",
+    "winner_name": "Koramutla Sreenivasulu",
+    "myneta_name": "Koramutla Sreenivasulu",
+    "myneta_candidate_id": 5339,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "128": {
+    "constituency_name": "RAYACHOTI",
+    "winner_name": "Gadikota. Srikanth Reddy.",
+    "myneta_name": "Gadikokta. Srikanth Reddy",
+    "myneta_candidate_id": 4948,
+    "match_score": 0.867,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "91 of 2015, Police Station- L. R. Palli, YSR Kadapa Dist.",
+        "sections": [
+          "448",
+          "427",
+          "34"
+        ],
+        "other_acts": [
+          "Trial not yet completed"
+        ],
+        "court": "C.C.No 7/2018, Special Court for trial of Criminal Cases Elected MPs and MLAs, Vijayawada",
+        "description": "Trial not yet completed",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "129": {
+    "constituency_name": "PULIVENDLA",
+    "winner_name": "Y S Jagan Mohan Reddy",
+    "myneta_name": "Yeduguri Sandinti Jagan Mohan Reddy",
+    "myneta_candidate_id": 5332,
+    "match_score": 0.84,
+    "criminal_cases": 38,
+    "criminal_details_pending": [
+      {
+        "fir_number": "",
+        "sections": [
+          "499",
+          "500",
+          "501",
+          "502",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "C.C.No. 33 of 2018, Judge Spl. Court For Trail of Cases Relating to Elected MPs and MLAs Vijayawada Cum VIII Addl. District and Session Judge Cum V Addl. Metropolitan Session Judge, Vijayawada Krishna District",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No. 09/HZO/2011, Police Station Directorate of Enforcement Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002"
+        ],
+        "court": "SC No. 2 of 2018, The Court of Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No. 09/HZO/2011, Police Station Directorate of Enforcement Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002"
+        ],
+        "court": "SC No. 1 of 2018, The Court of Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "FIR No:57/2017, Police Station Nandigama Krishna District AP",
+        "sections": [
+          "353",
+          "506",
+          "34"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No. 09/HZO/2011, Police Station Directorate of Enforcement Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002"
+        ],
+        "court": "SC No. 2 of 2017, The Court of Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "64/2016, Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "427",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "63/2016, Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "427",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "62/2016,  Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "427",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "61/2016, Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "427",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "60/2016, Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "426",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "59/2016,  Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "427",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "58/2016, Police Station Mangalagiri (R) Guntur Urban",
+        "sections": [
+          "425",
+          "427",
+          "505",
+          "24"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "45/2016, Police Station Ponnur Rural Guntur",
+        "sections": [
+          "500",
+          "501"
+        ],
+        "other_acts": [
+          "No Cognizance Yet Taken"
+        ],
+        "court": "",
+        "description": "No Cognizance Yet Taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No. 09/HZO/2011, Police Station Directorate of Enforcement Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002"
+        ],
+        "court": "SC No. 2 of 2016, The Court of Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 4 R/W Section 3 of Prevention of Money Laundering Act. 2002",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No. 09/HZO/2011, Police Station Directorate of Enforcement Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 3",
+          "& 8(5) of Prevention of Money Laundering Act."
+        ],
+        "court": "SC No. 106 of 2015, New Case No. SC No. 1 of 2016, The Court of Metropolitan Session Judge, Nampally Hyderabad, The Court of Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 3, 4, & 8(5) of Prevention of Money Laundering Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "146 of 2014, Police Station Kodada Police Station Nalgonda District Telangana",
+        "sections": [
+          "188",
+          "341"
+        ],
+        "other_acts": [
+          "Sec. 30 of Police Act. 1861"
+        ],
+        "court": "C.C.No. 377 of 2014, The Court of the Principal Judicial First Class Magistrate Kodad",
+        "description": "Sec. 30 of Police Act. 1861 Petition No. 17482 of 2014 Filed Challenging the Registration of FIR and Stay Granted by Order of Honorable High Court of Andhra Pradesh Dated 26.06.2014, Despite the orders, Charge Sheet Filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011, CBI/HYD Police Station CBI ACB Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "409"
+        ],
+        "other_acts": [
+          "U/Sec 11",
+          "13(2) R/W 13 (1))C) & (D) of Prevention of Corruption Act. 1988"
+        ],
+        "court": "C.C. No. 26 of 2014",
+        "description": "U/Sec 11, 13(2) R/W 13 (1))C) & (D) of Prevention of Corruption Act. 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "861/2013, Police Station Saroor Nagar Cyberabad Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 3 of Prevention of Insults to Honour Act 1971",
+          "No cognizance yet taken"
+        ],
+        "court": "",
+        "description": "Section 3 of Prevention of Insults to Honour Act 1971, No cognizance yet taken",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011, CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "468",
+          "471"
+        ],
+        "other_acts": [
+          "Sec. 9 of Prevention of Corruption Act.",
+          "1988"
+        ],
+        "court": "C.C. No. 28 of 2013, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 of Prevention of Corruption Act., 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. 19(A) of 2011, CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420"
+        ],
+        "other_acts": [
+          "Sec. 9 of Prevention of Corruption Act.",
+          "1988"
+        ],
+        "court": "C.C. No. 27 of 2013, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 of Prevention of Corruption Act., 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420"
+        ],
+        "other_acts": [
+          "Sec. 9 of Prevention of Corruption Act.",
+          "1988"
+        ],
+        "court": "C.C. No. 26 of 2013, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 of Prevention of Corruption Act., 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "107"
+        ],
+        "other_acts": [
+          "Section 13(2) R/W 13(1)(D) Prevention of Corruption Act"
+        ],
+        "court": "C.C. No. 25 of 2013, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 13(2) R/W 13(1)(D) Prevention of Corruption Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420"
+        ],
+        "other_acts": [
+          "Sec. 9 & 12 of Prevention of Corruption Act.",
+          "1988"
+        ],
+        "court": "C.C. No. 24 of 2013, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 & 12 of Prevention of Corruption Act., 1988",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420"
+        ],
+        "other_acts": [
+          "Sec. 9 of Prevention of Corruption Act."
+        ],
+        "court": "C.C. No. 12 of 2013, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 of Prevention of Corruption Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "409"
+        ],
+        "other_acts": [
+          "Sec. 9 & 12 of Prevention of Corruption Act."
+        ],
+        "court": "C.C. No. 14 of 2012, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 & 12 of Prevention of Corruption Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "471"
+        ],
+        "other_acts": [
+          "Sec. 9 & 12 of Prevention of Corruption Act."
+        ],
+        "court": "C.C. No. 10 of 2012, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Sec. 9 & 12 of Prevention of Corruption Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "471"
+        ],
+        "other_acts": [],
+        "court": "C.C. No. 9 of 2012, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "R.C. No. 19(A) of 2011 - CBI/HYD Police Station CBI, ACB, Hyderabad",
+        "sections": [
+          "120B",
+          "420"
+        ],
+        "other_acts": [
+          "Section 12 R/W 11 of Prevention of Corruption Act."
+        ],
+        "court": "C.C. No. 8 of 2012, The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 12 R/W 11 of Prevention of Corruption Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "137/2011, Police Station Pulivendula YSR District",
+        "sections": [
+          "147",
+          "148",
+          "114",
+          "186",
+          "188",
+          "440",
+          "286",
+          "283",
+          "353",
+          "341",
+          "290",
+          "342",
+          "427",
+          "506"
+        ],
+        "other_acts": [
+          "Section 7(1) of Criminal Law Amendment Act. 1932 & Section 3 of Prevention of Damage to Public Property Act. 1984 (No Charge Sheet Filed) Cognizance not taken yet"
+        ],
+        "court": "",
+        "description": "Section 7(1) of Criminal Law Amendment Act. 1932 & Section 3 of Prevention of Damage to Public Property Act. 1984 (No Charge Sheet Filed) Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No. 09/HZO/2011, Police Station Directorate of Enforcement Hyderabad",
+        "sections": [
+          "120B",
+          "420",
+          "409",
+          "477"
+        ],
+        "other_acts": [
+          "Section 13(2) rRead with Section 13(1)(C)&(D) of Prevention of Corruption Act 1988 read with Section 4 read with Section 3 of the Prevention of Money Laundering Act 2002 (No Charge Sheet Filed) Cognizance not taken yet"
+        ],
+        "court": "The Court of Honorable Principal Special Judge for CBI Cases Hyderabad",
+        "description": "Section 13(2) rRead with Section 13(1)(C)&(D) of Prevention of Corruption Act 1988 read with Section 4 read with Section 3 of the Prevention of Money Laundering Act 2002 (No Charge Sheet Filed) Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "189/2016 Police Station Ananthapuramu II Town, Police Station AP",
+        "sections": [],
+        "other_acts": [
+          "Cognizance not taken yet"
+        ],
+        "court": "166, 153A, 166A, 504",
+        "description": "Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "ECIR No.09/HZO/2011 Police Station Directorate of Enforcement Hyderabad",
+        "sections": [],
+        "other_acts": [
+          "Section 3 & 4 & 8(5) of Prevention of Money Laundering Act."
+        ],
+        "court": "SC No.92/2016, Metropolitan Sessions Judge, Nampally Hyderabad",
+        "description": "Section 3 & 4 & 8(5) of Prevention of Money Laundering Act.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "91/2016, Police Station Peddavadugur, Police Station Ananthapuram AP",
+        "sections": [
+          "153A",
+          "117",
+          "166",
+          "504"
+        ],
+        "other_acts": [
+          "Cognizance not taken yet"
+        ],
+        "court": "",
+        "description": "Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "91/2016, Police Station Yadiki, Police Station Ananthapuram AP",
+        "sections": [
+          "153A",
+          "506",
+          "116",
+          "117",
+          "504"
+        ],
+        "other_acts": [
+          "Cognizance not taken yet"
+        ],
+        "court": "",
+        "description": "Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "52/2016, Police Station Nallacheruvu, Police Station Ananthapuram AP",
+        "sections": [
+          "153A",
+          "506",
+          "116"
+        ],
+        "other_acts": [
+          "Cognizance not taken yet"
+        ],
+        "court": "",
+        "description": "Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "43/2016 Puttaparthy Urban, Police Station Ananthapuram AP",
+        "sections": [
+          "153A",
+          "506",
+          "116",
+          "500"
+        ],
+        "other_acts": [
+          "Cognizance not taken yet"
+        ],
+        "court": "",
+        "description": "Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "142/2015 Chilakaluripeta Town Police Station Guntur",
+        "sections": [
+          "120B",
+          "469",
+          "471"
+        ],
+        "other_acts": [
+          "Section 23 & 24 of Indian Telegraph Act 1885",
+          "Cognizance not taken yet"
+        ],
+        "court": "",
+        "description": "Section 23 & 24 of Indian Telegraph Act 1885, Cognizance not taken yet",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "74/2015 Police Station Narsaraopet I Town Police  Station, Guntur",
+        "sections": [
+          "120B",
+          "153A",
+          "469",
+          "471"
+        ],
+        "other_acts": [
+          "Sec.23 & 24 of Indian Telegraph Act 1885",
+          "Sec.65",
+          "66 of Information Technology Act 2000"
+        ],
+        "court": "",
+        "description": "Sec.23 & 24 of Indian Telegraph Act 1885, Sec.65, 66 of Information Technology Act 2000",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "130": {
+    "constituency_name": "KAMALAPURAM",
+    "winner_name": "Pochimareddy Ravindranath Reddy",
+    "myneta_name": "Pochimareddy Ravindranath Reddy",
+    "myneta_candidate_id": 4956,
+    "match_score": 1.0,
+    "criminal_cases": 7,
+    "criminal_details_pending": [
+      {
+        "fir_number": "STC No-746/2018, General Railway Police, Kadapa, Y.S.R. Kadapa District",
+        "sections": [],
+        "other_acts": [
+          "Section 146",
+          "147",
+          "174(a) Railway Act"
+        ],
+        "court": "STC No-746/2018",
+        "description": "Section 146, 147, 174(a) Railway Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr. No 60/2018, I Town PS, Y.S.R. Kadapa District",
+        "sections": [
+          "341",
+          "506"
+        ],
+        "other_acts": [],
+        "court": "C.C. No 65/2018, Special Court For Traffic Case of Elected MLA/Mps Court At Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.No 25/2013, I Town Police Station, Y.S.R. Kadapa District",
+        "sections": [
+          "468",
+          "471",
+          "473",
+          "420"
+        ],
+        "other_acts": [],
+        "court": "CC No-18/2018, Special Court For Traffic Cases of MLA/MPs In AP At Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR No 251/2012, Madapur Police Station Hyderabad, Telangana State",
+        "sections": [
+          "420",
+          "471"
+        ],
+        "other_acts": [],
+        "court": "CC No- 3768/2012, 12th Additional Metropolitan Magistrate Kukatpalli",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.No 37/2011, I Town Police Station, Y.S.R. Kadapa District",
+        "sections": [
+          "143",
+          "323",
+          "363",
+          "341",
+          "506"
+        ],
+        "other_acts": [
+          "No Cognizance Taken So Far"
+        ],
+        "court": "1st ADM Kadapa, Y.S.R. Kadapa District",
+        "description": "No Cognizance Taken So Far",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR No 80/2011, Gangireddy Police Station V.N. Palli Mandal, Y.S.R. Kadapa District",
+        "sections": [
+          "188",
+          "341",
+          "243",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Judicial 1st Class Magistrate Kamalapuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR No- 63/2010, Chennur Police Station Chennur Mandal, Y.S.R. Kadapa District",
+        "sections": [
+          "420"
+        ],
+        "other_acts": [
+          "Section 7(1) EC Act",
+          "Section 196 MV. Act"
+        ],
+        "court": "1st ADM Kadapa",
+        "description": "Section 7(1) EC Act, Section 196 MV. Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "131": {
+    "constituency_name": "JAMMALAMADUGU",
+    "winner_name": "Mule Sudheer Reddy",
+    "myneta_name": "Mule Sudheer Reddy",
+    "myneta_candidate_id": 4961,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "CR.NO.55/2016 Thalamanchi Patnam Police Station YSR Dist.AP",
+        "sections": [
+          "143",
+          "147",
+          "186",
+          "188",
+          "353",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CCNO 217 OF 2017 29.08.2017, Junior Civil Judge cum Judicial Magistrate First Class, Jammalamadugu.",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr no. 195/2018 Jammalamadugu \r\nPolice station",
+        "sections": [
+          "448",
+          "186"
+        ],
+        "other_acts": [],
+        "court": "CC.NO. 441 of 2018 ,29.08.2018., Junior Civil Judge cum Judicial Magistrate First Class, Jammalamadugu.",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.NO.199/2018 Jammalamadugu \r\nPolice Station",
+        "sections": [
+          "143",
+          "188",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.NO.- 554 of 2018 31.10.2018., Junior Civil Judge cum Judicial Magistrate First Class, Jammalamadugu.",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr no.46/2017 Yerraguntla Police Station",
+        "sections": [
+          "506"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "132": {
+    "constituency_name": "PRODDATUR",
+    "winner_name": "Rachamallu Siva Prasad Reddy",
+    "myneta_name": "Rachamallu Siva Prasad Reddy",
+    "myneta_candidate_id": 4962,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No.154/2016, II Town Police Station, Proddatur, YSR Dist., A.P.",
+        "sections": [
+          "188",
+          "427"
+        ],
+        "other_acts": [],
+        "court": "C.C.No.69/2018, Vijayawada 8th Additional District Judge Court",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.23/2017, I Town Police Station, Proddatur, YSR Dist., A.P.",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [
+          "Sec. 30 Police Act"
+        ],
+        "court": "C.C.No.806/2017, 1st Additional Judicial Magistrate of 1st Class, Proddatur",
+        "description": "Sec. 30 Police Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.206/2018 of III Town Police Station, Proddatur, YSR Dist. A.P.",
+        "sections": [
+          "188",
+          "341"
+        ],
+        "other_acts": [],
+        "court": "C.C.No.511/2018, 2nd Additional Judicial Magistrate of 1st Class, Proddature",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "133": {
+    "constituency_name": "MYDUKUR",
+    "winner_name": "Raghurami Reddy Settipally",
+    "myneta_name": "Raghurami Reddy Settipally",
+    "myneta_candidate_id": 6634,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "436 Dated 21-08-2018, Mydukur (U/G) Police Station, Mydukur",
+        "sections": [
+          "143",
+          "186",
+          "153",
+          "353",
+          "355",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Crime No:436/2018, Judicial Magistrate of 1st Class Mydukur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "191 Dated 22-06-2016, Mydukur (U/G) Police Station, Mydukur",
+        "sections": [
+          "189",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Crime No:191/2016, Judicial Magistrate of 1st Class Mydukur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No: 325/2009, Yerraguntla Out Post, Yerraguntla",
+        "sections": [],
+        "other_acts": [
+          "Section 174(a) and 147 of Railways Act"
+        ],
+        "court": "STC No:608/2018, Special Judicial 1st Class Magistrate for Railways Gunthakal",
+        "description": "Section 174(a) and 147 of Railways Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "134": {
+    "constituency_name": "ALLAGADDA",
+    "winner_name": "Gangula Brijendra Reddy (Nani)",
+    "myneta_name": "Brijendra Reddy Gangula",
+    "myneta_candidate_id": 4971,
+    "match_score": 0.9,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "FIR No. 18/2018 Allagadda Town PS Allagadda, Kurnool Dist.",
+        "sections": [
+          "307",
+          "506",
+          "34"
+        ],
+        "other_acts": [
+          "Sec. 3(1)(r)",
+          "3(1)(s) Sc. St POA Act"
+        ],
+        "court": "Crime No. 18/2018, JFCM Court Allagadda",
+        "description": "Sec. 3(1)(r), 3(1)(s) Sc. St POA Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "135": {
+    "constituency_name": "SRISAILAM",
+    "winner_name": "Silpa Chakrapani Reddy",
+    "myneta_name": "S Chakrapani Reddy",
+    "myneta_candidate_id": 4977,
+    "match_score": 0.867,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No.287/2018, Police Statlion-Registered by II Town Kurnool",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.pc."
+        ],
+        "court": "Crime No.287/2018",
+        "description": "Sec.151 Cr.pc.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "136": {
+    "constituency_name": "NANDIKOTKUR",
+    "winner_name": "Thoguru Arthur",
+    "myneta_name": "Thoguru Arthur",
+    "myneta_candidate_id": 4982,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "137": {
+    "constituency_name": "KURNOOL",
+    "winner_name": "Abdul Hafeez Khan",
+    "myneta_name": "Abdul Hafeez Khan Mohammed",
+    "myneta_candidate_id": 5509,
+    "match_score": 0.9,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "138": {
+    "constituency_name": "PANYAM",
+    "winner_name": "Katasani Rambhupal Reddy",
+    "myneta_name": "Katasani Rambhupal Reddy",
+    "myneta_candidate_id": 7087,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "139": {
+    "constituency_name": "NANDYAL",
+    "winner_name": "Shilpa Ravi Chandra Kishore Reddy",
+    "myneta_name": "Singareddy Ravi Chandra Kishore Reddy",
+    "myneta_candidate_id": 4992,
+    "match_score": 0.92,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "CR.NO.52/2018,III Town P.S.",
+        "sections": [],
+        "other_acts": [
+          "Section 151 Cr.P.C."
+        ],
+        "court": "JFCM,Nandyal",
+        "description": "Section 151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.NO-53/2018,III Town P.S.",
+        "sections": [],
+        "other_acts": [
+          "Section 151 Cr.P.C."
+        ],
+        "court": "JFCM,Nandyal",
+        "description": "Section 151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.NO.109/2018, I Town P.S.",
+        "sections": [],
+        "other_acts": [
+          "Section 151 Cr.P.C."
+        ],
+        "court": "JFCM,Nandyal",
+        "description": "Section 151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "CR.NO.287/2018 II nd Town P.S.",
+        "sections": [],
+        "other_acts": [
+          "Section 151 Cr.P.C."
+        ],
+        "court": "JFCM Court, Kurnool",
+        "description": "Section 151 Cr.P.C.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "140": {
+    "constituency_name": "BANAGANAPALLE",
+    "winner_name": "Katasani Rami Reddy",
+    "myneta_name": "Katasani Rami Reddy",
+    "myneta_candidate_id": 4994,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No. 199/2014, Registered by III Town PS Nandayal",
+        "sections": [
+          "323",
+          "427",
+          "342",
+          "506",
+          "109",
+          "34"
+        ],
+        "other_acts": [
+          "Case was referred as civil in nature vide proceeding No.204/SDPO-N/2016",
+          "dt: 10.06.2016 of SDPO",
+          "Nandyal"
+        ],
+        "court": "Judicial First Class Magistrate Nandyal",
+        "description": "Case was referred as civil in nature vide proceeding No.204/SDPO-N/2016, dt: 10.06.2016 of SDPO, Nandyal",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "141": {
+    "constituency_name": "DHONE",
+    "winner_name": "Buggana Raja Reddy",
+    "myneta_name": "Buggana Rajendranath",
+    "myneta_candidate_id": 4998,
+    "match_score": 0.733,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "",
+        "sections": [],
+        "other_acts": [
+          "Section 15 of Environment (Protection) Act 1986"
+        ],
+        "court": "CC No. 336/2018, JFCM, Dhone",
+        "description": "Section 15 of Environment (Protection) Act 1986",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr. No. 213/2015, Dhone Town, PS",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Section 7(1) (a) of Criminal Amendment Act 1932",
+          "Section 30 Indian Police Act"
+        ],
+        "court": "CC No. 706/2015, JFCM, Dhone",
+        "description": "Section 7(1) (a) of Criminal Amendment Act 1932, Section 30 Indian Police Act Criminal Petition 6127 of 2016 is Pending on The file of Honble H. C. at Hyderabad for Quashing the above case",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "142": {
+    "constituency_name": "PATTIKONDA",
+    "winner_name": "Kangati Sreedevi",
+    "myneta_name": "K Sreedevi",
+    "myneta_candidate_id": 5354,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "143": {
+    "constituency_name": "KODUMUR",
+    "winner_name": "Jaradoddi Sudhakar",
+    "myneta_name": "Jaradoddi Sudhakar",
+    "myneta_candidate_id": 7433,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "144": {
+    "constituency_name": "YEMMIGANUR",
+    "winner_name": "K Chennakesava Reddy",
+    "myneta_name": "K Chennakesava Reddy",
+    "myneta_candidate_id": 5002,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "1/RCO-KUR/2012,PS Anti Corruption Bureao Kurnool Range",
+        "sections": [
+          "120B",
+          "34",
+          "109"
+        ],
+        "other_acts": [
+          "12 & 13(1)(a)(d) r/w 13(2)"
+        ],
+        "court": "C.C.No.15/2014, ACB Court, Kurnool",
+        "description": "7,8,12 & 13(1)(a)(d) r/w 13(2)",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "145": {
+    "constituency_name": "MANTRALAYAM",
+    "winner_name": "Y. Balanagi Reddy",
+    "myneta_name": "Yallareddy Gari Balanagi Reddy",
+    "myneta_candidate_id": 5516,
+    "match_score": 0.8,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr. No. 124/2009 of Kosigi P. S.",
+        "sections": [
+          "177b",
+          "177",
+          "1a",
+          "186",
+          "188",
+          "341"
+        ],
+        "other_acts": [
+          "Section 127 & 134 of Representation of People Act 1951",
+          "Section 8(b) of A. P. Prohibition Act",
+          "Section 53 of A. P. R. T. Act and Section 177 of M. V. Act"
+        ],
+        "court": "CC No. 281/2012 and 22/2018, Transferred to Special Judge for MLA & MPs court and VIII Addl. District & Sessions Judge are functioning at XIV Addl.  ADJ Vijayawada vide in CC No. 22/2018",
+        "description": "Section 127 & 134 of Representation of People Act 1951, Section 8(b) of A. P. Prohibition Act, Section 53 of A. P. R. T. Act and Section 177 of M. V. Act",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "146": {
+    "constituency_name": "ADONI",
+    "winner_name": "Y. Sai Prasad Reddy",
+    "myneta_name": "Y. Sai Prasad Reddy",
+    "myneta_candidate_id": 5004,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "147": {
+    "constituency_name": "ALUR",
+    "winner_name": "Gummanur Jayaram",
+    "myneta_name": "P Jayaram",
+    "myneta_candidate_id": 5362,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "148": {
+    "constituency_name": "RAYADURG",
+    "winner_name": "Kapu Ramachandra Reddy",
+    "myneta_name": "Kapu Ramachandra Reddy",
+    "myneta_candidate_id": 5186,
+    "match_score": 1.0,
+    "criminal_cases": 6,
+    "criminal_details_pending": [
+      {
+        "fir_number": "235/2018, dated-28/12/2018, Rayadurg Police Station, Ananthapuramu Dist., A.P.",
+        "sections": [
+          "452",
+          "427",
+          "365",
+          "341",
+          "323",
+          "384",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Judicial First Class Magistrate Court, Rayadurg",
+        "description": "Stayed by the High Court of Andhra Pradesh in Criminal Petition No.26/2019",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "60/2016, dated-06/09/2016, Bommanahal Police Station, Ananthapuramu Dist., A.P.",
+        "sections": [
+          "341",
+          "506"
+        ],
+        "other_acts": [],
+        "court": "C.C.No.90/2017, Judicial First Class Magistrate Court, Rayadurg",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "98/2014, dated-20/03/2014, Bellary Rural Police Station, Bellary Karnataka State",
+        "sections": [
+          "171E",
+          "188"
+        ],
+        "other_acts": [
+          "Sec.123(1) R P Act"
+        ],
+        "court": "C.C.No.631/2015, III ADL. Civil Judge and JMFC Court, Bellary",
+        "description": "Sec.123(1) R P Act Stayed by the High Court of Karnataka, Darwad Bench in Criminal Petition No.101613/2015",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "88/2014, dated-20/03/2014, Brucepet Police Station, Bellary, Karnataka State",
+        "sections": [
+          "171E",
+          "188"
+        ],
+        "other_acts": [],
+        "court": "C.C.No.750/2014, I ADl. Civil Judge and JMFC Court, Bellary",
+        "description": "Stayed by the High Court of Karnataka, Darwad Bench in Criminal Petition No.101614/2015",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "118/2006, Toranagallu Police Station, Bellary District, Karnataka State",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "434",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "C.C.No.569/2008 is Closed and renumbered as C.C.No.494/2012, Civil Judge and JMFC Court, Sandur",
+        "description": "In Crl.Rev. Petition No.86/13 on the file of the Honorable 1st Addl. Sessions Court, Bellary, Govt. of Karnataka has issued orders for withdrawal of the case",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "149": {
+    "constituency_name": "URAVAKONDA",
+    "winner_name": "Payyavula Keshav",
+    "myneta_name": "Payyavula Keshav",
+    "myneta_candidate_id": 5203,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "10/2009 PS Anantapurnamu Dist AP,",
+        "sections": [
+          "188",
+          "283"
+        ],
+        "other_acts": [],
+        "court": "462/2011, Special Judicial First Class Magistrate Court For Excise Offences Annantapuramu, Case Transferred To Special Court for Trial of Cases Relating to Elected MPs and MLAs at Vijayawada iN C.C.40/18",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "150": {
+    "constituency_name": "GUNTAKAL",
+    "winner_name": "Y. Venkatarama Reddy",
+    "myneta_name": "Yallareddy Gari Venkatarama Reddy",
+    "myneta_candidate_id": 5014,
+    "match_score": 0.8,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "183/2018 RPF Guntakal",
+        "sections": [],
+        "other_acts": [
+          "Sec.147",
+          "174A Railway Property Act 1966"
+        ],
+        "court": "S.T.C NO 797/18, Spl. Judicial 1st Class Magistrate Court for Railways Guntakal",
+        "description": "Sec.147, 174A Railway Property Act 1966",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "130/18 of 1 Town Police Station, Guntakal",
+        "sections": [
+          "143",
+          "341",
+          "188",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Judicial 1st Class Magistrate Court, Guntakal",
+        "description": "A petition with IA no 1 of 2019 in CRLP no 595 of 2019 has been filed before the Honble High Court of Andhra pradesh for Quashing the FIR and the Honble high court granted stay of arrest of the petitioners/accused and other proceedings shall go on.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "151": {
+    "constituency_name": "TADIPATRI",
+    "winner_name": "K. Pedda Reddy",
+    "myneta_name": "Kethireddy Pedda Reddy",
+    "myneta_candidate_id": 5017,
+    "match_score": 0.867,
+    "criminal_cases": 8,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.9/19 of Yadiki P.S.",
+        "sections": [
+          "143",
+          "341",
+          "353",
+          "506",
+          "149"
+        ],
+        "other_acts": [
+          "Summons not yet served"
+        ],
+        "court": "Judicial 1st Class Magistrate, Tadipatri",
+        "description": "Summons not yet served",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.85/2018, Yellanur P.S.",
+        "sections": [
+          "147",
+          "148",
+          "448",
+          "354",
+          "307",
+          "149"
+        ],
+        "other_acts": [
+          "Summons not yet served"
+        ],
+        "court": "Judicial 1st Class Magistrate Tadipatri",
+        "description": "Summons not yet served",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.86/2018, Yellanur",
+        "sections": [
+          "143",
+          "506",
+          "149"
+        ],
+        "other_acts": [
+          "Summons not yet served"
+        ],
+        "court": "CC.No.362/2018",
+        "description": "Summons not yet served",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.90/2017, Ananthapuramu 1 Town P.S.",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "Additional Judicial First Class Magistrate, Anantapurmu",
+        "description": "Charge Sheet not filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.311/2016, Tadipatri Town P.S.",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "STC No.148/18, Judicial IInd Class Magistrate Tadipatri",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.18/2016, Yellanur P.S.",
+        "sections": [
+          "147",
+          "148",
+          "450",
+          "323",
+          "324",
+          "367",
+          "307",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "SC.No.457/2016, Honorable Assistant Sessions Judge Court, Gooty",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.39/2016, Yellanur P.S.",
+        "sections": [
+          "420",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC.No.66/17, Judicial 1st Class Magistrate, Tadipatri",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.18/2016, Tadimarri P.S.",
+        "sections": [
+          "506"
+        ],
+        "other_acts": [
+          "Sec.25(1)(A) of Arms Act",
+          "Summons not served"
+        ],
+        "court": "Judicial 1st Class Magistrate, Dharmavaram",
+        "description": "Sec.25(1)(A) of Arms Act, Summons not served",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "152": {
+    "constituency_name": "SINGANAMALA",
+    "winner_name": "Padmavathy Jonnalagadda",
+    "myneta_name": "Jonnalagadda Padmavathy",
+    "myneta_candidate_id": 5181,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "104/2014, P.S. Garladinne",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "CC.No.35/15, Judicial Special Mobile Court Anantpuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "89/17, P.S.- Garladinne",
+        "sections": [
+          "188",
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "CC.No.154/19, Judicial Special Mobile Court Anantapuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "67/2017, P.S. Narpala",
+        "sections": [
+          "153A",
+          "188"
+        ],
+        "other_acts": [],
+        "court": "CC.No.50/2019, Principal Junior Civil Judge Cum JMFC Anantapuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "98/2018, P.S. Narpala",
+        "sections": [
+          "341"
+        ],
+        "other_acts": [],
+        "court": "CC.No.384/18, Principal Junior Civil Judge Cum JMFC Anantapuram",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "154": {
+    "constituency_name": "KALYANDURG",
+    "winner_name": "K.V. Usha Sricharan",
+    "myneta_name": "K.V.Usha",
+    "myneta_candidate_id": 5027,
+    "match_score": 0.9,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "14/2017, Bramhasamudram P.S.",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "468/2017, JFCM COURT Kalyandurg",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "155": {
+    "constituency_name": "RAPTADU",
+    "winner_name": "Thopudurthi Prakash Reddy",
+    "myneta_name": "Thopudurthy Prakash Reddy",
+    "myneta_candidate_id": 5030,
+    "match_score": 0.867,
+    "criminal_cases": 5,
+    "criminal_details_pending": [
+      {
+        "fir_number": "75/2018, PS Kanaganapalli, Anantpur Dist.",
+        "sections": [
+          "188",
+          "341",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Crime No.75/2018, JFCM Anantapur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "68/2018, PS Atmakur, anantpur Dist.",
+        "sections": [
+          "188",
+          "506"
+        ],
+        "other_acts": [],
+        "court": "CC No.2/2019, AJFCM Anantapur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "45/2018,  PS Atmakur, anantpur Dist.",
+        "sections": [
+          "307",
+          "506",
+          "324",
+          "109",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Crime No.45/2018, AJFCM Anantapur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "85/2018, PS Atmakur, anantpur Dist",
+        "sections": [
+          "506"
+        ],
+        "other_acts": [],
+        "court": "CC.No.958/2018, AJFCM Anantapur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "59/2016, PS Kanaganapalli, Anantpur Dist.",
+        "sections": [
+          "143",
+          "147",
+          "148",
+          "324",
+          "307",
+          "109",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "SSC No.82/2018, Additional Assistant Session Judge at Dharamavaram",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "157": {
+    "constituency_name": "HINDUPUR",
+    "winner_name": "Nandamuri Balakrishna",
+    "myneta_name": "Nandamuri Balakrishna",
+    "myneta_candidate_id": 5197,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr. No. 10/09, Bukkarayasamudram P.S. Anantpur Dist.",
+        "sections": [
+          "188",
+          "283"
+        ],
+        "other_acts": [
+          "Pending at Vijayawada Court"
+        ],
+        "court": "C.C. No. 40/18, Court of Spl. Judge for Trial Cases for Elected MPs & MLAs at Vijayawada",
+        "description": "Pending at Vijayawada Court",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr. No. 20/09, Gooty P.S. Anantapur Dist.",
+        "sections": [
+          "188",
+          "283"
+        ],
+        "other_acts": [
+          "Pending at Vijayawada Court"
+        ],
+        "court": "C.C. No. 43/18, Court of Spl. Judge for Trial Cases for Elected MPs & MLAs at Vijayawada",
+        "description": "Pending at Vijayawada Court",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "158": {
+    "constituency_name": "PENUKONDA",
+    "winner_name": "Malagundla Sankaranarayana",
+    "myneta_name": "Sankar Narayana Malagundla",
+    "myneta_candidate_id": 5192,
+    "match_score": 0.733,
+    "criminal_cases": 6,
+    "criminal_details_pending": [
+      {
+        "fir_number": "90/17 Anantapuram-1 Town Police Station",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "Cr.No.90/17, Judicial First Class Magistrate Court, Anantapuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "76/2016, Kadiri Town P.S.",
+        "sections": [
+          "143",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.No.52/2018, Judicial First Class Magistrate Court, Kadiri",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "305/2015, Anantapuram 1 Town P.S.",
+        "sections": [
+          "143",
+          "341",
+          "427",
+          "506",
+          "353",
+          "149"
+        ],
+        "other_acts": [
+          "Sec.3 of PDPP Act and Sec. 7(1) of Criminal Amendment Act and Sec.2 of Prevention of Insult to Nation Honor Act 1971 and Sec. of 8 of Public Security Act"
+        ],
+        "court": "Cr.No.305/2015, CC.No.1580/2015, Court  of 1st Spl. Magistrate Anantapuram",
+        "description": "Sec.3 of PDPP Act and Sec. 7(1) of Criminal Amendment Act and Sec.2 of Prevention of Insult to Nation Honor Act 1971 and Sec. of 8 of Public Security Act",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "343/2013, Anantapuram 1 Town Police Station",
+        "sections": [
+          "188",
+          "341",
+          "290",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "Cr.No.343/2013, Judicial First Class Magistrate Court, Ananthapuram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "10/09, Dharmavaram Town Police Station",
+        "sections": [
+          "188"
+        ],
+        "other_acts": [],
+        "court": "Cr.No.10/09, CC.No.81/09, Judicial First Class Magistrate Court, Dharmavaram",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "19/2017, Dharmavaram (U) Police Station",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.P.C."
+        ],
+        "court": "19/2017, Executive Magistrate (Tehasildar) Dharmavaram",
+        "description": "Sec.151 Cr.P.C.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "159": {
+    "constituency_name": "PUTTAPARTHI",
+    "winner_name": "Duddukunta Sreedhar Reddy",
+    "myneta_name": "Duddukunta Sreedhar Reddy",
+    "myneta_candidate_id": 6103,
+    "match_score": 1.0,
+    "criminal_cases": 3,
+    "criminal_details_pending": [
+      {
+        "fir_number": "",
+        "sections": [],
+        "other_acts": [
+          "Sec.200 R/w Sec.190 of CRPC"
+        ],
+        "court": "CC.NO.12/2019, XI Addl. chief Metropolitan Magistrate,Secundrabad .",
+        "description": "Sec.200 R/w Sec.190 of CRPC",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.no. 23/2018,Amadaguru P.S.",
+        "sections": [
+          "323",
+          "354B",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.15/2017, OD Cheruvu P.S.",
+        "sections": [
+          "188",
+          "143",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "C.C.338/2017, Additional Judicial First Class Magisatrate kadiri.",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "160": {
+    "constituency_name": "DHARMAVARAM",
+    "winner_name": "Kethireddy Venkatarami Reddy",
+    "myneta_name": "Kethireddy Venkatarami Reddy",
+    "myneta_candidate_id": 5049,
+    "match_score": 1.0,
+    "criminal_cases": 7,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Cr.No.74/2018 Bathala Palli Police Station",
+        "sections": [
+          "147",
+          "148",
+          "324",
+          "307",
+          "506",
+          "149"
+        ],
+        "other_acts": [
+          "Sec.3(2)(V)(Va) of SC/ST(POA) Act 2015"
+        ],
+        "court": "Special Sessions Judge for trail of SCs and STs cases-cum-VIII Additional Sessions Judge, Anantapuram",
+        "description": "Sec.3(2)(V)(Va) of SC/ST(POA) Act 2015",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.no.217/2018 Dharmavaram Urban police Station",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.P.C."
+        ],
+        "court": "M.C. No. 185/2018, Mandal Executive Magistrate (Mandal Tahsildar) Dharmavaram",
+        "description": "Sec.151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.19/2018 Tadimarri Police Station",
+        "sections": [
+          "355",
+          "509"
+        ],
+        "other_acts": [
+          "This case is transferred by Addl. Judicial First Class Magistrate",
+          "Dharmavaram",
+          "Dt.10-12-2018. as per direction of the Honourable High Court in R.O.C.105/E1/2018 dt 12-04-2018 to Special Judge",
+          "for trail of elected MPs and MLAs at Vijayawada"
+        ],
+        "court": "C.C.No.193/2018, Judicial First Class Magistrate Dharmavaram",
+        "description": "This case is transferred by Addl. Judicial First Class Magistrate, Dharmavaram, Dt.10-12-2018. as per direction of the Honourable High Court in R.O.C.105/E1/2018 dt 12-04-2018 to Special Judge, for trail of elected MPs and MLAs at Vijayawada",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No.18/2017 Dharmavaram Urban police Station",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.P.C."
+        ],
+        "court": "M.C.No.23/2017, Mandal Executive Magistrate (Mandal Tahsildar) Dharmavaram",
+        "description": "Sec.151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.no.6/2017, Bathalapalli Police Station",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.P.C."
+        ],
+        "court": "Mandal Executive Magistrate  Dharmavaram",
+        "description": "Sec.151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.No 285/2016  Dharamavaram Urban Police Station",
+        "sections": [],
+        "other_acts": [
+          "Sec.151 Cr.P.C."
+        ],
+        "court": "M.C.No.195/2016, Mandal Executive Magistrate Dharmavaram",
+        "description": "Sec.151 Cr.P.C.",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Cr.no.24/2016 Tadimarri Police Station",
+        "sections": [
+          "143",
+          "341",
+          "148",
+          "109",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "Judicial First Class Magistrate, Dharmavaram",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "161": {
+    "constituency_name": "KADIRI",
+    "winner_name": "P.V. Sidda Reddy",
+    "myneta_name": "Pedaballi Venkata Sidda Reddy",
+    "myneta_candidate_id": 5058,
+    "match_score": 0.8,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No. 151/2018, Kadiri Town Police Station",
+        "sections": [
+          "323",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "C.C. No. 95/2019, Additional Judicial Magistrate of First Class Kadiri",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime no. 62/2017, Kadiri Town Police Station",
+        "sections": [
+          "188",
+          "143",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "C.C No 110/2018, Additional Judicial Magistrate of First Class Kadiri",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "162": {
+    "constituency_name": "THAMBALLAPALLE",
+    "winner_name": "Peddireddy Dwarakanatha Reddy",
+    "myneta_name": "Peddireddy Dwarakanatha Reddy",
+    "myneta_candidate_id": 5211,
+    "match_score": 1.0,
+    "criminal_cases": 2,
+    "criminal_details_pending": [
+      {
+        "fir_number": "Crime No.43/2018 of Somala P.S.",
+        "sections": [
+          "147",
+          "148",
+          "153A",
+          "324",
+          "354",
+          "353",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC.No.290/2018, Judicial Magistrate of First Class, Punganur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "Crime No.73/2013 of P.S. Sodam",
+        "sections": [
+          "147",
+          "148",
+          "324",
+          "341",
+          "427",
+          "506",
+          "307",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CRLP No.10010/2013, Pending on the file of Honorable High Court of AP and stay granted by the Honorable High Court of AP by staying all further proceedings including Arrest of A5 untill further orders",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "163": {
+    "constituency_name": "PILERU",
+    "winner_name": "Chinthala Ramachandra Reddy",
+    "myneta_name": "Chinthala Ramaachandra Reddy",
+    "myneta_candidate_id": 5220,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "164": {
+    "constituency_name": "MADANAPALLE",
+    "winner_name": "M. Nawaz Basha",
+    "myneta_name": "Mohammed Nawaz Basha",
+    "myneta_candidate_id": 5821,
+    "match_score": 0.867,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "99/2018, I-Town Police Station, Madanapalle",
+        "sections": [
+          "323",
+          "355",
+          "506",
+          "34"
+        ],
+        "other_acts": [
+          "Sec. 155(2) Cr.PC."
+        ],
+        "court": "CC No. 515/2018, Judicial Magistrate of First Class, Madanapalle",
+        "description": "Sec. 155(2) Cr.PC.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "165": {
+    "constituency_name": "PUNGANUR",
+    "winner_name": "Peddireddi Ramachandra Reddy",
+    "myneta_name": "Peddi Reddy Ramachandra Reddy",
+    "myneta_candidate_id": 5218,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "166": {
+    "constituency_name": "CHANDRAGIRI",
+    "winner_name": "Dr.Chevireddy Bhaskar Reddy",
+    "myneta_name": "Dr.Chevireddy Bhaskar Reddy",
+    "myneta_candidate_id": 5209,
+    "match_score": 1.0,
+    "criminal_cases": 16,
+    "criminal_details_pending": [
+      {
+        "fir_number": "68/2019, M. R. Palli P.S., Tirupati, Chittoor A.P.",
+        "sections": [
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "III AJFCM, Tirupati",
+        "description": "Charge sheet not filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "66/2019, M. R. Palli P.S., Tirupati, Chittoor A.P.",
+        "sections": [
+          "153",
+          "341",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "III AJFCM, Tirupati",
+        "description": "Charge sheet not filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "16/2019, Chittoor II Town P. S., Chittoor, A. P.",
+        "sections": [
+          "143",
+          "341",
+          "353",
+          "188",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "IV AJMFC, Chittoor",
+        "description": "Charge sheet not filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "434/2018, M. R. Palli P.S., Tirupati, Chittoor A.P.",
+        "sections": [
+          "353",
+          "448",
+          "506",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "38/2017, R. C. Puram P. S., Ramachandrapuram Chittoor District, A.P.",
+        "sections": [
+          "143",
+          "341",
+          "353",
+          "506",
+          "120B",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 213/2017, AJMFC Court, Puttur",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "126/2016, M. R. Palli P.S., Tirupati, Chittoor District, A.P.",
+        "sections": [
+          "147",
+          "448",
+          "341",
+          "353",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 21/2018, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "76/2016, Kadiri Town P. S. Ananthapuram District, A.P.",
+        "sections": [
+          "143",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 4/2019, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "414/2015, Rajahmundry III Town P. S., Rajahmundry, East Godavari District, A. P.",
+        "sections": [
+          "143",
+          "189",
+          "341",
+          "290",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 42/2018, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "98/2015, Yerpedu P. S. Chittoor District, A.P.",
+        "sections": [
+          "448",
+          "323",
+          "353",
+          "307",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "SC No. 1/2019, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "20/2014, Gajulamandyam P. S., Gajulamandyam Chittoor District, A. P.",
+        "sections": [
+          "143",
+          "283",
+          "341",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CC No. 5/2019, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "261/2012, M. R. Palli P.S., Tirupati, Chittoor District A.P.",
+        "sections": [
+          "283"
+        ],
+        "other_acts": [],
+        "court": "STC No. 327/2013, Special Judicial II Class Magistrate, Tirupati",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "259/2010, East Police Station, Tirupati Chittoor District, A. P.",
+        "sections": [
+          "147",
+          "353",
+          "341",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "CA No. 405/16, IV Additional District Judge Court, Tirupati",
+        "description": "An appeal is preferred as against the order of acquittal in C.A. No. 405/2016 on the file of the IV Additional Sessions Judge Court, Tirupati and the same is Pending",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "109/2012, Chandragiri Police Station, Chandragiri Chittoor District, A. P.",
+        "sections": [
+          "341",
+          "283"
+        ],
+        "other_acts": [],
+        "court": "STC No. 838/2015, Special Judicial II Class Magistrate, Tirupati",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "57/2009, Piler P. S., Chittoor District, A. P.",
+        "sections": [],
+        "other_acts": [
+          "Section 4 of A. P. prevention of disfigurement of open places and prohibition of obscene and objectionable posters and advertisements Acts 1997"
+        ],
+        "court": "CC No. 12/2018, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "Section 4 of A. P. prevention of disfigurement of open places and prohibition of obscene and objectionable posters and advertisements Acts 1997",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "31/2009, Renigunta P. S., Renigunta Chittoor District, A. P.",
+        "sections": [],
+        "other_acts": [
+          "Section 4 of A. P. prevention of disfigurement of open places and prohibition of obscene and objectionable posters and advertisements Acts 1997"
+        ],
+        "court": "CC No. 6/2019, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "Section 4 of A. P. prevention of disfigurement of open places and prohibition of obscene and objectionable posters and advertisements Acts 1997",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "27/2009, M. R. Palli P.S., Tirupati, Chittoor A.P.",
+        "sections": [],
+        "other_acts": [
+          "Section 3(5) of SC & ST (prevention of atrocities) Act 1989"
+        ],
+        "court": "SC No. 2/2018, Before the Special Court for Trial of Criminal Cases relating to elected MPs and MLAs at Vijayawada",
+        "description": "Section 3(5) of SC & ST (prevention of atrocities) Act 1989",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "167": {
+    "constituency_name": "TIRUPATI",
+    "winner_name": "Bhumana Karunakar Reddy",
+    "myneta_name": "Bhumana Karunakar Reddy",
+    "myneta_candidate_id": 5230,
+    "match_score": 1.0,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "169": {
+    "constituency_name": "SATYAVEDU",
+    "winner_name": "Adimulam Koneti",
+    "myneta_name": "K Adimulam",
+    "myneta_candidate_id": 5081,
+    "match_score": 0.8,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "170": {
+    "constituency_name": "NAGARI",
+    "winner_name": "R.K. Roja",
+    "myneta_name": "R.K. Roja",
+    "myneta_candidate_id": 5158,
+    "match_score": 1.0,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "94/2018, Nagari Police Station Prakasam Road, Nagari, Chitoor District",
+        "sections": [
+          "143",
+          "146",
+          "341",
+          "353",
+          "506",
+          "149"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "11/2017, Chandarlapadu Police Station Chandarlapadu  Krishna District",
+        "sections": [
+          "500",
+          "504",
+          "505(ii)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "9/2017, Veerulapadu Police Station, Chandarlpadu Krishna District",
+        "sections": [
+          "341",
+          "500",
+          "504",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "8/2017, Veerulapadu Police Station, Chandarlapadu Krishna District",
+        "sections": [
+          "341",
+          "500",
+          "505(2)",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "171": {
+    "constituency_name": "GANGADHARA NELLORE",
+    "winner_name": "K. Narayana Swamy",
+    "myneta_name": "Kalattur Narayana Swamy",
+    "myneta_candidate_id": 5086,
+    "match_score": 0.867,
+    "criminal_cases": 0,
+    "criminal_details_pending": [],
+    "criminal_details_convictions": []
+  },
+  "172": {
+    "constituency_name": "CHITTOOR",
+    "winner_name": "Aranii Srenevasulu (Jangalapalli)",
+    "myneta_name": "Aranii Srenevasulu",
+    "myneta_candidate_id": 5154,
+    "match_score": 0.867,
+    "criminal_cases": 4,
+    "criminal_details_pending": [
+      {
+        "fir_number": "32/2019, Chittor-I Town Chittor",
+        "sections": [
+          "171B",
+          "171E",
+          "181"
+        ],
+        "other_acts": [
+          "Charge Sheet Not Yet Filed"
+        ],
+        "court": "",
+        "description": "Charge Sheet Not Yet Filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "16/2019, Chittor-II Town, Chittor",
+        "sections": [
+          "143",
+          "341",
+          "353",
+          "188",
+          "149"
+        ],
+        "other_acts": [
+          "Charge Sheet Not Yet Filed"
+        ],
+        "court": "",
+        "description": "Charge Sheet Not Yet Filed",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "71/2011, Kuppam Police Station, Chittor District",
+        "sections": [
+          "366"
+        ],
+        "other_acts": [
+          "Sec.4(a)(b)",
+          "5 and 6 of ES Act 1908",
+          "Framed Date not known but the case is pending for trail"
+        ],
+        "court": "SC.No.238/2014, Senior Civil Judge Court, Palamaner",
+        "description": "Sec.4(a)(b), 5 and 6 of ES Act 1908, Framed Date not known but the case is pending for trail",
+        "description_brief": ""
+      },
+      {
+        "fir_number": "14/2011, Gudipalli Police Station, Kuppam, Chittor District",
+        "sections": [
+          "4"
+        ],
+        "other_acts": [
+          "Sec.4(a)(b)",
+          "5 and 6 of ES Act 1908",
+          "Framed Date not known but the case is pending for trail"
+        ],
+        "court": "SC.No.151/2014, Senior Civil Judge Court, Palamaner",
+        "description": "Sec.4(a)(b), 5 and 6 of ES Act 1908, Framed Date not known but the case is pending for trail",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "173": {
+    "constituency_name": "PUTHALAPATTU",
+    "winner_name": "M. Babu",
+    "myneta_name": "M Babu",
+    "myneta_candidate_id": 5141,
+    "match_score": 1.0,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "",
+        "sections": [],
+        "other_acts": [
+          "Sec-138 and 142 of Negotiable Instruments Act."
+        ],
+        "court": "CC No.99/2017, Special Mobile Court Ongole, AP",
+        "description": "Sec-138 and 142 of Negotiable Instruments Act.",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  },
+  "175": {
+    "constituency_name": "KUPPAM",
+    "winner_name": "Nara Chandra Babu Naidu",
+    "myneta_name": "Nara Chandrababu Naidu",
+    "myneta_candidate_id": 5147,
+    "match_score": 0.8,
+    "criminal_cases": 1,
+    "criminal_details_pending": [
+      {
+        "fir_number": "67/2010, P.S. Dharmabad, Maharashtra State",
+        "sections": [
+          "353",
+          "324",
+          "332",
+          "336",
+          "337",
+          "323",
+          "504",
+          "506",
+          "309",
+          "34"
+        ],
+        "other_acts": [],
+        "court": "OMCA 27/2013, Judicial Magistrate First Class, Dharmabad Maharashtra State",
+        "description": "",
+        "description_brief": ""
+      }
+    ],
+    "criminal_details_convictions": []
+  }
+}

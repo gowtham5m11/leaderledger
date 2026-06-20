@@ -220,8 +220,9 @@ def download_old_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
     except WebDriverException as exc:
         if "ERR_CONNECTION_TIMED_OUT" in str(exc) or "ERR_NAME_NOT_RESOLVED" in str(exc):
             log(
-                "Cannot reach affidavitarchive.nic.in — the site is geo-restricted to "
-                "Indian IP addresses. Run this script from a machine inside India.",
+                "Cannot reach affidavitarchive.nic.in — the server is unreachable. "
+                "It may be down (NIC sites go offline intermittently) or geo-blocked from outside India. "
+                "Try again later, or test with: curl --max-time 15 http://affidavitarchive.nic.in/",
                 indent=1,
             )
             raise SystemExit(1)
@@ -455,14 +456,19 @@ def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
-def build_driver(temp_dir: Path) -> webdriver.Chrome:
+def build_driver(temp_dir: Path, headed: bool = False) -> webdriver.Chrome:
     options = Options()
-    options.add_argument("--headless=new")
+    if not headed:
+        options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--ignore-certificate-errors")
     options.add_argument("--allow-running-insecure-content")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("useAutomationExtension", False)
     options.page_load_strategy = "eager"
     options.add_argument(f"--user-data-dir={temp_dir / 'chrome_profile'}")
     options.add_experimental_option("prefs", {
@@ -497,6 +503,8 @@ def main() -> int:
                     help="Seconds to wait between constituencies (default 4.0)")
     ap.add_argument("--dry-run", action="store_true",
                     help="Print what would be downloaded without opening a browser")
+    ap.add_argument("--headed", action="store_true",
+                    help="Run browser in headed (visible) mode — bypasses headless detection on some portals")
     args = ap.parse_args()
 
     year = args.year
@@ -552,7 +560,7 @@ def main() -> int:
         return 0
 
     temp_dir.mkdir(parents=True, exist_ok=True)
-    driver = build_driver(temp_dir)
+    driver = build_driver(temp_dir, headed=args.headed)
     wait = WebDriverWait(driver, 25)
 
     download_fn = download_old_portal if portal == "old" else download_new_portal
