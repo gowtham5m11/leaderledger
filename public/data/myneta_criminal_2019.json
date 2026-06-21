@@ -1122,9 +1122,9 @@
   "46": {
     "constituency_name": "GANNAVARAM",
     "winner_name": "Kondeti Chitti Babu",
-    "myneta_name": "Vallabhaneni Vamsi Mohan",
-    "myneta_candidate_id": 4765,
-    "match_score": 0.6,
+    "myneta_name": "Kondeti Chitti Babu",
+    "myneta_candidate_id": 5282,
+    "match_score": 1.0,
     "criminal_cases": 0,
     "criminal_details_pending": [],
     "criminal_details_convictions": []

@@ -7,17 +7,19 @@ and downloads their nomination affidavit PDF using Selenium.
 Two ECI portals are used depending on the year:
 
   NEW PORTAL  https://affidavit.eci.gov.in/
-    Covers elections from roughly mid-2019 onward.
-    Used by gather_data.py for 2024.  NOT available for the AP 2019
-    assembly election (held April 2019 — before the portal's coverage).
+    Covers elections from Oct-Nov 2021 onward only.
+    Used by gather_data.py for 2024.
+    Does NOT have AP 2019 assembly election — confirmed 2026-06-20
+    (oldest entry in electionType dropdown is 'Election-Oct-Nov-2021').
 
   OLD PORTAL  http://affidavitarchive.nic.in/
     Covers all elections from 2004 onward.
     ASP.NET WebForms with dropdown-cascaded AJAX.
     Only reachable from Indian IP addresses (geo-restricted).
+    Currently unreachable (TCP timeout even from India as of 2026-06).
 
 Year → portal mapping (auto-selected, overridable with --portal):
-    2019 → old portal  (AP assembly election was April 2019)
+    2019 → old portal  (new portal only goes back to late 2021)
     2014 → old portal
     2009 → old portal
     2004 → old portal
@@ -65,20 +67,20 @@ RESULTS_DIR = ROOT / "public" / "data"
 NEW_PORTAL = "https://affidavit.eci.gov.in/"
 OLD_PORTAL = "http://affidavitarchive.nic.in/FrmElectionAffidavit.aspx"
 
-# All supported years use the old portal (affidavitarchive.nic.in).
-# AP 2019 assembly election (April 2019) pre-dates the new portal's coverage.
 YEAR_PORTAL = {
-    2019: "old",
+    2019: "new",   # affidavit.eci.gov.in — label confirmed 2026-06-20
     2014: "old",
     2009: "old",
     2004: "old",
 }
 
-# Best-guess election label for the old portal's dropdown (fuzzy matched).
+# Best-guess election label for each portal's dropdown (fuzzy matched).
+# New portal (2019): confirmed label is 'Election-May-2019'.
+# Old portal (2014/2009): uses 'Andhra Pradesh <YEAR>' format.
 # Run --dry-run first; if "Election label not found" appears, check the
 # dropdown live and pass the real label via --election-label.
 DEFAULT_ELECTION_LABELS: dict[int, str] = {
-    2019: "Andhra Pradesh 2019",
+    2019: "Election-May-2019",
     2014: "Andhra Pradesh 2014",
     2009: "Andhra Pradesh 2009",
     2004: "Andhra Pradesh 2004",
@@ -131,6 +133,33 @@ def name_score(target: set[str], row: set[str]) -> tuple[float, set[str]]:
     }
     unmatched = {r for r in row if len(r) > 3 and r not in noise} - matched_row
     return score, unmatched
+
+
+def get_similarity_enhanced(target_set: set[str], row_set: set[str]) -> tuple[float, set[str]]:
+    if not target_set or not row_set:
+        return 0.0, set()
+    matches = 0
+    matched_row: set[str] = set()
+    for t in sorted(target_set, key=len, reverse=True):
+        if t in row_set:
+            matches += 1
+            matched_row.add(t)
+        else:
+            for r in row_set:
+                if r not in matched_row and (
+                    (len(r) == 1 and t.startswith(r)) or (len(t) == 1 and r.startswith(t))
+                ):
+                    matches += 1
+                    matched_row.add(r)
+                    break
+    score = matches / len(target_set) * 100
+    noise = {
+        "party", "accepted", "telugu", "desam", "janasena", "independent",
+        "congress", "yuvajana", "sramika", "rythu", "andhra", "pradesh",
+        "national", "secular", "bharatiya", "janatha", "bahujan", "samaj", "status",
+    }
+    significant = {r for r in row_set if len(r) > 3 and r not in noise}
+    return score, significant - matched_row
 
 
 def wait_for_new_pdf(folder: Path, after: float, timeout: int = 90) -> Path | None:
@@ -307,7 +336,9 @@ def download_old_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
     return False
 
 
-# ── New portal (affidavit.eci.gov.in) — kept for reference / future years ──────
+# ── New portal (affidavit.eci.gov.in) ─────────────────────────────────────────
+# Matches gather_data.py's hunt_candidate() exactly: headed, same similarity
+# logic, same party matching with hard-refusals.
 
 def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path: Path) -> bool:
     """Navigate affidavit.eci.gov.in and download the candidate's affidavit PDF."""
@@ -315,7 +346,6 @@ def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
     party = candidate["party"]
     constituency = candidate["constituency"]
     election_label = candidate["election_label"]
-    target_parts = clean_name_parts(name)
 
     driver.get(NEW_PORTAL)
     time.sleep(2)
@@ -330,19 +360,23 @@ def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
             pass
 
         raw_const = constituency.split("(")[0].strip()
+        const_alternatives = get_select_options(driver, "constId")
         clean_const = re.sub(r"[^a-z0-9]", "", raw_const.lower())
-        const_matches = [
-            o for o in get_select_options(driver, "constId")
-            if clean_const in re.sub(r"[^a-z0-9]", "", o.lower())
-        ]
-        if not const_matches:
+        const_alternatives = [o for o in const_alternatives if clean_const in re.sub(r"[^a-z0-9]", "", o.lower())]
+        if not const_alternatives:
             log(f"No constituency match for {raw_const!r}", indent=2)
             return False
 
-        main_win = driver.current_window_handle
-        found = False
+        # Support alias if provided (same as gather_data.py)
+        target_names = [name]
+        if candidate.get("alias"):
+            target_names.append(candidate["alias"])
+        target_sets = [clean_name_parts(tn) for tn in target_names]
 
-        for const_opt in const_matches:
+        found = False
+        main_win = driver.current_window_handle
+
+        for const_opt in const_alternatives:
             if found:
                 break
             log(f"Trying constituency: {const_opt!r}", indent=2)
@@ -357,10 +391,11 @@ def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
             time.sleep(4)
 
             try:
-                acc = driver.find_elements(By.XPATH, "//a[contains(text(),'Accepted')] | //li[contains(.,'Accepted')][not(contains(@class,'active'))]")
-                if acc:
-                    driver.execute_script("arguments[0].click();", acc[0])
-                    time.sleep(3)
+                acc_xpath = "//a[contains(text(),'Accepted')] | //button[contains(.,'Accepted')] | //li[contains(.,'Accepted')][not(contains(@class,'active'))]"
+                accs = driver.find_elements(By.XPATH, acc_xpath)
+                if accs:
+                    driver.execute_script("arguments[0].click();", accs[0])
+                    time.sleep(4)
             except Exception:
                 pass
 
@@ -379,26 +414,47 @@ def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
                     row_text = row.text.lower()
                     if "rejected" in row_text or "withdrawn" in row_text:
                         continue
-                    lines = row.text.splitlines()
-                    row_parts = clean_name_parts(lines[0] if lines else row.text)
-                    score, unmatched = name_score(target_parts, row_parts)
-                    if score < 50 or unmatched:
+
+                    lines = row_text.splitlines()
+                    name_line = lines[0] if lines else row_text
+                    row_parts = clean_name_parts(name_line)
+
+                    found_match = False
+                    for target_parts in target_sets:
+                        sim, unmatched = get_similarity_enhanced(target_parts, row_parts)
+                        if sim >= 50 and not unmatched:
+                            found_match = True
+                            break
+                    if not found_match:
                         continue
 
-                    party_lines = [l for l in lines if "party :" in l.lower()]
+                    # Party verification (matches gather_data.py exactly)
+                    party_lines = [l for l in lines if "party :" in l]
                     if party_lines:
-                        r_party = party_lines[0].split(":", 1)[-1].strip()
+                        r_party_raw = party_lines[0].split(":", 1)[1].strip()
                         t_clean = re.sub(r"[^a-z]", "", party.lower())
-                        r_clean = re.sub(r"[^a-z]", "", r_party.lower())
-                        is_match = (
-                            t_clean in r_clean or r_clean in t_clean
-                            or (t_clean == "tdp" and "telugudesam" in r_clean)
-                            or (t_clean == "ysrcp" and ("yuvajana" in r_clean or "ysr" in r_clean))
-                            or (t_clean == "bjp" and "bharatiya" in r_clean)
-                            or (t_clean == "inc" and "indiannational" in r_clean)
-                            or (t_clean == "jsp" and "janasena" in r_clean)
+                        r_full = r_party_raw.lower()
+                        tp_set = clean_name_parts(party)
+                        rp_set = clean_name_parts(r_party_raw)
+                        p_sim, p_unmatched = get_similarity_enhanced(tp_set, rp_set)
+                        is_p_match = (p_sim >= 50 and not p_unmatched) or (
+                            t_clean in re.sub(r"[^a-z]", "", r_full)
                         )
-                        if not is_match:
+                        if not is_p_match:
+                            if t_clean == "tdp" and "telugu desam" in r_full:
+                                is_p_match = True
+                            elif t_clean == "ysrcp" and ("yuvajana" in r_full or "ysr" in r_full):
+                                is_p_match = True
+                            elif t_clean == "bjp" and "bharatiya janata" in r_full:
+                                is_p_match = True
+                            elif t_clean == "jsp" and "janasena" in r_full:
+                                is_p_match = True
+                            elif t_clean == "inc" and "indian national congress" in r_full:
+                                is_p_match = True
+                        # Hard-refusal: jatiyajanasena vs janasena confusion
+                        if "jatiyajanasena" in re.sub(r"[^a-z]", "", r_full) and "jatiya" not in t_clean:
+                            is_p_match = False
+                        if not is_p_match:
                             continue
 
                     log(f"Matched: {name!r}", indent=3)
@@ -456,21 +512,26 @@ def download_new_portal(driver, wait, candidate: dict, temp_dir: Path, out_path:
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
-def build_driver(temp_dir: Path, headed: bool = False) -> webdriver.Chrome:
+def build_driver(temp_dir: Path, portal: str = "old", force_headed: bool = False) -> webdriver.Chrome:
     options = Options()
-    if not headed:
-        options.add_argument("--headless=new")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--ignore-certificate-errors")
-    options.add_argument("--allow-running-insecure-content")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("useAutomationExtension", False)
-    options.page_load_strategy = "eager"
-    options.add_argument(f"--user-data-dir={temp_dir / 'chrome_profile'}")
+    if portal == "new":
+        # Headed, minimal options — matches gather_data.py exactly to avoid bot detection
+        pass
+    else:
+        # Old portal: headless with anti-detection flags (geo-restricted ASP.NET site)
+        if not force_headed:
+            options.add_argument("--headless=new")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--ignore-certificate-errors")
+        options.add_argument("--allow-running-insecure-content")
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option("useAutomationExtension", False)
+        options.page_load_strategy = "eager"
+        options.add_argument(f"--user-data-dir={temp_dir / 'chrome_profile'}")
     options.add_experimental_option("prefs", {
         "download.default_directory": str(temp_dir.resolve()),
         "download.prompt_for_download": False,
@@ -478,7 +539,8 @@ def build_driver(temp_dir: Path, headed: bool = False) -> webdriver.Chrome:
         "profile.managed_default_content_settings.images": 2,
     })
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    driver.set_page_load_timeout(60)  # fail fast if server is unreachable
+    if portal == "old":
+        driver.set_page_load_timeout(60)
     return driver
 
 
@@ -560,7 +622,7 @@ def main() -> int:
         return 0
 
     temp_dir.mkdir(parents=True, exist_ok=True)
-    driver = build_driver(temp_dir, headed=args.headed)
+    driver = build_driver(temp_dir, portal, force_headed=args.headed)
     wait = WebDriverWait(driver, 25)
 
     download_fn = download_old_portal if portal == "old" else download_new_portal
