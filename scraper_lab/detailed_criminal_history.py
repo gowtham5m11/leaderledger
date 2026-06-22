@@ -255,18 +255,41 @@ def extract_criminal_details(pdf_path, cand_id="global", declared_total=None):
     pending_set = set(pending_pages)
     pending_ocr_texts = []
     try:
+        # Batch-convert all criminal pages in one poppler call (avoids re-reading
+        # the full PDF for every page, which dominates runtime on large scanned PDFs).
+        if not use_pdfplumber and pages_to_process:
+            bulk_images = convert_from_path(
+                pdf_path,
+                first_page=min(pages_to_process),
+                last_page=max(pages_to_process),
+                dpi=DPI,
+            )
+            image_map = {min(pages_to_process) + i: img for i, img in enumerate(bulk_images)}
+        else:
+            image_map = {}
+
         for page_num in pages_to_process:
             print(f"    Processing page {page_num}...", flush=True)
-            images = convert_from_path(
-                pdf_path, first_page=page_num, last_page=page_num, dpi=DPI
-            )
-            if not images:
-                continue
-            page_result, ocr_text = _process_page(
-                images[0], page_num=page_num, cand_id=str(cand_id),
-                pdf_path=str(pdf_path), use_pdfplumber=use_pdfplumber,
-                declared_total=declared_total,
-            )
+            if image_map:
+                img = image_map.get(page_num)
+                if img is None:
+                    continue
+                page_result, ocr_text = _process_page(
+                    img, page_num=page_num, cand_id=str(cand_id),
+                    pdf_path=str(pdf_path), use_pdfplumber=False,
+                    declared_total=declared_total,
+                )
+            else:
+                images = convert_from_path(
+                    pdf_path, first_page=page_num, last_page=page_num, dpi=DPI
+                )
+                if not images:
+                    continue
+                page_result, ocr_text = _process_page(
+                    images[0], page_num=page_num, cand_id=str(cand_id),
+                    pdf_path=str(pdf_path), use_pdfplumber=use_pdfplumber,
+                    declared_total=declared_total,
+                )
             cases["pending"].extend(page_result["pending"])
             cases["convictions"].extend(page_result["convictions"])
             if page_num in pending_set:

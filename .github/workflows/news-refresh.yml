@@ -6,6 +6,7 @@
 #      refreshes all 175 candidates, merges results, writes the file
 #      back.
 #   3. If news.json actually changed, commit + push to main.
+#      If the scraper produced no JSON diff, the commit is skipped.
 #   4. Firebase Hosting picks up the new news.json on the next deploy
 #      (manual `npm run deploy`, OR your Firebase Hosting GitHub
 #      integration if you've enabled it).
@@ -14,15 +15,16 @@
 # serves public/) and prod (Firebase Hosting serves dist/, which Vite
 # populates from public/ at build time). No Firebase Storage involved.
 #
-# Hourly cron ("0 * * * *"). Every firing refreshes ALL 175 candidates
-# (no bucket rotation — the repo is public so GitHub Actions minutes are
-# unlimited, and the user wants every candidate refreshed every hour).
+# Every-3-hours cron ("0 */3 * * *"). Every firing refreshes ALL 175
+# candidates (no bucket rotation — the repo is public so GitHub Actions
+# minutes are unlimited). Only fires 8×/day instead of 24×, reducing
+# commit noise on main.
 #
 # GitHub's free-tier scheduler often runs 10–30 min late and occasionally
-# skips a slot, so per-candidate freshness in practice is "≤1h on the
-# happy path, occasionally 2–3h during scheduler drift." The 2-hour
-# staleness banner on /news will trip during those skips — that's the
-# intended signal, not a misconfiguration.
+# skips a slot, so per-candidate freshness in practice is "≤3h on the
+# happy path, occasionally 4–5h during scheduler drift." The 4-hour
+# staleness banner on /news is calibrated to tolerate one scheduler skip
+# without alarming.
 #
 # Expected runtime: 175 candidates × 2 RSS queries × 1.5 s = ~9 min of
 # pure delay, plus per-candidate processing → ~40–45 min observed.
@@ -40,7 +42,7 @@ name: News refresh
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 # contents: write — the workflow commits + pushes news.json updates.
