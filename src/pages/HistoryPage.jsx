@@ -579,6 +579,78 @@ const ConstituencyRow = ({ m, year, i, navigate }) => {
               })}
             </div>
           </div>
+          {/* Criminal cases */}
+          {m.criminal_cases > 0 && (
+            <div>
+              <div style={{
+                fontSize: '0.72rem', fontWeight: 700, textTransform: 'uppercase',
+                letterSpacing: '0.07em', color: '#c62828', marginBottom: '0.6rem',
+                display: 'flex', alignItems: 'center', gap: '0.3rem',
+              }}>
+                <span className="material-symbols-outlined" style={{ fontSize: '0.85rem' }}>gavel</span>
+                Criminal Cases ({m.criminal_cases})
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.45rem' }}>
+                {(m.criminal_details_convictions || []).map((c, i) => (
+                  <CaseChip key={`conv-${i}`} c={c} convicted />
+                ))}
+                {(m.criminal_details_pending || []).map((c, i) => (
+                  <CaseChip key={`pend-${i}`} c={c} />
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
+const CaseChip = ({ c, convicted }) => {
+  const fir = c.fir_number || c.fir_no || null;
+  const sections = [
+    ...(c.sections
+      ? (Array.isArray(c.sections) ? c.sections : [c.sections])
+      : []
+    ).map(s => `IPC §${s}`),
+    ...(c.other_acts || []),
+  ].filter(Boolean);
+  const desc = c.description && c.description !== fir ? c.description : null;
+  const court = c.court || null;
+  const accentColor = convicted ? '#7b1fa2' : '#c62828';
+
+  return (
+    <div style={{
+      background: `color-mix(in srgb, ${accentColor} 6%, transparent)`,
+      border: `1px solid color-mix(in srgb, ${accentColor} 22%, transparent)`,
+      borderRadius: '0.5rem',
+      padding: '0.45rem 0.65rem',
+      fontSize: '0.75rem',
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+        {fir && (
+          <span style={{ fontWeight: 700, color: accentColor }}>FIR: {fir}</span>
+        )}
+        {convicted && (
+          <span style={{
+            fontSize: '0.62rem', fontWeight: 800, color: '#fff',
+            background: accentColor, borderRadius: '3px', padding: '0.05rem 0.3rem',
+          }}>CONVICTED</span>
+        )}
+      </div>
+      {sections.length > 0 && (
+        <div style={{ color: 'var(--on-surface-variant)', marginTop: '0.18rem', lineHeight: 1.4 }}>
+          {sections.join(' · ')}
+        </div>
+      )}
+      {desc && (
+        <div style={{ color: 'var(--on-surface)', marginTop: '0.18rem', fontStyle: 'italic', lineHeight: 1.4 }}>
+          {desc}
+        </div>
+      )}
+      {court && (
+        <div style={{ color: 'var(--on-surface-variant)', marginTop: '0.18rem', lineHeight: 1.4 }}>
+          {court}
         </div>
       )}
     </div>
@@ -775,16 +847,21 @@ const ElectionCard = ({ election }) => {
         rows = await res.json();
       }
 
-      // Merge criminal-case counts for years that have MyNeta data
+      // Merge criminal data for years that have MyNeta data
       if ([2019, 2014, 2009].includes(election.year)) {
         try {
           const cr = await fetch(`/data/myneta_criminal_${election.year}.json`);
           if (cr.ok) {
             const crimMap = await cr.json();
-            rows = rows.map(m => ({
-              ...m,
-              criminal_cases: crimMap[String(m.constituency_no)]?.criminal_cases ?? null,
-            }));
+            rows = rows.map(m => {
+              const entry = crimMap[String(m.constituency_no)];
+              return {
+                ...m,
+                criminal_cases: entry?.criminal_cases ?? null,
+                criminal_details_pending: entry?.criminal_details_pending ?? [],
+                criminal_details_convictions: entry?.criminal_details_convictions ?? [],
+              };
+            });
           }
         } catch (_) { /* criminal data is optional */ }
       }
