@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:00:34.282676+00:00",
+  "generated_at": "2026-06-30T22:26:35.700310+00:00",
   "by_candidate": {
     "1": [
       {
@@ -532,7 +532,7 @@
         "title": "Air quality in Tekkali - IQAir",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BN2dfQWRfbm9nWldoWm5tUmFFbXZIOTdpSmFqVGg1UlRBSHViMHZyRDJJZzNXcnNPeVp6VFFhVlpMd1FnUWM2X2ZSMHhYU2lxN1FhUTh2QkxabXRWNW5yY1dfWkNkYngxdlBWVHN1c09CRXc?oc=5",
         "source": "IQAir",
-        "published_at": "2026-06-28T19:56:45Z",
+        "published_at": "2026-06-28T19:56:44Z",
         "snippet": "Air quality in Tekkali IQAir",
         "lang": "en",
         "matched_query": "\"TEKKALI\" Andhra"
@@ -583,6 +583,15 @@
         "snippet": "Air quality in Narasannapeta IQAir",
         "lang": "en",
         "matched_query": "\"NARASANNAPETA\" Andhra"
+      },
+      {
+        "title": "Rammohan Naidu Says Development in Srikakulam Surging - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbWVzOGJSOERFV3NfbE10OEJJN2ZPaEpfZXNvYzFKSXc3VDhyd3N4aE51YVZleTN1YzMyOHFDWXlnNF9QOWRwck1IN2NOQkozSk9HU214SURpdzFidXdlcGE4TEdfTGZlZmdycEl3MTZBdzJUQmxSUjdGR3hGTEVoY0NIaE04RmhreGZIMmlmcnZpSWJzY2FkQmdDd0RTZVhhalhwSHlqWFZUS0NsbTZkQUlqamFxY090S2VOd3R1MDdJQdIBxwFBVV95cUxPUHhjR3d4QmliMFJFam56RUtUZElUZGN3RDJoN1M5OWJWd2NxVlJqU2ExWTlrcHNqZUVHNG1Bb0JtTEdadXExdDBCN2lROWY1QlJKbVdBYmVIZUJFT0hQYW95YWxvSG1lbjdaQnFhNldwV0ZBanczYkswZVljZ3NHNEQxeXVEUjdaTFlMWDN3ck1PSjkxRUR4RHJiVWZZSW1OdHZQVmxHZGtQZG02dmd5MkxfcExaUmFuMWozTEpkU3NpUnJVdEpN?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-06-19T16:43:21Z",
+        "snippet": "Rammohan Naidu Says Development in Srikakulam Surging Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"Baggu Ramanamurthy\""
       },
       {
         "title": "CM Naidu launches month-long ‘Operation Clean Sweep’ in Andhra - The New Indian Express",
@@ -843,6 +852,15 @@
     ],
     "12": [
       {
+        "title": "Cognizant CEO Ravi Kumar S. on What It Really Takes to Transform With AI - Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUjROaDJpSEt4Q19aTi1OblU5bXhyWU1tWjBHbkFtcFVadGJrRk1PZ2ZMTVJCcGtCM3NEUjRJWDQ0cGdoOFNSQ1RIaldhY0E1LUdQTm43ckJJU0RsM1pMeDVIRmhOSlRERUY5UTIzcmU3N0FhVVhkcXhTVk5DSkNwLVhQRGI2YmE2TEZiWG5LTWllX1VWUDh4S3NjUUxNeUR1OWlhWHNyZURNSFNsZFp3elgzNVMydw?oc=5",
+        "source": "Time Magazine",
+        "published_at": "2026-06-30T13:25:43Z",
+        "snippet": "Cognizant CEO Ravi Kumar S. on What It Really Takes to Transform With AI Time Magazine",
+        "lang": "en",
+        "matched_query": "\"Ravi Kumar\""
+      },
+      {
         "title": "The Alarming Rise Of Advanced And Critical Heart Failure In India - Dr. R Ravi Kumar - Outlook India",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOTZrZkx4X2ZzSEs5MTk5WjBRRlpEVXhTZmsyd01uMlF1ajhncVZheHdaT1ctVUtSWG5RSGJmT3UwRHZWU0xCNVRIRE1MckhRT0d3T0ZJZWNRczJYdnZIazFaRUNFX012X1BKNXFtbXI3RFJ4WUFmamtLSGNWbzBoYzE2bmVublVZX2tNY3AwM0M4cy05MWQ4cTVHLVZOcWJlb2haZER4cmRKVWtYV3FNYkZNTzNtY3JINndpYjFXRElJdmJ0bE1xQU1TYw?oc=5",
         "source": "Outlook India",
@@ -929,6 +947,15 @@
         "source": "The Times of India",
         "published_at": "2026-06-24T18:30:00Z",
         "snippet": "No tariff hike, focus on 24x7 power supply & green energy, says energy minister Gottipati Ravi The Times of India",
+        "lang": "en",
+        "matched_query": "\"Ravi Kumar\""
+      },
+      {
+        "title": "Beat the peers, drop the stock: The brutal reality facing Cognizant CEO Ravi Kumar - Mint",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVQ1Tmc2RnUyRzdUaC1ET2xyazEwamcyV1BMNWlQaE5TS01qdnMycVJPZldzWlFmdXBuckhlcUloNFRlYW9DdWRPbzBLcFNpcFp1UmppMFp3YTFHLWdramk3QzBfbnM5bzZKb0x0U1F3ZUVLSzdRQnZoVTRLSHh3UHl2ZFFZOXBKQ05OdUJtYTNsYWJmSWFsRHRPbkwtMTZtZG5ranVkRDI0UmvSAbABQVVfeXFMTnJyN2NnNV9FTXJUb1ZpNmEyb1pkRnNfZlFTN29QakRPWExfS05WQTRfY2NzalRkRG94TWtuZGEtZEZ3NWo5LWJPZk9vcEY2QjdDU240Mi12X214eloxc29JTm9uX1ZhSHhjT0dNWHp4NGc5MHVnb3o4eXgzbV9WcG5mUFVWVlVMOEpjZnczaGxmakN2MzR4VU9HZmhuaWE1RGNrUThFUlM4V3o3WTQtZW4?oc=5",
+        "source": "Mint",
+        "published_at": "2026-06-17T07:00:00Z",
+        "snippet": "Beat the peers, drop the stock: The brutal reality facing Cognizant CEO Ravi Kumar Mint",
         "lang": "en",
         "matched_query": "\"Ravi Kumar\""
       },
@@ -1046,24 +1073,6 @@
         "source": "The New Indian Express",
         "published_at": "2026-05-18T07:00:00Z",
         "snippet": "AP pushes 20 lakh PM Surya Ghar connections as Energy Minister Ravi Kumar unveils infrastructure works The New Indian Express",
-        "lang": "en",
-        "matched_query": "\"Ravi Kumar\""
-      },
-      {
-        "title": "​Energy conservation top on agenda, says Minister Gottipati Ravi Kumar - The Hindu",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONFJ1clFyUTVBejB1RUpnZmdkbUZuRjljbzBnbEViZVd3VERWc0xPc0NzLW9DM29rVkJLZ0gyLXluS1U3QWcyWmJPQnp3d3UxdTZBTUxLbUFLM2VYVlJkRkNLZ09VSVRDU3NSNWFCOE5EeVVLNTdOcjVKYUs0QWJPNlRBeEc2eVNleDVSOGM0eGJPd0xVdWhpMV9MeUhQcnNrMEk4QTVEZVF4VGdXU1JVamU0bk9iTWx4SkRCc3RjakdtazRmUGVGOFNHMHl3SDB2UHVBbzR0TjFfd9IB4AFBVV95cUxNUDE0dm01bzQtYTd6aVYxbFoycVVvRXZ1eEFKMTlKSDFETlFnQ0tZaEY5emZkRUdfNzQyZUhjR1gtTHppUWFDd2NvTTdPOS1DUnZBLThTVGdNcVNCbkVGYXpVcXlvMDlNdXNKdVVKbDZ2MFFIdlVyMEEtQ2QwSm9tdFBLMU5LU3ZFbThNbVZINTZ5MEI3bzVIYjdiNXpQM01oWVppSHVnMFVUeXN4UHlGbHB4bDdmTjRjMXk2d05FRUI3UkFLNHAzeDJPbFJtWnZhbmNHeVV4WF9VQ29HeXlNLQ?oc=5",
-        "source": "The Hindu",
-        "published_at": "2026-05-16T07:00:00Z",
-        "snippet": "​Energy conservation top on agenda, says Minister Gottipati Ravi Kumar The Hindu",
-        "lang": "en",
-        "matched_query": "\"Ravi Kumar\""
-      },
-      {
-        "title": "AP Pushing Rooftop Solar Drive, Says Ravi Kumar - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZDVNeXlwckU0aDFaVEpNWFBtWG9odW42NTFCSWhsMlplbW5MeWtTakRhMVVDUkxPcDFUSkNtTVZPVmpveGhzbzdUZlVMVUdBc0RQWm4xcy0tZUhLNjFwbEVDZy1mUllMX01hUmEtdF85bVduYlp4NjJrNXNzOXM2U0JrVDBWeXhIOEVPVVI0cnQyQ3phck5nTXlyN3lrRkN3dW45ZDlRV1ZhdzhuVURfOGY0VzE1RDNU0gG-AUFVX3lxTE93UjVJc01YanZXNzZGVUlYQ2s2WXJobzNiYUN2T1VzeVVnUHRKamh0VUFqS045VzlkWGpOcXIya3U1eVNsSXliUWd5ZFNWdGp4T1lINjBBTXE5YWJIZWtybzJIWGp4ejYtRjFSUHpWd2N0S2V6YWlKbXoxcDM4N2tkWGcta056YlJ6T3V4M3lpdExIVFM3YzJwWTBpTG90LUlLQ05iMTFHcE1aNUdJUnByb0VEREVjbkZwMFl2T3c?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-05-16T07:00:00Z",
-        "snippet": "AP Pushing Rooftop Solar Drive, Says Ravi Kumar Deccan Chronicle",
         "lang": "en",
         "matched_query": "\"Ravi Kumar\""
       }
@@ -2043,7 +2052,7 @@
     "23": [
       {
         "title": "Narayana inspects infrastructure projects across Visakhapatnam - The Hindu",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa0J2Yk10VE51VUNKZjNHSnRscnFWbnRRa0pzOFJlNXp1Y085bTEtVTZqTGgxeE9LLTYwcjFEM29McUU3QXIzYUlsMmlMSFQwT3Y2blBLSGxzNXRmaE5lTkIzUl9rZzRRbXJsNzJQRVJQRWUxU2xYRXNNY1dQTFlEVG1OQ1lUWlM3VWJLdFFQcnBsYXM0THpLc0ZpM19TbUxFdDVkakl1Y3doV1oxYl9vcFZuTE8wczJjamNleHFzYi0yT3VDdG5HRjc2VnFiQdIB1AFBVV95cUxQakFnWnM5UUc5cFFITDZVS3drU2J0LUpRWFNmdmRQRlIzNlFyUU5YTEdwMTQwQ2ZSTEota1VZd1V5QVVOT0ptQmx6eGVaeGUxSEluVXhYUVN6SjNGc3FGV3R0WlNoV0NlR0xJZ0NzZXlPQWtobnd5emVWbzlaVlREbng3YXFZTjNsRjVnalczS3YtRWNoclZTQVRrQ1VhSk91bnl6ZGJzTjlETzJCZ3hudDJiQS12SHRXOG5JcWk5d3hqVXUwVFBZR25oT1AyV25oSHUxUQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQakFnWnM5UUc5cFFITDZVS3drU2J0LUpRWFNmdmRQRlIzNlFyUU5YTEdwMTQwQ2ZSTEota1VZd1V5QVVOT0ptQmx6eGVaeGUxSEluVXhYUVN6SjNGc3FGV3R0WlNoV0NlR0xJZ0NzZXlPQWtobnd5emVWbzlaVlREbng3YXFZTjNsRjVnalczS3YtRWNoclZTQVRrQ1VhSk91bnl6ZGJzTjlETzJCZ3hudDJiQS12SHRXOG5JcWk5d3hqVXUwVFBZR25oT1AyV25oSHUxUdIB1AFBVV95cUxQakFnWnM5UUc5cFFITDZVS3drU2J0LUpRWFNmdmRQRlIzNlFyUU5YTEdwMTQwQ2ZSTEota1VZd1V5QVVOT0ptQmx6eGVaeGUxSEluVXhYUVN6SjNGc3FGV3R0WlNoV0NlR0xJZ0NzZXlPQWtobnd5emVWbzlaVlREbng3YXFZTjNsRjVnalczS3YtRWNoclZTQVRrQ1VhSk91bnl6ZGJzTjlETzJCZ3hudDJiQS12SHRXOG5JcWk5d3hqVXUwVFBZR25oT1AyV25oSHUxUQ?oc=5",
         "source": "The Hindu",
         "published_at": "2026-06-30T17:59:39Z",
         "snippet": "Narayana inspects infrastructure projects across Visakhapatnam The Hindu",
@@ -2359,6 +2368,15 @@
         "source": "Whispers In The Corridors",
         "published_at": "2026-06-10T05:10:15Z",
         "snippet": "Lakshmanan Ramesh Babu appointed Ambassador to Côte d'Ivoire Whispers In The Corridors",
+        "lang": "en",
+        "matched_query": "\"Ramesh Babu\""
+      },
+      {
+        "title": "Kadapa police arrest two ganja peddlers, seize 2 kg contraband - The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSzhPR2xFTlRTX0hVZWNzUXpzTXRJRjZYZEN0SGp3ZnhSMDNMSXhmeUlEMjdoSk50OG93SjYwSmk1d1VfRHRmcHNUU3d5U0gzQzUyT0FsQ0gtY0tNVHlxMWxRMzNlWGt1UFBGZTZoc2xtMkp1RllGRmk4WGlPSC00LWRGNlB4eXRMVzgycXBHc2NLNnpsZ0dKb1M5SWl2RXZlc2JmUlBxQXdiV3pwY0huMmFEb3J3dGQ4ZWZGVUo5NU5sSzRRdllxT3J3bnk2T0Exekx3VGRB0gHbAUFVX3lxTE1naGtrSnNNLWNfQk8tQjd1Q2psRVJoQ205RElSc1JVVjBOR1BpdjUtODd4T3NKNTl6blRwSFVXOVE2M2Y5WFRnaFRYSzNxXzBwTTBfOVNmQkM4cEk2VVZCRjl2b1J4TmNEZDA1anJwNHRKMGFpSlNNaVRTU0ZtT1NwcVhldENTNTFBR0FZNFNIVWRGaXh0TWdqa1BlN0xFY29NRWVocWpPMmdycl9RUXFnbng3MkRVdGNvM19DbXIxemRFN0JydHRodzZEQW05NlBCZGFZbVJ1ZkYxVQ?oc=5",
+        "source": "The Times of India",
+        "published_at": "2026-06-02T07:00:00Z",
+        "snippet": "Kadapa police arrest two ganja peddlers, seize 2 kg contraband The Times of India",
         "lang": "en",
         "matched_query": "\"Ramesh Babu\""
       },
@@ -2828,11 +2846,11 @@
     ],
     "29": [
       {
-        "title": "Narsipatnam Air Quality Index (AQI) and India Air Pollution | IQAir United Arab Emirates - IQAir",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HOW1pVm5IclZLQUluRXdLTVZHTi1xTmJ0TFdVN3pEY3IwUE4wUWE0SjBqY09xUWxDNEhLbVhqNDdQU194LW1HQmVKeTh4NDE2Zl9EbUVLTUE4RkFCcXBNMUhxZDBLTkkwMU9ZQ052TU1UV2RlZjNCVA?oc=5",
+        "title": "Air quality in Narsipatnam - IQAir",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yYkN3ZDNVTzgweE5XWTZfTnZ4b1lzTF9QdTVkem1WMGdwM014UGN4b0hOVnFYWXFXLUF4cHJEem56UDVEUmF1WkhJYWhhZXJ6OVI3eWc5YURMUFM2cmVWc3VydUpuTWUwR0I4bXAybC1nSUVz?oc=5",
         "source": "IQAir",
-        "published_at": "2026-06-28T04:49:38Z",
-        "snippet": "Narsipatnam Air Quality Index (AQI) and India Air Pollution | IQAir United Arab Emirates IQAir",
+        "published_at": "2026-06-28T03:04:35Z",
+        "snippet": "Air quality in Narsipatnam IQAir",
         "lang": "en",
         "matched_query": "\"NARSIPATNAM\" Andhra"
       },
@@ -2969,20 +2987,20 @@
         "matched_query": "\"GAJUWAKA\" Andhra"
       },
       {
-        "title": "Sing Geetham review: Singeetham Srinivasa Rao’s musical fantasy is inventive, quirky - The News Minute",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb0xmalEyUXZSR0Zmd0FnOEJSM3ZZczRoUXJOWldYcE16MnEtUXFUUWNXNFR5aDBHaERoMk5WT0VVVEFVcXNRX1E5OEcwVUVSUUR2Vm9QMGZKWTlnNnVjTFlDeU1ENHJZRmxJUXFaSGdGSzV0c05PVTFudkN2dmo4STJ5bDRsWG5vSlpQZ0Y3eGJsbnVfLUVpRmtPYkNudTg0b0dNbWZzOHREVGNxRVNtMWN2aHBqaFnSAcQBQVVfeXFMT1hBamc4REEwVDMxUGdIZW9oR0Ezdll1SHBQTXhvS0MzUzJ0OWs2ZFpfR2lEZ2U3ZEw3NDdEal9rcUZsY1R4V25fcTFUZTNQNmtvclpVNHkzclN4em9yNjROVlFud1NGeEZ2ME9YNUtuRTNLZkY3UXdTSVZ3dE1fSmlndlJBQmJKUU1vUzNSSjZUaUh3Tmg1UGR4RGRsUGJ4MGJhMW00UHlFYk44cE9CZUh5M1VtWS03YVlieVQweFREa01RXw?oc=5",
-        "source": "The News Minute",
-        "published_at": "2026-06-12T07:00:00Z",
-        "snippet": "Sing Geetham review: Singeetham Srinivasa Rao’s musical fantasy is inventive, quirky The News Minute",
-        "lang": "en",
-        "matched_query": "\"Srinivas Rao\""
-      },
-      {
         "title": "Media is the foundational element of the Telangana movement: Prof Srinivas Rao Vaddanam - Hindudayashankar",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTmJOd3B2RHZLWlZQT2JISldVUjdVbmFqWW9fd3ZlYXY0LU5lU1ladGMya2VZQVZaSEFPWTRkdnZRNFJWV29qVGtOc3V2YVEzbjJPOFBwUTExeld6V05uUHY5aGlkZnVHYnlUMmJzUjNiZlgtWVJhMUNhbkFDTFlYYThpdmZhTG10UmFINmMtYTNpY2VsczQwQnpTREJLX1ZqSGxsNkJIOFZ0TEVaS0JtRHRjRkdjbTRIYzN2NnN4U0U4UkZl?oc=5",
         "source": "Hindudayashankar",
         "published_at": "2026-06-11T07:00:00Z",
         "snippet": "Media is the foundational element of the Telangana movement: Prof Srinivas Rao Vaddanam Hindudayashankar",
+        "lang": "en",
+        "matched_query": "\"Srinivas Rao\""
+      },
+      {
+        "title": "PM Modi expresses anguish at passing of actor Kota Srinivas Rao - News On AIR",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcE00NURiSlIyNGpfaTRrM0dCVFNEZWFVZW1tcm1wS3N0M2xaVWkweDQ2aGhNcFl3VWQ2X1VOamw3VFE3QzRmTWdxUGFCYmxsRlpsUjhjYlByTXBYQ21nRjk4WFlULXkwT1ZqODVDc2pnV0dxcU5pcGxnLUFMcnBqS1A5YUVpTG14eTAzQlgycGFGQW8?oc=5",
+        "source": "News On AIR",
+        "published_at": "2026-06-08T10:44:02Z",
+        "snippet": "PM Modi expresses anguish at passing of actor Kota Srinivas Rao News On AIR",
         "lang": "en",
         "matched_query": "\"Srinivas Rao\""
       },
@@ -3068,24 +3086,6 @@
         "matched_query": "\"GAJUWAKA\" Andhra"
       },
       {
-        "title": "The rural renaissance: AP schools script a new era of excellence - The Hans India",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWkZrVXJFS21fcGdpNlMtWU81UmlMbGtOMV9tN3JnMFVpeXhQc19CYmRldk5ubzFNaGwtcFRiMFoyZVpkOWlGRFl4VzVEMTM1ekxveVppaFVjcFdleEdpQ25xZVYzYWItSmdGZEp2V3ROMndqbGVqZ1djZU9DajVPNXpMQnBpXzVVaUVzQ1pxaEFVc01qdnY1YzRoVVROckJYY3Y4Z3B4LXZMS2lpbm5jTDlwdGpRSDVhZzNwcm4yYzc0QkZpWWfSAcsBQVVfeXFMTkFuTkJjUER6V3NNQUtLcTJHRHdsNDNZYm9ZZzR1eHFpbjdKMmxBa0cxSGlEZWI5WkM0dWs4dzI0Z0ZHRzBRN1ByTkh5NDJfNl9yUE5wTWw5dHlaRzV2UlNVU3BFVnAyaERUTU9PbURJQVRFdTd1NHlVU3k5bXpfRURjbVhOOVduUWZwbHM4cWJOYjlfakpXNFdENXczX0ZscFBLenRhQkNqcEdDWURqQWR1SUVHb1RlX24yVmZrNWZkMXZxVmN5N3NyZzg?oc=5",
-        "source": "The Hans India",
-        "published_at": "2026-05-04T07:00:00Z",
-        "snippet": "The rural renaissance: AP schools script a new era of excellence The Hans India",
-        "lang": "en",
-        "matched_query": "\"Srinivas Rao\""
-      },
-      {
-        "title": "Bharat Dynamics Announces CMD Superannuation and Leadership Transition - scanx.trade",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSnBRdHpSczF6VWtoSjZsQVJDTlg4blRsOHltNEpWQ1E5Z2h4cHNlNWpfbmFkXzFDOEFvSnVPR0l2X24tRjloTGRTbHRtU0xnb2lQNHE3cFBwQV85QlVmVFVxUFA4d1BxdGRub29WSnR0T0RJeUJOZVJwRkhSd2FfRUR0MW1taDJpSmUwemNYMWx1SnY5Nk4yUEtkZ1pFWTZTcDU3LUZ2R3JMNDNzMU9RaHgxYTI3cjczOXpFN0RKNzQ2Ym8weFE?oc=5",
-        "source": "scanx.trade",
-        "published_at": "2026-04-30T07:00:00Z",
-        "snippet": "Bharat Dynamics Announces CMD Superannuation and Leadership Transition scanx.trade",
-        "lang": "en",
-        "matched_query": "\"Srinivas Rao\""
-      },
-      {
         "title": "Telangana braces for heat, uneven rain as El Nino takes hold - The New Indian Express",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVXF0UjlJa3FuX1JLelZIbGJzNEhOWVRLZGc5ZkozeEdqSC10Z1JhbXQzdFZZTTlmS19ablM4ZVpQalJld1BhTnlFdzJSajJFT3BvbFEwcGN3Qm9KaG40Qk1oektxcGdqNGhIUUE5RFYxOUdzNGNybGZFQlNYT05wZVJhRk5yNkpxU3BuVzVJTWk5ajFKaEU3WWtMNEJMMEY2Q0FNUU5OZTE3aVpUbmY2N3VpVlFtWWRfeTZRU3Bn0gHLAUFVX3lxTE9NeTdnWUZVd2pPZkFnQ01kTmRtclAwdkE5Ml9XTHo1dEJGeXRpZlBQcWpFOEV2T3dlczQzM2NwM2NKVTN3RGJ0LTZ0cFpLYU5qTE9USDRDaWFwUGtOdkREV2xodXRzUHRRWkZOemctZThKMTZfS1J5QnJ6YlBQWXN5anZXOGt5MERDajQwRTMxeEc5ZDdNV0I2TE5qVXNlVVc5b1hyV09FX1NlMlVkX3hSMmFHMDQ5ek53YXdiZWZFVm9qZm9Sb1VqQkpJ?oc=5",
         "source": "The New Indian Express",
@@ -3102,6 +3102,15 @@
         "snippet": "Seven injured as under-construction road overbridge slab collapses in Visakhapatnam The New Indian Express",
         "lang": "en",
         "matched_query": "\"GAJUWAKA\" Andhra"
+      },
+      {
+        "title": "Meet Srinivas Rao, Surfing His Way to Inspiration, Creativity and Podcasting - Cater+Event",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON001d0Z5YnA0QlpYX2gxdWl6Q19GM1ctUlJHNElzRTlkeGdBcTFFWFNoVmRVdWhDZUdrZzgtcTRkSHhtcW1NNU9lX0ZwcGtLY0NmZ0JWRDB3NWhaN0RVT3k5ZGU1TEpIQS1YSmpydjVpYUxvcmJxcHpxUDYxMElieEdKaVRiLTNRdlFjZ1ZLODZRWV9seXUzQUZ4cDM2ejBMM2pVc3dWcmY3c2xYa2JiSk03SVZzYWlBaEEyWnpDbnpTMjB2?oc=5",
+        "source": "Cater+Event",
+        "published_at": "2026-04-22T18:43:34Z",
+        "snippet": "Meet Srinivas Rao, Surfing His Way to Inspiration, Creativity and Podcasting Cater+Event",
+        "lang": "en",
+        "matched_query": "\"Srinivas Rao\""
       },
       {
         "title": "Daily Voice: Valuations at multi-year lows in private banks offer reasonable margin of safety, stay with... - Moneycontrol.com",
@@ -3127,6 +3136,15 @@
         "source": "The Economic Times",
         "published_at": "2026-04-15T07:00:00Z",
         "snippet": "Big TDP reshuffle: Minister Nara Lokesh appointed as National Working President The Economic Times",
+        "lang": "en",
+        "matched_query": "\"Palla Srinivas\""
+      },
+      {
+        "title": "Nara Lokesh As TDP Working President - Gulte",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XVzVmMllnblprMENXNHFNczRzdFFMcm81WTN1UWVRQmxnZFdFMXRteWZ3X3NQbVJvQnRsSERiVHhRVEZ0SXM0dlRsMUtfM3Y0RXVYWUNEcmt6LUtaSjduc2JheWR5N2Rfck1KcExORjJ3NzNiU0ltTDBQb0I?oc=5",
+        "source": "Gulte",
+        "published_at": "2026-04-15T07:00:00Z",
+        "snippet": "Nara Lokesh As TDP Working President Gulte",
         "lang": "en",
         "matched_query": "\"Palla Srinivas\""
       }
@@ -3169,11 +3187,11 @@
         "matched_query": "\"VISAKHAPATNAM SOUTH\" Andhra"
       },
       {
-        "title": "Indian Railways Adopts 18 Star Logo as South Coast Railway Begins - Construction World",
+        "title": "Indian Railways Adopts 18 Star Logo as South Coast Railway Begins - Construction World India",
         "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNekxsbmFuMTlQU0ExLVBVVldZVFlkbVRtSTExQnZHNFdyeFlUOVpkbjRBOG9aMWsxSF9VNGdzWDMwb1IzSXJJYUpsZVNpdFFla2ZSazdKLVIzUDhWY2ZHZUxIZlNCaWJWa2xWQy1WMGlrWkFGTloxenhiRFRfRVgxUmFlZXFISHNya1FzNzNVSGpSLUdDWW1tdldxRUhmMGFyOGYxaXhHZUVGRnVHWXpLRmhMR0hDT3N2eWhKZEVzZ3ZuQi0wZGFVZE5ENnU0MlFWemZtdldaenAyRDZ1VnJQRXB3MnZjU01lT2RjbFJ5bXhFemZkbTI3SHh6ZFo?oc=5",
-        "source": "Construction World",
+        "source": "Construction World India",
         "published_at": "2026-05-22T07:00:00Z",
-        "snippet": "Indian Railways Adopts 18 Star Logo as South Coast Railway Begins Construction World",
+        "snippet": "Indian Railways Adopts 18 Star Logo as South Coast Railway Begins Construction World India",
         "lang": "en",
         "matched_query": "\"VISAKHAPATNAM SOUTH\" Andhra"
       },
@@ -3198,11 +3216,11 @@
     ],
     "34": [
       {
-        "title": "FDA gene therapy regulator steps down from leadership role - Fierce Biotech",
+        "title": "FDA gene therapy regulator Vijay Kumar steps down from leadership role - Fierce Biotech",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkhmRjF6UmNoOVRTazNhRU9NLU1ZaGJYX2tkS0FIaDFsU2otUVBkZDNJOVZKdFVCSk5NZXh6LTFlTzlLelpoQ29PUGRUQVYzLVlOSFd6bTZfZWtwUV8zMm1pTGRHc3BOU2YyWmM4bEUxemtueS1IYkdWUFlsd05SR1N3TTBUUERVYjdWNjI2YllmNWtnbWVWVlM5SDFvNG9IQmt2dndn?oc=5",
         "source": "Fierce Biotech",
         "published_at": "2026-06-30T14:36:24Z",
-        "snippet": "FDA gene therapy regulator steps down from leadership role Fierce Biotech",
+        "snippet": "FDA gene therapy regulator Vijay Kumar steps down from leadership role Fierce Biotech",
         "lang": "en",
         "matched_query": "\"Vijay Kumar\""
       },
@@ -3369,15 +3387,6 @@
         "matched_query": "\"Vijay Kumar\""
       },
       {
-        "title": "Vijay Kumar News - The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBudVNLS0Mwd3pINmhNOHlSUmt2SHBjNGFNdE9QaFFTU2VXSk5yYkgtZDdBUzdHTTloWWx3MHBIUEtlbHBSUGY5R0RqbXBtdHMyU1UxNVBzaUd4T0padE53aUtUazhKWXd0Mnc?oc=5",
-        "source": "The Times of India",
-        "published_at": "2026-06-24T17:11:00Z",
-        "snippet": "Vijay Kumar News The Times of India",
-        "lang": "en",
-        "matched_query": "\"Vijay Kumar\""
-      },
-      {
         "title": "Global giants backing India’s shipbuilding boom, says shipping secretary - Mint",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWjI3SmJ2QW1mZkxrOU1TQ2k4dUhyQmZKeG9tUHlja1N4TGlRZ0NjX0paUGxGbE13enJPZG9NM3hkZzliQ2VUSjFJR2tXNm1IZjFuZldpSzB1SU1WajREZExuQXV6d19lYXdBOEFNN1VGWWctamhjTVJaOFRVWjJWb19ZaUV3dGQ1di1aYnhTZk5SZW94aUw3NmQ0VU84Ukt5NmwtMmJxUWFOWVQ5R0VFRG1SNmM2ZjBNY01fQ25IMNIBxAFBVV95cUxQZFd5MWowSktlNDZOWmFTU0lVWENLd2RoWEs2dTMzRHRtNzl2c1o3eEFiVmo0WGoybFJjeDdCc0VGdzAtTFlTeGNKVE5RYTJ4TzRHODZIU1RWeDJwc3FhNFl0TFFBT2IwZjIxd3RrTkphSGdvbWVWN01aVzc3ZmFROHByRUpXWU93M0ZvVnpnNlJwWGFySkhTalBTVHNfMndKdWtaMEpMbWotY1N5RnpMVURmZ1RVUjBIdkhXXzlua1c0MnVO?oc=5",
         "source": "Mint",
@@ -3419,6 +3428,15 @@
         "source": "The Indian Express",
         "published_at": "2026-06-19T07:00:00Z",
         "snippet": "Exclusive: Route altered for key Bihar expressway, land owned by Deputy CM aide under cloud The Indian Express",
+        "lang": "en",
+        "matched_query": "\"Vijay Kumar\""
+      },
+      {
+        "title": "Vijay Kumar acquires 34.4 lakh shares, raises stake to 14.27% - scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWjZoY0UtOVNmc3NXWDE5LWlRMWJ1aWZIODRPMUMzZk5sOG9xc1VDQUZZRl8wbjdPMWRCZjlGNjVWWVh3ZzAxeVpNWllHWU41dzRfWjg1ME9WMXY0UVVIY1lKdFUwQVZJZFlPQ3J5cVM4ZlVCZTl3THZmV09mc2twMmh3WXh6d2pjT0wtaEJKN1ZHWFJqV2xIZGdDaHF3a3IxdVpiV0ZIdlJmR2ppTjNQR05xRTlqSm8?oc=5",
+        "source": "scanx.trade",
+        "published_at": "2026-06-17T07:00:00Z",
+        "snippet": "Vijay Kumar acquires 34.4 lakh shares, raises stake to 14.27% scanx.trade",
         "lang": "en",
         "matched_query": "\"Vijay Kumar\""
       }
@@ -3512,6 +3530,15 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeTVMT0xaMXpOWHkzOHVTU0NVQVBnOGxhVVBXVmUyWExVLTlFcFVsNGRUSDJDYThrMXpOQXlRUmduQkJFWDNwSEpWRjRuOU1ZZ0NwOFl4N2ZZVWFSUXVqSE9CYWh3VU5OWWhsYVl4YTUwaDZ1TGNhQkRKRkpzOTR4SGN1ODJVSU9ydDZTOUF3dG04ajhVX3JXVGY1TTktTEF6cGJxc3d6eG5EbHpSMUJoSklZN3JBdUJ2?oc=5",
         "source": "MSN",
         "published_at": "2026-06-27T21:07:41Z",
+        "snippet": "Andhra Pradesh High Court seeks detailed report on missing Tuni girl MSN",
+        "lang": "en",
+        "matched_query": "\"TUNI\" Andhra"
+      },
+      {
+        "title": "Andhra Pradesh High Court seeks detailed report on missing Tuni girl - MSN",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNajZDVjVYMVQtMHFSODVJX2lnMnFEYTBsWnlYdW9jUGVPbnA0RWZ6VUltQ0gxN0VjT3VQQUdnbVFIS3lmRUNNQTl2NjVBSjFFZ25SX3hRN0NZdm1MUWk4SXlaeTVBQlh1SHVTVXVyQWxncV9RRjl4eWsxY2Q4bnNPZjVmUVJGTVRuMFdJaUswY3NpMm1kcEhXeVNZMnFWREl5aDJWU2NZRDJtZWxmWXh6ekNlWFF1SmNF?oc=5",
+        "source": "MSN",
+        "published_at": "2026-06-24T14:39:17Z",
         "snippet": "Andhra Pradesh High Court seeks detailed report on missing Tuni girl MSN",
         "lang": "en",
         "matched_query": "\"TUNI\" Andhra"
@@ -3975,20 +4002,11 @@
         "matched_query": "\"Pawan Kalyan\""
       },
       {
-        "title": "UNITED NEWS OF INDIA - UNITED NEWS OF INDIA",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sT0VOZmNPZms5R0dsNXJHSWt0U0dVVEtuRndaRFUwU1lGXzFMVjZIVWVLN1lEWndXU1Y2TGNvTlNDMWJuWjBfcFN4QVI3WnpDeUt1Z29iMA?oc=5",
-        "source": "UNITED NEWS OF INDIA",
-        "published_at": "2026-06-30T07:48:21Z",
-        "snippet": "UNITED NEWS OF INDIA UNITED NEWS OF INDIA",
-        "lang": "en",
-        "matched_query": "\"Pawan Kalyan\""
-      },
-      {
-        "title": "UNITED NEWS OF INDIA - UNITED NEWS OF INDIA",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uYkY2UXZnV0tjUXVhQnNHR0d5RGRMUEF6eUMxVnV5dWJSLVFRbzVJb0hsSFltZmJ3R0U0NlNKZF9TdnNJNk5iWUxKbWF0UnZDa3BvWWZRYw?oc=5",
-        "source": "UNITED NEWS OF INDIA",
-        "published_at": "2026-06-30T07:48:21Z",
-        "snippet": "UNITED NEWS OF INDIA UNITED NEWS OF INDIA",
+        "title": "Pawan to Be Out of Action for a Few Weeks! - GreatAndhra",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXFEcE1SY2FlN3dQaHpyUjFpS245bWFoMmpWcEpTTi1KenZwRXNuMmN3a2tSQmlyX0ZON0xzZWtDdjNGVlBHQWdOYWJYWEtneHhYUWFkOWJoZ2dUWnFMWXZjWEh4X0RLR0ljdlUyZ2xta2tCODZ5SWlXUUdvcTF3WThQd3phZnFXMHJrRDNGempTd0NkN3c?oc=5",
+        "source": "GreatAndhra",
+        "published_at": "2026-06-30T07:39:07Z",
+        "snippet": "Pawan to Be Out of Action for a Few Weeks! GreatAndhra",
         "lang": "en",
         "matched_query": "\"Pawan Kalyan\""
       },
@@ -4013,15 +4031,6 @@
       {
         "title": "Pooja Hegde To Star Opposite Pawan Kalyan In OG 2? Here's What We Know - News18",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUHR0NXlBUS1Yc0p5a0RVQlUtNjlXYS1mNFMtTl80eXhXT05RQjc0MTdLS1N3djRjaTZtcFcyS3EtU09INzAzZnNQOXBVQWpUalVtZktQbklrTkJSZXhmX19KWTFyVjRfYW9pYmJ4WmRvOEl5a2Z5OVdSbXhfX0ZLaGowZHZuTUF6Q2dtZzR2LVphQVhmV2JoY2pCcGROckQ2LWFOSTRacGJkOFJEdE50czVqODFpZHhEaE93dnl6elNrREtIdmJKQ01LSdIB0AFBVV95cUxNT0IwZ0U1ektCTnpwM1Niakw5b1h0Y2c5aEY5SFNHMloybThsb1hEVHFZaTRvaWtqYm9STnNZNW8zMzZLSGI0c3JhdlRUdnhvVFRETVVPNTZIc1BnM08zUFhnemcxUjg0UlhxN0NudWFDd1N0bXI4RHRtbTJBY3VQQkNKcmRtczJSY19VU09leGsyVy1wZUNHQjVCeVZsNGZYSHdQR0lRUElhcEQ0eEFLYjBLUmRkNF9tMjN2bTBDaVNFVGpuQk5BX1ZRN1Y1aGNm?oc=5",
-        "source": "News18",
-        "published_at": "2026-06-30T05:58:46Z",
-        "snippet": "Pooja Hegde To Star Opposite Pawan Kalyan In OG 2? Here's What We Know News18",
-        "lang": "en",
-        "matched_query": "\"Pawan Kalyan\""
-      },
-      {
-        "title": "Pooja Hegde To Star Opposite Pawan Kalyan In OG 2? Here's What We Know - News18",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0IwZ0U1ektCTnpwM1Niakw5b1h0Y2c5aEY5SFNHMloybThsb1hEVHFZaTRvaWtqYm9STnNZNW8zMzZLSGI0c3JhdlRUdnhvVFRETVVPNTZIc1BnM08zUFhnemcxUjg0UlhxN0NudWFDd1N0bXI4RHRtbTJBY3VQQkNKcmRtczJSY19VU09leGsyVy1wZUNHQjVCeVZsNGZYSHdQR0lRUElhcEQ0eEFLYjBLUmRkNF9tMjN2bTBDaVNFVGpuQk5BX1ZRN1Y1aGNm0gHQAUFVX3lxTE1PQjBnRTV6S0JOenAzU2JqTDlvWHRjZzloRjlIU0cyWjJtOGxvWERUcVlpNG9pa2pib1JOc1k1bzMzNktIYjRzcmF2VFR2eG9UVERNVU81NkhzUGczTzNQWGd6ZzFSODRSWHE3Q251YUN3U3RtcjhEdG1tMkFjdVBCQ0pyZG1zMlJjX1VTT2V4azJXLXBlQ0dCNUJ5Vmw0ZlhId1BHSVFQSWFwRDR4QUtiMEtSZGQ0X20yM3ZtMENpU0VUam5CTkFfVlE3VjVoY2Y?oc=5",
         "source": "News18",
         "published_at": "2026-06-30T05:58:46Z",
         "snippet": "Pooja Hegde To Star Opposite Pawan Kalyan In OG 2? Here's What We Know News18",
@@ -4162,6 +4171,24 @@
         "snippet": "JSP leader defends Pawan Kalyan, criticises Sailajanath for remarks The Hindu",
         "lang": "en",
         "matched_query": "\"Pawan Kalyan\""
+      },
+      {
+        "title": "What Went Wrong Between Pawan Kalyan And Kavitha? - Gulte",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcHFiTVJVRWNkMkprY2RQT3QweUZGSWFzV1g1S3NfLWREQTlxeHlsenJLRk9MeUQwa0VaLWZkNlQ0Z011Nm1nMjMwT0toaHlrUFFzSlgyTURidkY4c0M3eVpjbnZhdU1sNXlFendaWVVyVURVNDF1Vm1CTk1vT1c2TnhZRHZjMGxWZlZJUmo1TmVZS1FXenRv0gGcAUFVX3lxTE56aDRpTE16LWVJalNyNERLN2YxNjJyTWNlNVliMWdMV0dSSFRaalZIclNoMlAyWGZtN2MtRDBoSlY0OEE4bnFpSFl6MWZmOGg5VjZwbWhmZ1dNOGp1YjREUk8xcFhyRGZHQlNNVlpNS1VSQUpXZ182ZzRuR3FLeHJBMlpnb21WOEFfRU5GWmlzX0F0ekV1al9iaURiRg?oc=5",
+        "source": "Gulte",
+        "published_at": "2026-06-28T12:05:54Z",
+        "snippet": "What Went Wrong Between Pawan Kalyan And Kavitha? Gulte",
+        "lang": "en",
+        "matched_query": "\"Pawan Kalyan\""
+      },
+      {
+        "title": "Chandrababu Naidu, Pawan Kalyan to launch VB-G RAM G in Tirupati district on July 2 - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbDBMU042bWdzdDFFTUtOcklsN3RaT1laM0stSHVITHl4Y05fMVc1Z2pGWFZVOTNZVm53UmU4ajdMbi1EZDV3V1FyVEE3ZmVnenVhZ292c1lLLVpobW5pbzRGZ3hHZEJIbzVNSVNuUDNmakdHNWNRckpybGZFNk9SRFVhTzBiS01oNVRma2lpYll4bGtVd210SGNrcDZkQzc1UHg2a2RGUG50YkdmN1dNZWc2NHJUX3d5Qk5ja3NGM0VGSE5wVGZRZjFVaXgyVWQzb3VCTmxSSFR3MUs2eTB1WkUxSUhGWUxxd2NRbNIB8wFBVV95cUxQU3hFdXVjcUFMMzFyUTZCQWZRaXRGTGRKb1VVd3E1VHhDcVhUci02QjRnUnRtRU9nNG03LWd5YTJ6YVRkYm43YU9qX3NsNzdFb1JTYVQ3X1ZSd3NGbmpMU3ZrN3pFNWQ3SkhsejFnSUdFNmo3dDR1RTdOUkEyOHJYVDlMYlFJTDM3SHJoUFlZdElnSGVtZ1A5SW9MNzJGV1lMM3RVYnZTejQzUGNqckJldmVxemFaSU9wcTFCTnRGX01UVzNtMDRQVnBic3V5VUZhaXFpdjliQmxYVnBMaWhvMnBNdzJ5ZkN6S1YxZzd4Y3phRFk?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-28T06:59:55Z",
+        "snippet": "Chandrababu Naidu, Pawan Kalyan to launch VB-G RAM G in Tirupati district on July 2 The Hindu",
+        "lang": "en",
+        "matched_query": "\"Pawan Kalyan\""
       }
     ],
     "42": [
@@ -4294,11 +4321,11 @@
         "matched_query": "\"Maddipati Venkata Raju\""
       },
       {
-        "title": "3 Killed, 1 Injured as Speeding Car Hits Signboard in AP - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVV9HeW80dW1SYzlrc2gyWVF4dGdUNVNrQ0NidVZnekJDQ01NdzFrTTlFdFZJaUJ4aVZYZTFscFA0aWlkVkstbjZrMEZOY3V5U2VFSUduUGI0a1JjVGZJcVpxOUJHYmtPaHVsT2c1Z2JCNTRXNlhIRlpqWWxrZG9YZ0h6WVZsX3hUMVpKU0JwV2tOS2NfQzJsbzVDbFM0VzF0ZV9sUHNnbE9LTWc0UWZ0UlhxS3paTWxMbWlwUWtyX1ZPR3lY0gHKAUFVX3lxTE1sTm9jemlFc1JsbzZaSkw5MUU0SlpKbWlyd2MwYzBJMG1QQU5oYWEwMHRrMDN0SWVlRThZbWotODF3enA3Sjc4OVQ5b3lBQlZIU1pHNFcwdU5oaU5OTzhmaDNBYVZfbkpyUTUwMVJYalUwQjh3VlRLamtiX2JaeXRCZF9iU2c3WjJYZFZpNW82akcycExVcTh6UDN0UEJmeHVXUHVNMEU1Y0FKazFJMXF1MF90SzlxUXBnTUtzQ2VBQ2F2aHBwQzRIWVE?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-04-22T07:00:00Z",
-        "snippet": "3 Killed, 1 Injured as Speeding Car Hits Signboard in AP Deccan Chronicle",
+        "title": "Andhra Pradesh: Car rams into lorry; 4 dead, one injured - ANI News",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeTRDb1BOb05CYlFlYml1c2VON2FrTWp3Ry1scDEtMU1tdTY2c0RYYnZCSDVVMGZ2V3ZRVnlPbmRZc3hvNm5hT3JEZmNieUctSDBPcDRVdUpadFRPVzgzTl9wc2VZaEh4U2FNcHBoTzRyb2VCWFlLQ1JSd3pMVkcySnp5eGc1cmQzbElBQmV1ODdaYmZZWEhiVHdTMGQyeUNza3RGMzF0ejgyUjhtcHdMS3FOQ0ZIVXFE?oc=5",
+        "source": "ANI News",
+        "published_at": "2026-04-28T07:00:00Z",
+        "snippet": "Andhra Pradesh: Car rams into lorry; 4 dead, one injured ANI News",
         "lang": "en",
         "matched_query": "\"GOPALAPURAM\" Andhra"
       }
@@ -5836,6 +5863,15 @@
         "snippet": "CM Naidu Inaugurates Anna Canteen At Dharanikota; Number Up At 269 Across AP Deccan Chronicle",
         "lang": "en",
         "matched_query": "\"PEDAKURAPADU\" Andhra"
+      },
+      {
+        "title": "CM to inaugurate Anna Canteen at Dharanikota on April 15 - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQmVJVUFUOXJPNkE0cmItb3FsTjdBc1hTYkVyOTkya1hZREw5ZW96QzA2RkdQRjN2VzFkbzFoV2VxNGlBUmxnYVJ5ZmU1UjYySWZRX1JmSTBUUGFfTUJ5a2Vib2dIOElWVzVXZkUzNTB6WTU0VmVIdm5SZThnQXNtSk1yOUJrWk9tVEp4cXoyX0JZX2N6eldkQWJqMDZMNU5vMUcyc05NeTd2aW52SzVFczhTMmx6M2F6NFVQUFBqZU5vQThOLVHSAcsBQVVfeXFMT3lRa1ZuVmZqeU1mXzR3ZGZ5d3EtNTRIZnlKRXVFcUk2MmRGSWN1V1RjZHRyZnhZeXFzYTYyT0dMX2xNaHFVcnpqVVlUcHY0WlltWXN4VEZlNmp1MDJIU3V0OTlfRTlpZmJNQjRWSENpZlhKU2tUazB3YkxlVlZpNjFaVm10Mmhkby1JMEhCUjJKSmxvblJEMUExQnlQWWVlRmJvU2F4WDZBUzJtTWtjZ0dYeTlQNndKLWctMjJKRlQtbXFCSE1NUE5jV1k?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-04-13T07:00:00Z",
+        "snippet": "CM to inaugurate Anna Canteen at Dharanikota on April 15 Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"PEDAKURAPADU\" Andhra"
       }
     ],
     "65": [
@@ -5872,6 +5908,15 @@
         "source": "BikeWale",
         "published_at": "2026-06-25T04:13:55Z",
         "snippet": "Hero Xpulse 210 price in Tanuku - June 2026 on road price of Xpulse 210 in Tanuku BikeWale",
+        "lang": "en",
+        "matched_query": "\"TANUKU\" Andhra"
+      },
+      {
+        "title": "Hero Glamour X 125 price in Tanuku - June 2026 on road price of Glamour X 125 in Tanuku - BikeWale",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Uc3RLRENxMTViQmNkaHIxMHV4cDhpMVlWZ0Jad0gyZ3hUTWNUUFZWd05SaE0wajZVZTFQSy1JQ1dTdXVhSEs2TTZMYjdoX0Y4TzFEdWVEQkFJdlBoT3ZibGFUWWVBMk52TU5UQVBSb0pvazdS?oc=5",
+        "source": "BikeWale",
+        "published_at": "2026-06-24T02:10:15Z",
+        "snippet": "Hero Glamour X 125 price in Tanuku - June 2026 on road price of Glamour X 125 in Tanuku BikeWale",
         "lang": "en",
         "matched_query": "\"TANUKU\" Andhra"
       },
@@ -6051,15 +6096,6 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYm42ZzVaRHdUd19ZcWx3UmcxMlUxenowU0x5ak1zZ2VrWDRYUGVWSUNfa0dYVXJwVGpxbVQteWVyajVGV2hVVkZRS21uRFY0U2lCa2JETXk1VDRnV1haVnVaS1VwejBZUEZaelNrVUNjWWQyeXpVc29EajFzakE1ejRsLWdHX09DQXRqVXBKQWVLTVIwZDI3aFZmVk1PR001ZnVpREtTR3lETDlKMkdlcFY4bXU0eTVTZklHRA?oc=5",
         "source": "KUTV",
         "published_at": "2026-04-07T23:24:26Z",
-        "snippet": "Man killed in Springville crash identified as Sri Sri Radha Krishna Temple president KUTV",
-        "lang": "en",
-        "matched_query": "\"Radha Krishna\""
-      },
-      {
-        "title": "Man killed in Springville crash identified as Sri Sri Radha Krishna Temple president - KUTV",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnNFdzhlRjhQYVFERVIyMDRUN3lwNF9HUUZUaElxZW4zVGo0QWw0ejVZdTBUOWFkN1JRdW5HYU1teFdBYnBoQnYteS1mODE1bTdwVDY0ODJBeVY4Q0hkM3BYTTAzb1FDWkplTG5oRzd2WmlGZ3NaamRxbnBHTGxucTRiUUlUeHFZeDdhTjFmVWNTQnlUS2FsTVprY2lJMEhkQXNUUVJobVVzOGlidkxBSXNB?oc=5",
-        "source": "KUTV",
-        "published_at": "2026-04-07T07:00:00Z",
         "snippet": "Man killed in Springville crash identified as Sri Sri Radha Krishna Temple president KUTV",
         "lang": "en",
         "matched_query": "\"Radha Krishna\""
@@ -7469,20 +7505,20 @@
         "matched_query": "\"GUDIVADA\" Andhra"
       },
       {
-        "title": "Telugu Techie Found Dead in Haryana's Panchkula - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVURJQld0ZGVSdjRGSHZVLUlpdHlpUlNNWHNPYTQ1Z3VUOWZIMFAxNFhQbXRVbzRPWXlKRDlDcnBhUl9LZ0pOZE9IOGhNN1k1XzNTdzhUdUFNZU5JcUpRSFJ2ajZ4Rmp0bUU5VEtEc2MwdVh4RU5sNEYwbElLM0RTLXpYZXVQanRQNGtJTkxCTUVVZGdmNkhHODlrUVpwdmlaUjh1Wm1HcXFCaTN3YTFHeXZRQ0taYm04endwbGdObThabmxRdVh30gHMAUFVX3lxTE9OeVlkSXI3cDM0ZW1JTktfaVpCUl90VkNhb1NwZzd5d3pBT1NqT3JtVVNSOXZBd0NGWmlFSGdTaVJIQW5oVExFZXJydXZheklqekNuX3l5Q1owU2tfMmE4SzR0UG83ZnYtMWdQdHMybWZnY2dCWW9BQ0tkZDhSMDVTYXF4cFBUOVlLLVVvWGlZNDFsbm5qM29GTHo4aEdyY1FWQkx5UmRwUk9VN2xfSUg5Ti1TM2REclMxR0k4XzZ2b3RoT3Z6Z25BM3dsYw?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-04-10T07:00:00Z",
-        "snippet": "Telugu Techie Found Dead in Haryana's Panchkula Deccan Chronicle",
-        "lang": "en",
-        "matched_query": "\"GUDIVADA\" Andhra"
-      },
-      {
         "title": "Techie from Gudivada found dead in his room at Panchkula - The Times of India",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNODNxRjBQTDRfaUhZeW5RYmd3SjlVSGUwYTl3cWtZUTNtX0d1LVhuakxEWVF1aS1IUHg3MzZINU5BYzNoZjBMSGtTSTZkYURWVGU1QUlSNUxHQzdQLW1SbEJKSXRuVDJFMlZFQ09WVlJYSTZVRFZ2S3dkc3E0UFZ1MXgzZ2NlOFZ5cDhTV09zcFM0dG1MV0xrV1VaYS1KYjRZekR3YjFFMHBNWldBcEVweHFKNW5WcmQxVnNmVFNubG1ra1ozbm5odXZ3WndZQUXSAdQBQVVfeXFMUDlhaHRMQzJLTjVxamRWeFZ3SzY0V1lGeU9LZmMwTHJnS3VCZkFJckNsdWJQSm1mWmhSSkpmZlFUM1k3Q2ZoNWVJMm1NUF9KWktYQmEyUzFMS2JucmZEeTZMRXJNTkhGN3U2TFdYcG9hUW41ZFZLbmstemo3YmhLbVVkZ2hhUWhBSGFlOUVoRlN6YkxoUHQ5V3d2Yy11MWZ5cGZsZ0xGa3k3VTl1eEFEd21hTmJVOGJjT3Y2cUQ0bUJ5OVEwVWtxbHVZNFJXeDZ5Y1JDLTI?oc=5",
         "source": "The Times of India",
         "published_at": "2026-04-10T07:00:00Z",
         "snippet": "Techie from Gudivada found dead in his room at Panchkula The Times of India",
+        "lang": "en",
+        "matched_query": "\"GUDIVADA\" Andhra"
+      },
+      {
+        "title": "Telugu Techie Found Dead in Haryana's Panchkula - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVURJQld0ZGVSdjRGSHZVLUlpdHlpUlNNWHNPYTQ1Z3VUOWZIMFAxNFhQbXRVbzRPWXlKRDlDcnBhUl9LZ0pOZE9IOGhNN1k1XzNTdzhUdUFNZU5JcUpRSFJ2ajZ4Rmp0bUU5VEtEc2MwdVh4RU5sNEYwbElLM0RTLXpYZXVQanRQNGtJTkxCTUVVZGdmNkhHODlrUVpwdmlaUjh1Wm1HcXFCaTN3YTFHeXZRQ0taYm04endwbGdObThabmxRdVh30gHMAUFVX3lxTE9OeVlkSXI3cDM0ZW1JTktfaVpCUl90VkNhb1NwZzd5d3pBT1NqT3JtVVNSOXZBd0NGWmlFSGdTaVJIQW5oVExFZXJydXZheklqekNuX3l5Q1owU2tfMmE4SzR0UG83ZnYtMWdQdHMybWZnY2dCWW9BQ0tkZDhSMDVTYXF4cFBUOVlLLVVvWGlZNDFsbm5qM29GTHo4aEdyY1FWQkx5UmRwUk9VN2xfSUg5Ti1TM2REclMxR0k4XzZ2b3RoT3Z6Z25BM3dsYw?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-04-10T07:00:00Z",
+        "snippet": "Telugu Techie Found Dead in Haryana's Panchkula Deccan Chronicle",
         "lang": "en",
         "matched_query": "\"GUDIVADA\" Andhra"
       }
@@ -7657,15 +7693,6 @@
         "matched_query": "\"Bode Prasad\""
       },
       {
-        "title": "10-month-old child kidnap case cracked in 24 hrs - The Hans India",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaUxjX3B1UFczTFBJdjlPdTEwQmZHeE5EZThlcjlNVGtwWE5ScDZmLVJjSTlMTnhBNW1vdHdIeDJoUDRDbGNVN2hTY0dEazdxRVVpVDQwUExpQW5VUFRxazVDTnNaT1M4LUNYUHBlV19XSTR4bGJqckxsdWdxaEQxd0VXUjhiaGxXNE5RNUN2bTRua0JjRkNDRmxtdWJNZVdlRmfSAacBQVVfeXFMT3VsZjFsQTFvbThNUVBob2RmMW9aYTBzeUd6Rl90bm9JWUEzcWNpcG1mMEZxNk10ZmNneUZTTWxFa01RdUo5dDF1c2NyVW9Md1RnUWFScGFXUk02VkQ4NWhsZE9UVWxFYUlvYU5pQ2x1S2RWYmlpekFJdXBiSWMzeExlQ1AwN1VsT3k5a1llcElZRGNHMnF1aEVSM2lJSXZtc3BBODFQQkE?oc=5",
-        "source": "The Hans India",
-        "published_at": "2026-04-19T07:00:00Z",
-        "snippet": "10-month-old child kidnap case cracked in 24 hrs The Hans India",
-        "lang": "en",
-        "matched_query": "\"PENAMALURU\" Andhra"
-      },
-      {
         "title": "Three master plan roads with Rs 105 crore will be laid to decongest Vijayawada: Minister P Narayana - The New Indian Express",
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQWXM1bnE5UDZDQi1KSUlNT3QxZnQwd09SbWtnVUxQSU52SDFkQUFUaEpoZXVld2NwVm1KbXhoLVRRZzNPQ0czallNWjhOXzRMUVl0cVBPRU5ZSXpMTjVQaVdlSUE4UnBQb05zM2pwSHVwbU81ZUEzNHZtNjBiS1RUc0RpS043T2hVYmo5QmZYRmZoc2x3dzB1VnRLMlRvRnlTemFUZ29NZVlWR3dGNjRJakp1OVRvY2J0cF9tdEFLREM4Z2h0U1d5QjlnWlFSY3VXRkZLZmp6eWxoVTh3ZE1ZYTMtNFdZM0VNMXFwTmhqeDJScXBiN2hrY9IBhgJBVV95cUxOc2pPVzh1MzdJWUVUY0N0QnNHZm55djBNUmpoU0plMWhFVmJDbGJvN0N6cThLOEY1Tmh1NVZXMWppcjdtVko3UmZpRlktdGZ6UEcwX3hOaGhkQUpXV2lYRHp4LWdubHFXWkw0alp3YVJFMXlTeHFWZXFuakRGT1VjN2paWkY5bnE4QUR0NV9UTnBLSmphQ3UxX05JNEFrT3ZFeGMwN0ZwT1psaHIzcFdOVktCaTlCLWU1M0JoY0JVbnhtaVptMFBDYnJ6QXlPZzByMzJHY0Zlc0Z6S2g2WkhOdGxLNjhwcFg1TlR0WGM5WGp6ekdnVFlPSnZZMjUtcGVIUnlMLU5B?oc=5",
         "source": "The New Indian Express",
@@ -7711,15 +7738,6 @@
         "snippet": "Capital gains relief for FPIs on G-secs a 'very helpful measure', but bond yields may not go down soon: Ra The Economic Times",
         "lang": "en",
         "matched_query": "\"Rama Mohan\""
-      },
-      {
-        "title": "NTR’s 103rd birth anniversary celebrated - The Hans India",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcmR5YlVlUUxzTE5ld3MxRmhJRjhJWDZ2UlN0d0hKQTFXZWkxb05NRTFDQ1JyZ19TZDl2bWZ0WC1nR0RkMTVvS2F6NnFJY3QyS1JweXg4VnR1bFhvTGxXTktWNVozWHZPQTNoWm5TUFFDVjJrZkhxM0xxX3lxZDRuX0YtMVNLU3dKV19Xd1hVZnhmdV9EaGfSAZsBQVVfeXFMUDlQbDlQRU1SSDNfWC02Qmhjd0lDWkduUThUaHZ1UXhBdWlybnRsT2dMN2stdjFfVGR2M3ViUzNNSjJ6Rl95MkNLRjF6bFNRRDFrUDJUWUwwenFUckpFS0h4ci1yOTJPVExYa2hIVk5KMmw1SXh5ZUtCSFo0ZGMxZFZKYWh3MFZjT0Z3cmkzSHdDSkRZV2NaaFpLeW8?oc=5",
-        "source": "The Hans India",
-        "published_at": "2026-05-29T07:00:00Z",
-        "snippet": "NTR’s 103rd birth anniversary celebrated The Hans India",
-        "lang": "en",
-        "matched_query": "\"Gadde Rama Mohan\""
       },
       {
         "title": "PVV Infra shareholders approve office shift and director appointments - scanx.trade",
@@ -7886,20 +7904,11 @@
         "matched_query": "\"Nara Lokesh\""
       },
       {
-        "title": "Pradhan, Nara Lokesh to visit PM Shri AP Model School in Vizianagaram today - EdexLive",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWmYxNTRQX3NwTlJSbU1GZU1QOGRMUnl6c0ZoUnJCaFBVNmRvUGRWcWF2WEVmdXdYRjhxMkd4MU82X2VIVExHaGFqd3J0ajhLM2FCY3FVVHVkZ3NmWFNBNFQxeU85bl9TWWw4UHJ0YThickJvYm15dVBaZzUyZDdtc2VkSmg2SHVFV0l4UkZtQ3JkQ1REZmtMeDc3cEFsa0x4UzAzN0ZQMkRSZ05NQ3EyWFVvQ1dNUUI2eHB3MWpQd1BGb3VyOW1CUXJn0gHXAUFVX3lxTE1mNDkzbGtmS0JpcDQwMS1NMjZ1YnJUemxlRHYxazF2aml3eEtDOHhpaks3Q0RjbV84ekd4Qng5aXFwMWptb3BydVZmR2xnYWZuQm00NE5VUlExMmhFQnhZcjJpOXR3U19adEhRaklPMnFOUFBuNFduWlM0X21Oa1JVN2s0Ti1TYlVRdjdicG5QT09KTnBjQ0FmTWtTZjhrZTNhVVBUOWpQc2F4SVYyX3BMaGZUQS1sZW1rU3J3LVkwY0lja2dFSjRoVXJlVmtZU0x0MGpobzVB?oc=5",
-        "source": "EdexLive",
-        "published_at": "2026-06-30T15:30:00Z",
-        "snippet": "Pradhan, Nara Lokesh to visit PM Shri AP Model School in Vizianagaram today EdexLive",
-        "lang": "en",
-        "matched_query": "\"Nara Lokesh\""
-      },
-      {
-        "title": "UNITED NEWS OF INDIA - UNITED NEWS OF INDIA",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02UzF0eUhJbmV1TUZPVl9aYnlGdlVicnBsZE02SUNBUHZVam96NEdIa2FqYWVDdUVSSHlfZnZFMWFmRTR5YmE4aGxlcnBHamJkZVVrOWJ3?oc=5",
-        "source": "UNITED NEWS OF INDIA",
-        "published_at": "2026-06-30T08:03:21Z",
-        "snippet": "UNITED NEWS OF INDIA UNITED NEWS OF INDIA",
+        "title": "NTR or PK’s FDFS: Which One Will Nara Lokesh Watch First? - Gulte",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb1dSRlY1eWZWM1IwbGRyaXNpd2JvcU45cGtoWXJWUFJYRGpMRm94VUlLVTNRSmJKZGZETkxDekJ6T1VUaDZCaFFBVnREeFNxQXNJNkVxUEdwWVl4MlYxNldfSHUyUU1LWUhHUkhhRUZVaUpzR2FoaUstb3poWnQyMWdvLTRhWVgtTG5xNDFTdE56cnlwSDNaelhjdnZTSlHSAaQBQVVfeXFMUEh6VXRLMXlnbVcyREFvN1I4RmxzMWNPcjFaV0hSNl80TEk0MlItSXQwblhtSnZqMXFTT0Q3SDVmMmhTLU1icjJFMnZ1aFAxN0tGRHNldVBURUFlU293T1RfMGJReXR6T1Ywc19qRjBBYWZmTWxIQk9SanhTWHNmTkU2Q0V6SHFaalJKSXFmZ1Rnc3FlS3hSa28wQ3JwMFBHZXMtajM?oc=5",
+        "source": "Gulte",
+        "published_at": "2026-06-30T13:40:13Z",
+        "snippet": "NTR or PK’s FDFS: Which One Will Nara Lokesh Watch First? Gulte",
         "lang": "en",
         "matched_query": "\"Nara Lokesh\""
       },
@@ -7913,20 +7922,11 @@
         "matched_query": "\"Nara Lokesh\""
       },
       {
-        "title": "NTR or PK’s FDFS: Which One Will Nara Lokesh Watch First? - Gulte",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSHpVdEsxeWdtVzJEQW83UjhGbHMxY09yMVpXSFI2XzRMSTQyUi1JdDBuWG1KdmoxcVNPRDdINWYyaFMtTWJyMkUydnVoUDE3S0ZEc2V1UFRFQWVTb3dPVF8wYlF5dHpPVjBzX2pGMEFhZmZNbEhCT1JqeFNYc2ZORTZDRXpIcVpqUkpJcWZnVGdzcWVLeFJrbzBDcnAwUEdlcy1qM9IBpAFBVV95cUxQSHpVdEsxeWdtVzJEQW83UjhGbHMxY09yMVpXSFI2XzRMSTQyUi1JdDBuWG1KdmoxcVNPRDdINWYyaFMtTWJyMkUydnVoUDE3S0ZEc2V1UFRFQWVTb3dPVF8wYlF5dHpPVjBzX2pGMEFhZmZNbEhCT1JqeFNYc2ZORTZDRXpIcVpqUkpJcWZnVGdzcWVLeFJrbzBDcnAwUEdlcy1qMw?oc=5",
-        "source": "Gulte",
-        "published_at": "2026-06-30T06:13:34Z",
-        "snippet": "NTR or PK’s FDFS: Which One Will Nara Lokesh Watch First? Gulte",
-        "lang": "en",
-        "matched_query": "\"Nara Lokesh\""
-      },
-      {
-        "title": "Union Minister Dharmendra Pradhan and Nara Lokesh to visit PM Shri AP Model School in Vizianagaram today - The News Mill",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZk1xcjdXZUJ4WmxMMlhYNFZoSml3anhIanBCbDZrMEE1X3V3aTB0Q0c0SlFhVDNOdTBOQ3p5SjB2UW1zYU90Y29IT2d1RUQ2YTZzejBiYVVmQ2ZNU2lXLTdtNHcyOE85NUNENExXMk51NmhrVmZpTGVHSTltRGhvak5sZ2FfWDJxMXo0NkMtNlhiMlpGb0YwcF9TZFltYW5WSWhFcnU1dXVBdzlGVl9LbzQxb21QUWk0YUkwMmdSaFNZZVBGSGVUb3g2MTRqSFltbWlR?oc=5",
-        "source": "The News Mill",
-        "published_at": "2026-06-30T04:42:51Z",
-        "snippet": "Union Minister Dharmendra Pradhan and Nara Lokesh to visit PM Shri AP Model School in Vizianagaram today The News Mill",
+        "title": "Dharmendra Pradhan, Nara Lokesh to visit PM SHRI school in Bhogapuram - Asianet Newsable",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbjBHMU50YjNSbGYxQ2lQZzlvbGFoWUtkSWw5ZHpKRXZRdDIwamI4ZVRVQ1gzWFNMeHA0dU91by00TWV4d2hQaWdIT0Y0LTBfRW9STlNoT2FVci1KanEwTkdoeW5KaTd1UnJqTHpfWW44LV9xMjl5b1F4ZTVVeDNBY0lqd3h6Qko3MjJQcHVYeWpMNTBlQklDSDdOY2kzakdMOWVteS1QNGNxczRwMDVQZU8yWTdpcEhjU1FWeFM0aDRDT08tREHSAcsBQVVfeXFMTWpCSUQ4ZVVLRlNMc3dMNGpUd3h4MzhSTzdsM0E3T0JEcllJZkplQ2JjRFpST1JleFNxNEJnM0o5NWNLMUhaLUZDa0hWWmtNdjUySElsTzR2aDdZLUJsdHNKT3NxLUZ5dFUzUmN5VGhOSG5EcTNoUEdFdVRvVmpqNXhkWklrZTVVTlRISnZsUFdHZC1HSHZDN2pmdmIyWTJyV29xTTJfU2NfdjB0TEJycFBxSmoyYTVHMHlOLWE4THR4bmR0eTVOX3RUZjg?oc=5",
+        "source": "Asianet Newsable",
+        "published_at": "2026-06-30T05:32:01Z",
+        "snippet": "Dharmendra Pradhan, Nara Lokesh to visit PM SHRI school in Bhogapuram Asianet Newsable",
         "lang": "en",
         "matched_query": "\"Nara Lokesh\""
       },
@@ -7985,6 +7985,15 @@
         "matched_query": "\"Nara Lokesh\""
       },
       {
+        "title": "Nara Lokesh Education Push Narrows Government School Result Gap in AP - Prittle Prattle News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVFBCdEpjN2xmZmtqLXlWNmxJdjJnNTRNYWN5dUhEY19xU2VEazJKMlZzQzV2SERxa0VMLTZQRjN2Wnoxc3dyU21FY2FpY1hlcHBmc2w5MXNWaW9DaVgwdzFSTlBwQXdmajFmYVh0OFNST25oZ0NsX0U4THE2dTl0Z1p5TnRqa01FVWJhcHJuQUY1VTJBX0o4R1JxcU8?oc=5",
+        "source": "Prittle Prattle News",
+        "published_at": "2026-06-29T10:38:31Z",
+        "snippet": "Nara Lokesh Education Push Narrows Government School Result Gap in AP Prittle Prattle News",
+        "lang": "en",
+        "matched_query": "\"Nara Lokesh\""
+      },
+      {
         "title": "At Rajya Sabha oath, TDP MP highlights Andhra's weavers by wearing 500-year-old Mangalagiri weave - First India",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR29KSHVNb1M2UjM3a0NjZDBYRTlweXNWM0RHTVE0X3JPdjdjVk1BY1BLWU1YY0YzOVI1X3pwZlFMTnNpYjZlUEE2ZXVVdXVzWHBnSlhzb1FncUlMX205UGVPTjJVemJuaGIybHRZRUdKaW5pWU1YYXBLUm9rb2x1RzhfOG5wNXZ3eXR1ZGJLX09sU1dhSTJEdE1EY3BGa3pIVDU2TFBKZWE0eG1mTk82bmVxbVVJNG81ZnZ3cFdEUGY5UEhHbXFldnBPcEJkUlFXWTlwVmlwaw?oc=5",
         "source": "First India",
@@ -7994,11 +8003,11 @@
         "matched_query": "\"MANGALAGIRI\" Andhra"
       },
       {
-        "title": "Andhra minister Lokesh says Smart Kitchens will spur employment - EdexLive",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3ZhdFhGMzhJYWVRQkhsUHZ4TGVrdEhCSlJ5QmptWWxJa0hLZkNVVkx3UGtPclJ3OHZQSzBDajVUd1J6b1dTV3RpUVJDTTRFbmtDTFF4eGVSTnZIZG9xUWNUYTgzank4dnplbUhTdXA3dWdNZmdqN0RDWWZIVjhRMjN6d2VSYTVENUJIS0pvUVpfd1hPRFJNRtIBpgFBVV95cUxQRjlLVWFuV3hqWWt0by1GbjNJSlN6LVlRcGtHTTVPa2E4Z0F5enVfbHZWNlFCZGE1ZlQwdFd2UGFpRFJsMHB3T3RSSVc0R0pjZ1ozcURyTnVnaERTYkxiRnh0REM3TlExdHV4TkpMSVZOb19DY0FvRF9LdUdkdFozSTJabG9WSHdoV1hoVnNETW1hMmE3MnJsMloydmhrckFVb3AxdmZR?oc=5",
-        "source": "EdexLive",
-        "published_at": "2026-06-29T06:15:00Z",
-        "snippet": "Andhra minister Lokesh says Smart Kitchens will spur employment EdexLive",
+        "title": "Smart Kitchens will create jobs: Minister Lokesh - The New Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM2pZVks4SS1sYkhxN1FvbC1GMi1RV3ZRM0MwN1pKUEdzOWZKRng0Y2F4eW9WWUw0aDYydkgwTXdsNGV5SzU1S3htNkFuR2RWLXF3VkZfQVZEdG9vdE5KTHJxZTFfOWpUNWpGYVRzTGJ6VTdWcVRkX0VEYnYxLWF6Wmx4ZnB4YTI0akF4c05BY2ctVnRtd2Jodl9Nb2VLeEJrajR4ZFlndWRDUFJZVGhhdTh6UEbSAcIBQVVfeXFMUEdJSDZXOVZxRmJDMkNEeWx4Y1JiNnZKTFlPeVd3enhkWnpxaXhlYnBKekpYTElxWnV3UmMtemFZZk15NmRZRHlIbE5PUm5YUGQwcUk5NG9OX3hKNDhVWE5NX2ZacVVqanNNdExFdEN4T2ZrcmtjM1YyektIU0RGNURjSThZZ1RNcmZ3cDNNaGVJa0dpQnduWjVTeDFRMlVfM1Nza2E2SzVfRFpSWjF4S1EwSHhHdnZZYzZvdWctTnV4aXc?oc=5",
+        "source": "The New Indian Express",
+        "published_at": "2026-06-29T02:38:16Z",
+        "snippet": "Smart Kitchens will create jobs: Minister Lokesh The New Indian Express",
         "lang": "en",
         "matched_query": "\"Nara Lokesh\""
       },
@@ -8098,6 +8107,15 @@
         "source": "Deccan Chronicle",
         "published_at": "2026-06-26T18:44:28Z",
         "snippet": "Teachers Must Lead Educational Transformation: Lokesh Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"Nara Lokesh\""
+      },
+      {
+        "title": "Teachers should become change makers and lead from the front, says A.P. HRD Minister Lokesh - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOcHhfMmMwNHpmcms3TUFGdHlQT1I3eU52MVJTeHV3aU1aN0RaSFJmcUNHelhfZ3dUOEtEdWRDTlNNWUw2dm1NSldoc0J5M0VRZlFDZE5vUlR2SDluck9LY19zbk1TempfTGpiZG44RE5DaWwzWF9MZXUweTBjRG5oV2ZabGU0SUtUaWN6YkVZZngxSEFBdnM3YzNYa2Y5ZWpqMmk0Um9CdnoyLWdtQzhQVHE5Tll4YlQ1REN2TG1ZQm4wVXdsbXJsUFpVZl9DdnduSzF6M0tkdklGbEpkdUtiNm9FME1hWjdSeEZRV1NGc1I5U1py0gH7AUFVX3lxTE96TmpGSE9hVVFlX2duajdFYmk5dFE4SjFpM0NDRHJtLWRVVnJ2MTRtaWQ2ajc1cGNQVXRiR3NmTklWTmlFcHRWNDB1ZFctdnJtRlQ2Q1R0MEh3ZG1OYjR5SUttX1BwNWVPNEVMbVk3UTlpLXZtOS1qWDZjSVE5NmY5X3JZMzdSOUJaYTNXckYzRHRXMjd4Ri00M3k0RXZaR01ZanpDcWRNakVkTVV2VDdnT2dkdm9fQXdmTFl3YXNPN2hvc3liZG05Um5tVy13eHVPTTBYU1dady0wYlFVd3FpLWkxYXVqaVF3Z1dMbVVqcHZWLXFaWkdwSVpJ?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-26T15:25:25Z",
+        "snippet": "Teachers should become change makers and lead from the front, says A.P. HRD Minister Lokesh The Hindu",
         "lang": "en",
         "matched_query": "\"Nara Lokesh\""
       }
@@ -9220,6 +9238,15 @@
         "matched_query": "\"Chandra Sekhar\""
       },
       {
+        "title": "Union Minister Chandra Sekhar Pemmasani urges young members in Baku to take pride in their dual identity - News On AIR",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUlh3RVRfVlpCZktNSjM4LXhnVFJHODFtTlZKNFlxREE5SUtoWjZ0eTM5dkxFLTd6UWxwQ0YzQWtManhCeExtQ2ZGcHlNX1M0U3RIMmR3MkNxZ2I5SDNGOWN5VGRacU1SZGZWSHBnSGhkUTk3Ynpxa0RjYVhNZDZhcTRMam9oTDU3eTVjbVNkSFFvODdfaEpsNnFDbWtkMG5qMnZXajVtYUVjVnVKRGlxd3dydnVHRFpYUEFIR3BaYmw0N0dUcVFnLWp3?oc=5",
+        "source": "News On AIR",
+        "published_at": "2026-06-01T20:13:56Z",
+        "snippet": "Union Minister Chandra Sekhar Pemmasani urges young members in Baku to take pride in their dual identity News On AIR",
+        "lang": "en",
+        "matched_query": "\"Chandra Sekhar\""
+      },
+      {
         "title": "MoS Communications Chandra Sekhar Pemmasani interacts with 2024 batch IAS officers - News On AIR",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS1FLdVBjOThBMUdvLS1PUHdlVTdsTjFFamZnY3ZsRVhIYWhYQlpOM2RLOGlMcUpjRFNvWmd2M3FJV0s4TGRLajJ2aVdJdUJaalJwUE9fOVlZZF9zbVJnU1ZnM0ZJY2I0MDdVTURrOXd0N2NXVzAtZVI1cHFlcG5kX0hQLVZhSjVlRzNsc3ZrTWJHc2E3bXMwSXAwb21JUEFhQnZrZWdHTks0V1lO?oc=5",
         "source": "News On AIR",
@@ -9335,15 +9362,6 @@
         "snippet": "Incremental revenue growth of Department of Posts to double to ₹4,000 crore this year: Chandra Sekhar Pemmasani ET Telecom",
         "lang": "en",
         "matched_query": "\"Chandra Sekhar\""
-      },
-      {
-        "title": "Union Minister of Communications, Shri Jyotiraditya M. Scindia, Chief Minister of Delhi, Smt. Rekha Gupta and Minister of State for Communications Dr. Chandra Sekhar Pemmasani Dedicate Renovated Nehru Place Post Office to the Public - PIB",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yelc3NldlcXVfQzIxU3RRdFVHY2lWYTd6dVJmVko2RVdncjRYSE9zMG1uZWkwbEM5VXlidUtBZk5hdnVMY1loNzN6cUxyMnlNVUQ2UVNoTFdVTEZKcFIzcjR5YnFXVkxtTnRmVVJqb3dHTnFDVnB0Zl9R?oc=5",
-        "source": "PIB",
-        "published_at": "2026-05-07T07:00:00Z",
-        "snippet": "Union Minister of Communications, Shri Jyotiraditya M. Scindia, Chief Minister of Delhi, Smt. Rekha Gupta and Minister of State for Communications Dr. Chandra Sekhar Pemmasani Dedicate Renovated Nehru Place Post Office to the Public PIB",
-        "lang": "en",
-        "matched_query": "\"Chandra Sekhar\""
       }
     ],
     "96": [
@@ -9358,15 +9376,6 @@
       }
     ],
     "97": [
-      {
-        "title": "Request to lay road connecting 2 NHs through Kondaveedu Fort - Dailyhunt",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVUh2OFAxX2IyLWh2eE5NQW4wNmxla0dFNWRMSVlHMkQ2TWZCVnhlbVBuWHBrdlZVemxIbFJJNFR4bmVPX1Y2Unl0OFAyQzFRSmExU0JRWTJxNnVuWE9jYm9ua09CUkpxVm5ldEFLajZiOEhSUWNtQ1lWU2kzY3h1VEtQbWhmS2pxMFV3WUwtZV9Kd3dMZFR4V2xZLWZXUzVlanBzRGpFdnFUYk9veWJRS1NkSDhzWGZVazI1eWoyaHQwVG92d191di05bXVHZXQtWWRTcldHX2xaVTZ5MEE?oc=5",
-        "source": "Dailyhunt",
-        "published_at": "2026-06-28T23:30:50Z",
-        "snippet": "Request to lay road connecting 2 NHs through Kondaveedu Fort Dailyhunt",
-        "lang": "en",
-        "matched_query": "\"Prathipati Pullarao\""
-      },
       {
         "title": "Naidu Visits Anganwadi Centre in Chilakaluripet - Deccan Chronicle",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZEZza2pXT1phOEhsOUgyUmswTWVDVldtdHM1ajFPUFB5SUh4S0llSWlhX1lnQzRfR3JBelRlZVplVzA1VTFBbDJNTFc1X21ldml3blFIaG1iVWlRX3V6MW1haEdWQWdtcFlVUHlPTVNTQ3d2YVlkVTdpM2hMazNhQ1ZzcmpXcDFzaGxBWmNldkdnalpJSUMtWDk4NmpZdU1Ub1QxbXExTGh0Q0ZlTDRwd0xOUVY5TVkwdEHSAb8BQVVfeXFMUDJOZkZ6Rkdsb2ExYUNkZFJ5d3Q0ZWpIVzR6MFEyWWs5blV4SVFXN1R5bzZGV2RDaW0zbWhyZWlYbDlLMWdhM1hzSlJiNHJqSXZIY1dFd1UzRFN3R2ZDamtlanRZc1RoNXlUcEZuRGR6N1EtTDF5dkpwR3RBYl9Mb0NtQnlvSDItRnUwbG15VU1jWGIxSGhXUDJMZTA2RjlnR1JYeWdkVE1GLW9lRGpta0ZEd0JJX3ZyT25VVVl2OTg?oc=5",
@@ -9799,20 +9808,20 @@
         "matched_query": "\"SRISAILAM\" Andhra"
       },
       {
-        "title": "27 devotees from Delhi fall prey to accommodation fraud, stranded at Srisailam in Andhra Pradesh - The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOd0hjc0lteGUxM0kySmdGaWVOYmZSTmtxNDRuOFFwNzRuNVRucnFHZjc4TmQxTkRqN1pjTHRtbHczNXMyY2YwbHNwWmZUa1ZhclYyVFI5OTVSMXhwU2phVUYxcUxUQ3FVYVJtbTNTbmJtM1d1MmlQM0tUYXhkdVF5VWhBY3JjSDRzb3NweHhpbjJDZDhsa2JDS0RKSGZZRTUzSkxMX0ZmN1Yyd3p2YzF1dVNwWmV3ZlROckN0bF94b0NVUkRQUVE0NnYzX29WTXZWM2tsM2xiZkUzTjYxN3BhNmZ2TWs0d001RklOM2FialpNVkZrUVJyOWNkR1N3dEEtZmw00gGIAkFVX3lxTE1WaEFfcmJrYUtuWC1QS1ZHeWlNZTJzRDJjSE5vaFZHbEh4TnlrR2ZQN0pXQmhld1phbWdYWkFuaWVDR0c5cElFYXRrbEpIUkMyekNCQ2pfSHRkMnpJTDIwTktrX2U5blM3RGdITmREZ2dudFhzLXFyTEk5d0tfUXR5U0hteGlEalR4NldlUWZCVEVlWXh1ZVFOdVBaRnhnWDJoNHg5MUhQX3Y4YVdjQlF1SHNQSXVUNVVDcmN6NU44THNiQ3pVY3V1WHBtVEtHTDgzSHZHZndydzdUSGRJVjZTTU8xN2ZtOHM0MnJXZnZxb2RxUG1BZ2ZXcnlma2NyU0pMZjJXMFljTQ?oc=5",
-        "source": "The Times of India",
-        "published_at": "2026-05-10T07:00:00Z",
-        "snippet": "27 devotees from Delhi fall prey to accommodation fraud, stranded at Srisailam in Andhra Pradesh The Times of India",
-        "lang": "en",
-        "matched_query": "\"SRISAILAM\" Andhra"
-      },
-      {
         "title": "Fraudsters Dupe Delhi Devotees Visiting Srisailam - Deccan Chronicle",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLUdlNThaamxyd3hMZ0J6RnhDRWJ2VmpaV1YtMlQ3YnNtQ21ITzBOVXJxemc0VU1xakd0X2xyZndNQUtQTjZiekdQVjNET3puc245bzZmdzFLS0FtNnpEMUIyc2h5ZEtnSUtiWUZZQ2R0WXZKVTZtQXBxMWdNdjR1VWhHODRIc1k5RE9qRDJ5MlFlTXNXaWg3aDlrWDBjQmxFRnBDQS1xV1hROE51WUNtQ0ktWmpJQzU0cElKRtIBwgFBVV95cUxNRkZ3YnhhUl9ZMkFvRms2ZEpEa1otOEpmWVZZZHlsb3VZY05PSF9hU1Vkd0pzcU42YlBzZ0I0X3VJeVZnTlM3aXJpRGdOMENjUUxDZzcyU2V1WWlsd3ZuMktncHYwQldwNUlrRzR5cmFEczV4ZVFmTFNQMEh1eWh1anBrZ3hHMTJlMUxWOXRrTmh3N05kazZjZV9FeVAtSktiRno1RXlRVW9oUlhLNXB0QlFuSFNsMXFmVEprQjlVdHBvdw?oc=5",
         "source": "Deccan Chronicle",
         "published_at": "2026-05-10T07:00:00Z",
         "snippet": "Fraudsters Dupe Delhi Devotees Visiting Srisailam Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"SRISAILAM\" Andhra"
+      },
+      {
+        "title": "27 devotees from Delhi fall prey to accommodation fraud, stranded at Srisailam in Andhra Pradesh - The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOd0hjc0lteGUxM0kySmdGaWVOYmZSTmtxNDRuOFFwNzRuNVRucnFHZjc4TmQxTkRqN1pjTHRtbHczNXMyY2YwbHNwWmZUa1ZhclYyVFI5OTVSMXhwU2phVUYxcUxUQ3FVYVJtbTNTbmJtM1d1MmlQM0tUYXhkdVF5VWhBY3JjSDRzb3NweHhpbjJDZDhsa2JDS0RKSGZZRTUzSkxMX0ZmN1Yyd3p2YzF1dVNwWmV3ZlROckN0bF94b0NVUkRQUVE0NnYzX29WTXZWM2tsM2xiZkUzTjYxN3BhNmZ2TWs0d001RklOM2FialpNVkZrUVJyOWNkR1N3dEEtZmw00gGIAkFVX3lxTE1WaEFfcmJrYUtuWC1QS1ZHeWlNZTJzRDJjSE5vaFZHbEh4TnlrR2ZQN0pXQmhld1phbWdYWkFuaWVDR0c5cElFYXRrbEpIUkMyekNCQ2pfSHRkMnpJTDIwTktrX2U5blM3RGdITmREZ2dudFhzLXFyTEk5d0tfUXR5U0hteGlEalR4NldlUWZCVEVlWXh1ZVFOdVBaRnhnWDJoNHg5MUhQX3Y4YVdjQlF1SHNQSXVUNVVDcmN6NU44THNiQ3pVY3V1WHBtVEtHTDgzSHZHZndydzdUSGRJVjZTTU8xN2ZtOHM0MnJXZnZxb2RxUG1BZ2ZXcnlma2NyU0pMZjJXMFljTQ?oc=5",
+        "source": "The Times of India",
+        "published_at": "2026-05-10T07:00:00Z",
+        "snippet": "27 devotees from Delhi fall prey to accommodation fraud, stranded at Srisailam in Andhra Pradesh The Times of India",
         "lang": "en",
         "matched_query": "\"SRISAILAM\" Andhra"
       },
@@ -9916,6 +9925,15 @@
         "snippet": "Minister urges tobacco buyers to maintain prices above ₹200 per Kg The Hindu",
         "lang": "en",
         "matched_query": "\"Gottipati Ravi Kumar\""
+      },
+      {
+        "title": "Minister urges tobacco buyers to maintain prices above ₹200 per Kg - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeG9kOUlVb0VtNmp5VHhhU25rVzZPblJ0VFZnSkNldTN0M25DamMyM2owd29sMHhhX3otWU56cE16c2tlQkhucWk0b2FELXVLb3VBT0pTRy1WU2xGQURwWWxVM3FrRnJDVW10d2dfWWRvWktaLTQ1SnpLeG1Ga3dXTGxrMmZTVkZPQzhzYnpjMlVBaF9sMTQxeDEyZGRKLTdsaDZjRkZuYkRTTUpfN2tjWnBfejd5aVA2c2VKMDh1MjlCQy1Kc1RJOGp5RFVmbGRTc09MUDlB0gHcAUFVX3lxTFB4c0RTREVVTHFJOUVmQ1RTRmJJS3BrNjE3UldldXR2U05NOGNhV3RvZmtyTjFsRDVQUnlqQ3FTaGIzc3NFQkZVbmZseXhDX0Z1cWJzRzRmbWluSUhqaFBUZmo3aXVlV2dHaEJHUC1XMDQzdkxZd3hiYWlxTFBJVW9sbUdmbHFiM0FkNUc4bl9kVkZVWVN2amdaU2Vha0dxbjR0alQ1N3otNjd5N0I3RlJYRWFrQjVkVUJJS2JWU3ZIVHJvS213Slg4NlJURk1FSnJONm1rbGRYYUdHRzU?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-29T15:28:09Z",
+        "snippet": "Minister urges tobacco buyers to maintain prices above ₹200 per Kg The Hindu",
+        "lang": "en",
+        "matched_query": "\"Gottipati Ravi\""
       },
       {
         "title": "Andhra Pradesh: Power Infrastructure Strengthened In Prakasam, Tobacco Farmers Assured Of Support - Deccan Chronicle",
@@ -10080,6 +10098,15 @@
         "matched_query": "\"Gottipati Ravi Kumar\""
       },
       {
+        "title": "Beat the peers, drop the stock: The brutal reality facing Cognizant CEO Ravi Kumar - Mint",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVQ1Tmc2RnUyRzdUaC1ET2xyazEwamcyV1BMNWlQaE5TS01qdnMycVJPZldzWlFmdXBuckhlcUloNFRlYW9DdWRPbzBLcFNpcFp1UmppMFp3YTFHLWdramk3QzBfbnM5bzZKb0x0U1F3ZUVLSzdRQnZoVTRLSHh3UHl2ZFFZOXBKQ05OdUJtYTNsYWJmSWFsRHRPbkwtMTZtZG5ranVkRDI0UmvSAbABQVVfeXFMTnJyN2NnNV9FTXJUb1ZpNmEyb1pkRnNfZlFTN29QakRPWExfS05WQTRfY2NzalRkRG94TWtuZGEtZEZ3NWo5LWJPZk9vcEY2QjdDU240Mi12X214eloxc29JTm9uX1ZhSHhjT0dNWHp4NGc5MHVnb3o4eXgzbV9WcG5mUFVWVlVMOEpjZnczaGxmakN2MzR4VU9HZmhuaWE1RGNrUThFUlM4V3o3WTQtZW4?oc=5",
+        "source": "Mint",
+        "published_at": "2026-06-17T07:00:00Z",
+        "snippet": "Beat the peers, drop the stock: The brutal reality facing Cognizant CEO Ravi Kumar Mint",
+        "lang": "en",
+        "matched_query": "\"Ravi Kumar\""
+      },
+      {
         "title": "Government balancing welfare, growth, says Minister Gottipati - The New Indian Express",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFlqdTJXQmJUQmZIMndPc2lKVEJjQmFyaTRYb2Nwd0V4ZzhFajR4c01ha2k4MkU3d3ZjUF9mRHdpM2t4bXpVWHFZYnhsS0R4MXdYOGF4c25CdlJzRmJ6anF4enJGS2t5STlrZVhVSndQUEx3eVJmNGxWU0otaWVSdHZDMVN2NHA3QU5Da3NpcVNWNjNsQXhpZHlRRjFQUlJpb09qUlpjWjdaYlI0dzkwbzlmckxxSFpOYm9wa0loalE5ZURl0gHSAUFVX3lxTE1iV2hUajVROHJ0bEhwdjI0OG9LMlVxSjA5aXdTemVvREdpbGc1eHkxc3hUdGFPbC1Cdm5sb3RrakNIV2o5RzZibmtPR0YtODg1aVB2dDFGRVVHZ0pCWEYxZW1HZ3JpaEFubWdKTVNUWHlxUjNzNXZyN25pRmZmUlRzdmQ2NEZraFNRby1vU0xBZ250RFdQYjFSLVczT2htU2xTTDRPdUp6dlI1aU1iZFB6YmVPeWlKeXRhZS1VVlFpQVdzaDhHSXB0ZjZDcEdKclI0QQ?oc=5",
         "source": "The New Indian Express",
@@ -10103,24 +10130,6 @@
         "source": "ET EnergyWorld",
         "published_at": "2026-06-13T07:00:00Z",
         "snippet": "No power tariff hike for next three years: Andhra Energy Minister ET EnergyWorld",
-        "lang": "en",
-        "matched_query": "\"Gottipati Ravi Kumar\""
-      },
-      {
-        "title": "No Power Tariff Hike During NDA Govt’s Term, Says Energy Minister - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeFkwbmlSclFxWGNENk1NZThlS1pEbWNkdEZWd0JpVEpsaU5GallfU3E3Y3plb3h6WTEtbEtLQ3JLb3YzZ1hudGxWZ3RNcVRUVEI5LW1RRUE0LUVFNWxRLXdmQm5QN2VsWGJQUnEtMVd4TDg4VVBHX0pjNlNBNUwzaTlSZEpzQXlDalNZdnd0NGVROU1jWWNhMWdTVzNjNGd6bjdRN1N5bE53VWRDWlJEakxmT3liVTlyMFN2MjE0SnNVakVzY2JYM2NDSVhhOEXSAdQBQVVfeXFMT3FtYWZfT0poUGdjbWdNbDB6Y0tqZGd2cTlzbDVHbWtkWFlwaDFlQWhkQWVVeEdsaEVIazBsTEw4MGcyR3cxN0xleksxYjZlT1hZQ1JwTWJRMTdONGpvaHB0WFZCU0FPYWdySE1uR2RJYlBWREFQaTV3VVZKX2tKejRGcVd0cWtYWDdONGluNTA4QTVtcTdkZGV3S1FyTVBBR1BLNXZqTTVybUhMZVVEbXN5QXFEN1BiWkxGbTlSeVVORUlMR0ZQdjRzejdyYS1DTE81SjU?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-06-13T07:00:00Z",
-        "snippet": "No Power Tariff Hike During NDA Govt’s Term, Says Energy Minister Deccan Chronicle",
-        "lang": "en",
-        "matched_query": "\"Gottipati Ravi Kumar\""
-      },
-      {
-        "title": "Minister launches road works, solar initiatives at Addanki - The Hindu",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLWVMYzJVWDhfX0d4OW5zVVlYckZmcXNnWmFjNkpBN19lN2pFR1RRYW5Fb3JlNEVFTXl4LWhCVEZZeDdCLW9RT0lZR1lIbHViWVkxSEM3ZFVKRUlkbUI3c2ZvWl8yNTJ6OUVBOWFTdU55RElyZWRoNl9aTGxhR3BwYzkxc2ktWm0tZTdfNVZrZjhvLW10U0hDVzhKUzV3UkZsOXM2Ylg5UlJfc0E1eEQ1WkZfd0VXQlQwOEFSMk5rV0lMb2s4Mmd0YXNud9IB0gFBVV95cUxNVU1ZaWd5WGVaSllOZTctYlh3djdnRk1YZ1g3RXRrcDVRZ2lWd0o1MWFlbS1peXhXMEMzOTdtNzMzT2k3Qk1reVl1aFR6T0NjTnk0a0pIZV94VVRJTmE1bjBxMlh0RkUtMTl0QWpIaTR5X2doQ1pUbHp1V01YRlFCb0VnT3RHYWswN045X211Q1BqcUFOWTJyWU4tX1E0dmU2Z1JIWlFGQmZoU2c0NDNLX1NCVXJaZ3dLX2NrdWJjeS1xY2ZZUk1yWVBVdVAtUEExS1E?oc=5",
-        "source": "The Hindu",
-        "published_at": "2026-06-11T07:00:00Z",
-        "snippet": "Minister launches road works, solar initiatives at Addanki The Hindu",
         "lang": "en",
         "matched_query": "\"Gottipati Ravi Kumar\""
       }
@@ -10502,6 +10511,15 @@
         "matched_query": "\"BAPATLA\" Andhra"
       },
       {
+        "title": "Robbery Aboard Circar Express: Railway Police Open Fire; Suspects Flee, Probe Launched - ETV Bharat",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMW5jWXlXQVY1OEE3VVBONV9KWXkzUk1OUE9INmlySjM3SjRrTVRnbXV3MzVaeGUxTUZsMHo3UDNucFlJZFFWSTdua2h6WUNXUnBhM3hWLW9kbWU3SzBiTElaQVRTZ3JvOHlxUk5FWmxOZGoxakh6WmRvOFVTSnNheVU1Z0YxcG5HRWFOOXdES09DUHZBV2oyVjVmTkdQcFRJWjBJdW5GY9IBrAFBVV95cUxNX1hkQUEySUZPeTZndTBBREhxZ3NGeGZwY1liMlFPeU5wRjZvZDZ6WFl0b1hfSUhodWpDNDJMbU5RUHZmeEE4ZE84TnNTLURRVjk5anVUOEJkaUM1X2dmZlRnX1ZDSm5Uel9EcVRuVEZsM052MjNGZVE4QnJXaU5Ic29JSFFVdFhjWm16WVpCRzRZeXhsZWlUYURTcnlfeFRuYzhWZDFNQVU5Ri1a?oc=5",
+        "source": "ETV Bharat",
+        "published_at": "2026-06-15T07:00:00Z",
+        "snippet": "Robbery Aboard Circar Express: Railway Police Open Fire; Suspects Flee, Probe Launched ETV Bharat",
+        "lang": "en",
+        "matched_query": "\"BAPATLA\" Andhra"
+      },
+      {
         "title": "Police open fire to thwart robbery attempt on Chennai-Vijayawada train in Bapatla - The Hindu",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOXlOMW5abkNhLW5ESTNScVBMTXdUaFJwSUItWmprbm5aOTNfZ1lHcnI5TGotRjVIOS04eGVaVDZaZTBZOUZmc0YwWWh0N0RmbUxoRWVOMDd1Q3NBbEdGTnplUzB1LTljWUdDMkhUNjJZTUIzS3V3RTdsZmgwa1FpeGVNQzNiS3BHVjJFM2JkZmZDQmQ3bjVPMUFyWTRLbWZEOWZoZU9tNkVzNUxNSVFDV2IzZWhvNDJ3VUZZckpGVzZpb3ZXRkIyVW9pSU52aTR0Znhqa2lGRzlTRmg3bGNNWU1VUTlVdGJwVjMw0gHyAUFVX3lxTE5xTnhZQkVnTV9tbDYtSHpJTHlDVXlxQ0dhazJqaWhpWF9zU21lYTZyWGdKYXZLM0h0NEVBM1NpckI4TUM1Z1RYa2FqdGdsQXJocEtVaUh0N2tHWDMyclFsUXF1YnN5QUhSa2VCQmNMdzNJdkpoY2JKZ1gySFV4eXZWSTJEZnd6dDJOZHE3bzNXS3JfOG1VbkRFNEVhVVRXV005RXJiNzBqTzJYQzhiWWxldVQxT0tFdGhLdkFfUDRSc0hoVDV4N2FKSmE5ZFlDMG5ZQWwxRWhpeTZrQXVCb3diTTA1SWFrbFFjcUROejllanV3?oc=5",
         "source": "The Hindu",
@@ -10516,15 +10534,6 @@
         "source": "The Hindu",
         "published_at": "2026-06-15T07:00:00Z",
         "snippet": "Police rescue two teenagers from drowning at Vadarevu and Suryalanka beaches in Bapatla The Hindu",
-        "lang": "en",
-        "matched_query": "\"BAPATLA\" Andhra"
-      },
-      {
-        "title": "Robbery Aboard Circar Express: Railway Police Open Fire; Suspects Flee, Probe Launched - ETV Bharat",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMW5jWXlXQVY1OEE3VVBONV9KWXkzUk1OUE9INmlySjM3SjRrTVRnbXV3MzVaeGUxTUZsMHo3UDNucFlJZFFWSTdua2h6WUNXUnBhM3hWLW9kbWU3SzBiTElaQVRTZ3JvOHlxUk5FWmxOZGoxakh6WmRvOFVTSnNheVU1Z0YxcG5HRWFOOXdES09DUHZBV2oyVjVmTkdQcFRJWjBJdW5GY9IBrAFBVV95cUxNX1hkQUEySUZPeTZndTBBREhxZ3NGeGZwY1liMlFPeU5wRjZvZDZ6WFl0b1hfSUhodWpDNDJMbU5RUHZmeEE4ZE84TnNTLURRVjk5anVUOEJkaUM1X2dmZlRnX1ZDSm5Uel9EcVRuVEZsM052MjNGZVE4QnJXaU5Ic29JSFFVdFhjWm16WVpCRzRZeXhsZWlUYURTcnlfeFRuYzhWZDFNQVU5Ri1a?oc=5",
-        "source": "ETV Bharat",
-        "published_at": "2026-06-15T07:00:00Z",
-        "snippet": "Robbery Aboard Circar Express: Railway Police Open Fire; Suspects Flee, Probe Launched ETV Bharat",
         "lang": "en",
         "matched_query": "\"BAPATLA\" Andhra"
       },
@@ -10552,15 +10561,6 @@
         "source": "The Hindu",
         "published_at": "2026-06-13T07:00:00Z",
         "snippet": "‘A landmark for Bapatla’: Collector hails The Hindu’s full-page feature on the district’s beach tourism The Hindu",
-        "lang": "en",
-        "matched_query": "\"BAPATLA\" Andhra"
-      },
-      {
-        "title": "Ganja Trafficker Detained Under PIT NDPS Act In Bapatla - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR0hOVTQ5R1o2LWV3N0wySDRzem0tZWI1c0NfNEZUZ1JKRURGYndkR3pmMFFMbFI2eTM0RGdrM0czMFRWOHY0aHFzVUNIQ1VIYmNsajVQa0hPRTdiTnk4Q3YtWVFkTXBhQjd5cjYzZ0Rid2xFazkyb3hIWWF1RlJ6cDFYWUs1amttNk5GZTRUS2pQTWNmUUExWFg1NXd4eXhjWGhMbVA4d25aMTNtODhFYWRVLW1xRThYbkhCaTBDZ1l2T0VD?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-06-12T07:00:00Z",
-        "snippet": "Ganja Trafficker Detained Under PIT NDPS Act In Bapatla Deccan Chronicle",
         "lang": "en",
         "matched_query": "\"BAPATLA\" Andhra"
       },
@@ -10669,6 +10669,15 @@
         "source": "The Hindu",
         "published_at": "2026-05-19T07:00:00Z",
         "snippet": "Bapatla police recover 166 mobile phones worth ₹33.2 lakh The Hindu",
+        "lang": "en",
+        "matched_query": "\"BAPATLA\" Andhra"
+      },
+      {
+        "title": "Bapatla Collector conducts final hearing on pastor’s Scheduled Caste status - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOay1YR1c0WUFKN3h6NWdWcWdnWVVKQjMyMzg3QkhCREZ5c3FkN3BuTVQ4cW14emMyV2dQSkdWZUZKRDBNem4tQmJ5Q0JoR3ZYcFktMXFPMWRETFJYVXdvclhjRVVmTDVQbFN2bW1vNUx4LS11WkZqODBfemRhck1CbHJkY1ZGbGxuZHBBc0Z0X2FyNFFPYnNNN3Yyd2lvaGpsTmdtcDZDSVE5bDJxaXdRZml2U1VKQ2NmQjR1NlptZ2pVck1JMHhrUmJqamtfYzBWNFhYRm9SVzJaS0pVU3NRMdIB5wFBVV95cUxQLTJqZ3BFblNKLUJzWGpDbF85NEphcmVCWmlzSElPTG03UTBPVGdrQllveVdnN0xWYnhWcWM2WnpiSGthWnNoT2hKVXBmZjFZNTgteVdCc19KXzRVN21RZXFZbmU3cE9HSlBQNWhRZ1JJa3E1MDdHN1JVbVJpRzlaODhpOXpVMy0wTkI0Z21FSTA0TUJlRjdXbXFCaGptbjNGdnhjVGNBbUJ3RFVYZFZhM09fcDM2UXk5cnFNTUZ0bllMYWVHeG1yanRScUZMVWt3YWI4Nkp1MVh2OXZUX3g2bmxWbkpNSEk?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-05-19T07:00:00Z",
+        "snippet": "Bapatla Collector conducts final hearing on pastor’s Scheduled Caste status The Hindu",
         "lang": "en",
         "matched_query": "\"BAPATLA\" Andhra"
       }
@@ -11432,6 +11441,15 @@
         "snippet": "Development works worth ₹1 crore sanctioned for water conservation: MLA The Hindu",
         "lang": "en",
         "matched_query": "\"Gowru Charitha Reddy\""
+      },
+      {
+        "title": "Fire safety infra to be strengthened in Panyam constituency - The Hans India",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNi05aXptMkpodU5NemJ4dk1ZdTJLbkdYdGJrRmllMVM4RWpKcndtdjhKU0RYcWstQjJCaGJyUjdsZjVFRlNwaVI3ZmVUUUNuTUZ0Zk10VGxCQVpzTV9COTFEYTJ5SlNZcGh2Uk1Tb1ZYakx4NGdneVpjU0g5ZnA3dTZSWl9BMlEyY3JiUXFzTTRvX2pqaFRITUd0ZXJiV3I2MFVsVkhxLWgybXV6RDlzSdIBtgFBVV95cUxOcFRISkg4eWlHY2Y0M2NETEtVNVg0RXlPSjk3NEowZWEtSENQVnUzOUlGSFc3QzdTZUEyek50dVF1ZU1ES3dGTUYwNXBhQVZMd0dqZVRNNHdBZFpuT2Rib0dqRUNRQVV4aENwTEQ4UFd4LTBPd0VtbUVSZ0FadXAyWWNLTUpmVnhuRDVfUG5nTFRNZnA2Z21CQzdoREE3UlNTNDVkeDZyRm1wUEwzbGZGNUpVMnc2Zw?oc=5",
+        "source": "The Hans India",
+        "published_at": "2026-05-13T07:00:00Z",
+        "snippet": "Fire safety infra to be strengthened in Panyam constituency The Hans India",
+        "lang": "en",
+        "matched_query": "\"PANYAM\" Andhra"
       }
     ],
     "114": [
@@ -11847,11 +11865,11 @@
     ],
     "117": [
       {
-        "title": "FDA gene therapy regulator steps down from leadership role - Fierce Biotech",
+        "title": "FDA gene therapy regulator Vijay Kumar steps down from leadership role - Fierce Biotech",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkhmRjF6UmNoOVRTazNhRU9NLU1ZaGJYX2tkS0FIaDFsU2otUVBkZDNJOVZKdFVCSk5NZXh6LTFlTzlLelpoQ29PUGRUQVYzLVlOSFd6bTZfZWtwUV8zMm1pTGRHc3BOU2YyWmM4bEUxemtueS1IYkdWUFlsd05SR1N3TTBUUERVYjdWNjI2YllmNWtnbWVWVlM5SDFvNG9IQmt2dndn?oc=5",
         "source": "Fierce Biotech",
         "published_at": "2026-06-30T14:36:24Z",
-        "snippet": "FDA gene therapy regulator steps down from leadership role Fierce Biotech",
+        "snippet": "FDA gene therapy regulator Vijay Kumar steps down from leadership role Fierce Biotech",
         "lang": "en",
         "matched_query": "\"Vijay Kumar\""
       },
@@ -11991,15 +12009,6 @@
         "matched_query": "\"Vijay Kumar\""
       },
       {
-        "title": "Vijay Kumar News - The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBudVNLS0Mwd3pINmhNOHlSUmt2SHBjNGFNdE9QaFFTU2VXSk5yYkgtZDdBUzdHTTloWWx3MHBIUEtlbHBSUGY5R0RqbXBtdHMyU1UxNVBzaUd4T0padE53aUtUazhKWXd0Mnc?oc=5",
-        "source": "The Times of India",
-        "published_at": "2026-06-24T17:11:00Z",
-        "snippet": "Vijay Kumar News The Times of India",
-        "lang": "en",
-        "matched_query": "\"Vijay Kumar\""
-      },
-      {
         "title": "Global giants backing India’s shipbuilding boom, says shipping secretary - Mint",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWjI3SmJ2QW1mZkxrOU1TQ2k4dUhyQmZKeG9tUHlja1N4TGlRZ0NjX0paUGxGbE13enJPZG9NM3hkZzliQ2VUSjFJR2tXNm1IZjFuZldpSzB1SU1WajREZExuQXV6d19lYXdBOEFNN1VGWWctamhjTVJaOFRVWjJWb19ZaUV3dGQ1di1aYnhTZk5SZW94aUw3NmQ0VU84Ukt5NmwtMmJxUWFOWVQ5R0VFRG1SNmM2ZjBNY01fQ25IMNIBxAFBVV95cUxQZFd5MWowSktlNDZOWmFTU0lVWENLd2RoWEs2dTMzRHRtNzl2c1o3eEFiVmo0WGoybFJjeDdCc0VGdzAtTFlTeGNKVE5RYTJ4TzRHODZIU1RWeDJwc3FhNFl0TFFBT2IwZjIxd3RrTkphSGdvbWVWN01aVzc3ZmFROHByRUpXWU93M0ZvVnpnNlJwWGFySkhTalBTVHNfMndKdWtaMEpMbWotY1N5RnpMVURmZ1RVUjBIdkhXXzlua1c0MnVO?oc=5",
         "source": "Mint",
@@ -12068,6 +12077,15 @@
         "source": "The Times of India",
         "published_at": "2026-06-11T07:00:00Z",
         "snippet": "Indian-origin Vijay Kumar pleads not guilty to murders of wife and 3 relatives: 'It's a tragic case of se The Times of India",
+        "lang": "en",
+        "matched_query": "\"Vijay Kumar\""
+      },
+      {
+        "title": "PGTI NexGen Vijay Kumar Memorial: Sunit Chowrasia shoots 62 to establish two-shot lead - ANI News",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN3ZzNExoVVpUMHF0QVJEWjB6OGstOU5LWERHVExkMjQyWVJPeW1WTWNleENMS2xSclF1eV9NYW1NSmpBVGQ3c1ZEMTBDaGVzVkNnZllPZDY5NGE2QWJkUWtJNWlMY1NhWEgteDZOQ196N3dPWHEySVJsb1p2TnJvMHoxNVRXN0M5RVJwWTB6RVhyb3hTM1RRWnA3S3hDbFc0aWJXUlNqS3JldWpqSllUdUhPeEVpcFQzRWh6dDN5ZGlIc3FlWE9vdGc2NHI1UHJGWU1mcjg0V08?oc=5",
+        "source": "ANI News",
+        "published_at": "2026-06-11T07:00:00Z",
+        "snippet": "PGTI NexGen Vijay Kumar Memorial: Sunit Chowrasia shoots 62 to establish two-shot lead ANI News",
         "lang": "en",
         "matched_query": "\"Vijay Kumar\""
       }
@@ -12186,6 +12204,15 @@
         "matched_query": "\"Prakash Reddy\""
       },
       {
+        "title": "TG20 2026: Aryan Cariappa, Avanish Rao star As Ranga Reddy Risers Outclass Palamuru Strikers - ETV Bharat",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVhUX1IzQUhxY21GaDYtdk1MWjB5TS1tVzlBQnJybFRvV0N4NUx3aEMwVHNWT3ZqaUNlMG1lT1gzVEhYS0NIZUpBRnpWRFRyazNVVTZ0VmpCNG5qUnFhelAtYU4weE5URUt5UE9iY3ZGWVZFN1FKdktwWk0tT2d5bV84VnNtSU9BbDlLZEZ2NUc3TU5odkFFWUlGTzNHbzY0YW1rcdIBqgFBVV95cUxPWWt4S1NncDJCMUc5Qk45Yno3WEcyOFI4enVQRzJCZ3lRbFJQbTdXOFNob2VDV2JvMXNtdjQ0VU9lUkZYVDE5Q2VsNHQzQWFvQkZxSUN3VUlFa2JDaFYzQW8tMTRsSWdqSVhCRDVYbXYtM2ZhUzhYLUUzX0FHS051elJ0YUU1MXFQYUMwNTFDMk1GcjE2RDNObW53enJRbzdUTHd5dFNTU000Zw?oc=5",
+        "source": "ETV Bharat",
+        "published_at": "2026-06-28T08:13:35Z",
+        "snippet": "TG20 2026: Aryan Cariappa, Avanish Rao star As Ranga Reddy Risers Outclass Palamuru Strikers ETV Bharat",
+        "lang": "en",
+        "matched_query": "\"Prakash Reddy\""
+      },
+      {
         "title": "Dhone Air Quality Index (AQI) and India Air Pollution | IQAir India - IQAir",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGMUdNY25jRHRPbEZ5UF9YTE1kQ0w5OU9EVC01YV9laElKeE9UaTJFcHJOUllaMXFRT0NzSGQzYVIxeklvRnV3NTdCNkkzU2dpNW4teVlKbU5Tajh5S3ZmdC1zZmd4RE1fQTA2S2gzYWczY0NI?oc=5",
         "source": "IQAir",
@@ -12200,15 +12227,6 @@
         "source": "The News Mill",
         "published_at": "2026-06-18T07:00:00Z",
         "snippet": "BJP leader Prakash Reddy on Telegram ban and NEET re-exam The News Mill",
-        "lang": "en",
-        "matched_query": "\"Prakash Reddy\""
-      },
-      {
-        "title": "BJP's Prakash Reddy says parties \"driven by families\" face fate similar to TMC, Shiv Sena - ANI News",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdnZ6OGxseFExMHV6TThhd0k0aWMxYUNVdVBIbjBLaHJOVTRGUV9leWxoOTVMYXgwUFdfNnppVnY4N2VCdW5RSE5OSW9UQlRpY3VvYkp2SHdJYmhZVEphQVYycGJuUzV4QlJxSDVzUy1kYWM3Y2pxREgwNWc3VFRxcS12SGZFYXgySVdxbnRPV0NPSThIcnJ2cS13U2RRWEk1MngyQldwclhWWFJxSDd3WmdvaWlvZlY2aktnRkc1MWdkNjlFcGp1NnpMYTU5VEpBdXB3TC1qMFhYVXk2Umc?oc=5",
-        "source": "ANI News",
-        "published_at": "2026-06-16T07:00:00Z",
-        "snippet": "BJP's Prakash Reddy says parties \"driven by families\" face fate similar to TMC, Shiv Sena ANI News",
         "lang": "en",
         "matched_query": "\"Prakash Reddy\""
       },
@@ -12236,6 +12254,15 @@
         "source": "ANI News",
         "published_at": "2026-06-11T07:00:00Z",
         "snippet": "\"Mallikarjun Kharge is jealous of PM Modi\": BJP's Prakash Reddy criticises Kharge's remarks on PM Modi's 12-year tenure ANI News",
+        "lang": "en",
+        "matched_query": "\"Prakash Reddy\""
+      },
+      {
+        "title": "Telangana HC orders status quo on land earmarked for CMC office - The New Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY20zTXE4cEdwN1VXMXhnY2VNdXVXWjkxeHpKZS04WTAzaXREa18wcTd1clNHQl95M20zNk5Wc0FvNnB4bk1LYnYxSldPQVV1M3dwN2xBOUl6SWVyT3VEaVVpUVFfT1ZKbmZBS3hhSk54TEdkci02VXlIMnlwZERGaFZWSTlOYUdpdVZMdmdmWkdWX0N6NDlaenllY20za1hhRHdaYmx1SFBmS21MSUVNeTNDYmxTVzkwMGRDX0xicjdmSUXSAdABQVVfeXFMTkxpVFlYV25RaGF3T3hlXzE4bVc3RWpfSF9rWFdqYUVPS1lYdGdudkI4WVpEWldfeFFVY1c5Y0lHSlB3UVpyWGVjMkhlRWR5ZDRkcnA0YlVjYnZNOXV1MzBpcnlaeEE2SW5RSkp3N2dmMzNHczVZaGd5R2RncVdlakU4a0t2QXM0eS1qUnlQRUNiSkVZOWE4QnctV0xjRGRESERWSWtyYUxEQ3lOZ2cxbUZsaEczUXUxMWVaSnlxbDVLYzRJQlpEQnk5eVlrTTJ4Zg?oc=5",
+        "source": "The New Indian Express",
+        "published_at": "2026-06-10T07:00:00Z",
+        "snippet": "Telangana HC orders status quo on land earmarked for CMC office The New Indian Express",
         "lang": "en",
         "matched_query": "\"Prakash Reddy\""
       },
@@ -12373,15 +12400,6 @@
         "snippet": "CM Naidu bats for Araku-Kothavalasa & Kurnool-Dhone railway sections in SCoR The New Indian Express",
         "lang": "en",
         "matched_query": "\"DHONE\" Andhra"
-      },
-      {
-        "title": "\"Cannot attribute malafide intent to judge; justice is based on merits, not ideology\": BJP's Prakash Reddy on Kejriwal's letter - ANI News",
-        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPeGZxT1dMT2ZTX1YzSlo4Y3NQdzRIUThCUjNuV1hVU3NkbThTOGdVRkJvN3VxUXhHWTdCeTZCS1Rrc0JmVXBWS1BaazFrZnRBTXVGY05KNzd6d0x1d0ZHUUk0ckp0UFdWeUd6S3NiVzA5bHFYTW1TSldiVmNpaEVFS3Jjd1RsVkJSTkdPNEVnSXh2LWl0bWNaaV9sMXctbG9vczBnQ0pTS1ZGc3dHZS10bFhsR0VGLW8xMGZsS0MzUm5CQUJMM3FFYlUzVVJfTmxnZVhwQzJPenhpLXFRSEl2enB4eVE0dGhBV3EzWVRsdU95S0lxRkpPRzNReWE3ak9TOEM5ZU40TGY3Vm1NdHY3a2pB?oc=5",
-        "source": "ANI News",
-        "published_at": "2026-04-28T07:00:00Z",
-        "snippet": "\"Cannot attribute malafide intent to judge; justice is based on merits, not ideology\": BJP's Prakash Reddy on Kejriwal's letter ANI News",
-        "lang": "en",
-        "matched_query": "\"Prakash Reddy\""
       }
     ],
     "121": [
@@ -12676,6 +12694,15 @@
         "matched_query": "\"ONGOLE\" Andhra"
       },
       {
+        "title": "Loco Pilot Injured In Stone Pelting On GT Express Near Singarayakonda - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNcjFDWl80TEgzV3otVEQxbEFXMnFUOTNYcWw5aTdxalRDNVFVMGd6VGFzMTlKMmY0c09zd2hHXzZjdkdES3hTNkJlcEZ1X3psRXpTTWVJMFhtUnZnYkM0aHBiTlBJNjBHelo2UkJXeGtjUnhHeFR4Wk1hVEwwbm4td1l6V0lXYWVzWE5uQ1ZRVUlxWWEwdkRHZlV5RHdQYnppckhrWUNBSFFEVmdOSW12R196VHJDSV84bmwxeE9Wdkw5RGJMVkVqeDVLY0NtSzk0d2FyazNYQkRMT3huQU5VRG1jVmYwbFMzQTJwZVhZeXTSAfYBQVVfeXFMUExONU5OM3RQVGpBSjZZdTBZTk9vd1ZfOFBBQXBYMjUtc1pfdXZXNjcyc1RlVkVqOUlTWXoyWlZKVmNDSVRyVjFXOHJ0SmtQNHB5MHl3VG9ubmNQelZmYmlLLVlqV2JPUWdMamZmMkY0UzUtWWxSUGdUcXNYLUtIRmo5bWpuMUVGQ2dEaEY2U1VISGNWa3hQZ0RMenJsbzQtRnNIeXNDNS1EZ1piRllmQzRLRk5LLWlWUVRrOXI4OWVVb3hBUUVYOWZaeVNIZEdXR1g4UEZmWUE4TFpsVlVNR1hiRk05Z25NN0R1ZFNrZ3gyY2VJMzJn?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-06-05T07:00:00Z",
+        "snippet": "Loco Pilot Injured In Stone Pelting On GT Express Near Singarayakonda Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"ONGOLE\" Andhra"
+      },
+      {
         "title": "Four boys drown in pond near Ongole of A.P. - The Hindu",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdEZwb1FGcDdBM2FObWl2V2VsZ1JpOHpoNW9Ma2pnb2RJdnhfcTJyeDFidHN0NXM0NnFkSXl3eDNoOEt6emVsZll6d3hVQklDZVlDMnNCWmF1dlA0US11Y1hZTzNVZWdPdTA4M215N2hmNzMzSnRxZlJfRVh6VS1RcmJRUmgxQzV0MkE4eXlVUnd4VDBsTnVibU9vdEViNEZQU1NVcHM4OWoybWltUk90VkNmWFg5d9IBvAFBVV95cUxOWTd2REUxaE5KQktOLXRQbVdSdUFwUzdYRHpCMGlWbXhzLS0yRmN2d3hxUnVCOUlsVXc0MWFibDZYcjVRNmxpME9oa2ZXUW5ZY2ZWMWljTkxqQzIwWEY4b09CVkpCVzU4MVVyU3JValJ0MVZPWHhBUTJxQjlkQzFPN3FTUHpQVEQ5eG9rbDk3ZW1hQ3liUWxQakYxSnh5NkhvMUc3OG4xbldGczFQbzBaWHNaNlBPakFRMll6cQ?oc=5",
         "source": "The Hindu",
@@ -12753,15 +12780,6 @@
         "source": "The Hindu",
         "published_at": "2026-05-20T07:00:00Z",
         "snippet": "Ongole GGH doctors treat patient with rare neurological disease The Hindu",
-        "lang": "en",
-        "matched_query": "\"ONGOLE\" Andhra"
-      },
-      {
-        "title": "Andhra Kesari’s Legacy Remembered Across Nellore, Ongole - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZDBLV3J3bzcwamZ2MGJDbmhrYVFqSHVRNGFmLVFxWDItczNXeTNXa2pRLVhaMGpid1BfRkFrSEVMbHhJWW8wUmxKaDA3RGVpZHh0cmh1Tl9EcVl6aEFWQUJ0bGx2UmRGSHVwUjk3RV9rNGIwWWdvMm9JQ3NwcE55bnJNOVBNY0RoUGZpNzZINjRXNURWRk1wWGZpNVJ5QXd3cWh0bFl1SDBVSWVjTC1yeU52NkVfS0FGNm5LenFOZ0xQS2fSAcgBQVVfeXFMTmhZQkxjNk5YdFlYNkxtaW1IcHN0ZDlYN05UaGNIWk5iTzFFWW16eUM1cXpEQlE5NTBZc0Iwc2lnWEZpQ1F6amg4QWVOajRXNW1uMU5hRm9uMlQ4OFRzV2l6dzRoZXNKVTBjRmQwMnQ2UGtMUXcxbi1vZDgxX1pJVGFWYVpkcHlqYmNyY1prbmFwSklkMHhoTm50WlEtZ29Pa0taT01BWGJkMUh4eEVhUWRscWJZNnFPNGFhZjVXSWZTS3hfek83VU0?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-05-20T07:00:00Z",
-        "snippet": "Andhra Kesari’s Legacy Remembered Across Nellore, Ongole Deccan Chronicle",
         "lang": "en",
         "matched_query": "\"ONGOLE\" Andhra"
       }
@@ -13069,6 +13087,24 @@
         "matched_query": "\"BANAGANAPALLE\" Andhra"
       },
       {
+        "title": "Minister calls on students to combat plastic usage in A.P. - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN3VSaldUOHJjOVE5WVpkbE1nX2dDYVRNMlVBN0NkelAwa2liYUIwSjAxN2dndnViTHpXcm52WjVqYlhKUFo2bTAtUnBwVE1zVW9jY3ZNbF9rQ1ZRUl9fY0l2WkxSa1FlekVCM1Jlc2R6NkVLNkVFOWF6ck5rQ3dxakhjQzJEODBvTzY1SFo3Uno1bTdTaTc4bVcweThHY1pqNjZMQmJwYzVoVDBweEYtLUFKUkZPZ3c3QW5rdHl4dldVWGNHaHhfZXlR0gHQAUFVX3lxTFBDQ3JDenkxYzFMX1ZtRURtYk1Na3VEMGlyeGdTTlpZQnN0d0xKazdKWkpxNEtSWm5rWTRTSnRpUlMwVXFVdWRPRVF4Mjk4ZzNBM2lxLU8wbFFudUprY3JsNmp2aWRZTHpYVjNBQ1o4WXRfeDJ4c050LVl5RnRabmFGenA4enpDaVhSR3dHdF9yUlN1WGFMbEdpMlM5MEphX1pGWE5jSG1IcG9lcGt6Qkl3TXp1SC1sN2V5dHVkeHVDTElzbHlHV3k5ak1ZVGRPSWY?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-20T07:00:00Z",
+        "snippet": "Minister calls on students to combat plastic usage in A.P. The Hindu",
+        "lang": "en",
+        "matched_query": "\"B.C. Janardhan Reddy\""
+      },
+      {
+        "title": "Coalition government prioritised development and welfare in its first two years, says R&B Minister - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOWXRZUDZNOGIxS2F6UmlyUmNZRVhHdENHbllEMEV0TVgtSEVkWmVSZ0M1NFM3SUM3dW53YlR4SWlQUHdRVHVxT1hRUUZjbVMyUVBra1pMdFMzeXFlMndwSGN0cmtjQ014RUxLVW5COUF0dnFJeUtkYUtic0xxUWtQa1ZqOVVzei0wbDNvV283XzB5by0tNUdmQ041SjZKem5RSW1xS2k3SnN0cTFyYUkwb2ZRNkwxekQzblFEaU82WjBpUW8wcEgwTXZKQXkybG9yY1N2T2dhZjA2V2hIdFN3T2p4QWxlbVNXM3RVM3d5MHVyM2pHX3hRblROTzdsV0HSAYYCQVVfeXFMUG10cFFGMkN5U3A3OTJGZ0hnaHhnT01teWpILWoyTHN2eUF1WDl3ZUZ4b0pRYTVTdWViTFFSdEJmcDZjMDBMY0xLc3NQaVpvNUFsSEpNVFBma0g3S0ZQSl94T3VKVkVGQjBEUnQzLW9lUk1ZbWxMaEU4ZktqUlF2U2xUZDJwTXlKOF9adk9LTVJnUFVsTXZDM3JObC1mNzBSZDc1dGZrMzJ6T0JZa185RktQLVhtM3V4c0s1ZkJ5NnZZdF9ucVZDRkxDYkF1cGZvMUg0RVp4amlLR0NDclZzbEp1QVlaVVhqQ2xyb1BBcjEydHp2c19wWTVBRmR0UXlCTG1sTVpJUQ?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-19T07:00:00Z",
+        "snippet": "Coalition government prioritised development and welfare in its first two years, says R&B Minister The Hindu",
+        "lang": "en",
+        "matched_query": "\"B.C. Janardhan Reddy\""
+      },
+      {
         "title": "Annamayya Received ₹3,526 Crore-Worth Welfare Schemes in Two Years: Minister B.C. Janardhan Reddy - Deccan Chronicle",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVnhDVTlzaEVzblZFZlBfaVhUWGZTZURpWGlHbEJjbS1lS2xDUjhULWFZcWtqNmlmZ0E2bWo3bHJTWkF1aDNBNWJmc29vTlA3NXBzOFY0a1pMR29OOUs2VGFKMm9sUE5KaFhGSk9ZcFhPX251eVZ5WjlCWVdhNndKTkc2WFloWFQ4UEJxMnU3TGpwMUVwSXBia1NiYmhYcFZURTFySU5HSV80cF9ObEtNZjRrdmJZX0VQdnVVRFd4VFVUVmpOM1FFUGFaS28xNzVISTUwQlVnWVJZal9iUjgtX0FUTWRqSFUzZVczNTVVYlhRcUdYTUHSAfsBQVVfeXFMTkZDN2t2bHU0dFEwa3d2T3lCYjllamVQLXhQM0VYRGdqNVpoX1ZUQ0VKOWo3MFF0VE90UE9GX2VfLTd1d3NTXzFydWJIMHFyTUE1WHRxZ1pxSGV1QVB5VEV4SzVuUUpGVEVTYlQ3eV9OYmpXckY1bzZqWGFTV1JxcTVnaTZBNFdoMTlaNEQyRnlKb2tLR3BOcElaM1pUUUE4MFlPRFpNWS0tQllWcWliSU8yaUFpbWNOUjdpeTExMWszc21MYUVfUl8zcV9jcURhQ0dXVmdtdGc0Mmg5RmVJcndocThMS2RfV3F6Q2djUFdrbXJXT0ttQi0wb1U?oc=5",
         "source": "Deccan Chronicle",
@@ -13111,7 +13147,7 @@
         "published_at": "2026-06-09T07:00:00Z",
         "snippet": "Minister tells cadre to maintain vigil during SIR process The Hindu",
         "lang": "en",
-        "matched_query": "\"B.C. Janardhan\""
+        "matched_query": "\"B.C. Janardhan Reddy\""
       },
       {
         "title": "Minister urges party cadre to be vigilant against voter fraud - The Hindu",
@@ -13147,7 +13183,7 @@
         "published_at": "2026-06-03T07:00:00Z",
         "snippet": "AP Unveils Massive Infra Push With Projects Worth ₹56,000 Crore Deccan Chronicle",
         "lang": "en",
-        "matched_query": "\"B.C. Janardhan\""
+        "matched_query": "\"B.C. Janardhan Reddy\""
       },
       {
         "title": "Minister urges public to to take up tree-planting as a mass movement - The Hindu",
@@ -13165,7 +13201,7 @@
         "published_at": "2026-05-31T07:00:00Z",
         "snippet": "Minister launches awareness campaign ahead of World Environment Day The Hindu",
         "lang": "en",
-        "matched_query": "\"B.C. Janardhan\""
+        "matched_query": "\"B.C. Janardhan Reddy\""
       },
       {
         "title": "Minister promises basic amenities in Tanguturu SC Colony within a month - The Hindu",
@@ -13186,6 +13222,15 @@
         "matched_query": "\"Janardhan Reddy\""
       },
       {
+        "title": "TDP leaders accuse YSRCP of violence - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRFB1Vk94bTg2TE9WejlPUGhGT3dOMXR3d1h3cHBEVnhTV29VMUVEeGg0eTAtOFh1eXZib0RGX0I2cHpWXzRMdDhEbmNaR0FVRHVKM3pseFhPUnhFWmVqd3BFQVFyTGNDX21UbVVyMGhpbklGY251NGczX3ZhYlllZjBPdU92THlTNFc5M0o1YlVFMU9Ub2ozTVRjSzNXajhCRnRvT2tqN3VLczdmeUkw0gG2AUFVX3lxTE1Wa01KRlRHUmQ4QzdUMWt5WnhaS1h1Q3g3eXAycG9iOFpiSnFXRmczOWY1aXdzMEVRTUJMa1ViVVdyazNMMHNBOVJUTXZwd1htb0d6MHZqeWFHTjBiUnZDcnNRWDZpTU56Z1h6MWkzemRUWU5ieW5aNlgweXpKc1lRenFpWVZveFFrS2NXS2paa2ZQWmdMUzlxWnVpdVhuTkR0UkFqV1cybkZaZ0NpM2NEVzdJXzVB?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-05-26T07:00:00Z",
+        "snippet": "TDP leaders accuse YSRCP of violence The Hindu",
+        "lang": "en",
+        "matched_query": "\"B.C. Janardhan Reddy\""
+      },
+      {
         "title": "Siddaramaiah may step down as CM, says Gali Janardhan Reddy - Udayavani",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeGtKMVA4emhUOFFlMTVwbzVsTzF4MTJTdzVxZXMxNk5Obk8zaWVUMXhVOXlzV3lJTUhQZHF0X0RqdEEwNHBkTmh2TEZUd0NMQ2xZVWxSb2JabW81eHJwZnZYdEdpNTZXNDFFNzN2al9CaGFRMUxtSnlqenBoelkzTk14VFV1SmRoaFF1ZmR2RjdxUUdYUDkwZzh1VFpQcnI4bG5wSENmSXU?oc=5",
         "source": "Udayavani",
@@ -13195,22 +13240,13 @@
         "matched_query": "\"Janardhan Reddy\""
       },
       {
-        "title": "TDP leaders accuse YSRCP of violence - The Hindu",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRFB1Vk94bTg2TE9WejlPUGhGT3dOMXR3d1h3cHBEVnhTV29VMUVEeGg0eTAtOFh1eXZib0RGX0I2cHpWXzRMdDhEbmNaR0FVRHVKM3pseFhPUnhFWmVqd3BFQVFyTGNDX21UbVVyMGhpbklGY251NGczX3ZhYlllZjBPdU92THlTNFc5M0o1YlVFMU9Ub2ozTVRjSzNXajhCRnRvT2tqN3VLczdmeUkw0gG2AUFVX3lxTE1Wa01KRlRHUmQ4QzdUMWt5WnhaS1h1Q3g3eXAycG9iOFpiSnFXRmczOWY1aXdzMEVRTUJMa1ViVVdyazNMMHNBOVJUTXZwd1htb0d6MHZqeWFHTjBiUnZDcnNRWDZpTU56Z1h6MWkzemRUWU5ieW5aNlgweXpKc1lRenFpWVZveFFrS2NXS2paa2ZQWmdMUzlxWnVpdVhuTkR0UkFqV1cybkZaZ0NpM2NEVzdJXzVB?oc=5",
-        "source": "The Hindu",
-        "published_at": "2026-05-26T07:00:00Z",
-        "snippet": "TDP leaders accuse YSRCP of violence The Hindu",
-        "lang": "en",
-        "matched_query": "\"B.C. Janardhan\""
-      },
-      {
         "title": "R&B Minister urges party cadre to promote TDP-led government’s achievements - The Hindu",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONzJjQS00a3ZlLWlHQmVLcXE5b2U3ZFFaVFVYVUlFSkQtM0pOZ096ZTFkTFp1bHVXa21fQW9GRzhBLU9xUTNFdEk3MGl6RTFwV1FGc1I1V1hSdHhHV29zWEcweEtmVE1YUzZMcnlBOU9nbFhIZUZRYkJ1RHVEYzlndUE3ZlhjTVdZcDlrLVN6ZVc2bEF5Z1NwUnFaTDlmS25Nb2hDeXJFNHNwdFBHQVdpbGJ3Tk9IYTBRcHdQaUdqUERRbnpaazEwUURvM2RxSzlfcnFreG1YNFRrdHRKamZvTdIB5wFBVV95cUxPUGx4am4xXzVENzlsV180NWtJOHRXcVJGMzdWOS1EbC1UUW1uTTBqekFPa0V1NC1HZHZjZVFVMERoVlBaSU42VXZqaWphcWxtWjc2aF83bk1MR0t0cXRrMldvTDhvZjVrd0RGaU80dTNtWjhnSC1DZDNZbVJKU0NNT0hNQV9hbmduQVNheGVaTDJzTTZ4MEt4UXl1elB3X2hROVo0MkxyYzdRUVN4djRkMGZwQ2hKbl9UR180UmJEbnB3a3I0WF9vVnN5ZDE0QkE0SVJzVDFheDg5SlJOVy1GbGpEdHB6MWM?oc=5",
         "source": "The Hindu",
         "published_at": "2026-05-24T07:00:00Z",
         "snippet": "R&B Minister urges party cadre to promote TDP-led government’s achievements The Hindu",
         "lang": "en",
-        "matched_query": "\"B.C. Janardhan\""
+        "matched_query": "\"B.C. Janardhan Reddy\""
       },
       {
         "title": "Karnataka BJP MLA Janardhan Reddy: Say 'Jai Shri Ram' In Classrooms Instead Of 'Yes Sir' - NDTV",
@@ -13245,24 +13281,6 @@
         "source": "Udayavani",
         "published_at": "2026-05-22T07:00:00Z",
         "snippet": "BJP MLA Janardhan Reddy endorses 'Jai Sri Ram' instead of 'Yes Sir' during attendance Udayavani",
-        "lang": "en",
-        "matched_query": "\"Janardhan Reddy\""
-      },
-      {
-        "title": "Video | Karnataka BJP MLA Janardhan Reddy Backs 'Jai Shri Ram' Attendance Call, Endorses Yatnal - NDTV",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQUpjR3Z0S1RUSFFxb2ZyWmZJNnFOQ25WOWNNWXBCaE13bTVTV0ZDRWl1VVdVMElMZ1Z4R1BWLXc4LUNPUmtTRjlRbl92SzNJWG1wSzl5UWlRMk1IdHJaeTRJbHVOWWVBdUZpeHk5UHNqSi1vX0RYa3pNQS1sVTEtSFQwRlJHd0JROWFXMFZZRG44RnJDbmR6NVFfaVpEUkFtYy1zaS01ei1FRlZuZmtEc0VWZkJtMUNCajlqand2dnpJWVhW?oc=5",
-        "source": "NDTV",
-        "published_at": "2026-05-22T07:00:00Z",
-        "snippet": "Video | Karnataka BJP MLA Janardhan Reddy Backs 'Jai Shri Ram' Attendance Call, Endorses Yatnal NDTV",
-        "lang": "en",
-        "matched_query": "\"Janardhan Reddy\""
-      },
-      {
-        "title": "'Say Jai Shri Ram In Attendance Calls': Karnataka BJP Leaders Amid Hijab Debate - NDTV",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQelh6RGFaRVd0RElXVUVaVUFpVERMLW92QXZFNjRqTWtLRXBaX29ES2Nfcy01anM5VUJZY3I2Qnprb3FDY2d3QUhfcUpjbm81RkxxaTBjMEVwZ0FxQ2RwRExmZERacThxOE1TUUZwVzNldGxmLXlmbkZubWpoNkRPeWNOTGVEVFFXX2p3bUJTdjFoeGZ6UzR2a0VNSUpQdjI2Q3VkYjRJMFJMd0UxaGFPVm1Ia1NUZ280NGtralh30gHGAUFVX3lxTE02SFRxeWVYVUk5cjBobWo4TWNmTl9ab3QyRGRtdTU1MmJoUzU1N1hyN09ZVzVfUFRic0tNcXNjdmM1bFRyYWxkbU15anFTaURwSGxZZk5KamhUeVFpMEp3OEZYNWpRYTcwNm41Z3RkVURfa0NiTjViYk10Y0lXYXdkSGRNZ1lCYVhHV2hIQlhaY1F5QV9HelZtbEg2UHh4VEl6Rl9EUUNyWkdEc1Uycl9ZUGJVWnROWXVyb3UxOF9pTHZWeVJNZw?oc=5",
-        "source": "NDTV",
-        "published_at": "2026-05-22T07:00:00Z",
-        "snippet": "'Say Jai Shri Ram In Attendance Calls': Karnataka BJP Leaders Amid Hijab Debate NDTV",
         "lang": "en",
         "matched_query": "\"Janardhan Reddy\""
       }
@@ -13478,15 +13496,6 @@
         "matched_query": "\"Nageswara Rao\""
       },
       {
-        "title": "Minister Tummala Nageswara Rao Inaugurates ‘Thread Pochampally’ Handloom Exhibition in Hyderabad - The Morning Voice",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLVVpZ0RFWlRXbVZfdVNJZWRWY3BlWnpGV01jbnJEZGlIaHI5SUVaRUdrRnNLTHlLY1F0c2UyTG5KS0FabzJ3SWpoa3B3ejduOS1ubjUwUjdkYXNnd2NSUWoxekZBT3V5UVRSZzNqakhoRVpYVy1pamUyVWpoeVBPUWQtNG8wdk44QU1tMzB3aEJSUndvYjRSSDd2amRieW9GRzRUbll5eEljMGM4azJ0NWpKb0ZuenMwTlE1T1R5cHRPalNJOW9kbVQ4dXhidw?oc=5",
-        "source": "The Morning Voice",
-        "published_at": "2026-06-05T18:52:58Z",
-        "snippet": "Minister Tummala Nageswara Rao Inaugurates ‘Thread Pochampally’ Handloom Exhibition in Hyderabad The Morning Voice",
-        "lang": "en",
-        "matched_query": "\"Nageswara Rao\""
-      },
-      {
         "title": "Tummala Nageswara Rao highlights entrepreneurship as key to rural prosperity - Telangana Today",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclh4ZURHTVpUbGt1SVBiVGNMWDNMQ3YzZXNubFJOWW83TWhaaFJZcmF2SkktZUhuQnBRNFJURFpLZXphTC1GTzh5YUJmVWJqWG56S05GREdmb3ZSQXFBanRMT0g2a01IYTZVVDB4S0hYbFpoZDg3NmRLaUY4YTZ4cEJKRDFCMzR6QXk2alZaeTZVN3BEYXMzRXo1SGtoYlpDNE4tdG9B?oc=5",
         "source": "Telangana Today",
@@ -13519,6 +13528,15 @@
         "source": "Bar and Bench",
         "published_at": "2026-05-20T07:00:00Z",
         "snippet": "Former Supreme Court Justice L Nageswara Rao becomes Honorary Bencher at Inner Temple Bar and Bench",
+        "lang": "en",
+        "matched_query": "\"Nageswara Rao\""
+      },
+      {
+        "title": "Food and Civil Supplies Minister P Venkataramanan inspects Rs 12.22-cr revamp work at Nageswara Rao Park - DT Next",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU3FSQlFEcm50dG1jVFV4WFVZaVZBWnNnd3Fudzh4TnhLVnBzOWV5VjM2TWRGSXU0M1hrRjhuVXJndTduaUItWlZxVVpnTzRNTGxNYVZZcWE1UWJGem5sUFJnUlJESnRJRXVmUnBEcXVyaWxkaEI4alFPV0h4WERScDhrOFl0cURubjlYckh2ejhNem9YZXBZYnhaekc4eVBBZ3lYM3hMam5qY1BuVHF5OFBqS3JpYUYyQWdHbkZrTl83bHBqQ3IxRGV4MHg3cy1sU2RXT9IB4gFBVV95cUxNVXlFNzVpVUFkVlNMSFNENDZaMnh6MUxJeDl3M1g0LW9WcnZSekZLVEhtMldZdTlVcHdCd0Q0cWJRM1dZczhaNjFodk5EbkdMOWtoQUFJMUV5d0RGZHVabzBHeHdhWWJVdFpocUNXemdFSVZkMXJlbk9wWXJNTl96Tmw5cDIyaEdXLWZRT1pZbXNZWHVSYU1wa2lrdl9qbklnb0NYYkF4N0RGdzJNX1FvdWd2V3UzNmFKeERYY1RBdHdPTDI2Q2VER3J2Y18tQ01RSzV1NHJXTHE1VHlVMjNQN1Z3?oc=5",
+        "source": "DT Next",
+        "published_at": "2026-05-17T07:00:00Z",
+        "snippet": "Food and Civil Supplies Minister P Venkataramanan inspects Rs 12.22-cr revamp work at Nageswara Rao Park DT Next",
         "lang": "en",
         "matched_query": "\"Nageswara Rao\""
       }
@@ -14081,11 +14099,11 @@
         "matched_query": "\"KAVALI\" Andhra"
       },
       {
-        "title": "Director S.V. Krishna Reddy and Producer Achhi Reddy Launched the Teaser of “Hreem” - Telugu Times",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOODR3OVUtc2F6QmRXdlF4RHZKbFpITkh5Tm9ORWp5ZmFwamwtLXptMVQzWkdiM3ZFdm9LbVVxY2toeENpZTJuWHhwU2w5ME1scHp2SzJqV3gyRWV4djN4ZkVSenpfMjFaQjJyWjBFa1NqUmtQQmpLV3JHYnVwZjloNFFxeGdQeUg1T19uUk92Y3YzRXJiaFhhZWcxTkV6Wmw3bjctVFBiNVJtbXdGb1Jsc0FzNEpsNjF2eC1xQURPcEN5azUyOEVkcml4aFNTUno1c1gxM0U3cmxzLTQ?oc=5",
-        "source": "Telugu Times",
-        "published_at": "2026-06-20T10:49:02Z",
-        "snippet": "Director S.V. Krishna Reddy and Producer Achhi Reddy Launched the Teaser of “Hreem” Telugu Times",
+        "title": "Director S.V. Krishna Reddy and Producer Achhi Reddy Launched the Teaser of \"Hreem\" - industryhit.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUzF3UVkxV0U3MFVOaVFBREJLdjJ3MVhYVGpWQ1BEbHJHM0ExSmlWOUtULUoxeXdmQVVGcThsMTR4VENTc0owcGRVVGZyd293ZmlmcnpqNUdDMUxKT2NHQWliQWRHOEF3c182YVpqeFpRTkwxeHpTSnZFbTRxek1LeXo0MnBoTWVpR0V5YkxNVXdMTGxlT3ZzRnJTRWVXNnlIZnMycm5tMnBkZHc?oc=5",
+        "source": "industryhit.com",
+        "published_at": "2026-06-20T19:28:23Z",
+        "snippet": "Director S.V. Krishna Reddy and Producer Achhi Reddy Launched the Teaser of \"Hreem\" industryhit.com",
         "lang": "en",
         "matched_query": "\"Krishna Reddy\""
       },
@@ -14126,20 +14144,20 @@
         "matched_query": "\"KAVALI\" Andhra"
       },
       {
-        "title": "Legendary Director SV Krishna Reddy’s 75th Birthday Celebrated Grandly in the Presence of Several Film Celebrities - industryhit.com",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6R0Y5MkpnOU1nTEt6SnEwWjFRaDUxcmhkWnRrUTNZcW9RX1pJMTNsbmpYUkY3eXRGZGtjZVhSbU55Z21md1JKdzRnajFaczFoSG5CT2R4ZWRsYkpZdHo0NkF3a3ItU0RkSTFtdURLbjQtUmM1U2g1M2V3?oc=5",
-        "source": "industryhit.com",
-        "published_at": "2026-06-01T07:00:00Z",
-        "snippet": "Legendary Director SV Krishna Reddy’s 75th Birthday Celebrated Grandly in the Presence of Several Film Celebrities industryhit.com",
-        "lang": "en",
-        "matched_query": "\"Krishna Reddy\""
-      },
-      {
         "title": "SV Krishna Reddy Birthday Celebrations - Telugu Times",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSG1GcDlzN2lMNWMzWFVIYVRkTU5mUHFhUEdWTmR4Q0VUczloVTFpZ1NuNElfZE5RTlpCdFNIdWhwWnY5cTdjWS1NSExnR1Ewa2dVaFdMSFhjM2ItaFVpdGdTa2tJTVhIUGxCeUUwWWVQQ0RyemN3aFFuamtxaUtpdE1nM1NFWnVWN3czVHhyYXMzbTJ0YjRLQzRjcklsWVpnZUlyQWpjWjEyNmh1TlNJ?oc=5",
         "source": "Telugu Times",
         "published_at": "2026-06-01T07:00:00Z",
         "snippet": "SV Krishna Reddy Birthday Celebrations Telugu Times",
+        "lang": "en",
+        "matched_query": "\"Krishna Reddy\""
+      },
+      {
+        "title": "Legendary Director SV Krishna Reddy’s 75th Birthday Celebrated Grandly in the Presence of Several Film Celebrities - industryhit.com",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6R0Y5MkpnOU1nTEt6SnEwWjFRaDUxcmhkWnRrUTNZcW9RX1pJMTNsbmpYUkY3eXRGZGtjZVhSbU55Z21md1JKdzRnajFaczFoSG5CT2R4ZWRsYkpZdHo0NkF3a3ItU0RkSTFtdURLbjQtUmM1U2g1M2V3?oc=5",
+        "source": "industryhit.com",
+        "published_at": "2026-06-01T07:00:00Z",
+        "snippet": "Legendary Director SV Krishna Reddy’s 75th Birthday Celebrated Grandly in the Presence of Several Film Celebrities industryhit.com",
         "lang": "en",
         "matched_query": "\"Krishna Reddy\""
       },
@@ -14491,20 +14509,20 @@
         "matched_query": "\"Anam.Ramanarayana Reddy\""
       },
       {
-        "title": "TTD has witnessed comprehensive spiritual rejuvenation: Endowments Minister - The Hindu",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNN0szX3VEcVZOdGxrdVNpQlVrWHNXSGJlOFAwVFVNSldqRXlQd3p2YWRDcndlYjNfWld4RWJpU2JzSDF2QTJHVVpmdlNVWksyM2l3SlduUE1EUEwtbmpTRVJJQlYzZy1UUV9SY1RDVy1sajJFWElpdmRBNWswTGhGaURKSmh1NjJYZTc1RkhaenZzOHFiZklwUTNHWUhRbUw3YU9UWlZGa0pra25pNWxhYjVXSG5kci10RmtsMmxSWHk4cGhrZC1acFJscVoxMGtzRl9hZHE5NC1XcFlWLTlTVVJR?oc=5",
-        "source": "The Hindu",
-        "published_at": "2026-06-22T13:28:50Z",
-        "snippet": "TTD has witnessed comprehensive spiritual rejuvenation: Endowments Minister The Hindu",
-        "lang": "en",
-        "matched_query": "\"Anam.Ramanarayana Reddy\""
-      },
-      {
         "title": "NDA government fulfilled 10 of 11 promises related to Endowments Department, says Minister - The Hindu",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdkE5a0w1TmZ4TkFvQkFKWGhkMmtDd3hEWGRoYjBsVHZTZXZUS01zaXplN3FnbUhoT25iYmduTHBhNE9aWWk2eVZGYkdrZ3RMbUhQNG9Fd2RxdG5Rcl9rUnZpd0JnWndrODVlVVFXeEV6LTRHTjhCQk8yMmlLVFV0dXp6Y3NNSy01YU1XeTludktSQkdudklRUncySm41YUtDWWkzU21kM1pCSG1TeTV5RURVZkJiSm44WmhRaUhOaW9ZOUxERWhmOHV0Ny0yYnBJM2VlazFWM0FKdFBKXzBNaDdaUTVRNFdnaENlWEVJSi1GcEZ0UmfSAfwBQVVfeXFMTjdoX1M4TU9RcGh0MVNTSHVVT3NUNko4M2FmcmRDTjhHbTIwRXBPZEFldU5adEp5M1A4WS1LVzVxMW9jcW9nZ2xEb192U1dIeTNuRmJ5XzRaRnQ4ZGtxa2tkQ1EzODdHeW5MVFVIczE2eUU1RWtFWUlQS3EyaV9QTVJDckl3enBtR1Y2TWE0WHRVb2g3QUJIVjQ4MzAtdjkyWFZsRHhNUXJUU0J5YzByR2lROXBqLWxUZXJMNXp1MU5xZE94bXVJc19SWmkwbk9iRGFXYnhTNWpsRzdmWGRNUGpNTV80dnNQc21QQ0h5UGM3WXZFYmhxMVVZRVc4?oc=5",
         "source": "The Hindu",
         "published_at": "2026-06-22T13:10:23Z",
         "snippet": "NDA government fulfilled 10 of 11 promises related to Endowments Department, says Minister The Hindu",
+        "lang": "en",
+        "matched_query": "\"Anam.Ramanarayana Reddy\""
+      },
+      {
+        "title": "TTD has witnessed comprehensive spiritual rejuvenation: Endowments Minister - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNN0szX3VEcVZOdGxrdVNpQlVrWHNXSGJlOFAwVFVNSldqRXlQd3p2YWRDcndlYjNfWld4RWJpU2JzSDF2QTJHVVpmdlNVWksyM2l3SlduUE1EUEwtbmpTRVJJQlYzZy1UUV9SY1RDVy1sajJFWElpdmRBNWswTGhGaURKSmh1NjJYZTc1RkhaenZzOHFiZklwUTNHWUhRbUw3YU9UWlZGa0pra25pNWxhYjVXSG5kci10RmtsMmxSWHk4cGhrZC1acFJscVoxMGtzRl9hZHE5NC1XcFlWLTlTVVJR0gHoAUFVX3lxTFBYdXA1N2hiWFgwenRkazlNN0UtN3F5SjVqbGhsTXY3VDZxenlGS19ES2E1dXQ5VTdtZUcwZXMtYm5XQmItWXFHcGFjN3VSY1JwSzc5SUFmVlBDMVNYYmxBRmtKZFNCR3hJLW1ZMkgxNUtjSnlGWTl3eDZhZ3FlZzh1NlEwd0FGREtQSk16RGNPbi12djhvekZCMUkxQk5UUVFJOVJIUENjY2VwQ3AzcWhsUmlub3BhY3BOaVB2WmJvc2V5WV81TG5ITmZENWRfaUw3WG5jZzhjNEpYODNDcDZFbmFJWWpvYlg?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-22T07:00:00Z",
+        "snippet": "TTD has witnessed comprehensive spiritual rejuvenation: Endowments Minister The Hindu",
         "lang": "en",
         "matched_query": "\"Anam.Ramanarayana Reddy\""
       },
@@ -14758,6 +14776,15 @@
         "matched_query": "\"Ys Jagan Mohan Reddy\""
       },
       {
+        "title": "Singapore Consul General meets AP CM Naidu, YS Jagan Mohan Reddy - Asianet Newsable",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0pkRkY4TTdSVUVUS1J0cDNEZUJQYTBDNm04d1FwaTlmcUlyckpHYTFOMGV1c0Y0bjY4R3lCOEFZMTlseHYzcktsSms5d3Y0bEV6UE1UUHZnaGtuZW53X25DUmtzYzJhb3p4UGltLWR3d2dHQmlTTDNNaUVkN1JtZEVjZlZnUjVnbXVaS3hMYnRuWVFBakUyWm5mZkhydURqU0kwOUJJRmRnTW9Wa0FyMjZR0gG3AUFVX3lxTE9aTE1EcU1Xb0hUQnZ1ZTJuMG5hLTFvRlhIRXZXMlBPbEc4NkZ0aVB1cnZKN083N3MxRHdIUlVabEVkNnp0cFZ6UWFCZGhuV1dnNlhwQ3pENHBadG5FbEpYWmp3ZWQ3NkM0TEVLM2ZZTmJTanN0Y3MxU3R1QnBqeUVkaDZ3VVVxaFJWMHQwcXhSU0JHaFc0d0thc01CeUphNmE3bjBqbnNUZHJMN1UzVUpaWS01YUZOTQ?oc=5",
+        "source": "Asianet Newsable",
+        "published_at": "2026-06-30T09:00:43Z",
+        "snippet": "Singapore Consul General meets AP CM Naidu, YS Jagan Mohan Reddy Asianet Newsable",
+        "lang": "en",
+        "matched_query": "\"Ys Jagan Mohan\""
+      },
+      {
         "title": "Singapore consul general meets YS Jagan Mohan Reddy at YSRCP office in Tadepalli - The News Mill",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNckFTSWsxSFFCbmhwQzhnYV9nbkpvU3ZmXzMzejVZeTRMcU91bFJqcDlQSDU2d0JkTlhTVVNscU54QzU2Rmh2bWc3SUMxbWlfMVdXR3JIeHUyVUlRWk4wYm1jSXRWOFZCbTl1Q2lfNXUtS0daRDhiWU1pdjUzTXVfQUd0Si1USjlBTUpwdUR1XzFTMkdYcjRKcGVxT3hLX2ZYT0ZWYzNXcVFPRVBkYUViTUtTUQ?oc=5",
         "source": "The News Mill",
@@ -14794,6 +14821,15 @@
         "matched_query": "\"Ys Jagan Mohan Reddy\""
       },
       {
+        "title": "Govt preventing farmers from meeting Jagan - The Hans India",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaDd2Sy00T0F0VGpxcDFKdE1oaVR5MlJ1X0dfZl9CclpqZ3hnU1h6RGljNXNCYmlWcGJEMzlEenNqalhma1ptMTM5dEFEb21fMUVOZWxydnRuV29GendxT216WjQ3WnpZekozZTNpREs4dVBoUG9mRy10M1NRQmV6Um5iZWRSNXZvaWFERm9mdlBpWXR6WEVnZ1Zn0gGfAUFVX3lxTE5nMlpHVFg1d1RiOUhDVVQ1R01KbVc5LUpXZ3psVXJVYzNSY2lLY0NKR0pOMkh4WWxhcEFCM0dWQ3Y2Nm13NWlkNzVzZUE0YmZDUHpKNXVRTVk4UzNFdHBzUTVpcEVMZE5FN1YwaURlZjA1NmhkVDkwV1g0ak1wUjB1YVBDQ3I3dE5hblVMcmcwT0RIRlZqa0hiTndxZ0lqVQ?oc=5",
+        "source": "The Hans India",
+        "published_at": "2026-06-30T02:08:04Z",
+        "snippet": "Govt preventing farmers from meeting Jagan The Hans India",
+        "lang": "en",
+        "matched_query": "\"Ys Jagan Mohan\""
+      },
+      {
         "title": "*YSRCP Condemns remarks against lawyers* - ysrcongress - ysrcongress.com",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZGNQWXRPb0tfOUpiNG9TWnhDOTZzamVIYUlPM3ZKQllkRkRYNGVpZlFTQkNYNEVXQUVmdjgxQTNoQ3lGQnc3QXREbkZGS2J2TWR3ZmFkRjNuWkNVX2pBem1Udmt0NmJpRkQ1SHBQY1VtQkRfME9IYTFqNXQwdmlKZkpHTdIBvgFBVV95cUxOZDUwM2locktDMkhLS0QwMXpTQ2hzZEZwbU9lWkhhZDhuQUJoamtVUkVrWTdVX3BIUGlsUnl2OU5Bb3VZcDNORWktZmZkLU9uZ2JKb3hCOGVuaWItRHJMQVVqYXlPR241TC1IanZmR3ZqZjQyOVBKVEFPLUpleENCbEl5RFFnd2JPaFJQRW5MZTluTGhPTTltem1HUkpYejB4MlBNVzNFM3Y2MlpVVDRVRVFFNzExSWpvSkYyMlJR?oc=5",
         "source": "ysrcongress.com",
@@ -14828,6 +14864,15 @@
         "snippet": "YSRCP alleges targeted attacks on leaders in Andhra Pradesh The News Mill",
         "lang": "en",
         "matched_query": "\"Ys Jagan Mohan Reddy\""
+      },
+      {
+        "title": "Andhra Pradesh: Lokesh Defends Smart Kitchens; Refutes Jagan’s Stand Of Livelihoods Lost - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNOVpCWG96S1Z1MzFFRVA4TGtBemkyV2dQYXZoNlNsX2kyQ29MS1MtZjFoNjNiOU5pckZ3TlV1YXlUNWpVRHF3Uk41eDdhcG5mbTJtM2ZfcU5aODUwR2o4Vk5CdGI3QkJiQ3p4eTFsVkFDa2ZJTFJheHZEeUd6blZoWkgwN1RwamNSQmh1WE92ZVE1M1pVUzQ3bndlMU9UdUxsZHNXeXR1Uk43blJ4NVRjVU5UdmtvSHpTel9CSTFmeU5VNGhfSDZET0k4SXFQSkxYUEd6RzdPRGNrQmRTczF4TmFvY2Job1FNME5ncNIB8gFBVV95cUxOQTVsOHBDZnFnTE12cmpDd0JwVk5OQWoxd1hYYzNVUGVGalo0ek5BM0QwdkotVUpGZDNuTmxDcjVTcWU5bnZoSW1hMVZsWG1OemtXb2hMbEMwU3loZEMtYWFRdUdJZGpTdmk5SzdlUWlkVW55dl9PWGpvM0xNczR1Tk9oUjhiNW1yX0c3MUMxUmVUZHNEVkE3Ym90MGdySnpobEY4Q3ZoUUM3M2hCa1E1OVJWQ0JpblN1eGJiOHVQNko5XzBXbllXOWZEZE5DaTdXZ0xVQWxRSHduMC12MDhDOXJXdnZlS241MlZPRHNkTllnUQ?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-06-28T16:25:11Z",
+        "snippet": "Andhra Pradesh: Lokesh Defends Smart Kitchens; Refutes Jagan’s Stand Of Livelihoods Lost Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"Ys Jagan Mohan\""
       },
       {
         "title": "CM Naidu 'orchestrated attack' on YSRCP leaders, says Jagan - metroindia.net",
@@ -14911,6 +14956,15 @@
         "matched_query": "\"Ys Jagan Mohan Reddy\""
       },
       {
+        "title": "భాగ్యరాజ్ మృతిపై YS జగన్ సంతాపం - Sakshi",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHVZRGwtME1hLWh0UjRvRGtFRzZaLWppZkJGLThNSk1CbS1ldXZiNzlFSXRpSDRxblJtVnRBR3JHcTZZZURXWDg4eGkzM0ktOGotc2tCR0dVNWtQVHdGbDU3bWRkNkQwcW9vRk00dHF3ejR5dUh6YmRDOUhpUDV6aVFlZWZQdzUySlIxQzd0NjNUWkxKX0FRNEF0dm9rTlp0TGRYeDAtaV9nejVOT3RET1RIRGU5cGFT?oc=5",
+        "source": "Sakshi",
+        "published_at": "2026-06-27T13:42:00Z",
+        "snippet": "భాగ్యరాజ్ మృతిపై YS జగన్ సంతాపం Sakshi",
+        "lang": "en",
+        "matched_query": "\"Ys Jagan Mohan\""
+      },
+      {
         "title": "*Veligonda deserves justice but not political publicity: MLA Tatiparthi* - ysrcongress.com",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONTNXUUMtTmU4a3JKWDNuQ2E1dTZyUVBTSFRiWUNJWndiVnY2ZTA4YWVKWWRWdmZEWS1VVnB0WkpXa05GM3dLTFU2Q0NmZTdUS2FoejhtVmdSVGI4a2lMbkE4UjRNOVFISFl2bnhfdldjWjd6RmpSRmV5dk4yMXNZbUkxRQ?oc=5",
         "source": "ysrcongress.com",
@@ -14934,42 +14988,6 @@
         "source": "ysrcongress.com",
         "published_at": "2026-06-27T13:18:12Z",
         "snippet": "*YS Jagan condoles K Bhagyaraj demise* ysrcongress.com",
-        "lang": "en",
-        "matched_query": "\"Ys Jagan Mohan Reddy\""
-      },
-      {
-        "title": "YS Jagan Mohan Reddy condemns displacement of mid-day meal workers in Andhra Pradesh - The News Mill",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS3BSazFIMUdzRmdoM3NCNnFZT3JGeWMxdU5jWGI1d3pad0locTE1U3d1UVRVazZLX281N1ZJMDk1ejBsTEozbndvaDdyRC1JRXV1bTF4VkVqTzdvMEZFM2hJQ3FSSjZ1dEs3Z2VhTXVveGozU0h3b3daTnJMY3BYNHlQWUl4ZjV3ZUx0Y1diN2hKT1Myd1RmQ1VvelNXM1EtVkFRbUoyaUM?oc=5",
-        "source": "The News Mill",
-        "published_at": "2026-06-27T11:33:37Z",
-        "snippet": "YS Jagan Mohan Reddy condemns displacement of mid-day meal workers in Andhra Pradesh The News Mill",
-        "lang": "en",
-        "matched_query": "\"Ys Jagan Mohan Reddy\""
-      },
-      {
-        "title": "YS Jagan Mohan Reddy slams move to displace 85,000 mid-day meal workers - ANI News",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT1hNbndDTEt0SHhaR0RwTjNRVmdxUnZwcXVXNlpnWjh0Z0RMVkhCakNjNGVpT2MzOC1VN0tsUm1Kb3hydFJnd2R3bnBOa0FMQ0hGR2pxZEVzM1p3UlVXUllDMk14Rk5acHloUUNPSndaTlIzLVdRR2MwSWdzLWtHR2ZNeEFiYVhGSXBZSWIyZU8zejFqWkxSRUFleGd2dU9YbzZFcjVGZDIzM21kcWV6YWJOOEpPU2J5TGxYUkhzeUw5d1RhMlNKSXpR?oc=5",
-        "source": "ANI News",
-        "published_at": "2026-06-27T11:30:00Z",
-        "snippet": "YS Jagan Mohan Reddy slams move to displace 85,000 mid-day meal workers ANI News",
-        "lang": "en",
-        "matched_query": "\"Ys Jagan Mohan Reddy\""
-      },
-      {
-        "title": "KTR showcased his ignorance at Parigi meeting: MLA Ram Mohan Reddy - The Hindu",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSVR0em5kMjZoNVZqQTdvcWNMLXpOR3dROHlNR0JVVnNGekkzb211eFVoblY4MVdnU1RubjZFQV93TFBSeEdyQkN1c0drS19vbjRDZzRWbzVJUmx4YnFUM2ZiVUdwUUk2MEtpMlRXRzRNcXBCbkNEdC1MbzZoUFJwN0FTQWdwUHlhbkNzRWswSVgzUGg1X2d1bnlLTlhkWlVHZFBlc3R1ZHpDOGVhZERaUmFvdnA4Z1RZVzdHNXBKVWN4QXFFT1JwaDV2SkFFSGfSAdYBQVVfeXFMT1ZOekZpWHZYdE1NSlhfYTZQUFZlQi1DRUJza3Qyd3BtMnNjZU5jQzF4TXNVOGEwcERsamFKdWtnTGRKQV9OczJHQnJnQ1QxUzV3N0wzYTRCVkdjY2t3azBScFB2T1FaYzM2NTlVS05IaENyTzVCM0lwMTlTb2FOM3k1VnJlY0E2M0pHNmxrZHExR0dXLVU4WGROaWhsT3U2S3hlTEZabi14RjBKMGdMTk1qRHJOc2d5VTl4UkwyUE9NTFBwbUZXMW8tdG1MS0JpY1lNNzZYdw?oc=5",
-        "source": "The Hindu",
-        "published_at": "2026-06-27T10:53:09Z",
-        "snippet": "KTR showcased his ignorance at Parigi meeting: MLA Ram Mohan Reddy The Hindu",
-        "lang": "en",
-        "matched_query": "\"Mohan Reddy\""
-      },
-      {
-        "title": "AP: Undavalli Farmers, YSRC Activists Clash in Amaravati - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMVdNaFdWUjBxdi1Mcjd4aVRETGxabWQ5YjVsT3daRGNhd3lGZG5jdU1jWVplOS0yZ1FmYUYyZE9Pa25JUzRVMWhvUFpuOEFZQXkxZWtkVkU4WWhoZUl2NU5xYVpqTl9pVjBDV1JDc2Fqc3phOXJRMFBhNWRTc1VkZV8xcWZIZnMzRml5c0llcUphamQ2Tmdqb2NMcGI4UmlRRnNQQm5raDByQjlyTW4yeGd2clhvZ0VwN2w5ZVBxanA3LVnSAcgBQVVfeXFMTXkxVXNvVHBZMThnM3VhME1wRTlIZndiN1pCSHZib1NyTlJRU01vamV5YVZQbHBOcnZDUTdKWXZpbkhZV3lPcHU4bGhOR0ptR29HS2xYdUs5ZlJEYnBiRnllM3F1MkZzek5YQWpoS24tc3JMd3Vxd09hWkpqM3FGU0EwWWdnYXpndERiZlljUERrejRXWi1za0VqdlhKQjBOQ3FXeWl0Qjk5d0t5S3h2RFBXamZVckpjeGFBWG8tcU8wdEdhUTBxVFA?oc=5",
-        "source": "Deccan Chronicle",
-        "published_at": "2026-06-27T10:08:44Z",
-        "snippet": "AP: Undavalli Farmers, YSRC Activists Clash in Amaravati Deccan Chronicle",
         "lang": "en",
         "matched_query": "\"Ys Jagan Mohan Reddy\""
       }
@@ -15110,7 +15128,7 @@
         "published_at": "2026-06-30T15:36:15Z",
         "snippet": "A.P. Health Minister proposes model to assess performance of govt. hospitals The Hindu",
         "lang": "en",
-        "matched_query": "\"Satya Kumar\""
+        "matched_query": "\"Satya Kumar Yadav\""
       },
       {
         "title": "IAS Nitin Kumar Yadav Gets Extended Multi-PSU CMD Role within Ministry of Commerce and Industry - Whispers In The Corridors",
@@ -16067,22 +16085,13 @@
     ],
     "153": [
       {
-        "title": "New DEO office inaugurated at Kothacheruvu - Dailyhunt",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOUl1cUxNek9ULXdGUXg2eUdLQVVrZ0JLRVNQbWQ3QWp2bVNWRHZOb1Iyckp6WEFiNUc3TkVneFVxZzhybWZpajNoQ2RJMklWa0xCVVpMT2FMNlE3RWZJMHladEdxTk8tbC1MUUxlU0h3RmJnc2JXOXUzM3pfaUNwSnZEM3U0bmpoSUEyLUtTQzZ2aG5FRnZ1OVVjS2tmNmIxTV8yLUZ0SUVtOWtETGxQUEpZSGFWLTBHblBuQmRQNjJTV1hXRnc?oc=5",
-        "source": "Dailyhunt",
-        "published_at": "2026-06-26T23:11:39Z",
-        "snippet": "New DEO office inaugurated at Kothacheruvu Dailyhunt",
-        "lang": "en",
-        "matched_query": "\"Palle Sindhura Reddy\""
-      },
-      {
         "title": "New DEO office inaugurated at Kothacheruvu - The Hans India",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZjQ0clhQRW16czJOVGxsVnpTektFYTJXS2Qtcl9YY1JzaUhhQWJ2eF85X1luYXdsU2RhbHFZSjBnLTUyQy1vNmJvbWtsbHZ3a1VqUjJ3UEhraVd1WVR6dFg5YTNCbjkxU2Y1N0M5ZG5DbjRHYnRlaF9Ca1pmeXRiT0taTVhNOUkta3AtWWxfbzdzMTBZU3FFZjVn0gGfAUFVX3lxTFA5V05sNjNreVFaZk13bzJ1U3ZlSmZGMzRJNU1TUVVMWjdIemtfUlFHMzVBaV8yMWE5YmotbnhPdWNNcG1MZ2JMdm1Ud0ktRVBZdk5kX1FxZW1mdnJQUjViTXFnZlczUHMxMDlMYWJ3N0dOZXk0NzlRclVXWERRSGdIVWhuWTQ0cDNueWg1N25wUDRYYm9BTjhoMnBVM21aNA?oc=5",
         "source": "The Hans India",
         "published_at": "2026-06-25T04:23:54Z",
         "snippet": "New DEO office inaugurated at Kothacheruvu The Hans India",
         "lang": "en",
-        "matched_query": "\"Sindhura Reddy\""
+        "matched_query": "\"Palle Sindhura Reddy\""
       },
       {
         "title": "Air quality in Puttaparthi - IQAir",
@@ -16216,6 +16225,15 @@
         "source": "The Hindu",
         "published_at": "2026-05-22T07:00:00Z",
         "snippet": "₹136 crore drinking water project launched in Puttaparthi The Hindu",
+        "lang": "en",
+        "matched_query": "\"PUTTAPARTHI\" Andhra"
+      },
+      {
+        "title": "Andhra Pradesh’s Puttaparthi Receives ₹136 Crore Drinking Water Project - The Chenab Times",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMlpXYjZkdDBsSVB0eFBSRGtWYmFBcGdVcndCckVJOUxmWGQwVmJDSmRoNmNGMkNqUTJNclF6ODNHS1RiTFZtYWMzRGM3dURZeG40bE9lS0RBckR2MUpJTDRoS2Z6Q1dvN29UaFVfSS05cmh1bkQ4WGJ3VjlqS05iT1N6cjhNd2lHZi1qRnVFdy1ndFBYc2pfN196SU9ZNFVWaXo5eTlRTzBMM2xNYXpWVWlITi1UTVdp?oc=5",
+        "source": "The Chenab Times",
+        "published_at": "2026-05-22T07:00:00Z",
+        "snippet": "Andhra Pradesh’s Puttaparthi Receives ₹136 Crore Drinking Water Project The Chenab Times",
         "lang": "en",
         "matched_query": "\"PUTTAPARTHI\" Andhra"
       },
@@ -16467,20 +16485,20 @@
         "matched_query": "\"KADIRI\" Andhra"
       },
       {
-        "title": "Andhra: Five killed in explosion at a house storing detonators - The News Minute",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYXlhOGthOVhzbWhEdEx4S19qUlpoYWpjVGxDSC0wbjRORXZVS0ZxeWxwNXN0aGRxU3gwR3FEWWFfODhnelJTNnZNX3BEV2Z6eEVCbk4tUEMyWXV2bndMSXRuNlRhMGpnN3U4R2UwckJ4SUY5SmYwdDNMS2ZoVVd2b0hMM2J1ZWVtcGVuNHlZdjItNlBGd2lVZHFKRU1DQVNRdmppR2N3TmI0Z9IBtwFBVV95cUxPM1ZSRnVrNmxWN210dVh6bVZYSXpqb0pnbWpkSGhYYUVwVURFNlRTWXVYN3E1Q2VyTGZZVDc0UG0tbGZJMVpkMVJydUpuTkNpRUItVTN3QVVheUY1Qzg2eDNDd2ZfSWtaYWt2ZVlLNlI2SzAyOEFMRmxxd3d4YXNOVkQwcmlFZmo1VXk0c05RS3VlcEdLRUJMbk9XQm96dGRQaXdJNTZmNGV1Z2xsVTR6SnVGOENMWG8?oc=5",
-        "source": "The News Minute",
-        "published_at": "2026-04-16T07:00:00Z",
-        "snippet": "Andhra: Five killed in explosion at a house storing detonators The News Minute",
-        "lang": "en",
-        "matched_query": "\"KADIRI\" Andhra"
-      },
-      {
         "title": "Four killed, 22 injured as detonators stocked in house explode at Kadiri in Andhra - The New Indian Express",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWUJZN2hWcFowVVl4OTJ6TTFCZWxrVzlsTWMyenppWnV4a0pOekI5X1NjSllFVWtXdGZmMXZOT3JPQUpBYnRrUk5ycTBZOElHcV9lS1hydGlVd0NZa3ZRR2hqQTc1TzNMam9rOTByMmlVQ25ISlc5WjFBUGxiOF9ZeFhhakRPNjcxVVcxeUZDN3M1bnRXTHNCOHVwM2tRUTMzdV9uZUhFcWU2TVVfNXpFWHY3dGVwb1kyTHFzVktFSUR1YjZLQTNYSXFNYUFQZTRoZURYWl9hcklNNVE4ZmZjQWVB0gHvAUFVX3lxTE4yYTlmN3FfZmxXWDBQQWJtWkJ6dlpkb3BxaHZCN243cVVwMVVEX21vTDVFb0JVVnlIUE9LWWlPZHpaM1cteTB5UWhBbXhQd3o5RXVhLW5mYnRRaWZ5WEtrRzJUekt6bFNqV2w1akRUVHJoQzRjbDVDRHRLZkJoeEs4QXE3VHpkTHpvTEZvdjdtMmtmSFhnekhTd3U1cTc1YWRyWkdaZ05PUklGckFVRzhMZTdGa3RNYWNTbHg2dDRaMlA5T1BpYTVfdE03NXJLWk5BUy1PQnFYcE1rZVlDQXdxTGxYTWdhUEJGQnRVclhN?oc=5",
         "source": "The New Indian Express",
         "published_at": "2026-04-16T07:00:00Z",
         "snippet": "Four killed, 22 injured as detonators stocked in house explode at Kadiri in Andhra The New Indian Express",
+        "lang": "en",
+        "matched_query": "\"KADIRI\" Andhra"
+      },
+      {
+        "title": "Andhra: Five killed in explosion at a house storing detonators - The News Minute",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYXlhOGthOVhzbWhEdEx4S19qUlpoYWpjVGxDSC0wbjRORXZVS0ZxeWxwNXN0aGRxU3gwR3FEWWFfODhnelJTNnZNX3BEV2Z6eEVCbk4tUEMyWXV2bndMSXRuNlRhMGpnN3U4R2UwckJ4SUY5SmYwdDNMS2ZoVVd2b0hMM2J1ZWVtcGVuNHlZdjItNlBGd2lVZHFKRU1DQVNRdmppR2N3TmI0Z9IBtwFBVV95cUxPM1ZSRnVrNmxWN210dVh6bVZYSXpqb0pnbWpkSGhYYUVwVURFNlRTWXVYN3E1Q2VyTGZZVDc0UG0tbGZJMVpkMVJydUpuTkNpRUItVTN3QVVheUY1Qzg2eDNDd2ZfSWtaYWt2ZVlLNlI2SzAyOEFMRmxxd3d4YXNOVkQwcmlFZmo1VXk0c05RS3VlcEdLRUJMbk9XQm96dGRQaXdJNTZmNGV1Z2xsVTR6SnVGOENMWG8?oc=5",
+        "source": "The News Minute",
+        "published_at": "2026-04-16T07:00:00Z",
+        "snippet": "Andhra: Five killed in explosion at a house storing detonators The News Minute",
         "lang": "en",
         "matched_query": "\"KADIRI\" Andhra"
       },
@@ -17158,7 +17176,7 @@
       },
       {
         "title": "Iconic MS Raju Brings Intriguing Mystic “Agadha” - Gulte",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbVlaOVNFT2g4WDdaTEtHbTJKZDdEMldWYmc2d1ZQX1VTVjk2eHFfVVB5REZvaHhlYWRsUDhyVTVzSGZtVURvb1NrUUxiZW1oV2swRlJudlJwVU40M2xqcGRHSXR6Q0tneFdtc1lnNnc1d1pFTjZsWWJJR3FYeU9WaGIwU2hNV2N0V283ekZB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbVlaOVNFT2g4WDdaTEtHbTJKZDdEMldWYmc2d1ZQX1VTVjk2eHFfVVB5REZvaHhlYWRsUDhyVTVzSGZtVURvb1NrUUxiZW1oV2swRlJudlJwVU40M2xqcGRHSXR6Q0tneFdtc1lnNnc1d1pFTjZsWWJJR3FYeU9WaGIwU2hNV2N0V283ekZB0gGTAUFVX3lxTFBwbS1NVnl3N21fQmpKNnctMEhTbW1fR2cxaERTYjYtQy1HeHJVV2czVWwxQ19nSlloZTZUUXhOY3lNWXZhSldDYTVZal95enpEYm9CYzAtY21kUnMxckdrTVJjVkE3WWUtZ2JSdWZWOGJvWTdrRFdyZmJKa2xzenBUQmQyZzdMRHFxOUVvdW9XUFRyRQ?oc=5",
         "source": "Gulte",
         "published_at": "2026-04-15T07:00:00Z",
         "snippet": "Iconic MS Raju Brings Intriguing Mystic “Agadha” Gulte",
@@ -17579,15 +17597,6 @@
         "matched_query": "\"Nandamuri Balakrishna\""
       },
       {
-        "title": "Hindupur Air Quality Index (AQI) and India Air Pollution | IQAir Asia Pacific - IQAir",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqSGJuSjFtY1hyaFZvNkJBNkJCVnU0YmEwbHd3S1ZpWTNmWlJtVHRBYjJWeHdDOVQ1TTU3YjFVeUMwQUpKYXhYVHU1aHFMcUdHaUgyeXFvN0xlQ0pXTE9pZU5XWmZoaWcySFlpV25oaHdqQVFo?oc=5",
-        "source": "IQAir",
-        "published_at": "2026-06-23T04:49:55Z",
-        "snippet": "Hindupur Air Quality Index (AQI) and India Air Pollution | IQAir Asia Pacific IQAir",
-        "lang": "en",
-        "matched_query": "\"HINDUPUR\" Andhra"
-      },
-      {
         "title": "Air quality in Hindupur - IQAir",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPR0lJdi1BUVFwU1ZWWEEwM3BQNWg2cGFfYWNTc1ZiRFRmRU00VS1KRzQ4MC1LTFU4VllTWXVuYW1RT2ZlbjhNVnZIZk9JVzg3TzROX3ZzaFE2S3kxRm5TS2hwS2JWUWlTeVVpNG9WUlpoYUh4REJxVw?oc=5",
         "source": "IQAir",
@@ -17640,9 +17649,27 @@
         "snippet": "'NBK 111' Glimpse: Nandamuri Balakrishna Gets An Action-Packed Introduction The Hollywood Reporter India",
         "lang": "en",
         "matched_query": "\"Nandamuri Balakrishna\""
+      },
+      {
+        "title": "Balakrishna Birthday Celebrated in Hindupur - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNajdfdGZaemlvX2N0SnBMbDBaZWJQMWhNRk5RYk90N3QzRVJJOGpCRjcwRzJJZE9pVmJBWW0zSEpBTnJMUWMtUVl1ek8ySU9NTEJEcnJmZktNNDM4cHBLdDNqTldEcTlqelRmaWl1S3JBQURySUlPLVE0VVF2T0pZZ01ESlFtTWhVczYxaEFSSlM3dkJKTENIS2M2c2VlZFZ6cHFQR1R3OHU0TjBpdGppY3hHcF_SAboBQVVfeXFMTkZHd0QxdWdSWW9HMG5UYXZYNzFxRjR6ZVdERGw1SzB0eWNFY0ktUlhKLVdVY1BlS3l2OXEzZjhUc3FTVzhmaS1wdWJBc2ZmOFhxb1dSM25XYnNIdS1xN1lXTTFoNnFVcDFVSXBNNmJNUURoX2hXU1VlaUd2dDI0TVdoVkZBaTBGRkk2ang5UHRJbG9UdzRtUjNSZEFOazZKM1JJWTJBaEtrYW5aQlpvWTF4cmdPcHpZLUJ3?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-06-10T18:33:50Z",
+        "snippet": "Balakrishna Birthday Celebrated in Hindupur Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"HINDUPUR\" Andhra"
       }
     ],
     "163": [
+      {
+        "title": "Nitish Reddy in race for fitness ahead of England ODIs; Gill, Rahul to arrive early: Report - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZUJsSDlVTjFkeUZUVU0wU3A4bnhTOHM0X3diM25NXzVNeTJLVmYxNEJmS3hvVlplWTVDZndVcGhzQUI3Q0dzVU1mMk5KZUJIclFnMnNwZ3lxNGVJZU53QnIzaTVidUZiVzZ1MEkyYnc1SWhmd3poanEtejFEY0tuVmx5MWRDaE5MX0ZxYVpFUkU4UjlOUF83RnJGdVJkUzkyQ3ZQMmpCWndSd0VwNnZvTGlSX1JBVGZUR1Nuc09nLTdaSDhyclNKTGswRzhYTzhsY2dN?oc=5",
+        "source": "MSN",
+        "published_at": "2026-06-30T19:52:30Z",
+        "snippet": "Nitish Reddy in race for fitness ahead of England ODIs; Gill, Rahul to arrive early: Report MSN",
+        "lang": "en",
+        "matched_query": "\"Kumar Reddy\""
+      },
       {
         "title": "Uttam Kumar Reddy woos global aerospace firms - metroindia.net",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNellLakNKRjVsbEZiNnBGdFZOb0pwZEMzVlh6TFBqZVdqWmk0RTc4QTVfV2g5VjVkSEhMUlhNSHFqUUxkb3ZFSDNmWmlfOUdXZGVtazFVY0xSZzJBWm9uTzM2T3ZlaDRrNXExeG1iZTU2eVNBVUR0QW0tR2ozOUs3QjZudDFJV0ExQlFCZ3hMMXZDeDY3dEJpMGRMTQ?oc=5",
@@ -17703,15 +17730,6 @@
         "source": "NewsBytes",
         "published_at": "2026-06-30T10:47:36Z",
         "snippet": "Nitish Kumar Reddy's participation in England ODIs uncertain: Details NewsBytes",
-        "lang": "en",
-        "matched_query": "\"Kumar Reddy\""
-      },
-      {
-        "title": "Nitish Reddy In Race For Fitness Ahead Of England ODIs; Gill, Rahul To Arrive Early: Report - News18",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTXprVU5RM2dyRlU3aWNCbHZCaWNjX2tkNnJJdTdHZV9Iei15M1Y1QzFDTDZ6ak1SLXFFVnU4OGF3SGwxRURhcVd5eWZnNVl4QnEwS001V1p6MGItemcxaXhBbjRIMWNkaUpVekNFYzEtU2UyQThpbGNiVGlDamVtR2lKLVVBUzQ0SlA0enhBNWc3UEktaHR4cDg3V1pJQnRWT3V2eEgyYktBSXRwZmhlazFuOGhyUnR6SzU3d0NxMlVBZkdhSGNZZG5ndWVKbUhZdWJ5ZdIB2gFBVV95cUxNa1BnVVlkQXdhenVuVE9yWExOX2dnYUNwZDJjeGIwR2M5dldBeGhGbm1FS20xeXVzV2dZYmdmWDZ5ZGQ1OWpMY2lhSkJaWWQ1NVYxYjhsU1dKbkJYTjVjQ2FyWkRXX3FuRS00YUN1cUlnc1BlVUY1N092QWtJbzAzM085a3c2SnFrWGtRbmx1UE1LVUZoSXFHVjNkdVV4Yy1BaGFzaF9ZR3NjOXZlbU1JWG8tcU1aNTNBei1uUHk0T2dWRUZ4bUhNWk1VSG9aYVNDa3lJTVZ5X3pkdw?oc=5",
-        "source": "News18",
-        "published_at": "2026-06-30T08:23:55Z",
-        "snippet": "Nitish Reddy In Race For Fitness Ahead Of England ODIs; Gill, Rahul To Arrive Early: Report News18",
         "lang": "en",
         "matched_query": "\"Kumar Reddy\""
       },
@@ -17860,11 +17878,11 @@
         "matched_query": "\"Kumar Reddy\""
       },
       {
-        "title": "Shedge in place of injured Nitish Kumar Reddy as India call up youngster for Ireland, England T20Is - Telegraph India",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZnVlTXpkcmMyUXhsQ0hPTzZXU3RnSkJQalhhQ1FKY09WblF4bVRnN1c5ODEzT0VMQzVhS3RhVWgxbVRPakpYWmw0Z0FkRENBQ0U3RE5nSFAxVEJMX3QxQk11LXZVc1dzWUZ2MDNSNldVb0hRYThIdjRPWUEwYTNkNnJBcElUcFhLUDBFa3A1NEJlY3hCVmprYXl1LWJYTnF5dmtpWU5MbVFoVE9SY0N0SlJKQlJRRndvMW9RT3A0VWRiekg0WFlEV0RpR0o3RlRjejlNNExsQ2RXM0ZLS1dhN2FkSWtnLWxqbWJrRFNndTZfc03SAfgBQVVfeXFMTmJtemthbS04UUVRZkRXX0p2Wm1DLVhmVFhuWlBnUVpjbmYtSi1qcmhnQUdod0p5VmJqTVNtaWhXSk8xa1NtbjV5Qm43ZTNhZW1CWlY2TWlia3ZVZk5HR2lma3pRSEV3Rm1XaDM0aFVkREtiaDVTRVJCVTVocE5XajloV3Utd3E5LTR5bnBmazNWekM0dWc0dEh3OGM1ODIzckhuUE51b2dJUU16MmRZcjVZNjVKMmNwb2tMV0dFMWlOcTZ0V2stLV82N2Qza2duRTRtOE14dV9WTzVnUGNaMlNBNl8zMGUxdk4xQXlpbUxBZjlTd1pzbl8?oc=5",
-        "source": "Telegraph India",
-        "published_at": "2026-06-24T05:23:31Z",
-        "snippet": "Shedge in place of injured Nitish Kumar Reddy as India call up youngster for Ireland, England T20Is Telegraph India",
+        "title": "Nitish Kumar Reddy - Players Comparison - Cricinfo",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52OGFaSS1RTGlFdEtFdkpOc3RqZ2xtQklhNG1ic1lMNDBVUW8tcE0xNjRLdzNCQjVHTEJIQnVwV2I1WTlsLUJ0dmFPRFZSUmtMN3FKQ1g1RW9GcGJPZ09mLVhubHk1Mm43MUN0ajFZWFMxTmVkQVVqUHJn?oc=5",
+        "source": "Cricinfo",
+        "published_at": "2026-06-23T17:14:34Z",
+        "snippet": "Nitish Kumar Reddy - Players Comparison Cricinfo",
         "lang": "en",
         "matched_query": "\"Kumar Reddy\""
       }
@@ -18327,6 +18345,15 @@
         "matched_query": "\"TIRUPATI\" Andhra"
       },
       {
+        "title": "AP DGP Gupta Lauds Tirupati Police Initiatives - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1Vfb19XOG5zV0xPLVo5MEJGOGJSSzdLSnJscVpZOWQ3OGRsMmloMGxBYS1rX2V1RHRLMFRCeE9ZRUI2aDNEbUZVTlRnS2lnWFI2QVNYbHI1WW8xUlNKR19JZE4yVE1sSnVJLTZWZktJTkJUVFBVaFZmdFJkaFNlVExDWEZFdUotcHpUZElxZ2pKa1VkczRZQ0pDVjliZFg3WjVTakp2M0dobzk2aTVpZS1LQzZvUFNw0gG-AUFVX3lxTE5kdERFS3ZONzAwWlZFRW9Say1mY1hYS0hqaFpFRWJkWTJWMnpuV0Z5YXJlUk9ZNG9ONFRsVVpMSHpVWEdsMnc3eW5ka185Y29TMXdWNGc5MVVac3I5Rm9WYnRDY3g3cktUUzBQNDJuNFY4allud0w0dU1BRlZHMlFNakwycVZITEoxS2xnWjRZZ1F0cjhkaTFFMVQzNG1iRGl2eFZNZnYzZF9yVEV1c3VIWXBweVFHYmZjZ3VTdkE?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-06-26T18:05:52Z",
+        "snippet": "AP DGP Gupta Lauds Tirupati Police Initiatives Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"TIRUPATI\" Andhra"
+      },
+      {
         "title": "Pune to Tirupati in a Force Gurkha: The smoothest route you should take - Team-BHP",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOFJ0M0FKNTY0MTdLemRvcGlmdGJBM2VjM3RrOERuQmF1aXpiNWpPaEM4Z0NGbzRvN2VkMVVUT3ItQVFCcUsyZi14dWZ5RDQyRWR4TVJFSDlDR0pQeW5PNDFZRm9YTnprdE5Kd202dURxWEdrYVBmOXZhclZuQ1NfOFI2a3BvWWpwc0pfdmR3VlJLUdIBlwFBVV95cUxPYjdYRGtmbnM0WHNvN215S0ktb1BTSktOZm9xRUpfRTFrZ1Q5X203VmJNUm4wUmRxSHZ6aklOQk1LNnRjVzh4QUtsZW1NaERiWDZuS0YxOHA3UElfWExGcXdtS094ZmJBLVdnM0hNWVB6b2dLR3NSRmtjQkJ4YjJXMHJITTlldTgxUWZiejdDVnlKYmJsNk9r?oc=5",
         "source": "Team-BHP",
@@ -18354,11 +18381,11 @@
         "matched_query": "\"TIRUPATI\" Andhra"
       },
       {
-        "title": "Tirupati Air Quality Index (AQI) and India Air Pollution | IQAir USA - IQAir",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RYXNTYkN0UUlpZmZsal9uOGhiUnBtUlBBUkRDQ0x1RjYxQnBubTEtc0xZX2xJWE5LX29iYnZZUVROTGV6V2tFVnk2blBWNk40NnZXS3l5Mko3RGpEaHhUU3dPeW1zRmRHSjZadDlBbXM?oc=5",
-        "source": "IQAir",
-        "published_at": "2026-06-22T21:58:23Z",
-        "snippet": "Tirupati Air Quality Index (AQI) and India Air Pollution | IQAir USA IQAir",
+        "title": "Tirupati MLA slams YSRCP’s ‘casteist’ remarks against Pawan Kalyan - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOTVvbDZ1cjZITTlNeWp0ZnBGUVVQT2N2WnBaMnZ2TW84UnlUbUcwQzR1ME93VXc1bmpiZkVRek02LWFLaXU1S0t2aGNDcUw1NHZQVmw5ZmVmS2ZuTHFXeVFlYlplVWh3Z3ViX2RsSUljam1QT0NhYVM1dDEwaV9EbHF0OFdpcS1QNGFvSWpPV2tyVjdUUFVzLVdMRUxvSHl6SEtPNnZOT09ib1FDR0c1MGxUZ05RVDBpRVpLSVNwNWVpZk5ENl9LcVVZZm1kUlk0WVRB0gHaAUFVX3lxTE5MTVUyYk5HQ0RLNnNha2ZWU3hMQnV4dF8wVlItNnpaM2hBOFFtM1c1bl9PajExTGFiekJGTWxNTURDZDhGem92V0FfRW5oa0hsdkVfeUpMT0JIZTNsdUNPVVpEaDFEUFQ2OW5QQWhBdEo2dERYWVdEUEFlNnpfTVpQQmhMUGg5RmJtRDRyeVE1U1p3cGhqalhaLVNwbkdaWVZpY2FHMjdWdTV0cW9HenVCWWJkQXVOVkRFNHQ2SnhVcGJpQ2JvNTFSSkFmT1JQeXcxSURwT0tyM1V3?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-22T14:11:09Z",
+        "snippet": "Tirupati MLA slams YSRCP’s ‘casteist’ remarks against Pawan Kalyan The Hindu",
         "lang": "en",
         "matched_query": "\"TIRUPATI\" Andhra"
       },
@@ -18424,15 +18451,6 @@
         "snippet": "ROHL strengthens spiritual tourism portfolio with launch of Regenta Devarayah Tirupati ET Hospitality",
         "lang": "en",
         "matched_query": "\"TIRUPATI\" Andhra"
-      },
-      {
-        "title": "Royal Orchid launches a new hotel in Tirupati - Hotelier India",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNME1fR1JZOFQ0bl96VUJDUGNQTVRlZVZPZ282eGhvMEJtSG8wSFA0WmQxNkQ3T3A2WWZIT1pJRTIyWWxOcFBSZ0UwclZ4eGVwS1BLMlhFSGFTcWo1SWI3bkFERGV5VVFybDFLMXp6SjlaRVFoaFI0Zm5PcE1GVnF0enV6eWRVTHM4TnhhYTBGV2I?oc=5",
-        "source": "Hotelier India",
-        "published_at": "2026-06-13T07:00:00Z",
-        "snippet": "Royal Orchid launches a new hotel in Tirupati Hotelier India",
-        "lang": "en",
-        "matched_query": "\"TIRUPATI\" Andhra"
       }
     ],
     "168": [
@@ -18474,6 +18492,15 @@
       }
     ],
     "169": [
+      {
+        "title": "Hero Motors parts centre in Andhra Pradesh - Lapaas Voice",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45LW9SYmU0cDc3SF8tMjJpZ0htU0VjcWk1a1VxVDQyampONXFVRjNkWjJHdWFKNlZOUEZTZTJpM05lSVFuQ05yc2JZQUhEZ2RpdzRiZnBuM19GcFdtUEtMYW51RUR6ekxjT0xJdmduX2pGYUU?oc=5",
+        "source": "Lapaas Voice",
+        "published_at": "2026-06-30T16:00:03Z",
+        "snippet": "Hero Motors parts centre in Andhra Pradesh Lapaas Voice",
+        "lang": "en",
+        "matched_query": "\"MADANAPALLE\" Andhra"
+      },
       {
         "title": "Madanapalle, Andhra Pradesh, India Weather Forecast | MSN Weather - MSN",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWG1ScEk3MmtSbG8tZ3MtbXFHcm91dV81bV92WXhZdmUyU0duNGpzdDhTcTlxUVkweGV3b1A0OGpDUmEtbkZPTW9nbXladHB3WWRQbVIxeVByUHZfOTVRMWh6Yk9ZLUNjaTV2VlFFQWV6a1hZUjFPYVo1UU9SWi1ZQg?oc=5",
@@ -18585,6 +18612,15 @@
         "matched_query": "\"NAGARI\" Andhra"
       },
       {
+        "title": "DK Shivakumar and his ambitious vision for Bengaluru - theweek.in",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMHBhS2NzUjB2U0FsOEY5Z2NtZ0dhSjBRTmFsWjhDMVd5SngyRFdWelREem1ZYWloRWkzblBBWDFoV2dNYW9xN2I5NFZlckY3WkZ1ZDNVVVN3aklrSHJramZYelFKWFJ5clNvOG5DOVBjM3ZLOUpzdHlPQVFtZE5qNFV3S2I4OGRTN2FLSEFWTlNxdGRsRUNqczZlTlNZV2tFV0NUd9IBqgFBVV95cUxQcU0zUmZLSEUwNGNSTXVrOVpGSDNudG9yU0dUbWNTQW9aTGRYUFJTdXBhX2ZjTzlhM2tvaDZSRldTN1REaEM5eDVFREM4ejlnY1RPUTJqeERaM1pLTnh6SnJ5NFpiQWRra1ZibExPRlFNMDVBc1RSRXcxbnMycmt0WlZFUUN0VGJHT3Q3RUlJYVE0RERIYjdrNmtoNFB2RGh4bmZlMHhpMlZEUQ?oc=5",
+        "source": "theweek.in",
+        "published_at": "2026-06-01T07:00:00Z",
+        "snippet": "DK Shivakumar and his ambitious vision for Bengaluru theweek.in",
+        "lang": "en",
+        "matched_query": "\"Bhanu Prakash\""
+      },
+      {
         "title": "ASI to launch epigraphical study in Nallamala forests to preserve Telugu and Nagari inscriptions - Deccan Herald",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSzZPWEh6ZnR3aFczSXFTbEJydFkzX0Ywd0xodEc5alNKU2tmSWJhSUpnRFFTTnM5SnhRa2h0SmlYQTBtNzc3dXlFRmN6UHM0SXFtWGIzNFRqZEZqcFhfX3pmbHQ5TVc1cDM0bkhxbDFES3A5MG42Nld1SWUxRnpWcWxDb1Z1Tks2bUhhX1Q1ZWpXNnptOUFYejJZdTJKLTBMRkdLQWwzWGQ0VloxVElSd1l0LTg2UUFfSXhpSlNBSlpqY3YwYVdtcE5yUlVXN09OXzBfbEg3dDBURUFaZ0VKUkRkV25fbENuRnc?oc=5",
         "source": "Deccan Herald",
@@ -18592,6 +18628,51 @@
         "snippet": "ASI to launch epigraphical study in Nallamala forests to preserve Telugu and Nagari inscriptions Deccan Herald",
         "lang": "en",
         "matched_query": "\"NAGARI\" Andhra"
+      },
+      {
+        "title": "Sanatana Dharma row: TTD board member Bhanu Prakash Reddy criticises Udhayanidhi Stalin - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWGctbXROUFF4ZmItMU80N2VGUk9Nc3BJcTZwZ09FZ2VocHhsUktqVTJhVldxcjB5WGtQT1ZtVmN3dkNrWmJoME16N0dBaUdjSk1OSDJWWkdJa3J0OWJBVWJ3WkRZNm9YSUlxZTBnWEhWYzV3dHpwLTRzXzBoZlJJNlJMTE80YV9EY0FEZTc1cHY2UjhFT0VvV1hZV0xkN0YxcXhQUHF4dkQyWW1La1ZXdy1vRy1FbXBzUWNuQXpHME5KMHdNVHUxLXhUeTZYc0pqR1RsUW9mWU14ZUFQWExmcTVUaWMteEZSZHNSZ3NJcEkzUdIB-AFBVV95cUxNck9aVmdzSVR3Tm5TMHJhUFpRVWFfanl2TDN0enNhbDlKOTdMSHMxdjN3dnB0dk9HeHI1ZWI2RkVYeTRjM3RGMXlWQ1hnd3FYTngtY0ZhWDNIZEE1aVU2YW9tWmVYNVdoaUJjZkd3eHVpdGVCeEpHbU1GWHNEOGN1WGE5aHhubkxCemVlcDZEaG4xRFlzU2dnM3B6ak1iLVF3NUtObjR3NDctWXlfR1B4N1JZcVRxX3RLZWxJMUY0bzBhZWM0Q2QzS2ZVTExCbVNKMEE1aWJ5eVhUMldkQUx6QUQtV09XVXN0Z3UzMUR6MzVxTnF5bG9VaQ?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-05-13T07:00:00Z",
+        "snippet": "Sanatana Dharma row: TTD board member Bhanu Prakash Reddy criticises Udhayanidhi Stalin The Hindu",
+        "lang": "en",
+        "matched_query": "\"Bhanu Prakash\""
+      },
+      {
+        "title": "Siddi Kawandi quilts: Weaving stories of heritage, resilience in Western Ghats - theweek.in",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNajZreUVQYXc4YThXdTA2LXdjNlljc19HSWtETHF2Vmh0RVRqcXRGQ052VTY3WlBIQnNfOERtYmFaM1E3dk5CYUl3N0ZLUkNXSFZCV3AtMFVUWTFMSlFuLUtBdU52Ylp1cTNBMGh1Z2pCTkZkcGFUVk84SDFSWlZMOEdyVGsyRVp2Qm5nV3Jzblh3R084Yi1LQVJSU1o2S2tKMkVCNWl2UDlRMVpFYzk3NHRLbUJiMmJkdE4tUkVVZVcwS3FqZ1N1OEw0ONIB0AFBVV95cUxNckFWS3JZb2pLZ2NKaTF5RWRaYTcxQ0I1cVB1ZXRIQnBZZHN2VzRCeUNwSTZ5UEU2VUxyRl8tT2Y2dE52cU91TGJqUkI4amNOaVdkTmpIUUFJMmRKeWxBQ0pkOTRPOURzSGVrRHdnYWRCZWJWd1lCRlV3QVdZUElrcVdUWW02U1hIOUtES1lKM2lKUHZHWS11dlBDMkd5cHI0dG13a0pPaUVySFNhNlZmaXRMN19SbGo5TVd5cVNJOGpCQTJGcDQ5cHNRWWhCOWha?oc=5",
+        "source": "theweek.in",
+        "published_at": "2026-05-03T07:00:00Z",
+        "snippet": "Siddi Kawandi quilts: Weaving stories of heritage, resilience in Western Ghats theweek.in",
+        "lang": "en",
+        "matched_query": "\"Bhanu Prakash\""
+      },
+      {
+        "title": "TTD board member demands action on the accused named by one-man panel - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN2U1cHpFUjI5Y09wSXdDR2dzVGxPNmc3ZlpObWcyU3AzQVhXSXNhOFpLb0VxQzhkNjBGczBaOUlwNFd3NWplYmpyMXRpV1NXaGJfSmc2X3Nad0FOTm5hWUFndU9xX3JUM0ZXRE81REhrV0d2VWxQcWJGRmRhQVVQemNseEJMMGQ0c01FM3AzN1BKVkdZTjJicUpFWExxSG1TNVBGc3RUUzFpR011MGVsQkowV1hPVk95THUwWDRQbkFPR2NlRE1kaWNEdlpKTGdBYXRYWDc3eUQ1MmPSAeIBQVVfeXFMTjdHdFp6T0ZSRnBLb2g1empGSV9UWGZuRmtLTVhmbVJHZURXdVZhS0dDZXUyMUZ4bjl4UUFNTWlCVllidXNqcG96VGg1bUVESlZfVVV1VEdWN2VkRzNfN0poM0ZRSG82X012c2xSVW9GaVNObnlaeUVmMEpoQlhKWE9HTDZrY3RJdWxpVzczekhaUmpvRWFVTUc3WFBIUDZUSUFyZ3piN29rTE9Cb2QxR1lzRUFrZVU2ZmZhRnYzaU9ET2lQa05Mb3RLZjFJTUdMWTBuNFg0NDRyYXZlVWhOa2R6UQ?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-05-03T07:00:00Z",
+        "snippet": "TTD board member demands action on the accused named by one-man panel The Hindu",
+        "lang": "en",
+        "matched_query": "\"Bhanu Prakash\""
+      },
+      {
+        "title": "Prakash Raj Ramayana Remarks Row: BJP Leader’s Complaint Alleges Hurt Sentiments - Outlook India",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa2J0d1lTSUJkVnRVQWFyZllkdktFbEctMFJycjJBN2hQNkpXak5FaTV3bzdhWFBTdERidjVISF94TkRHQ05nR0FkYjMxZmpRd2dISVJ2MHhodXBRWWptd3E1RGVUb3RJaVVhUzZsVzF1MkgxQmNBaWp3dG1YemRVaWR3YXZjWE5GdGtHQTJiejVoVUhnd3VRRXlyLTdhTnJ3eWhWVy0wN1FEd2RFQ21EUzg5cFVGZTJRRkRSUkdlbzRwcTJZQUpaLXhMTDg4djdPbnJLR3hvONIB5AFBVV95cUxPbVJoUHV0TkFrNVZlaUg5WjIxdXZ4RkJOYUNJaVBLd3VtNXVhQkNUcl9BUXF5QWFCeE5UenF1ZVVITlBHRlBSNDRULTVnZUphZDFaekxsUWJwNG4zNzVFcl9POWVPZUxRLVpsZnlPLTNMSnpqMGRJanRZd19rZm5HYWZ5Q3R0d25MN1NMX2VYdzJGRHB2d1llT01IVVpkOVpjYTB1ejhrN08yelZZYm1nZnVDakNqYmR0WTlZaHZubVVtU0dFMjBnaUd6OVNvdy00Q01fbVpkV3IzTjJIeHhBYWt2MDY?oc=5",
+        "source": "Outlook India",
+        "published_at": "2026-04-21T07:00:00Z",
+        "snippet": "Prakash Raj Ramayana Remarks Row: BJP Leader’s Complaint Alleges Hurt Sentiments Outlook India",
+        "lang": "en",
+        "matched_query": "\"Bhanu Prakash\""
+      },
+      {
+        "title": "BJP leader sends legal notice to Prakash Raj over Ramayana reinterpretation - The News Minute",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd040dWh3RGFVYzRFdTFPUHNkWnljb1VPdW5nTTFfMTl1aW9ld0t5eXhRbUlDVk42djBnQ1E2NFBJRW9XSmlvWS16ekFjejM3c3dkS2dFd1hwNWE2cmtpS09lRkxBanFkWW1MXzdfY3BHd0MyUkNRSF9XTGd4T2ZBZlQ0UmhRYzlQclBYT1VRMy1lWVNCbnJpZ2pwOW1kdEdFSjFrRkFWVTBqSERRVC0yQTdpUUJ1QdIBwwFBVV95cUxObWJvNXpZYmFpa0dOMEpRN21qVXZpNUJLRzE5dUM1dlpOMDIxYTFKOHc1YzJjQlZGUFlVblBjSktzamRfa3VZbUxtQUJXRTlRa1JGbnpla2FSSUJoakxKZkxwUjRZVkZOX2NmQzE3aW16MjItVUgtMm1jMDdLaXBwSHhmNzZNWkMtVVRmV0dDd1VWNkdUQXVIRGVfZXRLaXk3elJkTzBrU0lDTGZuckxHRndLdy1UQm9ZNjNhYWZoMW9MclU?oc=5",
+        "source": "The News Minute",
+        "published_at": "2026-04-18T07:00:00Z",
+        "snippet": "BJP leader sends legal notice to Prakash Raj over Ramayana reinterpretation The News Minute",
+        "lang": "en",
+        "matched_query": "\"Bhanu Prakash\""
       }
     ],
     "171": [
@@ -18718,6 +18799,15 @@
         "source": "The Indian Express",
         "published_at": "2026-05-05T07:00:00Z",
         "snippet": "Peerumade (Kerala) Assembly Election Result 2026: ADV.CYRIAC THOMAS of INC Wins The Indian Express",
+        "lang": "en",
+        "matched_query": "\"K Murali\""
+      },
+      {
+        "title": "K Murali, PEERUMADE constituency, BSP, Kerala Assembly Election 2026: Profile & Affidavit - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54QVg4Mzlzek4yQS1hUmItV1Etd0tEX1E4UHMzenppaVlKaEdFM2lQbk1zZFFZVU5LRUl2UllJSDlHTExabi1JY2hwU3pXb2dwQXFVZTZPNmNfNHJlUGhrV05XdlItaUpONGFnRl9HZThyTDE1LWtyTTln?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-04-30T09:19:39Z",
+        "snippet": "K Murali, PEERUMADE constituency, BSP, Kerala Assembly Election 2026: Profile & Affidavit The Hindu",
         "lang": "en",
         "matched_query": "\"K Murali\""
       },
@@ -19007,6 +19097,15 @@
         "matched_query": "\"Jagan Mohan\""
       },
       {
+        "title": "Dry spell dims export-grade vegetables in Chittoor, growers forced to sell at home - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbk5Ea28tOWlVVzBQZDczTUFrWFdoenpTZVRwa2FtRFZ2NW45dXdGejFWdWYtVFVKOGhqZURQM2Y2Y1BCZWlKZWhHNjBvTW5LWG9DXzktNVdpRGZVRzBwTWJ4OC1xTTBPR0I4Mm1XU2JMZjkwUWFWVjFnaU9NSjRxUUNNdHB3cVkwQ0lJanFpMnFTRWQ3Z3NzLXF3X3hVZmlNekIxMVR4cXBWd1pfenJheWZHV3h5Y0IzQ1lROHNyWFA0dFQzUWExUEtmRi05RFhQYktOaXhucUR6WlozMl9ocFlXM2x2N0E5aVI40gHyAUFVX3lxTE5Fb2E0SHhxdjVsYk5wckNNQnBXWmRzVGhNY25qMXpaOUJZZzN0ZUxGQVA1NUJMdGlOY01mcE5yM0gxa1V2WlZHUGZ1cVRIRGVuWm40VzJ0T3VNNjl0YldaRF9aT2F1bUNTYzBCeXB0MXlnTWh5OFY5NHFuUXpONlgySkpoYlQzRnlfRWhtb0p1NzczUzFyS1VXaE1ybzREbHJjX0hVeDZqLWs3SEtrR2FqMWJNT25TRjFjWEVHeGtKeUEtbGMyNW1yN1dFdE9QN0VYeFZMZGVBbWk3STlOcVNFMW10QWxLQ3BWWVo3TkRBMWJ3?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-27T11:57:24Z",
+        "snippet": "Dry spell dims export-grade vegetables in Chittoor, growers forced to sell at home The Hindu",
+        "lang": "en",
+        "matched_query": "\"CHITTOOR\" Andhra"
+      },
+      {
         "title": "YS Jagan Mohan Reddy condemns displacement of mid-day meal workers in Andhra Pradesh - The News Mill",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS3BSazFIMUdzRmdoM3NCNnFZT3JGeWMxdU5jWGI1d3pad0locTE1U3d1UVRVazZLX281N1ZJMDk1ejBsTEozbndvaDdyRC1JRXV1bTF4VkVqTzdvMEZFM2hJQ3FSSjZ1dEs3Z2VhTXVveGozU0h3b3daTnJMY3BYNHlQWUl4ZjV3ZUx0Y1diN2hKT1Myd1RmQ1VvelNXM1EtVkFRbUoyaUM?oc=5",
         "source": "The News Mill",
@@ -19052,15 +19151,6 @@
         "matched_query": "\"Jagan Mohan\""
       },
       {
-        "title": "Jagan Reddy Visits Temple, Chandrababu Naidu Terms It \"Drama\" - NDTV",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcEJDU2h0UE5fSmlPYXkyNHcxOWxwQi1neDFBRzMtcHdvSmp3OWRzU3MzVmtEZkZpbzJjd0RUS29GQTU4bldLam9oSndKaEVvZmw2RzZOSnFBeU9hQU9yMGlPbEtYeURLYjUzYWcxVFlPZFFqN2lVVkNpSUpMZVRkNExocEpWaE96ZHFxSW5mbjdaT3BLOWFFVXE0S05DSkRL0gGoAUFVX3lxTE02eFhhaUdHYVBZaVlvMFdDZlJSdG8xMFItVUhBMThQM2l6Zm9VeVRGZWZNWjZDd0c5QWNnUDM3TDcxTHVwWTc5dmQzYm9XanVLYm5sZU5MckVLSUJUU2J6dURRb1p5SERGQ1g2ZTFnSzJSWVQ5d3U4Nmh3WWw3VGw3MklhX3FsTWtTSElBNzFBZ3h6aEp2ME5jUllhSTY2aTNGWnF1NVdqdw?oc=5",
-        "source": "NDTV",
-        "published_at": "2026-06-25T09:49:53Z",
-        "snippet": "Jagan Reddy Visits Temple, Chandrababu Naidu Terms It \"Drama\" NDTV",
-        "lang": "en",
-        "matched_query": "\"Jagan Mohan\""
-      },
-      {
         "title": "Jagan slams Naidu govt over decline in SHG bank credit - BFSI News",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYl8tcGJVcU9xN01wY2xvaXNqX2loZDhoZVF3X3JtRG9GRlVjRnFkcG8zVmVUS1FhYW10RmRjZ3g5THZZTHBtbkk0enFZYXoybEpJcDlueG1sbEZmUG9yNm1NT0xrTGxqRm1QZ1Q3ZVZUSTl5WUg5MDA5YzE0N0dibmdEYS0yWUFRRDNLRDFOMkhUNi1Lc3BBWC0tU1VGamNnVU81dElVWm8wNWo3VWhLbXB1Tllka1VjV3oybdIBwgFBVV95cUxQTW55bllfdDR4VEgzUmFOLXRrWDBxMGhjanJRSFNKTDcyNlJHSTc3Q1BybmthbkFzRm5zRnpfaEpNMTZUMGc3UE1hQ3BqcTlEdVBmUERBYUVtblV3RHVFTy1GZzNVUl9icUhaWmNIeERiTjFCV0lzVXZOYXRVSTJHSVRFQ2s5Q200OXZ0RHc2dC1nUklnYXhaSVZkOHRqZ05icHlIbkJwTmx2ak5xNmtnZmFFb0VhSUhmWDVfeTdwdC1FQQ?oc=5",
         "source": "BFSI News",
@@ -19079,15 +19169,6 @@
         "matched_query": "\"Jagan Mohan\""
       },
       {
-        "title": "Jagan Is Trying His Best to Stay Close to Pulivendula - Gulte",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEpLMkk4ZUVFZW1VU3FXYWgteVI5cEx2R2tWSHVRSzdDcEk3ZW5HcGRPSjlnVWFuZXk5TEpLb1U4cENjeXFINEVHYmdQWVozT2ZVQU5jX0FDTTNtUEhzY3BmTlpzM01XeFI1QV9Sb29wMm43aG9CWW9mMmVlS0U4T25oaVd3Wl9zdlUtMzVVekx1Zm1XcnFaWTRWSnRiUQ?oc=5",
-        "source": "Gulte",
-        "published_at": "2026-06-24T15:30:39Z",
-        "snippet": "Jagan Is Trying His Best to Stay Close to Pulivendula Gulte",
-        "lang": "en",
-        "matched_query": "\"Jagan Mohan\""
-      },
-      {
         "title": "After Jonnagiri, Andhra Pradesh set to auction a promising gold block in Chittoor - The Hindu",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdnd2S1JYVC1pbWQ3Z1E4M2pNVllYbTFVVXJfRG1NQVNpeVJ1eUoyVjdfSDZRWlFWRGZGR3VybnRvOTh1ZDdTLXp6c0gxdk5oRHh0cVRYR0F0V1lxZUhXS1NKVU5VMV9Ta2V6VDJxTzF2RG96cFZBUm5GdmJOcGtnTE5vYzB1MnQ4SHVZeF9UaG9ZTUxsbXI4bHpjU295bzVKckE1SkxoNjVTdlpBb1VIZmhSZ3FRZ05tM2l2dXhyOVVyVXFNM3pFZWttdU1EVE0xT0w0SVRmVlYzT1lGWUZVTEJ3NVdWU2ZveFHSAfABQVVfeXFMUGtYNU55eU9JMk1EUVE2TVpMN0FLLWI2cW1GeThESlZONWxhdXhSb1ZqQll2TGktMUhXYmFBXy0xNFVBTGJHajdTMERHaFhkNllESktjU0NESGhqWk5aSTBTZE1jcDdHWmY1Nk1SbWl6NDZ2YjljLXpFcUJSU1NmTXBNOXQ4RGNQNEFwU2s2VE1uRFZYS2F4NW15RHhtbUhEXzR4SDlScU9LZnRIVTBfb1lPTEtoMTBYUXpQaWwyTE9uWlZjaVQ2UEE5U0M3ZnNoZVBsb3NlY0NxSkxhNGU2N2NFQUdWUVdhS2RsUU5fclo3?oc=5",
         "source": "The Hindu",
@@ -19097,13 +19178,22 @@
         "matched_query": "\"CHITTOOR\" Andhra"
       },
       {
-        "title": "*YS Jagan participates in Temple inauguration at Bhumayyagaripalle* - ysrcongress - ysrcongress.com",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdlVkRWtFWUtzcnVJdE1yMEYzdVEtUVFvYVQ1OVp6YzZCWVdQR0I0RlVTV1huR2NTQ2h4aWxvZXZuQ1dxcHpZRWc1VG9qdzJtZEQxclVRREhlYy1CWGtTOGh2TVRFZ2N3UFptcWVoWklMTUJwWldKU0FZejJDU05PQ9IBuwFBVV95cUxOeHNTNjVwS3E5dTluVXhjUnBPTllVdDdkeDBraHp0T0lLNGlOVkVrYjRGaWNHOFVHNFE3b01ZUTF4UjNTR1R5bE4tSDNWY1Rhc2NwSU9iWDlnQW9Mdjk0RlRGWFRac1ZGdG5vcjFudEhkYUJNT19OWmxsb3l4R2NxeExTTUtXY08zTEJlY0psa0dIZ2hhMGpZMlBWQ0hmMTE1eF9KMmM3a1NyOGVobkNxY3g0cGNLN3A3dm84?oc=5",
-        "source": "ysrcongress.com",
-        "published_at": "2026-06-24T11:12:45Z",
-        "snippet": "*YS Jagan participates in Temple inauguration at Bhumayyagaripalle* - ysrcongress ysrcongress.com",
+        "title": "Air quality in Chittoor - IQAir",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2M1NMNFZDM3lmWG9lYkJCbjdYVzdzcW44ZktHTjlmY2RFU0hCSzlhWXdUOXc3LUczRDlMalRWdmE5UFF0UkhScjRUcERQeHJKUXN3OVF0b2dtbHJneDl4WU4xVnhmeHQwVWxVQ0dRUlQ?oc=5",
+        "source": "IQAir",
+        "published_at": "2026-06-24T07:52:51Z",
+        "snippet": "Air quality in Chittoor IQAir",
         "lang": "en",
-        "matched_query": "\"Jagan Mohan\""
+        "matched_query": "\"CHITTOOR\" Andhra"
+      },
+      {
+        "title": "Chittoor, Tirupati Highways Lack Dedicated Trauma Care Facilities - Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMHZ4S25pTVRiTUV4MlhZOEJjeXRaSUxXQV9qM0NqWXhaNEgwZWhKbk13dlptamI2LWRTaHNPWVNoeFk1YUNKeFRGZnZyZ1BsOV9TZGpVcUYzdG5Jc2djdzJEeGNid0hwNnBNMW9XNUhxUll2b1U5b3I1SFFDNTdQcmZEOUs2aFU4cl9SOXFPQnhZWHRfZmRMWDZhMXF4Sm5OSUFkSjQyamlJVURib2s0eE5hTHVHY1RMWnNfd3czR041Q1FaR2FZYU1GZlh4VVpj0gHWAUFVX3lxTE9jc24yYU9GbU0zWEdfNGo4cnNoeE5YZ2NGc1lYZnhEMkNobDlnNHhrdFQxaDE5T1lxNTI3VjV6aTcxQy1ONUVWdDgwVWFVRkFHQi1yTE5IODV0Q25GenAtLXRUcEdaXzdBQjl3U1FPU0V5UFFmYUxiZkFpeWZkSHBSdXhleHVhNDA4N0hrM2ozd2FlcnJUei1lUjVIbmtiWGFfWG5Obm90NmNJaE4ySGRWdHVuYTlpaV9Ia2ZjcklIUHdNS1VTWWpTUUxPN0syc3RoXzRqN2c?oc=5",
+        "source": "Deccan Chronicle",
+        "published_at": "2026-06-23T14:08:45Z",
+        "snippet": "Chittoor, Tirupati Highways Lack Dedicated Trauma Care Facilities Deccan Chronicle",
+        "lang": "en",
+        "matched_query": "\"CHITTOOR\" Andhra"
       }
     ],
     "175": [
@@ -19225,6 +19315,15 @@
         "matched_query": "\"Chandrababu Naidu\""
       },
       {
+        "title": "Naidu to launch industrial projects worth ₹3,800 crore during Kuppam tour - The Hindu",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNmlFQWFlX3RSaUdQbDVQRFZsdUVEZGgxT2hCdGdVdlZkaDY2Y1ZiYjNwdTczeXJmSkdza25rV1l1cDN2aGhEMGR3X2p5bVVVREoxSGlyT09aazlzRzlMWDFxbC1hZ3Rqa04wVEFXT0Eyc3A3N2txSXBGNG1weng5RUtBMjdxNFJqRUJkbnBtbS1qRTM5RUF1ajU3TF9IR0lBd1ZrVThJQk1lZ28tZFNqanIwX1J3TUMxMUlvUE1NUldPMlFYSmp6ZGpCejFRVTNGUWtCQzM0MWtDejI3ZTc4YnlwQlXSAeQBQVVfeXFMTzZpRUFhZV90UmlHUGw1UERWbHVFRGRoMU9oQnRnVXZWZGg2NmNWYmIzcHU3M3lyZkpHc2tua1dZdXAzdmhoRDBkd19qeW1VVURKMUhpck9PWms5c0c5TFgxcWwtYWd0amtOMFRBV09BMnNwNzdrcUlwRjRtcHp4OUVLQTI3cTRSakVCZG5wbW0takUzOUVBdWo1N0xfSEdJQXdWa1U4SUJNZWdvLWRTampyMF9Sd01DMTFJb1BNTVJXTzJRWEpqemRqQnoxUVUzRlFrQkMzNDFrQ3oyN2U3OGJ5cEJV?oc=5",
+        "source": "The Hindu",
+        "published_at": "2026-06-30T13:51:05Z",
+        "snippet": "Naidu to launch industrial projects worth ₹3,800 crore during Kuppam tour The Hindu",
+        "lang": "en",
+        "matched_query": "\"KUPPAM\" Andhra"
+      },
+      {
         "title": "Andhra Pradesh CM N Chandrababu Naidu to unveil 58-foot bronze statue of Potti Sriramulu in Amaravati - News On AIR",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVm5iX2xSMExJRndlSUVSNXNfNzBNNERFS0RYbkhyenpESjNUeTRRWmhPM0JMRnBDdnlITlhuSnB6R19aSlk3cTVDRzZ6bmYyLXc4ekU2cXVoN3VxNmpJcFVxUGtCZEdDWkhSeVBfU2NkV0dsV3gyS2c3eXZHbGNNSkhoMjdEb1cxdi0xQzdfd19QLUJ5eDRDeXBfUzE4UGlEWC04X09ubDVyWDE3dFhFb3lpdVpUMHczWFotR0hLY0RmM3ZyU1E?oc=5",
         "source": "News On AIR",
@@ -19297,15 +19396,6 @@
         "matched_query": "\"Chandrababu Naidu\""
       },
       {
-        "title": "Singapore Consul General Strengthens Ties with Andhra Pradesh Amidst Mango Export Milestone - Devdiscourse",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM25md0RIRWFYSWZ4SmVoTmhnMG5uQXFRQkdPbW9VUFpfLWVaR09vV2JjM1I3YjY4Y19SQ2dramx5UzZiVVRZemk4aDBIY3JXWnplbU9WbFlERS1WbkxGdk4xT1JDMDJxaTRXVVRoZ0UtRjBGZVZtRnZzNElPZUZ4cjV2RjJncnBxcG85a08wRVVjNkNiWi0wSl9Ya1ZsbUs1cVhNSV9lQURsY0hmb1ItMTJVYkFNdEJ5RVhnS0QzN1ZNOFY5Mm8yRlBVaDJiWHozVGFSeXhrWUpvQ25VdVlN0gHkAUFVX3lxTFBhVzc2aWNaOE8zNFVPQ0xZNHVYS0tTRjFBRGpNLXFhcmlCZThWQkhiX2s2UlRxWlJDcl9CRENoZzE2S0l3bmpiTFVoNUY5dUo5U3ZaenNDS0NuLWZPLVZxOTZwWWtZeHp5UzhqM3JiQUNHN09icUNWZDgySWdmekdpMktvMElaYlZSSE9rb1JHRWZFV1BMN1NiNFlXYW82ZTZjYjhlWWhGLWNkS21fN191VWFiUS1tR25qWDRNU1VIa0ExX0xKZWRGb0J5aGtMVjB6STVnVktocjlTNkxVTlRkUDBpLQ?oc=5",
-        "source": "Devdiscourse",
-        "published_at": "2026-06-30T08:52:41Z",
-        "snippet": "Singapore Consul General Strengthens Ties with Andhra Pradesh Amidst Mango Export Milestone Devdiscourse",
-        "lang": "en",
-        "matched_query": "\"Chandrababu Naidu\""
-      },
-      {
         "title": "South Korean Supplier For Adidas To Set Up First India Plant In Kuppam, Generate 17,465 Jobs - ETV Bharat",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYW5MVVFGNzF4Mk45TThGbFJtZmdoRWVyb1IwMm93YzlZUEw3ZUFkWjA3NDJrbzJhUG1LcHo3UU1mdnd0WUZCZ19hTDBxU1ZpY1VVTjBUWm9mRzZLRmx2YUk1VG9JZUlZTkFaeDlfODNLT0ctQjZRdWZmalY1NkFSZ0NNYkxhOFFJNDJlWXEzMGlkMFlScjQ3NUM3X1RyVGpFSVpmMlM4emM2RDRFdWdxMEJMR3hUMWxxZHcwdkhJM3J5WU1zT04xNXJRUmVXWVZPNkdhd0g3a9IB3AFBVV95cUxQS1l3Y2gwbkM1cXAydmtFSDlEM1hRc09qQlBIWWcyN3Q1WUxSRzFjUkNRZjJ4dlY3bm9zajVXRmcxdnJEX3FOZ1RPX0diRVVGY2RUYV9MUzI4UUp4VnY0c0VseURHc0x3c0swZXQya0t1WC1mWldra19yS1c0b1BUcDdJUVA5YmwyQW9UNkZTN0lVYVhfdzZmYmViN2dHT3cwdnhoSFFicjM5UmdPS0JlQlZBUHNpbHl1OXA3bVlaTmNLREs2Mlk4LVVfa2h5X1NEcU5aYXF3bElFZzNJ?oc=5",
         "source": "ETV Bharat",
@@ -19330,7 +19420,7 @@
         "published_at": "2026-06-30T04:33:56Z",
         "snippet": "Ensure zero delay in capital works: CM Naidu The New Indian Express",
         "lang": "en",
-        "matched_query": "\"Chandrababu Naidu Nara\""
+        "matched_query": "\"Chandrababu Naidu\""
       }
     ]
   }
