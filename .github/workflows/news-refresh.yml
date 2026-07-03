@@ -15,14 +15,14 @@
 # serves public/) and prod (Firebase Hosting serves dist/, which Vite
 # populates from public/ at build time). No Firebase Storage involved.
 #
-# Every-3-hours cron ("0 */3 * * *"). Every firing refreshes ALL 175
+# Every-12-hours cron ("0 */12 * * *"). Every firing refreshes ALL 175
 # candidates (no bucket rotation — the repo is public so GitHub Actions
-# minutes are unlimited). Only fires 8×/day instead of 24×, reducing
+# minutes are unlimited). Only fires 2×/day instead of 8×, reducing
 # commit noise on main.
 #
 # GitHub's free-tier scheduler often runs 10–30 min late and occasionally
-# skips a slot, so per-candidate freshness in practice is "≤3h on the
-# happy path, occasionally 4–5h during scheduler drift." The 4-hour
+# skips a slot, so per-candidate freshness in practice is "≤12h on the
+# happy path, occasionally 13–14h during scheduler drift." The 13-hour
 # staleness banner on /news is calibrated to tolerate one scheduler skip
 # without alarming.
 #
@@ -42,7 +42,7 @@ name: News refresh
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 # contents: write — the workflow commits + pushes news.json updates.

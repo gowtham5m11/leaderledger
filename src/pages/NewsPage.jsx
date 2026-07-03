@@ -11,7 +11,7 @@ import { useNewsReactionCounts } from '../hooks/useNewsReactionCounts';
 import NewsReactionBar from '../components/NewsReactionBar';
 
 const PAGE_SIZE = 20;
-const STALE_AFTER_MS = 4 * 60 * 60 * 1000; // 4h (refresh is every 3h; +1h for scheduler drift)
+const STALE_AFTER_MS = 13 * 60 * 60 * 1000; // 13h (refresh is every 12h; +1h for scheduler drift)
 
 const rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
 
